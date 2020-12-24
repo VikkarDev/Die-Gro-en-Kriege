@@ -1,0 +1,28 @@
+ai_historical_focus_list_CHI = {
+	ai_national_focuses = {
+		
+		CHI_peoples_republic
+		CHI_recovering_civil_war
+		CHI_cover_up
+		CHI_better_literacy
+		CHI_more_labs
+		CHI_chinese_expansion
+		CHI_six_year_plan
+		CHI_new_city_roads
+		CHI_better_factories
+		CHI_new_construction_plans
+		CHI_new_country_roads
+		CHI_more_military_production
+		CHI_foreign_policy
+		CHI_diplomats_to_nk
+		CHI_the_red_star
+		CHI_rid_threat
+		CHI_demand_nepal
+		CHI_fortify_himalayas
+		CHI_diplomats_russia
+		CHI_southern_claim
+		CHI_demand_hong_kong
+		CHI_kashmir_or_war
+		CHI_diplomats_to_vietnam
+	}
+}

@@ -1,0 +1,312 @@
+add_namespace = aw.china
+
+# china when nepal accepts
+country_event = {
+	id = aw.china.1
+	title = aw.china.1.t
+	desc = aw.china.1.d
+	picture = GFX_news_event_chinese_soldiers_march
+
+	is_triggered_only = yes
+
+  	trigger = {
+    	tag = CHI
+  	}
+
+	option = {
+		name = aw.china.1.a
+		ai_chance = { factor = 75 }
+		323 = {
+			if = {
+				limit = { is_owned_by = NEP }
+				add_core_of = CHI
+			}
+		}
+
+		NEP = {
+			every_unit_leader = {
+				set_nationality = CHI
+			}
+		}
+		annex_country = { target = NEP transfer_troops = yes }
+		add_political_power = 50
+		add_war_support = 0.1
+		add_stability = 0.05
+
+		hidden_effect = {
+			news_event = { id = aw.news.7 days = 1 }
+		}
+	}
+}
+
+# nepal asked about demands
+country_event = {
+	id = aw.china.2
+	title = aw.china.2.t
+	desc = aw.china.2.d
+	picture = GFX_news_event_chinese_soldiers_march
+
+	is_triggered_only = yes
+
+	option = {
+		name = aw.china.2.a
+
+		ai_chance = {
+			factor = 75
+			modifier = {
+				add = -25
+				CHI = { has_army_size = { size < 40 } }
+			}
+			modifier = {
+				add = 100
+				CHI = { has_army_size = { size < 39 } }
+			}
+			modifier = {
+				add = 20
+				is_in_faction_with = CHI
+			}
+		}
+		CHI = {
+			country_event = { hours = 2 id = aw.china.1 }
+		}
+	}
+
+	option = {
+		name = aw.china.2.b
+		
+		ai_chance = {
+			factor = 25
+			modifier = {
+				factor = 0.5
+				CHI = { has_army_size = { size > 39 } }
+			}
+			modifier = {
+				add = 20
+				CHI = { has_army_size = { size > 30 } }
+			}
+			modifier = {
+				factor = 2
+				is_in_faction = yes
+				NOT = { is_in_faction_with = CHI }
+			}
+			modifier = {
+				any_other_country = {
+					has_guaranteed = NEP
+				}
+				factor = 5
+			}
+			modifier = {
+				any_other_country = {
+					is_major = yes
+					has_guaranteed = NEP
+				}
+				factor = 5
+			}
+		}
+		CHI = {
+			add_opinion_modifier = { target = ROOT modifier = CHI_nepal_rejected }
+			country_event = { hours = 2 id = aw.china.3 }
+			
+			if = { limit = { is_in_faction_with = NEP} 
+				remove_from_faction = NEP
+			}
+		}
+	}
+}
+
+# nepal denies demands
+country_event = {
+	id = aw.china.3
+	title = aw.china.3.t
+	desc = aw.china.3.d
+	picture = GFX_report_event_chinese_soldiers
+
+	is_triggered_only = yes
+
+	option = {
+		name = aw.china.3.a
+		add_state_claim = 323
+		create_wargoal = {
+			type = take_state_focus
+			target = NEP
+			generator = { 323 }
+		}
+	}
+}
+
+# kashmir or war
+country_event = {
+	id = aw.china.4
+	title = aw.china.4.t
+	desc = aw.china.4.d
+	picture = GFX_report_event_chinese_soldiers
+
+	is_triggered_only = yes
+
+	trigger = {
+		NOT = { has_war_with = CHI }
+	}
+
+	option = {
+		name = aw.china.4.a
+		
+		ai_chance = {
+			factor = 25
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+		CHI = { country_event = { id = aw.china.5 days = 1 } }
+		effect_tooltip = {
+			CHI = {
+				transfer_state = 441
+				add_state_core = 441
+			}
+		}
+		country_event = { id = aw.raj.1 days = 7 }
+		hidden_effect = {
+			news_event = { id = aw.news.8 hours = 6 }
+		}
+	}
+
+	option = {
+		name = china.4.b
+
+		ai_chance = {
+			factor = 75
+			modifier = {
+				factor = 3
+				strength_ratio = {
+					tag = CHI
+					ratio > 0.7
+				}
+			}
+			modifier = {
+				factor = 10
+				any_other_country = {
+					is_major = yes
+					is_in_faction_with = RAJ
+				}
+			}
+		}
+		CHI = { country_event = { id = aw.china.6 days = 1 } 
+			if = {
+				limit = {
+					is_in_faction_with = RAJ
+					is_faction_leader = yes
+				}
+				remove_from_faction = RAJ
+			}
+			if = {
+				limit = {
+					is_in_faction_with = RAJ
+					is_faction_leader = no
+				}
+				random_other_country = {
+					limit = {
+						is_in_faction_with = CHI
+						is_faction_leader = yes
+					}
+					remove_from_faction = CHI
+				}
+			}
+		}
+		hidden_effect = {
+			news_event = { hours = 1 id = aw.news.9 }
+		}
+		effect_tooltip = {
+			CHI = {
+				declare_war_on = {
+					target = RAJ
+					type = take_state
+					generator = { 441 }
+				}
+			}
+		}
+	}
+}
+
+# raj cedes kashmir
+country_event = {
+	id = aw.china.5
+	title = aw.china.5.t
+	desc = aw.china.5.d
+	picture = GFX_report_event_chinese_soldiers_running
+
+	is_triggered_only = yes
+
+	option = {
+		name = aw.china.5.a
+		transfer_state = 441
+
+		if = {
+			limit = {
+				NAU = {
+					NOT = {
+						is_in_faction_with = CHI
+					}
+				}
+			}
+			NAU = {
+				add_war_support = -0.1
+			}
+		}
+		if = {
+			limit = {
+				KOR = {
+					NOT = {
+						is_in_faction_with = CHI
+					}
+				}
+			}
+			KOR = {
+				add_war_support = -0.1
+			}
+		}
+	}
+}
+
+# raj refuses to cede kashmir
+country_event = {
+	id = aw.china.6
+	title = aw.china.6.t
+	desc = aw.china.6.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+
+	option = {
+		name = aw.china.6.a
+		create_wargoal = {
+			target = RAJ
+			type = take_state
+			generator = { 441 }
+		}
+		add_state_core = 441
+		if = {
+			limit = {
+				KOR = {
+					NOT = {
+						is_in_faction_with = CHI
+					}
+				}
+			}
+			KOR = {
+				add_war_support = 0.1
+			}
+		}
+		if = {
+			limit = {
+				NAU = {
+					NOT = {
+						is_in_faction_with = CHI
+					}
+				}
+			}
+			NAU = {
+				add_war_support = 0.1
+			}
+		}
+	}
+}

@@ -1,0 +1,53 @@
+ideas = {
+	country = {
+		fourth_reich = {
+		picture = ger_fourth_reich
+	  
+		allowed = {
+			tag = GER
+		}
+	  
+		modifier = {
+			fascism_drift = 0.25
+		}
+	  }
+
+	  kaiserreich = {
+		picture = ger_kaiserreich
+	  
+		allowed = {
+			tag = GER
+		}
+	  
+		modifier = {
+			neutrality_drift = 0.25
+		}
+	  }
+
+	  the_impossible = {
+		picture = ger_the_impossible
+	  
+		allowed = {
+			tag = GER
+		}
+	  
+		modifier = {
+			communism_drift = 0.25
+		}
+	  }
+
+	  repeating_history = {
+		picture = ger_repeating_history
+	  
+		allowed = {
+			tag = GER
+		}
+	  
+		modifier = {
+			justify_war_goal_time = -0.05
+			political_power_factor = 0.01
+			stability_factor = 0.02
+		}
+	  }
+	}
+}

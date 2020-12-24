@@ -1,0 +1,325 @@
+##### Division Templates #####
+division_template = {
+	name = "Infantry Division"  	# Standard formation for frontline divisions
+
+	division_names_group = RAJ_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Armored-Division"
+	division_names_group = RAJ_MOT_01
+
+	regiments = {
+		light_armor = { x = 0 y = 0 }
+		light_armor = { x = 0 y = 1 }
+		light_armor = { x = 0 y = 2 }
+		light_armor = { x = 1 y = 0 }
+		light_armor = { x = 1 y = 1 }
+		light_armor = { x = 1 y = 2 }
+		light_armor = { x = 2 y = 0 }
+		light_armor = { x = 2 y = 1 }
+	  light_armor = { x = 2 y = 2 }
+	}
+	support = {
+        mot_recon = { x = 0 y = 0 }
+	 	engineer = { x = 0 y = 1 }
+        artillery = { x = 0 y = 2 }
+	}
+}
+
+# Washington
+units = {
+  division = {
+  		division_name = {
+  		is_name_ordered = yes
+  		name_order = 1
+  	}
+  	location = 2086
+  	division_template = "Infantry Division"
+  	start_experience_factor = 0.3
+  }
+
+  division = {
+  		division_name = {
+  		is_name_ordered = yes
+  		name_order = 1
+  	}
+  	location = 2086
+  	division_template = "Armored-Division"
+  	start_experience_factor = 0.3
+  }
+
+  division = {
+  		division_name = {
+  		is_name_ordered = yes
+  		name_order = 1
+  	}
+  	location = 2086
+  	division_template = "Infantry Division"
+  	start_experience_factor = 0.3
+  }
+
+  division = {
+  		division_name = {
+  		is_name_ordered = yes
+  		name_order = 1
+  	}
+  	location = 2086
+  	division_template = "Infantry Division"
+  	start_experience_factor = 0.3
+  }
+
+  division = {
+  		division_name = {
+  		is_name_ordered = yes
+  		name_order = 1
+  	}
+  	location = 2086
+  	division_template = "Infantry Division"
+  	start_experience_factor = 0.3
+  }
+
+  division = {
+  		division_name = {
+  		is_name_ordered = yes
+  		name_order = 1
+  	}
+  	location = 2086
+  	division_template = "Infantry Division"
+  	start_experience_factor = 0.3
+  }
+
+  division = {
+  		division_name = {
+  		is_name_ordered = yes
+  		name_order = 1
+  	}
+  	location = 2086
+  	division_template = "Infantry Division"
+  	start_experience_factor = 0.3
+  }
+
+  division = {
+  		division_name = {
+  		is_name_ordered = yes
+  		name_order = 1
+  	}
+  	location = 2086
+  	division_template = "Armored-Division"
+  	start_experience_factor = 0.3
+  }
+
+  division = {
+  		division_name = {
+  		is_name_ordered = yes
+  		name_order = 1
+  	}
+  	location = 2086
+  	division_template = "Infantry Division"
+  	start_experience_factor = 0.3
+  }
+
+# Houston
+  division = {
+  		division_name = {
+  		is_name_ordered = yes
+  		name_order = 1
+  	}
+  	location = 8087
+  	division_template = "Infantry Division"
+  	start_experience_factor = 0.3
+  }
+
+  division = {
+  		division_name = {
+  		is_name_ordered = yes
+  		name_order = 1
+  	}
+  	location = 8087
+  	division_template = "Infantry Division"
+  	start_experience_factor = 0.3
+  }
+
+  division = {
+  		division_name = {
+  		is_name_ordered = yes
+  		name_order = 1
+  	}
+  	location = 8087
+  	division_template = "Armored-Division"
+  	start_experience_factor = 0.3
+  }
+
+# Los Angeles
+  division = {
+  		division_name = {
+  		is_name_ordered = yes
+  		name_order = 1
+  	}
+  	location = 1349
+  	division_template = "Armored-Division"
+  	start_experience_factor = 0.3
+  }
+
+  division = {
+  		division_name = {
+  		is_name_ordered = yes
+  		name_order = 1
+  	}
+  	location = 1349
+  	division_template = "Infantry Division"
+  	start_experience_factor = 0.3
+  }
+
+  division = {
+  		division_name = {
+  		is_name_ordered = yes
+  		name_order = 1
+  	}
+  	location = 1349
+  	division_template = "Infantry Division"
+  	start_experience_factor = 0.3
+  }
+
+# Salt Lake City
+  division = {
+  		division_name = {
+  		is_name_ordered = yes
+  		name_order = 1
+  	}
+  	location = 4245
+  	division_template = "Armored-Division"
+  	start_experience_factor = 0.3
+  }
+
+# Chicago
+  division = {
+  		division_name = {
+  		is_name_ordered = yes
+  		name_order = 1
+  	}
+  	location = 12884
+  	division_template = "Infantry Division"
+  	start_experience_factor = 0.3
+  }
+
+  division = {
+  		division_name = {
+  		is_name_ordered = yes
+  		name_order = 1
+  	}
+  	location = 12884
+  	division_template = "Infantry Division"
+  	start_experience_factor = 0.3
+  }
+
+# Boston
+  division = {
+  		division_name = {
+  		is_name_ordered = yes
+  		name_order = 1
+  	}
+  	location = 1190
+  	division_template = "Infantry Division"
+  	start_experience_factor = 0.3
+  }
+
+  division = {
+  		division_name = {
+  		is_name_ordered = yes
+  		name_order = 1
+  	}
+  	location = 1190
+  	division_template = "Armored-Division"
+  	start_experience_factor = 0.3
+  }
+
+  division = {
+  		division_name = {
+  		is_name_ordered = yes
+  		name_order = 1
+  	}
+  	location = 1190
+  	division_template = "Armored-Division"
+  	start_experience_factor = 0.3
+  }
+
+  division = {
+  		division_name = {
+  		is_name_ordered = yes
+  		name_order = 1
+  	}
+  	location = 1190
+  	division_template = "Infantry Division"
+  	start_experience_factor = 0.3
+  }
+
+  division = {
+  		division_name = {
+  		is_name_ordered = yes
+  		name_order = 1
+  	}
+  	location = 12462
+  	division_template = "Armored-Division"
+  	start_experience_factor = 0.3
+  }
+
+# New York
+  division = {
+  		division_name = {
+  		is_name_ordered = yes
+  		name_order = 1
+  	}
+  	location = 12462
+  	division_template = "Armored-Division"
+  	start_experience_factor = 0.3
+  }
+
+# Miami
+  division = {
+  		division_name = {
+  		is_name_ordered = yes
+  		name_order = 1
+  	}
+  	location = 8120
+  	division_template = "Infantry Division"
+  	start_experience_factor = 0.3
+  }
+
+  division = {
+  		division_name = {
+  		is_name_ordered = yes
+  		name_order = 1
+  	}
+  	location = 8120
+  	division_template = "Armored-Division"
+  	start_experience_factor = 0.3
+  }
+
+# Dallas
+  division = {
+  		division_name = {
+  		is_name_ordered = yes
+  		name_order = 1
+  	}
+  	location = 8120
+  	division_template = "Armored-Division"
+  	start_experience_factor = 0.3
+  }
+}

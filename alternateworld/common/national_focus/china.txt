@@ -1,0 +1,1373 @@
+focus_tree = {
+	id = chi_focus
+
+	country = {
+		factor = 0
+
+		modifier = {
+			add = 10
+			tag = CHI
+		}
+	}
+
+	default = no
+
+	continuous_focus_position = { x = 50 y = 1000 }
+
+	###### POLITICAL TREE ######
+
+	focus = {
+		id = CHI_peoples_republic
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		icon = GFX_chi_peoples_republic
+		x = 6
+		y = 0
+		#relative_position_id = NAU_smersh
+
+		available = {
+			has_government = communism
+      		is_puppet = no
+
+			has_war = no
+		}
+
+		bypass = {
+			has_idea = peoples_republic
+		}
+
+		cost = 10
+		mutually_exclusive = { focus = CHI_new_dawn }
+		#prerequisite = { focus = DPK_smersh }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_ideas = peoples_republic
+			add_political_power = 25
+
+			hidden_effect = {
+				add_popularity = {
+					ideology = democratic
+					popularity = -.25
+				}
+			}
+		}
+
+		ai_will_do = {
+      		factor = 10
+		}
+	}
+
+	focus = {
+		id = CHI_new_dawn
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		icon = GFX_chi_new_dawn
+		x = 20
+		y = 0
+		#relative_position_id = NAU_smersh
+
+		available = {
+      		is_puppet = no
+
+			has_war = no
+		}
+
+		bypass = {
+      		
+		}
+
+		cost = 10
+		mutually_exclusive = { focus = CHI_peoples_republic }
+		#prerequisite = { focus = DPK_smersh }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			hidden_effect = {
+				set_cosmetic_tag = CHI_civil_war
+
+				set_capital = 613
+				start_civil_war = {
+					ruling_party = neutrality
+					ideology = communism
+					size = 0.2
+					capital = 608
+				}
+
+				set_politics = {
+					ruling_party = neutrality
+					elections_allowed = no
+				}
+
+				add_popularity = {
+					ideology = communism
+					popularity = 0.2
+				}
+				add_popularity = {
+					ideology = democratic
+					popularity = 0.30
+				}
+				add_popularity = {
+					ideology = neutrality
+					popularity = 0.35
+				}
+				add_popularity = {
+					ideology = fascism
+					popularity = 0.1
+				}	
+				set_stability = 0.9
+				set_war_support = 0.8
+			}
+			
+			create_country_leader = {
+				name = "Tsai Ing-wen"
+				desc = "Leader of the Chinese Military Junta"
+				picture = "chi_civil_war_leader.dds"
+				expire = "4200.1.1"
+				ideology = despotism
+				traits = {
+					great_war_hero
+				}
+			}
+			custom_effect_tooltip = "ALL_civil_war"
+		}
+
+		ai_will_do = {
+      		factor = 10
+		}
+	}
+
+	focus = {
+		id = CHI_republic
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		icon = GFX_chi_republic
+		x = 17
+		y = 1
+		#relative_position_id = NAU_smersh
+
+		available = {
+			is_puppet = no
+			democratic > 0.45
+		}
+
+		bypass = {
+      		
+		}
+
+		cost = 10
+		mutually_exclusive = { focus = CHI_return_of_empire focus = CHI_reorganized_nation }
+		prerequisite = { focus = CHI_new_dawn }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			set_politics = {
+				ruling_party = democratic
+				elections_allowed = yes
+			}
+		}
+
+		ai_will_do = {
+      		factor = 10
+		}
+	}
+
+	focus = {
+		id = CHI_return_of_empire
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		icon = GFX_chi_return_of_empire
+		x = 20
+		y = 1
+		#relative_position_id = NAU_smersh
+
+		available = {
+			is_puppet = no
+		}
+
+		bypass = {
+      		
+		}
+
+		cost = 10
+		mutually_exclusive = { focus = CHI_reorganized_nation focus = CHI_republic }
+		prerequisite = { focus = CHI_new_dawn }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			set_cosmetic_tag = CHI_empire
+
+			create_country_leader = {
+				name = "Qin Shi Huang"
+				desc = "Leader of the Chinese Empire"
+				picture = "chi_empire_leader.dds"
+				ideology = despotism
+				#traits = {
+					
+				#}
+			}
+		}
+
+		ai_will_do = {
+      		factor = 10
+		}
+	}
+
+	focus = {
+		id = CHI_reorganized_nation
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		icon = GFX_chi_reorganized_nation
+		x = 23
+		y = 1
+		#relative_position_id = NAU_smersh
+
+		available = {
+			is_puppet = no
+			fascism > 0.45
+		}
+
+		bypass = {
+      		
+		}
+
+		cost = 10
+		mutually_exclusive = { focus = CHI_return_of_empire focus = CHI_republic }
+		prerequisite = { focus = CHI_new_dawn }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+      		factor = 10
+		}
+	}
+
+	focus = {
+		id = CHI_chinese_expansion
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		icon = GFX_chi_chinese_expansion
+		x = 4
+		y = 1
+		#relative_position_id = NAU_smersh
+
+		available = {
+			is_puppet = no
+		}
+
+		bypass = {
+			has_idea = chinese_expansion
+		}
+
+		cost = 10
+		prerequisite = { focus = CHI_peoples_republic }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_ideas = chinese_expansion
+		}
+
+		ai_will_do = {
+      		factor = 10
+		}
+	}
+
+	focus = {
+		id = CHI_rid_threat
+		search_filters = { FOCUS_FILTER_ANNEXATION }
+		icon = GFX_chi_rid_threat
+		x = 4
+		y = 2
+		#relative_position_id = NAU_smersh
+
+		available = {
+			NOT = {
+				is_in_faction_with = MON
+				has_government = democratic
+			}
+		}
+
+		bypass = {
+			has_war_with = MON
+		}
+
+		cost = 10
+		prerequisite = { focus = CHI_chinese_expansion}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			create_wargoal = { type = annex_everything target = MON }
+		}
+
+		ai_will_do = {
+      		factor = 10
+		}
+	}
+
+	focus = {
+		id = CHI_southern_claim
+		search_filters = { FOCUS_FILTER_ANNEXATION }
+		icon = GFX_chi_southern_claim
+		x = 7
+		y = 2
+		#relative_position_id = NAU_smersh
+
+		available = {
+			NOT = {
+				is_in_faction_with = HKO
+			}
+		}
+
+		bypass = {
+			CHI = {
+				owns_state = 326
+			}
+
+			has_war_with = HKO
+		}
+
+		cost = 10
+		prerequisite = { focus = CHI_chinese_expansion }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			326 = { add_claim_by = CHI }
+			add_named_threat = { threat = 2 name = CHI_southern_claim }
+		}
+
+		ai_will_do = {
+      		factor = 10
+		}
+	}
+
+	focus = {
+		id = CHI_demand_hong_kong
+		search_filters = { FOCUS_FILTER_ANNEXATION }
+		icon = GFX_chi_demand_hong_kong
+		x = 7
+		y = 3
+		#relative_position_id = NAU_smersh
+
+		available = {
+			has_army_manpower = { size > 199999 }		
+
+			NOT = {
+				is_in_faction_with = HKO
+			}
+		}
+
+		bypass = {
+			CHI = {
+				owns_state = 326
+			}
+
+			has_war_with = HKO
+		}
+
+		cost = 10
+		prerequisite = { focus = CHI_southern_claim }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			HKO = {
+				add_opinion_modifier = { target = CHI modifier = large_decrease }
+			}
+			add_opinion_modifier = { target = HKO modifier = large_decrease }
+
+			add_named_threat = { threat = 5 name = CHI_demand_hong_kong }
+
+			custom_effect_tooltip = "ALL_not_finished"
+		}
+
+		ai_will_do = {
+      		factor = 10
+		}
+	}
+
+	focus = {
+		id = CHI_demand_nepal
+		search_filters = { FOCUS_FILTER_ANNEXATION }
+		icon = GFX_chi_demand_nepal
+		x = 11
+		y = 2
+		#relative_position_id = NAU_smersh
+
+		available = {
+			has_army_manpower = { size > 199999 }		
+
+			NOT = {
+				is_in_faction_with = NEP
+			}
+		}
+
+		bypass = {
+			CHI = {
+				owns_state = 323
+			}
+
+			has_war_with = NEP
+		}
+
+		cost = 10
+		prerequisite = { focus = CHI_chinese_expansion }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			NEP = {
+				add_opinion_modifier = { target = CHI modifier = large_decrease }
+			}
+			add_opinion_modifier = { target = NEP modifier = large_decrease }
+
+			add_named_threat = { threat = 2 name = CHI_demand_nepal }
+
+			NEP = {
+				country_event = aw.china.2
+			}
+		}
+
+		ai_will_do = {
+      		factor = 10
+		}
+	}
+
+	focus = {
+		id = CHI_fortify_himalayas
+		search_filters = { FOCUS_FILTER_ANNEXATION }
+		icon = GFX_chi_fortify_himalayas
+		x = 11
+		y = 3
+		#relative_position_id = NAU_smersh
+
+		available = {
+			CHI = {
+				owns_state = 323
+			}
+		}
+
+		bypass = {
+			CHI = {
+				owns_state = 323
+			}
+
+			has_war_with = NEP
+		}
+
+		cost = 10
+		prerequisite = { focus = CHI_demand_nepal }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			army_experience = 5
+			323 = {
+				add_building_construction = { type = bunker province = 7374 level = 4 instant_build = yes }
+				add_building_construction = { type = bunker province = 4987 level = 4 instant_build = yes }
+				add_building_construction = { type = bunker province = 5310 level = 4 instant_build = yes }
+				add_building_construction = { type = bunker province = 4386 level = 4 instant_build = yes }
+			}
+		}
+
+		ai_will_do = {
+      		factor = 10
+		}
+	}
+
+	focus = {
+		id = CHI_kashmir_or_war
+		search_filters = { FOCUS_FILTER_ANNEXATION }
+		icon = GFX_chi_kashmir_or_war
+		x = 9
+		y = 3
+		#relative_position_id = NAU_smersh
+
+		available = {
+			has_army_manpower = { size > 499999 }		
+
+			NOT = {
+				is_in_faction_with = NEP
+			}
+		}
+
+		bypass = {
+			CHI = {
+				owns_state = 323
+			}
+
+			has_war_with = NEP
+		}
+
+		cost = 10
+		prerequisite = { focus = CHI_southern_claim focus = CHI_demand_nepal }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_named_threat = { threat = 5 name = CHI_kashmir_or_war }
+
+			hidden_effect = {
+				441 = { add_claim_by = CHI }
+			}
+
+			if = {
+				limit = {
+					441 = {
+						controller = {
+							tag = RAJ
+							has_civil_war = no
+						}
+					}
+				}
+				effect_tooltip = {
+					transfer_state = 441
+					add_state_core = 441
+				}
+				RAJ = {
+					country_event = { id = aw.china.4 }
+					if = {
+						limit = { NOT = { is_in_faction_with = ROOT } }
+						custom_effect_tooltip = needs_approval
+					}
+					if = {
+						limit = {
+							is_in_faction_with = ROOT
+							ROOT = { is_faction_leader = yes }
+						}
+					}
+					if = {
+						limit = {
+							is_in_faction_with = ROOT
+							NOT = { ROOT = { is_faction_leader = yes } } 
+						}
+					}
+				}
+			}
+			if = {
+				limit = {
+					441 = {
+						owner = {
+							OR = {
+								original_tag = RAJ
+								tag = RAJ
+							}
+						}
+					}
+				}
+				random_other_country = {
+					limit = {
+						original_tag = RAJ
+						has_civil_war = yes
+						OR = {
+							is_in_faction_with = CHI
+							has_volunteers_amount_from = {
+								tag = CHI
+								count > 0
+							}
+						}
+					}
+					country_event = { id = aw.china.5 days = 1}
+				}
+			}
+		}
+
+		ai_will_do = {
+      		factor = 10
+		}
+	}
+
+	focus = {
+		id = CHI_better_literacy
+		search_filters = { FOCUS_FILTER_RESEARCH }
+		icon = GFX_chi_better_literacy
+		x = 13
+		y = 1
+		#relative_position_id = NAU_smersh
+
+		available = {
+			
+		}
+
+		bypass = {
+			
+		}
+
+		cost = 3
+		prerequisite = { focus = CHI_peoples_republic focus = CHI_new_dawn }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_research_slot = 1
+		}
+
+		ai_will_do = {
+      		factor = 10
+		}
+	}
+
+	focus = {
+		id = CHI_more_labs
+		search_filters = { FOCUS_FILTER_RESEARCH }
+		icon = GFX_chi_more_labs
+		x = 13
+		y = 2
+		#relative_position_id = NAU_smersh
+
+		available = {
+			
+		}
+
+		bypass = {
+			
+		}
+
+		cost = 3
+		prerequisite = { focus = CHI_better_literacy }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_research_slot = 1
+		}
+
+		ai_will_do = {
+      		factor = 10
+		}
+	}
+
+	###### CIVIL WAR BRANCH #######
+
+	focus = {
+		id = CHI_recovering_civil_war
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		icon = GFX_chi_recovering_civil_war
+		x = 28
+		y = 0
+		#relative_position_id = NAU_smersh
+
+		available = {
+      		is_puppet = no
+
+			has_war = no
+		}
+
+		bypass = {
+      		has_idea = steady_recovery
+		}
+
+		cost = 10
+		#prerequisite = { focus = DPK_smersh }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			remove_ideas = { chinese_civil_unrest }
+			add_ideas = { steady_recovery }
+		}
+
+		ai_will_do = {
+      		factor = 10
+		}
+	}
+
+	focus = {
+		id = CHI_cover_up
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		icon = GFX_chi_cover_up
+		x = 28
+		y = 1
+		#relative_position_id = NAU_smersh
+
+		available = {
+      		
+		}
+
+		bypass = {
+      		has_idea = fully_recovered
+		}
+
+		cost = 10
+		prerequisite = { focus = CHI_recovering_civil_war }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			remove_ideas = { steady_recovery }
+			add_timed_idea = {
+				idea = fully_recovered
+				days = 120
+			}
+			
+			hidden_effect = {
+				news_event = {id = aw.news.6 days = 1}
+			}
+		}
+
+		ai_will_do = {
+      		factor = 10
+		}
+	}
+
+	###### FOREIGN POLICY ######
+
+	focus = {
+		id = CHI_foreign_policy
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		icon = GFX_chi_foreign_policy
+		x = 37
+		y = 0
+		#relative_position_id = NAU_smersh
+
+		available = {
+      		is_subject = no
+		}
+
+		bypass = {
+      		
+		}
+
+		cost = 10
+		#prerequisite = { focus = CHI_recovering_civil_war }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_offsite_building = { type = industrial_complex level = 2 }
+		}
+
+		ai_will_do = {
+      		factor = 10
+		}
+	}
+
+	focus = {
+		id = CHI_diplomats_to_nk
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		icon = GFX_chi_diplomats_to_nk
+		x = 35
+		y = 1
+		#relative_position_id = NAU_smersh
+
+		available = {
+      		NOT = {
+				has_war_with = DPK
+			}
+			has_government = communism
+
+			DPK = {
+				has_government = communism
+			}
+		}
+
+		bypass = {
+      		is_in_faction_with = DPK
+		}
+
+		cost = 10
+		prerequisite = { focus = CHI_foreign_policy }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			custom_effect_tooltip = "ALL_not_finished"
+		}
+
+		ai_will_do = {
+      		factor = 10
+		}
+	}
+
+	focus = {
+		id = CHI_diplomats_to_vietnam
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		icon = GFX_chi_diplomats_to_vietnam
+		x = 33
+		y = 1
+		#relative_position_id = NAU_smersh
+
+		available = {
+			NOT = {
+				has_war_with = VIN
+			}
+			has_government = communism
+
+			VIN = {has_government = communism}
+		}
+
+		bypass = {
+      		is_in_faction_with = VIN
+		}
+
+		cost = 10
+		prerequisite = { focus = CHI_foreign_policy }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			custom_effect_tooltip = "ALL_not_finished"
+		}
+
+		ai_will_do = {
+      		factor = 10
+		}
+	}
+
+	focus = {
+		id = CHI_the_red_star
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		icon = GFX_chi_the_red_star
+		x = 39
+		y = 1
+		#relative_position_id = NAU_smersh
+
+		available = {
+      		has_government = communism
+		}
+
+		bypass = {
+      		is_in_faction_with = RUS
+		}
+
+		cost = 10
+		prerequisite = { focus = CHI_foreign_policy }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_ideas = the_red_star
+		}
+
+		ai_will_do = {
+      		factor = 10
+		}
+	}
+
+	
+	focus = {
+		id = CHI_diplomats_russia
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		icon = GFX_goal_generic_positive_trade_relations
+		x = 39
+		y = 2
+		#relative_position_id = NAU_smersh
+
+		available = {
+      		NOT = { has_war_with = RUS }
+		}
+
+		bypass = {
+			RUS = {
+				OR = {
+					exists = no
+					is_subject = yes			
+					AND = {
+						is_subject = no
+						is_in_faction_with = ROOT
+					}
+				}
+			}
+		}
+
+		cost = 10
+		prerequisite = { focus = CHI_the_red_star }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			if = {
+				limit = {
+					has_government = communism
+				}
+				RUS = {
+					add_timed_idea = { idea = chinese_diplomats days = 365 }
+				}
+			}
+		}
+
+		ai_will_do = {
+      		factor = 10
+		}
+	}
+
+	####### FACTORIES - INFRANSTRUCTURE - STUFF #######
+	
+	focus = {
+		id = CHI_six_year_plan
+		search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH }
+		icon = GFX_chi_six_year_plan
+		x = 47
+		y = 0
+		#relative_position_id = NAU_smersh
+
+		available = {
+      		is_subject = no
+		}
+
+		bypass = {
+      		
+		}
+
+		cost = 10
+		#prerequisite = { focus = CHI_foreign_policy }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = CH_six_year_plan
+				bonus = 1.0
+				uses = 2
+				category = industry
+			}
+		}
+
+		ai_will_do = {
+      		factor = 10
+		}
+	}
+
+	focus = {
+		id = CHI_new_city_roads
+		search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH }
+		icon = GFX_chi_new_city_roads
+		x = 47
+		y = 1
+		#relative_position_id = NAU_smersh
+
+		available = {
+			OR = {
+				has_full_control_of_state = 608
+				has_full_control_of_state = 611
+				has_full_control_of_state = 609
+				has_full_control_of_state = 610
+				has_full_control_of_state = 612
+				has_full_control_of_state = 613
+				has_full_control_of_state = 614
+				has_full_control_of_state = 615
+				has_full_control_of_state = 621
+			}
+		}
+
+		bypass = {
+      		
+		}
+
+		cost = 10
+		prerequisite = { focus = CHI_six_year_plan }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			608 = {
+				if = {
+					limit = { is_controlled_by = ROOT }
+					add_building_construction = {
+						type = infrastructure
+						level = 10
+						instant_build = yes
+					}
+				}
+			}
+
+			611 = {
+				if = {
+					limit = { is_controlled_by = ROOT }
+					add_building_construction = {
+						type = infrastructure
+						level = 10
+						instant_build = yes
+					}
+				}
+			}
+
+			609 = {
+				if = {
+					limit = { is_controlled_by = ROOT }
+					add_building_construction = {
+						type = infrastructure
+						level = 10
+						instant_build = yes
+					}
+				}
+			}
+
+			610 = {
+				if = {
+					limit = { is_controlled_by = ROOT }
+					add_building_construction = {
+						type = infrastructure
+						level = 10
+						instant_build = yes
+					}
+				}
+			}
+
+			611 = {
+				if = {
+					limit = { is_controlled_by = ROOT }
+					add_building_construction = {
+						type = infrastructure
+						level = 10
+						instant_build = yes
+					}
+				}
+			}
+
+			612 = {
+				if = {
+					limit = { is_controlled_by = ROOT }
+					add_building_construction = {
+						type = infrastructure
+						level = 10
+						instant_build = yes
+					}
+				}
+			}
+
+			613 = {
+				if = {
+					limit = { is_controlled_by = ROOT }
+					add_building_construction = {
+						type = infrastructure
+						level = 10
+						instant_build = yes
+					}
+				}
+			}
+
+			614 = {
+				if = {
+					limit = { is_controlled_by = ROOT }
+					add_building_construction = {
+						type = infrastructure
+						level = 10
+						instant_build = yes
+					}
+				}
+			}
+
+			615 = {
+				if = {
+					limit = { is_controlled_by = ROOT }
+					add_building_construction = {
+						type = infrastructure
+						level = 10
+						instant_build = yes
+					}
+				}
+			}
+
+			621 = {
+				if = {
+					limit = { is_controlled_by = ROOT }
+					add_building_construction = {
+						type = infrastructure
+						level = 10
+						instant_build = yes
+					}
+				}
+			}
+		}
+
+		ai_will_do = {
+      		factor = 10
+		}
+	}
+
+	focus = {
+		id = CHI_new_country_roads
+		search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH }
+		icon = GFX_chi_new_country_roads
+		x = 47
+		y = 2
+		#relative_position_id = NAU_smersh
+
+		available = {
+			OR = {
+				has_full_control_of_state = 617
+				has_full_control_of_state = 618
+				has_full_control_of_state = 619
+				has_full_control_of_state = 287
+				has_full_control_of_state = 758
+				has_full_control_of_state = 757
+				has_full_control_of_state = 322
+			}
+		}
+
+		bypass = {
+      		
+		}
+
+		cost = 10
+		prerequisite = { focus = CHI_new_city_roads}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			617 = {
+				if = {
+					limit = { is_controlled_by = ROOT }
+					add_building_construction = {
+						type = infrastructure
+						level = 10
+						instant_build = yes
+					}
+				}
+			}
+			618 = {
+				if = {
+					limit = { is_controlled_by = ROOT }
+					add_building_construction = {
+						type = infrastructure
+						level = 10
+						instant_build = yes
+					}
+				}
+			}
+			619 = {
+				if = {
+					limit = { is_controlled_by = ROOT }
+					add_building_construction = {
+						type = infrastructure
+						level = 10
+						instant_build = yes
+					}
+				}
+			}
+			287 = {
+				if = {
+					limit = { is_controlled_by = ROOT }
+					add_building_construction = {
+						type = infrastructure
+						level = 10
+						instant_build = yes
+					}
+				}
+			}
+			758 = {
+				if = {
+					limit = { is_controlled_by = ROOT }
+					add_building_construction = {
+						type = infrastructure
+						level = 10
+						instant_build = yes
+					}
+				}
+			}
+			757 = {
+				if = {
+					limit = { is_controlled_by = ROOT }
+					add_building_construction = {
+						type = infrastructure
+						level = 10
+						instant_build = yes
+					}
+				}
+			}
+			322 = {
+				if = {
+					limit = { is_controlled_by = ROOT }
+					add_building_construction = {
+						type = infrastructure
+						level = 10
+						instant_build = yes
+					}
+				}
+			}
+		}
+
+		ai_will_do = {
+      		factor = 10
+		}
+	}
+
+	focus = {
+		id = CHI_new_construction_plans
+		search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH }
+		icon = GFX_chi_new_construction_plans
+		x = 44
+		y = 1
+		#relative_position_id = NAU_smersh
+
+		available = {
+			
+		}
+
+		bypass = {
+      		has_idea = new_construction_plans
+		}
+
+		cost = 10
+		prerequisite = { focus = CHI_six_year_plan }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = CHI_new_construction_plans
+				bonus = 1.0
+				uses = 2
+				technology = excavation1
+				technology = excavation2
+				technology = excavation3
+				technology = excavation4
+				technology = excavation5
+			}
+			add_ideas = new_construction_plans
+		}
+
+		ai_will_do = {
+      		factor = 10
+		}
+	}
+
+	focus = {
+		id = CHI_better_factories
+		search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH }
+		icon = GFX_chi_better_factories
+		x = 50
+		y = 1
+		#relative_position_id = NAU_smersh
+
+		available = {
+			
+		}
+
+		bypass = {
+      		
+		}
+
+		cost = 10
+		prerequisite = { focus = CHI_six_year_plan }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				add_building_construction = {
+						type = industrial_complex
+						level = 3
+						instant_build = yes
+					}
+				add_extra_state_shared_building_slots = 3
+			}
+			random_owned_controlled_state = {
+				add_building_construction = {
+						type = arms_factory
+						level = 3
+						instant_build = yes
+					}
+				add_extra_state_shared_building_slots = 3
+			}
+		}
+
+		ai_will_do = {
+      		factor = 10
+		}
+	}
+
+	focus = {
+		id = CHI_more_military_production
+		search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH }
+		icon = GFX_chi_better_factories
+		x = 50
+		y = 2
+		#relative_position_id = NAU_smersh
+
+		available = {
+			
+		}
+
+		bypass = {
+      		
+		}
+
+		cost = 10
+		prerequisite = { focus = CHI_better_factories }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				add_building_construction = {
+						type = arms_factory
+						level = 3
+						instant_build = yes
+					}
+				add_extra_state_shared_building_slots = 3
+			}
+			random_owned_controlled_state = {
+				add_building_construction = {
+						type = arms_factory
+						level = 3
+						instant_build = yes
+					}
+				add_extra_state_shared_building_slots = 3
+			}
+		}
+
+		ai_will_do = {
+      		factor = 10
+		}
+	}
+}

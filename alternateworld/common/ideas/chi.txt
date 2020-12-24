@@ -1,0 +1,139 @@
+ideas = {
+	country = {
+		chinese_civil_unrest = {
+		picture = chi_civil_unrest
+	  
+		allowed = {
+			tag = CHI
+		}
+	  
+		modifier = {
+			stability_factor = -0.05
+			political_power_cost = 1
+			consumer_goods_factor = 0.3
+			join_faction_tension = 0.20
+			local_resources_factor = -0.2
+			conscription_factor = -0.4
+			industrial_capacity_factory = -0.05
+		}
+	  }
+
+	  peoples_republic = {
+		picture = chi_peoples_republic
+  
+		allowed = {
+		  tag = CHI
+		}
+
+		rule = {
+			can_create_factions = yes
+		}
+  
+		modifier = {
+		  stability_factor = 0.05
+		  political_power_factor = 0.02
+		}
+	  }
+
+	  steady_recovery = {
+		picture = chi_steady_recovery
+  
+		allowed = {
+		  tag = CHI
+		}
+  
+		modifier = {
+		  stability_factor = -0.01
+		  political_power_factor = 0.01
+		  conscription_factor = -0.15
+		  political_power_cost = -0.25
+		}
+	  }
+
+	  fully_recovered = {
+		picture = chi_fully_recovered
+  
+		allowed = {
+		  tag = CHI
+		  always = no
+		}
+  
+		modifier = {
+		  stability_factor = 0.05
+		  political_power_factor = 0.1
+		}
+	  }
+
+	  chinese_expansion = {
+		picture = chi_chinese_expansion
+  
+		allowed = {
+		  tag = CHI
+		}
+  
+		modifier = {
+		  justify_war_goal_time = -0.15
+		}
+	  }
+
+	  the_red_star = {
+		picture = chi_the_red_star
+
+		allowed = {
+			original_tag = CHI
+			always = no
+		}
+
+		removal_cost = -1
+
+		allowed_civil_war = {
+			always = yes
+		}
+
+		modifier = {
+			production_speed_infrastructure_factor = 0.1
+		}
+	  }
+
+	  chinese_diplomats = {
+		allowed = {
+			always = no
+		}
+
+		allowed_civil_war = {
+			has_government = communism
+		}
+
+		removal_cost = -1
+
+		picture = generic_fascism_drift_bonus
+
+		modifier = {
+			communism_drift = 0.2
+			communism_acceptance = 85
+		}
+	  }
+
+	  new_construction_plans = {
+
+		allowed = {
+			original_tag = CHI
+			always = no
+		}
+
+		allowed_civil_war = {
+			always = yes
+		}
+		
+		removal_cost = -1
+
+		picture = generic_exploit_mines
+
+		modifier = {
+			production_speed_arms_factory_factor = 0.1
+			production_speed_dockyard_factor = 0.1
+			production_speed_industrial_complex_factor = 0.1
+		}
+	}
+	}
+}
