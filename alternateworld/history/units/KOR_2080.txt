@@ -1,0 +1,179 @@
+﻿##### Division Templates #####
+division_template = {
+	name = "Guilin Jingbei"  	# Standard formation for frontline divisions
+
+	division_names_group = KOR_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Motorized Division"
+	division_names_group = KOR_MOT_01
+
+	regiments = {
+		light_armor = { x = 0 y = 0 }
+		light_armor = { x = 0 y = 1 }
+		light_armor = { x = 0 y = 2 }
+		light_armor = { x = 1 y = 0 }
+		light_armor = { x = 1 y = 1 }
+		light_armor = { x = 1 y = 2 }
+		light_armor = { x = 2 y = 0 }
+		light_armor = { x = 2 y = 1 }
+	  light_armor = { x = 2 y = 2 }
+	}
+	support = {
+        mot_recon = { x = 0 y = 0 }
+	 	engineer = { x = 0 y = 1 }
+        artillery = { x = 0 y = 2 }
+	}
+}
+
+# Washington
+units = {
+  division = {
+  		division_name = {
+  		is_name_ordered = yes
+  		name_order = 1
+  	}
+  	location = 7125
+  	division_template = "Guilin Jingbei"
+  	start_experience_factor = 0.3
+  }
+
+  division = {
+  		division_name = {
+  		is_name_ordered = yes
+  		name_order = 1
+  	}
+  	location = 7125
+  	division_template = "Motorized Division"
+  	start_experience_factor = 0.3
+  }
+
+  division = {
+  		division_name = {
+  		is_name_ordered = yes
+  		name_order = 1
+  	}
+  	location = 7125
+  	division_template = "Guilin Jingbei"
+  	start_experience_factor = 0.3
+  }
+
+  division = {
+  		division_name = {
+  		is_name_ordered = yes
+  		name_order = 1
+  	}
+  	location = 7125
+  	division_template = "Guilin Jingbei"
+  	start_experience_factor = 0.3
+  }
+
+  division = {
+  		division_name = {
+  		is_name_ordered = yes
+  		name_order = 1
+  	}
+  	location = 7125
+  	division_template = "Guilin Jingbei"
+  	start_experience_factor = 0.3
+  }
+
+  division = {
+  		division_name = {
+  		is_name_ordered = yes
+  		name_order = 1
+  	}
+  	location = 7125
+  	division_template = "Guilin Jingbei"
+  	start_experience_factor = 0.3
+  }
+
+  division = {
+  		division_name = {
+  		is_name_ordered = yes
+  		name_order = 1
+  	}
+  	location = 7125
+  	division_template = "Guilin Jingbei"
+  	start_experience_factor = 0.3
+  }
+
+  division = {
+  		division_name = {
+  		is_name_ordered = yes
+  		name_order = 1
+  	}
+  	location = 7125
+  	division_template = "Motorized Division"
+  	start_experience_factor = 0.3
+  }
+
+  division = {
+  		division_name = {
+  		is_name_ordered = yes
+  		name_order = 1
+  	}
+  	location = 7125
+  	division_template = "Guilin Jingbei"
+  	start_experience_factor = 0.3
+  }
+
+# Houston
+  division = {
+  		division_name = {
+  		is_name_ordered = yes
+  		name_order = 1
+  	}
+  	location = 4056
+  	division_template = "Guilin Jingbei"
+  	start_experience_factor = 0.3
+  }
+
+  division = {
+  		division_name = {
+  		is_name_ordered = yes
+  		name_order = 1
+  	}
+  	location = 4056
+  	division_template = "Guilin Jingbei"
+  	start_experience_factor = 0.3
+  }
+
+  division = {
+  		division_name = {
+  		is_name_ordered = yes
+  		name_order = 1
+  	}
+  	location = 4056
+  	division_template = "Motorized Division"
+  	start_experience_factor = 0.3
+  }
+
+# Los Angeles
+  division = {
+  		division_name = {
+  		is_name_ordered = yes
+  		name_order = 1
+  	}
+  	location = 9936
+  	division_template = "Motorized Division"
+  	start_experience_factor = 0.3
+  }
+}

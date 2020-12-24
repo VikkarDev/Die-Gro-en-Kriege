@@ -1,0 +1,17 @@
+ai_historical_focus_list_DPK = {
+	ai_national_focuses = {
+		
+		DPK_no_zones
+		DPK_industry_build_up
+		DPK_more_jobs
+		DPK_military_factories
+		DPK_better_roads
+		DPK_nuclear_tests
+		DPK_icbm_production
+		DPK_alliance_china
+		DPK_fortify_dmz
+		DPK_demand_seoul
+		DPK_unite_korea
+		DPK_national_unity
+	}
+}

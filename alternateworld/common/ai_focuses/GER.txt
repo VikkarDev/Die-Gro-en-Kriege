@@ -1,0 +1,6 @@
+ai_historical_focus_list_DPK = {
+	ai_national_focuses = {
+		
+		GER_four_year_plan
+	}
+}

@@ -1,0 +1,54 @@
+add_namespace = aw.north_american_union
+
+country_event = {
+	id = aw.north_american_union.1
+	title = aw.north_american_union.1.t
+	desc = aw.north_american_union.1.d
+	picture = GFX_news_event_chinese_soldiers_march
+
+	is_triggered_only = yes
+
+	trigger = {
+		tag = NAU
+	}
+
+	option = {
+		  name = aw.north_american_union.1.a
+		  ai_chance = { factor = 75 }
+		  add_political_power = -10
+		}
+}
+
+country_event = {
+	id = aw.north_american_union.2
+	title = aw.north_american_union.2.t
+	desc = aw.north_american_union.2.d
+	picture = GFX_news_event_chinese_soldiers_march
+
+	is_triggered_only = yes
+
+  	trigger = {
+		tag = NAU
+  	}
+
+	option = {
+		name = aw.north_american_union.2.a
+		ai_chance = { factor = 50 }
+		add_political_power = -50
+
+		set_politics = {
+			ruling_party = fascism
+		}
+
+		start_civil_war = {
+			ideology = democratic
+			size = 0.5
+		}
+	}
+
+	option = {
+		name = aw.north_american_union.2.b
+		ai_chance = { factor = 50 }
+		add_political_power = -15
+	}
+}

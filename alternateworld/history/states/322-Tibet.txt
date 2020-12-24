@@ -1,0 +1,29 @@
+state={
+	id=322
+	name="STATE_322"
+	resources={
+		tungsten=2.000
+	}
+
+	history={
+		owner = DPC
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+
+		}
+		add_core_of = DPC
+		add_core_of = CHI
+
+		2082.8.1 = {
+			owner = CHI
+		}
+	}
+
+	provinces={
+		2010 2093 4994 5011 7926 8068 10755 10918 
+	}
+	manpower=1722000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

@@ -1,0 +1,153 @@
+capital = 64
+
+OOB = "GER_2080"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+set_convoys = 200
+
+set_research_slots = 6
+
+add_ideas = {
+
+}
+
+create_faction = "European Union"
+add_to_faction = GER
+add_to_faction = FRA
+add_to_faction = ITA
+add_to_faction = IKE
+add_to_faction = SPR
+add_to_faction = POL
+add_to_faction = IRE
+add_to_faction = HUN
+add_to_faction = POR
+add_to_faction = ROM
+add_to_faction = HOL
+add_to_faction = BEL
+add_to_faction = AUS
+add_to_faction = CZE
+add_to_faction = LUX
+add_to_faction = SLO
+add_to_faction = NOR
+add_to_faction = DEN
+add_to_faction = FIN
+add_to_faction = SWI
+
+4000.1.1 = {
+
+	#generic focuses
+	complete_national_focus = army_effort
+	complete_national_focus = equipment_effort
+	complete_national_focus = motorization_effort
+	complete_national_focus = aviation_effort
+	complete_national_focus = naval_effort
+	complete_national_focus = large_navy
+	complete_national_focus = industrial_effort
+	complete_national_focus = construction_effort
+	complete_national_focus = production_effort
+
+	set_technology = {
+		tech_support = 1
+		tech_recon = 1
+		support_weapons = 1
+		gw_artillery = 1
+
+		#doctrines
+		air_superiority = 1
+		grand_battle_plan = 1
+		trench_warfare = 1
+		fleet_in_being = 1
+		battlefleet_concentration = 1
+		convoy_sailing = 1
+
+		#electronics
+		electronic_mechanical_engineering = 1
+		radio = 1
+		radio_detection = 1
+		mechanical_computing = 1
+		computing_machine = 1
+
+		#industry
+		basic_machine_tools = 1
+		improved_machine_tools = 1
+		advanced_machine_tools = 1
+		construction1 = 1
+		construction2 = 1
+		dispersed_industry = 1
+		dispersed_industry2 = 1
+	}
+}
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+set_popularities = {
+	democratic = 100
+	fascism = 0
+	communism = 0
+	neutrality = 0
+}
+
+create_country_leader = {
+	name = "Frank-Walter Steinmeier"
+	desc = "Leader of Germany"
+	picture = "ger_democracy_leader.dds"
+	ideology = liberalism
+	traits = {
+
+	}
+}
+
+create_country_leader = {
+	name = "Adolf Hitler"
+	desc = "Leader of the Fourth Reich"
+	picture = "ger_fascist_leader.dds"
+	ideology = nazism
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Wilhelm II"
+	desc = "Leader of the German Empire"
+	picture = "ger_empire_leader.dds"
+	ideology = despotism
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Walter Ulbricht"
+	desc = "Leader of the Socialist Republic of Germany"
+	picture = "ger_communist_leader.dds"
+	ideology = leninism
+	traits = {
+		
+	}
+}
+
+4000.1.1 = {
+
+	set_politics = {
+		ruling_party = neutrality
+		last_election = "1936.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		democratic = 25
+		fascism = 20
+		communism = 5
+		neutrality = 50
+	}
+}

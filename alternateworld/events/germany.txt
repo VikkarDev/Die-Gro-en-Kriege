@@ -1,0 +1,151 @@
+add_namespace = aw.germany
+
+# germany when austria accepts
+country_event = {
+	id = aw.germany.1
+	title = aw.germany.1.t
+	desc = aw.germany.1.d
+	picture = GFX_news_event_german_soldiers
+
+	is_triggered_only = yes
+
+  	trigger = {
+    	tag = GER
+  	}
+
+	option = {
+		name = aw.germany.1.a
+		ai_chance = { factor = 75 }
+		153 = {
+			if = {
+				limit = { is_owned_by = AUS }
+				add_core_of = GER
+			}
+		}
+
+		152 = {
+			if = {
+				limit = { is_owned_by = AUS }
+				add_core_of = GER
+			}
+		}
+
+		4 = {
+			if = {
+				limit = { is_owned_by = AUS }
+				add_core_of = GER
+			}
+		}
+
+		AUS = {
+			every_unit_leader = {
+				set_nationality = GER
+			}
+		}
+		annex_country = { target = AUS transfer_troops = yes }
+		add_political_power = 50
+		add_war_support = 0.1
+		add_stability = 0.05
+
+		hidden_effect = {
+			news_event = { id = aw.news.7 days = 1 }
+		}
+	}
+}
+
+# austria asked about demands
+country_event = {
+	id = aw.germany.2
+	title = aw.germany.2.t
+	desc = aw.germany.2.d
+	picture = GFX_news_event_german_soldiers
+
+	is_triggered_only = yes
+
+	option = {
+		name = aw.germany.2.a
+
+		ai_chance = {
+			factor = 1
+			modifier = {
+				add = -25
+				GER = { has_army_size = { size < 40 } }
+			}
+			modifier = {
+				add = 100
+				GER = { has_army_size = { size < 39 } }
+			}
+			modifier = {
+				add = 20
+				is_in_faction_with = GER
+			}
+		}
+		GER = {
+			country_event = { hours = 2 id = aw.germany.1 }
+		}
+	}
+
+	option = {
+		name = aw.germany.2.b
+		
+		ai_chance = {
+			factor = 99
+			modifier = {
+				factor = 0.5
+				GER = { has_army_size = { size > 39 } }
+			}
+			modifier = {
+				add = 20
+				GER = { has_army_size = { size > 30 } }
+			}
+			modifier = {
+				factor = 2
+				is_in_faction = yes
+				NOT = { is_in_faction_with = GER }
+			}
+			modifier = {
+				any_other_country = {
+					has_guaranteed = AUS
+				}
+				factor = 5
+			}
+			modifier = {
+				any_other_country = {
+					is_major = yes
+					has_guaranteed = AUS
+				}
+				factor = 5
+			}
+		}
+		GER = {
+			add_opinion_modifier = { target = ROOT modifier = GER_anschluss_rejected }
+			country_event = { hours = 2 id = aw.germany.3 }
+			
+			if = { limit = { is_in_faction_with = AUS} 
+				remove_from_faction = AUS
+			}
+		}
+	}
+}
+
+# austria denies demands
+country_event = {
+	id = aw.germany.3
+	title = aw.germany.3.t
+	desc = aw.germany.3.d
+	picture = GFX_report_event_german_troops
+
+	is_triggered_only = yes
+
+	option = {
+		name = aw.germany.3.a
+		add_state_claim = 4
+		add_state_claim = 152
+		add_state_claim = 153
+		create_wargoal = {
+			type = take_state_focus
+			target = AUS
+			generator = { 4 152 153 }
+		}
+	}
+}
