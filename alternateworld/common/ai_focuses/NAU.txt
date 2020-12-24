@@ -1,8 +1,0 @@
-ai_historical_focus_list_NAU = {
-	ai_national_focuses = {
-		
-		NAU_together_now
-		NAU_new_constitution
-		NAU_military_doctrine
-	}
-}
