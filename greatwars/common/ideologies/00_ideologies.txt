@@ -269,11 +269,11 @@ ideologies = {
 		}
 
 		dynamic_faction_names = {
-			"FACTION_NAME_PARLOLIG_1"
-			"FACTION_NAME_PARLOLIG_2"
-			"FACTION_NAME_PARLOLIG_3"
-			"FACTION_NAME_PARLOLIG_4"
-			"FACTION_NAME_PARLOLIG_5"
+			"FACTION_NAME_RADDEMO_1"
+			"FACTION_NAME_RADDEMO_2"
+			"FACTION_NAME_RADDEMO_3"
+			"FACTION_NAME_RADDEMO_4"
+			"FACTION_NAME_RADDEMO_5"
 		}
 
 		color = { 159 166 181 }
@@ -390,6 +390,56 @@ ideologies = {
 		}
 
 		color = { 153 76 101 }
+
+		ai_communist = yes # uses the commie AI behaviour
+
+		rules = {
+			can_declare_war_on_same_ideology = no
+			can_force_government = yes
+			can_send_volunteers = no
+			can_puppet = yes
+			can_lower_tension = no
+			can_only_justify_war_on_threat_country = no
+			can_guarantee_other_ideologies = no
+		}
+
+		modifiers = {
+			join_faction_tension = 0.1
+			lend_lease_tension = 0.25
+			send_volunteers_tension = 0.5
+			guarantee_tension = 0.2
+		}
+
+		war_impact_on_world_tension = 1
+		faction_impact_on_world_tension = 0.25
+	}
+
+	# democratic socialism
+	democratic_socialism = {
+
+		types = {
+			syndicalism = {
+
+			}
+
+			liberal_social = {
+
+			}
+
+			anarchism = {
+
+			}
+		}
+
+		dynamic_faction_names = {
+			"FACTION_NAME_DEMSOC_1"
+			"FACTION_NAME_DEMSOC_2"
+			"FACTION_NAME_DEMSOC_3"
+			"FACTION_NAME_DEMSOC_4"
+			"FACTION_NAME_DEMSOC_5"
+		}
+
+		color = { 255 8 0 }
 
 		ai_communist = yes # uses the commie AI behaviour
 
