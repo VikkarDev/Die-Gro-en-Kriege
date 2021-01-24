@@ -1,4 +1,4 @@
-This is a test build for Die Großen Kriege. THIS IS NOT THE FINAL PRODUCT. 
+This is experimental. You probaby don't want to download this.
 
 ----------------------------------------------
 

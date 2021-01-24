@@ -1,3 +1,5 @@
+This is EXPERIMENTAL. Things can break.
+
 To install Die Großen Kriege take the greatwars folder and the .mod file and drag it into your Documents\Paradox Interactive\Hearts of Iron 4\mod folder.
 
 You do not need to worry about the README file or anything else in there.
