@@ -1,0 +1,16 @@
+name="Die Großen Kriege"
+version="1.10.3"
+tags={
+	"Historical"
+	"Technologies"
+	"National Focuses"
+	"Map"
+	"Events"
+	"Gameplay"
+}
+replace_path="common/bookmarks"
+replace_path="gfx/loadingscreens"
+replace_path="common/national_focus"
+picture="thumbnail.png"
+supported_version="1.10.*"
+path="C:/Users/Layne/Documents/Paradox Interactive/Hearts of Iron IV/mod/greatwars"

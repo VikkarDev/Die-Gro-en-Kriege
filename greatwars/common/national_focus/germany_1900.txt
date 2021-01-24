@@ -1,0 +1,96 @@
+focus_tree = {
+	id = ger_1900_focus
+
+	country = {
+		factor = 0
+
+		modifier = {
+			add = 11
+			tag = GER
+		}
+	}
+
+	default = no
+
+	continuous_focus_position = { x = 50 y = 1000 }
+
+	focus = {
+		id = GER_weltpolitik
+		icon = GFX_ger_focus_weltpolitik
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		x = 12
+		y = 0
+
+		mutually_exclusive = { focus = GER_birth_of_republic }
+		cost = 10
+
+		available = {
+			has_government = autocracy
+			is_subject = no
+			has_war = no
+			country_exists = GER
+		}
+
+		bypass = {
+			
+		}
+
+		completion_reward = { 
+			add_political_power = 120
+			add_popularity = { ideology = autocracy popularity = 0.10 }
+		}
+	}
+
+	focus = {
+		id = GER_birth_of_republic
+		icon = GFX_ger_focus_birth_of_republic
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		x = 20
+		y = 0
+
+		mutually_exclusive = { focus = GER_weltpolitik }
+		cost = 10
+
+		available = {
+			has_government = autocracy
+			is_subject = no
+			has_war = no
+			country_exists = GER
+		}
+
+		bypass = {
+			
+		}
+
+		completion_reward = { 
+			add_political_power = 120
+			add_popularity = { ideology = autocracy popularity = -0.10 }
+			custom_effect_tooltip = HISTORICAL_BREAK
+		}
+	}
+	
+	focus = {
+		id = GER_german_army
+		icon = GFX_ger_focus_german_army
+		search_filters = { FOCUS_FILTER_MANPOWER }
+		x = 1
+		y = 0
+
+		#mutually_exclusive = { focus = GER_contain_wilhelm_ii }
+		cost = 10
+
+		available = {
+			country_exists = GER
+		}
+
+		bypass = {
+			has_idea = german_army
+		}
+
+		completion_reward = { 
+			army_experience = 25
+			add_war_support = 0.10
+			add_ideas = { german_army }
+		}
+	}
+}

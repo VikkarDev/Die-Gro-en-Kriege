@@ -1,0 +1,125 @@
+bookmarks = {
+	bookmark = {
+		name = "SILENT_NIGHT_NAME"
+		desc = "SILENT_NIGHT_DESC"
+		date = 1900.1.1.12
+		picture = "GFX_gw_1900_bookmark"
+		default_country = "GER"
+	
+		FRA = {
+			history = FRA_SILENT_NIGHT_DESC
+			ideology = democratic
+			ideas = {
+				FRA_victors_of_wwi
+				FRA_disjointed_government
+				FRA_protected_by_the_maginot_line
+			}
+			focuses = {
+				FRA_strengthen_government_support
+				FRA_arms_purchases_in_the_us
+				FRA_french_union
+			}
+		}
+		HUN = {
+			history = USA_SILENT_NIGHT_DESC
+			ideology = democratic
+			ideas = {
+				home_of_the_free
+				great_depression_3
+				air_war_plans_division_focus
+				USA_war_department
+				new_deal
+			}
+			focuses = {
+				USA_war_plan_black
+				USA_arsenal_of_democracy
+				USA_selective_training_act
+			}
+		}
+		ENG = {
+			history = ENG_SILENT_NIGHT_DESC
+			ideology = traditional_conservatism
+			ideas = {
+				victoria
+			}
+			focuses = {
+				
+			}
+			
+		}
+		GER = {
+			history = GER_SILENT_NIGHT_DESC
+			ideology = autocracy
+			ideas = {
+				wilhelm_ii
+				german_army
+			}
+			focuses = {
+				GER_weltpolitik
+				GER_german_army
+			}
+		}
+		ITA = {
+			history = ITA_SILENT_NIGHT_DESC
+			ideology = fascism
+			ideas = {
+				vittoria_mutilata
+				victor_emmanuel
+			}
+			focuses = {
+				ITA_pact_of_steel
+				ITA_spanish_italian_faction
+				ITA_italy_first
+			}			
+		}
+		TUR = {
+			history = JAP_SILENT_NIGHT_DESC
+			ideology = neutrality
+			ideas = {
+				
+			}	
+			focuses = {
+				
+			}		
+		}
+		SOV = {
+			history = SOV_SILENT_NIGHT_DESC
+			ideology = communism
+			ideas = {
+				trotskyite_plot_purged
+				home_of_revolution
+				officers_purged
+				nkvd_2
+			}
+			focuses = {
+				SOV_move_industry_to_urals
+				SOV_claims_on_baltic
+				SOV_war_with_uk
+			}
+		}
+
+		"---"={
+			history = "OTHER_BLITZKRIEG_DESC"
+		}
+
+		# minors from DLC ####
+		"CHI"={
+			minor = yes
+			history = "CHI_SILENT_NIGHT_DESC"
+			ideology = autocracy
+			ideas = {
+				deterrence
+			}
+			focuses = {
+				POL_the_baltic_alliance
+				POL_draw_closer_to_britain
+				POL_seek_accommodation_with_germany
+			}
+		}
+
+		effect = {
+			randomize_weather = 12345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

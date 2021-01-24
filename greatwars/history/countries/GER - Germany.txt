@@ -1,0 +1,49 @@
+capital = 64
+
+1900.1.1 = {
+
+	oob = "GER_1900"
+
+	set_convoys = 200
+
+	set_research_slots = 4
+
+	create_faction = "Central Powers"
+	add_to_faction = GER
+
+	add_ideas = {
+		wilhelm_ii
+
+		# government
+		limited_conscription
+		limited_exports
+		partial_economic_mobilisation
+	}
+
+	set_politics = {
+		ruling_party = autocracy
+		#last_election = "2078.9.26"
+		#election_frequency = 48
+		#elections_allowed = yes
+	}
+
+	set_popularities = {
+		vanguard_communism = 0
+		social_egalitarianism = 5
+		centrism = 0
+		traditional_conservatism = 30
+		radical_democracy = 5
+		chauvinist_populism = 5
+		autocracy = 55
+	}
+
+	create_country_leader = {
+		name = "Wilhelm II"
+		desc = ""
+		picture = "Wilhelm_II.dds"
+		ideology = despotism
+		traits = {
+			kaiserin_of_the_people
+		}
+	}
+}

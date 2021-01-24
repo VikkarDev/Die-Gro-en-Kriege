@@ -1,0 +1,46 @@
+capital = 614
+
+1900.1.1 = {
+
+	oob = "BOX_1900"
+
+	set_convoys = 165
+
+	set_research_slots = 2
+
+	add_ideas = {
+		
+	}
+	
+	declare_war_on = {
+		target = CHI
+		type = annex_everything
+	}
+
+	set_politics = {
+		ruling_party = autocracy
+		#last_election = "1895.6.25"
+		#election_frequency = 85
+		#elections_allowed = yes
+	}
+
+	set_popularities = {
+		vanguard_communism = 0
+		social_egalitarianism = 0
+		centrism = 0
+		traditional_conservatism = 0
+		radical_democracy = 0
+		chauvinist_populism = 0
+		autocracy = 100
+	}
+
+	create_country_leader = {
+		name = "Rebellion"
+		desc = ""
+		#picture = "Guangxu_Emperor.dds"
+		ideology = despotism
+		traits = {
+			
+		}
+	}
+}

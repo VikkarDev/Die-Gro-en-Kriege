@@ -1,0 +1,34 @@
+ideas = {
+	country = {
+		wilhelm_ii = {
+		picture = ger_wilhelm_ii
+	  
+		allowed = {
+			tag = GER
+		}
+	  
+		#rule = {
+		#	can_create_factions = yes
+		#}
+
+		traits = {
+			popular_figurehead
+		}
+	  }
+	}
+
+	country = {
+		german_army = {
+		picture = ger_german_army
+	  
+		allowed = {
+			tag = GER
+		}
+	  
+		modifier = {
+			dig_in_speed = 10
+			army_speed_factor = 0.05
+		}
+	  }
+	}
+}
