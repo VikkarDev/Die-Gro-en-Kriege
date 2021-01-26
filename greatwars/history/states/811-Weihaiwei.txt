@@ -1,6 +1,7 @@
 state={
 	id=811
 	name="STATE_811"
+	state_category = city
 
 	history={
 		owner = ENG

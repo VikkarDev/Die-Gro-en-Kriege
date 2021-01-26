@@ -12,7 +12,7 @@ ideas = {
 		#}
 
 		traits = {
-			popular_figurehead
+			imperial_connections
 		}
 	  }
 	}

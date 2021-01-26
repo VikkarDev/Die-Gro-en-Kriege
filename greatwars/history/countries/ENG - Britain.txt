@@ -6,7 +6,11 @@ capital = 126
 
 	set_convoys = 200
 
+	set_stability = 0.76
+	set_war_support = 0.36
 	set_research_slots = 4
+
+	set_cosmetic_tag = ENG_IRE
 
 	add_ideas = {
 		victoria
@@ -76,6 +80,7 @@ capital = 126
 		radical_democracy = 0
 		chauvinist_populism = 0
 		autocracy = 0
+		democratic_socialism = 0
 	}
 
 	create_country_leader = {

@@ -8,32 +8,22 @@ bookmarks = {
 	
 		FRA = {
 			history = FRA_SILENT_NIGHT_DESC
-			ideology = democratic
+			ideology = centrism
 			ideas = {
-				FRA_victors_of_wwi
-				FRA_disjointed_government
-				FRA_protected_by_the_maginot_line
+				
 			}
 			focuses = {
-				FRA_strengthen_government_support
-				FRA_arms_purchases_in_the_us
-				FRA_french_union
+				
 			}
 		}
 		HUN = {
 			history = USA_SILENT_NIGHT_DESC
-			ideology = democratic
+			ideology = autocracy
 			ideas = {
-				home_of_the_free
-				great_depression_3
-				air_war_plans_division_focus
-				USA_war_department
-				new_deal
+				
 			}
 			focuses = {
-				USA_war_plan_black
-				USA_arsenal_of_democracy
-				USA_selective_training_act
+				
 			}
 		}
 		ENG = {
@@ -61,20 +51,17 @@ bookmarks = {
 		}
 		ITA = {
 			history = ITA_SILENT_NIGHT_DESC
-			ideology = fascism
+			ideology = autocracy
 			ideas = {
-				vittoria_mutilata
-				victor_emmanuel
+				
 			}
 			focuses = {
-				ITA_pact_of_steel
-				ITA_spanish_italian_faction
-				ITA_italy_first
+				
 			}			
 		}
 		TUR = {
-			history = JAP_SILENT_NIGHT_DESC
-			ideology = neutrality
+			history = TUR_SILENT_NIGHT_DESC
+			ideology = autocracy
 			ideas = {
 				
 			}	
@@ -84,17 +71,12 @@ bookmarks = {
 		}
 		SOV = {
 			history = SOV_SILENT_NIGHT_DESC
-			ideology = communism
+			ideology = autocracy
 			ideas = {
-				trotskyite_plot_purged
-				home_of_revolution
-				officers_purged
-				nkvd_2
+				
 			}
 			focuses = {
-				SOV_move_industry_to_urals
-				SOV_claims_on_baltic
-				SOV_war_with_uk
+				
 			}
 		}
 

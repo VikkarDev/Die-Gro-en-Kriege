@@ -5,6 +5,8 @@ wilhelm_ii:0 "Wilhelm II"
 wilhelm_ii_desc:0 "Wilhelm II, anglicised as William II, was the last German Emperor and King of Prussia. His reign lasted from 15 June 1888 to 9 November 1918."
 victoria:0 "Victoria"
 victoria_desc:0 "Victoria, queen of the United Kingdom of Great Britain and Ireland, known as the Victorian era, reigned 63 years and seven months longer than any of her predecessors."
+german_army:0 "German Army"
+german_army_desc:0 "The German Army is the land component of the armed forces of Germany."
 
 # GENERIC
 undisturbed_isolation:0 "Undisturbed Isolation"

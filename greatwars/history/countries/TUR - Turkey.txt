@@ -40,6 +40,7 @@ capital = 49
 		radical_democracy = 0
 		chauvinist_populism = 5
 		autocracy = 80
+		democratic_socialism = 0
 	}
 
 	create_country_leader = {

@@ -8,7 +8,7 @@ bookmarks = {
 	
 		FRA = {
 			history = FRA_BLITZKRIEG_DESC
-			ideology = democratic
+			ideology = centrism
 			ideas = {
 				FRA_victors_of_wwi
 				FRA_disjointed_government

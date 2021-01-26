@@ -422,7 +422,7 @@ ideologies = {
 
 			}
 
-			liberal_social = {
+			liberal_social_ = {
 
 			}
 

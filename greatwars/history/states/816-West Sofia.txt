@@ -1,0 +1,18 @@
+state={
+	id=816
+	name="STATE_816"
+	state_category = town
+
+	history = {
+		owner = BUL
+		add_core_of = BUL
+		add_core_of = SER
+		add_core_of = YUG
+	}
+
+	provinces={
+		13238 
+	}
+	manpower=250000
+	buildings_max_level_factor=1.000
+}

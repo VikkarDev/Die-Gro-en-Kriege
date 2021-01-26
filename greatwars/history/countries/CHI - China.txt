@@ -6,6 +6,8 @@ capital = 608
 
 	set_convoys = 165
 
+	set_stability = 0.2
+	set_war_support = 0.5
 	set_research_slots = 2
 
 	add_ideas = {
@@ -27,6 +29,7 @@ capital = 608
 		radical_democracy = 0
 		chauvinist_populism = 0
 		autocracy = 100
+		democratic_socialism = 0
 	}
 
 	create_country_leader = {
