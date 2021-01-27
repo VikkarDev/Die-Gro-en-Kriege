@@ -25,12 +25,12 @@ capital = 16
 	set_popularities = {
 		vanguard_communism = 0
 		social_egalitarianism = 0
-		centrism = 75
-		traditional_conservatism = 25
-		radical_democracy = 0
+		centrism = 58
+		traditional_conservatism = 23
+		radical_democracy = 2
 		chauvinist_populism = 0
-		autocracy = 0
-		democratic_socialism = 0
+		autocracy = 10
+		democratic_socialism = 7
 	}
 
 	create_country_leader = {
