@@ -31,7 +31,7 @@ AUS_HUN_dual_anarchism_ADJ:0 "Austro-Hungarian"
 AUS_HUN_dual_chauvinist_populism_ADJ:0 "Austro-Hungarian"
 AUS_HUN_dual_fundamentalism_ADJ:0 "Austro-Hungarian"
 
-ENG_IRE_centrism:0 "United Kingdom "
+ENG_IRE_centrism:0 "United Kingdom"
 ENG_IRE_centrism_DEF:0 "The United Kingdom of Great Britain and Ireland"
 ENG_IRE_traditional_conservatism:0 "United Kingdom"
 ENG_IRE_traditional_conservatism_DEF:0 "The United Kingdom of Great Britain and Ireland"
@@ -41,6 +41,9 @@ ENG_IRE_collectivist_socialism:0 "United Kingdom"
 ENG_IRE_collectivist_socialism_DEF:0 "United Kingdom of Great Britain and Ireland"
 ENG_IRE_vanguard_communism:0 "United Kingdom"
 ENG_IRE_vanguard_communism_DEF:0 "United Kingdom of Great Britain and Ireland"
+
+NOR_SWE_union_autocracy:0 "United Kingdoms of Sweden and Norway"
+NOR_SWE_union_autocracy_DEF:0 "The United Kingdoms of Sweden and Norway"
 
 
  INS_HOL_democratic:0 "Dutch East Indies"

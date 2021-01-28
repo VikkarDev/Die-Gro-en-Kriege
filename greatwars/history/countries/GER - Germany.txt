@@ -1,4 +1,4 @@
-capital = 64
+capital = 819
 
 1900.1.1 = {
 
