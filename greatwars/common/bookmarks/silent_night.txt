@@ -17,8 +17,8 @@ bookmarks = {
 			}
 		}
 		HUN = {
-			history = USA_SILENT_NIGHT_DESC
-			ideology = autocracy
+			history = AUSHUN_SILENT_NIGHT_DESC
+			ideology = centrism
 			ideas = {
 				
 			}
@@ -30,7 +30,7 @@ bookmarks = {
 			history = ENG_SILENT_NIGHT_DESC
 			ideology = traditional_conservatism
 			ideas = {
-				victoria
+				
 			}
 			focuses = {
 				
@@ -39,9 +39,8 @@ bookmarks = {
 		}
 		GER = {
 			history = GER_SILENT_NIGHT_DESC
-			ideology = autocracy
+			ideology = centrism
 			ideas = {
-				wilhelm_ii
 				german_army
 			}
 			focuses = {
@@ -51,7 +50,7 @@ bookmarks = {
 		}
 		ITA = {
 			history = ITA_SILENT_NIGHT_DESC
-			ideology = autocracy
+			ideology = traditional_conservatism
 			ideas = {
 				
 			}

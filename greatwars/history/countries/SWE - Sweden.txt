@@ -19,7 +19,7 @@ capital = 141
 	}
 
 	set_politics = {
-		ruling_party = autocracy
+		ruling_party = centrism
 		#last_election = "2078.9.26"
 		#election_frequency = 48
 		#elections_allowed = yes
@@ -28,19 +28,19 @@ capital = 141
 	set_popularities = {
 		vanguard_communism = 0
 		social_egalitarianism = 0
-		centrism = 0
-		traditional_conservatism = 0
-		radical_democracy = 0
+		centrism = 59.3
+		traditional_conservatism = 30
+		radical_democracy = 3.8
 		chauvinist_populism = 0
-		autocracy = 100
-		democratic_socialism = 0
+		autocracy = 1.9
+		democratic_socialism = 5
 	}
 
 	create_country_leader = {
 		name = "Oscar II"
 		desc = ""
 		picture = "Oscar_II.dds"
-		ideology = despotism
+		ideology = liberal
 		traits = {
 			
 		}

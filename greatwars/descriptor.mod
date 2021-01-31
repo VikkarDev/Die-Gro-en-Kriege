@@ -11,6 +11,7 @@ tags={
 replace_path="common/bookmarks"
 replace_path="gfx/loadingscreens"
 replace_path="common/national_focus"
+replace_path="common/decisions"
 
 supported_version="1.10.*"
 path="mod/greatwars"

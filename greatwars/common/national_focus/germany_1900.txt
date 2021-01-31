@@ -25,7 +25,10 @@ focus_tree = {
 		cost = 10
 
 		available = {
-			has_government = autocracy
+			has_country_leader = {
+				name = "Wilhelm II"
+				ruling_only = yes
+			}
 			is_subject = no
 			has_war = no
 			country_exists = GER
@@ -37,7 +40,7 @@ focus_tree = {
 
 		completion_reward = { 
 			add_political_power = 120
-			add_popularity = { ideology = autocracy popularity = 0.10 }
+			add_popularity = { ideology = centrism popularity = 0.10 }
 		}
 	}
 
@@ -52,7 +55,10 @@ focus_tree = {
 		cost = 10
 
 		available = {
-			has_government = autocracy
+			has_country_leader = {
+				name = "Wilhelm II"
+				ruling_only = yes
+			}
 			is_subject = no
 			has_war = no
 			country_exists = GER
@@ -64,8 +70,33 @@ focus_tree = {
 
 		completion_reward = { 
 			add_political_power = 120
-			add_popularity = { ideology = autocracy popularity = -0.10 }
+			add_popularity = { ideology = centrism popularity = -0.10 }
 			custom_effect_tooltip = HISTORICAL_BREAK
+		}
+	}
+
+	focus = {
+		id = GER_german_economy
+		icon = GFX_ger_focus_german_economy
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		x = 6
+		y = 0
+
+		#mutually_exclusive = { focus = GER_contain_wilhelm_ii }
+		cost = 10
+
+		available = {
+			country_exists = GER
+		}
+
+		bypass = {
+			has_idea = german_army
+		}
+
+		completion_reward = { 
+			army_experience = 25
+			add_war_support = 0.10
+			add_ideas = { german_army }
 		}
 	}
 	

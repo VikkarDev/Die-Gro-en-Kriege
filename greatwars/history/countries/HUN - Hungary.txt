@@ -20,7 +20,7 @@ capital = 43
 	}
 
 	set_politics = {
-		ruling_party = autocracy
+		ruling_party = centrism
 		#last_election = "2078.9.26"
 		#election_frequency = 48
 		#elections_allowed = yes
@@ -28,12 +28,12 @@ capital = 43
 
 	set_popularities = {
 		vanguard_communism = 0
-		social_egalitarianism = 3
-		centrism = 17
-		traditional_conservatism = 15
+		social_egalitarianism = 0
+		centrism = 50
+		traditional_conservatism = 50
 		radical_democracy = 0
 		chauvinist_populism = 0
-		autocracy = 65
+		autocracy = 0
 		democratic_socialism = 0
 	}
 
@@ -41,7 +41,7 @@ capital = 43
 		name = "Franz Joseph"
 		desc = ""
 		picture = "Franz_Joseph.dds"
-		ideology = despotism
+		ideology = liberal
 		traits = {
 			
 		}

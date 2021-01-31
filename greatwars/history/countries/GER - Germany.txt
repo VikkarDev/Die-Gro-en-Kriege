@@ -10,12 +10,11 @@ capital = 819
 	set_war_support = 0.4
 	set_research_slots = 4
 
+	set_cosmetic_tag = GER_EMPIRE
 	create_faction = "Central Powers"
 	add_to_faction = GER
 
 	add_ideas = {
-		wilhelm_ii
-
 		# government
 		limited_conscription
 		limited_exports
@@ -23,7 +22,7 @@ capital = 819
 	}
 
 	set_politics = {
-		ruling_party = autocracy
+		ruling_party = centrism
 		#last_election = "2078.9.26"
 		#election_frequency = 48
 		#elections_allowed = yes
@@ -32,11 +31,11 @@ capital = 819
 	set_popularities = {
 		vanguard_communism = 0
 		social_egalitarianism = 5
-		centrism = 0
-		traditional_conservatism = 30
+		centrism = 55
+		traditional_conservatism = 0
 		radical_democracy = 5
 		chauvinist_populism = 5
-		autocracy = 55
+		autocracy = 30
 		democratic_socialism = 0
 	}
 
@@ -44,7 +43,7 @@ capital = 819
 		name = "Wilhelm II"
 		desc = ""
 		picture = "Wilhelm_II.dds"
-		ideology = despotism
+		ideology = liberal
 		traits = {
 			kaiserin_of_the_people
 		}

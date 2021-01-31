@@ -42,8 +42,20 @@ ENG_IRE_collectivist_socialism_DEF:0 "United Kingdom of Great Britain and Irelan
 ENG_IRE_vanguard_communism:0 "United Kingdom"
 ENG_IRE_vanguard_communism_DEF:0 "United Kingdom of Great Britain and Ireland"
 
-NOR_SWE_union_autocracy:0 "United Kingdoms of Sweden and Norway"
-NOR_SWE_union_autocracy_DEF:0 "The United Kingdoms of Sweden and Norway"
+NOR_SWE_union_centrism:0 "United Kingdoms of Sweden and Norway"
+NOR_SWE_union_centrism_DEF:0 "The United Kingdoms of Sweden and Norway"
+NOR_SWE_union_traditional_conservatism:0 "United Kingdoms of Sweden and Norway"
+NOR_SWE_union_traditional_conservatism_DEF:0 "The United Kingdoms of Sweden and Norway"
+
+GER_EMPIRE_centrism:0 "German Empire"
+GER_EMPIRE_centrism_DEF:0 "The German Empire"
+GER_EMPIRE_traditional_conservatism:0 "German Empire"
+GER_EMPIRE_traditional_conservatism_DEF:0 "The German Empire"
+
+ITA1900_centrism:0 "Kingdom of Italy"
+ITA1900_centrism_DEF:0 "The Kingdom of Italy"
+ITA1900_traditional_conservatism:0 "Kingdom of Italy"
+ITA1900_traditional_conservatism_DEF:0 "The Kingdom of Italy"
 
 
  INS_HOL_democratic:0 "Dutch East Indies"

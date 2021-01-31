@@ -13,8 +13,6 @@ capital = 126
 	set_cosmetic_tag = ENG_IRE
 
 	add_ideas = {
-		victoria
-
 		# government
 		volunteer_only
 		free_trade
@@ -84,9 +82,9 @@ capital = 126
 	}
 
 	create_country_leader = {
-		name = "Robert Gascoyne-Cecil"
+		name = "Victoria"
 		desc = ""
-		picture = "British_Parliament.dds"
+		picture = "Queen_Victoria.dds"
 		ideology = conserv
 		traits = {
 			

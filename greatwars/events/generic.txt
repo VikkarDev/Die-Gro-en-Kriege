@@ -1,9 +1,10 @@
-add_namespace = gw_generic
+add_namespace = dgk_generic
 
 country_event = {
-	id = gw_generic.1
-	title = gw_generic.1.t
-	desc = gw_generic.1.d
+	id = dgk_generic.1
+	title = dgk_generic.1.t
+	desc = dgk_generic.1.d
+	picture = GFX_report_greeting_picture
 
 	is_triggered_only = yes
 
@@ -12,7 +13,7 @@ country_event = {
   	}
 
 	option = {
-		name = gw_generic.1.a
+		name = dgk_generic.1.a
 		ai_chance = { factor = 100 }
 	}
 }
