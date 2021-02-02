@@ -16,6 +16,16 @@ spriteTypes = {
 		name = "GFX_ger_focus_german_army"
 		texturefile = "gfx/interface/goals/ger/GER_focus_german_army.dds"
 	}
+	
+	SpriteType = {
+		name = "GFX_ger_focus_german_economy"
+		texturefile = "gfx/interface/goals/ger/GER_focus_german_economy.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_ger_focus_new_research_techniques"
+		texturefile = "gfx/interface/goals/ger/GER_focus_new_research_techniques.dds"
+	}
 
 	#### Generic goal icons
 

@@ -10,10 +10,15 @@ GER_birth_of_republic:0 "Birth of the Republic"
 GER_birth_of_republic_desc:0 "Germany is off to a new journey. With a republic, Germany can be more successful."
 GER_german_army:0 "The German Army"
 GER_german_army_desc:0 "The German Army is the land component of the armed forces of Germany."
+GER_german_economy:0 "German Economy"
+GER_german_economy_desc:0 "The German Empire had one of the best economies in the world. They're on the race to number one."
+GER_new_research_techniques:0 "New Research Techniques"
+GER_new_research_techniques_desc:0 "Technology is growing rapidly. It's time we use it for new researching habits and will increase our research speeds."
 
 
 #### Tooltips
 HISTORICAL_BREAK:0 "§RThis will break the historical route of the mod!§!"
+NOT_COMPLETE:0 "§RThis focus is not complete!§!"
 
 #### Generic
 

@@ -1,7 +1,7 @@
 spriteTypes = {
 	corneredTileSpriteType = {
 		name = "GFX_frontend_bg"
-		texturefile = "gfx/loadingscreens/load_1.dds"
+		texturefile = "gfx/menu.dds"
 		borderSize = { x=0 y=0 }
 		size = { x=1500 y=1000 }
 		tilingCenter = no

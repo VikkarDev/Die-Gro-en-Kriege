@@ -15,10 +15,106 @@ focus_tree = {
 	continuous_focus_position = { x = 50 y = 1000 }
 
 	focus = {
+		id = GER_german_army
+		icon = GFX_ger_focus_german_army
+		search_filters = { FOCUS_FILTER_MANPOWER }
+		x = 1
+		y = 0
+
+		#mutually_exclusive = { focus = GER_contain_wilhelm_ii }
+		cost = 10
+
+		available = {
+			country_exists = GER
+		}
+
+		bypass = {
+			has_idea = german_army
+		}
+
+		completion_reward = { 
+			army_experience = 25
+			add_war_support = 0.10
+			add_ideas = { german_army }
+		}
+	}
+
+	focus = {
+		id = GER_german_economy
+		icon = GFX_ger_focus_german_economy
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		x = 10
+		y = 0
+
+		#mutually_exclusive = { focus = GER_contain_wilhelm_ii }
+		cost = 10
+
+		available = {
+			country_exists = GER
+		}
+
+		bypass = {
+			has_idea = german_economy
+		}
+
+		completion_reward = { 
+			add_ideas = { german_economy }
+		}
+	}
+
+	focus = {
+		id = GER_european_investment
+		icon = GFX_ger_focus_european_investment
+		#search_filters = { FOCUS_FILTER_RESEARCH }
+		x = 6
+		y = 1
+
+		prerequisite = { focus = GER_german_economy }
+		#mutually_exclusive = { focus = GER_homeland focus = GER_mauser_contracts }
+		cost = 10
+
+		available = {
+			has_idea = german_economy
+		}
+
+		bypass = {
+			
+		}
+
+		completion_reward = { 
+			custom_effect_tooltip = NOT_COMPLETE
+		}
+	}
+
+	focus = {
+		id = GER_new_research_techniques
+		icon = GFX_ger_focus_new_research_techniques
+		search_filters = { FOCUS_FILTER_RESEARCH }
+		x = 14
+		y = 1
+
+		prerequisite = { focus = GER_german_economy }
+		#mutually_exclusive = { focus = GER_contain_wilhelm_ii }
+		cost = 10
+
+		available = {
+			has_idea = german_economy
+		}
+
+		bypass = {
+			
+		}
+
+		completion_reward = { 
+			add_research_slot = 1
+		}
+	}
+
+	focus = {
 		id = GER_weltpolitik
 		icon = GFX_ger_focus_weltpolitik
 		search_filters = { FOCUS_FILTER_POLITICAL }
-		x = 12
+		x = 20
 		y = 0
 
 		mutually_exclusive = { focus = GER_birth_of_republic }
@@ -48,7 +144,7 @@ focus_tree = {
 		id = GER_birth_of_republic
 		icon = GFX_ger_focus_birth_of_republic
 		search_filters = { FOCUS_FILTER_POLITICAL }
-		x = 20
+		x = 28
 		y = 0
 
 		mutually_exclusive = { focus = GER_weltpolitik }
@@ -72,56 +168,6 @@ focus_tree = {
 			add_political_power = 120
 			add_popularity = { ideology = centrism popularity = -0.10 }
 			custom_effect_tooltip = HISTORICAL_BREAK
-		}
-	}
-
-	focus = {
-		id = GER_german_economy
-		icon = GFX_ger_focus_german_economy
-		search_filters = { FOCUS_FILTER_INDUSTRY }
-		x = 6
-		y = 0
-
-		#mutually_exclusive = { focus = GER_contain_wilhelm_ii }
-		cost = 10
-
-		available = {
-			country_exists = GER
-		}
-
-		bypass = {
-			has_idea = german_army
-		}
-
-		completion_reward = { 
-			army_experience = 25
-			add_war_support = 0.10
-			add_ideas = { german_army }
-		}
-	}
-	
-	focus = {
-		id = GER_german_army
-		icon = GFX_ger_focus_german_army
-		search_filters = { FOCUS_FILTER_MANPOWER }
-		x = 1
-		y = 0
-
-		#mutually_exclusive = { focus = GER_contain_wilhelm_ii }
-		cost = 10
-
-		available = {
-			country_exists = GER
-		}
-
-		bypass = {
-			has_idea = german_army
-		}
-
-		completion_reward = { 
-			army_experience = 25
-			add_war_support = 0.10
-			add_ideas = { german_army }
 		}
 	}
 }

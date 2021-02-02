@@ -31,4 +31,35 @@ ideas = {
 		}
 	  }
 	}
+
+	country = {
+		german_colonies = {
+		picture = ger_german_colonies
+	  
+		allowed = {
+			tag = GER
+		}
+	  
+		modifier = {
+			stability_factor = -0.05
+			political_power_gain = 1.25
+			consumer_goods_factor = 0.01
+		}
+	  }
+	}
+
+	country = {
+		german_economy = {
+		picture = ger_german_economy
+	  
+		allowed = {
+			tag = GER
+		}
+	  
+		modifier = {
+			production_factory_efficiency_gain_factor = 0.05
+			political_power_gain = -0.75
+		}
+	  }
+	}
 }

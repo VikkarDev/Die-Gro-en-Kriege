@@ -42,6 +42,7 @@ bookmarks = {
 			ideology = centrism
 			ideas = {
 				german_army
+				german_colonies
 			}
 			focuses = {
 				GER_weltpolitik

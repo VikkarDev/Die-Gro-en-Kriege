@@ -15,6 +15,16 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/ger/GER_idea_german_army.dds"
 	}
 
+	SpriteType = {
+		name = "GFX_idea_ger_german_colonies"
+		texturefile = "gfx/interface/ideas/ger/GER_idea_german_colonies.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_idea_ger_german_economy"
+		texturefile = "gfx/interface/ideas/ger/GER_idea_german_economy.dds"
+	}
+
 	### new tfv nat spirit icons
 
 	spriteType = {

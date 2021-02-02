@@ -1,5 +1,6 @@
 add_namespace = dgk_generic
 
+# EVENT ON LAUNCH
 country_event = {
 	id = dgk_generic.1
 	title = dgk_generic.1.t
@@ -15,5 +16,69 @@ country_event = {
 	option = {
 		name = dgk_generic.1.a
 		ai_chance = { factor = 100 }
+	}
+}
+
+# SETTINGS
+country_event = {
+	id = dgk_generic.2
+	title = dgk_generic.2.t
+	desc = dgk_generic.2.d
+	picture = GFX_report_greeting_picture
+
+	is_triggered_only = yes
+
+	trigger = {
+    	
+  	}
+
+	option = {
+		name = dgk_generic.2.a
+		#ai_chance = { factor = 100 }
+		country_event = { id = dgk_generic.3 }
+	}
+	option = {
+		name = dgk_generic.2.b
+		#ai_chance = { factor = 100 }
+	}
+	option = {
+		name = dgk_generic.2.c
+		#ai_chance = { factor = 100 }
+	}
+	option = {
+		name = dgk_generic.2.e
+		#ai_chance = { factor = 100 }
+	}
+}
+
+# SETTINGS - COUNTRIES
+country_event = {
+	id = dgk_generic.3
+	title = dgk_generic.3.t
+	desc = dgk_generic.3.d
+	picture = GFX_report_greeting_picture
+
+	is_triggered_only = yes
+
+	trigger = {
+    	
+  	}
+
+	option = {
+		name = dgk_generic.3.a
+		#ai_chance = { factor = 100 }
+	}
+	option = {
+		name = dgk_generic.3.b
+		#ai_chance = { factor = 100 }
+	}
+	option = {
+		name = dgk_generic.3.c
+		#ai_chance = { factor = 100 }
+		country_event = { id = dgk_generic.2 }
+	}
+	option = {
+		name = dgk_generic.3.e
+		#ai_chance = { factor = 100 }
 	}
 }

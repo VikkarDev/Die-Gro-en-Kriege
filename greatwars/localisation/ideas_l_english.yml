@@ -7,6 +7,10 @@ victoria:0 "Victoria"
 victoria_desc:0 "Victoria, queen of the United Kingdom of Great Britain and Ireland, known as the Victorian era, reigned 63 years and seven months longer than any of her predecessors."
 german_army:0 "German Army"
 german_army_desc:0 "The German Army is the land component of the armed forces of Germany."
+german_colonies:0 "German Colonies"
+german_colonies_desc:0 "With Germany having colonies in Asia and Africa, this will boost their political prosperity!"
+german_economy:0 "German Economy"
+german_economy_desc:0 "In 1900, the German Empire had one of the best economies in the world. Coming in 3rd behind the United Kingdom and the United States of America."
 
 # GENERIC
 undisturbed_isolation:0 "Undisturbed Isolation"

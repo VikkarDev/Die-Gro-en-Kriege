@@ -18,7 +18,7 @@ dgk_game_options_category = {
 		cost = 0
 
 		complete_effect = {
-			country_event = { id = gw_generic.1 }
+			country_event = { id = dgk_generic.2 }
 		}
 
 		ai_will_do = {
