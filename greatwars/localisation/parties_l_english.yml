@@ -75,4 +75,8 @@
   SWI_radical_democracy_party:0 "Schweizer Parlament"
   SWI_autocracy_party:0 "House of von Erlach"
   SWI_chauvinist_populism_party:0 "Bauern- und Handwerkerparty"
+<<<<<<< HEAD
   SWI_anarchism_party:0 "Schweizerischer Vaterländischer Verband"
+=======
+  SWI_anarchism_party:0 "Schweizerischer Vaterländischer Verband"
+>>>>>>> d41e8e6f071debc436ba52cdb73fb3318d88c872
