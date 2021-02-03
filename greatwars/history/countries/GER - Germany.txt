@@ -11,8 +11,8 @@ capital = 819
 	set_research_slots = 4
 
 	set_cosmetic_tag = GER_EMPIRE
-	create_faction = "Central Powers"
-	add_to_faction = GER
+	#create_faction = "Central Powers"
+	#add_to_faction = GER
 
 	add_ideas = {
 		german_colonies

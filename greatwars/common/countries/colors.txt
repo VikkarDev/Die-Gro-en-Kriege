@@ -48,6 +48,42 @@ ITA = {
 	color = rgb { 67 127 63 }
 	color_ui = rgb { 87 165 82 }
 }
+SHA = {
+	color = rgb { 153 201 105 }
+	color_ui = rgb { 153 201 105 }
+}
+JIA = {
+	color = rgb { 209 196 109 }
+	color_ui = rgb { 209 196 109 }
+}
+ZHE = {
+	color = rgb { 209 124 109 }
+	color_ui = rgb { 209 124 109 }
+}
+FUJ = {
+	color = rgb { 123 188 201 }
+	color_ui = rgb { 123 188 201 }
+}
+GUD = {
+	color = rgb { 178 201 123 }
+	color_ui = rgb { 178 201 123 }
+}
+JIX = {
+	color = rgb { 123 126 201 }
+	color_ui = rgb { 123 126 201 }
+}
+HNN = {
+	color = rgb { 162 123 201 }
+	color_ui = rgb { 162 123 201 }
+}
+HBE = {
+	color = rgb { 201 124 174 }
+	color_ui = rgb { 201 124 174 }
+}
+ANH = {
+	color = rgb { 145 63 63 }
+	color_ui = rgb { 145 63 63 }
+}
 
 LUX = {
 	color = rgb { 65 175 179 }

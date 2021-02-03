@@ -821,3 +821,7 @@
  STATE_820:0 "Ost-Berlin"
  STATE_821:0 "Breslau"
  STATE_822:0 "South Sudetenland"
+ STATE_823:0 "North Guangzhou"
+ STATE_824:0 "North Changde"
+ STATE_825:0 "East Henan"
+ STATE_826:0 "West Jiangsu"

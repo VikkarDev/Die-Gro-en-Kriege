@@ -41,8 +41,8 @@ capital = 141
 		desc = ""
 		picture = "Oscar_II.dds"
 		ideology = liberal
-		traits = {
-			
-		}
+		#traits = {
+		#	
+		#}
 	}
 }
