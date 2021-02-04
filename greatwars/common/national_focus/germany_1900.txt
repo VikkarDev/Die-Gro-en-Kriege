@@ -66,7 +66,7 @@ focus_tree = {
 		id = GER_european_investment
 		icon = GFX_ger_focus_european_investment
 		#search_filters = { FOCUS_FILTER_RESEARCH }
-		x = 6
+		x = 13
 		y = 1
 
 		prerequisite = { focus = GER_german_economy }
@@ -90,7 +90,7 @@ focus_tree = {
 		id = GER_new_research_techniques
 		icon = GFX_ger_focus_new_research_techniques
 		search_filters = { FOCUS_FILTER_RESEARCH }
-		x = 14
+		x = 7
 		y = 1
 
 		prerequisite = { focus = GER_german_economy }
@@ -168,6 +168,142 @@ focus_tree = {
 			add_political_power = 120
 			add_popularity = { ideology = centrism popularity = -0.10 }
 			custom_effect_tooltip = HISTORICAL_BREAK
+		}
+	}
+	focus = {
+		id = GER_heavy_industry
+		icon = GFX_ger_focus_german_economy
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		x = 6
+		y = 2
+
+		cost = 10
+		
+		prerequisite = { focus = GER_new_research_techniques }
+		available = {
+			country_exists = GER
+		}
+
+		bypass = {
+			has_idea = german_economy
+		}
+
+		completion_reward = { 
+			add_ideas = { german_economy }
+		}
+	}
+	focus = {
+		id = GER_krupp_steel
+		icon = GFX_ger_focus_german_economy
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		x = 12
+		y = 2
+
+		cost = 10
+		
+		prerequisite = { focus = GER_european_investment }
+		available = {
+			country_exists = GER
+		}
+
+		bypass = {
+			has_idea = german_economy
+		}
+
+		completion_reward = { 
+			add_ideas = { german_economy }
+		}
+	}
+	focus = {
+		id = GER_german_textiles
+		icon = GFX_ger_focus_german_economy
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		x = 14
+		y = 2
+
+		cost = 10
+		
+		prerequisite = { focus = GER_european_investment }
+		available = {
+			country_exists = GER
+		}
+
+		bypass = {
+			has_idea = german_economy
+		}
+
+		completion_reward = { 
+			add_ideas = { german_economy }
+		}
+	}
+	focus = {
+		id = GER_the_cartel_system
+		icon = GFX_ger_focus_german_economy
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		x = 10
+		y = 4
+
+		cost = 10
+
+		prerequisite = { focus = GER_agricultural_innovation }
+		prerequisite = { focus = GER_krupp_steel }
+		prerequisite = { focus = GER_german_textiles }
+		prerequisite = { focus = GER_heavy_industry }
+		prerequisite = { focus = GER_factories_factories_factories }
+		available = {
+			country_exists = GER
+		}
+
+		bypass = {
+			has_idea = german_economy
+		}
+
+		completion_reward = { 
+			add_ideas = { german_economy }
+		}
+	}
+	focus = {
+		id = GER_factories_factories_factories
+		icon = GFX_ger_focus_german_economy
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		x = 8
+		y = 2
+
+		cost = 10
+
+		prerequisite = { focus = GER_new_research_techniques }
+		available = {
+			country_exists = GER
+		}
+
+		bypass = {
+			has_idea = german_economy
+		}
+
+		completion_reward = { 
+			add_ideas = { german_economy }
+		}
+	}
+	focus = {
+		id = GER_agricultural_innovation
+		icon = GFX_ger_focus_german_economy
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		x = 10
+		y = 2
+
+		cost = 10
+
+		prerequisite = { focus = GER_german_economy }
+		available = {
+			country_exists = GER
+		}
+
+		bypass = {
+			has_idea = german_economy
+		}
+
+		completion_reward = { 
+			add_ideas = { german_economy }
 		}
 	}
 }
