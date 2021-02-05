@@ -11,6 +11,10 @@ german_colonies:0 "German Colonies"
 german_colonies_desc:0 "With Germany having colonies in Asia and Africa, this will boost their political prosperity!"
 german_economy:0 "German Economy"
 german_economy_desc:0 "In 1900, the German Empire had one of the best economies in the world. Coming in 3rd behind the United Kingdom and the United States of America."
+german_textiles:0 "German Textiles"
+german_textiles_desc:0 ""
+cartel_system:0 "The Cartel System"
+cartel_system_desc:0 ""
 
 # GENERIC
 undisturbed_isolation:0 "Undisturbed Isolation"
