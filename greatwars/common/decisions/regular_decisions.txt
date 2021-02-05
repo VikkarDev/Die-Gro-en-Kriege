@@ -1,0 +1,28 @@
+dgk_game_options_category = {
+	dgk_open_settings = {
+		icon = generic_political_actions
+
+		available = {
+			
+		}
+
+		fire_only_once = no
+		days_re_enable = 1
+
+		visible = {
+			ROOT = {
+				is_ai = no
+			}
+		}
+
+		cost = 0
+
+		complete_effect = {
+			country_event = { id = dgk_generic.2 }
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+}

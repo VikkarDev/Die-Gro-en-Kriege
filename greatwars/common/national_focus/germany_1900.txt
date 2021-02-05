@@ -1,0 +1,637 @@
+focus_tree = {
+	id = ger_1900_focus
+
+	country = {
+		factor = 0
+
+		modifier = {
+			add = 11
+			tag = GER
+		}
+	}
+
+	default = no
+
+	continuous_focus_position = { x = 50 y = 1000 }
+
+	focus = {
+		id = GER_german_army
+		icon = GFX_ger_focus_german_army
+		search_filters = { FOCUS_FILTER_MANPOWER }
+		x = 1
+		y = 0
+
+		#mutually_exclusive = { focus = GER_contain_wilhelm_ii }
+		cost = 10
+
+		available = {
+			country_exists = GER
+		}
+
+		
+
+		completion_reward = { 
+			army_experience = 25
+			add_war_support = 0.10
+			add_ideas = { german_army }
+		}
+	}
+
+	focus = {
+		id = GER_german_economy
+		icon = GFX_ger_focus_german_economy
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		x = 8
+		y = 0
+
+		#mutually_exclusive = { focus = GER_contain_wilhelm_ii }
+		cost = 10
+
+		available = {
+			country_exists = GER
+		}
+
+		
+
+		completion_reward = { 
+			add_ideas = { german_economy }
+		}
+	}
+
+	focus = {
+		id = GER_european_investment
+		icon = GFX_ger_focus_european_investment
+		#search_filters = { FOCUS_FILTER_RESEARCH }
+		x = 11
+		y = 1
+
+		prerequisite = { focus = GER_german_economy }
+		#mutually_exclusive = { focus = GER_homeland focus = GER_mauser_contracts }
+		cost = 10
+
+		available = {
+			has_idea = german_economy
+		}
+
+		bypass = {
+			
+		}
+
+		completion_reward = { 
+			custom_effect_tooltip = NOT_COMPLETE
+		}
+	}
+
+	focus = {
+		id = GER_new_research_techniques
+		icon = GFX_ger_focus_new_research_techniques
+		search_filters = { FOCUS_FILTER_RESEARCH }
+		x = 5
+		y = 1
+
+		prerequisite = { focus = GER_german_economy }
+		#mutually_exclusive = { focus = GER_contain_wilhelm_ii }
+		cost = 10
+
+		available = {
+			has_idea = german_economy
+		}
+
+		bypass = {
+			
+		}
+
+		completion_reward = { 
+			add_research_slot = 1
+		}
+	}
+
+	focus = {
+		id = GER_weltpolitik
+		icon = GFX_ger_focus_weltpolitik
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		x = 28
+		y = 0
+
+		mutually_exclusive = { focus = GER_birth_of_republic }
+		cost = 10
+
+		available = {
+			has_country_leader = {
+				name = "Wilhelm II"
+				ruling_only = yes
+			}
+			is_subject = no
+			has_war = no
+			country_exists = GER
+		}
+
+		bypass = {
+			
+		}
+
+		completion_reward = { 
+			add_political_power = 120
+			add_popularity = { ideology = centrism popularity = 0.10 }
+		}
+	}
+
+	focus = {
+		id = GER_birth_of_republic
+		icon = GFX_ger_focus_birth_of_republic
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		x = 33
+		y = 0
+
+		mutually_exclusive = { focus = GER_weltpolitik }
+		cost = 10
+
+		available = {
+			has_country_leader = {
+				name = "Wilhelm II"
+				ruling_only = yes
+			}
+			is_subject = no
+			has_war = no
+			country_exists = GER
+		}
+
+		bypass = {
+			
+		}
+
+		completion_reward = { 
+			add_political_power = 120
+			add_popularity = { ideology = centrism popularity = -0.10 }
+			custom_effect_tooltip = HISTORICAL_BREAK
+		}
+	}
+	focus = {
+		id = GER_heavy_industry
+		icon = GFX_ger_focus_german_economy
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		x = 4
+		y = 2
+
+		cost = 10
+		
+		prerequisite = { focus = GER_new_research_techniques }
+		available = {
+			country_exists = GER
+		}
+
+		bypass = {
+			
+		}
+
+		completion_reward = { 
+			add_tech_bonus = {
+				name = assembly_bonus
+						bonus = 0.5
+						uses = 2
+				technology = improved_machine_tools	
+				technology = advanced_machine_tools
+				technology = assembly_line_production
+				technology = flexible_line
+				technology = streamlined_line
+			}
+		}
+	}
+	focus = {
+		id = GER_krupp_steel
+		icon = GFX_ger_focus_german_economy
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		x = 10
+		y = 2
+
+		cost = 10
+		
+		prerequisite = { focus = GER_european_investment }
+		available = {
+			country_exists = GER
+		}
+
+		bypass = {
+		
+		}
+
+		completion_reward = { 
+			add_resource = {
+				type = oil
+				amount = 50
+				state = 88
+			}
+		}
+	}
+	focus = {
+		id = GER_german_textiles
+		icon = GFX_ger_focus_german_economy
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		x = 12
+		y = 2
+
+		cost = 10
+		
+		prerequisite = { focus = GER_european_investment }
+		available = {
+			country_exists = GER
+		}
+
+		bypass = {
+			
+		}
+
+		completion_reward = { 
+			add_ideas = { german_textiles }
+		}
+	}
+	focus = {
+		id = GER_the_cartel_system
+		icon = GFX_ger_focus_german_economy
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		x = 8
+		y = 4
+
+		cost = 10
+
+		prerequisite = { focus = GER_agricultural_innovation }
+		prerequisite = { focus = GER_krupp_steel }
+		prerequisite = { focus = GER_german_textiles }
+		prerequisite = { focus = GER_heavy_industry }
+		prerequisite = { focus = GER_factories_factories_factories }
+		available = {
+			country_exists = GER
+		}
+
+		bypass = {
+			
+		}
+
+		completion_reward = { 
+			add_ideas = { cartel_system }
+		}
+	}
+	focus = {
+		id = GER_factories_factories_factories
+		icon = GFX_ger_focus_german_economy
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		x = 6
+		y = 2
+
+		cost = 10
+
+		prerequisite = { focus = GER_new_research_techniques }
+		available = {
+			country_exists = GER
+		}
+
+		bypass = {
+			
+		}
+
+		completion_reward = { 
+				random_owned_controlled_state = {
+				
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+			}
+		}
+		add_tech_bonus = {
+				bonus = 1.0
+				uses = 1
+				category = industry
+			}
+		}
+	
+	}
+	focus = {
+		id = GER_agricultural_innovation
+		icon = GFX_ger_focus_german_economy
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		x = 8
+		y = 2
+
+		cost = 10
+
+		prerequisite = { focus = GER_german_economy }
+		available = {
+			country_exists = GER
+		}
+
+		bypass = {
+		
+		}
+
+		completion_reward = { 
+				random_owned_controlled_state = {
+				add_building_construction = {
+					type = infrastructure
+					level = 10
+					instant_build = yes
+			}
+		}
+		random_owned_controlled_state = {
+				add_building_construction = {
+					type = infrastructure
+					level = 10
+					instant_build = yes
+			}
+		}
+		random_owned_controlled_state = {
+				add_building_construction = {
+					type = infrastructure
+					level = 10
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = GER_imperiel_german_army
+		icon = GFX_ger_focus_german_army
+		search_filters = { FOCUS_FILTER_MANPOWER }
+		x = 18
+		y = 0
+
+		
+		cost = 10
+
+		prerequisite = { focus = GER_ }
+		available = {
+			country_exists = GER
+		}
+
+		bypass = {
+		
+		}
+	
+		completion_reward = { 
+			army_experience = 25
+			add_war_support = 0.10
+			add_ideas = { german_army }
+		}
+	}
+	focus = {
+		id = GER_general_staff_system
+		icon = GFX_GER_focus_general_staff
+		search_filters = { FOCUS_FILTER_MANPOWER }
+		x = 18
+		y = 5
+
+		cost = 10
+		
+		prerequisite = { focus = GER_modernize_our_tactics }
+		prerequisite = { focus = GER_military_aid_from_private_sector }
+		available = {
+			country_exists = GER
+		}
+
+		bypass = {
+		
+		}
+
+		completion_reward = { 
+			army_experience = 25
+			add_war_support = 0.10
+			add_ideas = { german_army }
+		}
+	}
+	focus = {
+		id = GER_continue_the_german_reserve_system
+		icon = GFX_GER_focus_reserve_system
+		search_filters = { FOCUS_FILTER_MANPOWER }
+		x = 19
+		y = 2
+
+		mutually_exclusive = { focus = GER_mass_conscription }
+		cost = 10
+		
+		prerequisite = { focus = GER_loyalty_to_the_kaiser }
+		available = {
+			country_exists = GER
+		}
+
+		bypass = {
+			
+		}
+
+		completion_reward = { 
+			army_experience = 25
+			add_war_support = 0.10
+			add_ideas = { german_army }
+		}
+	}
+	focus = {
+		id = GER_mass_conscription
+		icon = GFX_GER_focus_mass_conscription
+		search_filters = { FOCUS_FILTER_MANPOWER }
+		x = 17
+		y = 2
+
+		mutually_exclusive = { focus = GER_continue_the_german_reserve_system }
+		cost = 10
+		
+		prerequisite = { focus = GER_loyalty_to_the_kaiser }
+		available = {
+			country_exists = GER
+		}
+
+		bypass = {
+			
+		}
+
+		completion_reward = { 
+			army_experience = 25
+			add_war_support = 0.10
+			add_ideas = { german_army }
+		}
+	}
+	focus = {
+		id = GER_loyalty_to_the_kaiser
+		icon = GFX_GER_focus_loyalty_to_kaiser
+		search_filters = { FOCUS_FILTER_MANPOWER }
+		x = 18
+		y = 1
+
+	
+		cost = 10
+		
+		prerequisite = { focus = GER_imperiel_german_army }
+		available = {
+			country_exists = GER
+		}
+
+		bypass = {
+			
+		}
+
+		completion_reward = { 
+			army_experience = 25
+			add_war_support = 0.10
+			add_ideas = { german_army }
+		}
+	}
+	focus = {
+		id = GER_military_aid_from_private_sector
+		icon = GFX_GER_focus_help_from_private
+		search_filters = { FOCUS_FILTER_MANPOWER }
+		x = 19
+		y = 4
+
+	
+		cost = 10
+		
+		prerequisite = { focus = GER_artillery focus = GER_support_equipment }
+		available = {
+			country_exists = GER
+		}
+
+		bypass = {
+			
+		}
+
+		completion_reward = { 
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = GER_modernize_our_tactics
+		icon = GFX_GER_focus_modernize
+		search_filters = { FOCUS_FILTER_MANPOWER }
+		x = 17
+		y = 4
+
+		
+		cost = 10
+		
+		prerequisite = { focus = GER_increase_military_budget focus = GER_artillery }
+		available = {
+			country_exists = GER
+		}
+
+		bypass = {
+			
+		}
+
+		completion_reward = { 
+			add_tech_bonus = {
+				name = land_doc_bonus
+				bonus = 1.0
+				uses = 2
+				category = land_doctrine
+			}
+		}
+	}
+	focus = {
+		id = GER_increase_military_budget
+		icon = GFX_GER_focus_increase_mil_budget
+		search_filters = { FOCUS_FILTER_MANPOWER }
+		x = 16
+		y = 3
+
+		
+		cost = 10
+		
+		prerequisite = { focus = GER_mass_conscription focus = GER_continue_the_german_reserve_system }
+		available = {
+			country_exists = GER
+		}
+
+		bypass = {
+		
+		}
+
+		completion_reward = { 
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = GER_support_equipment
+		icon = GFX_GER_focus_support_equip
+		search_filters = { FOCUS_FILTER_MANPOWER }
+		x = 20
+		y = 3
+
+		
+		cost = 10
+		
+		prerequisite = { focus = GER_mass_conscription focus = GER_continue_the_german_reserve_system }
+		available = {
+			country_exists = GER
+		}
+
+		bypass = {
+			
+		}
+
+		completion_reward = { 
+			army_experience = 25
+			add_tech_bonus = {
+				name = infantry_artillery_bonus
+				bonus = 0.5
+				uses = 2
+				category = infantry_weapons
+			}
+		}
+	}
+	focus = {
+		id = GER_artillery
+		icon = GFX_GER_focus_artillery
+		search_filters = { FOCUS_FILTER_MANPOWER }
+		x = 18
+		y = 3
+
+		
+		cost = 10
+		
+		prerequisite = { focus = GER_mass_conscription focus = GER_continue_the_german_reserve_system }
+		available = {
+			country_exists = GER
+		}
+
+		bypass = {
+			
+		}
+
+		completion_reward = { 
+			add_tech_bonus = {
+					name = infantry_artillery_bonus #@#
+					bonus = 0.5
+					uses = 2
+
+					category = artillery
+			}				
+		}
+	}
+}
