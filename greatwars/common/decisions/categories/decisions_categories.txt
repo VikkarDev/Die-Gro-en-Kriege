@@ -1,9 +1,0 @@
-dgk_game_options_category = {
-	icon = generic_political_actions
-	picture = GFX_decision_cat_open_settings
-	priority = 4
-
-	allowed = {
-		always = yes
-	}
-}
