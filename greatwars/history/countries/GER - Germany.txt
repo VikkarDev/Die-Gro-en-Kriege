@@ -14,6 +14,8 @@ capital = 819
 	#create_faction = "Central Powers"
 	#add_to_faction = GER
 
+	puppet = GNG
+
 	add_ideas = {
 		german_colonies
 
