@@ -101,8 +101,8 @@ ideas = {
 		}
 	  
 		modifier = {
-			drift_defence_factor = 0.3
-			army_attack_factor = 0.5
+			drift_defence_factor = 0.2
+			army_attack_factor = 0.05
 		}
 	  }
 	}
