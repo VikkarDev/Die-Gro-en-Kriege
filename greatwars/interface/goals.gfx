@@ -8,6 +8,51 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
+		name = "GFX_GER_focus_artillery"
+		texturefile = "gfx/interface/goals/ger/GER_focus_artillery.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_GER_focus_increase_mil_budget"
+		texturefile = "gfx/interface/goals/ger/GER_focus_increase_mil_budget.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_GER_focus_support_equip"
+		texturefile = "gfx/interface/goals/ger/GER_focus_support_equip.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_GER_focus_modernize"
+		texturefile = "gfx/interface/goals/ger/GER_focus_modernize.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_GER_focus_general_staff"
+		texturefile = "gfx/interface/goals/ger/GER_focus_general_staff.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_GER_focus_help_from_private"
+		texturefile = "gfx/interface/goals/ger/GER_focus_help_from_private.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_GER_focus_reserve_system"
+		texturefile = "gfx/interface/goals/ger/GER_focus_reserve_system.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_GER_focus_mass_conscription"
+		texturefile = "gfx/interface/goals/ger/GER_focus_mass_conscription.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_GER_focus_loyalty_to_kaiser"
+		texturefile = "gfx/interface/goals/ger/GER_focus_loyalty_to_kaiser.dds"
+	}
+	
+	SpriteType = {
 		name = "GFX_GER_focus_textiles"
 		texturefile = "gfx/interface/goals/ger/GER_focus_textiles.dds"
 	}

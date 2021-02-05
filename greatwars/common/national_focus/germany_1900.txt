@@ -377,7 +377,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_general_staff_system
-		icon = GFX_ger_focus_german_army
+		icon = GFX_GER_focus_general_staff
 		search_filters = { FOCUS_FILTER_MANPOWER }
 		x = 18
 		y = 5
@@ -401,7 +401,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_continue_the_german_reserve_system
-		icon = GFX_ger_focus_german_army
+		icon = GFX_GER_focus_reserve_system
 		search_filters = { FOCUS_FILTER_MANPOWER }
 		x = 19
 		y = 2
@@ -425,7 +425,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_mass_conscription
-		icon = GFX_ger_focus_german_army
+		icon = GFX_GER_focus_mass_conscription
 		search_filters = { FOCUS_FILTER_MANPOWER }
 		x = 17
 		y = 2
@@ -449,7 +449,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_loyalty_to_the_kaiser
-		icon = GFX_ger_focus_german_army
+		icon = GFX_GER_focus_loyalty_to_kaiser
 		search_filters = { FOCUS_FILTER_MANPOWER }
 		x = 18
 		y = 1
@@ -473,7 +473,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_military_aid_from_private_sector
-		icon = GFX_ger_focus_german_army
+		icon = GFX_GER_focus_help_from_private
 		search_filters = { FOCUS_FILTER_MANPOWER }
 		x = 19
 		y = 4
@@ -491,17 +491,26 @@ focus_tree = {
 		}
 
 		completion_reward = { 
-			add_extra_state_shared_building_slots = 1
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 					type = arms_factory
-					level = 1
+					level = 2
 					instant_build = yes
 				}
+			}
 		}
 	}
 	focus = {
 		id = GER_modernize_our_tactics
-		icon = GFX_ger_focus_german_army
+		icon = GFX_GER_focus_modernize
 		search_filters = { FOCUS_FILTER_MANPOWER }
 		x = 17
 		y = 4
@@ -519,14 +528,17 @@ focus_tree = {
 		}
 
 		completion_reward = { 
-			army_experience = 25
-			add_war_support = 0.10
-			add_ideas = { german_army }
+			add_tech_bonus = {
+				name = land_doc_bonus
+				bonus = 1.0
+				uses = 2
+				category = land_doctrine
+			}
 		}
 	}
 	focus = {
 		id = GER_increase_military_budget
-		icon = GFX_ger_focus_german_army
+		icon = GFX_GER_focus_increase_mil_budget
 		search_filters = { FOCUS_FILTER_MANPOWER }
 		x = 16
 		y = 3
@@ -544,14 +556,26 @@ focus_tree = {
 		}
 
 		completion_reward = { 
-			army_experience = 25
-			add_war_support = 0.10
-			add_ideas = { german_army }
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
 		}
 	}
 	focus = {
 		id = GER_support_equipment
-		icon = GFX_ger_focus_german_army
+		icon = GFX_GER_focus_support_equip
 		search_filters = { FOCUS_FILTER_MANPOWER }
 		x = 20
 		y = 3
@@ -570,13 +594,17 @@ focus_tree = {
 
 		completion_reward = { 
 			army_experience = 25
-			add_war_support = 0.10
-			add_ideas = { german_army }
+			add_tech_bonus = {
+				name = infantry_artillery_bonus
+				bonus = 0.5
+				uses = 2
+				category = infantry_weapons
+			}
 		}
 	}
 	focus = {
 		id = GER_artillery
-		icon = GFX_ger_focus_german_army
+		icon = GFX_GER_focus_artillery
 		search_filters = { FOCUS_FILTER_MANPOWER }
 		x = 18
 		y = 3
@@ -594,9 +622,13 @@ focus_tree = {
 		}
 
 		completion_reward = { 
-			army_experience = 25
-			add_war_support = 0.10
-			add_ideas = { german_army }
+			add_tech_bonus = {
+					name = infantry_artillery_bonus #@#
+					bonus = 0.5
+					uses = 2
+
+					category = artillery
+			}				
 		}
 	}
 }
