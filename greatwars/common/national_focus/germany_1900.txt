@@ -55,7 +55,6 @@ focus_tree = {
 
 		completion_reward = { 
 			add_ideas = { german_economy }
-			add_political_power = 150
 		}
 	}
 
@@ -200,7 +199,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_krupp_steel
-		icon = GFX_GER_focus_german_economy
+		icon = GFX_ger_focus_german_economy
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 		x = 10
 		y = 2
@@ -218,15 +217,15 @@ focus_tree = {
 
 		completion_reward = { 
 			add_resource = {
-				type = steel
+				type = oil
 				amount = 50
-				state = 58
+				state = 88
 			}
 		}
 	}
 	focus = {
 		id = GER_german_textiles
-		icon = GFX_GER_focus_textiles
+		icon = GFX_ger_focus_german_economy
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 		x = 12
 		y = 2
@@ -395,8 +394,9 @@ focus_tree = {
 		}
 
 		completion_reward = { 
-			
-			add_ideas = { general_staff }
+			army_experience = 25
+			add_war_support = 0.10
+			add_ideas = { german_army }
 		}
 	}
 	focus = {
@@ -419,8 +419,9 @@ focus_tree = {
 		}
 
 		completion_reward = { 
-			
-			add_ideas = { german_reserve_system }
+			army_experience = 25
+			add_war_support = 0.10
+			add_ideas = { german_army }
 		}
 	}
 	focus = {
@@ -443,8 +444,9 @@ focus_tree = {
 		}
 
 		completion_reward = { 
-			
-			add_ideas = { mass_conscription }
+			army_experience = 25
+			add_war_support = 0.10
+			add_ideas = { german_army }
 		}
 	}
 	focus = {
@@ -467,8 +469,9 @@ focus_tree = {
 		}
 
 		completion_reward = { 
-			
-			add_ideas = { loyalty_to_the_kaiser }
+			army_experience = 25
+			add_war_support = 0.10
+			add_ideas = { german_army }
 		}
 	}
 	focus = {
@@ -576,7 +579,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_artillery
-		icon = GFX_ger_focus_artillery
+		icon = GFX_ger_focus_german_army
 		search_filters = { FOCUS_FILTER_MANPOWER }
 		x = 18
 		y = 3
