@@ -9,8 +9,8 @@ SOV = {
 	color_ui = rgb { 50 173 97 }
 }
 TUR = {
-	color = rgb { 171  190  152 }
-	color_ui = rgb { 171  190  152 }
+	color = rgb { 170  10  10 }
+	color_ui = rgb { 200  10  10 }
 }
 ENG = {
 	color = rgb { 201 56 93 }

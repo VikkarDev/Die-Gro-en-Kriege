@@ -99,6 +99,19 @@ country_event = {
 		GXC = {
 			transfer_state = 599
 		}
+
+		CHI = {
+			declare_war_on = {
+				target = SOV
+				target = ENG
+				target = GER
+				target = HUN
+				target = ITA
+				target = JAP
+				target = FRA
+				target = USA
+			}
+		}
 	}
 }
 
