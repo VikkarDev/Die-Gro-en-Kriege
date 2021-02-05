@@ -28,9 +28,7 @@ focus_tree = {
 			country_exists = GER
 		}
 
-		bypass = {
-			has_idea = german_army
-		}
+		
 
 		completion_reward = { 
 			army_experience = 25
@@ -53,9 +51,7 @@ focus_tree = {
 			country_exists = GER
 		}
 
-		bypass = {
-			has_idea = german_economy
-		}
+		
 
 		completion_reward = { 
 			add_ideas = { german_economy }
@@ -185,11 +181,20 @@ focus_tree = {
 		}
 
 		bypass = {
-			has_idea = german_economy
+			
 		}
 
 		completion_reward = { 
-			add_ideas = { german_economy }
+			add_tech_bonus = {
+				name = assembly_bonus
+						bonus = 0.5
+						uses = 2
+				technology = improved_machine_tools	
+				technology = advanced_machine_tools
+				technology = assembly_line_production
+				technology = flexible_line
+				technology = streamlined_line
+			}
 		}
 	}
 	focus = {
@@ -207,11 +212,15 @@ focus_tree = {
 		}
 
 		bypass = {
-			has_idea = german_economy
+		
 		}
 
 		completion_reward = { 
-			add_ideas = { german_economy }
+			add_resource = {
+				type = oil
+				amount = 50
+				state = 88
+			}
 		}
 	}
 	focus = {
@@ -229,11 +238,11 @@ focus_tree = {
 		}
 
 		bypass = {
-			has_idea = german_economy
+			
 		}
 
 		completion_reward = { 
-			add_ideas = { german_economy }
+			add_ideas = { german_textiles }
 		}
 	}
 	focus = {
@@ -255,11 +264,11 @@ focus_tree = {
 		}
 
 		bypass = {
-			has_idea = german_economy
+			
 		}
 
 		completion_reward = { 
-			add_ideas = { german_economy }
+			add_ideas = { cartel_system }
 		}
 	}
 	focus = {
@@ -277,12 +286,26 @@ focus_tree = {
 		}
 
 		bypass = {
-			has_idea = german_economy
+			
 		}
 
 		completion_reward = { 
-			add_ideas = { german_economy }
+				random_owned_controlled_state = {
+				
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+			}
 		}
+		add_tech_bonus = {
+				bonus = 1.0
+				uses = 1
+				category = industry
+			}
+		}
+	
 	}
 	focus = {
 		id = GER_agricultural_innovation
@@ -299,11 +322,31 @@ focus_tree = {
 		}
 
 		bypass = {
-			has_idea = german_economy
+		
 		}
 
 		completion_reward = { 
-			add_ideas = { german_economy }
+				random_owned_controlled_state = {
+				add_building_construction = {
+					type = infrastructure
+					level = 10
+					instant_build = yes
+			}
+		}
+		random_owned_controlled_state = {
+				add_building_construction = {
+					type = infrastructure
+					level = 10
+					instant_build = yes
+			}
+		}
+		random_owned_controlled_state = {
+				add_building_construction = {
+					type = infrastructure
+					level = 10
+					instant_build = yes
+				}
+			}
 		}
 	}
 	focus = {
@@ -322,7 +365,7 @@ focus_tree = {
 		}
 
 		bypass = {
-			has_idea = german_army
+		
 		}
 	
 		completion_reward = { 
@@ -347,7 +390,7 @@ focus_tree = {
 		}
 
 		bypass = {
-			has_idea = german_army
+		
 		}
 
 		completion_reward = { 
@@ -372,7 +415,7 @@ focus_tree = {
 		}
 
 		bypass = {
-			has_idea = german_army
+			
 		}
 
 		completion_reward = { 
@@ -397,7 +440,7 @@ focus_tree = {
 		}
 
 		bypass = {
-			has_idea = german_army
+			
 		}
 
 		completion_reward = { 
@@ -422,7 +465,7 @@ focus_tree = {
 		}
 
 		bypass = {
-			has_idea = german_army
+			
 		}
 
 		completion_reward = { 
@@ -447,13 +490,16 @@ focus_tree = {
 		}
 
 		bypass = {
-			has_idea = german_army
+			
 		}
 
 		completion_reward = { 
-			army_experience = 25
-			add_war_support = 0.10
-			add_ideas = { german_army }
+			add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
 		}
 	}
 	focus = {
@@ -472,7 +518,7 @@ focus_tree = {
 		}
 
 		bypass = {
-			has_idea = german_army
+			
 		}
 
 		completion_reward = { 
@@ -497,7 +543,7 @@ focus_tree = {
 		}
 
 		bypass = {
-			has_idea = german_army
+		
 		}
 
 		completion_reward = { 
@@ -522,7 +568,7 @@ focus_tree = {
 		}
 
 		bypass = {
-			has_idea = german_army
+			
 		}
 
 		completion_reward = { 
@@ -547,7 +593,7 @@ focus_tree = {
 		}
 
 		bypass = {
-			has_idea = german_army
+			
 		}
 
 		completion_reward = { 

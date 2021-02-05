@@ -62,4 +62,34 @@ ideas = {
 		}
 	  }
 	}
+	country = {
+		german_textiles = {
+		picture = ger_german_army
+	  
+		allowed = {
+			tag = GER
+		}
+	  
+		modifier = {
+			min_export = 0.2
+			political_power_gain = 0.1
+			local_resources = 0.25
+		}
+	  }
+	}
+	country = {
+		cartel_system = {
+		picture = ger_german_army
+	  
+		allowed = {
+			tag = GER
+		}
+	  
+		modifier = {
+			consumer_goods_factor = -0.04
+			production_speed_buildings_factor = 0.1
+			line_change_production_efficiency_factor = 0.075
+		}
+	  }
+	}
 }
