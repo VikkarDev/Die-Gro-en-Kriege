@@ -1,12 +1,7 @@
 spriteTypes = {
 
 	#### Mod goal icons
-	
-	SpriteType = {
-		name = "GFX_ger_focus_artillery"
-		texturefile = "gfx/interface/goals/ger/GER_focus_artillery.dds"
-	}
-	
+
 	SpriteType = {
 		name = "GFX_ger_focus_weltpolitik"
 		texturefile = "gfx/interface/goals/ger/GER_focus_weltpolitik.dds"
