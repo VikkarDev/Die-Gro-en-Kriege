@@ -576,7 +576,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_artillery
-		icon = GFX_ger_focus_german_army
+		icon = GFX_ger_focus_artillery
 		search_filters = { FOCUS_FILTER_MANPOWER }
 		x = 18
 		y = 3
