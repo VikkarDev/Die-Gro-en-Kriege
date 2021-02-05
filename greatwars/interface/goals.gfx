@@ -33,6 +33,11 @@ spriteTypes = {
 	}
 	
 
+	SpriteType = {
+		name = "GFX_ger_focus_european_investment"
+		texturefile = "gfx/interface/goals/ger/GER_focus_european_investment.dds"
+	}
+
 	#### Generic goal icons
 
 	SpriteType = {
