@@ -50,6 +50,41 @@ country_event = {
 			white_peace = BOX
 		}
 
+		CHI = {
+			declare_war_on = {
+				target = SOV
+				type = take_state
+			}
+			declare_war_on = {
+				target = ENG
+				type = take_state
+			}
+			declare_war_on = {
+				target = GER
+				type = take_state
+			}
+			declare_war_on = {
+				target = HUN
+				type = take_state
+			}
+			declare_war_on = {
+				target = ITA
+				type = take_state
+			}
+			declare_war_on = {
+				target = JAP
+				type = take_state
+			}
+			declare_war_on = {
+				target = FRA
+				type = take_state
+			}
+			declare_war_on = {
+				target = USA
+				type = take_state
+			}
+		}
+
 		every_state = {
 			limit = {
 				is_owned_by = BOX
@@ -98,19 +133,6 @@ country_event = {
 		}
 		GXC = {
 			transfer_state = 599
-		}
-
-		CHI = {
-			declare_war_on = {
-				target = SOV
-				target = ENG
-				target = GER
-				target = HUN
-				target = ITA
-				target = JAP
-				target = FRA
-				target = USA
-			}
 		}
 	}
 }
