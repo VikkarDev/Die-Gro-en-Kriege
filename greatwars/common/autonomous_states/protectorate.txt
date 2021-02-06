@@ -40,7 +40,6 @@ autonomy_state = {
 	}
 
 	allowed = {
-		has_dlc = "Death or Dishonor"
 		if = {
 			limit = { has_dlc = "Waking the Tiger" }
 			NOT = { OVERLORD = { original_tag = JAP } }

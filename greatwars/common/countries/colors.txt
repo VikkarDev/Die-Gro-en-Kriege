@@ -91,6 +91,14 @@ BOS = {
 	color = rgb { 204 102 0 }
 	color_ui = rgb { 204 102 0 }
 }
+SER = {
+	color = rgb { 160 110 110 }
+	color_ui = rgb { 160 110 110 }
+}
+MNT = {
+	color = rgb { 77  90  105 }
+	color_ui = rgb { 77  90  105 }
+}
 
 LUX = {
 	color = rgb { 65 175 179 }
@@ -408,11 +416,6 @@ SYR = {
 	color_ui = rgb { 100  100  150 }
 }
 
-SER = {
-	color = rgb { 160 110 110 }
-	color_ui = rgb { 160 110 110 }
-}
-
 ICE = {
 	color = rgb { 100  125  175 }
 	color_ui = rgb { 100  125  175 }
@@ -461,11 +464,6 @@ CAM = {
 MAL = {
 	color = rgb { 197  96  100 }
 	color_ui = rgb { 213  169  121 }
-}
-
-MNT = {
-	color = rgb { 77  90  105 }
-	color_ui = rgb { 77  90  105 }
 }
 
 BLR = {
