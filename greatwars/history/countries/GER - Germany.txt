@@ -6,6 +6,8 @@ capital = 819
 
 	set_convoys = 200
 
+	puppet = GNG
+
 	set_stability = 0.8
 	set_war_support = 0.4
 	set_research_slots = 4
@@ -13,22 +15,6 @@ capital = 819
 	set_cosmetic_tag = GER_EMPIRE
 	#create_faction = "Central Powers"
 	#add_to_faction = GER
-
-	if = {
-		limit = {
-			OR = {
-				has_dlc = "Together for Victory"
-				has_dlc = "Man the Guns"
-			}
-		}
-		set_autonomy = {
-			target = GNG
-			autonomy_state = autonomy_protectorate
-		}
-		else = {
-			puppet = GNG
-		}
-	}
 
 	add_ideas = {
 		german_colonies
