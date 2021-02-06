@@ -16,7 +16,7 @@ country_event = {
 			create_country_leader = {
 				name = "Albert Hahl"
 				desc = ""
-				picture = "Albert_Halh.dds"
+				picture = "Albert_Hahl.dds"
 				ideology = liberal
 				#traits = {
 				#	
