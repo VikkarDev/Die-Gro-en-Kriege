@@ -23,12 +23,12 @@
 	}
 
 	create_country_leader = {
-		name = "Unkown"
+		name = "Wilhelm II"
 		desc = ""
-		picture = ""
+		picture = "Wilhelm_II.dds"
 		ideology = liberal
-		#traits = {
-		#	
-		#}
+		traits = {
+			kaiserin_of_the_people
+		}
 	}
 }
