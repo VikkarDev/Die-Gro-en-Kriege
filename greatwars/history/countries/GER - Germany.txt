@@ -23,7 +23,7 @@ capital = 819
 		}
 		set_autonomy = {
 			target = GNG
-			set_autonomy = autonomy_protectorate
+			autonomy_state = autonomy_protectorate
 		}
 		else = {
 			puppet = GNG

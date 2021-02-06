@@ -20,7 +20,7 @@ capital = 43
 		}
 		set_autonomy = {
 			target = BOS
-			set_autonomy = autonomy_protectorate
+			autonomous_state = autonomy_protectorate
 		}
 		else = {
 			puppet = BOS
