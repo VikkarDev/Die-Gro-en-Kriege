@@ -46,7 +46,8 @@ bookmarks = {
 			}
 			focuses = {
 				GER_weltpolitik
-				GER_german_army
+				GER_imperiel_german_army
+				GER_german_economy
 			}
 		}
 		ITA = {
