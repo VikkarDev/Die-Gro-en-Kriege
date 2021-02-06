@@ -1,6 +1,7 @@
 state={
 	id=830
 	name="STATE_830"
+	state_categoery = city
 	provinces={
 		657 687 3076 9635 
 	}
@@ -16,6 +17,7 @@ state={
 		add_core_of = ROM
 		add_claim_by = BUL
 	}
-	manpower=10000
+
+	manpower=800000
 	buildings_max_level_factor=1.000
 }
