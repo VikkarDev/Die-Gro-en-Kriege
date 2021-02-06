@@ -4,6 +4,18 @@ state={
 	provinces={
 		657 687 3076 9635 
 	}
+	history= {
+		owner = ROM
+		victory_points = {
+			3707 1
+		}
+		buildings = {
+			infrastructure = 4
+			air_base = 2
+		}
+		add_core_of = ROM
+		add_claim_by = BUL
+	}
 	manpower=0
 	buildings_max_level_factor=1.000
 }
