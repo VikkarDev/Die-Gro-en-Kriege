@@ -14,6 +14,22 @@ capital = 819
 	#create_faction = "Central Powers"
 	#add_to_faction = GER
 
+	if = {
+		limit = {
+			OR = {
+				has_dlc = "Together for Victory"
+				has_dlc = "Man the Guns"
+			}
+		}
+		set_autonomy = {
+			target = GNG
+			set_autonomy = autonomy_protectorate
+		}
+		else = {
+			puppet = GNG
+		}
+	}
+
 	add_ideas = {
 		german_colonies
 

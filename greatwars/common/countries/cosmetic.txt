@@ -1,3 +1,9 @@
+BOS_OCU = {
+	color = rgb { 194 198 215 }
+	color_ui = rgb { 255 255 255 }
+}
+
+
 MAL_UK = {
     color = rgb { 201 56 93 }
     color_ui = rgb { 255 73 121 }

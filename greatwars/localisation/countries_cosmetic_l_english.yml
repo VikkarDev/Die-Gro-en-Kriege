@@ -60,6 +60,12 @@ GER_KAISER_traditional_conservatism_DEF:0 "The Deutsches Kaiserreich"
 GNG_GER_centrism:0 "Kaiser-Wilhelmsland"
 GNG_GER_centrism_DEF:0 "Kaiser-Wilhelmsland"
 
+BOS_OCU_centrism:0 "Condominium of Bosnia and Herzegovina"
+BOS_OCU_centrism_DEF:0 "The Condominium of Bosnia and Herzegovina"
+
+BUL_OTT_autocracy:0 "Tsardom of Bulgaria"
+BUL_OTT_autocracy_DEF:0 "The Tsardom of Bulgaria"
+
 ITA1900_centrism:0 "Kingdom of Italy"
 ITA1900_centrism_DEF:0 "The Kingdom of Italy"
 ITA1900_traditional_conservatism:0 "Kingdom of Italy"

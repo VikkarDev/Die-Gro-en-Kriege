@@ -1,5 +1,8 @@
 #reload countrycolors
-
+GNG = {
+	color = rgb { 64 64 64 }
+	color_ui = rgb { 64 64 64 }
+}
 GER = {
 	color = rgb { 106  119  89 }
 	color_ui = rgb { 106  119  89 }
@@ -83,6 +86,10 @@ HBE = {
 ANH = {
 	color = rgb { 145 63 63 }
 	color_ui = rgb { 145 63 63 }
+}
+BOS = {
+	color = rgb { 204 102 0 }
+	color_ui = rgb { 204 102 0 }
 }
 
 LUX = {
