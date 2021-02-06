@@ -13232,9 +13232,10 @@
 13231;184;117;163;land;false;hills;1
 13232;122;77;196;land;false;plains;1
 13233;230;236;122;land;false;mountain;1
-13234;210;241;113;land;false;hills;1
-13235;233;179;9;land;false;mountain;1
+13234;210;241;113;land;false;hills;2
+13235;233;179;9;land;false;mountain;2
 13236;69;143;136;land;false;forest;1
 13238;127;38;198;land;false;urban;1
 13239;32;66;203;land;false;forest;1
-13239;255;66;203;land;false;unknown;0
+13240;180;47;227;land;true;plains;1
+13240;255;66;203;land;false;unknown;0
