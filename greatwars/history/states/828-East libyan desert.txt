@@ -1,0 +1,15 @@
+state={
+	id=828
+	name="STATE_828"
+	state_category = wasteland
+	history={
+		add_core_of = LIB
+		owner = ENG
+		add_claim_by = TUR
+	}
+	provinces={
+		1057 1994 4191 10104 10754 
+	}
+	manpower=250000
+	buildings_max_level_factor=1.000
+}

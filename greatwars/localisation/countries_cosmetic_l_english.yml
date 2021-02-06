@@ -57,6 +57,9 @@ GER_KAISER_centrism_DEF:0 "The Deutsches Kaiserreich"
 GER_KAISER_traditional_conservatism:0 "Deutsches Kaiserreich"
 GER_KAISER_traditional_conservatism_DEF:0 "The Deutsches Kaiserreich"
 
+GNG_GER_centrism:0 "Kaiser-Wilhelmsland"
+GNG_GER_centrism_DEF:0 "Kaiser-Wilhelmsland"
+
 ITA1900_centrism:0 "Kingdom of Italy"
 ITA1900_centrism_DEF:0 "The Kingdom of Italy"
 ITA1900_traditional_conservatism:0 "Kingdom of Italy"

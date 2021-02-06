@@ -19,6 +19,7 @@ JIX = "countries/Jiangxi.txt"
 HNN = "countries/Hunan.txt"
 HBE = "countries/Hubei.txt"
 ANH = "countries/Anhui.txt"
+GNG = "countries/Kaiser-Wilhelmsland.txt"
 
 LUX = "countries/Luxemburg.txt"
 BEL = "countries/Belgium.txt"
