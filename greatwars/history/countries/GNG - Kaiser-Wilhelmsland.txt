@@ -3,7 +3,7 @@
 1900.1.1 = {
 
 	set_cosmetic_tag = GNG_GER
-	set_convoys = 20
+	set_convoys = 75
 
 	set_politics = {
 		ruling_party = centrism
@@ -13,12 +13,12 @@
 	}
 	set_popularities = {
 		vanguard_communism = 0
-		social_egalitarianism = 5
-		centrism = 55
-		traditional_conservatism = 0
-		radical_democracy = 5
-		chauvinist_populism = 5
-		autocracy = 30
+		social_egalitarianism = 0
+		centrism = 97
+		traditional_conservatism = 3
+		radical_democracy = 0
+		chauvinist_populism = 0
+		autocracy = 0
 		democratic_socialism = 0
 	}
 
@@ -27,8 +27,8 @@
 		desc = ""
 		picture = "Wilhelm_II.dds"
 		ideology = liberal
-		traits = {
-			kaiserin_of_the_people
-		}
+		#traits = {
+		#	
+		#}
 	}
 }
