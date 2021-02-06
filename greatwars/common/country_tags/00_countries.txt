@@ -23,6 +23,7 @@ GNG = "countries/Kaiser-Wilhelmsland.txt"
 BOS = "countries/Bosnia.txt"
 SER = "countries/Serbia.txt"
 MNT = "countries/Montenegro.txt"
+CRE = "countries/Cretan State"
 
 LUX = "countries/Luxemburg.txt"
 BEL = "countries/Belgium.txt"
