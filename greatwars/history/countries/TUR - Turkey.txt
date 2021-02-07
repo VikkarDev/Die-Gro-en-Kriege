@@ -7,6 +7,8 @@ capital = 49
 
 	set_convoys = 159
 
+	puppet = CRE
+
 	if = {
 		limit = {
 			OR = {
@@ -20,8 +22,6 @@ capital = 49
 		}
 		else = {
 			puppet = BUL
-		}
-	}
 
 	set_research_slots = 3
 
