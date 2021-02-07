@@ -16,6 +16,9 @@ capital = 49
 		}
 		set_autonomy = {
 			target = BUL
+			autonomous_state = autonomy_integrated_puppet
+		}
+		set_autonomy = {
 			target = POS
 			autonomous_state = autonomy_integrated_puppet
 		}
