@@ -53,6 +53,53 @@ GER_artillery_desc:0 ""
 HISTORICAL_BREAK:0 "§RThis will break the historical route of the mod!§!"
 NOT_COMPLETE:0 "§RThis focus is not complete!§!"
 
+### NewGeneric
+economic_focus:0 "The Economy"
+economic_focus_desc:0 ""
+develop_the_civillion_industry:0 "Develop Civilan Industry"
+develop_the_civillion_industry_desc:0 ""
+public_works:0 "Government Projects"
+public_works_desc:0 ""
+more_factories:0 "Private Buisnesses"
+more_factories_desc:0 ""
+invest_research:0 "Establish Local Schools"
+invest_research_desc:0 ""
+foriegn_investments:0 "Foriegn Capital"
+foriegn_investments_desc:0 ""
+military_infustructure:0 "Military Drills"
+military_infustructure_desc:0 ""
+increase_funding_for_research:0 "Increase Funding For Research"
+increase_funding_for_research_desc:0 ""
+internal_improvments:0 "Internal Improvments"
+internal_improvments_desc:0 ""
+increase_production:0 "Increase Production"
+increase_production_desc:0 ""
+weapons_factories:0 "Weapons Factories"
+weapons_factories_des:0 ""
+machine_tools:0 "Machine Tools"
+machine_tools_desc:0 ""
+steel_mines:0 "Steel Mines"
+steel_mines_desc:0 ""
+war_economy:0 "War Economy"
+war_economy_desc:0 ""
+industrial_beast:0 "Industrial Powerhouse"
+industrial_beast_desc:0 ""
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #### Generic
 
 WHILE_FOCUSING:0 "While focusing on this, there will be the following effects:\n$EFF$"
