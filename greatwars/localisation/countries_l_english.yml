@@ -40,7 +40,11 @@
  BOX_autocracy:0 "Boxer Rebellion"
  BOX_autocracy_DEF:0 "The Boxer Rebellion"
  BOX_autocracy_ADJ:0 "Chinese"
-
+ 
+ POS_autocracy:0 "Principality of Samos"
+ POS_autocracy_DEF:0 "The Principality of Samos"
+ POS_autocracy_ADJ:0 "Greek"
+ 
  SHA_autocracy:0 "Shandong"
  SHA_autocracy_DEF:0 "Shandong"
  SHA_autocracy_ADJ: "Chinese"

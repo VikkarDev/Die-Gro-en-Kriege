@@ -1,0 +1,30 @@
+capital = 831
+
+OOB = "POS_1900"
+
+set_convoys = 45
+
+set_research_slots = 2
+
+set_politics = {
+	ruling_party = autocracy
+	elections_allowed = no
+}
+
+	set_popularities = {
+		vanguard_communism = 0
+		social_egalitarianism = 0
+		centrism = 50
+		traditional_conservatism = 50
+		radical_democracy = 0
+		chauvinist_populism = 0
+		autocracy = 0
+		democratic_socialism = 0
+	}
+
+create_country_leader = {
+	name = "Michail Grigoriadis"
+	desc = ""
+	picture = ""
+	ideology = despotism
+}
