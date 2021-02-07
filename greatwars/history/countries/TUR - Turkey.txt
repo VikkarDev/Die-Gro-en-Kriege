@@ -18,13 +18,8 @@ capital = 49
 			target = BUL
 			autonomous_state = autonomy_integrated_puppet
 		}
-		set_autonomy = {
-			target = CRE
-			autonomous_state = autonomy_integrated_puppet
-		}
 		else = {
 			puppet = BUL
-			puppet = CRE
 		}
 	}
 
