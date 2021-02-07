@@ -1,10 +1,10 @@
 state={
 	id=828
 	name="STATE_828"
-	state_category=wasteland
+	state_category = wasteland
 	history={
-		add_core_of = LBA
-		owner=ENG
+		add_core_of = LIB
+		owner = ENG
 		add_claim_by = TUR
 	}
 	provinces={

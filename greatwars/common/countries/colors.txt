@@ -100,8 +100,8 @@ MNT = {
 	color_ui = rgb { 77  90  105 }
 }
 CRE = {
-	color = rgb { 219 147 53 }
-	color_ui = rgb { 219 147 53 }
+	color = rgb { 170  10  10 }
+	color_ui = rgb { 200  10  10 }
 }
 
 LUX = {
