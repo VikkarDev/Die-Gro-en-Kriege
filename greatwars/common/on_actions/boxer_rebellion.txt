@@ -1,0 +1,16 @@
+on_actions = {
+	on_capitulation = {
+		effect = {
+			if = {
+				limit = {
+					tag = CHI #country that capitulates
+					date < 1900.6.21
+					has_global_flag = is_dgk_scripted_false
+				}
+				BOX = {
+					country_event = { id = boxer_rebellion.5 }
+				}
+			}
+		}
+	}	
+}

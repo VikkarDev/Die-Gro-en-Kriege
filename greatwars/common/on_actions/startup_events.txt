@@ -2,7 +2,7 @@ on_actions = {
 	on_startup = {
 		effect = {
 			every_country = {
-				country_event = { id = gw_generic.1 }
+				country_event = { id = dgk_generic.1 }
 			}
 		}
 	}	
