@@ -70,19 +70,19 @@ guiTypes = {
 			quadTextureSprite ="achievements"
 			pdx_tooltip = "MENU_ACHIEVEMENTS"
 		}
-		iconType =
-		{
-			name ="frontend_dev_logo"
-			spriteType = "GFX_frontend_dev_logo"
-			position = { x= 15 y = 15 }
-		}
+		#iconType =
+		#{
+		#	name ="frontend_dev_logo"
+		#	spriteType = "GFX_frontend_dev_logo"
+		#	position = { x= 15 y = 15 }
+		#}
 
-		iconType =
-		{
-			name ="pdx_int_logo"
-			spriteType = "GFX_pdx_int_logo"
-			position = { x= 135 y = 15 }
-		}
+		#iconType =
+		#{
+		#	name ="pdx_int_logo"
+		#	spriteType = "GFX_pdx_int_logo"
+		#	position = { x= 135 y = 15 }
+		#}
 
 	}
 
@@ -379,7 +379,7 @@ guiTypes = {
 			quadTextureSprite ="twitter"
 			#clicksound = click_default
 			pdx_tooltip = "MENU_TWITTER"
-			web_link = "https://twitter.com/laynekelleyy"
+			web_link = "https://twitter.com/hoi_game"
 		}
 
 		#ButtonType = {

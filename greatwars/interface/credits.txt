@@ -1,7 +1,7 @@
-﻿#Hearts of Iron IV: Battle for the Bosporus
+﻿#Die Grossen Kriege | A Hearts of Iron 4 Mod
 
-#GAME DIRECTOR
-Dan Lind
+#Lead Developer
+bernie
 
 #GAME PRODUCER
 Vachon Pugh

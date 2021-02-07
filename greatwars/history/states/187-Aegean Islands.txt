@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		owner=TUR
+		owner = TUR
 		buildings = {
 			infrastructure = 1
 			dockyard = 1
@@ -26,10 +26,11 @@ state={
 		}
 		add_core_of = GRE
 		add_core_of = TUR
+
 	}
 
 	provinces={
-		3401 6550 8435 
+		6550 8435 
 	}
 	manpower=322600
 	buildings_max_level_factor=1.000
