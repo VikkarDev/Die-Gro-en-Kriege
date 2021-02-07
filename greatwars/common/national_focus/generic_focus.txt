@@ -74,7 +74,7 @@ focus_tree = {
 	}
 	focus = {
 		id = economic_focus
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_focus_usa_reestablish_the_gold_standard
 		x = 15
 		y = 0
 		cost = 10
@@ -136,7 +136,7 @@ focus_tree = {
 	}
 	focus = {
 		id = develop_the_civillion_industry
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_focus_generic_industry_3
 		x = 19
 		y = 2
 		cost = 10
@@ -158,7 +158,7 @@ focus_tree = {
 	}
 	focus = {
 		id = public_works
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_focus_spa_the_spanish_miracle
 		x = 17
 		y = 1
 		cost = 10
@@ -179,7 +179,7 @@ focus_tree = {
 	}
 		focus = {
 		id = more_factories
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_goal_generic_construct_civ_factory
 		x = 18
 		y = 3
 		cost = 10
@@ -201,7 +201,7 @@ focus_tree = {
 	}
 	focus = {
 		id = invest_research
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_focus_research
 		x = 15
 		y = 1
 		cost = 10
@@ -216,7 +216,7 @@ focus_tree = {
 	}
 	focus = {
 		id = foriegn_investments
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_goal_generic_intelligence_exchange
 		x = 13
 		y = 1
 		cost = 10
@@ -232,7 +232,7 @@ focus_tree = {
 	}
 	focus = {
 		id = military_infustructure
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_focus_generic_combined_arms
 		x = 10
 		y = 3
 		cost = 10
@@ -248,7 +248,7 @@ focus_tree = {
 	}
 	focus = {
 		id = increase_funding_for_research
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_focus_generic_socialist_science
 		x = 13
 		y = 5
 		cost = 10
@@ -263,7 +263,7 @@ focus_tree = {
 	}
 	focus = {
 		id = internal_improvments
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_goal_generic_construct_infrastructure
 		x = 15
 		y = 3
 		cost = 10
@@ -331,7 +331,7 @@ focus_tree = {
 	}
 	focus = {
 		id = increase_production
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_focus_generic_license_production
 		x = 12
 		y = 3
 		cost = 10
@@ -351,7 +351,7 @@ focus_tree = {
 	}
 	focus = {
 		id = weapons_factories
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_focus_secret_rearmament
 		x = 11
 		y = 2
 		cost = 10
@@ -371,7 +371,7 @@ focus_tree = {
 	}
 	focus = {
 		id = machine_tools
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_goal_generic_construction2
 		x = 17
 		y = 5
 		cost = 10
@@ -392,7 +392,7 @@ focus_tree = {
 	}
 	focus = {
 		id = steel_mines
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_focus_generic_steel
 		x = 20
 		y = 3
 		cost = 10
@@ -414,7 +414,7 @@ focus_tree = {
 	}
 	focus = {
 		id = war_economy
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_goal_generic_construct_mil_factory
 		x = 11
 		y = 4
 		cost = 10
@@ -437,7 +437,7 @@ focus_tree = {
 	}
 	focus = {
 		id = industrial_beast
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_focus_generic_the_giant_wakes
 		x = 19
 		y = 4
 		cost = 10
