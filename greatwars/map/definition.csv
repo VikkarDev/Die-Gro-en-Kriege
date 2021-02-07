@@ -13238,4 +13238,6 @@
 13237;127;38;198;land;false;urban;1
 13238;32;66;203;land;false;forest;1
 13239;180;47;227;land;true;plains;1
-13240;255;66;203;land;false;unknown;0
+13240;255;66;203;land;false;plains;0
+13241;133;60;35;land;false;desert;1
+13242;142;184;12;land;false;desert;1
