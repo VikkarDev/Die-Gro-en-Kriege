@@ -1,13 +1,18 @@
 spriteTypes = {
 
 	spriteType = {
-		name = "GFX_gw_1900_bookmark"
+		name = "GFX_dgk_1900_bookmark"
 		texturefile = "gfx/interface/select_date_1900.dds"
 	}
 
 	spriteType = {
-		name = "GFX_gw_1914_bookmark"
+		name = "GFX_dgk_1914_bookmark"
 		texturefile = "gfx/interface/select_date_1914.dds"
+	}
+
+	spriteType = {
+		name = "GFX_dgk_1918_bookmark"
+		texturefile = "gfx/interface/select_date_1918.dds"
 	}
 
 }
