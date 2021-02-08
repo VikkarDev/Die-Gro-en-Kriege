@@ -15,11 +15,11 @@ focus_tree = {
 	continuous_focus_position = { x = 50 y = 1000 }
 
 	focus = {
-		id = GER_german_army
+		id = GER_german_imperial_air_force
 		icon = GFX_ger_focus_german_army
 		search_filters = { FOCUS_FILTER_MANPOWER }
-		x = 38
-		y = 0
+		x = 11
+		y = 8
 
 		#mutually_exclusive = { focus = GER_contain_wilhelm_ii }
 		cost = 10
@@ -111,7 +111,7 @@ focus_tree = {
 		id = GER_weltpolitik
 		icon = GFX_ger_focus_weltpolitik
 		search_filters = { FOCUS_FILTER_POLITICAL }
-		x = 40
+		x = 50
 		y = 0
 
 		mutually_exclusive = { focus = GER_birth_of_republic }
@@ -141,7 +141,7 @@ focus_tree = {
 		id = GER_birth_of_republic
 		icon = GFX_ger_focus_birth_of_republic
 		search_filters = { FOCUS_FILTER_POLITICAL }
-		x = 46
+		x = 65
 		y = 0
 
 		mutually_exclusive = { focus = GER_weltpolitik }
@@ -641,7 +641,7 @@ focus_tree = {
 		
 		cost = 10
 		
-		prerequisite = { focus = GER_m }
+		prerequisite = { focus = GER_public_works }
 		available = {
 			country_exists = GER
 		}
@@ -664,7 +664,7 @@ focus_tree = {
 		
 		cost = 10
 		
-		prerequisite = { focus = GER_m }
+		prerequisite = { focus = GER_the_cartel_system }
 		available = {
 			country_exists = GER
 		}
@@ -687,7 +687,7 @@ focus_tree = {
 		
 		cost = 10
 		
-		prerequisite = { focus = GER_m }
+		prerequisite = { focus = GER_deutsches_kolonialreich }
 		available = {
 			country_exists = GER
 		}
@@ -710,7 +710,7 @@ focus_tree = {
 		
 		cost = 10
 		
-		prerequisite = { focus = GER_m }
+		prerequisite = { focus = GER_deutsches_kolonialreich }
 		available = {
 			country_exists = GER
 		}
@@ -733,7 +733,7 @@ focus_tree = {
 		
 		cost = 10
 		
-		prerequisite = { focus = GER_m }
+		prerequisite = { focus = GER_deutsches_kolonialreich }
 		available = {
 			country_exists = GER
 		}
@@ -756,7 +756,7 @@ focus_tree = {
 		
 		cost = 10
 		
-		prerequisite = { focus = GER_m }
+		prerequisite = { focus = GER_the_cartel_system }
 		available = {
 			country_exists = GER
 		}
@@ -779,7 +779,7 @@ focus_tree = {
 		
 		cost = 10
 		
-		prerequisite = { focus = GER_m }
+		prerequisite = { focus = GER_public_works }
 		available = {
 			country_exists = GER
 		}
@@ -802,7 +802,7 @@ focus_tree = {
 		
 		cost = 10
 		
-		prerequisite = { focus = GER_m }
+		prerequisite = { focus = GER_public_works }
 		available = {
 			country_exists = GER
 		}
@@ -825,7 +825,7 @@ focus_tree = {
 		
 		cost = 10
 		
-		prerequisite = { focus = GER_m }
+		prerequisite = { focus = GER_the_cartel_system }
 		available = {
 			country_exists = GER
 		}
@@ -848,7 +848,9 @@ focus_tree = {
 		
 		cost = 10
 		
-		prerequisite = { focus = GER_m }
+		prerequisite = { focus = GER_speed_up_army_size }
+		prerequisite = { focus = GER_cololnial_arms_factories focus = GER_colonial_investments focus = GER_subsidis_colonial_industry }
+		prerequisite = { focus = GER_increase_education_funding focus = GER_synthetic_rubber focus = GER_mighty_industry }
 		available = {
 			country_exists = GER
 		}
@@ -1173,200 +1175,17 @@ focus_tree = {
 			}				
 	}
 	focus = {
-		id = GER_all1
-		icon = GFX_GER_focus_artillery
-		search_filters = { FOCUS_FILTER_MANPOWER }
-		x = 29
-		y = 10
-
-		
-		cost = 10
-		
-		prerequisite = { focus = GER_m }
-		available = {
-			country_exists = GER
-		}
-
-		bypass = {
-			
-		}
-
-		completion_reward = { 
-			
-			}				
-	}
-	focus = {
-		id = GER_all2
-		icon = GFX_GER_focus_artillery
-		search_filters = { FOCUS_FILTER_MANPOWER }
-		x = 30
-		y = 10
-
-		
-		cost = 10
-		
-		prerequisite = { focus = GER_m }
-		available = {
-			country_exists = GER
-		}
-
-		bypass = {
-			
-		}
-
-		completion_reward = { 
-			
-			}				
-	}
-	focus = {
-		id = GER_all3
-		icon = GFX_GER_focus_artillery
-		search_filters = { FOCUS_FILTER_MANPOWER }
-		x = 31
-		y = 10
-
-		
-		cost = 10
-		
-		prerequisite = { focus = GER_m }
-		available = {
-			country_exists = GER
-		}
-
-		bypass = {
-			
-		}
-
-		completion_reward = { 
-			
-			}				
-	}
-	focus = {
-		id = GER_all4
-		icon = GFX_GER_focus_artillery
-		search_filters = { FOCUS_FILTER_MANPOWER }
-		x = 32
-		y = 10
-
-		
-		cost = 10
-		
-		prerequisite = { focus = GER_m }
-		available = {
-			country_exists = GER
-		}
-
-		bypass = {
-			
-		}
-
-		completion_reward = { 
-			
-			}				
-	}
-	focus = {
-		id = GER_all5
-		icon = GFX_GER_focus_artillery
-		search_filters = { FOCUS_FILTER_MANPOWER }
-		x = 33
-		y = 10
-
-		
-		cost = 10
-		
-		prerequisite = { focus = GER_m }
-		available = {
-			country_exists = GER
-		}
-
-		bypass = {
-			
-		}
-
-		completion_reward = { 
-			
-			}				
-	}
-	focus = {
-		id = GER_all7
-		icon = GFX_GER_focus_artillery
-		search_filters = { FOCUS_FILTER_MANPOWER }
-		x = 34
-		y = 10
-
-		
-		cost = 10
-		
-		prerequisite = { focus = GER_m }
-		available = {
-			country_exists = GER
-		}
-
-		bypass = {
-			
-		}
-
-		completion_reward = { 
-			
-			}				
-	}
-	focus = {
-		id = GER_col1
-		icon = GFX_GER_focus_artillery
-		search_filters = { FOCUS_FILTER_MANPOWER }
-		x = 35
-		y = 10
-
-		
-		cost = 10
-		
-		prerequisite = { focus = GER_m }
-		available = {
-			country_exists = GER
-		}
-
-		bypass = {
-			
-		}
-
-		completion_reward = { 
-			
-			}				
-	}
-	focus = {
-		id = GER_col14
-		icon = GFX_GER_focus_artillery
-		search_filters = { FOCUS_FILTER_MANPOWER }
-		x = 36
-		y = 10
-
-		
-		cost = 10
-		
-		prerequisite = { focus = GER_m }
-		available = {
-			country_exists = GER
-		}
-
-		bypass = {
-			
-		}
-
-		completion_reward = { 
-			
-			}				
-	}
-	focus = {
-		id = GER_col12
+		id = GER_side_with_austria_hungry
 		icon = GFX_GER_focus_artillery
 		search_filters = { FOCUS_FILTER_MANPOWER }
 		x = 37
-		y = 10
+		y = 2
 
 		
 		cost = 10
 		
-		prerequisite = { focus = GER_m }
+		mutually_exclusive = { focus = GER_enter_negotiations_with_italy }
+		prerequisite = { focus = GER_german_allies }
 		available = {
 			country_exists = GER
 		}
@@ -1380,16 +1199,19 @@ focus_tree = {
 			}				
 	}
 	focus = {
-		id = GER_boxer
+		id = GER_fix_kulturekampf
 		icon = GFX_GER_focus_artillery
 		search_filters = { FOCUS_FILTER_MANPOWER }
-		x = 38
-		y = 10
+		x = 51
+		y = 2
 
 		
 		cost = 10
 		
-		prerequisite = { focus = GER_m }
+		mutually_exclusive = { focus = GER_multiculturalism }
+		prerequisite = { focus = GER_welfare_programs }
+		prerequisite = { focus = GER_prussian_militarism }
+		prerequisite = { focus = GER_diplomatic_missions }
 		available = {
 			country_exists = GER
 		}
@@ -1403,240 +1225,707 @@ focus_tree = {
 			}				
 	}
 	focus = {
-		id = GER_balk
-		icon = GFX_GER_focus_artillery
-		search_filters = { FOCUS_FILTER_MANPOWER }
-		x = 39
-		y = 10
-
-		
-		cost = 10
-		
-		prerequisite = { focus = GER_m }
-		available = {
-			country_exists = GER
-		}
-
-		bypass = {
-			
-		}
-
-		completion_reward = { 
-			
-			}				
-	}
-	focus = {
-		id = GER_eu1
-		icon = GFX_GER_focus_artillery
-		search_filters = { FOCUS_FILTER_MANPOWER }
-		x = 40
-		y = 10
-
-		
-		cost = 10
-		
-		prerequisite = { focus = GER_m }
-		available = {
-			country_exists = GER
-		}
-
-		bypass = {
-			
-		}
-
-		completion_reward = { 
-			
-			}				
-	}
-	focus = {
-		id = GER_eu2
-		icon = GFX_GER_focus_artillery
-		search_filters = { FOCUS_FILTER_MANPOWER }
-		x = 41
-		y = 10
-
-		
-		cost = 10
-		
-		prerequisite = { focus = GER_m }
-		available = {
-			country_exists = GER
-		}
-
-		bypass = {
-			
-		}
-
-		completion_reward = { 
-			
-			}				
-	}
-	focus = {
-		id = GER_eu3
-		icon = GFX_GER_focus_artillery
-		search_filters = { FOCUS_FILTER_MANPOWER }
-		x = 42
-		y = 10
-
-		
-		cost = 10
-		
-		prerequisite = { focus = GER_m }
-		available = {
-			country_exists = GER
-		}
-
-		bypass = {
-			
-		}
-
-		completion_reward = { 
-			
-			}				
-	}
-	focus = {
-		id = GER_eu4
-		icon = GFX_GER_focus_artillery
-		search_filters = { FOCUS_FILTER_MANPOWER }
-		x = 43
-		y = 10
-
-		
-		cost = 10
-		
-		prerequisite = { focus = GER_m }
-		available = {
-			country_exists = GER
-		}
-
-		bypass = {
-			
-		}
-
-		completion_reward = { 
-			
-			}				
-	}
-	focus = {
-		id = GER_eu5
-		icon = GFX_GER_focus_artillery
-		search_filters = { FOCUS_FILTER_MANPOWER }
-		x = 44
-		y = 10
-
-		
-		cost = 10
-		
-		prerequisite = { focus = GER_m }
-		available = {
-			country_exists = GER
-		}
-
-		bypass = {
-			
-		}
-
-		completion_reward = { 
-			
-			}				
-	}
-	focus = {
-		id = GER_ger1
-		icon = GFX_GER_focus_artillery
-		search_filters = { FOCUS_FILTER_MANPOWER }
-		x = 45
-		y = 10
-
-		
-		cost = 10
-		
-		prerequisite = { focus = GER_m }
-		available = {
-			country_exists = GER
-		}
-
-		bypass = {
-			
-		}
-
-		completion_reward = { 
-			
-			}				
-	}
-	focus = {
-		id = GER_ger2
-		icon = GFX_GER_focus_artillery
-		search_filters = { FOCUS_FILTER_MANPOWER }
-		x = 46
-		y = 10
-
-		
-		cost = 10
-		
-		prerequisite = { focus = GER_m }
-		available = {
-			country_exists = GER
-		}
-
-		bypass = {
-			
-		}
-
-		completion_reward = { 
-			
-			}				
-	}
-	focus = {
-		id = GER_ger3
-		icon = GFX_GER_focus_artillery
-		search_filters = { FOCUS_FILTER_MANPOWER }
-		x = 47
-		y = 10
-
-		
-		cost = 10
-		
-		prerequisite = { focus = GER_m }
-		available = {
-			country_exists = GER
-		}
-
-		bypass = {
-			
-		}
-
-		completion_reward = { 
-			
-			}				
-	}
-	focus = {
-		id = GER_alt1
-		icon = GFX_GER_focus_artillery
-		search_filters = { FOCUS_FILTER_MANPOWER }
-		x = 48
-		y = 10
-
-		
-		cost = 10
-		
-		prerequisite = { focus = GER_m }
-		available = {
-			country_exists = GER
-		}
-
-		bypass = {
-			
-		}
-
-		completion_reward = { 
-			
-			}				
-	}
-	focus = {
-		id = GER_alt2
+		id = GER_a_germany_for_all
 		icon = GFX_GER_focus_artillery
 		search_filters = { FOCUS_FILTER_MANPOWER }
 		x = 49
+		y = 3
+
+		
+		cost = 10
+		
+		prerequisite = { focus = GER_multiculturalism }
+		available = {
+			country_exists = GER
+		}
+
+		bypass = {
+			
+		}
+
+		completion_reward = { 
+			
+			}				
+	}
+	focus = {
+		id = GER_central_powers
+		icon = GFX_GER_focus_artillery
+		search_filters = { FOCUS_FILTER_MANPOWER }
+		x = 37
+		y = 4
+
+		
+		cost = 10
+		
+		prerequisite = { focus = GER_joint_military_training }
+		prerequisite = { focus = GER_support_austrias_annexation_of_bosnia }
+		available = {
+			country_exists = GER
+		}
+
+		bypass = {
+			
+		}
+
+		completion_reward = { 
+			
+			}				
+	}
+	focus = {
+		id = GER_multiculturalism
+		icon = GFX_GER_focus_artillery
+		search_filters = { FOCUS_FILTER_MANPOWER }
+		x = 49
+		y = 2
+
+		
+		cost = 10
+		
+		mutually_exclusive = { focus = GER_fix_kulturekampf }
+		prerequisite = { focus = GER_prussian_militarism }
+		prerequisite = { focus = GER_welfare_programs }
+		prerequisite = { focus = GER_diplomatic_missions }
+		available = {
+			country_exists = GER
+		}
+
+		bypass = {
+			
+		}
+
+		completion_reward = { 
+			
+			}				
+	}
+	focus = {
+		id = GER_a_germany_for_germans
+		icon = GFX_GER_focus_artillery
+		search_filters = { FOCUS_FILTER_MANPOWER }
+		x = 51
+		y = 3
+
+		
+		cost = 10
+		
+		prerequisite = { focus = GER_fix_kulturekampf }
+		available = {
+			country_exists = GER
+		}
+
+		bypass = {
+			
+		}
+
+		completion_reward = { 
+			
+			}				
+	}
+	focus = {
+		id = GER_our_place_in_the_sun
+		icon = GFX_GER_focus_artillery
+		search_filters = { FOCUS_FILTER_MANPOWER }
+		x = 50
+		y = 4
+
+		
+		cost = 10
+		
+		prerequisite = { focus = GER_a_germany_for_all focus = GER_a_germany_for_germans }
+		available = {
+			country_exists = GER
+		}
+
+		bypass = {
+			
+		}
+
+		completion_reward = { 
+			
+			}				
+	}
+	focus = {
+		id = GER_enter_negotiations_with_italy
+		icon = GFX_GER_focus_artillery
+		search_filters = { FOCUS_FILTER_MANPOWER }
+		x = 43
+		y = 2
+
+		
+		cost = 10
+		
+		mutually_exclusive = { focus = GER_side_with_austria_hungry }
+		prerequisite = { focus = GER_german_allies }
+		available = {
+			country_exists = GER
+		}
+
+		bypass = {
+			
+		}
+
+		completion_reward = { 
+			
+			}				
+	}
+	focus = {
+		id = GER_elections
+		icon = GFX_GER_focus_artillery
+		search_filters = { FOCUS_FILTER_MANPOWER }
+		x = 66
+		y = 1
+
+		
+		cost = 10
+		
+		prerequisite = { focus = GER_birth_of_republic }
+		available = {
+			country_exists = GER
+		}
+
+		bypass = {
+			
+		}
+
+		completion_reward = { 
+			
+			}				
+	}
+	focus = {
+		id = GER_boxer_rebbelion
+		icon = GFX_GER_focus_artillery
+		search_filters = { FOCUS_FILTER_MANPOWER }
+		x = 55
+		y = 1
+
+		
+		cost = 10
+		
+		prerequisite = { focus = GER_weltpolitik focus = GER_birth_of_republic }
+		available = {
+			country_exists = GER
+		}
+
+		bypass = {
+			
+		}
+
+		completion_reward = { 
+			
+			}				
+	}
+	focus = {
+		id = GER_balkan_wars
+		icon = GFX_GER_focus_artillery
+		search_filters = { FOCUS_FILTER_MANPOWER }
+		x = 54
+		y = 2
+
+		
+		cost = 10
+		
+		prerequisite = { focus = GER_boxer_rebbelion }
+		available = {
+			country_exists = GER
+		}
+
+		bypass = {
+			
+		}
+
+		completion_reward = { 
+			
+			}				
+	}
+	focus = {
+		id = GER_rom_berlin_pact
+		icon = GFX_GER_focus_artillery
+		search_filters = { FOCUS_FILTER_MANPOWER }
+		x = 45
+		y = 4
+
+		
+		cost = 10
+		
+		prerequisite = { focus = GER_great_betrayle }
+		available = {
+			country_exists = GER
+		}
+
+		bypass = {
+			
+		}
+
+		completion_reward = { 
+			
+			}				
+	}
+	focus = {
+		id = GER_prussian_militarism
+		icon = GFX_GER_focus_artillery
+		search_filters = { FOCUS_FILTER_MANPOWER }
+		x = 47
+		y = 1
+
+		
+		cost = 10
+		
+		prerequisite = { focus = GER_weltpolitik }
+		available = {
+			country_exists = GER
+		}
+
+		bypass = {
+			
+		}
+
+		completion_reward = { 
+			
+			}				
+	}
+	focus = {
+		id = GER_german_allies
+		icon = GFX_GER_focus_artillery
+		search_filters = { FOCUS_FILTER_MANPOWER }
+		x = 40
+		y = 1
+
+		
+		cost = 10
+		
+		prerequisite = { focus = GER_weltpolitik }
+		available = {
+			country_exists = GER
+		}
+
+		bypass = {
+			
+		}
+
+		completion_reward = { 
+			
+			}				
+	}
+	focus = {
+		id = GER_find_a_compromise
+		icon = GFX_GER_focus_artillery
+		search_filters = { FOCUS_FILTER_MANPOWER }
+		x = 42
+		y = 3
+
+		
+		cost = 10
+		
+		mutually_exclusive = { focus = GER_great_betrayle }
+		prerequisite = { focus = GER_enter_negotiations_with_italy }
+		available = {
+			country_exists = GER
+		}
+
+		bypass = {
+			
+		}
+
+		completion_reward = { 
+			
+			}				
+	}
+	focus = {
+		id = GER_great_betrayle
+		icon = GFX_GER_focus_artillery
+		search_filters = { FOCUS_FILTER_MANPOWER }
+		x = 44
+		y = 3
+
+		
+		cost = 10
+		
+		mutually_exclusive = { focus = GER_find_a_compromise }
+		prerequisite = { focus = GER_enter_negotiations_with_italy }
+		available = {
+			country_exists = GER
+		}
+
+		bypass = {
+			
+		}
+
+		completion_reward = { 
+			
+			}				
+	}
+	focus = {
+		id = GER_support_austrias_annexation_of_bosnia
+		icon = GFX_GER_focus_artillery
+		search_filters = { FOCUS_FILTER_MANPOWER }
+		x = 38
+		y = 3
+
+		
+		cost = 10
+		
+		prerequisite = { focus = GER_side_with_austria_hungry }
+		available = {
+			country_exists = GER
+		}
+
+		bypass = {
+			
+		}
+
+		completion_reward = { 
+			
+			}				
+	}
+	focus = {
+		id = GER_triple_alliance_lives
+		icon = GFX_GER_focus_artillery
+		search_filters = { FOCUS_FILTER_MANPOWER }
+		x = 41
+		y = 4
+
+		
+		cost = 10
+		
+		prerequisite = { focus = GER_find_a_compromise }
+		available = {
+			country_exists = GER
+		}
+
+		bypass = {
+			
+		}
+
+		completion_reward = { 
+			
+			}				
+	}
+	focus = {
+		id = GER_joint_military_training
+		icon = GFX_GER_focus_artillery
+		search_filters = { FOCUS_FILTER_MANPOWER }
+		x = 36
+		y = 3
+
+		
+		cost = 10
+		
+		prerequisite = { focus = GER_side_with_austria_hungry }
+		available = {
+			country_exists = GER
+		}
+
+		bypass = {
+			
+		}
+
+		completion_reward = { 
+			
+			}				
+	}
+	focus = {
+		id = GER_welfare_programs
+		icon = GFX_GER_focus_artillery
+		search_filters = { FOCUS_FILTER_MANPOWER }
+		x = 53
+		y = 1
+
+		
+		cost = 10
+		
+		prerequisite = { focus = GER_weltpolitik }
+		available = {
+			country_exists = GER
+		}
+
+		bypass = {
+			
+		}
+
+		completion_reward = { 
+			
+			}				
+	}
+	focus = {
+		id = GER_enact_reforms
+		icon = GFX_GER_focus_artillery
+		search_filters = { FOCUS_FILTER_MANPOWER }
+		x = 64
+		y = 1
+
+		
+		cost = 10
+		
+		prerequisite = { focus = GER_birth_of_republic }
+		available = {
+			country_exists = GER
+		}
+
+		bypass = {
+			
+		}
+
+		completion_reward = { 
+			
+			}				
+	}
+	focus = {
+		id = GER_diplomatic_missions
+		icon = GFX_GER_focus_artillery
+		search_filters = { FOCUS_FILTER_MANPOWER }
+		x = 50
+		y = 1
+
+		
+		cost = 10
+		
+		prerequisite = { focus = GER_weltpolitik }
+		available = {
+			country_exists = GER
+		}
+
+		bypass = {
+			
+		}
+
+		completion_reward = { 
+			
+			}				
+	}
+	focus = {
+		id = GER_morroco_crisis
+		icon = GFX_GER_focus_artillery
+		search_filters = { FOCUS_FILTER_MANPOWER }
+		x = 56
+		y = 2
+
+		
+		cost = 10
+		
+		prerequisite = { focus = GER_boxer_rebbelion }
+		available = {
+			country_exists = GER
+		}
+
+		bypass = {
+			
+		}
+
+		completion_reward = { 
+			
+			}				
+	}
+	focus = {
+		id = GER_research_exchange
+		icon = GFX_GER_focus_artillery
+		search_filters = { FOCUS_FILTER_MANPOWER }
+		x = 43
+		y = 5
+
+		
+		cost = 10
+		
+		prerequisite = { focus = GER_triple_alliance_lives focus = GER_rom_berlin_pact }
+		available = {
+			country_exists = GER
+		}
+
+		bypass = {
+			
+		}
+
+		completion_reward = { 
+			
+			}				
+	}
+	focus = {
+		id = GER_research_sharing
+		icon = GFX_GER_focus_artillery
+		search_filters = { FOCUS_FILTER_MANPOWER }
+		x = 37
+		y = 5
+
+		
+		cost = 10
+		
+		prerequisite = { focus = GER_central_powers }
+		available = {
+			country_exists = GER
+		}
+
+		bypass = {
+			
+		}
+
+		completion_reward = { 
+			
+			}				
+	}
+	focus = {
+		id = GER_german_aces
+		icon = GFX_GER_focus_artillery
+		search_filters = { FOCUS_FILTER_MANPOWER }
+		x = 11
+		y = 11
+
+		
+		cost = 10
+		
+		prerequisite = { focus = GER_m }
+		available = {
+			country_exists = GER
+		}
+
+		bypass = {
+			
+		}
+
+		completion_reward = { 
+			
+			}				
+	}
+	focus = {
+		id = GER_political
+		icon = GFX_GER_focus_artillery
+		search_filters = { FOCUS_FILTER_MANPOWER }
+		x = 49
+		y = 5
+
+		
+		cost = 10
+		
+		prerequisite = { focus = GER_m }
+		available = {
+			country_exists = GER
+		}
+
+		bypass = {
+			
+		}
+
+		completion_reward = { 
+			
+			}				
+	}
+	focus = {
+		id = GER_air_planes9
+		icon = GFX_GER_focus_artillery
+		search_filters = { FOCUS_FILTER_MANPOWER }
+		x = 48
+		y = 6
+
+		
+		cost = 10
+		
+		prerequisite = { focus = GER_m }
+		available = {
+			country_exists = GER
+		}
+
+		bypass = {
+			
+		}
+
+		completion_reward = { 
+			
+			}				
+	}
+	focus = {
+		id = GER_air_planes8
+		icon = GFX_GER_focus_artillery
+		search_filters = { FOCUS_FILTER_MANPOWER }
+		x = 50
+		y = 7
+
+		
+		cost = 10
+		
+		prerequisite = { focus = GER_m }
+		available = {
+			country_exists = GER
+		}
+
+		bypass = {
+			
+		}
+
+		completion_reward = { 
+			
+			}				
+	}
+	focus = {
+		id = GER_build_air_bases
+		icon = GFX_GER_focus_artillery
+		search_filters = { FOCUS_FILTER_MANPOWER }
+		x = 12
+		y = 9
+
+		
+		cost = 10
+		
+		prerequisite = { focus = GER_m }
+		available = {
+			country_exists = GER
+		}
+
+		bypass = {
+			
+		}
+
+		completion_reward = { 
+			
+			}				
+	}
+	focus = {
+		id = GER_fighter_planes
+		icon = GFX_GER_focus_artillery
+		search_filters = { FOCUS_FILTER_MANPOWER }
+		x = 10
+		y = 9
+
+		
+		cost = 10
+		
+		prerequisite = { focus = GER_m }
+		available = {
+			country_exists = GER
+		}
+
+		bypass = {
+			
+		}
+
+		completion_reward = { 
+			
+			}				
+	}
+	focus = {
+		id = GER_political1
+		icon = GFX_GER_focus_artillery
+		search_filters = { FOCUS_FILTER_MANPOWER }
+		x = 51
+		y = 5
+
+		
+		cost = 10
+		
+		prerequisite = { focus = GER_m }
+		available = {
+			country_exists = GER
+		}
+
+		bypass = {
+			
+		}
+
+		completion_reward = { 
+			
+			}				
+	}
+	focus = {
+		id = GER_doctrines
+		icon = GFX_GER_focus_artillery
+		search_filters = { FOCUS_FILTER_MANPOWER }
+		x = 9
 		y = 10
 
 		
@@ -1656,10 +1945,56 @@ focus_tree = {
 			}				
 	}
 	focus = {
-		id = GER_alt3
+		id = GER_anti_air_defense
 		icon = GFX_GER_focus_artillery
 		search_filters = { FOCUS_FILTER_MANPOWER }
-		x = 50
+		x = 13
+		y = 10
+
+		
+		cost = 10
+		
+		prerequisite = { focus = GER_m }
+		available = {
+			country_exists = GER
+		}
+
+		bypass = {
+			
+		}
+
+		completion_reward = { 
+			
+			}				
+	}
+	focus = {
+		id = GER_air_planes2
+		icon = GFX_GER_focus_artillery
+		search_filters = { FOCUS_FILTER_MANPOWER }
+		x = 52
+		y = 6
+
+		
+		cost = 10
+		
+		prerequisite = { focus = GER_m }
+		available = {
+			country_exists = GER
+		}
+
+		bypass = {
+			
+		}
+
+		completion_reward = { 
+			
+			}				
+	}
+	focus = {
+		id = GER_bombers
+		icon = GFX_GER_focus_artillery
+		search_filters = { FOCUS_FILTER_MANPOWER }
+		x = 11
 		y = 10
 
 		
