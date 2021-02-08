@@ -1,7 +1,7 @@
 technologies = {
 	
-	@1918 = 0
-	@1936 = 2
+	@1898 = 0
+	@1904 = 3
 	@1938 = 4
 	@1939 = 6
 	@1940 = 8
@@ -28,10 +28,10 @@ technologies = {
 		}		
 
 		research_cost = 1.5
-		start_year = 1918
+		start_year = 1898
 		folder = {
 			name = infantry_folder
-			position = { x = 0 y = -1 }
+			position = { x = 0 y = @1898 }
 		}
 		
 		categories = {
@@ -55,10 +55,10 @@ technologies = {
 		}		
 
 		research_cost = 1.5
-		start_year = 1936
+		start_year = 1904
 		folder = {
 			name = infantry_folder
-			position = { x = 0 y = @1936 }
+			position = { x = 0 y = @1904 }
 		}
 		
 		categories = {
@@ -73,14 +73,14 @@ technologies = {
 				tag = CHI
 				
 				OR = {
-					date > "1937.1.1"
+					date > "1905.1.1"
 					JAP = { is_ai = no }
 				}
 			}
 			
 			modifier = {
 				factor = 10
-				date > "1936.1.3"
+				date > "1904.1.3"
 			}
 		}
 	}	
