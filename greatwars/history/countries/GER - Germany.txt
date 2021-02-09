@@ -1,0 +1,74 @@
+capital = 819
+
+1900.1.1 = {
+
+	oob = "GER_1900"
+
+	set_convoys = 200
+
+	set_stability = 0.8
+	set_war_support = 0.4
+	set_research_slots = 4
+
+	set_cosmetic_tag = GER_EMPIRE
+	#create_faction = "Central Powers"
+	#add_to_faction = GER
+
+	if = {
+		limit = {
+			OR = {
+				has_dlc = "Together for Victory"
+				has_dlc = "Man the Guns"
+			}
+		}
+		set_autonomy = {
+			target = GNG
+			autonomy_state = autonomy_protectorate
+		}
+		set_autonomy = {
+			target = GEA
+			autonomy_state = autonomy_protectorate
+		}
+		else = {
+			puppet = GNG
+			puppet = GEA
+		}
+	}
+
+	add_ideas = {
+		german_colonies
+
+		# government
+		limited_conscription
+		limited_exports
+		partial_economic_mobilisation
+	}
+
+	set_politics = {
+		ruling_party = centrism
+		#last_election = "2078.9.26"
+		#election_frequency = 48
+		#elections_allowed = yes
+	}
+
+	set_popularities = {
+		vanguard_communism = 0
+		social_egalitarianism = 5
+		centrism = 55
+		traditional_conservatism = 0
+		radical_democracy = 5
+		chauvinist_populism = 5
+		autocracy = 30
+		democratic_socialism = 0
+	}
+
+	create_country_leader = {
+		name = "Wilhelm II"
+		desc = ""
+		picture = "Wilhelm_II.dds"
+		ideology = liberal
+		traits = {
+			kaiserin_of_the_people
+		}
+	}
+}
