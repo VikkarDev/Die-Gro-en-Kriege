@@ -1,0 +1,303 @@
+ideas = {
+	country = {
+		wilhelm_ii = {
+		picture = ger_wilhelm_ii
+	  
+		allowed = {
+			tag = GER
+		}
+	  
+		#rule = {
+		#	can_create_factions = yes
+		#}
+
+		traits = {
+			imperial_connections
+		}
+	  }
+	}
+
+	country = {
+		german_army = {
+		picture = ger_german_army
+	  
+		allowed = {
+			tag = GER
+		}
+	  
+		modifier = {
+			dig_in_speed = 10
+			army_speed_factor = 0.05
+		}
+	  }
+	}
+
+	country = {
+		german_colonies = {
+		picture = ger_german_colonies
+	  
+		allowed = {
+			tag = GER
+		}
+	  
+		modifier = {
+			stability_factor = -0.05
+			political_power_gain = 1.25
+			consumer_goods_factor = 0.01
+		}
+	  }
+	}
+
+	country = {
+		german_economy = {
+		picture = ger_german_economy
+	  
+		allowed = {
+			tag = GER
+		}
+	  
+		modifier = {
+			production_factory_efficiency_gain_factor = 0.05
+			political_power_gain = -0.75
+		}
+	  }
+	}
+	country = {
+		german_textiles = {
+		picture = ger_german_army
+	  
+		allowed = {
+			tag = GER
+		}
+	  
+		modifier = {
+			min_export = 0.2
+			political_power_gain = 0.1
+			local_resources = 0.25
+		}
+	  }
+	}
+	country = {
+		cartel_system = {
+		picture = ger_german_army
+	  
+		allowed = {
+			tag = GER
+		}
+	  
+		modifier = {
+			consumer_goods_factor = -0.04
+			production_speed_buildings_factor = 0.1
+			line_change_production_efficiency_factor = 0.075
+		}
+	  }
+	}
+	country = {
+		bloated_naval_budget1 = {
+		picture = ger_bloated_naval_budget
+	  
+		allowed = {
+			tag = GER
+		}
+	  
+		modifier = {
+			consumer_goods_factor = 0.25
+			industrial_capacity_dockyard = 0.35
+			
+		}
+	  }
+	}
+	country = {
+		naval_arms_race = {
+		picture = ger_german_army
+	  
+		allowed = {
+			tag = GER
+		}
+	  
+		modifier = {
+			navy_intel_to_others = 10
+			ai_focus_naval_factor = 0.25
+			experience_gain_navy = 0.002
+			navy_capital_ship_attack_factor = 0.1
+			naval_research_speed_factor = 0.2
+			add_opinion_modifier = { target = ENG modifier = medium_decrease }
+		}
+	  }
+	}
+	country = {
+		bloated_naval_budget2 = {
+		picture = ger_bloated_naval_budget
+	  
+		allowed = {
+			tag = GER
+		}
+	  
+		modifier = {
+			consumer_goods_factor = 0.20
+			industrial_capacity_dockyard = 0.25
+		}
+	  }
+	}
+	country = {
+		bloated_naval_budget3 = {
+		picture = ger_bloated_naval_budget
+	  
+		allowed = {
+			tag = GER
+		}
+	  
+		modifier = {
+			consumer_goods_factor = 0.15
+			industrial_capacity_dockyard = 0.20
+		}
+	  }
+	}
+	country = {
+		bloated_naval_budget4 = {
+		picture = ger_bloated_naval_budget
+	  
+		allowed = {
+			tag = GER
+		}
+	  
+		modifier = {
+			consumer_goods_factor = 0.5
+			industrial_capacity_dockyard = 0.10
+		}
+	  }
+	}
+	country = {
+		mass_conscription = {
+		picture = ger_german_army
+	  
+		allowed = {
+			tag = GER
+		}
+	  
+		modifier = {
+			conscription = 0.02
+			war_support_factor = -0.05
+			training_time_factor = -0.2
+		}
+	  }
+	}
+	country = {
+		german_reserve_system = {
+		picture = ger_german_army
+	  
+		allowed = {
+			tag = GER
+		}
+	  
+		modifier = {
+				special_forces_cap = 0.2
+				planning_speed = 0.05
+				army_org = 5
+			}
+		}
+	}
+	country = {
+		german_imperial_admirality = {
+		picture = ger_german_army
+	  
+		allowed = {
+			tag = GER
+		}
+	  
+		modifier = {
+			navy_leader_start_coordination_level = 1 
+			navy_leader_start_attack_level = 1 
+			naval_coordination = 0.15
+			
+		}
+	  }
+	}
+	country = {
+		german_aces = {
+		picture = ger_german_army
+	  
+		allowed = {
+			tag = GER
+		}
+	  
+		modifier = {
+			air_volunteer_cap = 100
+			air_ace_generation_chance_factor = 0.2
+		}
+	  }
+	}
+	country = {
+		welfare_programs = {
+		picture = ger_german_army
+	  
+		allowed = {
+			tag = GER
+		}
+	  
+		modifier = {
+			political_power_gain = 0.15
+			consumer_goods_factor = 0.01
+			stability_factor = 0.1
+			
+			
+		}
+	  }
+	}
+	country = {
+		colony_cost1 = {
+		picture = ger_german_army
+	  
+		allowed = {
+			tag = GER
+		}
+	  
+		modifier = {
+			consumer_goods_factor = 0.08
+			production_speed_buildings_factor = 0.05
+		}
+	  }
+	}
+	country = {
+		colony_cost2 = {
+		picture = ger_german_army
+	  
+		allowed = {
+			tag = GER
+		}
+	  
+		modifier = {
+			consumer_goods_factor = 0.06
+			production_speed_buildings_factor = 0.08
+		}
+	  }
+	}
+	country = {
+		colony_cost3 = {
+		picture = ger_german_army
+	  
+		allowed = {
+			tag = GER
+		}
+	  
+		modifier = {
+			consumer_goods_factor = 0.03
+			production_speed_buildings_factor = 0.11
+		}
+	  }
+	}
+	country = {
+		colony_cost4 = {
+		picture = ger_german_army
+	  
+		allowed = {
+			tag = GER
+		}
+	  
+		modifier = {
+			consumer_goods_factor = -0.01
+			production_speed_buildings_factor = 0.15 
+		}
+	  }
+	}
+}
