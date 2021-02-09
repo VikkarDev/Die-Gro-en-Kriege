@@ -16,6 +16,16 @@ spriteTypes = {
 	}
 
 	SpriteType = {
+		name = "GFX_idea_ger_bloated_naval_budget"
+		texturefile = "gfx/interface/ideas/ger/GER_idea_bloated_naval_budget.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_idea_ger_economic_investments"
+		texturefile = "gfx/interface/ideas/ger/GER_idea_economic_investments.dds"
+	}
+
+	SpriteType = {
 		name = "GFX_idea_ger_german_colonies"
 		texturefile = "gfx/interface/ideas/ger/GER_idea_german_colonies.dds"
 	}

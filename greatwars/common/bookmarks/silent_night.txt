@@ -43,6 +43,7 @@ bookmarks = {
 			ideas = {
 				german_army
 				german_colonies
+				naval_arms_race
 			}
 			focuses = {
 				GER_weltpolitik
