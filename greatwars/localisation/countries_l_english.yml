@@ -758,9 +758,9 @@
  PER_radical_democracy_ADJ:0 "Persian"
  PER_chauvinist_populism_ADJ:0 "Persian"
 
- HNN_centism:0 "Sultanate of Sulu"
- HNN_centism_DEF:0 "The Sultanate of Sulu"
- HNN_centism_ADJ:0 "Suluians"
+ HNN_centrism:0 "Sultanate of Sulu"
+ HNN_centrism_DEF:0 "The Sultanate of Sulu"
+ HNN_centrism_ADJ:0 "Suluians"
 
  ELS_fascism:0 "El Salvador"
  ELS_fascism_DEF:0 "El Salvador"
