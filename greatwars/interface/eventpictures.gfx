@@ -4,6 +4,16 @@ spriteTypes = {
 		name = "GFX_report_greeting_picture"
 		texturefile = "gfx/event_pictures/report_greeting_picture.dds"
 	}
+
+	spriteType = {
+		name = "GFX_news_russo-japanese_war"
+		texturefile = "gfx/event_pictures/news_russo-japanese_war.dds"
+	}
+
+	spriteType = {
+		name = "GFX_event_russo-japanese_war"
+		texturefile = "gfx/event_pictures/event_russo-japanese_war.dds"
+	}
 	
 	spriteType = {
 		name = "GFX_report_event_canada_ronnie"

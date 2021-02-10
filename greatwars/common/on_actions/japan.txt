@@ -1,0 +1,13 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			JAP = {
+				country_event = { id = japan.1 days = 1497 }
+			}
+
+			#GER = {
+			#	country_event = { id = boxer_rebellion.3 days = 614 }
+			#}
+		}
+	}
+}
