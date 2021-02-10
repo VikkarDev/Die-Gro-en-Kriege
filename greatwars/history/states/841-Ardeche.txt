@@ -1,0 +1,24 @@
+state={
+	id=841
+	name="STATE_841"
+	state_category=city
+
+	history={
+		owner = FRA
+		buildings = {
+			infrastructure = 7
+			arms_factory = 1
+			industrial_complex = 2
+			#air_base = 4
+
+		}
+		add_core_of = OCC
+		add_core_of = FRA
+	}
+
+	provinces={
+		3770 9728 9732 11716 
+	}
+	manpower=1421200
+	buildings_max_level_factor=1.000
+}

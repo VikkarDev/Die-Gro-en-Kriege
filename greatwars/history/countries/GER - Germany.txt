@@ -37,6 +37,8 @@ capital = 819
 
 	add_ideas = {
 		german_colonies
+		naval_arms_race
+		bloated_naval_budget1
 
 		# government
 		limited_conscription

@@ -1,0 +1,29 @@
+state={
+	id=851
+	name="STATE_851"
+	state_category = large_town
+
+	history={
+		owner = ENG
+		buildings = {
+			infrastructure = 7
+			arms_factory = 1
+			industrial_complex = 5
+			#air_base = 3
+			11293 = {
+				naval_base = 6
+
+			}
+
+		}
+		add_core_of = IRE
+		add_core_of = ENG
+
+	}
+
+	provinces={
+		285 3342 7377 
+	}
+	manpower=1004100
+	buildings_max_level_factor=1.000
+}

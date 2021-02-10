@@ -94,7 +94,7 @@ ideas = {
 	}
 	country = {
 		bloated_naval_budget1 = {
-		picture = ger_german_army
+		picture = ger_bloated_naval_budget
 	  
 		allowed = {
 			tag = GER
@@ -127,7 +127,7 @@ ideas = {
 	}
 	country = {
 		bloated_naval_budget2 = {
-		picture = ger_german_army
+		picture = ger_bloated_naval_budget
 	  
 		allowed = {
 			tag = GER
@@ -141,7 +141,7 @@ ideas = {
 	}
 	country = {
 		bloated_naval_budget3 = {
-		picture = ger_german_army
+		picture = ger_bloated_naval_budget
 	  
 		allowed = {
 			tag = GER
@@ -155,7 +155,7 @@ ideas = {
 	}
 	country = {
 		bloated_naval_budget4 = {
-		picture = ger_german_army
+		picture = ger_bloated_naval_budget
 	  
 		allowed = {
 			tag = GER
