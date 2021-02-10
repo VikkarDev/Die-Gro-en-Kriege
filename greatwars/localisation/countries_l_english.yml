@@ -36,6 +36,11 @@
 
  CRE_radical_democracy:0 "Cretan State"
  CRE_radical_democracy_DEF:0 "The Cretan State"
+ CRE_radical_democracy_ADJ:0 "Greek"
+
+ GEA_centrism:0 "German East Africa Comapny"
+ GEA_centrism_DEF:0 "German East Africa Company"
+ GEA_centrism_ADJ:0 "German / African"
 
  BOX_autocracy:0 "Boxer Rebellion"
  BOX_autocracy_DEF:0 "The Boxer Rebellion"

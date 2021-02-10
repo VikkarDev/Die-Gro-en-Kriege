@@ -1,4 +1,4 @@
-capital = 819
+capital = 361
 
 1900.1.1 = {
 
@@ -10,10 +10,6 @@ capital = 819
 	set_war_support = 0.4
 	set_research_slots = 4
 
-	set_cosmetic_tag = GER_EMPIRE
-	#create_faction = "Central Powers"
-	#add_to_faction = GER
-
 	if = {
 		limit = {
 			OR = {
@@ -22,21 +18,15 @@ capital = 819
 			}
 		}
 		set_autonomy = {
-			target = GNG
-			autonomy_state = autonomy_protectorate
-		}
-		set_autonomy = {
-			target = GEA
+			target = PHI
 			autonomy_state = autonomy_protectorate
 		}
 		else = {
-			puppet = GNG
-			puppet = GEA
+			puppet = PHI
 		}
 	}
 
 	add_ideas = {
-		german_colonies
 
 		# government
 		limited_conscription
@@ -63,12 +53,11 @@ capital = 819
 	}
 
 	create_country_leader = {
-		name = "Wilhelm II"
+		name = "William McKinley"
 		desc = ""
 		picture = "Wilhelm_II.dds"
 		ideology = liberal
 		traits = {
-			kaiserin_of_the_people
 		}
 	}
 }

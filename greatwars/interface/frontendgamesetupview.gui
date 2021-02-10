@@ -528,10 +528,21 @@ guiTypes = {
 		
 		containerWindowType = {
 			name ="bookmarks"
-			position = { x = 43 y = 55 }
-			size = { width = -10 height = 120}
-			
+			position = { x = 13 y = 45 }#x=43
+			size = { width = 578.5 height = 224}
+
+
+			margin = { bottom = 24 right = 25}
+
+
+			drag_scroll = { left middle }
 			horizontalScrollbar = "bottom_horizontal_slider"
+
+
+			background = {
+				name = "background"
+				quadTextureSprite ="GFX_bookmarks_bg"
+			}
 			
 			gridboxType = {
 				name ="bookmarks_grid"

@@ -21,6 +21,36 @@ spriteTypes = {
 		name = "GFX_GER_focus_increase_mil_budget"
 		texturefile = "gfx/interface/goals/ger/GER_focus_increase_mil_budget.dds"
 	}
+
+	SpriteType = {
+		name = "GFX_GER_focus_german_imperial_navy"
+		texturefile = "gfx/interface/goals/ger/GER_focus_german_imperial_navy.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_GER_focus_factories_factories_factories"
+		texturefile = "gfx/interface/goals/ger/GER_focus_factories_factories_factories.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_GER_focus_agriculture_innovation"
+		texturefile = "gfx/interface/goals/ger/GER_focus_agriculture_innovation.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_GER_focus_synthetic_rubber"
+		texturefile = "gfx/interface/goals/ger/GER_focus_synthetic_rubber.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_GER_focus_krupp_steel"
+		texturefile = "gfx/interface/goals/ger/GER_focus_krupp_steel.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_GER_focus_heavy_industry"
+		texturefile = "gfx/interface/goals/ger/GER_focus_heavy_industry.dds"
+	}
 	
 	SpriteType = {
 		name = "GFX_GER_focus_support_equip"

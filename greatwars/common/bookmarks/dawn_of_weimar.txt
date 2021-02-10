@@ -1,9 +1,9 @@
 bookmarks = {
 	bookmark = {
-		name = "CRIES_OF_WAR_NAME"
-		desc = "CRIES_OF_WAR_DESC"
-		date = 1914.1.1.12
-		picture = "GFX_dgk_1914_bookmark"
+		name = "DAWN_OF_WEIMAR_NAME"
+		desc = "DAWN_OF_WEIMAR_DESC"
+		date = 1918.11.9.12
+		picture = "GFX_dgk_1918_bookmark"
 		default_country = "GER"
 	
 		FRA = {

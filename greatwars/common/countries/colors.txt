@@ -3,6 +3,10 @@ GNG = {
 	color = rgb { 64 64 64 }
 	color_ui = rgb { 64 64 64 }
 }
+GEA = {
+	color = rgb { 64 64 64 }
+	color_ui = rgb { 64 64 64 }
+}
 GER = {
 	color = rgb { 106  119  89 }
 	color_ui = rgb { 106  119  89 }
