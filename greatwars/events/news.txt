@@ -59,35 +59,3 @@ news_event = {
 		#ai_chance = { factor = 100 }
 	}
 }
-
-# RUSSO-JAPANESE WAR
-news_event = {
-	id = dgk_news.3
-	title = dgk_news.3.t
-	desc = dgk_news.3.d
-	picture = GFX_news_russo-japanese_war
-
-	is_triggered_only = yes
-
-	option = {
-		name = dgk_news.3.a
-
-		trigger = {
-			NOT = {
-				TAG = SOV
-				TAG = JAP
-			}
-		}
-		#ai_chance = { factor = 100 }
-	}
-
-	option = {
-		name = dgk_news.3.b
-
-		trigger = {
-			TAG = JAP
-			TAG = SOV
-		}
-		#ai_chance = { factor = 100 }
-	}
-}

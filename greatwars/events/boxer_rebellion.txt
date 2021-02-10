@@ -4,13 +4,15 @@ add_namespace = boxer_rebellion
 country_event = {
 	id = boxer_rebellion.1
 
-	#fire_only_once = yes
+	fire_only_once = yes
 	hidden = yes
-	is_triggered_only = yes
 
-	#trigger = {
-	#	#date = 1900.6.10
-  	#}
+	trigger = {
+		date = 1900.6.10
+		NOT = {
+			has_global_flag = is_dgk_scripted_false
+		}
+  	}
 
 	immediate = {
 		GER = {
@@ -23,14 +25,9 @@ country_event = {
 			add_to_faction = USA
 			add_to_faction = ITA
 			add_to_faction = HUN
-			add_to_faction = FRA
 		}
 
 		news_event = { id = dgk_news.1 }
-		
-		CHI = {
-			country_event = { id = boxer_rebellion.2 days = 11 }
-		}
 	}
 }
 
@@ -38,16 +35,15 @@ country_event = {
 country_event = {
 	id = boxer_rebellion.2
 
-	#fire_only_once = yes
+	fire_only_once = yes
 	hidden = yes
-	is_triggered_only = yes
 
-	#trigger = {
-	#	#date = 1900.6.21
-	#	NOT = {
-	#		has_global_flag = is_dgk_scripted_false
-	#	}
-  	#}
+	trigger = {
+		date = 1900.6.21
+		NOT = {
+			has_global_flag = is_dgk_scripted_false
+		}
+  	}
 
 	immediate = {
 		CHI = {
@@ -138,10 +134,6 @@ country_event = {
 		GXC = {
 			transfer_state = 599
 		}
-
-		GER = {
-			country_event = { id = boxer_rebellion.3 days = 443 }
-		}
 	}
 }
 
@@ -149,16 +141,15 @@ country_event = {
 country_event = {
 	id = boxer_rebellion.3
 
-	#fire_only_once = yes
+	fire_only_once = yes
 	hidden = yes
-	is_triggered_only = yes
 
-	#trigger = {
-	#	#date = 1901.9.7
-	#	NOT = {
-	#		has_global_flag = is_dgk_scripted_false
-	#	}
-  	#}
+	trigger = {
+		date = 1901.9.7
+		NOT = {
+			has_global_flag = is_dgk_scripted_false
+		}
+  	}
 
 	immediate = {
 		GER = {
@@ -197,10 +188,6 @@ country_event = {
 		}
 
 		news_event = { id = dgk_news.2 }
-
-		GER = {
-			country_event = { id = boxer_rebellion.4 days = 342 }
-		}
 	}
 }
 
@@ -208,16 +195,15 @@ country_event = {
 country_event = {
 	id = boxer_rebellion.4
 
-	#fire_only_once = yes
+	fire_only_once = yes
 	hidden = yes
-	is_triggered_only = yes
 
-	#trigger = {
-	#	#date = 1902.8.15
-	#	NOT = {
-	#		has_global_flag = is_dgk_scripted_false
-	#	}
-  	#}
+	trigger = {
+		date = 1902.8.15
+		NOT = {
+			has_global_flag = is_dgk_scripted_false
+		}
+  	}
 
 	immediate = {
 		GER = {

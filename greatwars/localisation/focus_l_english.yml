@@ -75,11 +75,9 @@ GER_pass_the_naval_bills:0 "Pass The Naval Bills"
 GER_pass_the_naval_bills_desc:0 ""
 GER_rival_royal_navy:0 "Rival Royal Navy"
 GER_rival_royal_navy_desc:0 ""
-
 #### Tooltips
 HISTORICAL_BREAK:0 "§RThis will break the historical route of the mod!§!"
 NOT_COMPLETE:0 "§RThis focus is not complete!§!"
-JAP_RUS_WAR:0 "§RThis will make you declare war on the Russian Empire!§!"
 
 ### NewGeneric
 economic_focus:0 "The Economy"
@@ -112,6 +110,21 @@ war_economy:0 "War Economy"
 war_economy_desc:0 ""
 industrial_beast:0 "Industrial Powerhouse"
 industrial_beast_desc:0 ""
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 #### Generic
 

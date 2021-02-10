@@ -26,7 +26,6 @@ MNT = "countries/Montenegro.txt"
 CRE = "countries/Cretan State"
 POS = "countries/Principality of Samos.txt"
 GEA = "countries/German East Africa.txt"
-SUL = "countries/Sultanate of Sulu.txt"
 
 LUX = "countries/Luxemburg.txt"
 BEL = "countries/Belgium.txt"
