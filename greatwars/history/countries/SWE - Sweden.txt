@@ -5,7 +5,7 @@ capital = 141
 
 	set_convoys = 125
 	
-	set_capital = 141
+	set_capital = 110
 
 	set_research_slots = 3
 
