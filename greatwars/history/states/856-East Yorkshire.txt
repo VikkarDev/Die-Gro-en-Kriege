@@ -1,0 +1,30 @@
+state={
+	id=856
+	name="STATE_856"
+	state_category = metropolis
+
+	history={
+		owner = ENG
+		victory_points = {
+			11297 10 
+		}
+		buildings = {
+			infrastructure = 7
+			arms_factory = 2
+			industrial_complex = 3
+			#air_base = 10
+			11297 = {
+				naval_base = 5
+
+			}
+
+		}
+		add_core_of = ENG
+	}
+
+	provinces={
+		9250 9269 11297 11317 
+	}
+	manpower=4762495
+	buildings_max_level_factor=1.000
+}

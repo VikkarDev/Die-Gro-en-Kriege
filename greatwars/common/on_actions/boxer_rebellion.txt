@@ -1,16 +1,22 @@
 on_actions = {
-	on_capitulation = {
+	on_startup = {
 		effect = {
 			if = {
 				limit = {
-					tag = CHI #country that capitulates
-					date < 1900.6.21
-					has_global_flag = is_dgk_scripted_false
+					has_start_date < 1900.1.2
+					NOT = {
+						has_global_flag = is_dgk_scripted_false
+					}
 				}
-				BOX = {
-					country_event = { id = boxer_rebellion.5 }
+
+				GER = {
+					country_event = { id = boxer_rebellion.1 days = 10 } #160 days. 10 is for testing
 				}
+
+				#GER = {
+				#	country_event = { id = boxer_rebellion.3 days = 614 }
+				#}
 			}
 		}
-	}	
+	}
 }
