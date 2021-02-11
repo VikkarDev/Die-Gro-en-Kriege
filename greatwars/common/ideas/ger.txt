@@ -109,7 +109,7 @@ ideas = {
 	}
 	country = {
 		naval_arms_race = {
-		picture = ger_german_army
+		picture = ger_naval_arms_race
 	  
 		allowed = {
 			tag = GER
