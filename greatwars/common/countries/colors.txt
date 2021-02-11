@@ -115,6 +115,14 @@ SAR = {
 	color = rgb { 22 222 142 }
 	color_ui = rgb { 22 222 142 }
 }
+SLD = {
+	color = rgb { 71 29 255 }
+	color_ui = rgb { 71 29 255 }
+}
+NAT = {
+	color = rgb { 201 56 93 }
+	color_ui = rgb { 255 73 121 }
+}
 
 LUX = {
 	color = rgb { 65 175 179 }
@@ -154,6 +162,7 @@ YUG = {
 	color = rgb { 72 73 126 }
 	color_ui = rgb { 94 95 164 }
 }
+
 
 GRE = {
 	color = rgb { 93 181 227 }

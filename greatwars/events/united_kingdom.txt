@@ -1,0 +1,26 @@
+add_namespace = united_kingdom
+
+# EVENT ON LAUNCH
+country_event = {
+	id = united_kingdom.1
+	title = united_kingdom.1.t
+	desc = united_kingdom.1.d
+	picture = GFX_report_event_imperial_conference
+
+	is_triggered_only = yes
+
+	trigger = {
+    	
+  	}
+
+	option = {
+		name = united_kingdom.1.a
+		ai_chance = { factor = 90 }
+		custom_effect_tooltip = NOT_COMPLETE
+	}
+	option = {
+		name = united_kingdom.1.b
+		ai_chance = { factor = 10 }
+		custom_effect_tooltip = HISTORICAL_BREAK_EVENT
+	}
+}

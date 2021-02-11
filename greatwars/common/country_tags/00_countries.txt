@@ -29,6 +29,8 @@ GEA = "countries/German East Africa.txt"
 SUL = "countries/Sultanate of Sulu.txt"
 ORC = "countries/Orange Free State.txt"
 SAR = "countries/South African Republic.txt"
+SLD = "countries/Swaziland.txt"
+NAT = "countries/Colony of Natal.txt"
 
 LUX = "countries/Luxemburg.txt"
 BEL = "countries/Belgium.txt"
