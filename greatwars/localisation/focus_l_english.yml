@@ -78,6 +78,7 @@ GER_rival_royal_navy_desc:0 ""
 
 #### Tooltips
 HISTORICAL_BREAK:0 "§RThis will break the historical route of the mod!§!"
+HISTORICAL_BREAK_EVENT:0 "§RThis decision will break the historical route of the mod.!§!"
 NOT_COMPLETE:0 "§RThis focus is not complete!§!"
 JAP_RUS_WAR:0 "§RThis will make you declare war on the Russian Empire!§!"
 

@@ -76,6 +76,8 @@ SER_KINGDOM_traditional_conservatism_DEF:0 "The Kingdom of Serbia"
 
 SAF_COLONY:0 "Cape Colony"
 SAF_COLONY_DEF:0 "Cape Colony"
+NAT_UK:0 "Colony of Natal"
+NAT_UK_DEF:0 "Colony of Natal"
 
 
  INS_HOL_democratic:0 "Dutch East Indies"

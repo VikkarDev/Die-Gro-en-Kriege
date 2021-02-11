@@ -13,6 +13,10 @@ state={
 		add_core_of = ORC
 		add_core_of = SAF
 
+		victory_points = {
+			5231 15
+		}
+
 	}
 
 	provinces={

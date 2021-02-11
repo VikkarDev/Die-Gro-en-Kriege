@@ -46,6 +46,11 @@ capital = 126
 			freedom_level = 0.4
 		}
 		set_autonomy = {
+			target = NAT
+			autonomous_state = autonomy_colony
+			freedom_level = 0.4
+		}
+		set_autonomy = {
 			target = AST
 			autonomous_state = autonomy_dominion
 			freedom_level = 0.2
@@ -59,11 +64,13 @@ capital = 126
 			puppet = MAL
 			puppet = RAJ
 			puppet = SAF
+			puppet = NAT
 		}
 	}
 
 	give_military_access = RAJ
 	give_military_access = SAF
+	give_military_access = NAT
 
 	set_politics = {
 		ruling_party = traditional_conservatism
