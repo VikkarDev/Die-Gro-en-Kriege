@@ -42,7 +42,7 @@ capital = 126
 		}
 		set_autonomy = {
 			target = SAF
-			autonomous_state = autonomy_dominion
+			autonomous_state = autonomy_colony
 			freedom_level = 0.4
 		}
 		set_autonomy = {
@@ -58,10 +58,12 @@ capital = 126
 		else = {
 			puppet = MAL
 			puppet = RAJ
+			puppet = SAF
 		}
 	}
 
 	give_military_access = RAJ
+	give_military_access = SAF
 
 	set_politics = {
 		ruling_party = traditional_conservatism

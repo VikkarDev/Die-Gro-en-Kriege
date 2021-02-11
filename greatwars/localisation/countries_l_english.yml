@@ -44,11 +44,19 @@
 
  BOX_autocracy:0 "Boxer Rebellion"
  BOX_autocracy_DEF:0 "The Boxer Rebellion"
- BOX_autocracy_ADJ:0 "Chinese"
+ BOX_autocracy_ADJ:0 "Boxer"
  
  POS_autocracy:0 "Principality of Samos"
  POS_autocracy_DEF:0 "The Principality of Samos"
  POS_autocracy_ADJ:0 "Greek"
+
+ ORC_traditional_conservatism:0 "Orange Free State"
+ ORC_traditional_conservatism_DEF:0 "The Orange Free State"
+ ORC_traditional_conservatism_ADJ:0 "African"
+
+ SAR_traditional_conservatism:0 "South African Republic"
+ SAR_traditional_conservatism_DEF:0 "South African Republic"
+ SAR_traditional_conservatism_ADJ:0 "South African"
  
  SHA_autocracy:0 "Shandong"
  SHA_autocracy_DEF:0 "Shandong"

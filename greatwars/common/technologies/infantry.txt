@@ -86,7 +86,7 @@ technologies = {
 	}	
 	
 	infantry_weapons2 = {
-
+		
 		category_light_infantry = {
 			soft_attack = 0.05
 		}

@@ -9,13 +9,9 @@ on_actions = {
 					}
 				}
 
-				GER = {
-					country_event = { id = boxer_rebellion.1 days = 160 } #160 days. 10 is for testing
+				ENG = {
+					country_event = { id = united_kingdom.1 days = 880 } # May 31, 1902
 				}
-
-				#GER = {
-				#	country_event = { id = boxer_rebellion.3 days = 614 }
-				#}
 			}
 		}
 	}
