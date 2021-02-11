@@ -1,0 +1,18 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			if = {
+				limit = {
+					has_start_date < 1900.1.2
+					NOT = {
+						has_global_flag = is_dgk_scripted_false
+					}
+				}
+
+				ENG = {
+					country_event = { id = united_kingdom.1 days = 880 } # May 31, 1902
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,49 @@
+capital = 860
+
+1900.1.1 = {
+	OOB = "ORC_1900"
+
+	if = {
+		limit = {
+			has_start_date < 1900.1.2
+		}
+	
+		declare_war_on = {
+			target = SAF
+			type = take_state_focus
+		}
+	}
+
+
+	set_convoys = 0
+
+	set_research_slots = 2
+
+	set_politics = {
+		ruling_party = traditional_conservatism
+		#last_election = "2078.9.26"
+		#election_frequency = 48
+		elections_allowed = no
+	}
+
+	set_popularities = {
+		vanguard_communism = 0
+		social_egalitarianism = 0
+		centrism = 0
+		traditional_conservatism = 100
+		radical_democracy = 0
+		chauvinist_populism = 0
+		autocracy = 0
+		democratic_socialism = 0
+	}
+
+	create_country_leader = {
+		name = "Marthinus Theunis Steyn"
+		desc = ""
+		picture = "Marthinus_Theunis_Steyn.dds"
+		ideology = conserv
+		traits = {
+			
+		}
+	}
+}

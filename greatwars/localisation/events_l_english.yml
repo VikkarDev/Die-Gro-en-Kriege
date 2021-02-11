@@ -45,3 +45,13 @@ dgk_news.2.t:0 "Peace in China"
 dgk_news.2.d:0 "The war has ended! After a long fight, the Eight Nations have finally responded to Qing China and made peace. As of now, Russia will occupy Manchuria. Concessions will happen during this period, while Qing sits in defeat."
 dgk_news.2.a:0 "Finally."
 dgk_news.2.b:0 "We lost miserably."
+dgk_news.3.t:0 "Russo-Japanese War"
+dgk_news.3.d:0 "War! The most powerful option in international politics. And it has been used again - this time by the growing “rising sun” of the east, Japan, to declare war on the Russian Empire. While the move may surprise those who have not been following the events in the Far East, many experts on geopolitics say that the war was made inevitable by Russian imperial ambitions in Manchuria and conflicts of interest following the defeat of the Boxer Rebellion.\n\n They have also argued that it was not truly an act of Japanese aggression, but a preemptive strike by Japan intended to use the element of surprise to their advantage. And the start of the war was indeed surprising for the Russians, who were attacked by the Japanese navy before the declaration of war had even been received."
+dgk_news.3.a:0 "Okay."
+dgk_news.3.b:0 "We will fight!"
+
+# JAPAN
+japan.1.t:0 "Navy Pressure to Emperor About Manchuria"
+japan.1.d:0 "As Russian ambitions in the Japanese sphere of influence grow, the navy has suggested that the Empire makes a preemptive strike against the Tsar, as to utilize the element of surprise against the damned Ruskies. While there has been a great deal of bickering between the navy and the army, it is ultimately up to the Emperor himself to decide. A decision that could very much affect the future of the Empire is on the emperor’s desk. Ultimately, he decided to…"
+japan.1.a:0 "Declare war immediately. We must strike first!"
+japan.1.b:0 "Wait for the Russians. If they want a fight, we will fight, but not otherwise."

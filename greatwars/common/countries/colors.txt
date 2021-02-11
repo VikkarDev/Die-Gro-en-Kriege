@@ -107,6 +107,14 @@ CRE = {
 	color = rgb { 209 185 67 }
 	color_ui = rgb { 209 185 67 }
 }
+ORC = {
+	color = rgb { 222 129 22 }
+	color_ui = rgb { 222 129 22 }
+}
+SAR = {
+	color = rgb { 22 222 142 }
+	color_ui = rgb { 22 222 142 }
+}
 
 LUX = {
 	color = rgb { 65 175 179 }

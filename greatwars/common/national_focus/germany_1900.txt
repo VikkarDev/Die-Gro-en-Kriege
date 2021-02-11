@@ -15,11 +15,11 @@ focus_tree = {
 	continuous_focus_position = { x = 50 y = 1000 }
 
 	focus = {
-		id = GER_german_imperial_air_force
+		id = GER_imperial_german_airforce
 		icon = GFX_ger_focus_german_army
 		search_filters = { FOCUS_FILTER_MANPOWER }
-		x = 11
-		y = 8
+		x = 2
+		y = 0
 
 		#mutually_exclusive = { focus = GER_contain_wilhelm_ii }
 		cost = 10
@@ -38,10 +38,10 @@ focus_tree = {
 	}
 
 	focus = {
-		id = GER_german_economy
+		id = GER_imperial_german_economy
 		icon = GFX_ger_focus_german_economy
 		search_filters = { FOCUS_FILTER_INDUSTRY }
-		x = 25
+		x = 35
 		y = 0
 
 		#mutually_exclusive = { focus = GER_contain_wilhelm_ii }
@@ -60,13 +60,13 @@ focus_tree = {
 	}
 
 	focus = {
-		id = GER_european_investment
+		id = GER_foriegn_direct_investments
 		icon = GFX_ger_focus_european_investment
 		#search_filters = { FOCUS_FILTER_RESEARCH }
-		x = 22
+		x = 30
 		y = 1
 
-		prerequisite = { focus = GER_german_economy }
+		prerequisite = { focus = GER_ }
 		#mutually_exclusive = { focus = GER_homeland focus = GER_mauser_contracts }
 		cost = 10
 
@@ -84,13 +84,13 @@ focus_tree = {
 	}
 
 	focus = {
-		id = GER_new_research_techniques
+		id = GER_militarist_state_schools
 		icon = GFX_ger_focus_new_research_techniques
 		search_filters = { FOCUS_FILTER_RESEARCH }
-		x = 28
+		x = 35
 		y = 1
 
-		prerequisite = { focus = GER_german_economy }
+		prerequisite = { focus = GER_ }
 		#mutually_exclusive = { focus = GER_contain_wilhelm_ii }
 		cost = 10
 
@@ -111,7 +111,7 @@ focus_tree = {
 		id = GER_weltpolitik
 		icon = GFX_ger_focus_weltpolitik
 		search_filters = { FOCUS_FILTER_POLITICAL }
-		x = 50
+		x = 51
 		y = 0
 
 		mutually_exclusive = { focus = GER_birth_of_republic }
@@ -141,7 +141,7 @@ focus_tree = {
 		id = GER_birth_of_republic
 		icon = GFX_ger_focus_birth_of_republic
 		search_filters = { FOCUS_FILTER_POLITICAL }
-		x = 65
+		x = 75
 		y = 0
 
 		mutually_exclusive = { focus = GER_weltpolitik }
@@ -169,14 +169,14 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_heavy_industry
-		icon = GFX_GER_focus_heavy_industry
+		icon = GFX_goal_generic_construct_civ_factory
 		search_filters = { FOCUS_FILTER_INDUSTRY }
-		x = 27
-		y = 2
+		x = 29
+		y = 3
 
 		cost = 10
 		
-		prerequisite = { focus = GER_new_research_techniques }
+		prerequisite = { focus = GER_ }
 		available = {
 			country_exists = GER
 		}
@@ -200,14 +200,14 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_krupp_steel
-		icon = GFX_GER_focus_krupp_steel
+		icon = GFX_goal_generic_construct_civ_factory
 		search_filters = { FOCUS_FILTER_INDUSTRY }
-		x = 21
+		x = 38
 		y = 2
 
 		cost = 10
 		
-		prerequisite = { focus = GER_european_investment }
+		prerequisite = { focus = GER_ }
 		available = {
 			country_exists = GER
 		}
@@ -228,12 +228,12 @@ focus_tree = {
 		id = GER_german_textiles
 		icon = GFX_GER_focus_textiles
 		search_filters = { FOCUS_FILTER_INDUSTRY }
-		x = 23
-		y = 2
+		x = 40
+		y = 1
 
 		cost = 10
 		
-		prerequisite = { focus = GER_european_investment }
+		prerequisite = { focus = GER_ }
 		available = {
 			country_exists = GER
 		}
@@ -248,18 +248,18 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_the_cartel_system
-		icon = GFX_ger_focus_german_economy
+		icon = GFX_goal_generic_construct_civ_factory
 		search_filters = { FOCUS_FILTER_INDUSTRY }
-		x = 25
+		x = 40
 		y = 4
 
 		cost = 10
 
-		prerequisite = { focus = GER_agricultural_innovation }
-		prerequisite = { focus = GER_krupp_steel }
-		prerequisite = { focus = GER_german_textiles }
-		prerequisite = { focus = GER_heavy_industry }
-		prerequisite = { focus = GER_factories_factories_factories }
+		prerequisite = { focus = GER_ }
+		prerequisite = { focus = GER_ }
+		prerequisite = { focus = GER_ }
+		prerequisite = { focus = GER_ }
+		prerequisite = { focus = GER_ }
 		available = {
 			country_exists = GER
 		}
@@ -273,15 +273,15 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = GER_factories_factories_factories
-		icon = GFX_GER_focus_factories_factories_factories
+		id = GER_southern_cottage_industry
+		icon = GFX_goal_generic_construct_civ_factory
 		search_filters = { FOCUS_FILTER_INDUSTRY }
-		x = 29
+		x = 42
 		y = 2
 
 		cost = 10
 
-		prerequisite = { focus = GER_new_research_techniques }
+		prerequisite = { focus = GER_ }
 		available = {
 			country_exists = GER
 		}
@@ -309,15 +309,15 @@ focus_tree = {
 	
 	}
 	focus = {
-		id = GER_agricultural_innovation
-		icon = GFX_GER_focus_agriculture_innovation
+		id = GER_tarrif_on_imported_grain
+		icon = GFX_goal_generic_construct_civ_factory
 		search_filters = { FOCUS_FILTER_INDUSTRY }
-		x = 25
-		y = 2
+		x = 41
+		y = 3
 
 		cost = 10
 
-		prerequisite = { focus = GER_german_economy }
+		prerequisite = { focus = GER_ }
 		available = {
 			country_exists = GER
 		}
@@ -351,10 +351,10 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = GER_imperiel_german_army
+		id = GER_imperial_german_army
 		icon = GFX_ger_focus_german_army
 		search_filters = { FOCUS_FILTER_MANPOWER }
-		x = 4
+		x = 7
 		y = 0
 
 		
@@ -379,13 +379,13 @@ focus_tree = {
 		id = GER_general_staff_system
 		icon = GFX_GER_focus_general_staff
 		search_filters = { FOCUS_FILTER_MANPOWER }
-		x = 4
+		x = 7
 		y = 5
 
 		cost = 10
 		
-		prerequisite = { focus = GER_modernize_our_tactics }
-		prerequisite = { focus = GER_military_aid_from_private_sector }
+		prerequisite = { focus = GER_ }
+		prerequisite = { focus = GER_ }
 		available = {
 			country_exists = GER
 		}
@@ -403,13 +403,13 @@ focus_tree = {
 		id = GER_continue_the_german_reserve_system
 		icon = GFX_GER_focus_reserve_system
 		search_filters = { FOCUS_FILTER_MANPOWER }
-		x = 5
+		x = 8
 		y = 2
 
 		mutually_exclusive = { focus = GER_mass_conscription }
 		cost = 10
 		
-		prerequisite = { focus = GER_loyalty_to_the_kaiser }
+		prerequisite = { focus = GER_ }
 		available = {
 			country_exists = GER
 		}
@@ -427,13 +427,13 @@ focus_tree = {
 		id = GER_mass_conscription
 		icon = GFX_GER_focus_mass_conscription
 		search_filters = { FOCUS_FILTER_MANPOWER }
-		x = 3
+		x = 6
 		y = 2
 
 		mutually_exclusive = { focus = GER_continue_the_german_reserve_system }
 		cost = 10
 		
-		prerequisite = { focus = GER_loyalty_to_the_kaiser }
+		prerequisite = { focus = GER_ }
 		available = {
 			country_exists = GER
 		}
@@ -451,13 +451,13 @@ focus_tree = {
 		id = GER_loyalty_to_the_kaiser
 		icon = GFX_GER_focus_loyalty_to_kaiser
 		search_filters = { FOCUS_FILTER_MANPOWER }
-		x = 4
+		x = 7
 		y = 1
 
 	
 		cost = 10
 		
-		prerequisite = { focus = GER_imperiel_german_army }
+		prerequisite = { focus = GER_ }
 		available = {
 			country_exists = GER
 		}
@@ -475,13 +475,13 @@ focus_tree = {
 		id = GER_military_aid_from_private_sector
 		icon = GFX_GER_focus_help_from_private
 		search_filters = { FOCUS_FILTER_MANPOWER }
-		x = 5
+		x = 8
 		y = 4
 
 	
 		cost = 10
 		
-		prerequisite = { focus = GER_artillery focus = GER_support_equipment }
+		prerequisite = { focus = GER_ focus = GER_ }
 		available = {
 			country_exists = GER
 		}
@@ -512,13 +512,13 @@ focus_tree = {
 		id = GER_modernize_our_tactics
 		icon = GFX_GER_focus_modernize
 		search_filters = { FOCUS_FILTER_MANPOWER }
-		x = 3
+		x = 6
 		y = 4
 
 		
 		cost = 10
 		
-		prerequisite = { focus = GER_increase_military_budget focus = GER_artillery }
+		prerequisite = { focus = GER_ focus = GER_ }
 		available = {
 			country_exists = GER
 		}
@@ -540,13 +540,13 @@ focus_tree = {
 		id = GER_increase_military_budget
 		icon = GFX_GER_focus_increase_mil_budget
 		search_filters = { FOCUS_FILTER_MANPOWER }
-		x = 2
+		x = 5
 		y = 3
 
 		
 		cost = 10
 		
-		prerequisite = { focus = GER_mass_conscription focus = GER_continue_the_german_reserve_system }
+		prerequisite = { focus = GER_ focus = GER_ }
 		available = {
 			country_exists = GER
 		}
@@ -577,13 +577,13 @@ focus_tree = {
 		id = GER_support_equipment
 		icon = GFX_GER_focus_support_equip
 		search_filters = { FOCUS_FILTER_MANPOWER }
-		x = 6
+		x = 9
 		y = 3
 
 		
 		cost = 10
 		
-		prerequisite = { focus = GER_mass_conscription focus = GER_continue_the_german_reserve_system }
+		prerequisite = { focus = GER_ focus = GER_ }
 		available = {
 			country_exists = GER
 		}
@@ -604,15 +604,15 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_artillery
-		icon = GFX_GER_focus_artillery
+		icon = GFX_focus_generic_industry_1
 		search_filters = { FOCUS_FILTER_MANPOWER }
-		x = 4
+		x = 7
 		y = 3
 
 		
 		cost = 10
 		
-		prerequisite = { focus = GER_mass_conscription focus = GER_continue_the_german_reserve_system }
+		prerequisite = { focus = GER_ focus = GER_ }
 		available = {
 			country_exists = GER
 		}
@@ -632,16 +632,16 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = GER_increase_education_funding
-		icon = GFX_GER_focus_artillery
+		id = GER_german_railroads
+		icon = GFX_goal_generic_construct_civ_factory
 		search_filters = { FOCUS_FILTER_MANPOWER }
-		x = 27
-		y = 6
+		x = 31
+		y = 3
 
 		
 		cost = 10
 		
-		prerequisite = { focus = GER_public_works }
+		prerequisite = { focus = GER_ }
 		available = {
 			country_exists = GER
 		}
@@ -656,38 +656,15 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_deutsches_kolonialreich
-		icon = GFX_GER_focus_artillery
+		icon = GFX_focus_generic_industry_1
 		search_filters = { FOCUS_FILTER_MANPOWER }
-		x = 21
-		y = 5
-
-		
-		cost = 10
-		
-		prerequisite = { focus = GER_the_cartel_system }
-		available = {
-			country_exists = GER
-		}
-
-		bypass = {
-			
-		}
-
-		completion_reward = { 
-			
-			}				
-	}
-	focus = {
-		id = GER_colonial_investments
-		icon = GFX_GER_focus_artillery
-		search_filters = { FOCUS_FILTER_MANPOWER }
-		x = 23
+		x = 35
 		y = 6
 
 		
 		cost = 10
 		
-		prerequisite = { focus = GER_deutsches_kolonialreich }
+		prerequisite = { focus = GER_ }
 		available = {
 			country_exists = GER
 		}
@@ -701,16 +678,16 @@ focus_tree = {
 			}				
 	}
 	focus = {
-		id = GER_subsidis_colonial_industry
-		icon = GFX_GER_focus_artillery
+		id = GER_colonial_military_factories
+		icon = GFX_focus_generic_industry_1
 		search_filters = { FOCUS_FILTER_MANPOWER }
-		x = 21
-		y = 6
+		x = 35
+		y = 8
 
 		
 		cost = 10
 		
-		prerequisite = { focus = GER_deutsches_kolonialreich }
+		prerequisite = { focus = GER_ }
 		available = {
 			country_exists = GER
 		}
@@ -724,108 +701,16 @@ focus_tree = {
 			}				
 	}
 	focus = {
-		id = GER_cololnial_arms_factories
-		icon = GFX_GER_focus_artillery
+		id = GER_subsidis_colonial_manufacturing
+		icon = GFX_focus_generic_industry_1
 		search_filters = { FOCUS_FILTER_MANPOWER }
-		x = 19
-		y = 6
-
-		
-		cost = 10
-		
-		prerequisite = { focus = GER_deutsches_kolonialreich }
-		available = {
-			country_exists = GER
-		}
-
-		bypass = {
-			
-		}
-
-		completion_reward = { 
-			
-			}				
-	}
-	focus = {
-		id = GER_public_works
-		icon = GFX_GER_focus_artillery
-		search_filters = { FOCUS_FILTER_MANPOWER }
-		x = 29
-		y = 5
-
-		
-		cost = 10
-		
-		prerequisite = { focus = GER_the_cartel_system }
-		available = {
-			country_exists = GER
-		}
-
-		bypass = {
-			
-		}
-
-		completion_reward = { 
-			
-			}				
-	}
-	focus = {
-		id = GER_synthetic_rubber
-		icon = GFX_GER_focus_synthetic_rubber
-		search_filters = { FOCUS_FILTER_MANPOWER }
-		x = 29
-		y = 6
-
-		
-		cost = 10
-		
-		prerequisite = { focus = GER_public_works }
-		available = {
-			country_exists = GER
-		}
-
-		bypass = {
-			
-		}
-
-		completion_reward = { 
-			
-			}				
-	}
-	focus = {
-		id = GER_mighty_industry
-		icon = GFX_GER_focus_artillery
-		search_filters = { FOCUS_FILTER_MANPOWER }
-		x = 31
-		y = 6
-
-		
-		cost = 10
-		
-		prerequisite = { focus = GER_public_works }
-		available = {
-			country_exists = GER
-		}
-
-		bypass = {
-			
-		}
-
-		completion_reward = { 
-			
-			}				
-	}
-	focus = {
-		id = GER_speed_up_army_size
-		icon = GFX_GER_focus_artillery
-		search_filters = { FOCUS_FILTER_MANPOWER }
-		x = 25
+		x = 34
 		y = 7
 
 		
 		cost = 10
 		
-		prerequisite = { focus = GER_the_cartel_system }
+		prerequisite = { focus = GER_ }
 		available = {
 			country_exists = GER
 		}
@@ -839,18 +724,248 @@ focus_tree = {
 			}				
 	}
 	focus = {
-		id = GER_europes_best_economy
-		icon = GFX_GER_focus_artillery
+		id = GER_develop_asian_colonies
+		icon = GFX_focus_generic_industry_1
 		search_filters = { FOCUS_FILTER_MANPOWER }
-		x = 25
+		x = 36
+		y = 7
+
+		
+		cost = 10
+		
+		prerequisite = { focus = GER_ }
+		available = {
+			country_exists = GER
+		}
+
+		bypass = {
+			
+		}
+
+		completion_reward = { 
+			
+			}				
+	}
+	focus = {
+		id = GER_our_place_in_the_sunn
+		icon = GFX_focus_generic_industry_1
+		search_filters = { FOCUS_FILTER_MANPOWER }
+		x = 35
 		y = 9
 
 		
 		cost = 10
 		
-		prerequisite = { focus = GER_speed_up_army_size }
-		prerequisite = { focus = GER_cololnial_arms_factories focus = GER_colonial_investments focus = GER_subsidis_colonial_industry }
-		prerequisite = { focus = GER_increase_education_funding focus = GER_synthetic_rubber focus = GER_mighty_industry }
+		prerequisite = { focus = GER_ }
+		available = {
+			country_exists = GER
+		}
+
+		bypass = {
+			
+		}
+
+		completion_reward = { 
+			
+			}				
+	}
+	focus = {
+		id = GER_prioritize_military
+		icon = GFX_goal_generic_construct_civ_factory
+		search_filters = { FOCUS_FILTER_MANPOWER }
+		x = 34
+		y = 3
+
+		
+		cost = 10
+		
+		prerequisite = { focus = GER_ }
+		available = {
+			country_exists = GER
+		}
+
+		bypass = {
+			
+		}
+
+		completion_reward = { 
+			
+			}				
+	}
+	focus = {
+		id = GER_baden_aniline_and_soda_factory
+		icon = GFX_goal_generic_construct_civ_factory
+		search_filters = { FOCUS_FILTER_MANPOWER }
+		x = 39
+		y = 3
+
+		
+		cost = 10
+		
+		prerequisite = { focus = GER_ }
+		available = {
+			country_exists = GER
+		}
+
+		bypass = {
+			
+		}
+
+		completion_reward = { 
+			
+			}				
+	}
+	focus = {
+		id = GER_northern_coal_plants
+		icon = GFX_goal_generic_construct_civ_factory
+		search_filters = { FOCUS_FILTER_MANPOWER }
+		x = 32
+		y = 2
+
+		
+		cost = 10
+		
+		prerequisite = { focus = GER_ }
+		available = {
+			country_exists = GER
+		}
+
+		bypass = {
+			
+		}
+
+		completion_reward = { 
+			
+			}				
+	}
+	focus = {
+		id = GER_industrialization
+		icon = GFX_goal_generic_construct_civ_factory
+		search_filters = { FOCUS_FILTER_MANPOWER }
+		x = 40
+		y = 2
+
+		
+		cost = 10
+		
+		prerequisite = { focus = GER_ }
+		available = {
+			country_exists = GER
+		}
+
+		bypass = {
+			
+		}
+
+		completion_reward = { 
+			
+			}				
+	}
+	focus = {
+		id = GER_welfare_for_all
+		icon = GFX_goal_generic_construct_civ_factory
+		search_filters = { FOCUS_FILTER_MANPOWER }
+		x = 34
+		y = 2
+
+		
+		cost = 10
+		
+		prerequisite = { focus = GER_ }
+		available = {
+			country_exists = GER
+		}
+
+		bypass = {
+			
+		}
+
+		completion_reward = { 
+			
+			}				
+	}
+	focus = {
+		id = GER_civillian_industry
+		icon = GFX_goal_generic_construct_civ_factory
+		search_filters = { FOCUS_FILTER_MANPOWER }
+		x = 28
+		y = 2
+
+		
+		cost = 10
+		
+		prerequisite = { focus = GER_ }
+		available = {
+			country_exists = GER
+		}
+
+		bypass = {
+			
+		}
+
+		completion_reward = { 
+			
+			}				
+	}
+	focus = {
+		id = GER_no_welfare_for_socialist
+		icon = GFX_goal_generic_construct_civ_factory
+		search_filters = { FOCUS_FILTER_MANPOWER }
+		x = 36
+		y = 2
+
+		
+		cost = 10
+		
+		prerequisite = { focus = GER_ }
+		available = {
+			country_exists = GER
+		}
+
+		bypass = {
+			
+		}
+
+		completion_reward = { 
+			
+			}				
+	}
+	focus = {
+		id = GER_global_endevours
+		icon = GFX_goal_generic_construct_civ_factory
+		search_filters = { FOCUS_FILTER_MANPOWER }
+		x = 30
+		y = 4
+
+		
+		cost = 10
+		
+		prerequisite = { focus = GER_ }
+		available = {
+			country_exists = GER
+		}
+
+		bypass = {
+			
+		}
+
+		completion_reward = { 
+			
+			}				
+	}
+	focus = {
+		id = GER_prioritize_navy
+		icon = GFX_goal_generic_construct_civ_factory
+		search_filters = { FOCUS_FILTER_MANPOWER }
+		x = 36
+		y = 3
+
+		
+		cost = 10
+		
+		prerequisite = { focus = GER_ }
+		prerequisite = { focus = GER_ focus = GER_ focus = GER_ }
+		prerequisite = { focus = GER_ focus = GER_ focus = GER_ }
 		available = {
 			country_exists = GER
 		}
@@ -865,9 +980,9 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_imperial_german_navy
-		icon = GFX_GER_focus_german_imperial_navy
+		icon = GFX_focus_generic_cruiser2
 		search_filters = { FOCUS_FILTER_MANPOWER }
-		x = 13
+		x = 18
 		y = 0
 
 		
@@ -888,15 +1003,15 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_pass_the_naval_bills
-		icon = GFX_GER_focus_artillery
+		icon = GFX_focus_generic_cruiser2
 		search_filters = { FOCUS_FILTER_MANPOWER }
-		x = 10
+		x = 14
 		y = 3
 
 		
 		cost = 10
 		
-		prerequisite = { focus = GER_deutchland_class focus = GER_new_cruiser_models }
+		prerequisite = { focus = GER_ focus = GER_ }
 		available = {
 			country_exists = GER
 		}
@@ -911,15 +1026,15 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_ensure_german_dominance
-		icon = GFX_GER_focus_artillery
+		icon = GFX_focus_generic_cruiser2
 		search_filters = { FOCUS_FILTER_MANPOWER }
-		x = 10
+		x = 14
 		y = 1
 
 		
 		cost = 10
 		
-		prerequisite = { focus = GER_imperial_german_navy }
+		prerequisite = { focus = GER_ }
 		
 		mutually_exclusive = { focus = GER_stop_the_arms_race }
 		
@@ -937,15 +1052,15 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_stop_the_arms_race
-		icon = GFX_GER_focus_artillery
+		icon = GFX_focus_generic_cruiser2
 		search_filters = { FOCUS_FILTER_MANPOWER }
-		x = 16
+		x = 22
 		y = 1
 
 		
 		cost = 10
 		
-		prerequisite = { focus = GER_imperial_german_navy }
+		prerequisite = { focus = GER_ }
 		
 		mutually_exclusive = { focus = GER_ensure_german_dominance }
 		
@@ -963,15 +1078,15 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_anglo_german_naval_treaty
-		icon = GFX_GER_focus_artillery
+		icon = GFX_focus_generic_cruiser2
 		search_filters = { FOCUS_FILTER_MANPOWER }
-		x = 18
+		x = 24
 		y = 2
 
 		
 		cost = 10
 		
-		prerequisite = { focus = GER_stop_the_arms_race }
+		prerequisite = { focus = GER_ }
 		available = {
 			country_exists = GER
 		}
@@ -986,15 +1101,15 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_rival_royal_navy
-		icon = GFX_GER_focus_artillery
+		icon = GFX_focus_generic_cruiser2
 		search_filters = { FOCUS_FILTER_MANPOWER }
-		x = 10
+		x = 14
 		y = 4
 
 		
 		cost = 10
 		
-		prerequisite = { focus = GER_pass_the_naval_bills }
+		prerequisite = { focus = GER_ }
 		available = {
 			country_exists = GER
 		}
@@ -1009,15 +1124,15 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_deutchland_class
-		icon = GFX_GER_focus_artillery
+		icon = GFX_focus_generic_cruiser2
 		search_filters = { FOCUS_FILTER_MANPOWER }
-		x = 8
+		x = 12
 		y = 2
 
 		
 		cost = 10
 		
-		prerequisite = { focus = GER_ensure_german_dominance }
+		prerequisite = { focus = GER_ }
 		available = {
 			country_exists = GER
 		}
@@ -1032,15 +1147,15 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_german_imperial_admirality_staff
-		icon = GFX_GER_focus_artillery
+		icon = GFX_focus_generic_cruiser2
 		search_filters = { FOCUS_FILTER_MANPOWER }
-		x = 13
+		x = 18
 		y = 6
 
 		
 		cost = 10
 		
-		prerequisite = { focus = GER_rival_royal_navy focus = GER_strong_defensive_fleet }
+		prerequisite = { focus = GER_ focus = GER_ }
 		available = {
 			country_exists = GER
 		}
@@ -1055,15 +1170,15 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_new_cruiser_models
-		icon = GFX_GER_focus_artillery
+		icon = GFX_focus_generic_cruiser2
 		search_filters = { FOCUS_FILTER_MANPOWER }
-		x = 12
+		x = 16
 		y = 2
 
 		
 		cost = 10
 		
-		prerequisite = { focus = GER_ensure_german_dominance }
+		prerequisite = { focus = GER_ }
 		available = {
 			country_exists = GER
 		}
@@ -1078,15 +1193,15 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_protect_colonial_convoys
-		icon = GFX_GER_focus_artillery
+		icon = GFX_focus_generic_cruiser2
 		search_filters = { FOCUS_FILTER_MANPOWER }
-		x = 14
+		x = 20
 		y = 2
 
 		
 		cost = 10
 		
-		prerequisite = { focus = GER_stop_the_arms_race }
+		prerequisite = { focus = GER_ }
 		available = {
 			country_exists = GER
 		}
@@ -1101,15 +1216,15 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_strong_defensive_fleet
-		icon = GFX_GER_focus_artillery
+		icon = GFX_focus_generic_cruiser2
 		search_filters = { FOCUS_FILTER_MANPOWER }
-		x = 16
+		x = 22
 		y = 4
 
 		
 		cost = 10
 		
-		prerequisite = { focus = GER_small_shipyard_expansion focus = GER_further_cut_naval_funding }
+		prerequisite = { focus = GER_ focus = GER_ }
 		available = {
 			country_exists = GER
 		}
@@ -1124,15 +1239,15 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_small_shipyard_expansion
-		icon = GFX_GER_focus_artillery
+		icon = GFX_focus_generic_cruiser2
 		search_filters = { FOCUS_FILTER_MANPOWER }
-		x = 15
+		x = 21
 		y = 3
 
 		
 		cost = 10
 		
-		prerequisite = { focus = GER_protect_colonial_convoys focus = GER_anglo_german_naval_treaty }
+		prerequisite = { focus = GER_ focus = GER_ }
 		
 		mutually_exclusive = { focus = GER_further_cut_naval_funding }
 		
@@ -1150,15 +1265,15 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_further_cut_naval_funding
-		icon = GFX_GER_focus_artillery
+		icon = GFX_focus_generic_cruiser2
 		search_filters = { FOCUS_FILTER_MANPOWER }
-		x = 17
+		x = 23
 		y = 3
 
 		
 		cost = 10
 		
-		prerequisite = { focus = GER_protect_colonial_convoys focus = GER_anglo_german_naval_treaty}
+		prerequisite = { focus = GER_ focus = GER_}
 		
 		mutually_exclusive = { focus = GER_small_shipyard_expansion }
 
@@ -1175,17 +1290,17 @@ focus_tree = {
 			}				
 	}
 	focus = {
-		id = GER_side_with_austria_hungry
-		icon = GFX_GER_focus_artillery
+		id = GER_economic_aid
+		icon = GFX_goal_generic_intelligence_exchange
 		search_filters = { FOCUS_FILTER_MANPOWER }
-		x = 37
-		y = 2
+		x = 45
+		y = 31
 
 		
 		cost = 10
 		
-		mutually_exclusive = { focus = GER_enter_negotiations_with_italy }
-		prerequisite = { focus = GER_german_allies }
+		mutually_exclusive = { focus = GER_ }
+		prerequisite = { focus = GER_ }
 		available = {
 			country_exists = GER
 		}
@@ -1199,19 +1314,19 @@ focus_tree = {
 			}				
 	}
 	focus = {
-		id = GER_fix_kulturekampf
-		icon = GFX_GER_focus_artillery
+		id = GER_a_second_kulture_kampf
+		icon = GFX_focus_generic_strike_at_democracy2
 		search_filters = { FOCUS_FILTER_MANPOWER }
-		x = 51
-		y = 2
+		x = 59
+		y = 3
 
 		
 		cost = 10
 		
 		mutually_exclusive = { focus = GER_multiculturalism }
-		prerequisite = { focus = GER_welfare_programs }
-		prerequisite = { focus = GER_prussian_militarism }
-		prerequisite = { focus = GER_diplomatic_missions }
+		prerequisite = { focus = GER_ }
+		prerequisite = { focus = GER_ }
+		prerequisite = { focus = GER_ }
 		available = {
 			country_exists = GER
 		}
@@ -1225,40 +1340,16 @@ focus_tree = {
 			}				
 	}
 	focus = {
-		id = GER_a_germany_for_all
-		icon = GFX_GER_focus_artillery
+		id = GER_a_tolerant_germany
+		icon = GFX_focus_generic_strike_at_democracy2
 		search_filters = { FOCUS_FILTER_MANPOWER }
-		x = 49
-		y = 3
-
-		
-		cost = 10
-		
-		prerequisite = { focus = GER_multiculturalism }
-		available = {
-			country_exists = GER
-		}
-
-		bypass = {
-			
-		}
-
-		completion_reward = { 
-			
-			}				
-	}
-	focus = {
-		id = GER_central_powers
-		icon = GFX_GER_focus_artillery
-		search_filters = { FOCUS_FILTER_MANPOWER }
-		x = 37
+		x = 56
 		y = 4
 
 		
 		cost = 10
 		
-		prerequisite = { focus = GER_joint_military_training }
-		prerequisite = { focus = GER_support_austrias_annexation_of_bosnia }
+		prerequisite = { focus = GER_ }
 		available = {
 			country_exists = GER
 		}
@@ -1272,19 +1363,17 @@ focus_tree = {
 			}				
 	}
 	focus = {
-		id = GER_multiculturalism
-		icon = GFX_GER_focus_artillery
+		id = GER_the_central_powers
+		icon = GFX_focus_chi_british_cooperation
 		search_filters = { FOCUS_FILTER_MANPOWER }
-		x = 49
+		x = 30
 		y = 2
 
 		
 		cost = 10
 		
-		mutually_exclusive = { focus = GER_fix_kulturekampf }
-		prerequisite = { focus = GER_prussian_militarism }
-		prerequisite = { focus = GER_welfare_programs }
-		prerequisite = { focus = GER_diplomatic_missions }
+		prerequisite = { focus = GER_ }
+		prerequisite = { focus = GER_ }
 		available = {
 			country_exists = GER
 		}
@@ -1298,16 +1387,42 @@ focus_tree = {
 			}				
 	}
 	focus = {
-		id = GER_a_germany_for_germans
-		icon = GFX_GER_focus_artillery
+		id = GER_pursue_good_relations_with_roman_church
+		icon = GFX_focus_generic_strike_at_democracy2
 		search_filters = { FOCUS_FILTER_MANPOWER }
-		x = 51
+		x = 55
 		y = 3
 
 		
 		cost = 10
 		
-		prerequisite = { focus = GER_fix_kulturekampf }
+		mutually_exclusive = { focus = GER_fix_kulturekampf }
+		prerequisite = { focus = GER_ }
+		prerequisite = { focus = GER_ }
+		prerequisite = { focus = GER_ }
+		available = {
+			country_exists = GER
+		}
+
+		bypass = {
+			
+		}
+
+		completion_reward = { 
+			
+			}				
+	}
+	focus = {
+		id = GER_suppressed_minority
+		icon = GFX_focus_generic_strike_at_democracy2
+		search_filters = { FOCUS_FILTER_MANPOWER }
+		x = 58
+		y = 4
+
+		
+		cost = 10
+		
+		prerequisite = { focus = GER_ }
 		available = {
 			country_exists = GER
 		}
@@ -1322,15 +1437,15 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_our_place_in_the_sun
-		icon = GFX_GER_focus_artillery
+		icon = GFX_focus_generic_strike_at_democracy2
 		search_filters = { FOCUS_FILTER_MANPOWER }
-		x = 50
-		y = 4
+		x = 57
+		y = 5
 
 		
 		cost = 10
 		
-		prerequisite = { focus = GER_a_germany_for_all focus = GER_a_germany_for_germans }
+		prerequisite = { focus = GER_ focus = GER_ }
 		available = {
 			country_exists = GER
 		}
@@ -1345,16 +1460,16 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_enter_negotiations_with_italy
-		icon = GFX_GER_focus_artillery
+		icon = GFX_focus_chi_british_cooperation
 		search_filters = { FOCUS_FILTER_MANPOWER }
-		x = 43
-		y = 2
+		x = 46
+		y = 28
 
 		
 		cost = 10
 		
 		mutually_exclusive = { focus = GER_side_with_austria_hungry }
-		prerequisite = { focus = GER_german_allies }
+		prerequisite = { focus = GER_ }
 		available = {
 			country_exists = GER
 		}
@@ -1369,9 +1484,9 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_elections
-		icon = GFX_GER_focus_artillery
+		icon = GFX_focus_generic_industry_1
 		search_filters = { FOCUS_FILTER_MANPOWER }
-		x = 66
+		x = 76
 		y = 1
 
 		
@@ -1391,16 +1506,16 @@ focus_tree = {
 			}				
 	}
 	focus = {
-		id = GER_boxer_rebbelion
-		icon = GFX_GER_focus_artillery
+		id = GER_address_boxer_rebbelion
+		icon = GFX_focus_ger_oppose_hitler
 		search_filters = { FOCUS_FILTER_MANPOWER }
-		x = 55
+		x = 65
 		y = 1
 
 		
 		cost = 10
 		
-		prerequisite = { focus = GER_weltpolitik focus = GER_birth_of_republic }
+		prerequisite = { focus = GER_ focus = GER_ }
 		available = {
 			country_exists = GER
 		}
@@ -1414,16 +1529,16 @@ focus_tree = {
 			}				
 	}
 	focus = {
-		id = GER_balkan_wars
-		icon = GFX_GER_focus_artillery
+		id = GER_the_balkan_wars
+		icon = GFX_focus_ger_oppose_hitler
 		search_filters = { FOCUS_FILTER_MANPOWER }
-		x = 54
+		x = 68
 		y = 2
 
 		
 		cost = 10
 		
-		prerequisite = { focus = GER_boxer_rebbelion }
+		prerequisite = { focus = GER_}
 		available = {
 			country_exists = GER
 		}
@@ -1437,16 +1552,16 @@ focus_tree = {
 			}				
 	}
 	focus = {
-		id = GER_rom_berlin_pact
-		icon = GFX_GER_focus_artillery
+		id = GER_the_new_course
+		icon = GFX_focus_chi_british_cooperation
 		search_filters = { FOCUS_FILTER_MANPOWER }
-		x = 45
-		y = 4
+		x = 50
+		y = 2
 
 		
 		cost = 10
 		
-		prerequisite = { focus = GER_great_betrayle }
+		prerequisite = { focus = GER_ }
 		available = {
 			country_exists = GER
 		}
@@ -1461,132 +1576,132 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_prussian_militarism
-		icon = GFX_GER_focus_artillery
+		icon = GFX_focus_ger_oppose_hitler
 		search_filters = { FOCUS_FILTER_MANPOWER }
-		x = 47
-		y = 1
-
-		
-		cost = 10
-		
-		prerequisite = { focus = GER_weltpolitik }
-		available = {
-			country_exists = GER
-		}
-
-		bypass = {
-			
-		}
-
-		completion_reward = { 
-			
-			}				
-	}
-	focus = {
-		id = GER_german_allies
-		icon = GFX_GER_focus_artillery
-		search_filters = { FOCUS_FILTER_MANPOWER }
-		x = 40
-		y = 1
-
-		
-		cost = 10
-		
-		prerequisite = { focus = GER_weltpolitik }
-		available = {
-			country_exists = GER
-		}
-
-		bypass = {
-			
-		}
-
-		completion_reward = { 
-			
-			}				
-	}
-	focus = {
-		id = GER_find_a_compromise
-		icon = GFX_GER_focus_artillery
-		search_filters = { FOCUS_FILTER_MANPOWER }
-		x = 42
-		y = 3
-
-		
-		cost = 10
-		
-		mutually_exclusive = { focus = GER_great_betrayle }
-		prerequisite = { focus = GER_enter_negotiations_with_italy }
-		available = {
-			country_exists = GER
-		}
-
-		bypass = {
-			
-		}
-
-		completion_reward = { 
-			
-			}				
-	}
-	focus = {
-		id = GER_great_betrayle
-		icon = GFX_GER_focus_artillery
-		search_filters = { FOCUS_FILTER_MANPOWER }
-		x = 44
-		y = 3
-
-		
-		cost = 10
-		
-		mutually_exclusive = { focus = GER_find_a_compromise }
-		prerequisite = { focus = GER_enter_negotiations_with_italy }
-		available = {
-			country_exists = GER
-		}
-
-		bypass = {
-			
-		}
-
-		completion_reward = { 
-			
-			}				
-	}
-	focus = {
-		id = GER_support_austrias_annexation_of_bosnia
-		icon = GFX_GER_focus_artillery
-		search_filters = { FOCUS_FILTER_MANPOWER }
-		x = 38
-		y = 3
-
-		
-		cost = 10
-		
-		prerequisite = { focus = GER_side_with_austria_hungry }
-		available = {
-			country_exists = GER
-		}
-
-		bypass = {
-			
-		}
-
-		completion_reward = { 
-			
-			}				
-	}
-	focus = {
-		id = GER_triple_alliance_lives
-		icon = GFX_GER_focus_artillery
-		search_filters = { FOCUS_FILTER_MANPOWER }
-		x = 41
+		x = 51
 		y = 4
 
 		
 		cost = 10
 		
-		prerequisite = { focus = GER_find_a_compromise }
+		prerequisite = { focus = GER_ }
+		available = {
+			country_exists = GER
+		}
+
+		bypass = {
+			
+		}
+
+		completion_reward = { 
+			
+			}				
+	}
+	focus = {
+		id = GER_state_of_the_triple_alliance
+		icon = GFX_goal_generic_intelligence_exchange
+		search_filters = { FOCUS_FILTER_MANPOWER }
+		x = 48
+		y = 2
+
+		
+		cost = 10
+		
+		prerequisite = { focus = GER_ }
+		available = {
+			country_exists = GER
+		}
+
+		bypass = {
+			
+		}
+
+		completion_reward = { 
+			
+			}				
+	}
+	focus = {
+		id = GER_back_italian_land_claims
+		icon = GFX_goal_generic_intelligence_exchange
+		search_filters = { FOCUS_FILTER_MANPOWER }
+		x = 44
+		y = 14
+
+		
+		cost = 10
+		
+		mutually_exclusive = { focus = GER_ }
+		prerequisite = { focus = GER_ }
+		available = {
+			country_exists = GER
+		}
+
+		bypass = {
+			
+		}
+
+		completion_reward = { 
+			
+			}				
+	}
+	focus = {
+		id = GER_bulwark_against_socialism
+		icon = GFX_focus_chi_british_cooperation
+		search_filters = { FOCUS_FILTER_MANPOWER }
+		x = 48
+		y = 3
+
+		
+		cost = 10
+		
+		mutually_exclusive = { focus = GER_ }
+		prerequisite = { focus = GER_ }
+		available = {
+			country_exists = GER
+		}
+
+		bypass = {
+			
+		}
+
+		completion_reward = { 
+			
+			}				
+	}
+	focus = {
+		id = GER_support_the_annexation_of_bosnia
+		icon = GFX_goal_generic_intelligence_exchange
+		search_filters = { FOCUS_FILTER_MANPOWER }
+		x = 43
+		y = 14
+
+		
+		cost = 10
+		
+		prerequisite = { focus = GER_ }
+		available = {
+			country_exists = GER
+		}
+
+		bypass = {
+			
+		}
+
+		completion_reward = { 
+			
+			}				
+	}
+	focus = {
+		id = GER_b
+		icon = GFX_focus_chi_british_cooperation
+		search_filters = { FOCUS_FILTER_MANPOWER }
+		x = 50
+		y = 24
+
+		
+		cost = 10
+		
+		prerequisite = { focus = GER_ }
 		available = {
 			country_exists = GER
 		}
@@ -1601,15 +1716,15 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_joint_military_training
-		icon = GFX_GER_focus_artillery
+		icon = GFX_goal_generic_intelligence_exchange
 		search_filters = { FOCUS_FILTER_MANPOWER }
-		x = 36
-		y = 3
+		x = 44
+		y = 32
 
 		
 		cost = 10
 		
-		prerequisite = { focus = GER_side_with_austria_hungry }
+		prerequisite = { focus = GER_ }
 		available = {
 			country_exists = GER
 		}
@@ -1623,16 +1738,16 @@ focus_tree = {
 			}				
 	}
 	focus = {
-		id = GER_welfare_programs
-		icon = GFX_GER_focus_artillery
+		id = GER_kulture_problem
+		icon = GFX_focus_generic_strike_at_democracy2
 		search_filters = { FOCUS_FILTER_MANPOWER }
-		x = 53
-		y = 1
+		x = 57
+		y = 2
 
 		
 		cost = 10
 		
-		prerequisite = { focus = GER_weltpolitik }
+		prerequisite = { focus = GER_ }
 		available = {
 			country_exists = GER
 		}
@@ -1647,9 +1762,9 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_enact_reforms
-		icon = GFX_GER_focus_artillery
+		icon = GFX_focus_generic_industry_1
 		search_filters = { FOCUS_FILTER_MANPOWER }
-		x = 64
+		x = 74
 		y = 1
 
 		
@@ -1669,16 +1784,16 @@ focus_tree = {
 			}				
 	}
 	focus = {
-		id = GER_diplomatic_missions
-		icon = GFX_GER_focus_artillery
+		id = GER_sektion_IIIb
+		icon = GFX_focus_ger_oppose_hitler
 		search_filters = { FOCUS_FILTER_MANPOWER }
 		x = 50
-		y = 1
+		y = 5
 
 		
 		cost = 10
 		
-		prerequisite = { focus = GER_weltpolitik }
+		prerequisite = { focus = GER_weltpok }
 		available = {
 			country_exists = GER
 		}
@@ -1693,9 +1808,9 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_morroco_crisis
-		icon = GFX_GER_focus_artillery
+		icon = GFX_focus_ger_oppose_hitler
 		search_filters = { FOCUS_FILTER_MANPOWER }
-		x = 56
+		x = 66
 		y = 2
 
 		
@@ -1715,11 +1830,11 @@ focus_tree = {
 			}				
 	}
 	focus = {
-		id = GER_research_exchange
-		icon = GFX_GER_focus_artillery
+		id = GER_worlds_largest_army
+		icon = GFX_focus_chi_british_cooperation
 		search_filters = { FOCUS_FILTER_MANPOWER }
-		x = 43
-		y = 5
+		x = 52
+		y = 3
 
 		
 		cost = 10
@@ -1739,10 +1854,10 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_research_sharing
-		icon = GFX_GER_focus_artillery
+		icon = GFX_goal_generic_intelligence_exchange
 		search_filters = { FOCUS_FILTER_MANPOWER }
-		x = 37
-		y = 5
+		x = 44
+		y = 25
 
 		
 		cost = 10
@@ -1761,11 +1876,11 @@ focus_tree = {
 			}				
 	}
 	focus = {
-		id = GER_german_aces
-		icon = GFX_GER_focus_artillery
+		id = GER_worlds_third_best_economy
+		icon = GFX_goal_anschluss
 		search_filters = { FOCUS_FILTER_MANPOWER }
-		x = 11
-		y = 11
+		x = 35
+		y = 4
 
 		
 		cost = 10
@@ -1784,126 +1899,11 @@ focus_tree = {
 			}				
 	}
 	focus = {
-		id = GER_political
-		icon = GFX_GER_focus_artillery
-		search_filters = { FOCUS_FILTER_MANPOWER }
-		x = 49
-		y = 5
-
-		
-		cost = 10
-		
-		prerequisite = { focus = GER_m }
-		available = {
-			country_exists = GER
-		}
-
-		bypass = {
-			
-		}
-
-		completion_reward = { 
-			
-			}				
-	}
-	focus = {
-		id = GER_air_planes9
-		icon = GFX_GER_focus_artillery
-		search_filters = { FOCUS_FILTER_MANPOWER }
-		x = 48
-		y = 6
-
-		
-		cost = 10
-		
-		prerequisite = { focus = GER_m }
-		available = {
-			country_exists = GER
-		}
-
-		bypass = {
-			
-		}
-
-		completion_reward = { 
-			
-			}				
-	}
-	focus = {
-		id = GER_air_planes8
-		icon = GFX_GER_focus_artillery
-		search_filters = { FOCUS_FILTER_MANPOWER }
-		x = 50
-		y = 7
-
-		
-		cost = 10
-		
-		prerequisite = { focus = GER_m }
-		available = {
-			country_exists = GER
-		}
-
-		bypass = {
-			
-		}
-
-		completion_reward = { 
-			
-			}				
-	}
-	focus = {
-		id = GER_build_air_bases
-		icon = GFX_GER_focus_artillery
-		search_filters = { FOCUS_FILTER_MANPOWER }
-		x = 12
-		y = 9
-
-		
-		cost = 10
-		
-		prerequisite = { focus = GER_m }
-		available = {
-			country_exists = GER
-		}
-
-		bypass = {
-			
-		}
-
-		completion_reward = { 
-			
-			}				
-	}
-	focus = {
-		id = GER_fighter_planes
-		icon = GFX_GER_focus_artillery
-		search_filters = { FOCUS_FILTER_MANPOWER }
-		x = 10
-		y = 9
-
-		
-		cost = 10
-		
-		prerequisite = { focus = GER_m }
-		available = {
-			country_exists = GER
-		}
-
-		bypass = {
-			
-		}
-
-		completion_reward = { 
-			
-			}				
-	}
-	focus = {
-		id = GER_political1
-		icon = GFX_GER_focus_artillery
+		id = GER_kaiser_wilhelm_II
+		icon = GFX_focus_ger_oppose_hitler
 		search_filters = { FOCUS_FILTER_MANPOWER }
 		x = 51
-		y = 5
+		y = 1
 
 		
 		cost = 10
@@ -1922,11 +1922,11 @@ focus_tree = {
 			}				
 	}
 	focus = {
-		id = GER_doctrines
-		icon = GFX_GER_focus_artillery
+		id = GER_concessions_to_native_people
+		icon = GFX_focus_cze_german_puppet
 		search_filters = { FOCUS_FILTER_MANPOWER }
-		x = 9
-		y = 10
+		x = 62
+		y = 3
 
 		
 		cost = 10
@@ -1945,11 +1945,11 @@ focus_tree = {
 			}				
 	}
 	focus = {
-		id = GER_anti_air_defense
-		icon = GFX_GER_focus_artillery
+		id = GER_political_visit_to_ottomans
+		icon = GFX_focus_ger_oppose_hitler
 		search_filters = { FOCUS_FILTER_MANPOWER }
-		x = 13
-		y = 10
+		x = 49
+		y = 4
 
 		
 		cost = 10
@@ -1968,11 +1968,11 @@ focus_tree = {
 			}				
 	}
 	focus = {
-		id = GER_air_planes2
-		icon = GFX_GER_focus_artillery
+		id = GER_establish_new_airports
+		icon = GFX_goal_anschluss
 		search_filters = { FOCUS_FILTER_MANPOWER }
-		x = 52
-		y = 6
+		x = 4
+		y = 1
 
 		
 		cost = 10
@@ -1991,11 +1991,126 @@ focus_tree = {
 			}				
 	}
 	focus = {
-		id = GER_bombers
-		icon = GFX_GER_focus_artillery
+		id = GER_offshore_cost_tocolonies
+		icon = GFX_goal_anschluss
 		search_filters = { FOCUS_FILTER_MANPOWER }
-		x = 11
-		y = 10
+		x = 17
+		y = 9
+
+		
+		cost = 10
+		
+		prerequisite = { focus = GER_m }
+		available = {
+			country_exists = GER
+		}
+
+		bypass = {
+			
+		}
+
+		completion_reward = { 
+			
+			}				
+	}
+	focus = {
+		id = GER_native_uprising_in_colonies
+		icon = GFX_focus_ger_oppose_hitler
+		search_filters = { FOCUS_FILTER_MANPOWER }
+		x = 64
+		y = 2
+
+		
+		cost = 10
+		
+		prerequisite = { focus = GER_m }
+		available = {
+			country_exists = GER
+		}
+
+		bypass = {
+			
+		}
+
+		completion_reward = { 
+			
+			}				
+	}
+	focus = {
+		id = GER_air_doctrines
+		icon = GFX_goal_anschluss
+		search_filters = { FOCUS_FILTER_MANPOWER }
+		x = 0
+		y = 1
+
+		
+		cost = 10
+		
+		prerequisite = { focus = GER_m }
+		available = {
+			country_exists = GER
+		}
+
+		bypass = {
+			
+		}
+
+		completion_reward = { 
+			
+			}				
+	}
+	focus = {
+		id = GER_recon_planes
+		icon = GFX_goal_anschluss
+		search_filters = { FOCUS_FILTER_MANPOWER }
+		x = 2
+		y = 1
+
+		
+		cost = 10
+		
+		prerequisite = { focus = GER_m }
+		available = {
+			country_exists = GER
+		}
+
+		bypass = {
+			
+		}
+
+		completion_reward = { 
+			
+			}				
+	}
+	focus = {
+		id = GER_destroy_the_uprising
+		icon = GFX_focus_ger_oppose_hitler
+		search_filters = { FOCUS_FILTER_MANPOWER }
+		x = 66
+		y = 3
+
+		
+		cost = 10
+		
+		prerequisite = { focus = GER_m }
+		available = {
+			country_exists = GER
+		}
+
+		bypass = {
+			
+		}
+
+		completion_reward = { 
+			
+			}				
+	}
+	focus = {
+		id = GER_german_aces
+		icon = GFX_goal_anschluss
+		search_filters = { FOCUS_FILTER_MANPOWER }
+		x = 2
+		y = 2
 
 		
 		cost = 10

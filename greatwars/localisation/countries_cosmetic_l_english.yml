@@ -74,6 +74,9 @@ ITA1900_traditional_conservatism_DEF:0 "The Kingdom of Italy"
 SER_KINGDOM_traditional_conservatism:0 "Kingdom of Serbia"
 SER_KINGDOM_traditional_conservatism_DEF:0 "The Kingdom of Serbia"
 
+SAF_COLONY:0 "Cape Colony"
+SAF_COLONY_DEF:0 "Cape Colony"
+
 
  INS_HOL_democratic:0 "Dutch East Indies"
  INS_HOL_democratic_DEF:0 "the Dutch East Indies"
