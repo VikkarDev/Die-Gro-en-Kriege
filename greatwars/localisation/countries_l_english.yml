@@ -1,4 +1,13 @@
 ﻿l_english:
+ ACH_autocracy:0 "Aceh Sultanate"
+ ACH_centrism_ADJ:0 "Acehen"
+ ACH_traditional_conservatism_ADJ:0 "Acehen"
+ ACH_social_egalitarianism_ADJ:0 "Acehen"
+ ACH_vanguard_communism_ADJ:0 "Acehen"
+ ACH_autocracy_ADJ:0 "Acehen"
+ ACH_radical_democracy_ADJ:0 "Acehen"
+ ACH_chauvinist_populism_ADJ:0 "Acehen"
+ 
  GER_centrism:0 "German Empire"
  GER_traditional_conservatism:0 "Germany"
  GER_social_egalitarianism:0 "Germany"
