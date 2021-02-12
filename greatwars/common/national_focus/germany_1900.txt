@@ -169,7 +169,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_heavy_industry
-		icon = GFX_goal_generic_construct_civ_factory
+		icon = GFX_GER_focus_heavy_industry
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 		x = 29
 		y = 3
@@ -200,7 +200,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_krupp_steel
-		icon = GFX_goal_generic_construct_civ_factory
+		icon = GFX_GER_focus_krupp_steel
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 		x = 38
 		y = 2
@@ -1052,7 +1052,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_stop_the_arms_race
-		icon = GFX_focus_generic_cruiser2
+		icon = GFX_GER_focus_stop_the_arms_race
 		search_filters = { FOCUS_FILTER_MANPOWER }
 		x = 22
 		y = 1
