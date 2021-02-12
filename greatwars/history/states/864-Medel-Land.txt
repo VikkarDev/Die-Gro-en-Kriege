@@ -1,6 +1,7 @@
 state={
 	id=864
 	name="STATE_864"
+	state_category=town
 	history={
 		owner = SWE
 		buildings = {
