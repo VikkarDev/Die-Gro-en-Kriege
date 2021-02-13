@@ -128,7 +128,7 @@ LUX = {
 	color = rgb { 65 175 179 }
 	color_ui = rgb { 85 228 233 }
 }
-BEL = { color 	 = rgb { 193 171 8  }
+BEL = { color 	 = rgb { 193 171 8 }
 		color_ui = rgb { 251 222 10 }
 	  }
 HOL = {	color = rgb { 203 138 74 }
@@ -137,7 +137,6 @@ HOL = {	color = rgb { 203 138 74 }
 CZE = {	color = rgb { 54 167 156 }
 		color_ui = rgb { 70 217 203 }
 }
-
 LIT = {
 	color = rgb { 219 219 119 }
 	color_ui = rgb { 255 255 155 }
@@ -162,8 +161,6 @@ YUG = {
 	color = rgb { 72 73 126 }
 	color_ui = rgb { 94 95 164 }
 }
-
-
 GRE = {
 	color = rgb { 93 181 227 }
 	color_ui = rgb { 121 235 255 }

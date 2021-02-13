@@ -19,9 +19,15 @@ capital = 862
 		#elections_allowed = yes
 	}
 	
-	declare_war_on = {
-		target = INS
-		type = annex_everything
+	if = {
+		limit = {
+			has_start_date < 1900.1.2
+		}
+
+		declare_war_on = {
+			target = INS
+			type = annex_everything
+		}
 	}
 	
 	set_popularities = {
@@ -38,7 +44,7 @@ capital = 862
 	create_country_leader = {
 		name = "Alauddin Muhammad Da'ud Syah II"
 		desc = ""
-		#picture = "Guangxu_Emperor.dds"
+		picture = "Alauddin_Syah_II.dds"
 		ideology = despotism
 		traits = {
 			

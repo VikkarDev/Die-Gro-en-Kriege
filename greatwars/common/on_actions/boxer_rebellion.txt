@@ -19,4 +19,23 @@ on_actions = {
 			}
 		}
 	}
+	
+	on_state_control_changed = {
+		effect = {
+			if = {
+				limit = {
+					BOX = {
+						controls_state = 608
+						controls_state = 609
+						controls_state = 597
+						controls_state = 598
+					}
+				}
+
+				BOX = {
+					country_event = { id = boxer_rebellion.5 }
+				}
+			}
+		}
+	}
 }

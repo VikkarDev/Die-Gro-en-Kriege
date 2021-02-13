@@ -15,12 +15,17 @@ country_event = {
 
 	option = {
 		name = united_kingdom.1.a
-		ai_chance = { factor = 90 }
+
+		ENG = {
+			annex_country = {
+				target = ORC
+			}
+			annex_country = {
+				target = SAR
+			}
+		}
+
+		ai_chance = { factor = 100 }
 		custom_effect_tooltip = NOT_COMPLETE
-	}
-	option = {
-		name = united_kingdom.1.b
-		ai_chance = { factor = 10 }
-		custom_effect_tooltip = HISTORICAL_BREAK_EVENT
 	}
 }
