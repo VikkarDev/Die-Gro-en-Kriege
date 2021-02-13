@@ -604,7 +604,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_artillery
-		icon = GFX_focus_generic_industry_1
+		icon = GFX_GER_focus_artillery_tactics
 		search_filters = { FOCUS_FILTER_MANPOWER }
 		x = 7
 		y = 3

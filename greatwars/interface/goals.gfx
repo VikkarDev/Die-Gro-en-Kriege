@@ -21,6 +21,11 @@ spriteTypes = {
 		name = "GFX_GER_focus_stop_the_arms_race"
 		texturefile = "gfx/interface/goals/ger/GER_focus_stop_the_arms_race.dds"
 	}
+
+	SpriteType = {
+		name = "GFX_GER_focus_artillery_tactics"
+		texturefile = "gfx/interface/goals/ger/GER_focus_artillery_tactics.dds"
+	}
 	
 	SpriteType = {
 		name = "GFX_GER_focus_increase_mil_budget"

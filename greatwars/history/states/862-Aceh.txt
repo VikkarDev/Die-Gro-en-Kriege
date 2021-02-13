@@ -15,7 +15,7 @@ state={
 		add_core_of = ACH
 
 		victory_points = {
-			1684 15
+			1648 15
 		}
 
 	}
