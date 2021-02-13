@@ -1,0 +1,15 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			if = {
+				limit = {
+					has_start_date < 1900.1.2
+				}
+
+				GER = {
+					country_event = { id = dgk_generic.7 days = 1474 } # Jan. 15, 1904
+				}
+			}
+		}
+	}
+}

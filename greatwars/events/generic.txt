@@ -196,3 +196,22 @@ country_event = {
 		#ai_chance = { factor = 100 }
 	}
 }
+
+# NATIVE UPRISING
+country_event = {
+	id = dgk_generic.7
+	title = dgk_generic.7.t
+	desc = dgk_generic.7.d
+	picture = GFX_report_event_african_soldiers
+
+	is_triggered_only = yes
+
+	trigger = {
+    	
+  	}
+
+	option = {
+		name = dgk_generic.7.a
+		ai_chance = { factor = 100 }
+	}
+}

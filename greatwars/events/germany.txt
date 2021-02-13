@@ -88,3 +88,111 @@ country_event = {
 		ai_chance = { factor = 100 }
 	}
 }
+
+country_event = {
+	id = germany.6
+	title = germany.6.t
+	desc = germany.6.d
+	picture = GFX_report_event_generic_naval_treaty
+
+	fire_only_once = yes
+	
+	trigger = {
+		tag = GER
+		has_completed_focus = GER_anglo_german_naval_treaty
+	}
+	option = {
+		name = germany.6.a
+		ai_chance = { factor = 100 }
+	}
+}
+
+country_event = {
+	id = germany.7
+	title = germany.7.t
+	desc = germany.7.d
+	picture = GFX_report_event_germany_basf
+
+	fire_only_once = yes
+	
+	trigger = {
+		tag = GER
+		has_completed_focus = GER_baden_aniline_and_soda_factory
+	}
+	option = {
+		name = germany.7.a
+		ai_chance = { factor = 100 }
+	}
+}
+
+country_event = {
+	id = germany.8
+	title = germany.8.t
+	desc = germany.8.d
+	picture = GFX_report_event_german_advisors_remain
+
+	fire_only_once = yes
+	
+	trigger = {
+		tag = GER
+		has_completed_focus = GER_kulture_problem
+	}
+	option = {
+		name = germany.8.a
+		ai_chance = { factor = 100 }
+	}
+}
+
+country_event = {
+	id = germany.9
+	title = germany.9.t
+	desc = germany.9.d
+	picture = GFX_report_event_german_polish_border
+
+	fire_only_once = yes
+	
+	trigger = {
+		tag = GER
+		#has_completed_focus = GER_genocide
+	}
+	option = {
+		name = germany.9.a
+		ai_chance = { factor = 100 }
+	}
+}
+
+country_event = {
+	id = germany.10
+	title = germany.10.t
+	desc = germany.10.d
+	picture = GFX_report_event_ast_navy
+
+	fire_only_once = yes
+	
+	trigger = {
+		tag = GER
+		has_completed_focus = GER_deutchland_class
+	}
+	option = {
+		name = germany.10.a
+		ai_chance = { factor = 100 }
+	}
+}
+
+country_event = {
+	id = germany.11
+	title = germany.11.t
+	desc = germany.11.d
+	picture = GFX_report_event_german_speech
+
+	fire_only_once = yes
+	
+	trigger = {
+		tag = GER
+		has_completed_focus = GER_develop_asian_colonies
+	}
+	option = {
+		name = germany.11.a
+		ai_chance = { factor = 100 }
+	}
+}

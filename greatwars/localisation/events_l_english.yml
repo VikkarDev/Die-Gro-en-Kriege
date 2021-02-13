@@ -1,6 +1,6 @@
 ﻿l_english:
 
-# GENERIC
+# START UP
 dgk_generic.1.t:0 "Welcome to Die Großen Kriege!"
 dgk_generic.1.d:0 "Thank you for downloading Die Großen Kriege! We are working very hard to make this mod enjoyable and entertaining for you. If you're wondering why the Steam Workshop won't be updated for a while is because we want to provide big updates.\n\nIf you want to see early teasers of updates, you can join the Discord: https://discord.gg/zYhg6Yjb7E\n\nWe hope you enjoy Die Großen Kriege in any way you play it as we worked very hard."
 dgk_generic.1.a:0 "Let's play!"
@@ -50,6 +50,11 @@ dgk_news.3.d:0 "War! The most powerful option in international politics. And it 
 dgk_news.3.a:0 "Okay."
 dgk_news.3.b:0 "We will fight!"
 
+# GENERIC
+dgk_generic.7.t:0 "Native Uprising"
+dgk_generic.7.d:0 "A native uprising has happened in a colony! Rumors spread that a group of people were going to uprise against the overlord. Following this, the uprising plans to have their own soveriegn state, but have to fight for it."
+dgk_generic.7.a:0 "We'll resolve this in some way."
+
 # JAPAN
 japan.1.t:0 "Navy Pressure to Emperor About Manchuria"
 japan.1.d:0 "As Russian ambitions in the Japanese sphere of influence grow, the navy has suggested that the Empire makes a preemptive strike against the Tsar, as to utilize the element of surprise against the damned Ruskies. While there has been a great deal of bickering between the navy and the army, it is ultimately up to the Emperor himself to decide. A decision that could very much affect the future of the Empire is on the emperor’s desk. Ultimately, he decided to…"
@@ -68,7 +73,7 @@ boxer_rebellion.5.a:0 "We've done it."
 
 # GERMANY
 germany.1.t:0 "Krupp Steel"
-germany.1.d:0 "The Krupp family, a prominent German dynasty from Essen, is famous for the production of steel, artillery, ammunition, and other armaments. Krupp has become the arms manufacturer for the Kingdom of Prussia, which is now the German Empire.\n\nThe company made steel in order to produce railroads. After the death of Krupp, his son, Friedrich Alfred carried on the worl. Alfreds father was known as Herr Krupp."
+germany.1.d:0 "The Krupp family, a prominent German dynasty from Essen, is famous for the production of steel, artillery, ammunition, and other armaments. Krupp has become the arms manufacturer for the Kingdom of Prussia, which is now the German Empire.\n\nThe company made steel in order to produce railroads. After the death of Krupp, his son, Friedrich Alfred carried on the world. Alfreds father was known as Herr Krupp."
 germany.1.a:0 "Interesting."
 germany.2.t:0 "Deutsches Kolonialreich"
 germany.2.d:0 "When Germany was first unified in the early 1870s, the leader, Otto von Bismark, short-lived attempts of colonization by invidiual German states. Claiming much of the left-over uncolonized areas of Africa, Germany built the third-largest colonial empire at the time, after the British and French.\n\nThe German Colonial Empire encompassed parts of several African countries, Burundi, Rwanda, Tanzania, Namibia, Cameroon, Gabon, and more. Along with West Pacific / Micronesian islands like New Guinea."
@@ -82,3 +87,20 @@ germany.4.a:0 "Interesting."
 germany.5.t:0 "Weltpolitik"
 germany.5.d:0 "Weltpolitik was aimed at making Germany's presence abroad commensurate with her new industrial might. Bismarck considered colonies a dangerous luxury given Germany's geographic posiion, but the Kaiser thought them indispensable for Germany's future. The Wilhelm era however, he adopted a more ambitious and risky course."
 germany.5.a:0 "Interesting."
+germany.6.t:0 "Anglo-German Naval Treaty"
+germany.6.d:0 "After a race to build a navy, there is finally a treaty between the British and Germans. Wilhelm II and the German Empire will rebuild relations with the United Kingdom. Hopefully, this will lead to a halt in the arms race."
+germany.6.a:0 "At last."
+germany.7.t:0 "BASF"
+germany.7.d:0 "BASF is a German multinational chemical company and the largest chemical producer in the world. BASF stands for Baden Aniline and Soda Factory. It was founded by Friedrich Engelhorn on 6 April 1865 in Mannheim. BASF was set up in 1865 to produce other chemicals necessary for dye production, notably in soda and acids.\n\nFuther patents were granted for the synthesis of methylene blue and eosin, and in 1880, research began to try to find a synthetic process for indigo dye, though this was not successfully brought to the market until 1897."
+germany.8.t:0 "Kulturekampf"
+germany.8.d:0 "On the part of the German chancellor Otto von Bismark to subject the Roman Catholic church to state controls. The term came into use in 1873 when the scientist and Prussian liberal statesman Rudolf Virchow declared that the battle with the Roman Catholics was assuming "the character of a great struggle in the interest of humanity."\n\nThe conflict began in July 1871, when Bismarck, supported by the liberals, abolished the Roman Catholic bureau in the Prussian Ministry of Culture and in November forbade preists from voicing political opinions from the pulit."
+germany.8.a:0 "Interesting."
+germany.9.t:0 "Herero and Namaqua Genocide"
+germany.9.d:0 "In January 1904, the Herero peole, who were led by Samuel Maharero, and the Nama people, who were led by Captain Hendrik Witbooi, rebelled against German colonial rule. However, on January 12, they massacred more than 100 German men in the area of Okahandja, though sparing women and children.\n\nIn the Battle of Waterberg, most of them drove into a desert and died of dehydration. In October, the Nama people also rebelled against the Germans, only to suffer a similar fate."
+germany.9.a:0 "Interesting."
+germany.10.t:0 "Deutschland Class"
+germany.10.d:0 "The five battleships of the Deutschland class were the last of their kind built in Germany. They were completed and accepted into service in 1906-1908, at this time or the first Dreadnoughts appeared. In fact, they were virtually obsolete in 1914.\n\nAs they were still fresh, even in 1914, they were affected to the fron line 2nd squadron. In may 1916, during the Battle of Jutland, they had the opportunity to make talk their powder and show their metal."
+germany.10.a:0 "Interesting."
+germany.11.t:0 "Profiting Colonies"
+germany.11.d:0 "After finally reforming the Asian colonies, the colonies are booming! People are happy, Germany's making money and their land is growing. The German Empire is growing closer and closer to becoming a number one world power."
+germany.11.a:0 "At last."
