@@ -7,6 +7,12 @@ spriteTypes = {
 		noOfFrames = 3
 		effectFile = "gfx/FX/buttonstate_onlydisable.lua"
 	}
+
+	spriteType = {
+        	name = "GFX_bookmarks_bg"
+        	texturefile = "gfx/interface/bookmarks_bg.dds"
+        	noOfFrames = 2
+    	}	
 		
 	spriteType = {
 		name = "GFX_frontend_game_logo"

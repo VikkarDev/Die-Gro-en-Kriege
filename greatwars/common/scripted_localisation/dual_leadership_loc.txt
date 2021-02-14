@@ -1,0 +1,96 @@
+# Custom leader stuff used from Coop. Edited by the DGK Team.
+
+defined_text = {
+	name = GetFirstTitle
+
+	text = {
+		trigger = {
+			tag = GER
+			OR = {
+				has_government = centrism
+				has_government = traditional_conservatism
+			}
+		}
+		localization_key = GER_HOS_TITLE
+	}
+
+	text = {
+		localization_key = DEFAULT_FIRST_TITLE
+	}
+}
+
+defined_text = {
+	name = GetSecondTitle
+	
+	text = {
+		trigger = {
+			tag = GER
+			OR = {
+				has_government = centrism
+				has_government = traditional_conservatism
+			}
+		}
+		localization_key = GER_HOG_TITLE
+	}
+}
+
+defined_text = {
+	name = GetDualLeaderName
+
+	text = {
+		trigger = {
+			tag = GER
+			OR = {
+				has_government = centrism
+				has_government = traditional_conservatism
+			}
+		}
+		localization_key = CARL_VIKTOR_NAME
+	}
+
+	text = {
+		localization_key = DEFAULT_TITLE
+	}
+}
+
+defined_text = {
+	name = GetDualLeaderPortrait
+
+	text = {
+		trigger = {
+			tag = GER
+			OR = {
+				has_government = centrism
+				has_government = traditional_conservatism
+			}
+		}
+		localization_key = "GFX_GER_Carl_Viktor_"
+	}
+
+	text = {
+		localization_key = "GFX_portrait_bg_blank"
+	}
+}
+
+
+defined_text = {
+	name = GetFirstLeaderDesc
+
+	text = {
+		trigger = {
+			original_tag = GER
+		}
+		localization_key = WILHELM_LEADER_DESCRIPTION
+	}
+}
+
+defined_text = {
+	name = GetDualLeaderDesc
+
+	text = {
+		trigger = {
+			original_tag = GER
+		}
+		localization_key = VIKTOR_LEADER_DESCRIPTION
+	}
+}

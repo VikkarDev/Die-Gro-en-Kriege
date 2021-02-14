@@ -1,11 +1,11 @@
 state={
 	id=869
 	name="STATE_869"
-    manpower = 1631000
-    state_category = town
+        manpower = 1631000
+        state_category = town
 
 	provinces={
-		7991 10846 
+		13243 
 	}
 	history={
 		owner = LAB
