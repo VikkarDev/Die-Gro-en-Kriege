@@ -1,13 +1,15 @@
 on_actions = {
 	on_startup = {
 		effect = {
-			JAP = {
-				country_event = { id = japan.1 days = 1497 }
-			}
+			if = {
+				limit = {
+					has_start_date < 1900.1.2
+				}
 
-			#GER = {
-			#	country_event = { id = boxer_rebellion.3 days = 614 }
-			#}
+				ENG = {
+					country_event = { id = japan.1 days = 1497 } # Feb. 8 19014
+				}
+			}
 		}
 	}
 }

@@ -35,20 +35,26 @@ ideologies = {
 		color = { 109 151 101 }
 
 		rules = {
-			can_declare_war_on_same_ideology = yes
+			can_declare_war_on_same_ideology = no
 			can_force_government = no
 			can_send_volunteers = no
 			can_puppet = yes
 			can_lower_tension = yes
-			can_only_justify_war_on_threat_country = no
+			can_only_justify_war_on_threat_country = yes
 			can_guarantee_other_ideologies = yes
 		}
 
 		modifiers = {
-			join_faction_tension = 0.1
-			lend_lease_tension = 0.25
-			send_volunteers_tension = 0.5
-			guarantee_tension = 0.2
+			generate_wargoal_tension = 1.00
+			join_faction_tension = 0.80
+			lend_lease_tension = 0.50
+			send_volunteers_tension = 0.50
+			guarantee_tension = 0.25
+			annex_cost_factor = 0.5
+			civilian_intel_to_others = 20.0
+			army_intel_to_others = 5.0
+			navy_intel_to_others = 20.0
+			airforce_intel_to_others = 5
 		}
 
 		war_impact_on_world_tension = 0.45
@@ -93,20 +99,26 @@ ideologies = {
 		color = { 64 89 137 }
 
 		rules = {
-			can_declare_war_on_same_ideology = yes
+			can_declare_war_on_same_ideology = no
 			can_force_government = no
 			can_send_volunteers = no
 			can_puppet = yes
 			can_lower_tension = yes
-			can_only_justify_war_on_threat_country = no
+			can_only_justify_war_on_threat_country = yes
 			can_guarantee_other_ideologies = yes
 		}
 
 		modifiers = {
-			join_faction_tension = 0.1
-			lend_lease_tension = 0.25
-			send_volunteers_tension = 0.5
-			guarantee_tension = 0.2
+			generate_wargoal_tension = 1.00
+			join_faction_tension = 0.80
+			lend_lease_tension = 0.50
+			send_volunteers_tension = 0.50
+			guarantee_tension = 0.25
+			annex_cost_factor = 0.5
+			civilian_intel_to_others = 20.0
+			army_intel_to_others = 5.0
+			navy_intel_to_others = 20.0
+			airforce_intel_to_others = 5
 		}
 
 		war_impact_on_world_tension = 0.45
@@ -280,20 +292,26 @@ ideologies = {
 
 
 		rules = {
-			can_declare_war_on_same_ideology = yes
+			can_declare_war_on_same_ideology = no
 			can_force_government = no
 			can_send_volunteers = no
 			can_puppet = yes
 			can_lower_tension = no
-			can_only_justify_war_on_threat_country = no
+			can_only_justify_war_on_threat_country = yes
 			can_guarantee_other_ideologies = yes
 		}
 
 		modifiers = {
-			join_faction_tension = 0.1
-			lend_lease_tension = 0.25
-			send_volunteers_tension = 0.5
-			guarantee_tension = 0.2
+			generate_wargoal_tension = 1.00
+			join_faction_tension = 0.80
+			lend_lease_tension = 0.50
+			send_volunteers_tension = 0.50
+			guarantee_tension = 0.25
+			annex_cost_factor = 0.5
+			civilian_intel_to_others = 20.0
+			army_intel_to_others = 5.0
+			navy_intel_to_others = 20.0
+			airforce_intel_to_others = 5
 		}
 
 		war_impact_on_world_tension = 0.45
@@ -399,15 +417,21 @@ ideologies = {
 			can_send_volunteers = no
 			can_puppet = yes
 			can_lower_tension = no
-			can_only_justify_war_on_threat_country = no
+			can_only_justify_war_on_threat_country = yes
 			can_guarantee_other_ideologies = no
 		}
 
 		modifiers = {
-			join_faction_tension = 0.1
-			lend_lease_tension = 0.25
-			send_volunteers_tension = 0.5
-			guarantee_tension = 0.2
+			generate_wargoal_tension = 1.00
+			join_faction_tension = 0.80
+			lend_lease_tension = 0.50
+			send_volunteers_tension = 0.50
+			guarantee_tension = 0.25
+			annex_cost_factor = 0.5
+			civilian_intel_to_others = 20.0
+			army_intel_to_others = 5.0
+			navy_intel_to_others = 20.0
+			airforce_intel_to_others = 5
 		}
 
 		war_impact_on_world_tension = 1
@@ -449,15 +473,21 @@ ideologies = {
 			can_send_volunteers = no
 			can_puppet = yes
 			can_lower_tension = no
-			can_only_justify_war_on_threat_country = no
+			can_only_justify_war_on_threat_country = yes
 			can_guarantee_other_ideologies = no
 		}
 
 		modifiers = {
-			join_faction_tension = 0.1
-			lend_lease_tension = 0.25
-			send_volunteers_tension = 0.5
-			guarantee_tension = 0.2
+			generate_wargoal_tension = 1.00
+			join_faction_tension = 0.80
+			lend_lease_tension = 0.50
+			send_volunteers_tension = 0.50
+			guarantee_tension = 0.25
+			annex_cost_factor = 0.5
+			civilian_intel_to_others = 20.0
+			army_intel_to_others = 5.0
+			navy_intel_to_others = 20.0
+			airforce_intel_to_others = 5
 		}
 
 		war_impact_on_world_tension = 1

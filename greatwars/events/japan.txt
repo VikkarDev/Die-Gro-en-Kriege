@@ -20,6 +20,7 @@ country_event = {
 		custom_effect_tooltip = "JAP_RUS_WAR"
 
 		country_event = { id = japan.2 days = 1 }
+		country_event = { id = japan.3 days = 576 }
 	}
 	option = {
 		name = japan.1.b
@@ -52,4 +53,36 @@ country_event = {
 
 		news_event = { id = dgk_news.3 }
 	}
+}
+
+# JAPAN WINS AGAINST RUSSIA
+country_event = {
+	id = japan.3
+	title = japan.3.t
+	desc = japan.3.d
+	picture = GFX_report_event_japanese_soldiers_01
+
+	fire_only_once = yes
+	
+	trigger = {
+		tag = JAP
+		#date = 1904.2.7
+	}
+	option = {
+		name = japan.3.a
+
+		JAP = {
+			white_peace = SOV
+
+			transfer_state = 537
+			transfer_state = 745
+		}
+
+		ai_chance = { factor = 80 }
+	}
+	option = {
+		name = japan.3.b
+		ai_chance = { factor = 20 }
+		add_political_power = -25
+		add_stability = -0.25
 }

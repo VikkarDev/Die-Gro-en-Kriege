@@ -32,6 +32,7 @@ SAR = "countries/South African Republic.txt"
 SLD = "countries/Swaziland.txt"
 NAT = "countries/Colony of Natal.txt"
 ACH = "countries/Aceh Sultanate.txt"
+FRI = "countries/French Indochina.txt"
 
 LUX = "countries/Luxemburg.txt"
 BEL = "countries/Belgium.txt"
