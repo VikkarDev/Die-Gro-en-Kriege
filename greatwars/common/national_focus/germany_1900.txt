@@ -1439,7 +1439,7 @@ focus_tree = {
 		}
 
 		completion_reward = { 
-			create_faction = central_powers:0 "Central Powers"
+			
 		}				
 	}
 	focus = {
