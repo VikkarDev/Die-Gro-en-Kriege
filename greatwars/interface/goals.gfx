@@ -3,8 +3,43 @@ spriteTypes = {
 	#### Mod goal icons
 	
 	SpriteType = {
-		name = "GFX_ger_focus_artillery"
+		name = "GFX_GER_focus_artillery"
 		texturefile = "gfx/interface/goals/ger/GER_focus_artillery.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_GER_focus_cartel_system"
+		texturefile = "gfx/interface/goals/ger/GER_focus_cartel_system.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_GER_focus_no_welfare_for_commies"
+		texturefile = "gfx/interface/goals/ger/GER_focus_no_welfare_for_commies.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_GER_focus_north_coalmines"
+		texturefile = "gfx/interface/goals/ger/GER_focus_north_coalmines.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_GER_focus_welfare_for_all"
+		texturefile = "gfx/interface/goals/ger/GER_focus_welfare_for_all.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_GER_focus_sieze_native_assets"
+		texturefile = "gfx/interface/goals/ger/GER_focus_sieze_native_assets.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_GER_focus_develop_colonies"
+		texturefile = "gfx/interface/goals/ger/GER_focus_develop_colonies.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_GER_focus_colonial_industry"
+		texturefile = "gfx/interface/goals/ger/GER_focus_colonial_industry.dds"
 	}
 	
 	SpriteType = {
@@ -103,28 +138,27 @@ spriteTypes = {
 	}
 
 	SpriteType = {
-		name = "GFX_ger_focus_birth_of_republic"
+		name = "GFX_GER_focus_birth_of_republic"
 		texturefile = "gfx/interface/goals/ger/GER_focus_birth_of_republic.dds"
 	}
 
 	SpriteType = {
-		name = "GFX_ger_focus_german_army"
+		name = "GFX_GER_focus_german_army"
 		texturefile = "gfx/interface/goals/ger/GER_focus_german_army.dds"
 	}
 	
 	SpriteType = {
-		name = "GFX_ger_focus_german_economy"
+		name = "GFX_GER_focus_german_economy"
 		texturefile = "gfx/interface/goals/ger/GER_focus_german_economy.dds"
 	}
 
 	SpriteType = {
-		name = "GFX_ger_focus_new_research_techniques"
+		name = "GFX_GER_focus_new_research_techniques"
 		texturefile = "gfx/interface/goals/ger/GER_focus_new_research_techniques.dds"
 	}
-	
 
 	SpriteType = {
-		name = "GFX_ger_focus_european_investment"
+		name = "GFX_GER_focus_european_investment"
 		texturefile = "gfx/interface/goals/ger/GER_focus_european_investment.dds"
 	}
 
@@ -899,7 +933,6 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/focus_ger_break_anglo_french_colonial_hegemony.dds"
 	}
 
-#	TFV goal / focus icons
 
 	SpriteType = {
 		name = "GFX_goal_tfv_sever_ties_with_uk"
