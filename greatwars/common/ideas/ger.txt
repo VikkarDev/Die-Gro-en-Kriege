@@ -16,7 +16,6 @@ ideas = {
 		}
 	  }
 	}
-
 	country = {
 		german_army = {
 		picture = ger_german_army
@@ -31,7 +30,6 @@ ideas = {
 		}
 	  }
 	}
-
 	country = {
 		german_colonies = {
 		picture = ger_german_colonies
@@ -41,13 +39,40 @@ ideas = {
 		}
 	  
 		modifier = {
-			stability_factor = -0.05
+			stability_factor = -0.025
 			political_power_gain = 1.25
 			consumer_goods_factor = 0.01
 		}
 	  }
 	}
-
+	country = {
+		BASF = {
+		picture = ger_german_army
+	  
+		allowed = {
+			tag = GER
+		}
+	  
+		modifier = {
+			research_speed_factor = 0.05
+			fuel_gain = 100
+		}
+	  }
+	}
+	country = {
+		our_place_in_the_sun = {
+		picture = ger_german_army
+	  
+		allowed = {
+			tag = GER
+		}
+	  
+		modifier = {
+			ai_badass_factor = 0.2
+			justify_war_goal_time = -0.15
+		}
+	  }
+	}
 	country = {
 		german_economy = {
 		picture = ger_german_economy
@@ -136,6 +161,20 @@ ideas = {
 		modifier = {
 			consumer_goods_factor = 0.20
 			industrial_capacity_dockyard = 0.25
+		}
+	  }
+	}
+	country = {
+		second_kultur_kampf = {
+		picture = ger_german_army
+	  
+		allowed = {
+			tag = GER
+		}
+
+		modifier = {
+			political_power_cost = -0.1
+			stability_factor = -0.025
 		}
 	  }
 	}
@@ -273,6 +312,34 @@ ideas = {
 	  }
 	}
 	country = {
+		failed_kultur_kampf = {
+		picture = ger_german_army
+	  
+		allowed = {
+			tag = GER
+		}
+	  
+		modifier = {
+			stability_factor = -0.15
+			drift_defence_factor = -0.3
+		}
+	  }
+	}
+	country = {
+		tarrif_on_grain_imports = {
+		picture = ger_german_army
+	  
+		allowed = {
+			tag = GER
+		}
+	  
+		modifier = {
+			trade_opinion_factor = -0.1
+			production_speed_buildings_factor = 0.05 
+		}
+	  }
+	}
+	country = {
 		colony_cost3 = {
 		picture = ger_german_army
 	  
@@ -297,6 +364,33 @@ ideas = {
 		modifier = {
 			consumer_goods_factor = -0.01
 			production_speed_buildings_factor = 0.15 
+		}
+	  }
+	}
+	country = {
+		foriegn_direct_investments = {
+		picture = ger_german_army
+	  
+		allowed = {
+			tag = GER
+		}
+	  
+		modifier = {
+			consumer_goods_factor = -0.03
+		}
+	  }
+	}
+	country = {
+		loyalty_to_the_kaiser = {
+		picture = ger_german_army
+	  
+		allowed = {
+			tag = GER
+		}
+	  
+		modifier = {
+			army_attack_factor = 0.05
+			army_org = 10
 		}
 	  }
 	}

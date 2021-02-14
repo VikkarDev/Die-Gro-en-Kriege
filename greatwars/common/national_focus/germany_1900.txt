@@ -21,22 +21,16 @@ focus_tree = {
 		x = 2
 		y = 0
 
-		#mutually_exclusive = { focus = GER_contain_wilhelm_ii }
 		cost = 10
 
 		available = {
 			country_exists = GER
 		}
-
 		
-
 		completion_reward = { 
-			army_experience = 25
-			add_war_support = 0.10
-			add_ideas = { german_army }
+			air_experience = 25
 		}
 	}
-
 	focus = {
 		id = GER_imperial_german_economy
 		icon = GFX_ger_focus_german_economy
@@ -44,21 +38,17 @@ focus_tree = {
 		x = 35
 		y = 0
 
-		#mutually_exclusive = { focus = GER_contain_wilhelm_ii }
 		cost = 10
 
 		available = {
 			country_exists = GER
 		}
 
-		
-
 		completion_reward = { 
 			add_ideas = { german_economy }
-			add_political_power = 150
+			add_political_power = 50
 		}
 	}
-
 	focus = {
 		id = GER_foriegn_direct_investments
 		icon = GFX_ger_focus_european_investment
@@ -66,23 +56,20 @@ focus_tree = {
 		x = 30
 		y = 1
 
-		prerequisite = { focus = GER_ }
-		#mutually_exclusive = { focus = GER_homeland focus = GER_mauser_contracts }
+		prerequisite = { focus = GER_imperial_german_economy }
 		cost = 10
 
 		available = {
 			has_idea = german_economy
 		}
-
 		bypass = {
 			
 		}
 
 		completion_reward = { 
-			custom_effect_tooltip = NOT_COMPLETE
+			add_ideas = { foriegn_direct_investments }
 		}
 	}
-
 	focus = {
 		id = GER_militarist_state_schools
 		icon = GFX_ger_focus_new_research_techniques
@@ -90,14 +77,12 @@ focus_tree = {
 		x = 35
 		y = 1
 
-		prerequisite = { focus = GER_ }
-		#mutually_exclusive = { focus = GER_contain_wilhelm_ii }
+		prerequisite = { focus = GER_imperial_german_economy }
 		cost = 10
 
 		available = {
 			has_idea = german_economy
 		}
-
 		bypass = {
 			
 		}
@@ -106,12 +91,11 @@ focus_tree = {
 			add_research_slot = 1
 		}
 	}
-
 	focus = {
 		id = GER_weltpolitik
 		icon = GFX_ger_focus_weltpolitik
 		search_filters = { FOCUS_FILTER_POLITICAL }
-		x = 51
+		x = 56
 		y = 0
 
 		mutually_exclusive = { focus = GER_birth_of_republic }
@@ -126,7 +110,6 @@ focus_tree = {
 			has_war = no
 			country_exists = GER
 		}
-
 		bypass = {
 			
 		}
@@ -136,7 +119,6 @@ focus_tree = {
 			add_popularity = { ideology = centrism popularity = 0.10 }
 		}
 	}
-
 	focus = {
 		id = GER_birth_of_republic
 		icon = GFX_ger_focus_birth_of_republic
@@ -169,18 +151,17 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_heavy_industry
-		icon = GFX_GER_focus_heavy_industry
+		icon = GFX_goal_generic_construct_civ_factory
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 		x = 29
 		y = 3
 
 		cost = 10
+		prerequisite = { focus = GER_immigration }
 		
-		prerequisite = { focus = GER_ }
 		available = {
 			country_exists = GER
 		}
-
 		bypass = {
 			
 		}
@@ -200,27 +181,32 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_krupp_steel
-		icon = GFX_GER_focus_krupp_steel
+		icon = GFX_goal_generic_construct_civ_factory
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 		x = 38
 		y = 2
 
 		cost = 10
+		prerequisite = { focus = GER_german_textiles }
 		
-		prerequisite = { focus = GER_ }
 		available = {
 			country_exists = GER
 		}
-
 		bypass = {
 		
 		}
 
 		completion_reward = { 
-			add_resource = {
-				type = steel
-				amount = 50
-				state = 58
+			random_owned_controlled_state = {
+					add_resource = {
+					type = steel
+					amount = 50
+					state = 58
+				}
+				country_event = {
+					id = germany.1
+					days = 10
+				}
 			}
 		}
 	}
@@ -232,12 +218,11 @@ focus_tree = {
 		y = 1
 
 		cost = 10
+		prerequisite = { focus = GER_imperial_german_economy }
 		
-		prerequisite = { focus = GER_ }
 		available = {
 			country_exists = GER
 		}
-
 		bypass = {
 			
 		}
@@ -254,16 +239,13 @@ focus_tree = {
 		y = 4
 
 		cost = 10
-
-		prerequisite = { focus = GER_ }
-		prerequisite = { focus = GER_ }
-		prerequisite = { focus = GER_ }
-		prerequisite = { focus = GER_ }
-		prerequisite = { focus = GER_ }
+		prerequisite = { focus = GER_baden_aniline_and_soda_factory }
+		prerequisite = { focus = GER_tarrif_on_imported_grain }
+		prerequisite = { focus = GER_industrialization }
+		
 		available = {
 			country_exists = GER
 		}
-
 		bypass = {
 			
 		}
@@ -280,33 +262,47 @@ focus_tree = {
 		y = 2
 
 		cost = 10
-
-		prerequisite = { focus = GER_ }
+		prerequisite = { focus = GER_german_textiles }
+		
 		available = {
 			country_exists = GER
 		}
-
 		bypass = {
 			
 		}
 
 		completion_reward = { 
 				random_owned_controlled_state = {
-				
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = industrial_complex
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
 				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 					type = industrial_complex
 					level = 2
 					instant_build = yes
+				}
 			}
 		}
-		add_tech_bonus = {
-				bonus = 1.0
-				uses = 1
-				category = industry
-			}
-		}
-	
 	}
 	focus = {
 		id = GER_tarrif_on_imported_grain
@@ -316,38 +312,17 @@ focus_tree = {
 		y = 3
 
 		cost = 10
-
-		prerequisite = { focus = GER_ }
+		prerequisite = { focus = GER_southern_cottage_industry}
+		
 		available = {
 			country_exists = GER
 		}
-
 		bypass = {
 		
 		}
 
-		completion_reward = { 
-				random_owned_controlled_state = {
-				add_building_construction = {
-					type = infrastructure
-					level = 10
-					instant_build = yes
-			}
-		}
-		random_owned_controlled_state = {
-				add_building_construction = {
-					type = infrastructure
-					level = 10
-					instant_build = yes
-			}
-		}
-		random_owned_controlled_state = {
-				add_building_construction = {
-					type = infrastructure
-					level = 10
-					instant_build = yes
-				}
-			}
+		completion_reward = {
+			add_ideas = { tarrif_on_grain_imports }
 		}
 	}
 	focus = {
@@ -357,14 +332,12 @@ focus_tree = {
 		x = 7
 		y = 0
 
-		
 		cost = 10
-
 		prerequisite = { focus = GER_ }
+		
 		available = {
 			country_exists = GER
 		}
-
 		bypass = {
 		
 		}
@@ -383,19 +356,17 @@ focus_tree = {
 		y = 5
 
 		cost = 10
+		prerequisite = { focus = GER_modernize_our_tactics }
+		prerequisite = { focus = GER_military_aid_from_private_sector }
 		
-		prerequisite = { focus = GER_ }
-		prerequisite = { focus = GER_ }
 		available = {
 			country_exists = GER
 		}
-
 		bypass = {
 		
 		}
 
 		completion_reward = { 
-			
 			add_ideas = { general_staff }
 		}
 	}
@@ -407,19 +378,18 @@ focus_tree = {
 		y = 2
 
 		mutually_exclusive = { focus = GER_mass_conscription }
-		cost = 10
 		
-		prerequisite = { focus = GER_ }
+		cost = 10
+		prerequisite = { focus = GER_loyalty_to_the_kaiser }
+		
 		available = {
 			country_exists = GER
 		}
-
 		bypass = {
 			
 		}
 
 		completion_reward = { 
-			
 			add_ideas = { german_reserve_system }
 		}
 	}
@@ -431,19 +401,18 @@ focus_tree = {
 		y = 2
 
 		mutually_exclusive = { focus = GER_continue_the_german_reserve_system }
-		cost = 10
 		
-		prerequisite = { focus = GER_ }
+		cost = 10
+		prerequisite = { focus = GER_loyalty_to_the_kaiser }
+		
 		available = {
 			country_exists = GER
 		}
-
 		bypass = {
 			
 		}
 
 		completion_reward = { 
-			
 			add_ideas = { mass_conscription }
 		}
 	}
@@ -454,20 +423,17 @@ focus_tree = {
 		x = 7
 		y = 1
 
-	
 		cost = 10
+		prerequisite = { focus = GER_imperial_german_army }
 		
-		prerequisite = { focus = GER_ }
 		available = {
 			country_exists = GER
 		}
-
 		bypass = {
 			
 		}
 
 		completion_reward = { 
-			
 			add_ideas = { loyalty_to_the_kaiser }
 		}
 	}
@@ -478,14 +444,12 @@ focus_tree = {
 		x = 8
 		y = 4
 
-	
 		cost = 10
+		prerequisite = { focus = GER_artillery focus = GER_support_equipment }
 		
-		prerequisite = { focus = GER_ focus = GER_ }
 		available = {
 			country_exists = GER
 		}
-
 		bypass = {
 			
 		}
@@ -515,14 +479,12 @@ focus_tree = {
 		x = 6
 		y = 4
 
-		
 		cost = 10
+		prerequisite = { focus = GER_increase_military_budget focus = GER_artillery }
 		
-		prerequisite = { focus = GER_ focus = GER_ }
 		available = {
 			country_exists = GER
 		}
-
 		bypass = {
 			
 		}
@@ -530,7 +492,7 @@ focus_tree = {
 		completion_reward = { 
 			add_tech_bonus = {
 				name = land_doc_bonus
-				bonus = 1.0
+				bonus = 0.5
 				uses = 2
 				category = land_doctrine
 			}
@@ -543,14 +505,12 @@ focus_tree = {
 		x = 5
 		y = 3
 
-		
 		cost = 10
+		prerequisite = { focus = GER_mass_conscription focus = GER_continue_the_german_reserve_system }
 		
-		prerequisite = { focus = GER_ focus = GER_ }
 		available = {
 			country_exists = GER
 		}
-
 		bypass = {
 		
 		}
@@ -580,22 +540,19 @@ focus_tree = {
 		x = 9
 		y = 3
 
-		
 		cost = 10
+		prerequisite = { focus = GER_mass_conscription focus = GER_continue_the_german_reserve_system }
 		
-		prerequisite = { focus = GER_ focus = GER_ }
 		available = {
 			country_exists = GER
 		}
-
 		bypass = {
 			
 		}
 
 		completion_reward = { 
-			army_experience = 25
 			add_tech_bonus = {
-				name = infantry_artillery_bonus
+				name = tech_support_bonus
 				bonus = 0.5
 				uses = 2
 				category = infantry_weapons
@@ -604,29 +561,26 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_artillery
-		icon = GFX_GER_focus_artillery_tactics
+		icon = GFX_focus_generic_industry_1
 		search_filters = { FOCUS_FILTER_MANPOWER }
 		x = 7
 		y = 3
 
-		
 		cost = 10
+		prerequisite = { focus = GER_mass_conscription focus = GER_continue_the_german_reserve_system }
 		
-		prerequisite = { focus = GER_ focus = GER_ }
 		available = {
 			country_exists = GER
 		}
-
 		bypass = {
 			
 		}
 
 		completion_reward = { 
 			add_tech_bonus = {
-					name = infantry_artillery_bonus #@#
+					name = artillery_bonus
 					bonus = 0.5
 					uses = 2
-
 					category = artillery
 			}				
 		}
@@ -638,21 +592,39 @@ focus_tree = {
 		x = 31
 		y = 3
 
-		
 		cost = 10
+		prerequisite = { focus = GER_northern_coal_plants }
 		
-		prerequisite = { focus = GER_ }
 		available = {
 			country_exists = GER
 		}
-
 		bypass = {
 			
 		}
 
-		completion_reward = { 
-			
-			}				
+		completion_reward = {
+			random_owned_controlled_state = {
+				add_building_construction = {
+					type = infrastructure
+					level = 10
+					instant_build = yes
+			}
+		}
+		random_owned_controlled_state = {
+				add_building_construction = {
+					type = infrastructure
+					level = 10
+					instant_build = yes
+			}
+		}
+		random_owned_controlled_state = {
+				add_building_construction = {
+					type = infrastructure
+					level = 10
+					instant_build = yes
+				}
+			}
+		}				
 	}
 	focus = {
 		id = GER_deutsches_kolonialreich
@@ -661,44 +633,47 @@ focus_tree = {
 		x = 35
 		y = 6
 
-		
 		cost = 10
+		prerequisite = { focus = GER_global_endevours focus = GER_worlds_third_best_economy  focus = GER_the_cartel_system  }
 		
-		prerequisite = { focus = GER_ }
 		available = {
 			country_exists = GER
 		}
-
 		bypass = {
 			
 		}
 
 		completion_reward = { 
-			
-			}				
+			 country_event = {
+				id = germany.2
+				days = 10
+			}
+		}				
 	}
 	focus = {
-		id = GER_colonial_military_factories
+		id = GER_sieze_native_assests
 		icon = GFX_focus_generic_industry_1
 		search_filters = { FOCUS_FILTER_MANPOWER }
 		x = 35
 		y = 8
 
-		
 		cost = 10
+		prerequisite = { focus = GER_subsidis_colonial_manufacturing }
+		prerequisite = { focus = GER_develop_asian_colonies }
 		
-		prerequisite = { focus = GER_ }
 		available = {
 			country_exists = GER
 		}
-
 		bypass = {
 			
 		}
 
 		completion_reward = { 
-			
-			}				
+			swap_ideas = {
+				remove_idea = colony_cost3
+				add_idea = colony_cost4
+			}
+		}				
 	}
 	focus = {
 		id = GER_subsidis_colonial_manufacturing
@@ -707,21 +682,22 @@ focus_tree = {
 		x = 34
 		y = 7
 
-		
 		cost = 10
+		prerequisite = { focus = GER_deutsches_kolonialreich }
 		
-		prerequisite = { focus = GER_ }
 		available = {
 			country_exists = GER
 		}
-
 		bypass = {
 			
 		}
 
 		completion_reward = { 
-			
-			}				
+			swap_ideas = {
+				remove_idea = colony_cost1
+				add_idea = colony_cost2
+			}
+		}				
 	}
 	focus = {
 		id = GER_develop_asian_colonies
@@ -730,44 +706,44 @@ focus_tree = {
 		x = 36
 		y = 7
 
-		
 		cost = 10
+		prerequisite = { focus = GER_deutsches_kolonialreich }
 		
-		prerequisite = { focus = GER_ }
 		available = {
 			country_exists = GER
+			has_idea = colony_cost2
 		}
-
 		bypass = {
 			
 		}
 
 		completion_reward = { 
-			
-			}				
+			swap_ideas = {
+				remove_idea = colony_cost2
+				add_idea = colony_cost3
+			}
+		}				
 	}
 	focus = {
-		id = GER_our_place_in_the_sunn
+		id = GER_glorius_empire
 		icon = GFX_focus_generic_industry_1
 		search_filters = { FOCUS_FILTER_MANPOWER }
 		x = 35
 		y = 9
-
 		
 		cost = 10
+		prerequisite = { focus = GER_sieze_native_assests }
 		
-		prerequisite = { focus = GER_ }
 		available = {
 			country_exists = GER
 		}
-
 		bypass = {
 			
 		}
 
 		completion_reward = { 
-			
-			}				
+			add_political_power = 25
+		}				
 	}
 	focus = {
 		id = GER_prioritize_military
@@ -776,21 +752,36 @@ focus_tree = {
 		x = 34
 		y = 3
 
-		
 		cost = 10
+
+		mutually_exclusive = { focus = GER_prioritize_navy }
 		
-		prerequisite = { focus = GER_ }
+		prerequisite = { focus = GER_welfare_for_all focus = GER_no_welfare_for_socialist }
+		
 		available = {
 			country_exists = GER
 		}
-
 		bypass = {
 			
 		}
 
 		completion_reward = { 
-			
-			}				
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}				
 	}
 	focus = {
 		id = GER_baden_aniline_and_soda_factory
@@ -799,20 +790,18 @@ focus_tree = {
 		x = 39
 		y = 3
 
-		
 		cost = 10
+		prerequisite = { focus = GER_krupp_steel }
 		
-		prerequisite = { focus = GER_ }
 		available = {
 			country_exists = GER
 		}
-
 		bypass = {
 			
 		}
 
 		completion_reward = { 
-			
+				add_ideas = { BASF }
 			}				
 	}
 	focus = {
@@ -822,21 +811,24 @@ focus_tree = {
 		x = 32
 		y = 2
 
-		
 		cost = 10
+		prerequisite = { focus = GER_foriegn_direct_investments }
 		
-		prerequisite = { focus = GER_ }
 		available = {
 			country_exists = GER
 		}
-
 		bypass = {
 			
 		}
 
 		completion_reward = { 
-			
-			}				
+			random_owned_controlled_state = {
+				add_resource = {
+					type = oil
+					amount = 12
+				}
+			}	
+		}
 	}
 	focus = {
 		id = GER_industrialization
@@ -845,21 +837,24 @@ focus_tree = {
 		x = 40
 		y = 2
 
-		
 		cost = 10
+		prerequisite = { focus = GER_german_textiles }
 		
-		prerequisite = { focus = GER_ }
 		available = {
 			country_exists = GER
 		}
-
 		bypass = {
 			
 		}
 
 		completion_reward = { 
-			
-			}				
+			add_tech_bonus = {
+				name = industrial_bonus
+				bonus = 1.0
+				uses = 1
+				category = industry
+			}
+		}				
 	}
 	focus = {
 		id = GER_welfare_for_all
@@ -868,44 +863,43 @@ focus_tree = {
 		x = 34
 		y = 2
 
-		
 		cost = 10
+
+		mutually_exclusive = { focus = GER_no_welfare_for_socialist }
 		
-		prerequisite = { focus = GER_ }
+		prerequisite = { focus = GER_militarist_state_schools }
+		
 		available = {
 			country_exists = GER
 		}
-
 		bypass = {
 			
 		}
 
-		completion_reward = { 
-			
-			}				
+		completion_reward = {
+			add_ideas = { welfare_programs }
+		}				
 	}
 	focus = {
-		id = GER_civillian_industry
+		id = GER_immigration
 		icon = GFX_goal_generic_construct_civ_factory
 		search_filters = { FOCUS_FILTER_MANPOWER }
 		x = 28
 		y = 2
-
 		
 		cost = 10
+		prerequisite = { focus = GER_foriegn_direct_investments }
 		
-		prerequisite = { focus = GER_ }
 		available = {
 			country_exists = GER
 		}
-
 		bypass = {
 			
 		}
 
-		completion_reward = { 
-			
-			}				
+		completion_reward = {
+			add_manpower = 25000
+		}				
 	}
 	focus = {
 		id = GER_no_welfare_for_socialist
@@ -914,21 +908,26 @@ focus_tree = {
 		x = 36
 		y = 2
 
-		
 		cost = 10
 		
-		prerequisite = { focus = GER_ }
+		mutually_exclusive = { focus = GER_welfare_for_all }
+		
+		prerequisite = { focus = GER_militarist_state_schools }
+		
 		available = {
 			country_exists = GER
 		}
-
 		bypass = {
 			
 		}
 
-		completion_reward = { 
-			
-			}				
+		completion_reward = {
+			add_popularity = {
+    			ideology = vanguard_communism
+    			popularity = -0.1
+			}
+			add_ideas = { welfare_programs }
+		}				
 	}
 	focus = {
 		id = GER_global_endevours
@@ -937,21 +936,21 @@ focus_tree = {
 		x = 30
 		y = 4
 
-		
 		cost = 10
-		
+		prerequisite = { focus = GER_heavy_industry }
+		prerequisite = { focus = GER_german_railroads }
 		prerequisite = { focus = GER_ }
+		
 		available = {
 			country_exists = GER
 		}
-
 		bypass = {
 			
 		}
 
 		completion_reward = { 
-			
-			}				
+			add_political_power = 150
+		}				
 	}
 	focus = {
 		id = GER_prioritize_navy
@@ -960,23 +959,37 @@ focus_tree = {
 		x = 36
 		y = 3
 
-		
 		cost = 10
 		
-		prerequisite = { focus = GER_ }
-		prerequisite = { focus = GER_ focus = GER_ focus = GER_ }
-		prerequisite = { focus = GER_ focus = GER_ focus = GER_ }
+		mutually_exclusive = { focus = GER_prioritize_military }
+		
+		prerequisite = { focus = GER_welfare_for_all focus = GER_no_welfare_for_socialist }
+		
 		available = {
 			country_exists = GER
 		}
-
 		bypass = {
 			
 		}
 
 		completion_reward = { 
-			
-			}				
+			random_owned_controlled_state = {
+					limit = {
+						dockyard > 0
+						free_building_slots = {
+							building = dockyard
+							size > 2
+							include_locked = yes
+						}
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = dockyard
+						level = 1
+						instant_build = yes
+				}
+			}
+		}				
 	}
 	focus = {
 		id = GER_imperial_german_navy
@@ -985,44 +998,58 @@ focus_tree = {
 		x = 18
 		y = 0
 
-		
 		cost = 10
-		
 		prerequisite = { focus = GER_m }
+		
 		available = {
 			country_exists = GER
 		}
-
 		bypass = {
 			
 		}
 
 		completion_reward = { 
-			
-			}				
+			navy_experience = 50
+		}				
 	}
 	focus = {
 		id = GER_pass_the_naval_bills
 		icon = GFX_focus_generic_cruiser2
 		search_filters = { FOCUS_FILTER_MANPOWER }
-		x = 14
+		x = 13
 		y = 3
 
-		
 		cost = 10
 		
-		prerequisite = { focus = GER_ focus = GER_ }
+		mutually_exclusive = { focus = GER_offshore_cost_tocolonies }
+		
+		prerequisite = { focus = GER_deutchland_class focus = GER_new_cruiser_models }
+		
 		available = {
 			country_exists = GER
 		}
-
 		bypass = {
 			
 		}
 
 		completion_reward = { 
-			
-			}				
+				random_owned_controlled_state = {
+					limit = {
+						dockyard > 0
+						free_building_slots = {
+							building = dockyard
+							size > 2
+							include_locked = yes
+						}
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = dockyard
+						level = 1
+						instant_build = yes
+				}
+			}
+		}				
 	}
 	focus = {
 		id = GER_ensure_german_dominance
@@ -1031,50 +1058,50 @@ focus_tree = {
 		x = 14
 		y = 1
 
-		
 		cost = 10
-		
-		prerequisite = { focus = GER_ }
+		prerequisite = { focus = GER_imperial_german_navy }
 		
 		mutually_exclusive = { focus = GER_stop_the_arms_race }
 		
 		available = {
 			country_exists = GER
 		}
-
 		bypass = {
 			
 		}
 
 		completion_reward = { 
-			
-			}				
+			add_extra_state_shared_building_slots = 3
+			add_building_construction = {
+				type = dockyard
+				level = 3
+				instant_build = yes
+			}
+		}				
 	}
 	focus = {
 		id = GER_stop_the_arms_race
-		icon = GFX_GER_focus_stop_the_arms_race
+		icon = GFX_focus_generic_cruiser2
 		search_filters = { FOCUS_FILTER_MANPOWER }
 		x = 22
 		y = 1
-
 		
 		cost = 10
-		
-		prerequisite = { focus = GER_ }
+		prerequisite = { focus = GER_imperial_german_navy }
 		
 		mutually_exclusive = { focus = GER_ensure_german_dominance }
 		
 		available = {
 			country_exists = GER
 		}
-
 		bypass = {
 			
 		}
 
 		completion_reward = { 
-			
-			}				
+			remove_ideas = naval_arms_race
+			war_support = -0.025
+		}				
 	}
 	focus = {
 		id = GER_anglo_german_naval_treaty
@@ -1083,21 +1110,22 @@ focus_tree = {
 		x = 24
 		y = 2
 
-		
 		cost = 10
+		prerequisite = { focus = GER_stop_the_arms_race }
 		
-		prerequisite = { focus = GER_ }
 		available = {
 			country_exists = GER
 		}
-
 		bypass = {
 			
 		}
 
 		completion_reward = { 
-			
-			}				
+			country_event = {
+				id = germany.1
+				days = 10
+			}
+		}				
 	}
 	focus = {
 		id = GER_rival_royal_navy
@@ -1106,21 +1134,24 @@ focus_tree = {
 		x = 14
 		y = 4
 
-		
 		cost = 10
+		prerequisite = { focus = GER_pass_the_naval_bills focus = GER_offshore_cost_tocolonies }
 		
-		prerequisite = { focus = GER_ }
 		available = {
 			country_exists = GER
 		}
-
 		bypass = {
 			
 		}
 
 		completion_reward = { 
-			
-			}				
+			add_tech_bonus = {
+				name = fleet_in_being_bonus
+				bonus = 1.0
+				uses = 2
+				category = fleet_in_being_tree
+			}
+		}				
 	}
 	focus = {
 		id = GER_deutchland_class
@@ -1129,21 +1160,27 @@ focus_tree = {
 		x = 12
 		y = 2
 
-		
 		cost = 10
+		prerequisite = { focus = GER_ensure_german_dominance }
 		
-		prerequisite = { focus = GER_ }
 		available = {
 			country_exists = GER
 		}
-
 		bypass = {
 			
 		}
 
 		completion_reward = { 
-			
-			}				
+			add_tech_bonus = {
+				name = capital_ships_bonus
+				bonus = 1.0
+				ahead_reduction = 2
+				uses = 1
+				category = bc_tech
+				category = bb_tech
+				category = cv_tech
+			}
+		}				
 	}
 	focus = {
 		id = GER_german_imperial_admirality_staff
@@ -1152,21 +1189,19 @@ focus_tree = {
 		x = 18
 		y = 6
 
-		
 		cost = 10
+		prerequisite = { focus = GER_strong_defensive_fleet focus = GER_rival_royal_navy }
 		
-		prerequisite = { focus = GER_ focus = GER_ }
 		available = {
 			country_exists = GER
 		}
-
 		bypass = {
 			
 		}
 
 		completion_reward = { 
-			
-			}				
+			add_ideas = { german_imperial_admirality }
+		}				
 	}
 	focus = {
 		id = GER_new_cruiser_models
@@ -1175,21 +1210,26 @@ focus_tree = {
 		x = 16
 		y = 2
 
-		
 		cost = 10
+		prerequisite = { focus = GER_ensure_german_dominance }
 		
-		prerequisite = { focus = GER_ }
 		available = {
 			country_exists = GER
 		}
-
 		bypass = {
 			
 		}
 
 		completion_reward = { 
-			
-			}				
+			add_tech_bonus = {
+				name = cr_bonus
+				bonus = 1.0
+				ahead_reduction = 2
+				uses = 1
+				category = cl_tech
+				category = ca_tech
+			}
+		}				
 	}
 	focus = {
 		id = GER_protect_colonial_convoys
@@ -1198,21 +1238,25 @@ focus_tree = {
 		x = 20
 		y = 2
 
-		
 		cost = 10
+		prerequisite = { focus = GER_stop_the_arms_race }
 		
-		prerequisite = { focus = GER_ }
 		available = {
 			country_exists = GER
 		}
-
 		bypass = {
 			
 		}
 
 		completion_reward = { 
-			
-			}				
+			add_tech_bonus = {
+				name = dd_bonus
+				bonus = 1.0
+				ahead_reduction = 2
+				uses = 1
+				category = dd_tech
+			}
+		}				
 	}
 	focus = {
 		id = GER_strong_defensive_fleet
@@ -1220,22 +1264,29 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_MANPOWER }
 		x = 22
 		y = 4
-
 		
 		cost = 10
+		prerequisite = { focus = GER_small_shipyard_expansion focus = GER_further_cut_naval_funding }
 		
-		prerequisite = { focus = GER_ focus = GER_ }
 		available = {
 			country_exists = GER
 		}
-
 		bypass = {
 			
 		}
 
 		completion_reward = { 
-			
-			}				
+				add_tech_bonus = {
+				name = sub_op_bonus
+				bonus = 1.0
+				uses = 2
+				technology = convoy_interdiction_ti
+				technology = unrestricted_submarine_warfare
+				technology = wolfpacks
+				technology = advanced_submarine_warfare
+				technology = combined_operations_raiding
+			}
+		}				
 	}
 	focus = {
 		id = GER_small_shipyard_expansion
@@ -1243,25 +1294,37 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_MANPOWER }
 		x = 21
 		y = 3
-
-		
+	
 		cost = 10
-		
-		prerequisite = { focus = GER_ focus = GER_ }
+		prerequisite = { focus = GER_protect_colonial_convoys focus = GER_anglo_german_naval_treaty }
 		
 		mutually_exclusive = { focus = GER_further_cut_naval_funding }
 		
 		available = {
 			country_exists = GER
 		}
-
 		bypass = {
 			
 		}
 
 		completion_reward = { 
-			
-			}				
+			random_owned_controlled_state = {
+					limit = {
+						dockyard > 0
+						free_building_slots = {
+							building = dockyard
+							size > 2
+							include_locked = yes
+						}
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = dockyard
+						level = 1
+						instant_build = yes
+				}
+			}
+		}				
 	}
 	focus = {
 		id = GER_further_cut_naval_funding
@@ -1270,217 +1333,204 @@ focus_tree = {
 		x = 23
 		y = 3
 
-		
 		cost = 10
-		
-		prerequisite = { focus = GER_ focus = GER_}
+		prerequisite = { focus = GER_protect_colonial_convoys focus = GER_anglo_german_naval_treaty}
 		
 		mutually_exclusive = { focus = GER_small_shipyard_expansion }
 
 		available = {
 			country_exists = GER
 		}
-
 		bypass = {
 			
 		}
 
 		completion_reward = { 
-			
-			}				
+			swap_ideas = {
+				remove_idea = bloated_naval_budget1
+				add_idea = bloated_naval_budget3
+			}
+		}				
 	}
 	focus = {
 		id = GER_economic_aid
 		icon = GFX_goal_generic_intelligence_exchange
 		search_filters = { FOCUS_FILTER_MANPOWER }
-		x = 45
-		y = 31
+		x = 47
+		y = 4
 
-		
 		cost = 10
 		
 		mutually_exclusive = { focus = GER_ }
-		prerequisite = { focus = GER_ }
+		
+		prerequisite = { focus = GER_back_italian_land_claims focus = GER_support_the_annexation_of_bosnia }
+		
 		available = {
 			country_exists = GER
 		}
-
 		bypass = {
 			
 		}
 
 		completion_reward = { 
-			
-			}				
+			###FACTIONIDEA
+		}				
 	}
 	focus = {
 		id = GER_a_second_kulture_kampf
 		icon = GFX_focus_generic_strike_at_democracy2
 		search_filters = { FOCUS_FILTER_MANPOWER }
-		x = 59
+		x = 61
 		y = 3
 
-		
 		cost = 10
 		
-		mutually_exclusive = { focus = GER_multiculturalism }
-		prerequisite = { focus = GER_ }
-		prerequisite = { focus = GER_ }
-		prerequisite = { focus = GER_ }
+		mutually_exclusive = { focus = GER_pursue_good_relations_with_roman_church }
+		
+		prerequisite = { focus = GER_kulture_problem }
+
 		available = {
 			country_exists = GER
 		}
-
 		bypass = {
 			
 		}
 
 		completion_reward = { 
-			
-			}				
+			add_ideas = { second_kultur_kampf }
+		}				
 	}
 	focus = {
 		id = GER_a_tolerant_germany
 		icon = GFX_focus_generic_strike_at_democracy2
 		search_filters = { FOCUS_FILTER_MANPOWER }
-		x = 56
+		x = 58
 		y = 4
 
-		
 		cost = 10
+		prerequisite = { focus = GER_pursue_good_relations_with_roman_church }
 		
-		prerequisite = { focus = GER_ }
 		available = {
 			country_exists = GER
 		}
-
 		bypass = {
 			
 		}
 
 		completion_reward = { 
-			
-			}				
+			remove_ideas = { failed_kultural_kampf }
+		}				
 	}
 	focus = {
 		id = GER_the_central_powers
 		icon = GFX_focus_chi_british_cooperation
 		search_filters = { FOCUS_FILTER_MANPOWER }
-		x = 30
-		y = 2
+		x = 46
+		y = 6
 
-		
 		cost = 10
+		prerequisite = { focus = GER_research_sharing }
 		
-		prerequisite = { focus = GER_ }
-		prerequisite = { focus = GER_ }
 		available = {
 			country_exists = GER
 		}
-
 		bypass = {
 			
 		}
 
 		completion_reward = { 
-			
-			}				
+			create_faction = central_powers:0 "Central Powers"
+		}				
 	}
 	focus = {
 		id = GER_pursue_good_relations_with_roman_church
 		icon = GFX_focus_generic_strike_at_democracy2
 		search_filters = { FOCUS_FILTER_MANPOWER }
-		x = 55
+		x = 57
 		y = 3
 
-		
 		cost = 10
 		
-		mutually_exclusive = { focus = GER_fix_kulturekampf }
-		prerequisite = { focus = GER_ }
-		prerequisite = { focus = GER_ }
-		prerequisite = { focus = GER_ }
+		mutually_exclusive = { focus = GER_a_second_kulture_kampf }
+		
+		prerequisite = { focus = GER_kulture_problem }
+		
 		available = {
 			country_exists = GER
 		}
-
 		bypass = {
 			
 		}
 
 		completion_reward = { 
-			
-			}				
-	}
+			add_opinion_modifier = { target = ITA modifier = medium_increase }
+			}
+	}				
 	focus = {
 		id = GER_suppressed_minority
 		icon = GFX_focus_generic_strike_at_democracy2
 		search_filters = { FOCUS_FILTER_MANPOWER }
-		x = 58
+		x = 60
 		y = 4
 
-		
 		cost = 10
-		
-		prerequisite = { focus = GER_ }
+		prerequisite = { focus = GER_a_second_kulture_kampf }
+	
 		available = {
 			country_exists = GER
 		}
-
 		bypass = {
 			
 		}
 
 		completion_reward = { 
-			
-			}				
+			remove_ideas = { failed_kultur_kampf }
+		}				
 	}
 	focus = {
 		id = GER_our_place_in_the_sun
 		icon = GFX_focus_generic_strike_at_democracy2
 		search_filters = { FOCUS_FILTER_MANPOWER }
-		x = 57
+		x = 59
 		y = 5
-
 		
 		cost = 10
+		prerequisite = { focus = GER_a_tolerant_germany focus = GER_suppressed_minority }
 		
-		prerequisite = { focus = GER_ focus = GER_ }
 		available = {
 			country_exists = GER
 		}
-
 		bypass = {
 			
 		}
 
 		completion_reward = { 
-			
-			}				
+			add_ideas = { our_place_in_the_sun }
+		}				
 	}
 	focus = {
 		id = GER_enter_negotiations_with_italy
 		icon = GFX_focus_chi_british_cooperation
 		search_filters = { FOCUS_FILTER_MANPOWER }
 		x = 46
-		y = 28
+		y = 8
 
-		
 		cost = 10
 		
 		mutually_exclusive = { focus = GER_side_with_austria_hungry }
+		
 		prerequisite = { focus = GER_ }
+		
 		available = {
 			country_exists = GER
 		}
-
 		bypass = {
 			
 		}
 
-		completion_reward = { 
-			
-			}				
+		completion_reward = { 			
+			custom_effect_tooltip = not_ready
+		}				
 	}
 	focus = {
 		id = GER_elections
@@ -1489,79 +1539,72 @@ focus_tree = {
 		x = 76
 		y = 1
 
-		
 		cost = 10
-		
 		prerequisite = { focus = GER_birth_of_republic }
+		
 		available = {
 			country_exists = GER
 		}
-
 		bypass = {
 			
 		}
 
 		completion_reward = { 
-			
-			}				
+			custom_effect_tooltip = not_ready
+		}				
 	}
 	focus = {
 		id = GER_address_boxer_rebbelion
 		icon = GFX_focus_ger_oppose_hitler
 		search_filters = { FOCUS_FILTER_MANPOWER }
-		x = 65
+		x = 68
 		y = 1
 
-		
 		cost = 10
+		prerequisite = { focus = GER_weltpolitik focus = GER_birth_of_republic }
 		
-		prerequisite = { focus = GER_ focus = GER_ }
 		available = {
 			country_exists = GER
 		}
-
 		bypass = {
 			
 		}
 
 		completion_reward = { 
-			
-			}				
+			custom_effect_tooltip = not_ready
+		}				
 	}
 	focus = {
 		id = GER_the_balkan_wars
 		icon = GFX_focus_ger_oppose_hitler
 		search_filters = { FOCUS_FILTER_MANPOWER }
-		x = 68
+		x = 69
 		y = 2
-
 		
 		cost = 10
+		prerequisite = { focus = GER_address_boxer_rebbelion}
 		
-		prerequisite = { focus = GER_}
 		available = {
 			country_exists = GER
 		}
-
 		bypass = {
 			
 		}
 
 		completion_reward = { 
-			
-			}				
+			custom_effect_tooltip = not_ready
+		}				
 	}
 	focus = {
 		id = GER_the_new_course
 		icon = GFX_focus_chi_british_cooperation
 		search_filters = { FOCUS_FILTER_MANPOWER }
-		x = 50
+		x = 53
 		y = 2
 
-		
 		cost = 10
 		
-		prerequisite = { focus = GER_ }
+		prerequisite = { focus = GER_kaiser_wilhelm_II }
 		available = {
 			country_exists = GER
 		}
@@ -1571,194 +1614,189 @@ focus_tree = {
 		}
 
 		completion_reward = { 
-			
-			}				
+			custom_effect_tooltip = not_ready
+		}				
 	}
 	focus = {
 		id = GER_prussian_militarism
 		icon = GFX_focus_ger_oppose_hitler
 		search_filters = { FOCUS_FILTER_MANPOWER }
-		x = 51
+		x = 54
 		y = 4
-
 		
 		cost = 10
+		prerequisite = { focus = GER_worlds_largest_army }
 		
-		prerequisite = { focus = GER_ }
 		available = {
 			country_exists = GER
 		}
-
 		bypass = {
 			
 		}
 
 		completion_reward = { 
-			
-			}				
+			add_ideas = militarism_focus
+		}				
 	}
 	focus = {
 		id = GER_state_of_the_triple_alliance
 		icon = GFX_goal_generic_intelligence_exchange
 		search_filters = { FOCUS_FILTER_MANPOWER }
-		x = 48
+		x = 46
 		y = 2
 
-		
 		cost = 10
+		prerequisite = { focus = GER_weltpolitik }
 		
-		prerequisite = { focus = GER_ }
 		available = {
 			country_exists = GER
 		}
-
 		bypass = {
 			
 		}
 
 		completion_reward = { 
-			
-			}				
+			custom_effect_tooltip = not_ready
+		}				
 	}
 	focus = {
 		id = GER_back_italian_land_claims
 		icon = GFX_goal_generic_intelligence_exchange
 		search_filters = { FOCUS_FILTER_MANPOWER }
 		x = 44
-		y = 14
+		y = 3
 
-		
 		cost = 10
 		
-		mutually_exclusive = { focus = GER_ }
-		prerequisite = { focus = GER_ }
+		mutually_exclusive = { focus = GER_support_the_annexation_of_bosnia }
+		
+		prerequisite = { focus = GER_state_of_the_triple_alliance }
+		
 		available = {
 			country_exists = GER
 		}
-
 		bypass = {
 			
 		}
 
 		completion_reward = { 
-			
-			}				
+			custom_effect_tooltip = not_ready
+		}				
 	}
 	focus = {
 		id = GER_bulwark_against_socialism
 		icon = GFX_focus_chi_british_cooperation
 		search_filters = { FOCUS_FILTER_MANPOWER }
-		x = 48
+		x = 51
 		y = 3
 
-		
 		cost = 10
 		
 		mutually_exclusive = { focus = GER_ }
-		prerequisite = { focus = GER_ }
+		
+		prerequisite = { focus = GER_the_new_course }
 		available = {
 			country_exists = GER
 		}
-
 		bypass = {
 			
 		}
 
 		completion_reward = { 
-			
-			}				
+			###idea
+		}				
 	}
 	focus = {
 		id = GER_support_the_annexation_of_bosnia
 		icon = GFX_goal_generic_intelligence_exchange
 		search_filters = { FOCUS_FILTER_MANPOWER }
-		x = 43
-		y = 14
+		x = 48
+		y = 3
 
-		
 		cost = 10
 		
-		prerequisite = { focus = GER_ }
+		mutually_exclusive = { focus = GER_back_italian_land_claims }
+		
+		prerequisite = { focus = GER_state_of_the_triple_alliance }
+		
 		available = {
 			country_exists = GER
 		}
-
 		bypass = {
 			
 		}
 
 		completion_reward = { 
-			
-			}				
+			custom_effect_tooltip = not_ready
+		}				
 	}
 	focus = {
-		id = GER_b
+		id = GER_austria_hungry
 		icon = GFX_focus_chi_british_cooperation
 		search_filters = { FOCUS_FILTER_MANPOWER }
-		x = 50
-		y = 24
+		x = 48
+		y = 8
 
-		
 		cost = 10
-		
 		prerequisite = { focus = GER_ }
+		
 		available = {
 			country_exists = GER
 		}
-
 		bypass = {
 			
 		}
 
 		completion_reward = { 
 			
-			}				
+		}				
 	}
 	focus = {
 		id = GER_joint_military_training
 		icon = GFX_goal_generic_intelligence_exchange
 		search_filters = { FOCUS_FILTER_MANPOWER }
-		x = 44
-		y = 32
+		x = 45
+		y = 4
 
-		
 		cost = 10
-		
-		prerequisite = { focus = GER_ }
+		prerequisite = { focus = GER_back_italian_land_claims focus = GER_support_the_annexation_of_bosnia }
 		available = {
 			country_exists = GER
 		}
-
 		bypass = {
 			
 		}
 
 		completion_reward = { 
-			
-			}				
+				army_experience = 5
+				add_tech_bonus = {
+				name = land_doc_bonus
+				bonus = 1.0
+				uses = 1
+				category = land_doctrine
+			}
+		}				
 	}
 	focus = {
 		id = GER_kulture_problem
 		icon = GFX_focus_generic_strike_at_democracy2
 		search_filters = { FOCUS_FILTER_MANPOWER }
-		x = 57
+		x = 59
 		y = 2
 
-		
 		cost = 10
+		prerequisite = { focus = GER_kaiser_wilhelm_II }
 		
-		prerequisite = { focus = GER_ }
 		available = {
 			country_exists = GER
 		}
-
 		bypass = {
 			
 		}
 
 		completion_reward = { 
-			
-			}				
+			custom_effect_tooltip = not_ready
+		}				
 	}
 	focus = {
 		id = GER_enact_reforms
@@ -1767,113 +1805,105 @@ focus_tree = {
 		x = 74
 		y = 1
 
-		
 		cost = 10
-		
 		prerequisite = { focus = GER_birth_of_republic }
+		
 		available = {
 			country_exists = GER
 		}
-
 		bypass = {
 			
 		}
 
 		completion_reward = { 
-			
-			}				
+			custom_effect_tooltip = not_ready
+		}				
 	}
 	focus = {
 		id = GER_sektion_IIIb
 		icon = GFX_focus_ger_oppose_hitler
 		search_filters = { FOCUS_FILTER_MANPOWER }
-		x = 50
+		x = 53
 		y = 5
 
-		
 		cost = 10
+		prerequisite = { focus = GER_political_visit_to_ottomans }
+		prerequisite = { focus = GER_prussian_militarism }
 		
-		prerequisite = { focus = GER_weltpok }
 		available = {
 			country_exists = GER
+			has_intelligence_agency = no
 		}
-
 		bypass = {
-			
+			has_intelligence_agency = yes
 		}
 
 		completion_reward = { 
-			
-			}				
+			create_intelligence_agency = yes
+		}				
 	}
 	focus = {
 		id = GER_morroco_crisis
 		icon = GFX_focus_ger_oppose_hitler
 		search_filters = { FOCUS_FILTER_MANPOWER }
-		x = 66
+		x = 67
 		y = 2
 
-		
 		cost = 10
+		prerequisite = { focus = GER_address_boxer_rebbelion }
 		
-		prerequisite = { focus = GER_boxer_rebbelion }
 		available = {
 			country_exists = GER
 		}
-
 		bypass = {
 			
 		}
 
 		completion_reward = { 
-			
-			}				
+			custom_effect_tooltip = not_ready
+		}				
 	}
 	focus = {
 		id = GER_worlds_largest_army
 		icon = GFX_focus_chi_british_cooperation
 		search_filters = { FOCUS_FILTER_MANPOWER }
-		x = 52
+		x = 55
 		y = 3
-
 		
 		cost = 10
+		prerequisite = { focus = GER_the_new_course }
 		
-		prerequisite = { focus = GER_triple_alliance_lives focus = GER_rom_berlin_pact }
 		available = {
 			country_exists = GER
 		}
-
 		bypass = {
 			
 		}
 
 		completion_reward = { 
-			
-			}				
+			custom_effect_tooltip = not_ready
+		}				
 	}
 	focus = {
 		id = GER_research_sharing
 		icon = GFX_goal_generic_intelligence_exchange
 		search_filters = { FOCUS_FILTER_MANPOWER }
-		x = 44
-		y = 25
+		x = 46
+		y = 5
 
-		
 		cost = 10
+		prerequisite = { focus = GER_joint_military_training focus = GER_economic_aid }
 		
-		prerequisite = { focus = GER_central_powers }
 		available = {
 			country_exists = GER
 		}
-
 		bypass = {
 			
 		}
 
 		completion_reward = { 
-			
-			}				
+			add_to_tech_sharing_group = us_research
+		}				
 	}
 	focus = {
 		id = GER_worlds_third_best_economy
@@ -1881,91 +1911,86 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_MANPOWER }
 		x = 35
 		y = 4
-
 		
 		cost = 10
+		prerequisite = { focus = GER_prioritize_military focus = GER_prioritize_navy}
 		
-		prerequisite = { focus = GER_m }
 		available = {
 			country_exists = GER
 		}
-
 		bypass = {
 			
 		}
 
 		completion_reward = { 
-			
-			}				
+			custom_effect_tooltip = not_ready
+		}				
 	}
 	focus = {
 		id = GER_kaiser_wilhelm_II
 		icon = GFX_focus_ger_oppose_hitler
 		search_filters = { FOCUS_FILTER_MANPOWER }
-		x = 51
+		x = 56
 		y = 1
 
-		
 		cost = 10
-		
 		prerequisite = { focus = GER_m }
+		
 		available = {
 			country_exists = GER
 		}
-
 		bypass = {
 			
 		}
 
 		completion_reward = { 
-			
-			}				
+			popularity = { ideology = centrism popularity = 0.10 }
+		}				
 	}
 	focus = {
 		id = GER_concessions_to_native_people
 		icon = GFX_focus_cze_german_puppet
 		search_filters = { FOCUS_FILTER_MANPOWER }
-		x = 62
-		y = 3
+		x = 63
+		y = 2
 
-		
 		cost = 10
+	
+		mutually_exclusive = { focus = GER_destroy_the_uprising }
 		
-		prerequisite = { focus = GER_m }
+		prerequisite = { focus = GER_native_uprising_in_colonies }
+		
 		available = {
 			country_exists = GER
 		}
-
 		bypass = {
-			
+		
 		}
 
 		completion_reward = { 
-			
-			}				
-	}
+				custom_effect_tooltip = not_ready
+			}
+	}				
 	focus = {
 		id = GER_political_visit_to_ottomans
 		icon = GFX_focus_ger_oppose_hitler
 		search_filters = { FOCUS_FILTER_MANPOWER }
-		x = 49
+		x = 52
 		y = 4
 
-		
 		cost = 10
+		prerequisite = { focus = GER_bulwark_against_socialism }
 		
-		prerequisite = { focus = GER_m }
 		available = {
 			country_exists = GER
 		}
-
 		bypass = {
 			
 		}
 
 		completion_reward = { 
-			
-			}				
+			custom_effect_tooltip = not_ready
+		}				
 	}
 	focus = {
 		id = GER_establish_new_airports
@@ -1974,67 +1999,73 @@ focus_tree = {
 		x = 4
 		y = 1
 
-		
 		cost = 10
+		prerequisite = { focus = GER_imperial_german_airforce }
 		
-		prerequisite = { focus = GER_m }
 		available = {
 			country_exists = GER
 		}
-
 		bypass = {
 			
 		}
 
 		completion_reward = { 
-			
-			}				
+				random_owned_controlled_state = {
+				add_building_construction = {
+					type = air_base
+					level = 2
+					instant_build = yes
+			}
+		}
+	}		
 	}
 	focus = {
 		id = GER_offshore_cost_tocolonies
 		icon = GFX_goal_anschluss
 		search_filters = { FOCUS_FILTER_MANPOWER }
-		x = 17
-		y = 9
+		x = 15
+		y = 3
 
-		
 		cost = 10
 		
-		prerequisite = { focus = GER_m }
+		mutually_exclusive = { focus = GER_pass_the_naval_bills }
+		
+		prerequisite = { focus = GER_deutchland_class focus = GER_new_cruiser_models}
+		
 		available = {
 			country_exists = GER
 		}
-
 		bypass = {
 			
 		}
-
+		
 		completion_reward = { 
-			
-			}				
+			swap_ideas = {
+				remove_idea = bloated_naval_budget1
+				add_idea = bloated_naval_budget2
+			}
+		}				
 	}
 	focus = {
 		id = GER_native_uprising_in_colonies
 		icon = GFX_focus_ger_oppose_hitler
 		search_filters = { FOCUS_FILTER_MANPOWER }
 		x = 64
-		y = 2
+		y = 1
 
-		
 		cost = 10
+		prerequisite = { focus = GER_weltpolitik }
 		
-		prerequisite = { focus = GER_m }
 		available = {
 			country_exists = GER
 		}
-
 		bypass = {
 			
 		}
 
 		completion_reward = { 
-			
-			}				
+			 custom_effect_tooltip = not_ready
+		}				
 	}
 	focus = {
 		id = GER_air_doctrines
@@ -2043,21 +2074,24 @@ focus_tree = {
 		x = 0
 		y = 1
 
-		
 		cost = 10
+		prerequisite = { focus = GER_imperial_german_airforce }
 		
-		prerequisite = { focus = GER_m }
 		available = {
 			country_exists = GER
 		}
-
 		bypass = {
 			
 		}
 
 		completion_reward = { 
-			
-			}				
+				add_tech_bonus = {
+				name =  air_doc_bonus
+				bonus = 1.0
+				uses = 1
+				category = air_doctrine
+			}
+		}				
 	}
 	focus = {
 		id = GER_recon_planes
@@ -2065,45 +2099,49 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_MANPOWER }
 		x = 2
 		y = 1
-
 		
 		cost = 10
+		prerequisite = { focus = GER_imperial_german_airforce }
 		
-		prerequisite = { focus = GER_m }
 		available = {
 			country_exists = GER
 		}
-
 		bypass = {
 			
 		}
 
 		completion_reward = { 
 			
-			}				
+			add_tech_bonus = {
+				name = scout_plane_bonus
+				bonus = 1.0
+				uses = 2
+			}
+		}	
 	}
 	focus = {
 		id = GER_destroy_the_uprising
 		icon = GFX_focus_ger_oppose_hitler
 		search_filters = { FOCUS_FILTER_MANPOWER }
-		x = 66
-		y = 3
+		x = 65
+		y = 2
 
-		
 		cost = 10
 		
-		prerequisite = { focus = GER_m }
+		mutually_exclusive = { focus = GER_concessions_to_native_people}
+		
+		prerequisite = { focus = GER_native_uprising_in_colonies }
+		
 		available = {
 			country_exists = GER
 		}
-
 		bypass = {
 			
 		}
 
 		completion_reward = { 
-			
-			}				
+			custom_effect_tooltip = not_ready
+		}				
 	}
 	focus = {
 		id = GER_german_aces
@@ -2112,20 +2150,18 @@ focus_tree = {
 		x = 2
 		y = 2
 
-		
 		cost = 10
+		prerequisite = { focus = GER_recon_planes focus = GER_air_doctrines focus = GER_establish_new_airports }
 		
-		prerequisite = { focus = GER_m }
 		available = {
 			country_exists = GER
 		}
-
 		bypass = {
 			
 		}
 
 		completion_reward = { 
-			
-			}				
+			add_ideas = { german_aces }
+		}				
 	}
 }
