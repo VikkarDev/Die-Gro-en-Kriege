@@ -1,4 +1,22 @@
 ﻿l_english:
+
+ LAB_autocracy:0 "Liberals"
+ LAB_autocracy_DEF:0 "Liberals"
+ LAB_centrism:0 "Liberals"
+ LAB_centrism_ADJ:0 "Colombian"
+ LAB_centrism_DEF:0 "Liberals"
+ LAB_traditional_conservatism_ADJ:0 "Colombian"
+ LAB_traditional_conservatism_DEF:0 "Liberals"
+ LAB_social_egalitarianism_ADJ:0 "Colombian"
+ LAB_social_egalitarianism_DEF:0 "Liberals"
+ LAB_vanguard_communism_ADJ:0 "Colombian"
+ LAB_vanguard_communism_DEF:0 "Liberals"
+ LAB_autocracy_ADJ:0 "Colombian"
+ LAB_radical_democracy_ADJ:0 "Colombian"
+ LAB_radical_democracy_DEF:0 "Liberals"
+ LAB_chauvinist_populism_ADJ:0 "Colombian"
+ LAB_chauvinist_populism_DEF:0 "Liberals"
+ 
  ACH_autocracy:0 "Aceh Sultanate"
  ACH_autocracy_DEF:0 "The Aceh Sultanate"
  ACH_centrism_ADJ:0 "Acehen"
