@@ -8,6 +8,22 @@ capital = 16
 
 	set_research_slots = 4
 
+	if = {
+		limit = {
+			OR = {
+				has_dlc = "Together for Victory"
+				has_dlc = "Man the Guns"
+			}
+		}
+		set_autonomy = {
+			target = FRI
+			autonomy_state = autonomy_integrated_puppet
+		}
+		else = {
+			puppet = FRI
+		}
+	}
+
 	add_ideas = {
 		# government
 		volunteer_only

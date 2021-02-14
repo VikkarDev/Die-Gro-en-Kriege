@@ -2,7 +2,7 @@
 
 #### Mod
 
-# GER
+### GERMANY
 
 GER_weltpolitik:0 "Weltpolitik"
 GER_weltpolitik_desc:0 "We shall continue the empire with the great Kaiser Wilhelm II. He will lead this country to greatness."
@@ -50,7 +50,7 @@ GER_artillery:0 "Artillery Tactics"
 GER_artillery_desc:0 ""
 GER_a_second_kulture_kampf:0 "Finish The KultureKampf"
 GER_a_second_kulture_kampf_desc:0 ""
-GER_a_tolerant_germany:0 "A Tolerant Deutchland"
+GER_a_tolerant_germany:0 "A Tolerant Deutschland"
 GER_a_tolerant_germany_desc:0 ""
 GER_pursue_good_relations_with_roman_church:0 "Pursue Positive Relations With The Roman Church"
 GER_pursue_good_relations_with_roman_church_desc:0 ""
@@ -58,7 +58,7 @@ GER_suppressed_minority:0 "Suppresed Religious Minority"
 GER_suppressed_minority_desc:0 ""
 GER_our_place_in_the_sun:0 "Our Place In The Sun"
 GER_our_place_in_the_sun_desc:0 ""
-GER_address_boxer_rebbelion:0 "The Boxer Rebbelion"
+GER_address_boxer_rebbelion:0 "The Boxer Rebellion"
 GER_address_boxer_rebbelion_desc:0 ""
 GER_the_new_course:0 "The New Course"
 GER_the_new_course_desc:0 ""
@@ -91,7 +91,7 @@ GER_destroy_the_uprising_desc:0 ""
 GER_german_aces:0 "German Aces"
 GER_german_aces_desc:0 ""
 
-#### german economy
+#### GERMAN ECONOMY
 GER_foriegn_direct_investments:0 "Foriegn Direct Investments"
 GER_foriegn_direct_investments_desc:0 ""
 GER_militarist_state_schools:0 "Militarist State Schools"
@@ -106,7 +106,7 @@ GER_deutsches_kolonialreich:0 "Deutsches KolonialReich"
 GER_deutsches_kolonialreich_desc:0 ""
 GER_sieze_native_assests:0 "Sieze Native Assets"
 GER_sieze_native_assests_desc:0 ""
-GER_subsidis_colonial_manufacturing:0 "Subsidis Colonial Manufaturing"
+GER_subsidis_colonial_manufacturing:0 "Subsidis Colonial Manufacturing"
 GER_subsidis_colonial_manufacturing_desc:0 ""
 GER_develop_asian_colonies:0 "Develop The Pacific Colonines"
 GER_develop_asian_colonies_desc:0 ""
@@ -145,7 +145,7 @@ GER_small_shipyard_expansion:0 "Small Shipyard Expansion"
 GER_small_shipyard_expansion_desc:0 ""
 GER_strong_defensive_fleet:0 "Strong Defensive Fleet"
 GER_strong_defensive_fleet_desc:0 ""
-GER_german_imperial_admirality_staff:0 "german Imperial Admirality Staff"
+GER_german_imperial_admirality_staff:0 "German Imperial Admirality Staff"
 GER_german_imperial_admirality_staff_desc:0 ""
 GER_ensure_german_dominance:0 "Ensure German Dominance"
 GER_ensure_german_dominance_desc:0 ""
@@ -158,7 +158,7 @@ GER_pass_the_naval_bills_desc:0 ""
 GER_rival_royal_navy:0 "Rival Royal Navy"
 GER_rival_royal_navy_desc:0 ""
 
-#### german faction
+#### GERMAN FACTION
 GER_economic_aid:0 "Mutual Economic Aid"
 GER_economic_aid_desc:0 ""
 GER_the_central_powers:0 "The Central Powers"
@@ -179,7 +179,7 @@ HISTORICAL_BREAK_EVENT:0 "§RThis decision will break the historical route of th
 NOT_COMPLETE:0 "§RThis focus is not complete!§!"
 JAP_RUS_WAR:0 "§RThis will make you declare war on the Russian Empire!§!"
 
-### NewGeneric
+### GENERIC
 economic_focus:0 "The Economy"
 economic_focus_desc:0 ""
 develop_the_civillion_industry:0 "Develop Civilan Industry"
@@ -211,7 +211,7 @@ war_economy_desc:0 ""
 industrial_beast:0 "Industrial Powerhouse"
 industrial_beast_desc:0 ""
 
-#### Generic
+### Generic
 
 WHILE_FOCUSING:0 "While focusing on this, there will be the following effects:\n$EFF$"
 generic_focus:0 "National Focus"

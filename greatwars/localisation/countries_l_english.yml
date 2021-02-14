@@ -1,12 +1,19 @@
 ﻿l_english:
  ACH_autocracy:0 "Aceh Sultanate"
+ ACH_autocracy_DEF:0 "The Aceh Sultanate"
  ACH_centrism_ADJ:0 "Acehen"
+ ACH_centrism_DEF:0 "The Aceh Sultanate"
  ACH_traditional_conservatism_ADJ:0 "Acehen"
+ ACH_traditional_conservatism_DEF:0 "The Aceh Sultanate"
  ACH_social_egalitarianism_ADJ:0 "Acehen"
+ ACH_social_egalitarianism_DEF:0 "The Aceh Sultanate"
  ACH_vanguard_communism_ADJ:0 "Acehen"
+ ACH_vanguard_communism_DEF:0 "The Aceh Sultanate"
  ACH_autocracy_ADJ:0 "Acehen"
  ACH_radical_democracy_ADJ:0 "Acehen"
+ ACH_radical_democracy_DEF:0 "The Aceh Sultanate"
  ACH_chauvinist_populism_ADJ:0 "Acehen"
+ ACH_chauvinist_populism_DEF:0 "The Aceh Sultanate"
  
  GER_centrism:0 "German Empire"
  GER_traditional_conservatism:0 "Germany"
@@ -47,9 +54,13 @@
  CRE_radical_democracy_DEF:0 "The Cretan State"
  CRE_radical_democracy_ADJ:0 "Greek"
 
+ FRI_centrism:0 "French Indochina"
+ FRI_centrism_DEF:0 "French Indochina"
+ FRI_centrism_ADJ:0 "French Indochinese"
+
  GEA_centrism:0 "German East Africa Comapny"
  GEA_centrism_DEF:0 "German East Africa Company"
- GEA_centrism_ADJ:0 "German / African"
+ GEA_centrism_ADJ:0 "German East African"
 
  BOX_autocracy:0 "Boxer Rebellion"
  BOX_autocracy_DEF:0 "The Boxer Rebellion"

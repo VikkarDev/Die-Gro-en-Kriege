@@ -87,17 +87,15 @@ bookmarks = {
 		}
 
 		# minors from DLC ####
-		"CHI"={
+		"SER"={
 			minor = yes
-			history = "CHI_SILENT_NIGHT_DESC"
-			ideology = autocracy
+			history = "SER_SILENT_NIGHT_DESC"
+			ideology = traditional_conservatism
 			ideas = {
-				deterrence
+				
 			}
 			focuses = {
-				POL_the_baltic_alliance
-				POL_draw_closer_to_britain
-				POL_seek_accommodation_with_germany
+
 			}
 		}
 

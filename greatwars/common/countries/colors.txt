@@ -123,6 +123,10 @@ NAT = {
 	color = rgb { 201 56 93 }
 	color_ui = rgb { 255 73 121 }
 }
+FRI = {
+	color = rgb { 57 113 228 }
+	color_ui = rgb { 57 113 228 }
+}
 
 LUX = {
 	color = rgb { 65 175 179 }
