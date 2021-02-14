@@ -169,7 +169,7 @@ guiTypes = {
 			
 			instantTextboxType = {
 				name = "elections"
-				position = { x = 9 y = 32 }
+				position = { x = 9 y = 44 }
 				font = "hoi_16mbs"
 				text = "elections"
 				maxWidth = 155
@@ -393,13 +393,13 @@ guiTypes = {
 		}
 		containerWindowType = {
 			name = "national_spirit"
-			position = { x = 263 y = 153 }
+			position = { x = 263 y = 170 }
 			size = { width = 360 height = 100 }
 			clipping = no
 						
 			instantTextboxType = {
 				name = "title"
-				position = { x = 110 y = -2 }
+				position = { x = 110 y = -18 }
 				font = "hoi_18mbs"
 				text = "POLITICS_NATIONAL_SPIRIT"
 				maxWidth = 200

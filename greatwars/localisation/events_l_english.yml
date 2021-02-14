@@ -60,6 +60,10 @@ japan.1.t:0 "Navy Pressure to Emperor About Manchuria"
 japan.1.d:0 "As Russian ambitions in the Japanese sphere of influence grow, the navy has suggested that the Empire makes a preemptive strike against the Tsar, as to utilize the element of surprise against the damned Ruskies. While there has been a great deal of bickering between the navy and the army, it is ultimately up to the Emperor himself to decide. A decision that could very much affect the future of the Empire is on the emperor’s desk. Ultimately, he decided to…"
 japan.1.a:0 "Declare war immediately. We must strike first!"
 japan.1.b:0 "Wait for the Russians. If they want a fight, we will fight, but not otherwise."
+japan.3.t:0 "Russian Empire Surrenders"
+japan.3.d:0 "After a series of battles in the Liaodong Peninsula resulting in Russian armies being driven from southern Manchiria, and the the Battle of Tsushima had a resulted in a cataclysm for the Imperial Russin Navy, the Russo-Japanese can finally come to an end if you accept Russia's surrender."
+japan.3.a:0 "We won, lets accept their surrender."
+japan.3.b:0 "The war isn't over yet. Keep fighting!"
 
 # UNITED KINGDOM
 united_kingdom.1.t:0 "British Victory!"

@@ -15,7 +15,29 @@ defined_text = {
 	}
 
 	text = {
-		localization_key = DEFAULT_FIRST_TITLE
+		trigger = {
+			tag = ENG
+			OR = {
+				has_government = centrism
+				has_government = traditional_conservatism
+			}
+		}
+		localization_key = ENG_HOS_TITLE
+	}
+
+	text = {
+		trigger = {
+			tag = FRA
+			OR = {
+				has_government = centrism
+				has_government = traditional_conservatism
+			}
+		}
+		localization_key = FRA_HOS_TITLE
+	}
+
+	text = {
+		localization_key = DEFAULT_HOS_TITLE
 	}
 }
 
@@ -32,6 +54,32 @@ defined_text = {
 		}
 		localization_key = GER_HOG_TITLE
 	}
+
+	text = {
+		trigger = {
+			tag = ENG
+			OR = {
+				has_government = centrism
+				has_government = traditional_conservatism
+			}
+		}
+		localization_key = ENG_HOG_TITLE
+	}
+
+	text = {
+		trigger = {
+			tag = FRA
+			OR = {
+				has_government = centrism
+				has_government = traditional_conservatism
+			}
+		}
+		localization_key = FRA_HOG_TITLE
+	}
+
+	text = {
+		localization_key = DEFAULT_HOG_TITLE
+	}
 }
 
 defined_text = {
@@ -46,6 +94,28 @@ defined_text = {
 			}
 		}
 		localization_key = CARL_VIKTOR_NAME
+	}
+
+	text = {
+		trigger = {
+			tag = ENG
+			OR = {
+				has_government = centrism
+				has_government = traditional_conservatism
+			}
+		}
+		localization_key = ENG_ROBERT_NAME
+	}
+
+	text = {
+		trigger = {
+			tag = FRA
+			OR = {
+				has_government = centrism
+				has_government = traditional_conservatism
+			}
+		}
+		localization_key = FRA_PIERRE_NAME
 	}
 
 	text = {
@@ -68,6 +138,28 @@ defined_text = {
 	}
 
 	text = {
+		trigger = {
+			tag = ENG
+			OR = {
+				has_government = centrism
+				has_government = traditional_conservatism
+			}
+		}
+		localization_key = "GFX_ENG_Robert_Cecil"
+	}
+
+	text = {
+		trigger = {
+			tag = FRA
+			OR = {
+				has_government = centrism
+				has_government = traditional_conservatism
+			}
+		}
+		localization_key = "GFX_ENG_Pierre_Rousseau"
+	}
+
+	text = {
 		localization_key = "GFX_portrait_bg_blank"
 	}
 }
@@ -82,6 +174,20 @@ defined_text = {
 		}
 		localization_key = WILHELM_LEADER_DESCRIPTION
 	}
+
+	text = {
+		trigger = {
+			original_tag = ENG
+		}
+		localization_key = VICTORIA_LEADER_DESCRIPTION
+	}
+
+	text = {
+		trigger = {
+			original_tag = FRA
+		}
+		localization_key = EMILE_LEADER_DESCRIPTION
+	}
 }
 
 defined_text = {
@@ -92,5 +198,19 @@ defined_text = {
 			original_tag = GER
 		}
 		localization_key = VIKTOR_LEADER_DESCRIPTION
+	}
+
+	text = {
+		trigger = {
+			original_tag = ENG
+		}
+		localization_key = ROBERT_LEADER_DESCRIPTION
+	}
+
+	text = {
+		trigger = {
+			original_tag = FRA
+		}
+		localization_key = PIERRE_LEADER_DESCRIPTION
 	}
 }
