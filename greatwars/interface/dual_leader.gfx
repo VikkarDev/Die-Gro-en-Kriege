@@ -37,8 +37,7 @@ spriteTypes = {
 		effectFile = "gfx/FX/buttonstate.lua"
 	}
 
-	# Country Specific Portraits
-
+	# GERMANY
 	spriteType = {
 		name = "GFX_GER_Wilhelm_II"
 		texturefile = "gfx/leaders/GER/Wilhelm_II.dds"
@@ -47,5 +46,11 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_GER_Carl_Viktor"
 		texturefile = "gfx/leaders/GER/Carl_Viktor.dds"
+	}
+
+	# FRANCE
+	spriteType = {
+		name = "GFX_FRA_Pierre_Rousseau"
+		texturefile = "gfx/leaders/FRA/Pierre_Waldeck-Rousseau.dds"
 	}
 }

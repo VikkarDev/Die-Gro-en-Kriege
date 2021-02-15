@@ -156,7 +156,7 @@ defined_text = {
 				has_government = traditional_conservatism
 			}
 		}
-		localization_key = "GFX_ENG_Pierre_Rousseau"
+		localization_key = "GFX_FRA_Pierre_Rousseau"
 	}
 
 	text = {

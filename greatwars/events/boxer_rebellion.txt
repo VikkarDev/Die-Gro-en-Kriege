@@ -225,7 +225,9 @@ country_event = {
 			dismantle_faction = yes
 			add_threat = -35
 
-			#create_faction = "Central Powers"
+			create_faction = "Central Powers"
+			add_to_faction = HUN
+			add_to_faction = ITA
 		}
 	}
 }
