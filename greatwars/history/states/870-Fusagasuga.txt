@@ -1,0 +1,21 @@
+state={
+	id=870
+	name="STATE_870"
+	state_category = city
+
+	history = {
+		owner = LAB
+		add_core_of = LAB
+		add_core_of = COL
+
+		buildings = {
+			infrastructure = 5
+		}
+	}
+
+	provinces={
+		13244 
+	}
+	manpower=6847031
+	buildings_max_level_factor=1.000
+}

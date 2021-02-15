@@ -35,7 +35,7 @@ capital = 361
 	}
 
 	set_politics = {
-		ruling_party = centrism
+		ruling_party = traditional_conservatism
 		#last_election = "2078.9.26"
 		#election_frequency = 48
 		#elections_allowed = yes
@@ -44,19 +44,19 @@ capital = 361
 	set_popularities = {
 		vanguard_communism = 0
 		social_egalitarianism = 5
-		centrism = 55
-		traditional_conservatism = 0
-		radical_democracy = 5
-		chauvinist_populism = 5
-		autocracy = 30
-		democratic_socialism = 0
+		centrism = 18
+		traditional_conservatism = 69
+		radical_democracy = 2
+		chauvinist_populism = 0
+		autocracy = 0
+		democratic_socialism = 6
 	}
 
 	create_country_leader = {
 		name = "William McKinley"
 		desc = ""
-		picture = "Wilhelm_II.dds"
-		ideology = liberal
+		picture = "William_McKinley.dds"
+		ideology = conserv
 		traits = {
 		}
 	}
