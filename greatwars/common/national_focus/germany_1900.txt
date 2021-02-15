@@ -157,7 +157,7 @@ focus_tree = {
 		y = 3
 
 		cost = 10
-		prerequisite = { focus = GER_immigration }
+		prerequisite = { focus = GER_immigrant_workers }
 		
 		available = {
 			country_exists = GER
@@ -655,11 +655,11 @@ focus_tree = {
 		icon = GFX_GER_focus_sieze_native_assets
 		search_filters = { FOCUS_FILTER_MANPOWER }
 		x = 35
-		y = 8
+		y = 7
 
 		cost = 10
-		prerequisite = { focus = GER_subsidis_colonial_manufacturing }
-		prerequisite = { focus = GER_develop_asian_colonies }
+		prerequisite = { focus = GER_deutsches_kolonialreich }
+	
 		
 		available = {
 			country_exists = GER
@@ -679,7 +679,7 @@ focus_tree = {
 		id = GER_subsidis_colonial_manufacturing
 		icon = GFX_GER_focus_colonial_industry
 		search_filters = { FOCUS_FILTER_MANPOWER }
-		x = 34
+		x = 33
 		y = 7
 
 		cost = 10
@@ -703,7 +703,7 @@ focus_tree = {
 		id = GER_develop_asian_colonies
 		icon = GFX_GER_focus_develop_colonies
 		search_filters = { FOCUS_FILTER_MANPOWER }
-		x = 36
+		x = 37
 		y = 7
 
 		cost = 10
@@ -725,14 +725,14 @@ focus_tree = {
 		}				
 	}
 	focus = {
-		id = GER_glorius_empire
+		id = GER_a_profitable_empire
 		icon = GFX_goal_tfv_strengthen_commonwealth_ties
 		search_filters = { FOCUS_FILTER_MANPOWER }
 		x = 35
 		y = 9
 		
 		cost = 10
-		prerequisite = { focus = GER_sieze_native_assests }
+		prerequisite = { focus = GER_offload_naval_cost_to_colonies }
 		
 		available = {
 			country_exists = GER
@@ -881,7 +881,7 @@ focus_tree = {
 		}				
 	}
 	focus = {
-		id = GER_immigration
+		id = GER_immigrant_workers
 		icon = GFX_focus_spr_the_anti_fascist_workers_revolution
 		search_filters = { FOCUS_FILTER_MANPOWER }
 		x = 28
@@ -1021,7 +1021,7 @@ focus_tree = {
 
 		cost = 10
 		
-		mutually_exclusive = { focus = GER_offshore_cost_tocolonies }
+		mutually_exclusive = { focus = GER_balance_the_naval_budgets }
 		
 		prerequisite = { focus = GER_deutchland_class focus = GER_new_cruiser_models }
 		
@@ -1048,6 +1048,10 @@ focus_tree = {
 						level = 1
 						instant_build = yes
 				}
+			}
+			swap_ideas = {
+				remove_idea = bloated_naval_budget1
+				add_idea = bloated_naval_budget2
 			}
 		}				
 	}
@@ -1076,6 +1080,11 @@ focus_tree = {
 				type = dockyard
 				level = 3
 				instant_build = yes
+				
+			}
+			add_named_threat = { 
+    			threat = 5 
+    			name = GER_armsrace
 			}
 		}				
 	}
@@ -1100,7 +1109,7 @@ focus_tree = {
 
 		completion_reward = { 
 			remove_ideas = naval_arms_race
-			war_support = -0.025
+			add_stability = 0.025
 		}				
 	}
 	focus = {
@@ -1124,6 +1133,10 @@ focus_tree = {
 			country_event = {
 				id = germany.1
 				days = 10
+			}
+			swap_ideas = {
+				remove_idea = bloated_naval_budget1
+				add_idea = bloated_naval_budget2
 			}
 		}				
 	}
@@ -1266,7 +1279,7 @@ focus_tree = {
 		y = 4
 		
 		cost = 10
-		prerequisite = { focus = GER_small_shipyard_expansion focus = GER_further_cut_naval_funding }
+		prerequisite = { focus = GER_allow_a_small_shipyard_expansion focus = GER_further_cut_naval_funding }
 		
 		available = {
 			country_exists = GER
@@ -1289,7 +1302,7 @@ focus_tree = {
 		}				
 	}
 	focus = {
-		id = GER_small_shipyard_expansion
+		id = GER_allow_a_small_shipyard_expansion
 		icon = GFX_GER_focus_small_doc_expansion
 		search_filters = { FOCUS_FILTER_MANPOWER }
 		x = 21
@@ -1336,7 +1349,7 @@ focus_tree = {
 		cost = 10
 		prerequisite = { focus = GER_protect_colonial_convoys focus = GER_anglo_german_naval_treaty}
 		
-		mutually_exclusive = { focus = GER_small_shipyard_expansion }
+		mutually_exclusive = { focus = GER_allow_a_small_shipyard_expansion }
 
 		available = {
 			country_exists = GER
@@ -1347,8 +1360,8 @@ focus_tree = {
 
 		completion_reward = { 
 			swap_ideas = {
-				remove_idea = bloated_naval_budget1
-				add_idea = bloated_naval_budget3
+				remove_idea = bloated_naval_budget2
+				add_idea = bloated_naval_budget4
 			}
 		}				
 	}
@@ -1377,7 +1390,7 @@ focus_tree = {
 		}				
 	}
 	focus = {
-		id = GER_a_second_kulture_kampf
+		id = GER_a_second_kultur_kampf
 		icon = GFX_GER_focus_kultur_kampf_2
 		search_filters = { FOCUS_FILTER_MANPOWER }
 		x = 61
@@ -1387,7 +1400,7 @@ focus_tree = {
 		
 		mutually_exclusive = { focus = GER_pursue_good_relations_with_roman_church }
 		
-		prerequisite = { focus = GER_kulture_problem }
+		prerequisite = { focus = GER_kultur_problem }
 
 		available = {
 			country_exists = GER
@@ -1451,9 +1464,9 @@ focus_tree = {
 
 		cost = 10
 		
-		mutually_exclusive = { focus = GER_a_second_kulture_kampf }
+		mutually_exclusive = { focus = GER_a_second_kultur_kampf }
 		
-		prerequisite = { focus = GER_kulture_problem }
+		prerequisite = { focus = GER_kultur_problem }
 		
 		available = {
 			country_exists = GER
@@ -1474,7 +1487,7 @@ focus_tree = {
 		y = 4
 
 		cost = 10
-		prerequisite = { focus = GER_a_second_kulture_kampf }
+		prerequisite = { focus = GER_a_second_kultur_kampf }
 	
 		available = {
 			country_exists = GER
@@ -1509,17 +1522,19 @@ focus_tree = {
 		}				
 	}
 	focus = {
-		id = GER_enter_negotiations_with_italy
+		id = GER_offload_naval_cost_to_colonies
 		icon = GFX_focus_chi_british_cooperation
 		search_filters = { FOCUS_FILTER_MANPOWER }
-		x = 46
+		x = 35
 		y = 8
 
 		cost = 10
 		
 		mutually_exclusive = { focus = GER_side_with_austria_hungry }
 		
-		prerequisite = { focus = GER_ }
+		prerequisite = { focus = GER_sieze_native_assests }
+		prerequisite = { focus = GER_subsidis_colonial_manufacturing }
+		prerequisite = { focus = GER_develop_asian_colonies }
 		
 		available = {
 			country_exists = GER
@@ -1533,7 +1548,7 @@ focus_tree = {
 		}				
 	}
 	focus = {
-		id = GER_elections
+		id = GER_undermine_the_kaiser
 		icon = GFX_focus_generic_industry_1
 		search_filters = { FOCUS_FILTER_MANPOWER }
 		x = 76
@@ -1731,14 +1746,15 @@ focus_tree = {
 		}				
 	}
 	focus = {
-		id = GER_austria_hungry
+		id = GER_hold_elections
 		icon = GFX_focus_chi_british_cooperation
 		search_filters = { FOCUS_FILTER_MANPOWER }
-		x = 48
-		y = 8
+		x = 75
+		y = 2
 
 		cost = 10
-		prerequisite = { focus = GER_ }
+		prerequisite = { focus = GER_proggressive_reforms }
+		prerequisite = { focus = GER_undermine_the_kaiser }
 		
 		available = {
 			country_exists = GER
@@ -1778,7 +1794,7 @@ focus_tree = {
 		}				
 	}
 	focus = {
-		id = GER_kulture_problem
+		id = GER_kultur_problem
 		icon = GFX_GER_focus_kultur_problem
 		search_filters = { FOCUS_FILTER_MANPOWER }
 		x = 59
@@ -1799,7 +1815,7 @@ focus_tree = {
 		}				
 	}
 	focus = {
-		id = GER_enact_reforms
+		id = GER_proggressive_reforms
 		icon = GFX_focus_generic_industry_1
 		search_filters = { FOCUS_FILTER_MANPOWER }
 		x = 74
@@ -2042,7 +2058,7 @@ focus_tree = {
 		completion_reward = { 
 			swap_ideas = {
 				remove_idea = bloated_naval_budget1
-				add_idea = bloated_naval_budget2
+				add_idea = bloated_naval_budget3
 			}
 		}				
 	}
@@ -2068,7 +2084,7 @@ focus_tree = {
 		}				
 	}
 	focus = {
-		id = GER_air_doctrines
+		id = GER_develop_air_strategies
 		icon = GFX_goal_generic_air_doctrine
 		search_filters = { FOCUS_FILTER_MANPOWER }
 		x = 0
@@ -2094,7 +2110,7 @@ focus_tree = {
 		}				
 	}
 	focus = {
-		id = GER_recon_planes
+		id = GER_feldflieger_abteilungen
 		icon = GFX_goal_generic_air_fighter
 		search_filters = { FOCUS_FILTER_MANPOWER }
 		x = 2
@@ -2148,10 +2164,10 @@ focus_tree = {
 		icon = GFX_focus_fra_loyalty_stalin
 		search_filters = { FOCUS_FILTER_MANPOWER }
 		x = 2
-		y = 2
+		y = 3
 
 		cost = 10
-		prerequisite = { focus = GER_recon_planes focus = GER_air_doctrines focus = GER_establish_new_airports }
+		prerequisite = { focus = GER_feldflieger_abteilungen focus = GER_develop_air_strategies focus = GER_establish_new_airports }
 		
 		available = {
 			country_exists = GER
