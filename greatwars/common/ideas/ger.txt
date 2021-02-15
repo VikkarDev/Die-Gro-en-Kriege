@@ -174,7 +174,20 @@ ideas = {
 
 		modifier = {
 			political_power_cost = -0.1
-			stability_factor = -0.025
+			stability_factor = -0.05
+		}
+	  }
+	}
+	country = {
+		suppressed_minority = {
+		picture = ger_german_army
+	  
+		allowed = {
+			tag = GER
+		}
+	  
+		modifier = {
+			consumer_goods_factor = -0.03
 		}
 	  }
 	}
@@ -188,7 +201,7 @@ ideas = {
 	  
 		modifier = {
 			consumer_goods_factor = 0.15
-			industrial_capacity_dockyard = 0.20
+			industrial_capacity_dockyard = 0.15
 		}
 	  }
 	}
@@ -203,6 +216,20 @@ ideas = {
 		modifier = {
 			consumer_goods_factor = 0.5
 			industrial_capacity_dockyard = 0.10
+		}
+	  }
+	}
+	country = {
+		bloated_naval_budget5 = {
+		picture = ger_bloated_naval_budget
+	  
+		allowed = {
+			tag = GER
+		}
+	  
+		modifier = {
+			consumer_goods_factor = 0.3
+			industrial_capacity_dockyard = 0.15
 		}
 	  }
 	}
@@ -278,7 +305,6 @@ ideas = {
 			political_power_gain = 0.15
 			consumer_goods_factor = 0.01
 			stability_factor = 0.1
-			
 			
 		}
 	  }
