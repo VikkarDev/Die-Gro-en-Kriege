@@ -6,8 +6,8 @@ on_actions = {
 					has_start_date < 1900.1.2
 				}
 
-				ENG = {
-					country_event = { id = japan.1 days = 1497 } # Feb. 8 19014
+				JAP = {
+					country_event = { id = japan.1 days = 1497 } # Feb. 8 1904
 				}
 			}
 		}

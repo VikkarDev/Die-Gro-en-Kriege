@@ -8,6 +8,7 @@ country_event = {
 	picture = GFX_event_russo-japanese_war
 
 	fire_only_once = yes
+	is_triggered_only = yes
 	
 	trigger = {
 		tag = JAP
@@ -19,8 +20,10 @@ country_event = {
 		
 		custom_effect_tooltip = "JAP_RUS_WAR"
 
-		country_event = { id = japan.2 days = 1 }
-		country_event = { id = japan.3 days = 576 }
+		hidden_effect = {
+			country_event = { id = japan.2 days = 1 }
+			country_event = { id = japan.3 days = 576 }
+		}
 	}
 	option = {
 		name = japan.1.b
@@ -34,6 +37,7 @@ country_event = {
 	id = japan.2
 
 	fire_only_once = yes
+	is_triggered_only = yes
 	hidden = yes
 
 	trigger = {
@@ -48,10 +52,11 @@ country_event = {
 		JAP = {
 			declare_war_on = {
 				target = SOV
+				type = take_state
 			}
-		}
 
-		news_event = { id = dgk_news.3 }
+			news_event = { id = dgk_news.3 }
+		}
 	}
 }
 
@@ -63,6 +68,7 @@ country_event = {
 	picture = GFX_report_event_japanese_soldiers_01
 
 	fire_only_once = yes
+	is_triggered_only = yes
 	
 	trigger = {
 		tag = JAP
@@ -85,4 +91,5 @@ country_event = {
 		ai_chance = { factor = 20 }
 		add_political_power = -25
 		add_stability = -0.25
+	}
 }

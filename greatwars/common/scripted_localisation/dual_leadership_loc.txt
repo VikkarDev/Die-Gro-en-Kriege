@@ -134,7 +134,7 @@ defined_text = {
 				has_government = traditional_conservatism
 			}
 		}
-		localization_key = "GFX_GER_Carl_Viktor_"
+		localization_key = "GFX_GER_Carl_Viktor"
 	}
 
 	text = {

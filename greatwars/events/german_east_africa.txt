@@ -8,7 +8,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		date = 1902.4.5
+		#date = 1902.4.5
   	}
 
 	immediate = {
