@@ -8,6 +8,62 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
+		name = "GFX_GER_focus_anglo_navy_treaty"
+		texturefile = "gfx/interface/goals/ger/GER_focus_anglo_navy_treaty.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_GER_focus_small_doc_expansion"
+		texturefile = "gfx/interface/goals/ger/GER_focus_small_doc_expansion.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_GER_focus_kultur_kampf_2"
+		texturefile = "gfx/interface/goals/ger/GER_focus_kultur_kampf_2.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_GER_focus_kultur_problem"
+		texturefile = "gfx/interface/goals/ger/GER_focus_kultur_problem.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_GER_focus_deutchland_class"
+		texturefile = "gfx/interface/goals/ger/GER_focus_deutchland_class.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_GER_focus_balance_spending"
+		texturefile = "gfx/interface/goals/ger/GER_focus_balance_spending.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_GER_focus_pass_naval_laws"
+		texturefile = "gfx/interface/goals/ger/GER_focus_pass_naval_laws.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_GER_focus_protect_shipping"
+		texturefile = "gfx/interface/goals/ger/GER_focus_protect_shipping.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_GER_focus_further_cut_naval_cost"
+		texturefile = "gfx/interface/goals/ger/GER_focus_further_cut_naval_cost.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_GER_focus_new_cruisers"
+		texturefile = "gfx/interface/goals/ger/GER_focus_new_cruisers.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_GER_focus_industry"
+		texturefile = "gfx/interface/goals/ger/GER_focus_industry.dds"
+	}
+	
+	
+	SpriteType = {
 		name = "GFX_GER_focus_cartel_system"
 		texturefile = "gfx/interface/goals/ger/GER_focus_cartel_system.dds"
 	}
