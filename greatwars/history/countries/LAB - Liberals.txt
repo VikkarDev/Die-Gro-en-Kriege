@@ -1,0 +1,52 @@
+capital = 869
+
+900.1.1 = {
+
+	oob = "LIB_1900"
+
+	set_convoys = 165
+
+	set_research_slots = 2
+
+	add_ideas = {
+		
+	}
+	
+	set_politics = {
+		ruling_party = centrism
+		#last_election = "1895.6.25"
+		#election_frequency = 85
+		#elections_allowed = yes
+	}
+	
+	if = {
+		limit = {
+			has_start_date < 1900.1.2
+		}
+
+		declare_war_on = {
+			target = COL
+			type = annex_everything
+		}
+	}
+	set_popularities = {
+		vanguard_communism = 0
+		social_egalitarianism = 0
+		centrism = 100
+		traditional_conservatism = 0
+		radical_democracy = 0
+		chauvinist_populism = 0
+		autocracy = 0
+		democratic_socialism = 0
+	}
+
+	create_country_leader = {
+		name = "Rafael Uribe Uribe"
+		desc = ""
+		picture = "Rafael_Uribe_Uribe.dds"
+		ideology = despotism
+		traits = {
+			
+		}
+	}
+}

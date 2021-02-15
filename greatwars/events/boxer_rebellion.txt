@@ -200,6 +200,7 @@ country_event = {
 
 		GER = {
 			country_event = { id = boxer_rebellion.4 days = 342 }
+			add_threat = -35
 		}
 	}
 }

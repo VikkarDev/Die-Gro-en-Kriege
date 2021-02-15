@@ -1,0 +1,216 @@
+# Custom leader stuff used from Coop. Edited by the DGK Team.
+
+defined_text = {
+	name = GetFirstTitle
+
+	text = {
+		trigger = {
+			tag = GER
+			OR = {
+				has_government = centrism
+				has_government = traditional_conservatism
+			}
+		}
+		localization_key = GER_HOS_TITLE
+	}
+
+	text = {
+		trigger = {
+			tag = ENG
+			OR = {
+				has_government = centrism
+				has_government = traditional_conservatism
+			}
+		}
+		localization_key = ENG_HOS_TITLE
+	}
+
+	text = {
+		trigger = {
+			tag = FRA
+			OR = {
+				has_government = centrism
+				has_government = traditional_conservatism
+			}
+		}
+		localization_key = FRA_HOS_TITLE
+	}
+
+	text = {
+		localization_key = DEFAULT_HOS_TITLE
+	}
+}
+
+defined_text = {
+	name = GetSecondTitle
+	
+	text = {
+		trigger = {
+			tag = GER
+			OR = {
+				has_government = centrism
+				has_government = traditional_conservatism
+			}
+		}
+		localization_key = GER_HOG_TITLE
+	}
+
+	text = {
+		trigger = {
+			tag = ENG
+			OR = {
+				has_government = centrism
+				has_government = traditional_conservatism
+			}
+		}
+		localization_key = ENG_HOG_TITLE
+	}
+
+	text = {
+		trigger = {
+			tag = FRA
+			OR = {
+				has_government = centrism
+				has_government = traditional_conservatism
+			}
+		}
+		localization_key = FRA_HOG_TITLE
+	}
+
+	text = {
+		localization_key = DEFAULT_HOG_TITLE
+	}
+}
+
+defined_text = {
+	name = GetDualLeaderName
+
+	text = {
+		trigger = {
+			tag = GER
+			OR = {
+				has_government = centrism
+				has_government = traditional_conservatism
+			}
+		}
+		localization_key = CARL_VIKTOR_NAME
+	}
+
+	text = {
+		trigger = {
+			tag = ENG
+			OR = {
+				has_government = centrism
+				has_government = traditional_conservatism
+			}
+		}
+		localization_key = ENG_ROBERT_NAME
+	}
+
+	text = {
+		trigger = {
+			tag = FRA
+			OR = {
+				has_government = centrism
+				has_government = traditional_conservatism
+			}
+		}
+		localization_key = FRA_PIERRE_NAME
+	}
+
+	text = {
+		localization_key = DEFAULT_TITLE
+	}
+}
+
+defined_text = {
+	name = GetDualLeaderPortrait
+
+	text = {
+		trigger = {
+			tag = GER
+			OR = {
+				has_government = centrism
+				has_government = traditional_conservatism
+			}
+		}
+		localization_key = "GFX_GER_Carl_Viktor"
+	}
+
+	text = {
+		trigger = {
+			tag = ENG
+			OR = {
+				has_government = centrism
+				has_government = traditional_conservatism
+			}
+		}
+		localization_key = "GFX_ENG_Robert_Cecil"
+	}
+
+	text = {
+		trigger = {
+			tag = FRA
+			OR = {
+				has_government = centrism
+				has_government = traditional_conservatism
+			}
+		}
+		localization_key = "GFX_ENG_Pierre_Rousseau"
+	}
+
+	text = {
+		localization_key = "GFX_portrait_bg_blank"
+	}
+}
+
+
+defined_text = {
+	name = GetFirstLeaderDesc
+
+	text = {
+		trigger = {
+			original_tag = GER
+		}
+		localization_key = WILHELM_LEADER_DESCRIPTION
+	}
+
+	text = {
+		trigger = {
+			original_tag = ENG
+		}
+		localization_key = VICTORIA_LEADER_DESCRIPTION
+	}
+
+	text = {
+		trigger = {
+			original_tag = FRA
+		}
+		localization_key = EMILE_LEADER_DESCRIPTION
+	}
+}
+
+defined_text = {
+	name = GetDualLeaderDesc
+
+	text = {
+		trigger = {
+			original_tag = GER
+		}
+		localization_key = VIKTOR_LEADER_DESCRIPTION
+	}
+
+	text = {
+		trigger = {
+			original_tag = ENG
+		}
+		localization_key = ROBERT_LEADER_DESCRIPTION
+	}
+
+	text = {
+		trigger = {
+			original_tag = FRA
+		}
+		localization_key = PIERRE_LEADER_DESCRIPTION
+	}
+}

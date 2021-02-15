@@ -33,6 +33,7 @@ SLD = "countries/Swaziland.txt"
 NAT = "countries/Colony of Natal.txt"
 ACH = "countries/Aceh Sultanate.txt"
 FRI = "countries/French Indochina.txt"
+LAB = "countries/Liberals.txt"
 
 LUX = "countries/Luxemburg.txt"
 BEL = "countries/Belgium.txt"
