@@ -116,7 +116,7 @@ focus_tree = {
 
 		completion_reward = { 
 			add_political_power = 120
-			add_popularity = { ideology = centrism popularity = 0.10 }
+			add_popularity = { ideology = centrism popularity = 0.05 }
 		}
 	}
 	focus = {
@@ -145,7 +145,7 @@ focus_tree = {
 
 		completion_reward = { 
 			add_political_power = 120
-			add_popularity = { ideology = centrism popularity = -0.10 }
+			add_popularity = { ideology = centrism popularity = -0.20 }
 			custom_effect_tooltip = HISTORICAL_BREAK
 		}
 	}
@@ -200,13 +200,24 @@ focus_tree = {
 			random_owned_controlled_state = {
 					add_resource = {
 					type = steel
-					amount = 50
-					state = 58
+					amount = 12
 				}
-				country_event = {
-					id = germany.1
-					days = 10
+			}
+			random_owned_controlled_state = {
+					add_resource = {
+					type = steel
+					amount = 12
 				}
+			}
+			random_owned_controlled_state = {
+					add_resource = {
+					type = steel
+					amount = 12
+				}
+			}
+			country_event = {
+				id = germany.1
+				days = 10
 			}
 		}
 	}
@@ -295,10 +306,40 @@ focus_tree = {
 						}
 					}
 				}
-				add_extra_state_shared_building_slots = 2
+				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
 					type = industrial_complex
-					level = 2
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = industrial_complex
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
 					instant_build = yes
 				}
 			}
@@ -428,9 +469,19 @@ focus_tree = {
 		
 		available = {
 			country_exists = GER
+			has_country_leader = {
+				name = "Wilhelm II"
+				ruling_only = yes
+			}
 		}
 		bypass = {
 			
+			NOT = {
+				has_country_leader = {
+					name = "Wilhelm II"
+					ruling_only = yes
+				}
+			}
 		}
 
 		completion_reward = { 
@@ -463,10 +514,25 @@ focus_tree = {
 						include_locked = yes
 					}
 				}
-				add_extra_state_shared_building_slots = 2
+				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
 					type = arms_factory
-					level = 2
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
 					instant_build = yes
 				}
 			}
@@ -578,10 +644,10 @@ focus_tree = {
 
 		completion_reward = { 
 			add_tech_bonus = {
-					name = artillery_bonus
-					bonus = 0.5
-					uses = 2
-					category = artillery
+				name = artillery_bonus
+				bonus = 0.5
+				uses = 2
+				category = artillery
 			}				
 		}
 	}
@@ -638,6 +704,7 @@ focus_tree = {
 		
 		available = {
 			country_exists = GER
+			has_completed_focus = { GER_weltpolitik }
 		}
 		bypass = {
 			
@@ -654,11 +721,11 @@ focus_tree = {
 		id = GER_sieze_native_assests
 		icon = GFX_GER_focus_sieze_native_assets
 		search_filters = { FOCUS_FILTER_MANPOWER }
-		x = 35
-		y = 7
+		x = 34
+		y = 8
 
 		cost = 10
-		prerequisite = { focus = GER_deutsches_kolonialreich }
+		prerequisite = { focus = GER_subsidis_colonial_manufacturing }
 	
 		
 		available = {
@@ -679,7 +746,7 @@ focus_tree = {
 		id = GER_subsidis_colonial_manufacturing
 		icon = GFX_GER_focus_colonial_industry
 		search_filters = { FOCUS_FILTER_MANPOWER }
-		x = 33
+		x = 35
 		y = 7
 
 		cost = 10
@@ -700,14 +767,39 @@ focus_tree = {
 		}				
 	}
 	focus = {
+		id = GER_build_colonial_schools
+		icon = GFX_GER_focus_colonial_industry
+		search_filters = { FOCUS_FILTER_MANPOWER }
+		x = 35
+		y = 9
+
+		cost = 10
+		prerequisite = { focus = GER_sieze_native_assests }
+		prerequisite = { focus = GER_develop_asian_colonies }
+		
+		available = {
+			country_exists = GER
+		}
+		bypass = {
+			
+		}
+
+		completion_reward = { 
+			swap_ideas = {
+				remove_idea = colony_cost4
+				add_idea = colony_cost5
+			}
+		}				
+	}
+	focus = {
 		id = GER_develop_asian_colonies
 		icon = GFX_GER_focus_develop_colonies
 		search_filters = { FOCUS_FILTER_MANPOWER }
-		x = 37
-		y = 7
+		x = 36
+		y = 8
 
 		cost = 10
-		prerequisite = { focus = GER_deutsches_kolonialreich }
+		prerequisite = { focus = GER_subsidis_colonial_manufacturing }
 		
 		available = {
 			country_exists = GER
@@ -719,8 +811,8 @@ focus_tree = {
 
 		completion_reward = { 
 			swap_ideas = {
-				remove_idea = colony_cost2
-				add_idea = colony_cost3
+				remove_idea = colony_cost3
+				add_idea = colony_cost4
 			}
 		}				
 	}
@@ -729,7 +821,7 @@ focus_tree = {
 		icon = GFX_goal_tfv_strengthen_commonwealth_ties
 		search_filters = { FOCUS_FILTER_MANPOWER }
 		x = 35
-		y = 9
+		y = 11
 		
 		cost = 10
 		prerequisite = { focus = GER_offload_naval_cost_to_colonies }
@@ -743,6 +835,10 @@ focus_tree = {
 
 		completion_reward = { 
 			add_political_power = 25
+			swap_ideas = {
+				remove_idea = colony_cost5
+				add_idea = colony_cost6
+			}
 		}				
 	}
 	focus = {
@@ -850,8 +946,8 @@ focus_tree = {
 		completion_reward = { 
 			add_tech_bonus = {
 				name = industrial_bonus
-				bonus = 1.0
-				uses = 1
+				bonus = 0.25
+				uses = 3
 				category = industry
 			}
 		}				
@@ -878,7 +974,11 @@ focus_tree = {
 
 		completion_reward = {
 			add_ideas = { welfare_programs }
-		}				
+		}
+		add_popularity = {
+    			ideology = vanguard_communism
+    			popularity = -0.1
+			}				
 	}
 	focus = {
 		id = GER_immigrant_workers
@@ -1075,12 +1175,37 @@ focus_tree = {
 		}
 
 		completion_reward = { 
-			add_extra_state_shared_building_slots = 3
-			add_building_construction = {
-				type = dockyard
-				level = 3
-				instant_build = yes
-				
+			random_owned_controlled_state = {
+					limit = {
+						dockyard > 0
+						free_building_slots = {
+							building = dockyard
+							size > 2
+							include_locked = yes
+						}
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = dockyard
+						level = 1
+						instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+					limit = {
+						dockyard > 0
+						free_building_slots = {
+							building = dockyard
+							size > 2
+							include_locked = yes
+						}
+					}
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = {
+						type = dockyard
+						level = 2
+						instant_build = yes
+				}
 			}
 			add_named_threat = { 
     			threat = 5 
@@ -1330,10 +1455,10 @@ focus_tree = {
 							include_locked = yes
 						}
 					}
-					add_extra_state_shared_building_slots = 1
+					add_extra_state_shared_building_slots = 2
 					add_building_construction = {
 						type = dockyard
-						level = 1
+						level = 2
 						instant_build = yes
 				}
 			}
@@ -1386,8 +1511,49 @@ focus_tree = {
 		}
 
 		completion_reward = { 
-			###FACTIONIDEA
-		}				
+			random_country = {
+				limit = {
+					original_tag = AUS
+					is_in_faction_with = ROOT
+				}
+				random_owned_controlled_state = {
+						limit = {
+							free_building_slots = {
+								building = industrial_complex
+								size > 1
+								include_locked = yes
+						}
+					}
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = {
+							type = industrial_complex
+							level = 2
+							instant_build = yes
+				}
+			}
+			random_country = {
+				limit = {
+					original_tag = ITA
+					is_in_faction_with = ROOT
+				}
+				random_owned_controlled_state = {
+						limit = {
+							free_building_slots = {
+								building = industrial_complex
+								size > 1
+								include_locked = yes
+							}	
+						}
+						add_extra_state_shared_building_slots = 2
+						add_building_construction = {
+								type = industrial_complex
+								level = 2
+								instant_build = yes
+						}
+					}
+				}				
+			}
+		}
 	}
 	focus = {
 		id = GER_a_second_kultur_kampf
@@ -1410,7 +1576,10 @@ focus_tree = {
 		}
 
 		completion_reward = { 
-			add_ideas = { second_kultur_kampf }
+			add_timed_idea = {
+				idea = second_kultur_kampf
+				days = 80
+			}
 		}				
 	}
 	focus = {
@@ -1425,6 +1594,7 @@ focus_tree = {
 		
 		available = {
 			country_exists = GER
+			
 		}
 		bypass = {
 			
@@ -1435,14 +1605,14 @@ focus_tree = {
 		}				
 	}
 	focus = {
-		id = GER_the_central_powers
+		id = GER_Kaiser_Wilhelm_Society
 		icon = GFX_focus_fra_loyalty_stalin
 		search_filters = { FOCUS_FILTER_MANPOWER }
-		x = 46
-		y = 6
+		x = 53
+		y = 3
 
 		cost = 10
-		prerequisite = { focus = GER_research_sharing }
+		prerequisite = { focus = GER_the_new_course }
 		
 		available = {
 			country_exists = GER
@@ -1452,7 +1622,7 @@ focus_tree = {
 		}
 
 		completion_reward = { 
-			
+			add_research_slot = 1
 		}				
 	}
 	focus = {
@@ -1476,8 +1646,11 @@ focus_tree = {
 		}
 
 		completion_reward = { 
-			add_opinion_modifier = { target = ITA modifier = medium_increase }
+			add_timed_idea = {
+				idea = catholic_missions
+				days = 180
 			}
+		}
 	}				
 	focus = {
 		id = GER_suppressed_minority
@@ -1491,6 +1664,7 @@ focus_tree = {
 	
 		available = {
 			country_exists = GER
+			
 		}
 		bypass = {
 			
@@ -1526,15 +1700,13 @@ focus_tree = {
 		icon = GFX_focus_chi_british_cooperation
 		search_filters = { FOCUS_FILTER_MANPOWER }
 		x = 35
-		y = 8
+		y = 10
 
 		cost = 10
 		
 		mutually_exclusive = { focus = GER_side_with_austria_hungry }
 		
-		prerequisite = { focus = GER_sieze_native_assests }
-		prerequisite = { focus = GER_subsidis_colonial_manufacturing }
-		prerequisite = { focus = GER_develop_asian_colonies }
+		prerequisite = { focus = GER_build_colonial_schools }
 		
 		available = {
 			country_exists = GER
@@ -1544,7 +1716,10 @@ focus_tree = {
 		}
 
 		completion_reward = { 			
-			custom_effect_tooltip = not_ready
+			swap_ideas = {
+				remove_idea = bloated_naval_budget3
+				add_idea = bloated_naval_budget5
+			}
 		}				
 	}
 	focus = {
@@ -1586,7 +1761,10 @@ focus_tree = {
 		}
 
 		completion_reward = { 
-			custom_effect_tooltip = not_ready
+			add_popularity = {
+    			ideology = vanguard_communism
+    			popularity = -0.1
+			}
 		}				
 	}
 	focus = {
@@ -1629,7 +1807,8 @@ focus_tree = {
 		}
 
 		completion_reward = { 
-			custom_effect_tooltip = not_ready
+			add_country_leader_trait = nationalist_symbol
+			
 		}				
 	}
 	focus = {
@@ -1671,7 +1850,9 @@ focus_tree = {
 		}
 
 		completion_reward = { 
-			custom_effect_tooltip = not_ready
+			create_faction = MY_FACTION_NAME
+			FACTION_LEADER_TAG = { add_to_faction = TAG_TO_ADD }
+			FACTION_LEADER_TAG = { add_to_faction = TAG_TO_ADD }
 		}				
 	}
 	focus = {
@@ -1695,7 +1876,11 @@ focus_tree = {
 		}
 
 		completion_reward = { 
-			custom_effect_tooltip = not_ready
+			give_guarantee = GER
+			add_opinion_modifier = {
+    			target = GER
+   			 modifier = faction_traitor
+			}
 		}				
 	}
 	focus = {
@@ -1718,7 +1903,11 @@ focus_tree = {
 		}
 
 		completion_reward = { 
-			###idea
+			add_popularity = {
+    			ideology = vanguard_communism
+    			popularity = -0.1
+			}
+			add_political_power = -25
 		}				
 	}
 	focus = {
@@ -1742,7 +1931,10 @@ focus_tree = {
 		}
 
 		completion_reward = { 
-			custom_effect_tooltip = not_ready
+			add_opinion_modifier = {
+    			target = GER
+    		modifier = faction_traitor
+				}
 		}				
 	}
 	focus = {
@@ -1805,6 +1997,7 @@ focus_tree = {
 		
 		available = {
 			country_exists = GER
+			has_idea = { failed_kultur_kampf }
 		}
 		bypass = {
 			
@@ -1897,7 +2090,7 @@ focus_tree = {
 		}
 
 		completion_reward = { 
-			custom_effect_tooltip = not_ready
+			add_ideas = { largest_army }
 		}				
 	}
 	focus = {
@@ -1984,7 +2177,12 @@ focus_tree = {
 		}
 
 		completion_reward = { 
-				custom_effect_tooltip = not_ready
+				add_state_modifier = {
+    		modifier = {
+        		local_resources = 2.0
+   		 	}
+				add_compliance = 30 
+				}
 			}
 	}				
 	focus = {
@@ -2104,7 +2302,7 @@ focus_tree = {
 				add_tech_bonus = {
 				name =  air_doc_bonus
 				bonus = 1.0
-				uses = 1
+				uses = 2
 				category = air_doctrine
 			}
 		}				
@@ -2156,7 +2354,7 @@ focus_tree = {
 		}
 
 		completion_reward = { 
-			custom_effect_tooltip = not_ready
+			 add_resistance = 30 
 		}				
 	}
 	focus = {
