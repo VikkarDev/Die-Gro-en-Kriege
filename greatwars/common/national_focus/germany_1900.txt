@@ -730,6 +730,7 @@ focus_tree = {
 		
 		available = {
 			country_exists = GER
+			has_idea = colony_cost3
 		}
 		bypass = {
 			
@@ -754,6 +755,7 @@ focus_tree = {
 		
 		available = {
 			country_exists = GER
+			has_idea = colony_cost1
 		}
 		bypass = {
 			
@@ -779,6 +781,7 @@ focus_tree = {
 		
 		available = {
 			country_exists = GER
+			has_idea = colony_cost4
 		}
 		bypass = {
 			
@@ -811,8 +814,8 @@ focus_tree = {
 
 		completion_reward = { 
 			swap_ideas = {
-				remove_idea = colony_cost3
-				add_idea = colony_cost4
+				remove_idea = colony_cost2
+				add_idea = colony_cost3
 			}
 		}				
 	}
@@ -828,6 +831,7 @@ focus_tree = {
 		
 		available = {
 			country_exists = GER
+			has_idea = colony_cost5
 		}
 		bypass = {
 			
@@ -921,7 +925,19 @@ focus_tree = {
 			random_owned_controlled_state = {
 				add_resource = {
 					type = oil
-					amount = 12
+					amount = 4
+				}
+			}
+			random_owned_controlled_state = {
+				add_resource = {
+					type = oil
+					amount = 4
+				}
+			}
+			random_owned_controlled_state = {
+				add_resource = {
+					type = oil
+					amount = 4
 				}
 			}	
 		}
@@ -974,11 +990,11 @@ focus_tree = {
 
 		completion_reward = {
 			add_ideas = { welfare_programs }
-		}
-		add_popularity = {
-    			ideology = vanguard_communism
-    			popularity = -0.1
-			}				
+			add_popularity = {
+    			ideology = traditional_conservatism
+    			popularity = 0.05
+			}	
+		}			
 	}
 	focus = {
 		id = GER_immigrant_workers
@@ -1024,7 +1040,11 @@ focus_tree = {
 		completion_reward = {
 			add_popularity = {
     			ideology = vanguard_communism
-    			popularity = -0.1
+    			popularity = -0.10
+			}
+			add_popularity = {
+    			ideology = marxism
+    			popularity = -0.10
 			}
 			add_ideas = { welfare_programs }
 		}				
@@ -1249,9 +1269,12 @@ focus_tree = {
 		
 		available = {
 			country_exists = GER
+			has_idea = { bloated_naval_budget1 }
+			NOT = {
+				has_war_with = ENG }
 		}
 		bypass = {
-			
+			has_war_with = ENG
 		}
 
 		completion_reward = { 
@@ -1478,6 +1501,7 @@ focus_tree = {
 
 		available = {
 			country_exists = GER
+			has_idea = { bloated_naval_budget2 }
 		}
 		bypass = {
 			
@@ -1505,6 +1529,7 @@ focus_tree = {
 		
 		available = {
 			country_exists = GER
+			is_faction_leader = yes
 		}
 		bypass = {
 			
@@ -1570,6 +1595,7 @@ focus_tree = {
 
 		available = {
 			country_exists = GER
+			has_idea = { failed_kultur_kampf }
 		}
 		bypass = {
 			
@@ -1580,6 +1606,7 @@ focus_tree = {
 				idea = second_kultur_kampf
 				days = 80
 			}
+			custom_effect_tooltip = trade_worse_temp_debuffs_to_fix_kultur_sooner
 		}				
 	}
 	focus = {
@@ -1594,7 +1621,8 @@ focus_tree = {
 		
 		available = {
 			country_exists = GER
-			
+			NOT = { has_idea = { end_religious_persicution}
+			}
 		}
 		bypass = {
 			
@@ -1640,16 +1668,18 @@ focus_tree = {
 		
 		available = {
 			country_exists = GER
+			has_idea = { failed_kultur_kampf }
 		}
 		bypass = {
 			
 		}
-
+		
 		completion_reward = { 
 			add_timed_idea = {
-				idea = catholic_missions
+				idea = end_religious_persicution
 				days = 180
 			}
+			custom_effect_tooltip = trade_less_temp_debuffs_for_waiting_longer_to_fix_kultur
 		}
 	}				
 	focus = {
@@ -1664,7 +1694,8 @@ focus_tree = {
 	
 		available = {
 			country_exists = GER
-			
+			NOT = { has_idea = { second_kultur_kampf }
+			}
 		}
 		bypass = {
 			
@@ -1710,6 +1741,8 @@ focus_tree = {
 		
 		available = {
 			country_exists = GER
+			has_completed_focus = GER_german_imperial_admirality_staff
+
 		}
 		bypass = {
 			
@@ -1755,17 +1788,15 @@ focus_tree = {
 		
 		available = {
 			country_exists = GER
+			num_of_civilian_factories > 1000
 		}
 		bypass = {
 			
 		}
 
 		completion_reward = { 
-			add_popularity = {
-    			ideology = vanguard_communism
-    			popularity = -0.1
-			}
-		}				
+			custom_effect_tooltip = cant_be_done_yet
+			}				
 	}
 	focus = {
 		id = GER_the_balkan_wars
@@ -1785,7 +1816,7 @@ focus_tree = {
 		}
 
 		completion_reward = { 
-			custom_effect_tooltip = not_ready
+			custom_effect_tooltip = cant_be_done_yet
 		}				
 	}
 	focus = {
@@ -1799,7 +1830,11 @@ focus_tree = {
 		
 		prerequisite = { focus = GER_kaiser_wilhelm_II }
 		available = {
-			country_exists = GER
+		country_exists = GER
+			has_country_leader = {
+				name = "Wilhelm II"
+				ruling_only = yes
+			}
 		}
 
 		bypass = {
@@ -1844,15 +1879,16 @@ focus_tree = {
 		
 		available = {
 			country_exists = GER
+			
 		}
 		bypass = {
 			
 		}
 
 		completion_reward = { 
-			create_faction = MY_FACTION_NAME
-			FACTION_LEADER_TAG = { add_to_faction = TAG_TO_ADD }
-			FACTION_LEADER_TAG = { add_to_faction = TAG_TO_ADD }
+			create_faction = triple_alliance
+			GER = { add_to_faction = ITA }
+			GER = { add_to_faction = AUS }
 		}				
 	}
 	focus = {
@@ -1876,10 +1912,14 @@ focus_tree = {
 		}
 
 		completion_reward = { 
-			give_guarantee = GER
+			give_guarantee = ITA
 			add_opinion_modifier = {
-    			target = GER
-   			 modifier = faction_traitor
+				target = ITA
+				modifier = offered_support
+			}
+			add_opinion_modifier = {
+				target = AUS
+				modifier = western_betrayal
 			}
 		}				
 	}
@@ -1905,7 +1945,7 @@ focus_tree = {
 		completion_reward = { 
 			add_popularity = {
     			ideology = vanguard_communism
-    			popularity = -0.1
+    			popularity = -0.10
 			}
 			add_political_power = -25
 		}				
@@ -1932,9 +1972,21 @@ focus_tree = {
 
 		completion_reward = { 
 			add_opinion_modifier = {
-    			target = GER
-    		modifier = faction_traitor
-				}
+				target = AUS
+				modifier = offered_support
+			}
+			add_opinion_modifier = {
+    			target = RUS
+				modifier = protest_action
+			}
+			add_opinion_modifier = {
+    			target = ENG
+				modifier = protest_action
+			}
+			add_opinion_modifier = {
+    			target = FRA
+				modifier = protest_action
+			}
 		}				
 	}
 	focus = {
@@ -2004,7 +2056,7 @@ focus_tree = {
 		}
 
 		completion_reward = { 
-			custom_effect_tooltip = not_ready
+			custom_effect_tooltip = event_needed
 		}				
 	}
 	focus = {
@@ -2025,7 +2077,7 @@ focus_tree = {
 		}
 
 		completion_reward = { 
-			custom_effect_tooltip = not_ready
+			add_ideas = { proggressive_reforms }
 		}				
 	}
 	focus = {
@@ -2090,7 +2142,7 @@ focus_tree = {
 		}
 
 		completion_reward = { 
-			add_ideas = { largest_army }
+			add_ideas = { worlds_largest_army }
 		}				
 	}
 	focus = {
@@ -2111,7 +2163,7 @@ focus_tree = {
 		}
 
 		completion_reward = { 
-			add_to_tech_sharing_group = us_research
+			add_to_tech_sharing_group = faction_research
 		}				
 	}
 	focus = {
@@ -2132,7 +2184,66 @@ focus_tree = {
 		}
 
 		completion_reward = { 
-			custom_effect_tooltip = not_ready
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = industrial_complex
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = industrial_complex
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
 		}				
 	}
 	focus = {
@@ -2177,13 +2288,8 @@ focus_tree = {
 		}
 
 		completion_reward = { 
-				add_state_modifier = {
-    		modifier = {
-        		local_resources = 2.0
-   		 	}
-				add_compliance = 30 
-				}
-			}
+		
+		}
 	}				
 	focus = {
 		id = GER_political_visit_to_ottomans
@@ -2203,7 +2309,10 @@ focus_tree = {
 		}
 
 		completion_reward = { 
-			custom_effect_tooltip = not_ready
+			add_opinion_modifier = {
+				target = TUR
+				modifier = offered_support
+			}
 		}				
 	}
 	focus = {
@@ -2224,14 +2333,14 @@ focus_tree = {
 		}
 
 		completion_reward = { 
-				random_owned_controlled_state = {
+			random_owned_controlled_state = {
 				add_building_construction = {
 					type = air_base
 					level = 2
 					instant_build = yes
+				}
 			}
-		}
-	}		
+		}		
 	}
 	focus = {
 		id = GER_balance_the_naval_budgets
@@ -2248,6 +2357,7 @@ focus_tree = {
 		
 		available = {
 			country_exists = GER
+			has_idea = { bloated_naval_budget1 }
 		}
 		bypass = {
 			
@@ -2278,7 +2388,7 @@ focus_tree = {
 		}
 
 		completion_reward = { 
-			 custom_effect_tooltip = not_ready
+			 custom_effect_tooltip = needs_event
 		}				
 	}
 	focus = {
@@ -2354,7 +2464,7 @@ focus_tree = {
 		}
 
 		completion_reward = { 
-			 add_resistance = 30 
+			
 		}				
 	}
 	focus = {
