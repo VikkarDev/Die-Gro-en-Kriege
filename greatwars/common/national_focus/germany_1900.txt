@@ -991,7 +991,7 @@ focus_tree = {
 		completion_reward = {
 			add_ideas = { welfare_programs }
 			add_popularity = {
-    			ideology = traditional_conservatism
+    			ideology = centrism
     			popularity = 0.05
 			}	
 		}			
@@ -1040,10 +1040,6 @@ focus_tree = {
 		completion_reward = {
 			add_popularity = {
     			ideology = vanguard_communism
-    			popularity = -0.10
-			}
-			add_popularity = {
-    			ideology = marxism
     			popularity = -0.10
 			}
 			add_ideas = { welfare_programs }
@@ -1255,6 +1251,8 @@ focus_tree = {
 		completion_reward = { 
 			remove_ideas = naval_arms_race
 			add_stability = 0.025
+
+			custom_effect_tooltip = HISTORICAL_BREAK
 		}				
 	}
 	focus = {
@@ -1886,9 +1884,10 @@ focus_tree = {
 		}
 
 		completion_reward = { 
-			create_faction = triple_alliance
+			create_faction = "Triple Alliance"
 			GER = { add_to_faction = ITA }
-			GER = { add_to_faction = AUS }
+			GER = { add_to_faction = HUN }
+			GER = { add_to_faction = GER }
 		}				
 	}
 	focus = {
@@ -1972,11 +1971,11 @@ focus_tree = {
 
 		completion_reward = { 
 			add_opinion_modifier = {
-				target = AUS
+				target = HUN
 				modifier = offered_support
 			}
 			add_opinion_modifier = {
-    			target = RUS
+    			target = SOV
 				modifier = protest_action
 			}
 			add_opinion_modifier = {

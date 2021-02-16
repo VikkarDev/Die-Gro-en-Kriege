@@ -25,5 +25,5 @@ dgk_open_settings:0 "Open Settings"
 dgk_open_settings_desc:0 "Open settings to change some options!"
 
 # COLONIAL INFLUENCE
-dgk_colonial_decisions_category:0 "Colonial Decisions"
+dgk_colonial_decisions_category:0 "Colonial Policies"
 dgk_colonial_influence:0 "Colonial Influence in [From.GetNameDef]"

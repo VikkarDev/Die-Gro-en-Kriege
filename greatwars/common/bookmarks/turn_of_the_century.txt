@@ -2,7 +2,7 @@ bookmarks = {
 	bookmark = {
 		name = "TURN_OF_THE_CENTURY_NAME"
 		desc = "TURN_OF_THE_CENTURY_DESC"
-		date = 1914.1.1.12
+		date = 1914.7.28.12
 		picture = "GFX_dgk_1914_bookmark"
 		default_country = "GER"
 	
