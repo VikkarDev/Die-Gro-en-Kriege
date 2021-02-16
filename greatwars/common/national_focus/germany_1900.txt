@@ -694,7 +694,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_deutsches_kolonialreich
-		icon = GFX_focus_fra_loyalty_stalin
+		icon = GFX_goal_generic_territory_or_war
 		search_filters = { FOCUS_FILTER_MANPOWER }
 		x = 35
 		y = 6
@@ -770,7 +770,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_build_colonial_schools
-		icon = GFX_GER_focus_colonial_industry
+		icon = GFX_goal_generic_construct_civilian
 		search_filters = { FOCUS_FILTER_MANPOWER }
 		x = 35
 		y = 9
@@ -998,7 +998,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_immigrant_workers
-		icon = GFX_focus_spr_the_anti_fascist_workers_revolution
+		icon = GFX_goal_generic_construction2
 		search_filters = { FOCUS_FILTER_MANPOWER }
 		x = 28
 		y = 2
@@ -1074,7 +1074,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_prioritize_navy
-		icon = GFX_goal_generic_navy_battleship
+		icon = GFX_goal_generic_construct_naval_dockyard
 		search_filters = { FOCUS_FILTER_MANPOWER }
 		x = 36
 		y = 3
@@ -1345,7 +1345,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_german_imperial_admirality_staff
-		icon = GFX_focus_fra_loyalty_stalin
+		icon = GFX_goal_generic_navy_doctrines_tactics
 		search_filters = { FOCUS_FILTER_MANPOWER }
 		x = 18
 		y = 6
@@ -1421,7 +1421,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_strong_defensive_fleet
-		icon = GFX_focus_fra_loyalty_stalin
+		icon = GFX_focus_generic_coastal_fort
 		search_filters = { FOCUS_FILTER_MANPOWER }
 		x = 22
 		y = 4
@@ -1634,7 +1634,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_kaiser_wilhelm_society
-		icon = GFX_focus_fra_loyalty_stalin
+		icon = GFX_focus_research
 		search_filters = { FOCUS_FILTER_MANPOWER }
 		x = 53
 		y = 3
@@ -1707,7 +1707,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_our_place_in_the_sun
-		icon = GFX_focus_fra_loyalty_stalin
+		icon = GFX_focus_generic_monarchy_2
 		search_filters = { FOCUS_FILTER_MANPOWER }
 		x = 59
 		y = 5
@@ -1728,7 +1728,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_offload_naval_cost_to_colonies
-		icon = GFX_focus_chi_british_cooperation
+		icon = GFX_goal_generic_navy_cruiser
 		search_filters = { FOCUS_FILTER_MANPOWER }
 		x = 35
 		y = 10
@@ -1757,7 +1757,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_undermine_the_kaiser
-		icon = GFX_focus_generic_industry_1
+		icon = GFX_focus_rom_handle_king
 		search_filters = { FOCUS_FILTER_MANPOWER }
 		x = 76
 		y = 1
@@ -1778,7 +1778,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_address_boxer_rebbelion
-		icon = GFX_focus_fra_loyalty_stalin
+		icon = GFX_goal_generic_propaganda
 		search_filters = { FOCUS_FILTER_MANPOWER }
 		x = 68
 		y = 1
@@ -1800,7 +1800,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_the_balkan_wars
-		icon = GFX_focus_fra_loyalty_stalin
+		icon = GFX_goal_generic_secret_weapon
 		search_filters = { FOCUS_FILTER_MANPOWER }
 		x = 69
 		y = 2
@@ -1848,7 +1848,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_prussian_militarism
-		icon = GFX_focus_generic_little_entente
+		icon = GFX_focus_ger_oppose_hitler
 		search_filters = { FOCUS_FILTER_MANPOWER }
 		x = 54
 		y = 4
@@ -1869,7 +1869,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_state_of_the_triple_alliance
-		icon = GFX_focus_fra_loyalty_stalin
+		icon = GFX_goal_generic_national_unity
 		search_filters = { FOCUS_FILTER_MANPOWER }
 		x = 46
 		y = 2
@@ -1893,7 +1893,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_back_italian_land_claims
-		icon = GFX_focus_fra_loyalty_stalin
+		icon = GFX_goal_generic_improve_relations
 		search_filters = { FOCUS_FILTER_MANPOWER }
 		x = 44
 		y = 3
@@ -1952,7 +1952,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_support_the_annexation_of_bosnia
-		icon = GFX_goal_focus_proclaim_the_restauration_of_austria_hungary
+		icon = GFX_goal_generic_dangerous_deal
 		search_filters = { FOCUS_FILTER_MANPOWER }
 		x = 48
 		y = 3
@@ -1991,7 +1991,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_hold_elections
-		icon = GFX_focus_chi_british_cooperation
+		icon = GFX_goal_anschluss
 		search_filters = { FOCUS_FILTER_MANPOWER }
 		x = 75
 		y = 2
@@ -2061,7 +2061,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_proggressive_reforms
-		icon = GFX_focus_generic_industry_1
+		icon = GFX_focus_hol_the_foundations_of_defense
 		search_filters = { FOCUS_FILTER_MANPOWER }
 		x = 74
 		y = 1
@@ -2082,7 +2082,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_sektion_IIIb
-		icon = GFX_focus_fra_loyalty_stalin
+		icon = GFX_goal_generic_forceful_treaty
 		search_filters = { FOCUS_FILTER_MANPOWER }
 		x = 53
 		y = 5
@@ -2105,7 +2105,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_morroco_crisis
-		icon = GFX_focus_fra_loyalty_stalin
+		icon = GFX_goal_generic_position_armies
 		search_filters = { FOCUS_FILTER_MANPOWER }
 		x = 67
 		y = 2
@@ -2126,7 +2126,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_worlds_largest_army
-		icon = GFX_focus_generic_military_mission
+		icon = GFX_focus_generic_little_entente
 		search_filters = { FOCUS_FILTER_MANPOWER }
 		x = 55
 		y = 3
@@ -2168,7 +2168,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_worlds_third_best_economy
-		icon = GFX_focus_generic_industry_3
+		icon = GFX_focus_spa_the_spanish_miracle
 		search_filters = { FOCUS_FILTER_MANPOWER }
 		x = 35
 		y = 4
@@ -2269,7 +2269,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_concessions_to_native_people
-		icon = GFX_focus_cze_german_puppet
+		icon = GFX_focus_generic_concessions
 		search_filters = { FOCUS_FILTER_MANPOWER }
 		x = 63
 		y = 2
@@ -2317,7 +2317,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_establish_new_airports
-		icon = GFX_goal_generic_air_production
+		icon = GFX_goal_generic_build_airforce
 		search_filters = { FOCUS_FILTER_MANPOWER }
 		x = 4
 		y = 1
@@ -2372,7 +2372,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_native_uprising_in_colonies
-		icon = GFX_focus_fra_loyalty_stalin
+		icon = GFX_goal_generic_attack_allies
 		search_filters = { FOCUS_FILTER_MANPOWER }
 		x = 64
 		y = 1
@@ -2419,7 +2419,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_feldflieger_abteilungen
-		icon = GFX_goal_generic_air_fighter
+		icon = GFX_goal_generic_air_fighter2
 		search_filters = { FOCUS_FILTER_MANPOWER }
 		x = 2
 		y = 1
@@ -2445,7 +2445,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_destroy_the_uprising
-		icon = GFX_focus_SAF_colonialist_crusade
+		icon = GFX_goal_generic_political_pressure
 		search_filters = { FOCUS_FILTER_MANPOWER }
 		x = 65
 		y = 2
@@ -2469,7 +2469,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_german_aces
-		icon = GFX_focus_fra_loyalty_stalin
+		icon = GFX_focus_generic_military_mission
 		search_filters = { FOCUS_FILTER_MANPOWER }
 		x = 2
 		y = 3
