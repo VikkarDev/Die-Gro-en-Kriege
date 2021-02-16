@@ -1,11 +1,14 @@
 state={
-	id=868
-	name="STATE_868"
+	id=872
+	name="STATE_872"
 	state_category = town
 
 	history={
 		owner = SIA
-		add_core_of = LAO
+		add_core_of = CAM
+		victory_points = {
+			1464 1 
+		}
 		buildings = {
 			infrastructure = 2
 
@@ -14,8 +17,8 @@ state={
 	}
 
 	provinces={
-		10330 10356 10456 
+		1353 4251 4359 10134 10177 10467 12460 
 	}
-	manpower=508375
+	manpower=953054
 	buildings_max_level_factor=1.000
 }

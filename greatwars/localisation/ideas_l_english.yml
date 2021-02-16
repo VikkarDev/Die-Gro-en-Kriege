@@ -75,7 +75,11 @@ our_place_in_the_sun:0 "Our Place In The Sun"
 our_place_in_the_sun_desc:0 ""
 BASF:0 "BASF"
 BASF_desc:0 ""
+
 # GENERIC
+colonial_influence:0 "Colonial Influence"
+colonial_influence_desc:0 "Closer ties to colonies are important in order to keep power world wide. Colonial influence will allow closer ties to the overlords country."
+
 undisturbed_isolation:0 "Undisturbed Isolation"
 undisturbed_isolation_desc:0 "Still recovering from the Great Depression and the Dust Bowl famine, the nation is slowly rebuilding its infrastructure. America's industries are in most cases working at half capacity, and will keep doing so unless major events rouse the nation from torpor."
 isolation:0 "Isolation"

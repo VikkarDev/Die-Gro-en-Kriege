@@ -26,3 +26,60 @@ dgk_game_options_category = {
 		}
 	}
 }
+
+dgk_colonial_decisions_category = {
+	dgk_colonial_influence = {
+		icon = generic_political_actions
+
+		days_remove = 120
+
+		available = {
+			FROM = {
+				is_puppet_of = ROOT
+			}
+			FROM = {
+				OR = {
+					has_government = traditional_conservatism
+					has_government = centrism
+					has_government = radical_democracy
+					has_government = social_egalitarianism
+					has_government = democratic_socialism
+				}
+				OR = {
+					political_power_daily > 0.5
+					has_political_power > 60
+				}
+			}
+		}
+
+		visible = {
+			OR = {
+				has_government = traditional_conservatism
+				has_government = centrism
+				has_government = radical_democracy
+				has_government = social_egalitarianism
+				has_government = democratic_socialism
+			}
+		}
+
+		target_array = subjects
+
+		target_trigger = {
+			FROM = {
+				is_puppet_of = ROOT
+			}
+		}
+
+		complete_effect = {
+			FROM = { add_timed_idea = { idea = colonial_influence days = 120 } }
+		}
+
+		modifier = {
+			political_power_cost = 0.5
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+}

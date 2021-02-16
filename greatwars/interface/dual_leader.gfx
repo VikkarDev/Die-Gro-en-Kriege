@@ -53,4 +53,10 @@ spriteTypes = {
 		name = "GFX_FRA_Pierre_Rousseau"
 		texturefile = "gfx/leaders/FRA/Pierre_Waldeck-Rousseau.dds"
 	}
+
+	# UNITED KINGDOM
+	spriteType = {
+		name = "GFX_ENG_Robert_Cecil"
+		texturefile = "gfx/leaders/ENG/Robert_Gascoyne-Cecil.dds"
+	}
 }

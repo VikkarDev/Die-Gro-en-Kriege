@@ -1,21 +1,21 @@
 state={
-	id=868
-	name="STATE_868"
-	state_category = town
+	id=873
+	name="STATE_873"
+	state_category = small_town
 
 	history={
-		owner = SIA
 		add_core_of = LAO
+		owner = SIA
+
 		buildings = {
 			infrastructure = 2
 
 		}
-
 	}
 
 	provinces={
-		10330 10356 10456 
+		1592 
 	}
-	manpower=508375
+	manpower=119848
 	buildings_max_level_factor=1.000
 }
