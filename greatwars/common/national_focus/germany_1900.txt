@@ -1633,7 +1633,7 @@ focus_tree = {
 		}				
 	}
 	focus = {
-		id = GER_Kaiser_Wilhelm_Society
+		id = GER_kaiser_wilhelm_society
 		icon = GFX_focus_fra_loyalty_stalin
 		search_filters = { FOCUS_FILTER_MANPOWER }
 		x = 53
