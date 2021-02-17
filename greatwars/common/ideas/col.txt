@@ -1,0 +1,32 @@
+ideas = {
+	country = {
+		columbian_civil_war = {
+		picture = col_colombian_civil_war
+	  
+		allowed = {
+			tag = COL
+		}
+	  
+		modifier = {
+			stability_factor = -0.35
+			war_support_factor = 0.10
+			political_power_gain = -0.5
+		}
+	  }
+
+	  outside_support = {
+		picture = lab_outside_support
+	  
+		allowed = {
+			tag = LAB
+		}
+	  
+		modifier = {
+			mobilization_speed = 0.10
+			war_support_factor = 0.05
+			political_power_gain = -1
+			army_attack_factor = 0.08
+		}
+	  }
+	}
+}

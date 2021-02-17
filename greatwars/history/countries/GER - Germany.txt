@@ -43,6 +43,8 @@ capital = 819
 		german_colonies
 		naval_arms_race
 		bloated_naval_budget1
+		failed_kultur_kampf
+		colony_cost1
 
 		# government
 		limited_conscription

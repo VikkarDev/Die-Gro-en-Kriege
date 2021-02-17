@@ -5,8 +5,8 @@ state={
 
 	history = {
 		owner = LAB
-		add_core_of = LAB
 		add_core_of = COL
+		add_core_of = LAB
 
 		buildings = {
 			infrastructure = 5

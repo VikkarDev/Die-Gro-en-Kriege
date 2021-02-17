@@ -2,7 +2,7 @@ capital = 608
 
 1900.1.1 = {
 
-	oob = "CHI_1900"
+	oob = "COL_1900"
 
 	set_convoys = 165
 
@@ -11,11 +11,16 @@ capital = 608
 	set_research_slots = 2
 
 	add_ideas = {
-		
+		columbian_civil_war
+
+		# GOVERNMENT STUFF
+		volunteer_only
+		limited_exports
+		partial_economic_mobilisation
 	}
 
 	set_politics = {
-		ruling_party = autocracy
+		ruling_party = traditional_conservatism
 		#last_election = "1895.6.25"
 		#election_frequency = 85
 		#elections_allowed = yes
@@ -24,19 +29,19 @@ capital = 608
 	set_popularities = {
 		vanguard_communism = 0
 		social_egalitarianism = 0
-		centrism = 0
-		traditional_conservatism = 0
+		centrism = 25
+		traditional_conservatism = 65
 		radical_democracy = 0
 		chauvinist_populism = 0
-		autocracy = 100
-		democratic_socialism = 0
+		autocracy = 0
+		democratic_socialism = 10
 	}
 
 	create_country_leader = {
-		name = "Emperor Zaitian"
+		name = "Manuel Antonio Sanclemente"
 		desc = ""
-		picture = "Guangxu_Emperor.dds"
-		ideology = despotism
+		picture = "Manuel_Antonio_Sanclemente.dds"
+		ideology = conserv
 		traits = {
 			
 		}

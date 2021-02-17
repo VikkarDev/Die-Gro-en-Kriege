@@ -2,20 +2,6 @@
 
 #### Mod
 
-### GERMANY
-
-
-
-
-
-
-
-
-
-
-
-
-
 #### GERMAN ALTHISTORY
 GER_birth_of_republic:0 "Birth of the Republic"
 GER_birth_of_republic_desc:0 "The weaknesses of the imperial system are evident. In order to face the future, we must model our society off of those who have sought freedom, justice and equality."
@@ -28,8 +14,6 @@ GER_undermine_the_kaiser_desc:0 "Wilhelm's hold on Germany is tenuous at best. I
 
 GER_hold_elections:0 "Hold Free and Fair Elections"
 GER_hold_elections_desc:0 "No longer will the German Volk be ruled by a lineage of arrogant fools, selected only by birth and not by merit. From now, the people shall decide who leads them, and from now, the people shall be free."
-
-
 
 
 #### GERMAN ARMY
@@ -167,11 +151,18 @@ GER_our_place_in_the_sun_desc:0 ""
 GER_address_boxer_rebbelion:0 "The Boxer Rebellion"
 GER_address_boxer_rebbelion_desc:0 ""
 
+GER_morroco_crisis:0 "Morocco Crisis"
+GER_morroco_crisis_desc:0 ""
+
+GER_the_balkan_wars:0 "The Balkan Wars"
+GER_the_balkan_wars_desc:0 ""
+
 GER_the_new_course:0 "The New Course"
 GER_the_new_course_desc:0 ""
 
 GER_kaiser_wilhelm_society:0 "Kaiser Wilhelm Society"
 GER_kaiser_wlhelm_sciety_desc:0 ""
+
 ####GERMANY COLONY
 GER_deutsches_kolonialreich:0 "Deutsches Kolonialreich"
 GER_deutsches_kolonialreich_desc:0 ""
@@ -179,7 +170,7 @@ GER_deutsches_kolonialreich_desc:0 ""
 GER_concessions_to_native_people:0 "Concessions to the Natives"
 GER_concessions_to_native_people_desc:0 ""
 
-GER_sieze_native_assests:0 "Sieze Native Assets"
+GER_sieze_native_assests:0 "Seize Native Assets"
 GER_sieze_native_assests_desc:0 ""
 
 GER_subsidis_colonial_manufacturing:0 "Subsidis Colonial Manufacturing"
@@ -190,6 +181,9 @@ GER_build_colonial_schools_desc:0 ""
 
 GER_develop_asian_colonies:0 "Develop the Pacific Colonines"
 GER_develop_asian_colonies_desc:0 ""
+
+GER_offload_naval_cost_to_colonies:0 "Offload Naval Cost to Colonies"
+GER_offload_naval_cost_to_colonies_desc:0 ""
 
 GER_a_profitable_empire:0 "A Profitable Empire"
 GGER_a_profitable_empire_desc:0 ""
@@ -241,8 +235,14 @@ GER_rival_royal_navy_desc:0 ""
 GER_further_cut_naval_funding:0 "Further Cut Naval Funding"
 GER_further_cut_naval_funding_desc:0 "" 
 
+GER_allow_a_small_shipyard_expansion:0 "Allow Small Shipyard Expansion"
+GER_allow_a_small_shipyard_expansion_desc:0 ""
+
 GER_pass_the_naval_bills:0 "Pass The Naval Bills"
 GER_pass_the_naval_bills_desc:0 ""
+
+GER_balance_the_naval_budgets:0 "Balance the Naval Budget"
+GER_balance_the_naval_budgets_desc:0 ""
 
 #### GERMAN FACTION
 GER_political_visit_to_ottomans:0 "Diplomatic Missions to the Ottomans"

@@ -9,7 +9,7 @@ capital = 869
 	set_research_slots = 2
 
 	add_ideas = {
-		
+		outside_support
 	}
 	
 	set_politics = {
@@ -44,7 +44,7 @@ capital = 869
 		name = "Rafael Uribe Uribe"
 		desc = ""
 		picture = "Rafael_Uribe_Uribe.dds"
-		ideology = despotism
+		ideology = liberal
 		traits = {
 			
 		}

@@ -309,10 +309,10 @@ ideas = {
 		modifier = {
 			navy_intel_to_others = 10
 			ai_focus_naval_factor = 0.25
-			experience_gain_navy = 0.002
+			experience_gain_navy = 0.02
 			navy_capital_ship_attack_factor = 0.1
-			naval_research_speed_factor = 0.2
-			add_opinion_modifier = { target = ENG modifier = medium_decrease }
+			#naval_research_speed_factor = 0.2
+			#add_opinion_modifier = { target = ENG modifier = medium_decrease }
 		}
 	  }
 	}
