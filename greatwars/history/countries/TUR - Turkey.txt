@@ -7,6 +7,8 @@ capital = 49
 
 	set_convoys = 159
 
+	set_cosmetic_tag = OTO
+
 	if = {
 		limit = {
 			OR = {

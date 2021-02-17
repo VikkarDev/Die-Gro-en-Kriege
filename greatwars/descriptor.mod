@@ -1,5 +1,5 @@
 name="Die Großen Kriege"
-version="1.10.3"
+version="0.1"
 tags={
 	"Historical"
 	"Technologies"

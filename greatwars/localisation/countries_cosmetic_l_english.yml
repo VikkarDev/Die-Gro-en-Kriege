@@ -60,6 +60,10 @@ GER_KAISER_traditional_conservatism_DEF:0 "The Deutsches Kaiserreich"
 GNG_GER_centrism:0 "Kaiser-Wilhelmsland"
 GNG_GER_centrism_DEF:0 "Kaiser-Wilhelmsland"
 
+OTO:0 "Ottoman Empire"
+OTO_DEF:0 "The Ottoman Empire"
+OTO_ADJ:0 "Ottoman"
+
 BOS_OCU_centrism:0 "Condominium of Bosnia and Herzegovina"
 BOS_OCU_centrism_DEF:0 "The Condominium of Bosnia and Herzegovina"
 
