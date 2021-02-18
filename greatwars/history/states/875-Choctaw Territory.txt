@@ -1,0 +1,23 @@
+state={
+	id=875
+	name="STATE_875"
+	state_category = town
+
+	history={
+		owner = CHO
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+
+		}
+		add_core_of = CHO
+		add_core_of = USA
+		add_core_of = OKL
+	}
+
+	provinces={
+		6803 7945 
+	}
+	manpower=31241
+	buildings_max_level_factor=1.000
+}

@@ -2,7 +2,7 @@ capital = 361
 
 1900.1.1 = {
 
-	oob = "GER_1900"
+	oob = "USA_1900"
 
 	set_convoys = 200
 
@@ -20,6 +20,42 @@ capital = 361
 		set_autonomy = {
 			target = PHI
 			autonomy_state = autonomy_protectorate
+		}
+		set_autonomy = {
+			target = NMX
+			autonomy_state = autonomy_integrated_puppet
+		}
+		set_autonomy = {
+			target = ARZ
+			autonomy_state = autonomy_integrated_puppet
+		}
+		set_autonomy = {
+			target = HAW
+			autonomy_state = autonomy_integrated_puppet
+		}
+		set_autonomy = {
+			target = ALK
+			autonomy_state = autonomy_integrated_puppet
+		}
+		set_autonomy = {
+			target = OKL
+			autonomy_state = autonomy_integrated_puppet
+		}
+		set_autonomy = {
+			target = IRT
+			autonomy_state = autonomy_integrated_puppet
+		}
+		set_autonomy = {
+			target = CHO
+			autonomy_state = autonomy_integrated_puppet
+		}
+		set_autonomy = {
+			target = MUS
+			autonomy_state = autonomy_integrated_puppet
+		}
+		set_autonomy = {
+			target = CSW
+			autonomy_state = autonomy_integrated_puppet
 		}
 		else = {
 			puppet = PHI

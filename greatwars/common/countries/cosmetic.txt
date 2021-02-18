@@ -3,6 +3,11 @@ BOS_OCU = {
 	color_ui = rgb { 255 255 255 }
 }
 
+HAW_USA = {
+	color = rgb { 20 133 237 }
+	color_ui = rgb { 87 160 255 }
+}
+
 SAF_COLONY = {
 	color = rgb { 201 56 93 }
 	color_ui = rgb { 255 73 121 }

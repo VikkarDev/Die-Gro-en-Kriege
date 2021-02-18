@@ -131,6 +131,42 @@ LAB = {
 	color = rgb { 76 145 63 }
 	color_ui = rgb { 76 145 63 }
 }
+USA = {
+	color = rgb { 20 133 237 }
+	color_ui = rgb { 87 160 255 }
+}
+NMX = {
+	color = rgb { 20 133 237 }
+	color_ui = rgb { 87 160 255 }
+}
+ARZ = {
+	color = rgb { 20 133 237 }
+	color_ui = rgb { 87 160 255 }
+}
+ALK = {
+	color = rgb { 20 133 237 }
+	color_ui = rgb { 87 160 255 }
+}
+OKL = {
+	color = rgb { 20 133 237 }
+	color_ui = rgb { 87 160 255 }
+}
+IRT = {
+	color = rgb { 20 133 237 }
+	color_ui = rgb { 87 160 255 }
+}
+CHO = {
+	color = rgb { 20 133 237 }
+	color_ui = rgb { 87 160 255 }
+}
+MUS = {
+	color = rgb { 20 133 237 }
+	color_ui = rgb { 87 160 255 }
+}
+CSW = {
+	color = rgb { 20 133 237 }
+	color_ui = rgb { 87 160 255 }
+}
 
 LUX = {
 	color = rgb { 65 175 179 }
@@ -340,10 +376,6 @@ VEN = {
 YUN = {
 	color = rgb { 114 148 80 }
 	color_ui = rgb { 222 247 198 }
-}
-USA = {
-	color = rgb { 20 133 237 }
-	color_ui = rgb { 87 160 255 }
 }
 MON = {
 	#color = HSV { 0.1 0.15 0.4 }
