@@ -1,0 +1,34 @@
+focus_tree = {
+	id = sweden_1900_focus
+
+	country = {
+		factor = 0
+
+		modifier = {
+			add = 11
+			tag = SWE
+		}
+	}
+
+	default = no
+
+	continuous_focus_position = { x = 50 y = 1000 }
+    focus = {
+		id = SWE_TEST
+		icon = GFX_focus_generic_industry_1
+		x = 5
+		y = 0
+
+		cost = 10
+
+		available = {
+			country_exists = SWE
+		}
+
+		
+
+		completion_reward = { 
+			add_political_power = 125
+		}
+	}
+}
