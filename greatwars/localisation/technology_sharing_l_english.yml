@@ -7,7 +7,7 @@
  tizard_mission_desc:0 "Electronics research exchanged between England and the US."
  axis_research_name:0 "Axis Research"
  axis_research_desc:0 "Reduced research time for technologies researched by other Axis countries."
- central_research:0 "Central Powers Research"
+ central_research_name:0 "Central Powers Research"
  central_research_desc:0 "Reduced research time for technologies researched by other Central Power countries."
  japanese_research_name:0 "Japanese Research"
  japanese_research_desc:0 "Reduced research time for technologies researched by Japan."

@@ -2153,6 +2153,7 @@ focus_tree = {
 		prerequisite = { focus = GER_joint_military_training focus = GER_economic_aid }
 		
 		available = {
+			is_in_faction = yes
 			country_exists = GER
 		}
 		bypass = {
