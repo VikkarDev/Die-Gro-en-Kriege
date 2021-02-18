@@ -22,6 +22,13 @@ chauvinist_populism:0 "National Authoritarian"
 chauvinist_populism_noun:0 "National Authoritarianism"
 chauvinist_populism_desc:0 "National Authoritarian Regime"
 
+CAN_traditional_conservatism_party:0 "CPC"
+CAN_traditional_conservatism_party_long:0 "Conservative Party of Canada"
+CAN_social_egalitarianism_party:0 "LP(L)"
+CAN_social_egalitarianism_party_long:0 "Liberal Party (Left)"
+CAN_centrist_party:0 "LP(C)"
+CAN_centrist_party_long:0 "Liberal Party (Centre)"
+
 GER_vanguard_communism_party:0 "KPD"
 GER_vanguard_communism_party_long:0 "Kommunistische Partei Deutschlands"
 GER_social_egalitarianism_party:0 "SPD"
