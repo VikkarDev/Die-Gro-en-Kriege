@@ -61,8 +61,21 @@ capital = 361
 			target = CSW
 			autonomy_state = autonomy_integrated_puppet
 		}
-		else = {
-			puppet = PHI
+		if = {
+			limit = {
+				has_start_date < 1900.1.2
+			}
+		
+
+			declare_war_on = {
+				target = PHI
+				type = puppet_wargoal_focus
+			}	
+
+			declare_war_on = {
+				traget = SUL
+				type = annex_everything
+			}
 		}
 	}
 
