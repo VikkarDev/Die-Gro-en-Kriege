@@ -22,6 +22,10 @@ capital = 361
 			autonomy_state = autonomy_protectorate
 		}
 		set_autonomy = {
+			target = CUB
+			autonomy_state = autonomy_integrated_puppet
+		}
+		set_autonomy = {
 			target = NMX
 			autonomy_state = autonomy_integrated_puppet
 		}
