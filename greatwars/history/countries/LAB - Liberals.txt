@@ -1,6 +1,6 @@
 capital = 869
 
-900.1.1 = {
+1900.1.1 = {
 
 	oob = "LIB_1900"
 
@@ -9,7 +9,8 @@ capital = 869
 	set_research_slots = 2
 
 	add_ideas = {
-		outside_support
+		support_from_ecuadorian_liberals
+		support_from_venezuelan_liberals
 	}
 	
 	set_politics = {

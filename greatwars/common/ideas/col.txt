@@ -14,8 +14,8 @@ ideas = {
 		}
 	  }
 
-	  outside_support = {
-		picture = lab_outside_support
+	  support_from_ecuadorian_liberals = {
+		picture = lab_support_from_ecuadorian_liberals
 	  
 		allowed = {
 			tag = LAB
@@ -28,5 +28,23 @@ ideas = {
 			army_attack_factor = 0.08
 		}
 	  }
+
+	  support_from_venezuelan_liberals = {
+	  	picture = LAB_support_from_venezuelan_liberals
+		
+		allowed = {
+			tag = LAB
+		}
+
+		modifier = {
+			mobilization_speed = 0.10
+			war_support_factor = 0.05
+			political_power_gain = -1
+			army_attack_factor = 0.05
+		}
+	  }
+
+	
 	}
+
 }
