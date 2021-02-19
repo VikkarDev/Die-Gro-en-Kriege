@@ -11,3 +11,25 @@ dgk_game_options_category = {
 dgk_colonial_decisions_category = {
 	icon = generic_political_actions
 }
+
+dgk_usa_campaign_decisions_category = {
+	icon = generic_political_actions
+
+	scripted_gui = usa_congress_decision_ui
+
+	allowed = {
+		original_tag = USA
+	}
+
+	priority = {
+		base = 100
+	}
+
+	visible_when_empty = yes
+
+	visible = {
+		NOT = {
+			has_country_flag = USA_1900_election_over
+		}
+	}
+}

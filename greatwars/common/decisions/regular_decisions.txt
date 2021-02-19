@@ -83,3 +83,60 @@ dgk_colonial_decisions_category = {
 		}
 	}
 }
+
+dgk_usa_campaign_decisions_category = {
+	USA_campaign_runs = {
+		priority = 1
+
+		fire_only_once = yes
+
+		icon = generic_political_actions
+
+		available = {
+			hidden_trigger = { always = no }
+		}
+
+		activation = {
+			tag = USA
+		}
+
+		visible = {
+			tag = USA
+		}
+
+		cancel_if_not_visible = yes
+
+		days_mission_timeout = 296
+		timeout_effect = {
+			USA_campaign_timeout_effect = yes
+		}
+	}
+	USA_open_campaign_rally = {
+		icon = generic_construction
+
+		available = {
+			
+		}
+
+		fire_only_once = no
+
+		cost = 0
+		days_remove = 0
+
+		modifier = {
+			
+		}
+
+		ai_will_do = {
+			factor = 20
+		}
+
+		visible = {
+
+		}
+
+		complete_effect = {
+			set_country_flag = USA_election_container_open
+		}
+	}
+}

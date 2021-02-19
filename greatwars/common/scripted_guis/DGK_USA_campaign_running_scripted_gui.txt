@@ -1,0 +1,34 @@
+scripted_gui = {
+	DGK_USA_campaign_running_scripted_gui = {
+		window_name = "USA_cr_container"
+		context_type = player_context
+
+		visible = {
+			has_country_flag = USA_election_container_open
+		}
+
+		effects = {
+			exit_click = {
+				clr_country_flag = USA_election_container_open
+			}
+		}
+
+		triggers = {
+			ARZ_blue_state_visible = {
+				377 = { is_democratic_state = yes }
+			}
+			ARZ_red_state_visible = {
+				377 = { is_republican_state = yes }
+			}
+		}
+
+		effects = {
+			ARZ_blue_click = {
+				377 = { save_global_event_target_as = USA_targeted_campaign_running_state }
+			}
+			ARZ_red_click = {
+				377 = { save_global_event_target_as = USA_targeted_campaign_running_state }
+			}
+		}
+	}
+}

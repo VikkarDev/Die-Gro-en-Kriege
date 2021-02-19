@@ -1,0 +1,4 @@
+spriteType = {
+	name = "GFX_USA_campaign_map"
+	texturefile = "gfx/interface/usa_voting_gfx/USA_map.dds"
+}
