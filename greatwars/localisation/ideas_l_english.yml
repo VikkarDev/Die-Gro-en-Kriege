@@ -76,6 +76,11 @@ our_place_in_the_sun_desc:0 ""
 BASF:0 "BASF"
 BASF_desc:0 ""
 
+# LAB
+support_from_ecuadorian_liberals:0 "Support From Ecuadorian Liberals"
+supppot_from_ecuadorian_liberals_desc:0 ""
+support_from_venezuelan_liberals:0 "Support From Venezuelan Liberals"
+support_from_venezuelan_liberals_desc:0 ""
 # GENERIC
 colonial_influence:0 "Colonial Influence"
 colonial_influence_desc:0 "Closer ties to colonies are important in order to keep power world wide. Colonial influence will allow closer ties to the overlords country."
