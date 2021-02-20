@@ -22,7 +22,7 @@ country_event = {
 
         USA = {
             annex_country = {
-                traget = PHI
+                target = PHI
             }
         }
 
