@@ -1,0 +1,32 @@
+add_namespace = USA
+
+## Philippines surrnder
+country_event = {
+    id = USA.1
+    title = USA.1.t
+    desc = USA.1.d 
+    picture = victory_american_philippine_war
+
+    fire_only_once = yes 
+    is_triggered_only = yes
+
+    trigger = {
+        tag = PHI 
+        PHI {
+            surrnder_progress > 0.98
+        }
+    }
+
+    option = {
+        name = = USA.1.a 
+
+        USA = {
+            annex_country = {
+                traget = PHI
+            }
+        }
+
+        ai_chance = {factor = 100}
+        custom_effect_tooltip = NOT_COMPLETE
+    }
+}

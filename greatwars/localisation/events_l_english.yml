@@ -114,3 +114,8 @@ germany.12.a:0 "Interesting."
 germany.13.t:0 "A New Course"
 germany.13.d:0 "Since Wilhelm II became the Kaiser, he has assumed direct control over Germany's policies. With this, he has embarked on a bellicose "New Course" to cement Germany's status as a world power.\n\nSubsequently, with him currently leading, Germany acquired territories in the Far East and made Germany become Europes largest manufacturer."
 germany.13.a:0 "Interesting."
+
+# USA
+USA.1.t:0 "Philippines Surrenders!"
+USA.1.d:0 "Victory! After 3 years of fighting. Victory has achived. {lol i run out of ideas someone help}"
+USA.1.a:0 "Occupy them for some time."
