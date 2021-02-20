@@ -20,8 +20,8 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "title"
-			text = "Campaign Successors"
-			position = { x = 360 y = 20 }
+			text = "Electoral Map"
+			position = { x = 375 y = 20 }
 			font = "hoi_36header"
 			maxWidth = 500
 			scale = 2
@@ -44,7 +44,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "state_currently_supports"
 			position = { x = 22 y = 500 }
-			text = "Leading Party: [USA_targeted_campaign_state.GetStatesCurrentSupportingCandidate]"
+			text = "State Leading Party: [USA_targeted_campaign_state.GetStatesCurrentSupportingCandidate]"
 			font = "hoi_30header"
 			maxWidth = 600
 			maxHeight = 30
@@ -65,7 +65,7 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "republican_party_key"
 				text = "republican_campaign_key"
-				position = { x = 786 y = 480 }
+				position = { x = 825 y = 465 }
 				font = "hoi_30"
 				maxWidth = 200
 			}
@@ -73,7 +73,7 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "democratic_party_key"
 				text = "democratic_campaign_key"
-				position = { x = 786 y = 505 }
+				position = { x = 828 y = 490 }
 				font = "hoi_30"
 				maxWidth = 230
 			}
@@ -81,10 +81,59 @@ guiTypes = {
 
 		containerWindowType = {
 			name = "states_container"
-			position = { x = 100 y = 80 }
+			position = { x = 160 y = 60 }
 			iconType = {
 				name = "usa_election_bg"
 				spriteType = "GFX_USA_campaign_map"
+			}
+
+			iconType = {
+				name = "texas_red"
+				pdx_tooltip = "USA_texas_campaign_tt"
+				spriteType = "GFX_USA_texas_red"
+				position = { x = 208 y = 247 }
+			}
+			iconType = {
+				name = "texas_blue"
+				pdx_tooltip = "USA_texas_campaign_tt"
+				spriteType = "GFX_USA_texas_blue"
+				position = { x = 208 y = 247 }
+			}
+			iconType = {
+				name = "oklahoma_red"
+				pdx_tooltip = "USA_oklahoma_campaign_tt"
+				spriteType = "GFX_USA_oklahoma_red"
+				position = { x = 265 y = 242 }
+			}
+			iconType = {
+				name = "oklahoma_blue"
+				pdx_tooltip = "USA_oklahoma_campaign_tt"
+				spriteType = "GFX_USA_oklahoma_blue"
+				position = { x = 265 y = 242 }
+			}
+			iconType = {
+				name = "florida_red"
+				pdx_tooltip = "USA_florida_campaign_tt"
+				spriteType = "GFX_USA_florida_red"
+				position = { x = 480 y = 330 }
+			}
+			iconType = {
+				name = "florida_blue"
+				pdx_tooltip = "USA_florida_campaign_tt"
+				spriteType = "GFX_USA_florida_blue"
+				position = { x = 480 y = 330 }
+			}
+			iconType = {
+				name = "lousiana_red"
+				pdx_tooltip = "USA_lousiana_campaign_tt"
+				spriteType = "GFX_USA_lousiana_red"
+				position = { x = 385 y = 310 }
+			}
+			iconType = {
+				name = "lousiana_blue"
+				pdx_tooltip = "USA_lousiana_campaign_tt"
+				spriteType = "GFX_USA_lousiana_blue"
+				position = { x = 385 y = 310 }
 			}
 		}
 	}

@@ -1,6 +1,7 @@
 state={
 	id=862
 	name="STATE_862"
+	state_category = town
 	provinces={
 		1648 7658 8360 10509 12488 
 	}

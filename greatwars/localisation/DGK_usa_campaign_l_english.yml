@@ -1,0 +1,8 @@
+﻿l_english:
+
+SUPPORTING_REPUBLICAN:0 "§RRepublicans§!"
+SUPPORTING_DEMOCRAT:0 "§BDemocrats§!"
+republican_campaign_key:0 "§RRepublicans§!"
+democratic_campaign_key:0 "§BDemocrats§!"
+
+USA_texas_campaign_tt:0 "§Y[375.GetName] Electoral Votes§!\nRepublican Support: §R[?375.republican_support]§!\nDemocratic Support: §B[?375.democratic_support]§!"

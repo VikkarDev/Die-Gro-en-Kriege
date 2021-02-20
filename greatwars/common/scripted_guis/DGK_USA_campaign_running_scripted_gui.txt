@@ -14,20 +14,20 @@ scripted_gui = {
 		}
 
 		triggers = {
-			ARZ_blue_state_visible = {
-				377 = { is_democratic_state = yes }
+			texas_blue_visible = {
+				375 = { is_democratic_state = yes }
 			}
-			ARZ_red_state_visible = {
-				377 = { is_republican_state = yes }
+			texas_red_visible = {
+				375 = { is_republican_state = yes }
 			}
 		}
 
 		effects = {
-			ARZ_blue_click = {
-				377 = { save_global_event_target_as = USA_targeted_campaign_running_state }
+			texas_blue_click = {
+				375 = { save_global_event_target_as = USA_targeted_campaign_running_state }
 			}
-			ARZ_red_click = {
-				377 = { save_global_event_target_as = USA_targeted_campaign_running_state }
+			texas_red_click = {
+				375 = { save_global_event_target_as = USA_targeted_campaign_running_state }
 			}
 		}
 	}
