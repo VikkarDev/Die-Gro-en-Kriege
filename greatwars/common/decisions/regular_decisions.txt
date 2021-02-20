@@ -106,7 +106,7 @@ dgk_usa_campaign_decisions_category = {
 
 		cancel_if_not_visible = yes
 
-		days_mission_timeout = 310
+		days_mission_timeout = 306
 		timeout_effect = {
 			USA_campaign_timeout_effect = yes
 		}
@@ -137,6 +137,84 @@ dgk_usa_campaign_decisions_category = {
 
 		complete_effect = {
 			set_country_flag = USA_election_container_open
+		}
+	}
+
+	USA_campaign_in_texas = {
+		highlight_states = {
+			state = 375
+		}
+
+		available = {
+			tag = USA
+			NOT = { has_country_flag = USA_already_campaigning_in_state }
+		}
+
+		allowed = {
+			tag = USA
+		}
+
+		icon = GFX_decisions_eng_propaganda_campaigns
+		cost = 10
+		days_remove = 15
+
+		ai_will_do = {
+			factor = 20
+		}
+
+		complete_effect = {
+			set_country_flag = USA_already_campaigning_in_state
+		}
+		remove_effect = {
+			clr_country_flag = USA_already_campaigning_in_state
+
+			hidden_effect = {
+				random_list = {
+					65 = { country_event = { id = USA_campaign_decisions.1 } }
+					35 = { country_event = { id = USA_campaign_decisions.2 } }
+				}
+			}
+		}
+	}
+
+	USA_campaign_in_new_england = {
+		highlight_states = {
+			state = 878
+			state = 879
+			state = 880
+			state = 357
+			state = 881
+		}
+
+		available = {
+			tag = USA
+			NOT = { has_country_flag = USA_already_campaigning_in_state }
+		}
+
+		allowed = {
+			tag = USA
+		}
+
+		icon = GFX_decisions_eng_propaganda_campaigns
+		cost = 10
+		days_remove = 15
+
+		ai_will_do = {
+			factor = 20
+		}
+
+		complete_effect = {
+			set_country_flag = USA_already_campaigning_in_state
+		}
+		remove_effect = {
+			clr_country_flag = USA_already_campaigning_in_state
+
+			hidden_effect = {
+				random_list = {
+					65 = { country_event = { id = USA_campaign_decisions.3 } }
+					35 = { country_event = { id = USA_campaign_decisions.4 } }
+				}
+			}
 		}
 	}
 }

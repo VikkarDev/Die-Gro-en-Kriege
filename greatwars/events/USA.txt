@@ -12,7 +12,7 @@ country_event = {
 
     trigger = {
         tag = PHI 
-        PHI {
+        PHI = {
             surrender_progress > 0.98
         }
     }

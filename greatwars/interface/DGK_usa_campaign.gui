@@ -1,5 +1,23 @@
 guiTypes = {
 	containerWindowType = {
+		name = "us_election_vote_counters"
+		size = { width = 100%% height = 100%% }
+		position = { x = 0 y = 0 }
+		
+		instantTextBoxType = {
+			name = "votes_needed_to_win"
+			maxWidth = 500
+			maxHeight = 20
+			font = "hoi_36header"
+			text = "Votes to Win: 270"
+			format = center
+			fixedsize = yes
+		}
+	}
+
+
+
+	containerWindowType = {
 		name = "USA_cr_container"
 		position = { x = 500 y = 250 }
 		moveable = yes
@@ -100,15 +118,9 @@ guiTypes = {
 				position = { x = 208 y = 247 }
 			}
 			iconType = {
-				name = "oklahoma_red"
+				name = "oklahoma_cant_vote"
 				pdx_tooltip = "USA_oklahoma_campaign_tt"
-				spriteType = "GFX_USA_oklahoma_red"
-				position = { x = 265 y = 242 }
-			}
-			iconType = {
-				name = "oklahoma_blue"
-				pdx_tooltip = "USA_oklahoma_campaign_tt"
-				spriteType = "GFX_USA_oklahoma_blue"
+				spriteType = "GFX_USA_oklahoma_cant_vote"
 				position = { x = 265 y = 242 }
 			}
 			iconType = {
@@ -134,6 +146,18 @@ guiTypes = {
 				pdx_tooltip = "USA_lousiana_campaign_tt"
 				spriteType = "GFX_USA_lousiana_blue"
 				position = { x = 385 y = 310 }
+			}
+			iconType = {
+				name = "new_mexico_cant_vote"
+				pdx_tooltip = "USA_new_mexico_campaign_tt"
+				spriteType = "GFX_USA_new_mexico_cant_vote"
+				position = { x = 175 y = 233 }
+			}
+			iconType = {
+				name = "arizona_cant_vote"
+				pdx_tooltip = "USA_arizona_campaign_tt"
+				spriteType = "GFX_USA_arizona_cant_vote"
+				position = { x = 98 y = 223 }
 			}
 		}
 	}

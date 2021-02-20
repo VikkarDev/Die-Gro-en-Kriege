@@ -1,0 +1,104 @@
+add_namespace = USA_campaign_decisions
+
+# texas campaign run successful
+country_event = {
+    id = USA_campaign_decisions.1
+    title = USA_campaign_decisions.1.t
+    desc = USA_campaign_decisions.1.d 
+    #picture
+
+    #fire_only_once = yes 
+    is_triggered_only = yes
+
+    option = {
+        name = USA_campaign_decisions.1.a 
+
+		if = {
+			limit = {
+				has_government = traditional_conservatism
+			}
+			375 = { add_to_variable = { republican_support = 3 } }
+			375 = { subtract_from_variable = { democratic_support = 3 } }
+			USA_modify_republican_campaign_running_effect = yes
+			custom_effect_tooltip = USA_increase_republican_support_three
+		}
+		else_if = {
+			limit = {
+				has_government = centrism
+			}
+			375 = { add_to_variable = { democratic_support = 3 } }
+			878 = { subtract_from_variable = { republican_support = 3 } }
+			USA_modify_democratic_campaign_running_effect = yes
+			custom_effect_tooltip = USA_increase_democratic_support_three
+		}
+
+    }
+}
+
+# texas campaign fails
+country_event = {
+    id = USA_campaign_decisions.2
+    title = USA_campaign_decisions.2.t
+    desc = USA_campaign_decisions.2.d 
+    #picture
+
+    #fire_only_once = yes 
+    is_triggered_only = yes
+
+    option = {
+        name = USA_campaign_decisions.2.a
+    }
+}
+
+# new england campaign run successful
+country_event = {
+    id = USA_campaign_decisions.3
+    title = USA_campaign_decisions.3.t
+    desc = USA_campaign_decisions.3.d 
+    #picture
+
+    #fire_only_once = yes 
+    is_triggered_only = yes
+
+    option = {
+        name = USA_campaign_decisions.3.a 
+
+		if = {
+			limit = {
+				has_government = traditional_conservatism
+			}
+			878 = { add_to_variable = { republican_support = 3 } }
+			879 = { add_to_variable = { republican_support = 3 } }
+			880 = { add_to_variable = { republican_support = 3 } }
+			357 = { add_to_variable = { republican_support = 3 } }
+			881 = { add_to_variable = { republican_support = 3 } }
+
+			878 = { subtract_from_variable = { democratic_support = 3 } }
+			879 = { subtract_from_variable = { democratic_support = 3 } }
+			357 = { subtract_from_variable = { democratic_support = 3 } }
+			880 = { subtract_from_variable = { democratic_support = 3 } }
+			881 = { subtract_from_variable = { democratic_support = 3 } }
+			USA_modify_republican_campaign_running_effect = yes
+			custom_effect_tooltip = USA_increase_republican_support_three
+		}
+		else_if = {
+			limit = {
+				has_government = centrism
+			}
+			878 = { add_to_variable = { democratic_support = 3 } }
+			879 = { add_to_variable = { democratic_support = 3 } }
+			880 = { add_to_variable = { democratic_support = 3 } }
+			357 = { add_to_variable = { democratic_support = 3 } }
+			881 = { add_to_variable = { democratic_support = 3 } }
+
+			878 = { subtract_from_variable = { republican_support = 3 } }
+			879 = { subtract_from_variable = { republican_support = 3 } }
+			357 = { subtract_from_variable = { republican_support = 3 } }
+			880 = { subtract_from_variable = { republican_support = 3 } }
+			881 = { subtract_from_variable = { republican_support = 3 } }
+			USA_modify_democratic_campaign_running_effect = yes
+			custom_effect_tooltip = USA_increase_democratic_support_three
+		}
+
+    }
+}

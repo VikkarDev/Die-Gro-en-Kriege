@@ -40,7 +40,7 @@
 	create_country_leader = {
 		name = "Johann von Appel"
 		desc = ""
-		picture = "Bosnia_Occupied.dds"
+		picture = "Johann_von_Appel.dds"
 		ideology = liberal
 		traits = {
 			

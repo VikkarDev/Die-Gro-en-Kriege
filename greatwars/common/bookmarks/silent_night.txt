@@ -51,11 +51,11 @@ bookmarks = {
 				GER_imperial_german_economy
 			}
 		}
-		ITA = {
-			history = ITA_SILENT_NIGHT_DESC
+		USA = {
+			history = USA_SILENT_NIGHT_DESC
 			ideology = traditional_conservatism
 			ideas = {
-				
+				1900_us_election
 			}
 			focuses = {
 				

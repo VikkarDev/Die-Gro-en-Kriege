@@ -1,4 +1,21 @@
 scripted_gui = {
+	DGK_USA_electoral_vote_count_decision_container = {
+		window_name = "us_election_vote_counters"
+		context_type = decision_category
+
+		properties = {
+			republican_vote = {
+
+			}
+
+			democratic_vote = {
+				
+			}
+		}
+	}
+
+
+
 	DGK_USA_campaign_running_scripted_gui = {
 		window_name = "USA_cr_container"
 		context_type = player_context

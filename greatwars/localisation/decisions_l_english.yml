@@ -27,3 +27,10 @@ dgk_open_settings_desc:0 "Open settings to change some options!"
 # COLONIAL INFLUENCE
 dgk_colonial_decisions_category:0 "Colonial Policies"
 dgk_colonial_influence:0 "Colonial Influence in [From.GetNameDef]"
+
+# US ELECTION
+dgk_usa_campaign_decisions_category:0 "1900 Election"
+USA_campaign_runs:0 "Election Day"
+USA_open_campaign_rally:0 "Open Electoral Map"
+USA_campaign_in_texas:0 "Campaign in Texas"
+USA_campaign_in_new_england:0 "Campaign in New England"

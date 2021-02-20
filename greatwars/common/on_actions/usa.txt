@@ -1,0 +1,11 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			375 = {
+				set_variable = { republican_support = 6 }
+				set_variable = { democratic_support = 10 }
+				set_variable = { vote_value = 38 }
+			}
+		}
+	}
+}

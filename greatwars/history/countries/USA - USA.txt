@@ -75,7 +75,7 @@ capital = 361
 			}
 
 			declare_war_on = {
-				traget = SUL 
+				target = SUL 
 				type = annex_everything
 			}
 		}
@@ -88,6 +88,8 @@ capital = 361
 		limited_exports
 		partial_economic_mobilisation
 	}
+
+	add_timed_idea = { idea = 1900_us_election days = 306 }
 
 	set_politics = {
 		ruling_party = traditional_conservatism

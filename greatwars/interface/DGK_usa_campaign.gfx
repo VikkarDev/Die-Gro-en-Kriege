@@ -12,12 +12,8 @@ spriteTypes = {
 		texturefile = "gfx/interface/usa_voting_gfx/texas_blue.dds"
 	}
 	spriteType = {
-		name = "GFX_USA_oklahoma_red"
-		texturefile = "gfx/interface/usa_voting_gfx/oklahoma_red.dds"
-	}
-	spriteType = {
-		name = "GFX_USA_oklahoma_blue"
-		texturefile = "gfx/interface/usa_voting_gfx/oklahoma_blue.dds"
+		name = "GFX_USA_oklahoma_cant_vote"
+		texturefile = "gfx/interface/usa_voting_gfx/oklahoma_cant_vote.dds"
 	}
 	spriteType = {
 		name = "GFX_USA_florida_blue"
@@ -34,5 +30,13 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_USA_lousiana_red"
 		texturefile = "gfx/interface/usa_voting_gfx/lousiana_red.dds"
+	}
+	spriteType = {
+		name = "GFX_USA_new_mexico_cant_vote"
+		texturefile = "gfx/interface/usa_voting_gfx/new_mexico_cant_vote.dds"
+	}
+	spriteType = {
+		name = "GFX_USA_arizona_cant_vote"
+		texturefile = "gfx/interface/usa_voting_gfx/arizona_cant_vote.dds"
 	}
 }

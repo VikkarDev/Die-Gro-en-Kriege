@@ -9,10 +9,10 @@ USA_modify_republican_campaign_running_effect = {
 				value = democratic_support 
 				compare = less_than 
 			}
-			check_variable = {
-				var = republican_support
-				value = democratic_support
-				compare = greater_than_or_equals
+			check_variable = { 
+				var = republican_support 
+				value = democratic_support 
+				compare = greater_than_or_equals 
 			}
 		}
 		add_to_variable = { USA.republican_vote = vote_value }
@@ -129,4 +129,20 @@ USA_campaign_timeout_effect = {
 d_USA_campaign_vars_debug = {
 	set_variable = { republican_vote = 270 }
 	set_variable = { democratic_vote = 270 }
+}
+
+d_republican_test = {
+	375 = {
+		add_to_variable = { republican_support = 5 }
+		USA_modify_republican_campaign_running_effect = yes
+		custom_effect_tooltip = USA_increase_republican_support_five
+	}
+}
+
+d_democratic_test = {
+	375 = {
+		add_to_variable = { democratic_support = 5 }
+		USA_modify_democratic_campaign_running_effect = yes
+		custom_effect_tooltip = USA_increase_democratic_support_five
+	}
 }
