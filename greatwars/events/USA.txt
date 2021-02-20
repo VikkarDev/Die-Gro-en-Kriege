@@ -13,12 +13,12 @@ country_event = {
     trigger = {
         tag = PHI 
         PHI {
-            surrnder_progress > 0.98
+            surrender_progress > 0.98
         }
     }
 
     option = {
-        name = = USA.1.a 
+        name = USA.1.a 
 
         USA = {
             annex_country = {
