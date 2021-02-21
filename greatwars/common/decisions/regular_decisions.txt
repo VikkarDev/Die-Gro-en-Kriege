@@ -184,6 +184,7 @@ dgk_usa_campaign_decisions_category = {
 			state = 880
 			state = 357
 			state = 881
+			state = 883
 		}
 
 		available = {
