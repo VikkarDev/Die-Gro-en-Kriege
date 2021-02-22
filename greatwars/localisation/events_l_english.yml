@@ -117,7 +117,7 @@ germany.13.a:0 "Interesting."
 
 # USA
 USA.1.t:0 "Philippines Surrenders!"
-USA.1.d:0 "Victory! After 3 years of fighting. Victory has achived. {lol i run out of ideas someone help}"
+USA.1.d:0 "The United States has scored another victory! After 3 years of fighting, the government of the Philippines announced its unconditional surrender to the government of the United States. While it seems like victory has been achieved, the region is not yet stable and the local populations are wary of the American liberators. We will need to sort out our policy in relationship to the occupation of the Philippines soon. But before we can do even that, we must defeat another military enemy, the Tagalog Republic. The Tagalog Republic was formed by the Katipunan, a Fillipino revolutionary movement which originally called for revolution against the Spanish colonial overlords, but now they oppose the American occupation. Despite the surrender of the Fillipino government, the fighting is by no means over."
 USA.1.a:0 "Occupy them for some time."
 USA_campaign_decisions.1.t:0 "Campaign in Texas is a Success!"
 USA_campaign_decisions.1.d:0 "[Root.GetLeader] recently campaigned in Texas and has resulted in a success! This will bring him one step closer to sealing the election and winning. Supporters cheered and shouted at his rally and true patriotism showed today."
