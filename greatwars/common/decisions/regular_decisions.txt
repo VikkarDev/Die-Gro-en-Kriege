@@ -220,4 +220,22 @@ dgk_usa_campaign_decisions_category = {
 			}
 		}
 	}
+
+	dgk_britain_naval_race_category = {
+		appoint_new_first_sea_lord = {
+		 # Should give the player an event to appoint a First Sea Lord, removing Walter Kerr: John Fisher, prioritizing developing new ship models, Arthur Wilson, prioritizing flexibility of the fleet, and Francis Bridgeman, who prioritizes naval tradition and elegance.
+			icon = gfx/interface/decisions/decision_generic_naval.dds
+
+			allowed = { tag = ENG }
+			cost = 10
+			days_re_enable = 160
+			ai_will_do = {
+				factor = 30
+			}
+
+			complete_effect = {
+				country_event = { id = britain_naval.1 }
+			}
+		}
+	}
 }

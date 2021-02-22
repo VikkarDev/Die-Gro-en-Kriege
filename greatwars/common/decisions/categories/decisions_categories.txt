@@ -33,3 +33,25 @@ dgk_usa_campaign_decisions_category = {
 		}
 	}
 }
+
+dgk_britain_naval_race_category = {
+	icon = gfx/interface/decisions/decision_category_mtg_naval_treaties.dds/
+	picture = gfx/interface/decisions/decision_britain_naval_race.dds/
+
+	available = {
+		original_tag = ENG
+		num_of_naval_factories > 5
+	}
+
+	priority = {
+		base = 50
+	}
+
+	visible_when_empty = yes
+
+	visible = {
+		NOT = {
+			#
+		}
+	}
+}
