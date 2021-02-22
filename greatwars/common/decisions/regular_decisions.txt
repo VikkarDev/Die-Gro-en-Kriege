@@ -98,10 +98,12 @@ dgk_usa_campaign_decisions_category = {
 
 		activation = {
 			tag = USA
+			country_exists = USA
 		}
 
 		visible = {
 			tag = USA
+			country_exists = USA
 		}
 
 		cancel_if_not_visible = yes
@@ -179,10 +181,10 @@ dgk_usa_campaign_decisions_category = {
 
 	USA_campaign_in_new_england = {
 		highlight_states = {
+			state = 357
 			state = 878
 			state = 879
 			state = 880
-			state = 357
 			state = 881
 			state = 883
 		}

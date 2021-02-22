@@ -110,18 +110,18 @@ USA_campaign_timeout_effect = {
 		limit = {
 			check_variable = { republican_vote > 270 }
 		}
-		country_event = { id = usa.1 days = 1 }
+		country_event = { id = USA_campaign_decisions.10 days = 1 }
 		set_country_flag = republican_wins_election
 	}
 	else_if = {
 		limit = {
 			check_variable = { democratic_vote > 270 }
 		}
-		country_event = { id = usa.2 days = 1}
+		country_event = { id = USA_campaign_decisions.11 days = 1}
 		set_country_flag = democratic_wins_election
 	}
 	else = {
-		country_event = { id = usa.3 days = 1 }
+		country_event = { id = USA_campaign_decisions.12 days = 1 }
 	}
 	set_country_flag = USA_campaigns_over
 }

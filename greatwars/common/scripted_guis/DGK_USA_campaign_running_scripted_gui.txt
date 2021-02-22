@@ -4,12 +4,12 @@ scripted_gui = {
 		context_type = decision_category
 
 		properties = {
-			republican_vote = {
-
+			republican_vote_count = {
+				frame = republican_bar_var
 			}
 
-			democratic_vote = {
-				
+			democratic_vote_count = {
+				frame = democratic_bar_var
 			}
 		}
 	}
@@ -37,6 +37,18 @@ scripted_gui = {
 			texas_red_visible = {
 				375 = { is_republican_state = yes }
 			}
+			louisiana_blue_visible = {
+				371 = { is_democratic_state = yes }
+			}
+			louisiana_red_visible = {
+				371 = { is_republican_state = yes }
+			}
+			florida_blue_visible = {
+				366 = { is_democratic_state = yes }
+			}
+			florida_red_visible = {
+				366 = { is_republican_state = yes }
+			}
 		}
 
 		effects = {
@@ -45,6 +57,18 @@ scripted_gui = {
 			}
 			texas_red_click = {
 				375 = { save_global_event_target_as = USA_targeted_campaign_running_state }
+			}
+			louisiana_blue_click = {
+				371 = { save_global_event_target_as = USA_targeted_campaign_running_state }
+			}
+			louisiana_red_click = {
+				371 = { save_global_event_target_as = USA_targeted_campaign_running_state }
+			}
+			florida_blue_click = {
+				366 = { save_global_event_target_as = USA_targeted_campaign_running_state }
+			}
+			florida_red_click = {
+				366 = { save_global_event_target_as = USA_targeted_campaign_running_state }
 			}
 		}
 	}

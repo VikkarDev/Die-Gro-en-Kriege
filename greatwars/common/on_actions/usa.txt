@@ -2,9 +2,19 @@ on_actions = {
 	on_startup = {
 		effect = {
 			375 = {
-				set_variable = { republican_support = 6 }
-				set_variable = { democratic_support = 10 }
-				set_variable = { vote_value = 38 }
+				set_variable = { republican_support = 3 }
+				set_variable = { democratic_support = 5 }
+				set_variable = { vote_value = 15 }
+			}
+			371 = {
+				set_variable = { republican_support = 1 }
+				set_variable = { democratic_support = 3 }
+				set_variable = { vote_value = 8 }
+			}
+			366 = {
+				set_variable = { republican_support = 0 }
+				set_variable = { democratic_support = 2 }
+				set_variable = { vote_value = 6 }
 			}
 		}
 	}

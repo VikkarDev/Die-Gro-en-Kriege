@@ -1,11 +1,12 @@
 guiTypes = {
 	containerWindowType = {
 		name = "us_election_vote_counters"
-		size = { width = 100%% height = 200 }
-		position = { x = 0 y = -5 }
+		size = { width = 100%% height = 750 }
+		position = { x = 0 y = 0 }
 		
 		instantTextBoxType = {
 			name = "votes_needed_to_win"
+			position = { x = 0 y = -15 }
 			maxWidth = 500
 			maxHeight = 20
 			font = "hoi_36header"
@@ -15,28 +16,20 @@ guiTypes = {
 		}
 
 		containerWindowType = {
-			name = "parties"
-			position = { x = 0 y = 120 }
+			name = "us_election_graphs_container"
+			position = { x = 26 y = 0 }
+			iconType = {
+				name = "graph"
+				spriteType = "GFX_USA_campaign_graph"
+				position = { x = 0 y = 0 }
+				scale = 1.1
+			}
 
-			instantTextBoxType = {
-				name = "republican_vote"
-				position = { x = 0 y = 0 }
-				maxWidth = 100
-				maxHeight = 20
-				font = "hoi_36"
-				text = "Republicans: [republican_vote]"
-				format = left
-			}
-	
-			instantTextBoxType = {
-				name = "democratic_vote"
-				position = { x = 0 y = 0 }
-				maxWidth = 100
-				maxHeight = 20
-				font = "hoi_36"
-				text = "Democrats: [democratic_vote]"
-				format = left
-			}
+			#iconType = {
+			#	name = "republican_vote_count"
+			#	spriteType = "GFX_republican_vote_count"
+			#	position = { x = 0 y = 0 }
+			#}
 		}
 	}
 
@@ -161,15 +154,15 @@ guiTypes = {
 				position = { x = 480 y = 330 }
 			}
 			iconType = {
-				name = "lousiana_red"
-				pdx_tooltip = "USA_lousiana_campaign_tt"
-				spriteType = "GFX_USA_lousiana_red"
+				name = "louisiana_red"
+				pdx_tooltip = "USA_louisiana_campaign_tt"
+				spriteType = "GFX_USA_louisiana_red"
 				position = { x = 385 y = 310 }
 			}
 			iconType = {
-				name = "lousiana_blue"
-				pdx_tooltip = "USA_lousiana_campaign_tt"
-				spriteType = "GFX_USA_lousiana_blue"
+				name = "louisiana_blue"
+				pdx_tooltip = "USA_louisiana_campaign_tt"
+				spriteType = "GFX_USA_louisiana_blue"
 				position = { x = 385 y = 310 }
 			}
 			iconType = {
