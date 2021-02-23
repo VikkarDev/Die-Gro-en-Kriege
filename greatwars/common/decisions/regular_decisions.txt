@@ -108,7 +108,7 @@ dgk_usa_campaign_decisions_category = {
 
 		cancel_if_not_visible = yes
 
-		days_mission_timeout = 306
+		days_mission_timeout = 310
 		timeout_effect = {
 			USA_campaign_timeout_effect = yes
 		}

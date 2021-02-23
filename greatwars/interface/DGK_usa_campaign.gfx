@@ -12,6 +12,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/usa_voting_gfx/republican_vote_bar.dds"
 	}
 	spriteType = {
+		name = "GFX_democratic_vote_count"
+		texturefile = "gfx/interface/usa_voting_gfx/democratic_vote_bar.dds"
+	}
+	spriteType = {
 		name = "GFX_USA_texas_red"
 		texturefile = "gfx/interface/usa_voting_gfx/texas_red.dds"
 	}

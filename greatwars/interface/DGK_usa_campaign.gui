@@ -25,11 +25,19 @@ guiTypes = {
 				scale = 1.1
 			}
 
-			#iconType = {
-			#	name = "republican_vote_count"
-			#	spriteType = "GFX_republican_vote_count"
-			#	position = { x = 0 y = 0 }
-			#}
+			iconType = {
+				name = "republican_vote_count"
+				spriteType = "GFX_republican_vote_count"
+				position = { x = 0 y = 600 }
+				scale = 0.3
+			}
+
+			iconType = {
+				name = "democratic_vote_count"
+				spriteType = "GFX_democratic_vote_count"
+				position = { x = 45 y = 600 }
+				scale = 0.3
+			}
 		}
 	}
 
