@@ -421,7 +421,7 @@ ideas = {
 	}
 	country = {
 		failed_kultur_kampf = {
-		picture = ger_german_army
+		picture = ger_failed_kultur_kampf
 	  
 		allowed = {
 			tag = GER
@@ -435,7 +435,7 @@ ideas = {
 	}
 	country = {
 		second_kultur_kampf = {
-		picture = ger_german_army
+		picture = ger_second_kultur_kampf
 	  
 		allowed = {
 			tag = GER
