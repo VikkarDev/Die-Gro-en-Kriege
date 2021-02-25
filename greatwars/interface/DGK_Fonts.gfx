@@ -1,0 +1,7 @@
+bitmapfonts = { 
+    bitmapfont = {
+        name = "monocle20"
+        path = "gfx/fonts/monocle20"   
+        color = 0xffffffff
+    }
+}
