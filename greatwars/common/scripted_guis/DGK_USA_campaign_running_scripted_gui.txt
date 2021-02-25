@@ -49,6 +49,18 @@ scripted_gui = {
 			florida_red_visible = {
 				366 = { is_republican_state = yes }
 			}
+			california_blue_visible = {
+				378 = { is_democratic_state = yes }
+			}
+			california_red_visible = {
+				378 = { is_republican_state = yes }
+			}
+			nevada_blue_visible = {
+				379 = { is_democratic_state = yes }
+			}
+			nevada_red_visible = {
+				379 = { is_republican_state = yes }
+			}
 		}
 
 		effects = {
@@ -69,6 +81,18 @@ scripted_gui = {
 			}
 			florida_red_click = {
 				366 = { save_global_event_target_as = USA_targeted_campaign_running_state }
+			}
+			california_blue_click = {
+				378 = { save_global_event_target_as = USA_targeted_campaign_running_state }
+			}
+			california_red_click = {
+				378 = { save_global_event_target_as = USA_targeted_campaign_running_state }
+			}
+			nevada_blue_click = {
+				379 = { save_global_event_target_as = USA_targeted_campaign_running_state }
+			}
+			nevada_red_click = {
+				379 = { save_global_event_target_as = USA_targeted_campaign_running_state }
 			}
 		}
 	}

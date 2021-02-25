@@ -39,3 +39,12 @@ FRA_PIERRE_ROUSSEAU:0 "Pierre Waldeck-Rousseau"
 FRA_PIERRE_NAME:0 "Pierre Waldeck-Rousseau"
 EMILE_LEADER_DESCRIPTION:0 "Description here"
 PIERRE_LEADER_DESCRIPTION:0 "Description here"
+
+# UNITED STATES
+USA_HOG_TITLE:0 "Vice President"
+USA_HOS_TITLE:0 "President"
+USA_WILLIAM:0 "William McKinley"
+USA_THEODORE_ROOSEVELT:0 "Theodore Roosevelt"
+USA_THEODORE_NAME:0 "Theodore Roosevelt"
+WILLIAM_LEADER_DESCRIPTION:0 "Description here"
+THEODORE_LEADER_DESCRIPTION:0 "Description here"
