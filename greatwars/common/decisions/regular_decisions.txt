@@ -362,4 +362,70 @@ dgk_usa_statehood_policies_category = {
 			custom_effect_tooltip = USA_ARIZONA_STATEHOOD
 		}
 	}
+
+	grant_statehood_alaska = {
+		icon = generic_political_actions
+
+		highlight_states = {
+			state = 463
+		}
+
+		allowed = {
+			tag = USA
+			country_exists = ALK
+			country_exists = USA
+		}
+
+		cost = 25
+		
+		ai_will_do = {
+			factor = 30
+		}
+
+		complete_effect = {
+			hidden_effect = {
+				annex_country = {
+					target = ALK
+				}
+			}
+
+			add_stability = 0.025
+			add_political_power = 5
+
+			custom_effect_tooltip = USA_ALASKA_STATEHOOD
+		}
+	}
+
+	grant_statehood_hawaii = {
+		icon = generic_political_actions
+
+		highlight_states = {
+			state = 629
+		}
+
+		allowed = {
+			tag = USA
+			country_exists = HAW
+			country_exists = USA
+		}
+
+		cost = 25
+		
+		ai_will_do = {
+			factor = 30
+		}
+
+		complete_effect = {
+			hidden_effect = {
+				annex_country = {
+					target = HAW
+				}
+			}
+
+			add_stability = 0.025
+			add_political_power = 5
+
+			custom_effect_tooltip = USA_HAWAII_STATEHOOD
+		}
+	}
 }
