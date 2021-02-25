@@ -13,9 +13,10 @@ capital = 141
 
 	add_ideas = {
 		# government
+		Swedish_neutrality
 		volunteer_only
 		free_trade
-		partial_economic_mobilisation
+		low_economic_mobilisation
 	}
 
 	set_politics = {
