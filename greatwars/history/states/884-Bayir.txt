@@ -1,0 +1,22 @@
+state={
+	id=884
+	name="STATE_884"
+	
+	history={
+		owner = SAU
+		buildings = {
+			infrastructure = 3
+			#industrial_complex = 1
+
+		}
+		add_core_of = JOR
+		add_core_of = SAU
+
+	}
+
+	provinces={
+		4562 4603 
+	}
+	manpower=10000
+	buildings_max_level_factor=1.000
+}
