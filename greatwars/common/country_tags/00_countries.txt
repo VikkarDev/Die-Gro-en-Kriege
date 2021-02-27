@@ -45,6 +45,8 @@ CHO = "countries/Choctaw.txt"
 MUS = "countries/Muscogee.txt"
 CSW = "countries/Chickasaw.txt"
 CUB = "countries/Cuba.txt"
+ANZ = "countries/Anazzah.txt"
+JSH = "countries/Jabal Shammar.txt"
 
 LUX = "countries/Luxemburg.txt"
 BEL = "countries/Belgium.txt"

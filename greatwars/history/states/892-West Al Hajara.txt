@@ -1,0 +1,21 @@
+state={
+	id=892
+	name="STATE_892"
+	state_category = wasteland
+
+	history={
+		owner = ANZ
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = IRQ
+		add_core_of = ANZ
+	}
+
+	provinces={
+		1631 4951 12316 
+	}
+	manpower=85000
+	buildings_max_level_factor=1.000
+}

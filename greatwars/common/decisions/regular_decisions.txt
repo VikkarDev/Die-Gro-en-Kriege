@@ -90,7 +90,7 @@ dgk_usa_campaign_decisions_category = {
 
 		fire_only_once = yes
 
-		icon = generic_political_actions
+		icon = eng_propaganda_campaigns
 
 		available = {
 			hidden_trigger = { always = no }
@@ -156,7 +156,7 @@ dgk_usa_campaign_decisions_category = {
 			tag = USA
 		}
 
-		icon = GFX_decisions_eng_propaganda_campaigns
+		icon = eng_propaganda_campaigns
 		cost = 10
 		days_remove = 15
 
@@ -198,7 +198,7 @@ dgk_usa_campaign_decisions_category = {
 			tag = USA
 		}
 
-		icon = GFX_decisions_eng_propaganda_campaigns
+		icon = eng_propaganda_campaigns
 		cost = 10
 		days_remove = 15
 
@@ -266,6 +266,7 @@ dgk_britain_naval_race_category = {
 		}
 	}
 }
+
 dgk_usa_statehood_policies_category = {
 	grant_statehood_oklahoma = {
 		icon = generic_political_actions

@@ -19,6 +19,14 @@ TUR = {
 	color = rgb { 170  10  10 }
 	color_ui = rgb { 200  10  10 }
 }
+ANZ = {
+	color = rgb { 222 124 242 }
+	color_ui = rgb { 222 124 242 }
+}
+JSH = {
+	color = rgb { 222 176 69 }
+	color_ui = rgb { 222 176 69 }
+}
 ENG = {
 	color = rgb { 201 56 93 }
 	color_ui = rgb { 255 73 121 }

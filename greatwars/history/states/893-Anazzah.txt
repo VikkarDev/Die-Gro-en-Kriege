@@ -1,0 +1,23 @@
+state={
+	id=893
+	name="STATE_893"
+	state_category = rural
+
+	history={
+		owner = ANZ
+		buildings = {
+			infrastructure = 2
+			#arms_factory = 1
+			industrial_complex = 1
+		}
+		add_core_of = SAU
+		add_core_of = ANZ
+
+	}
+
+	provinces={
+		5099 7970 8101 10815 10901 12455 
+	}
+	manpower=950312
+	buildings_max_level_factor=1.000
+}

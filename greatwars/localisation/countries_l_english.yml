@@ -508,6 +508,13 @@
  TUR_autocracy_ADJ:0 "Turkish"
  TUR_marxist_leninism_ADJ:0 "Turkish"
 
+ ANZ_autocracy:0 "Anazzah Sheikhdom"
+ ANZ_autocracy_DEF:0 "The Anazzah Sheikhdom"
+ ANZ_ADJ:0 "Anazzahan"
+ JSH_autocracy:0 "Emirate of Jabal Shammar"
+ JSH_autocracy_DEF:0 "The Emirate of Jabal Shammar"
+ JSH_ADJ:0 "Shammaran"
+
  GRE_traditional_conservatism:0 "Hellenic Republic"
  GRE_traditional_conservatism_DEF:0 "The Hellenic Republic"
  GRE_traditional_conservatism_ADJ:0 "Greek"
