@@ -1,7 +1,7 @@
 ideas = {
     country = {
-        french_Dependancy
-        picture = sov_french_Dependancy
+        french_Dependancy = {
+        picture = generic_economic_increase
 
         allowed = {
             tag = SOV
@@ -11,9 +11,8 @@ ideas = {
         }
     }
 
-    country = {
-        fear_of_revolution
-        picture = sov_fear_of_revolution
+        fear_of_revolution = {
+        picture = socialist_science_focus
 
         allowed = {
             tag = SOV
@@ -23,9 +22,9 @@ ideas = {
         }
     }
 
-    country = {
-        long_live_the_tsar
-        picture = sov_long_live_the_tsar
+
+        long_live_the_tsar = {
+        picture = generic_victors_of_ww1
 
         allowed = {
             tag = SOV
@@ -34,4 +33,5 @@ ideas = {
         modifier = {
         }
     }
+}
 }
