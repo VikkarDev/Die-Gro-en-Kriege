@@ -1,0 +1,37 @@
+ideas = {
+    country = {
+        french_Dependancy
+        picture = sov_french_Dependancy
+
+        allowed = {
+            tag = SOV
+        }
+
+        modifier = {
+        }
+    }
+
+    country = {
+        fear_of_revolution
+        picture = sov_fear_of_revolution
+
+        allowed = {
+            tag = SOV
+        }
+
+        modifier = {
+        }
+    }
+
+    country = {
+        long_live_the_tsar
+        picture = sov_long_live_the_tsar
+
+        allowed = {
+            tag = SOV
+        }
+
+        modifier = {
+        }
+    }
+}

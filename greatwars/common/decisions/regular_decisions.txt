@@ -108,7 +108,7 @@ dgk_usa_campaign_decisions_category = {
 
 		cancel_if_not_visible = yes
 
-		days_mission_timeout = 306
+		days_mission_timeout = 310
 		timeout_effect = {
 			USA_campaign_timeout_effect = yes
 		}
@@ -223,7 +223,8 @@ dgk_usa_campaign_decisions_category = {
 }
 
 dgk_britain_naval_race_category = {
-	appoint_new_first_sea_lord = { # Should give the player an event to appoint a First Sea Lord, removing Walter Kerr: John Fisher, prioritizing developing new ship models, Arthur Wilson, prioritizing flexibility of the fleet, and Francis Bridgeman, who prioritizes naval tradition and elegance.
+	appoint_new_first_sea_lord = {
+		# Should give the player an event to appoint a First Sea Lord, removing Walter Kerr: John Fisher, prioritizing developing new ship models, Arthur Wilson, prioritizing flexibility of the fleet, and Francis Bridgeman, who prioritizes naval tradition and elegance.
 		icon = gfx/interface/decisions/decision_generic_naval.dds
 
 		allowed = { tag = ENG }
@@ -239,8 +240,197 @@ dgk_britain_naval_race_category = {
 				set_variable = {
 					var = ENG_first_sea_lord
 					value = 1 # 1 is default. 2 is John Fisher, 3 is Arthur Wilson, and 4 is Francis Bridgeman.
+					}
 				}
 			}
+	}
+}
+dgk_usa_statehood_policies_category = {
+	grant_statehood_oklahoma = {
+		icon = generic_political_actions
+
+		highlight_states = {
+			state = 374
+			state = 874
+			state = 876
+			state = 875
+			state = 877
+		}
+
+		allowed = {
+			tag = USA
+			country_exists = OKL
+			country_exists = USA
+			
+			hidden_trigger = {
+				country_exists = IRT
+				country_exists = MUS
+				country_exists = CHO
+				country_exists = CSW
+			}
+		}
+
+		cost = 25
+		
+		ai_will_do = {
+			factor = 30
+		}
+
+		complete_effect = {
+			hidden_effect = {
+				annex_country = {
+					target = OKL
+				}
+				annex_country = {
+					target = IRT
+				}
+				annex_country = {
+					target = MUS
+				}
+				annex_country = {
+					target = CHO
+				}
+				annex_country = {
+					target = CSW
+				}
+			}
+
+			add_stability = 0.025
+			add_political_power = 5
+
+			custom_effect_tooltip = USA_OKLAHOMA_STATEHOOD
+		}
+	}
+
+	grant_statehood_new_mexico = {
+		icon = generic_political_actions
+
+		highlight_states = {
+			state = 376
+		}
+
+		allowed = {
+			tag = USA
+			country_exists = NMX
+			country_exists = USA
+		}
+
+		cost = 25
+		
+		ai_will_do = {
+			factor = 30
+		}
+
+		complete_effect = {
+			hidden_effect = {
+				annex_country = {
+					target = NMX
+				}
+			}
+
+			add_stability = 0.025
+			add_political_power = 5
+
+			custom_effect_tooltip = USA_NEW_MEXICO_STATEHOOD
+		}
+	}
+
+	grant_statehood_arizona = {
+		icon = generic_political_actions
+
+		highlight_states = {
+			state = 377
+		}
+
+		allowed = {
+			tag = USA
+			country_exists = ARZ
+			country_exists = USA
+		}
+
+		cost = 25
+		
+		ai_will_do = {
+			factor = 30
+		}
+
+		complete_effect = {
+			hidden_effect = {
+				annex_country = {
+					target = ARZ
+				}
+			}
+
+			add_stability = 0.025
+			add_political_power = 5
+
+			custom_effect_tooltip = USA_ARIZONA_STATEHOOD
+		}
+	}
+
+	grant_statehood_alaska = {
+		icon = generic_political_actions
+
+		highlight_states = {
+			state = 463
+		}
+
+		allowed = {
+			tag = USA
+			country_exists = ALK
+			country_exists = USA
+		}
+
+		cost = 25
+		
+		ai_will_do = {
+			factor = 30
+		}
+
+		complete_effect = {
+			hidden_effect = {
+				annex_country = {
+					target = ALK
+				}
+			}
+
+			add_stability = 0.025
+			add_political_power = 5
+
+			custom_effect_tooltip = USA_ALASKA_STATEHOOD
+		}
+	}
+
+	grant_statehood_hawaii = {
+		icon = generic_political_actions
+
+		highlight_states = {
+			state = 629
+		}
+
+		allowed = {
+			tag = USA
+			country_exists = HAW
+			country_exists = USA
+		}
+
+		cost = 25
+		
+		ai_will_do = {
+			factor = 30
+		}
+
+		complete_effect = {
+			hidden_effect = {
+				annex_country = {
+					target = HAW
+				}
+			}
+
+			add_stability = 0.025
+			add_political_power = 5
+
+			custom_effect_tooltip = USA_HAWAII_STATEHOOD
 		}
 	}
 }

@@ -35,6 +35,19 @@ USA_open_campaign_rally:0 "Open Electoral Map"
 USA_campaign_in_texas:0 "Campaign in Texas"
 USA_campaign_in_new_england:0 "Campaign in New England"
 
+# USA STATEHOOD
+USA_OKLAHOMA_STATEHOOD:0 "§HOklahoma will be brought into the union and participate in electoral votes.§!"
+USA_ARIZONA_STATEHOOD:0 "§HArizona will be brought into the union and participate in electoral votes.§!"
+USA_NEW_MEXICO_STATEHOOD:0 "§HNew Mexico will be brought into the union and participate in electoral votes.§!"
+USA_ALASKA_STATEHOOD:0 "§HAlaska will be brought into the union.§!"
+USA_HAWAII_STATEHOOD:0 "§HHawaii will be brought into the union.§!"
+dgk_usa_statehood_policies_category:0 "Statehood Policies"
+grant_statehood_oklahoma:0 "Statehood for Oklahoma"
+grant_statehood_new_mexico:0 "Statehood for New Mexico"
+grant_statehood_arizona:0 "Statehood for Arizona"
+grant_statehood_alaska:0 "Statehood for Alaska"
+grant_statehood_hawaii:0 "Statehood for Hawaii"
+
 # Naval Arms Race (Britain)
 
 dgk_britain_naval_race_category:0 "Anglo-German Naval Arms Race"

@@ -1,0 +1,23 @@
+state={
+	id=891
+	name="STATE_891"
+	state_category = small_town
+
+	history={
+		owner = TUR
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			#industrial_complex = 1
+
+		}
+		add_core_of = SAU
+
+	}
+
+	provinces={
+		10791 
+	}
+	manpower=95000
+	buildings_max_level_factor=1.000
+}

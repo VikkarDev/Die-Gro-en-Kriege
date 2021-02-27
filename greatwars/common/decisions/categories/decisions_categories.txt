@@ -55,3 +55,21 @@ dgk_britain_naval_race_category = {
 		}
 	}
 }
+
+dgk_usa_statehood_policies_category = {
+	icon = generic_political_actions
+
+	available = {
+		tag = USA
+	}
+
+	priority = {
+		base = 30
+	}
+
+	visible_when_empty = no
+
+	visible = {
+		tag = USA
+	}
+}

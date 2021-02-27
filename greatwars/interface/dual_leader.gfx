@@ -59,4 +59,10 @@ spriteTypes = {
 		name = "GFX_ENG_Robert_Cecil"
 		texturefile = "gfx/leaders/ENG/Robert_Gascoyne-Cecil.dds"
 	}
+
+	# UNITED STATES
+	spriteType = {
+		name = "GFX_USA_Theodore_Roosevelt"
+		texturefile = "gfx/leaders/USA/Theodore_Roosevelt.dds"
+	}
 }

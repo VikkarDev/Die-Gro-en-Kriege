@@ -89,7 +89,7 @@ capital = 361
 		partial_economic_mobilisation
 	}
 
-	add_timed_idea = { idea = 1900_us_election days = 306 }
+	add_timed_idea = { idea = 1900_us_election days = 310 }
 
 	set_politics = {
 		ruling_party = traditional_conservatism

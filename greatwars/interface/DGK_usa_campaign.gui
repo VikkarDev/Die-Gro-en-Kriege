@@ -25,11 +25,19 @@ guiTypes = {
 				scale = 1.1
 			}
 
-			#iconType = {
-			#	name = "republican_vote_count"
-			#	spriteType = "GFX_republican_vote_count"
-			#	position = { x = 0 y = 0 }
-			#}
+			iconType = {
+				name = "republican_vote_count"
+				spriteType = "GFX_republican_vote_count"
+				position = { x = 0 y = 600 }
+				scale = 0.3
+			}
+
+			iconType = {
+				name = "democratic_vote_count"
+				spriteType = "GFX_democratic_vote_count"
+				position = { x = 45 y = 600 }
+				scale = 0.3
+			}
 		}
 	}
 
@@ -176,6 +184,30 @@ guiTypes = {
 				pdx_tooltip = "USA_arizona_campaign_tt"
 				spriteType = "GFX_USA_arizona_cant_vote"
 				position = { x = 98 y = 223 }
+			}
+			iconType = {
+				name = "california_red"
+				pdx_tooltip = "USA_california_campaign_tt"
+				spriteType = "GFX_USA_california_red"
+				position = { x = 8 y = 112 }
+			}
+			iconType = {
+				name = "california_blue"
+				pdx_tooltip = "USA_california_campaign_tt"
+				spriteType = "GFX_USA_california_blue"
+				position = { x = 8 y = 112 }
+			}
+			iconType = {
+				name = "nevada_red"
+				pdx_tooltip = "USA_nevada_campaign_tt"
+				spriteType = "GFX_USA_nevada_red"
+				position = { x = 54 y = 126 }
+			}
+			iconType = {
+				name = "nevada_blue"
+				pdx_tooltip = "USA_nevada_campaign_tt"
+				spriteType = "GFX_USA_nevada_blue"
+				position = { x = 54 y = 126 }
 			}
 		}
 	}

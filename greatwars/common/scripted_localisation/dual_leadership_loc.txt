@@ -37,6 +37,17 @@ defined_text = {
 	}
 
 	text = {
+		trigger = {
+			tag = USA
+			OR = {
+				has_government = centrism
+				has_government = traditional_conservatism
+			}
+		}
+		localization_key = USA_HOS_TITLE
+	}
+
+	text = {
 		localization_key = DEFAULT_HOS_TITLE
 	}
 }
@@ -75,6 +86,17 @@ defined_text = {
 			}
 		}
 		localization_key = FRA_HOG_TITLE
+	}
+
+	text = {
+		trigger = {
+			tag = USA
+			OR = {
+				has_government = centrism
+				has_government = traditional_conservatism
+			}
+		}
+		localization_key = USA_HOG_TITLE
 	}
 
 	text = {
@@ -119,6 +141,17 @@ defined_text = {
 	}
 
 	text = {
+		trigger = {
+			tag = USA
+			OR = {
+				has_government = centrism
+				has_government = traditional_conservatism
+			}
+		}
+		localization_key = USA_THEODORE_NAME
+	}
+
+	text = {
 		localization_key = DEFAULT_TITLE
 	}
 }
@@ -160,6 +193,17 @@ defined_text = {
 	}
 
 	text = {
+		trigger = {
+			tag = USA
+			OR = {
+				has_government = centrism
+				has_government = traditional_conservatism
+			}
+		}
+		localization_key = "GFX_USA_Theodore_Roosevelt"
+	}
+
+	text = {
 		localization_key = "GFX_portrait_bg_blank"
 	}
 }
@@ -188,6 +232,13 @@ defined_text = {
 		}
 		localization_key = EMILE_LEADER_DESCRIPTION
 	}
+
+	text = {
+		trigger = {
+			original_tag = USA
+		}
+		localization_key = WILLIAM_LEADER_DESCRIPTION
+	}
 }
 
 defined_text = {
@@ -212,5 +263,12 @@ defined_text = {
 			original_tag = FRA
 		}
 		localization_key = PIERRE_LEADER_DESCRIPTION
+	}
+
+	text = {
+		trigger = {
+			original_tag = USA
+		}
+		localization_key = THEODORE_LEADER_DESCRIPTION
 	}
 }

@@ -10,6 +10,10 @@ capital = 219
 	set_research_slots = 5
 
 	add_ideas = {
+		french_Dependancy
+		fear_of_revolution
+		long_live_the_tsar
+
 		# government
 		extensive_conscription
 		limited_exports

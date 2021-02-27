@@ -16,6 +16,16 @@ on_actions = {
 				set_variable = { democratic_support = 2 }
 				set_variable = { vote_value = 6 }
 			}
+			378 = {
+				set_variable = { republican_support = 2 }
+				set_variable = { democratic_support = 1 }
+				set_variable = { vote_value = 9 }
+			}
+			379 = {
+				set_variable = { republican_support = 0 }
+				set_variable = { democratic_support = 1 }
+				set_variable = { vote_value = 3 }
+			}
 		}
 	}
 }

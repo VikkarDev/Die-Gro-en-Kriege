@@ -31,6 +31,16 @@ spriteTypes = {
 	}
 
 	SpriteType = {
+		name = "GFX_idea_ger_failed_kultur_kampf"
+		texturefile = "gfx/interface/ideas/ger/GER_idea_failed_kultur_kampf.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_idea_ger_second_kultur_kampf"
+		texturefile = "gfx/interface/ideas/ger/GER_idea_second_kultur_kampf.dds"
+	}
+
+	SpriteType = {
 		name = "GFX_idea_ger_german_colonies"
 		texturefile = "gfx/interface/ideas/ger/GER_idea_german_colonies.dds"
 	}
@@ -38,6 +48,11 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_idea_ger_german_economy"
 		texturefile = "gfx/interface/ideas/ger/GER_idea_german_economy.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_idea_usa_1900_us_election"
+		texturefile = "gfx/interface/ideas/usa/USA_idea_1900_us_election.dds"
 	}
 
 	### new tfv nat spirit icons
