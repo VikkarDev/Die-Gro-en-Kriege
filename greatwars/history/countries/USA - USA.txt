@@ -4,11 +4,34 @@ capital = 361
 
 	oob = "USA_1900"
 
-	set_convoys = 200
+	set_convoys = 100
 
-	set_stability = 0.8
-	set_war_support = 0.4
+	set_stability = 0.7
+	set_war_support = 0.1
 	set_research_slots = 4
+
+	#Monroe Doctrine
+	give_guarantee = CAN
+	give_guarantee = MEX
+	give_guarantee = CUB
+	give_guarantee = HAI
+	give_guarantee = DOM
+	give_guarantee = GUA
+	give_guarantee = HON
+	give_guarantee = ELS
+	give_guarantee = NIC
+	give_guarantee = COS
+	give_guarantee = PAN
+	give_guarantee = VEN
+	give_guarantee = COL
+	give_guarantee = ECU
+	give_guarantee = PRU
+	give_guarantee = BRA
+	give_guarantee = BOL
+	give_guarantee = CHL
+	give_guarantee = PAR
+	give_guarantee = ARG
+	give_guarantee = URG
 
 	if = {
 		limit = {
@@ -82,11 +105,13 @@ capital = 361
 	}
 
 	add_ideas = {
-
 		# government
 		limited_conscription
 		limited_exports
 		partial_economic_mobilisation
+
+		# other
+		jim_crow_laws
 	}
 
 	add_timed_idea = { idea = 1900_us_election days = 310 }

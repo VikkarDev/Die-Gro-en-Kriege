@@ -42,6 +42,17 @@ capital = 49
 
 	set_research_slots = 3
 
+	add_ideas = {
+		# government
+		limited_conscription
+		partial_economic_mobilisation
+		free_trade
+
+		# other
+		sickman_of_europe
+		outdated_military
+	}
+
 	set_politics = {
 		ruling_party = autocracy
 		#last_election = "2078.9.26"

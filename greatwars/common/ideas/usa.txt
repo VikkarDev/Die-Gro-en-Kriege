@@ -2,6 +2,7 @@ ideas = {
 	country = {
 		1900_us_election = {
 		picture = usa_1900_us_election
+		removal_cost = -1
 	  
 		allowed = {
 			tag = USA
@@ -11,6 +12,21 @@ ideas = {
 			political_power_gain = 2.25
 			stability_factor = -0.05
 			resistance_activity = 0.025
+		}
+	  }
+	  jim_crow_laws = {
+		picture = usa_jim_crow_laws
+		removal_cost = -1
+	  
+		allowed = {
+			tag = USA
+		}
+	  
+		modifier = {
+			political_power_gain = -0.15
+			stability_factor = -0.10
+			recruitable_population = -0.25
+			production_factory_efficiency_gain_factor = -0.15
 		}
 	  }
 	}

@@ -55,6 +55,11 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/usa/USA_idea_1900_us_election.dds"
 	}
 
+	SpriteType = {
+		name = "GFX_idea_usa_jim_crow_laws"
+		texturefile = "gfx/interface/ideas/usa/USA_idea_jim_crow_laws.dds"
+	}
+
 	### new tfv nat spirit icons
 
 	spriteType = {

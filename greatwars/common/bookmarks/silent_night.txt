@@ -55,7 +55,7 @@ bookmarks = {
 			history = USA_SILENT_NIGHT_DESC
 			ideology = traditional_conservatism
 			ideas = {
-				1900_us_election
+				jim_crow_laws
 			}
 			focuses = {
 				
@@ -65,7 +65,8 @@ bookmarks = {
 			history = TUR_SILENT_NIGHT_DESC
 			ideology = autocracy
 			ideas = {
-				
+				sickman_of_europe
+				outdated_military
 			}	
 			focuses = {
 				
