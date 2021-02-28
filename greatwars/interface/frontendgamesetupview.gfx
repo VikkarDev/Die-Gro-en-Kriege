@@ -7,6 +7,15 @@ spriteTypes = {
 		texturefile = "gfx/interface/country_selection_minor_entry.dds"
 		noOfFrames = 2
 	}
+	
+	corneredTileSpriteType = {
+		name = "GFX_mainmenu_tiled_window"
+		size = { x = 1500 y = 1500 }
+		textureFile = "gfx/interface/tiles/mainmenu_tiled_window.dds"
+		borderSize = { x=100 y=75 }
+		tilingCenter = yes
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+	}
 
 	spriteType = {
 		name = "GFX_minor_portrait_overlay"

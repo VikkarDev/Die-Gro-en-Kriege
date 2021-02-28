@@ -90,13 +90,14 @@ guiTypes = {
 	containerWindowType = {
 		name = "mainmenu_single_player"
 		position = { x=-360 y =-420}
-		size = { width = 320 height = 395}
+		size = { width = 370 height = 330}
 		Orientation = LOWER_RIGHT
 		Origo = upper_left
 
 		background = {
 			name = "Background"
-			quadTextureSprite ="GFX_tiled_window"
+			quadTextureSprite ="GFX_mainmenu_tiled_window"
+			position = { x=-30 y =-30}
 		}
 
 		ButtonType = {
@@ -188,13 +189,14 @@ guiTypes = {
 	containerWindowType = {
 		name ="mainmenu_panel_bottom"
 		position = { x=-360 y =-440}
-		size = { width = 320 height = 415}
+		size = { width = 370 height = 470}
 		Orientation = LOWER_RIGHT
 		Origo = upper_left
 
 		background = {
 			name = "Background"
-			quadTextureSprite ="GFX_tiled_window"
+			quadTextureSprite ="GFX_mainmenu_tiled_window"
+			position = { x=-30 y =-30}
 		}
 
 		ButtonType = {
