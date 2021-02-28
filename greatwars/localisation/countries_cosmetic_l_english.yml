@@ -65,8 +65,8 @@ OTO_DEF:0 "The Ottoman Empire"
 OTO_ADJ:0 "Ottoman"
 
 EGY_UK:0 "Khedivate of Egypt"
-EGY_UK_ADJ:0 "The Khedivate of Egypt"
-EGY_UK_DEF:0 "Egyptian"
+EGY_UK_DEF:0 "The Khedivate of Egypt"
+EGY_UK_ADJ:0 "Egyptian"
 
 BOS_OCU_centrism:0 "Condominium of Bosnia and Herzegovina"
 BOS_OCU_centrism_DEF:0 "The Condominium of Bosnia and Herzegovina"
