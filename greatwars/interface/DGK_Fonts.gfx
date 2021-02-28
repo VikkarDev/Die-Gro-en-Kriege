@@ -4,4 +4,9 @@ bitmapfonts = {
         path = "gfx/fonts/monocle20"   
         color = 0xffffffff
     }
+    #bitmapfont = {
+    #    name = "ubuntu"
+    #    path = "gfx/fonts/ubuntu"   
+    #    color = 0xffffffff
+    #}
 }

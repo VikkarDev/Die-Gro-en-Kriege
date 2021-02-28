@@ -5,7 +5,7 @@ state={
 
 	history={
 		add_core_of = LBA
-		owner = ENG
+		owner = EGY
 		add_claim_by = TUR
 
 	}
