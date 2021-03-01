@@ -143,6 +143,19 @@ defined_text = {
 	text = {
 		trigger = {
 			tag = USA
+			has_country_flag = undecided_vp
+			OR = {
+				has_government = centrism
+				has_government = traditional_conservatism
+			}
+		}
+		localization_key = USA_UNKNOWN_NAME
+	}
+
+	text = {
+		trigger = {
+			tag = USA
+			has_country_flag = theodore_roosevelt_becomes_vp
 			OR = {
 				has_government = centrism
 				has_government = traditional_conservatism
@@ -195,12 +208,37 @@ defined_text = {
 	text = {
 		trigger = {
 			tag = USA
+			has_country_flag = undecided_vp
+			OR = {
+				has_government = centrism
+				has_government = traditional_conservatism
+			}
+		}
+		localization_key = "GFX_USA_UNKOWN"
+	}
+
+	text = {
+		trigger = {
+			tag = USA
+			has_country_flag = theodore_roosevelt_becomes_vp
 			OR = {
 				has_government = centrism
 				has_government = traditional_conservatism
 			}
 		}
 		localization_key = "GFX_USA_Theodore_Roosevelt"
+	}
+
+	text = {
+		trigger = {
+			tag = USA
+			has_country_flag = john_long_becomes_vp
+			OR = {
+				has_government = centrism
+				has_government = traditional_conservatism
+			}
+		}
+		localization_key = "GFX_USA_John_Long"
 	}
 
 	text = {
@@ -236,6 +274,7 @@ defined_text = {
 	text = {
 		trigger = {
 			original_tag = USA
+			has_country_flag = william_mckinley_president
 		}
 		localization_key = WILLIAM_LEADER_DESCRIPTION
 	}
@@ -268,6 +307,15 @@ defined_text = {
 	text = {
 		trigger = {
 			original_tag = USA
+			has_country_flag = undecided_vp
+		}
+		localization_key = UNKOWN_LEADER_DESCRIPTION
+	}
+
+	text = {
+		trigger = {
+			original_tag = USA
+			has_country_flag = theodore_roosevelt_becomes_vp
 		}
 		localization_key = THEODORE_LEADER_DESCRIPTION
 	}

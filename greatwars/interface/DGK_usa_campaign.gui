@@ -76,23 +76,23 @@ guiTypes = {
 			position = { x = 40 y = 800 }
 		}
 
-		instantTextBoxType = {
-			name = "state_title"
-			position = { x = -67 y = 465 }
-			maxWidth = 400
-			text = "Selected State: [USA_targeted_campaign_state.GetName]"
-			font = "hoi_30header"
-			format = center
-		}
+		#instantTextBoxType = {
+		#	name = "state_title"
+		#	position = { x = -67 y = 465 }
+		#	maxWidth = 400
+		#	text = "Selected State: [USA_targeted_campaign_state.GetName]"
+		#	font = "hoi_30header"
+		#	format = center
+		#}
 
-		instantTextBoxType = {
-			name = "state_currently_supports"
-			position = { x = 22 y = 500 }
-			text = "State Leading Party: [USA_targeted_campaign_state.GetStatesCurrentSupportingCandidate]"
-			font = "hoi_30header"
-			maxWidth = 600
-			maxHeight = 30
-		}
+		#instantTextBoxType = {
+		#	name = "state_currently_supports"
+		#	position = { x = 22 y = 500 }
+		#	text = "State Leading Party: [USA_targeted_campaign_state.GetStatesCurrentSupportingCandidate]"
+		#	font = "hoi_30header"
+		#	maxWidth = 600
+		#	maxHeight = 30
+		#}
 
 		containerWindowType = {
 			name = "candidates"
@@ -109,7 +109,7 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "republican_party_key"
 				text = "republican_campaign_key"
-				position = { x = 825 y = 465 }
+				position = { x = 830 y = 465 }
 				font = "hoi_30"
 				maxWidth = 200
 			}
@@ -117,7 +117,7 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "democratic_party_key"
 				text = "democratic_campaign_key"
-				position = { x = 828 y = 490 }
+				position = { x = 833 y = 485 }
 				font = "hoi_30"
 				maxWidth = 230
 			}

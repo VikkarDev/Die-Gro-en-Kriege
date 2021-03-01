@@ -1,6 +1,20 @@
 on_actions = {
 	on_startup = {
 		effect = {
+
+			if = {
+				limit = {
+					has_start_date < 1900.1.2
+				}
+
+				USA = {
+					country_event = { id = USA_VP.1 days = 169 } # June 19, 1900
+
+					set_country_flag = undecided_vp
+					set_country_flag = william_mckinley_president
+				}
+			}
+
 			375 = {
 				set_variable = { republican_support = 3 }
 				set_variable = { democratic_support = 5 }

@@ -30,6 +30,8 @@ country_event = {
 	}
 }
 
+add_namespace = britain_naval
+
 # NAVAL ARMS RACE
 country_event = {
 	id = britain_naval.1

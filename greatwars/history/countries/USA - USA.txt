@@ -136,7 +136,7 @@ capital = 361
 
 	create_country_leader = {
 		name = "William McKinley"
-		desc = ""
+		desc = WILLIAM_LEADER_DESCRIPTION
 		picture = "William_McKinley.dds"
 		ideology = conserv
 		traits = {

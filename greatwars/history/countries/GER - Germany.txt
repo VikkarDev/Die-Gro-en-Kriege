@@ -72,7 +72,7 @@ capital = 819
 
 	create_country_leader = {
 		name = "Wilhelm II"
-		desc = ""
+		desc = WILHELM_LEADER_DESCRIPTION
 		picture = "Wilhelm_II.dds"
 		ideology = liberal
 		traits = {
