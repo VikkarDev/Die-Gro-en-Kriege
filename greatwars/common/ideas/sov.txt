@@ -1,24 +1,44 @@
 ideas = {
     country = {
         french_Dependancy = {
-        picture = generic_economic_increase
+        picture = sov_french_dependancy
 
         allowed = {
             tag = SOV
         }
 
+        on_add = {
+            add_opinion_modifier = {
+                  target = FRA
+                  modifier = allied_partners
+            }
+        }
+
+        on_remove = {
+	        remove_opinion_modifier = {
+                 target = FRA
+                 modifier = allied_partners
+            }
+        }
+
         modifier = {
+            trade_opinion_factor = 0.1
+            min_export = 0.2
+            custom_modifier_tooltip = allied_partner_opinions
         }
     }
 
         fear_of_revolution = {
-        picture = socialist_science_focus
+        picture = sov_fear_of_revolution
 
         allowed = {
             tag = SOV
         }
 
         modifier = {
+            stability_factor = -0.15
+            occupation_cost = 0.15
+            compliance_growth_on_our_occupied_states = 0.05
         }
     }
 
@@ -31,6 +51,8 @@ ideas = {
         }
 
         modifier = {
+            stability_factor = 0.05
+            war_support_factor = 0.15
         }
     }
 }

@@ -76,7 +76,9 @@ bookmarks = {
 			history = SOV_SILENT_NIGHT_DESC
 			ideology = autocracy
 			ideas = {
-				
+				french_Dependancy
+				fear_of_revolution
+				long_live_the_tsar
 			}
 			focuses = {
 				

@@ -1,6 +1,16 @@
 spriteTypes = {
 
 	SpriteType = {
+		name = "GFX_idea_sov_french_dependancy"
+		texturefile = "gfx/interface/ideas/sov/idea_rus_french_dependency.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_sov_fear_of_revolution"
+		texturefile = "gfx/interface/ideas/sov/idea_rus_fear_of_revolution.dds"
+	}
+
+	SpriteType = {
 		name = "GFX_idea_ger_wilhelm_ii"
 		texturefile = "gfx/interface/ideas/ger/GER_idea_wilhelm_ii.dds"
 	}
