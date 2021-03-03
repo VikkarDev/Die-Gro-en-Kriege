@@ -70,6 +70,11 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/usa/USA_idea_jim_crow_laws.dds"
 	}
 
+	SpriteType = {
+		name = "GFX_idea_tur_sickman_of_europe"
+		texturefile = "gfx/interface/ideas/tur/TUR_idea_sickman_of_europe.dds"
+	}
+
 	### new tfv nat spirit icons
 
 	spriteType = {
