@@ -1,0 +1,11 @@
+﻿l_english:
+
+# Ideas
+ french_Dependancy_desc:0 "While this National Spirit is active, we will have improved relations with  [FRA.GetFlag]  §BFrance§!\n\nAcutal Description Goes Here"
+ french_Dependancy:0 "French Dependancy"
+ fear_of_revolution:0 "Fear of Revolution"
+ long_live_the_tsar:0 "Long Live the Tsar"
+
+# Modifiers
+ market_dependancy:0 "Loan Dependency"
+ allied_partners:0 "Allied"

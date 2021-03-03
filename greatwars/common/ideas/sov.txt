@@ -1,17 +1,10 @@
 ideas = {
     country = {
-        french_Dependancy = {
+        french_dependancy = {
         picture = sov_french_dependancy
 
         allowed = {
             tag = SOV
-        }
-
-        on_add = {
-            add_opinion_modifier = {
-                  target = FRA
-                  modifier = allied_partners
-            }
         }
 
         on_remove = {
@@ -24,7 +17,6 @@ ideas = {
         modifier = {
             trade_opinion_factor = 0.1
             min_export = 0.2
-            custom_modifier_tooltip = allied_partner_opinions
         }
     }
 

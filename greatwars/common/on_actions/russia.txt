@@ -1,0 +1,16 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			SOV = {
+			add_opinion_modifier = {
+    			target = FRA
+    			modifier = allied_partners
+			}
+			add_opinion_modifier = {
+   				 target = FRA
+  				  modifier = market_dependancy
+			}
+			}
+		}
+	}
+}

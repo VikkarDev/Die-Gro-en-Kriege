@@ -3,16 +3,6 @@ capital = 219
 1900.1.1 = {
 	OOB = "SOV_1900"
 
-add_opinion_modifier = {
-    target = FRA
-    modifier = allied_partners
-}
-
-add_opinion_modifier = {
-    target = FRA
-    modifier = market_dependancy
-}
-
 	capital = 195
 
 	set_convoys = 200

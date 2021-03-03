@@ -1,11 +1,11 @@
 opinion_modifiers = {
 	
 	market_dependancy = {
-		value = 2.8
+		value = 5
 	}
 
 	allied_partners = {
-		value = 7.8
+		value = 15
 	}
 	
 }
