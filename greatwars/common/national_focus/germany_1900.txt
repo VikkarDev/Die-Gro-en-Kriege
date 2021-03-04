@@ -1817,7 +1817,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_the_new_course
-		icon = GFX_focus_generic_monarchy_1
+		icon = GFX_ger_focus_the_new_cource
 		search_filters = { FOCUS_FILTER_MANPOWER }
 		x = 53
 		y = 2

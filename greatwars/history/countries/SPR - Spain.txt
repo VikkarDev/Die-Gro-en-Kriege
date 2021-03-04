@@ -30,8 +30,8 @@ capital = 41
 	create_country_leader = {
 		name = "King Alfonso the XIII"
 		desc = ""
-		picture = "KingAlfonsoXIII.dds"
-		ideology = liberal
+		picture = "Alfonso_XIII.dds"
+		ideology = con_liberal
 		traits = {
 			
 		}

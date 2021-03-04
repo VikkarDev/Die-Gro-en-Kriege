@@ -41,7 +41,7 @@ capital = 141
 		name = "Oscar II"
 		desc = ""
 		picture = "Oscar_II.dds"
-		ideology = liberal
+		ideology = con_liberal
 		#traits = {
 		#	
 		#}

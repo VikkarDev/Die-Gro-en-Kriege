@@ -57,7 +57,7 @@ capital = 43
 		name = "Franz Joseph"
 		desc = ""
 		picture = "Franz_Joseph.dds"
-		ideology = liberal
+		ideology = con_liberal
 		traits = {
 			
 		}

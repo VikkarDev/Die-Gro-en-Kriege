@@ -1,15 +1,15 @@
 #reload countrycolors
 GNG = {
-	color = rgb { 106  119  89 }
-	color_ui = rgb { 106  119  89 }
+	color = rgb { 101 102 99 }
+	color_ui = rgb { 101 102 99 }
 }
 GEA = {
-	color = rgb { 106  119  89 }
-	color_ui = rgb { 106  119  89 }
+	color = rgb { 101 102 99 }
+	color_ui = rgb { 101 102 99 }
 }
 GER = {
-	color = rgb { 106  119  89 }
-	color_ui = rgb { 106  119  89 }
+	color = rgb { 101 102 99 }
+	color_ui = rgb { 101 102 99 }
 }
 SOV = {
 	color = rgb { 50 173 97 }
@@ -28,7 +28,7 @@ JSH = {
 	color_ui = rgb { 222 176 69 }
 }
 ENG = {
-	color = rgb { 201 56 93 }
+	color = rgb { 168 37 52 }
 	color_ui = rgb { 255 73 121 }
 }
 BOX = {
@@ -40,7 +40,7 @@ SWI = {
 	color_ui = rgb { 193 81 81 }
 }
 FRA = {
-	color = rgb { 57 113 228 }
+	color = rgb { 33 49 156 }
 	color_ui = rgb { 74 147 255 }
 }
 POL = {
@@ -132,8 +132,8 @@ NAT = {
 	color_ui = rgb { 255 73 121 }
 }
 FRI = {
-	color = rgb { 57 113 228 }
-	color_ui = rgb { 57 113 228 }
+	color = rgb { 33 49 156 }
+	color_ui = rgb { 33 49 156 }
 }
 LAB = {
 	color = rgb { 76 145 63 }

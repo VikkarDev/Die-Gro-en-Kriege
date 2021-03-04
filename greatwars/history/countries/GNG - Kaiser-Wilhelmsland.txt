@@ -26,7 +26,7 @@
 		name = "Wilhelm II"
 		desc = ""
 		picture = "Wilhelm_II.dds"
-		ideology = liberal
+		ideology = con_liberal
 		#traits = {
 		#	
 		#}

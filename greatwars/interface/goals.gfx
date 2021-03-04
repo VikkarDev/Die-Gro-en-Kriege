@@ -129,6 +129,11 @@ spriteTypes = {
 	}
 
 	SpriteType = {
+		name = "GFX_ger_focus_the_new_cource"
+		texturefile = "gfx/interface/goals/ger/GER_focus_the_new_course.dds"
+	}
+
+	SpriteType = {
 		name = "GFX_GER_focus_german_imperial_navy"
 		texturefile = "gfx/interface/goals/ger/GER_focus_german_imperial_navy.dds"
 	}

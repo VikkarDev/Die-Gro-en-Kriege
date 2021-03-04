@@ -1,9 +1,7 @@
-capital = 49
+capital = 3
 
 1900.1.1 = {
-	capital = 797
-
-	OOB = "TUR_1900"
+	OOB = "SWI_1900"
 
 	set_convoys = 100
 

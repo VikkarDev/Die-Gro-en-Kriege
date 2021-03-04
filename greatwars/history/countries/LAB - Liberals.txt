@@ -45,7 +45,7 @@ capital = 869
 		name = "Rafael Uribe Uribe"
 		desc = ""
 		picture = "Rafael_Uribe_Uribe.dds"
-		ideology = liberal
+		ideology = con_liberal
 		traits = {
 			
 		}

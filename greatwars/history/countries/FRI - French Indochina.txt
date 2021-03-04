@@ -37,6 +37,6 @@ capital = 286
 		name = "Joseph Athanase Paul Doumer"
 		desc = ""
 		picture = "Joseph_Athanase_Paul_Doumer.dds"
-		ideology = liberal
+		ideology = con_liberal
 	}
 }

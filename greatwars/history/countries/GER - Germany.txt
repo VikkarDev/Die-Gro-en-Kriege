@@ -74,7 +74,7 @@ capital = 819
 		name = "Wilhelm II"
 		desc = WILHELM_LEADER_DESCRIPTION
 		picture = "Wilhelm_II.dds"
-		ideology = liberal
+		ideology = con_liberal
 		traits = {
 			kaiserin_of_the_people
 		}

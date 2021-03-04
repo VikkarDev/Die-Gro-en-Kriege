@@ -53,7 +53,7 @@ capital = 16
 		name = "Émile Loubet"
 		desc = ""
 		picture = "Emile_Loubet.dds"
-		ideology = liberal
+		ideology = con_liberal
 		traits = {
 			figurehead_president
 		}

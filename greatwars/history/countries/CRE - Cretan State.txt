@@ -30,7 +30,7 @@ capital = 182
 		name = "Prince George of Greece and Denmark"
 		desc = ""
 		picture = "Prince_George.dds"
-		ideology = military_government
+		ideology = authoritarianism
 		#traits = {
 		#	father_of_the_turks
 		#}

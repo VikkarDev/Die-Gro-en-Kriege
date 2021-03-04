@@ -41,7 +41,7 @@
 		name = "Johann von Appel"
 		desc = ""
 		picture = "Johann_von_Appel.dds"
-		ideology = liberal
+		ideology = con_liberal
 		traits = {
 			
 		}
