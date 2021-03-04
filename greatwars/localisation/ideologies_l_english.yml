@@ -28,7 +28,7 @@
     council_communism_desc:""
 
     social_liberalism:0 "Social Liberalism"
-    social_liberalism:_desc:""
+    social_liberalism:_desc: ""
     social_liberal:0 "Social Liberalism"
     social_liberal_desc:0 ""
 
@@ -44,9 +44,9 @@
     market_liberal:0 "Market Liberalism"
     market_liberal_desc:0 "Market Liberalism is a political ideology and a branch of liberalism which advocates civil liberties under the rule of law with an emphasis on economic freedom."
 
-    traditional_conservatism:0 "Traditional Conservatism"
-    traditional_conservatism_desc:0 "Traditional Conservative Government"
-    traditional_conservatism_drift:0 "Daily Traditional Conservatism Support"
+    traditional_conservatism:0 "Social Conservatism"
+    traditional_conservatism_desc:0 "Social Conservative Government"
+    traditional_conservatism_drift:0 "Daily Social Conservatism Support"
     traditional_conservatism_acceptance:0 "Acceptance of Traditional Conservative Diplomacy"
     toryism:0 "Toryism"
     toryism_desc:0 "A Tory holds a political philosophy, Toryism based on a British version of traditionalism and conservatism, which upholds the supremacy of social order as it has evolved throughout history."
