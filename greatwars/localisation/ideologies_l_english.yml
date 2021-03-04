@@ -5,7 +5,7 @@
     #   Sub-ideology_desc
 
 
-    vanguard_communism:0 "Authoritarian Socialism"
+    vanguard_communism:0 "Vanguardism"
     vanguard_communism_desc:0 "Authoritarian Socialist Government"
     vanguard_communism_drift:0 "Daily Authoritarian Socialist Support"
     vanguard_communism_acceptance:0 "Acceptance of Authoritarian Socialism Diplomacy"
@@ -16,19 +16,31 @@
     social_egalitarianism_acceptance:0 "Acceptance of Social Democratic Diplomacy"
     national_progressive:0 "National Progressivism"
     national_progressive_desc:0 "National Progressivism is a political philosophy that combines mainstream progressivism with civic nationalism. It calls for reforms that align with mainstream progressive ideals but emphasizes the "Three C's" of conservation of natural resources, control of corporations, and consumer protection. It also supports a strong military, foreign intervention, and trust-busting."
+    
+    libertarian_socialism:0 "Libertarian Socialism"
+    libertarian_socialism_desc:0 "Libertarian Socialist Government"
+    libertarian_socialism_acceptance:0 "Acceptance of Libertarian Socialist Diplomacy"
+    anarcho_communism:0 "Anarcho-Communism"
+    anarcho_communism_desc:0 ""
+    anarcho_syndicalism:0 "Anarcho-Syndicalism"
+    anarcho_syndicalism_desc:""
+    council_communism:0 "Council Communism"
+    council_communism_desc:""
 
-    centrism:0 "Centrism"
+    social_liberalism:0 "Social Liberalism"
+    social_liberalism:_desc:""
+    social_liberal:0 "Social Liberalism"
+    social_liberal_desc:0 ""
+
+
+    centrism:0 "Market Liberalism"
     centrism_desc:0 "Centrist Government"
     centrism_drift:0 "Daily Centrism Support"
     centrism_acceptance:0 "Acceptance of Centrist Diplomacy"
-    conserv_liberal:0 "Conservative Liberalism"
-    conserv_liberal_desc:0 "Conservative liberalism is a variant of liberalism, combining liberal values and policies with conservative stances, or simply representing the right-wing of the liberal movement."
-    social_liberal:0 "Social Liberalism"
-    social_liberal_desc:0 "Social liberalism is a political ideology that believes the individual requires a level of social justice."
-    radical_liberal:0 "Radicalism"
-    radical_liberal_desc:0 "Radicalism is an Enlightenment-era political philosophy which seeks institutional, social/economic, and especially cultural/educational reform to allow every citizen to put their Liberal rights into practice, often promoting Secularism, Republicanism and Radical Democracy."
-    anarcho_capital:0 "Anarcho-Capitalism"
-    narcho_capital_desc:0 "Anarcho-capitalism is a political philosophy and school of anarchist thought that advocates the elimination of the state in favor of self-ownership, private property, and free markets."
+    con_liberal:0 "Conservative Liberalism"
+    con_liberal_desc:0 "Conservative liberalism is a variant of liberalism, combining liberal values and policies with conservative stances, or simply representing the right-wing of the liberal movement."
+    lib_conservative:0 ""
+    lib_conservative_desc:0 ""
     market_liberal:0 "Market Liberalism"
     market_liberal_desc:0 "Market Liberalism is a political ideology and a branch of liberalism which advocates civil liberties under the rule of law with an emphasis on economic freedom."
 
