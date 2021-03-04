@@ -2246,7 +2246,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_kaiser_wilhelm_II
-		icon = GFX_focus_ger_return_of_the_kaiser
+		icon = GFX_ger_focus_kaiser_wilhelm_ii
 		search_filters = { FOCUS_FILTER_MANPOWER }
 		x = 56
 		y = 1
@@ -2380,6 +2380,10 @@ focus_tree = {
 		
 		available = {
 			country_exists = GER
+			OR = {
+				has_subject = GEA
+				has_subject = GNG
+			}
 		}
 		bypass = {
 			

@@ -112,6 +112,11 @@ capital = 361
 
 		# other
 		jim_crow_laws
+		scars_of_1865
+		the_gold_standard
+		american_imperialism
+		the_two_party_system
+		fully_industrialized_society
 	}
 
 	add_timed_idea = { idea = 1900_us_election days = 310 }

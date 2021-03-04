@@ -56,6 +56,8 @@ bookmarks = {
 			ideology = traditional_conservatism
 			ideas = {
 				jim_crow_laws
+				the_two_party_system
+				scars_of_1865
 			}
 			focuses = {
 				
