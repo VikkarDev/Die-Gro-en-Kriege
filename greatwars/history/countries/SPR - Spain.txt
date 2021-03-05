@@ -10,28 +10,28 @@ capital = 41
 	set_research_slots = 3
 
 	set_politics = {
-		ruling_party = centrism
-		#last_election = "2078.9.26"
-		#election_frequency = 48
-		elections_allowed = no
+		ruling_party = radical_democracy
+		last_election = "1899.4.16"
+		election_frequency = 24
+		elections_allowed = yes
 	}
 
 	set_popularities = {
 		vanguard_communism = 0
 		social_egalitarianism = 0
-		centrism = 100
+		centrism = 0
 		traditional_conservatism = 0
-		radical_democracy = 0
+		radical_democracy = 100
 		chauvinist_populism = 0
 		autocracy = 0
 		democratic_socialism = 0
 	}
 
 	create_country_leader = {
-		name = "King Alfonso the XIII"
+		name = "Alfonso XIII"
 		desc = ""
 		picture = "Alfonso_XIII.dds"
-		ideology = con_liberal
+		ideology = plutocracy
 		traits = {
 			
 		}
