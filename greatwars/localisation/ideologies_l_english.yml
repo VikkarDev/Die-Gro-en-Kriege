@@ -79,10 +79,10 @@
     constit_monarch:0 "Constitutional Monarchy"
     constit_monarch_desc:0 "A Constitutional monarchy is a type of government where the main ruler is the king or emperor, but he does not have all the power, his power being limited by a constitution and in some circumstances, a non-ruling parliament."
 
-    chauvinist_populism:0 "National Authoritarianism"
-    chauvinist_populism_desc:0 "National Authoritarian Government"
-    chauvinist_populism_drift:0 "Daily National Authoritarianism Support"
-    chauvinist_populism_acceptance:0 "Acceptance of National Authoritarian Diplomacy"
+    chauvinist_populism:0 "Ultranationalism"
+    chauvinist_populism_desc:0 "Ultranationalist Government"
+    chauvinist_populism_drift:0 "Daily Ultranationalist Support"
+    chauvinist_populism_acceptance:0 "Acceptance of Ultranationalist Diplomacy"
 
     democratic_socialism:0 "Democratic Socialism"
     democratic_socialism_desc:0 "Democratic Socialist Government"
