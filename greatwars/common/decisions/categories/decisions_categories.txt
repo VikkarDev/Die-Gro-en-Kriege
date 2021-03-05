@@ -40,7 +40,9 @@ dgk_britain_naval_race_category = {
 
 	available = {
 		original_tag = ENG
-		num_of_naval_factories > 5
+		ENG = {
+			num_of_naval_factories > 5
+		}
 	}
 
 	priority = {
@@ -50,9 +52,7 @@ dgk_britain_naval_race_category = {
 	visible_when_empty = yes
 
 	visible = {
-		NOT = {
-			#
-		}
+		tag = ENG
 	}
 }
 

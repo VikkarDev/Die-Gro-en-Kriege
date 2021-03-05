@@ -265,11 +265,141 @@ dgk_britain_naval_race_category = {
 			industrial_capacity_dockyard = 0.1
 		}
 	}
+
+	new_submarine_models = {
+		icon = "gfx/interface/decision_generic_naval.dds"
+
+		allowed = { 
+			tag = ENG
+			check_variable = {
+				var = ENG_first_sea_lord
+				value = 2
+				compare = equals
+			}
+		}
+		cost = 10
+		ai_will_do = {
+			factor = 30
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = not_finished
+		}
+	}
+
+	new_destroyer_models = {
+		icon = "gfx/interface/decision_generic_naval.dds"
+
+		allowed = { 
+			tag = ENG
+			check_variable = {
+				var = ENG_first_sea_lord
+				value = 2
+				compare = equals
+			}
+		}
+		cost = 10
+		ai_will_do = {
+			factor = 30
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = not_finished
+		}
+	}
+
+	new_light_cruiser_models = {
+		icon = "gfx/interface/decision_generic_naval.dds"
+
+		allowed = { 
+			tag = ENG
+			check_variable = {
+				var = ENG_first_sea_lord
+				value = 2
+				compare = equals
+			}
+		}
+		cost = 10
+		ai_will_do = {
+			factor = 30
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = not_finished
+		}
+	}
+
+	new_battlecruiser_models = {
+		icon = "gfx/interface/decision_generic_naval.dds"
+
+		allowed = { 
+			tag = ENG
+			check_variable = {
+				var = ENG_first_sea_lord
+				value = 2
+				compare = equals
+			}
+		}
+		cost = 10
+		ai_will_do = {
+			factor = 30
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = not_finished
+		}
+	}
+
+	five_strategic_keys = {
+		icon = "gfx/interface/decision_generic_naval.dds"
+
+		allowed = { 
+			tag = ENG
+			check_variable = {
+				var = ENG_first_sea_lord
+				value = 2
+				compare = equals
+			}
+		}
+		cost = 10
+		ai_will_do = {
+			factor = 30
+		}
+
+		complete_effect = {
+			add_tech_bonus = {
+				name = ENG_five_strategic_keys
+				category = naval_doctrine
+				bonus = 1.0
+			}
+		}
+	}
+
+	dreadnought_development = {
+		icon = "gfx/interface/decision_generic_naval.dds"
+
+		allowed = { 
+			tag = ENG
+			check_variable = {
+				var = ENG_first_sea_lord
+				value = 2
+				compare = equals
+			}
+		}
+		cost = 10
+		ai_will_do = {
+			factor = 30
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = not_finished
+		}
+	}
 }
 
 dgk_usa_statehood_policies_category = {
 	grant_statehood_oklahoma = {
-		icon = generic_political_actions
+		icon = "GFX_decision_oklahoma_statehood"
 
 		highlight_states = {
 			state = 374
@@ -358,7 +488,7 @@ dgk_usa_statehood_policies_category = {
 	}
 
 	grant_statehood_arizona = {
-		icon = generic_political_actions
+		icon = "GFX_decision_arizona_statehood"
 
 		highlight_states = {
 			state = 377
@@ -391,7 +521,7 @@ dgk_usa_statehood_policies_category = {
 	}
 
 	grant_statehood_alaska = {
-		icon = generic_political_actions
+		icon = "GFX_decision_alaska_statehood"
 
 		highlight_states = {
 			state = 463

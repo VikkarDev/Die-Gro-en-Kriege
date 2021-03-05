@@ -8,6 +8,21 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "GFX_decision_alaska_statehood"
+		texturefile = "gfx/interface/decisions/usa/decision_alaska_statehood.dds"
+	}
+
+	spriteType = {
+		name = "GFX_decision_oklahoma_statehood"
+		texturefile = "gfx/interface/decisions/usa/decision_oklahoma_statehood.dds"
+	}
+
+	spriteType = {
+		name = "GFX_decision_arizona_statehood"
+		texturefile = "gfx/interface/decisions/usa/decision_arizona_statehood.dds"
+	}
+
+	spriteType = {
 		name = "GFX_decision_category_generic"
 		texturefile = "gfx/interface/decisions/decision_category_generic.dds"
 	}
