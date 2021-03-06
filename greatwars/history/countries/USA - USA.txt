@@ -32,7 +32,8 @@ capital = 361
 	give_guarantee = PAR
 	give_guarantee = ARG
 	give_guarantee = URG
-
+    #US protection of Liberia from colonial powers
+	give_guarantee = LIB
 	if = {
 		limit = {
 			OR = {
@@ -131,8 +132,9 @@ capital = 361
 	set_popularities = {
 		vanguard_communism = 0
 		social_egalitarianism = 5
-		centrism = 69
-		traditional_conservatism = 18
+		centrism = 48
+		social_liberalism = 45
+		traditional_conservatism = 0
 		radical_democracy = 2
 		chauvinist_populism = 0
 		autocracy = 0
