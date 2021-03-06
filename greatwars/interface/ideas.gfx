@@ -66,6 +66,31 @@ spriteTypes = {
 	}
 
 	SpriteType = {
+		name = "GFX_idea_usa_scars_of_1865"
+		texturefile = "gfx/interface/ideas/usa/USA_idea_scars_of_1865.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_idea_usa_the_gold_standard"
+		texturefile = "gfx/interface/ideas/usa/USA_idea_the_gold_standard.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_idea_usa_american_imperialism"
+		texturefile = "gfx/interface/ideas/usa/USA_idea_american_imperialism.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_idea_usa_the_two_party_system"
+		texturefile = "gfx/interface/ideas/usa/USA_idea_the_two-party_system.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_idea_usa_fully_industrialized_society"
+		texturefile = "gfx/interface/ideas/usa/USA_idea_fully_industrialized_society.dds"
+	}
+
+	SpriteType = {
 		name = "GFX_idea_usa_jim_crow_laws"
 		texturefile = "gfx/interface/ideas/usa/USA_idea_jim_crow_laws.dds"
 	}
@@ -73,6 +98,11 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_idea_tur_sickman_of_europe"
 		texturefile = "gfx/interface/ideas/tur/TUR_idea_sickman_of_europe.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_idea_tur_outdated_military"
+		texturefile = "gfx/interface/ideas/tur/TUR_idea_outdated_military.dds"
 	}
 
 	### new tfv nat spirit icons
