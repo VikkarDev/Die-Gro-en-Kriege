@@ -79,4 +79,16 @@ capital = 819
 			kaiserin_of_the_people
 		}
 	}
+
+	create_field_marshal = {
+		name = "Remus von Woyrsch"
+		portrait_path = "gfx/leaders/GER/Field Marshals/Remus_von_Woyrsch.dds"
+		skill = 3
+		attack_skill = 3
+		defense_skill = 3
+		planning_skill = 2
+		logistics_skill = 1
+		traits = { infantry_leader }
+		id = 1
+	}
 }
