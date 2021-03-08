@@ -104,6 +104,12 @@ sickman_of_europe_desc:0 ""
 outdated_military:0 "Outdated Military"
 outdated_military_desc:0 ""
 
+# JAPAN
+for_the_emperor:0 "For the Emperor"
+for_the_emperor_desc:0 ""
+overstreched_economy:0 "Overstreched Economy"
+overstreched_economy_desc:0 ""
+
 # GENERIC
 colonial_influence:0 "Colonial Influence"
 colonial_influence_desc:0 "Closer ties to colonies are important in order to keep power world wide. Colonial influence will allow closer ties to the overlords country."

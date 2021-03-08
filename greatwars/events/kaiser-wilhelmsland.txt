@@ -17,7 +17,7 @@ country_event = {
 				name = "Albert Hahl"
 				desc = ""
 				picture = "Albert_Hahl.dds"
-				ideology = liberal
+				ideology = con_liberal
 				#traits = {
 				#	
 				#}

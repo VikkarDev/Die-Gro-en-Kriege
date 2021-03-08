@@ -2,7 +2,7 @@ state={
 	id=745
 	name="STATE_745"
 	provinces={
-		1150 6851 
+		1150 6851 13248
 	}
 	state_category = large_town
 	history=
@@ -13,6 +13,9 @@ state={
 		add_core_of = PRC
 		victory_points = {
 			1150 1 
+		}
+		victory_points = {
+			13248 1 
 		}
 		buildings = {
 			infrastructure = 5

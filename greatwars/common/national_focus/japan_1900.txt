@@ -21,10 +21,12 @@ focus_tree = {
 		x = 6
 		y = 0
 
-		cost = 10
+		cost = 5
 
 		available = {
-			
+			CHI = {
+				has_war = yes
+			}
 		}
 		
 		completion_reward = { 
@@ -39,12 +41,12 @@ focus_tree = {
 		x = 3
 		y = 1
 
-		cost = 10
+		cost = 13
 		prerequisite = { focus = JAP_intervention_in_china }
 		mutually_exclusive = { focus = JAP_limited_intervention focus = JAP_support_the_rebellion }
 
 		available = {
-			
+
 		}
 		
 		completion_reward = { 
@@ -136,11 +138,25 @@ focus_tree = {
 		x = 6
 		y = 2
 
-		cost = 10
+		cost = 5
 		prerequisite = { focus = JAP_limited_intervention }
 
 		available = {
-			
+			if = {
+				limit = {
+					has_equipment = {
+						infantry_equipment_1 = 1
+					}
+				}
+				has_equipment = {
+					infantry_equipment_1 = 5000
+				}
+			}
+			else = {
+				has_equipment = {
+					infantry_equipment_0 = 5000
+				}
+			}
 		}
 		
 		completion_reward = { 
@@ -163,7 +179,32 @@ focus_tree = {
 		}
 		
 		completion_reward = { 
-			
+			JAP = {
+				diplomatic_relation = {
+					country = ENG
+					relation = docking_rights
+				}
+				diplomatic_relation = {
+					country = GER
+					relation = docking_rights
+				}
+				diplomatic_relation = {
+					country = FRA
+					relation = docking_rights
+				}
+				diplomatic_relation = {
+					country = USA
+					relation = docking_rights
+				}
+				diplomatic_relation = {
+					country = ITA
+					relation = docking_rights
+				}
+				diplomatic_relation = {
+					country = HUN
+					relation = docking_rights
+				}
+			}
 		}
 	}
 
@@ -198,7 +239,21 @@ focus_tree = {
 		prerequisite = { focus = JAP_support_the_rebellion }
 
 		available = {
-			
+			if = {
+				limit = {
+					has_equipment = {
+						infantry_equipment_1 = 1
+					}
+				}
+				has_equipment = {
+					infantry_equipment_1 = 5000
+				}
+			}
+			else = {
+				has_equipment = {
+					infantry_equipment_0 = 5000
+				}
+			}
 		}
 		
 		completion_reward = { 
@@ -213,7 +268,7 @@ focus_tree = {
 		x = 11
 		y = 3
 
-		cost = 10
+		cost = 5
 		prerequisite = { focus = JAP_send_arms }
 
 		available = {
@@ -254,11 +309,18 @@ focus_tree = {
 		cost = 10
 
 		available = {
-			
+			SOV = {
+				owns_state = 716
+				owns_state = 328
+				owns_state = 717
+			}
+
+			has_war = no
+			date > 1903.1.1
 		}
 		
 		completion_reward = { 
-			
+			country_event = { id = japan.4 days = 1 }
 		}
 	}
 
@@ -274,11 +336,11 @@ focus_tree = {
 		mutually_exclusive = { focus = JAP_concede_our_sphere_of_influence }
 
 		available = {
-			
+			has_manpower = 300000
 		}
 		
 		completion_reward = { 
-			
+			SOV = { country_event = { id = japan.5 days = 1 } }
 		}
 	}
 
@@ -370,11 +432,123 @@ focus_tree = {
 		prerequisite = { focus = JAP_concede_our_sphere_of_influence focus = JAP_protest_russian_deployment }
 
 		available = {
-			
+
+			OR = {
+				KOR = {
+					is_subject_of = JAP
+				}
+
+				525 = {
+					is_owned_and_controlled_by = JAP
+				}
+
+				527 = {
+					is_owned_and_controlled_by = JAP
+				}
+			}
 		}
 		
 		completion_reward = { 
-			
+			525 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+			}
+
+			527 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+			}
+
+			custom_effect_tooltip = "Select provinces bordering China gain +3 land fort level."
+
+			hidden_effect = {
+				527 = {
+					add_building_construction = {
+						type = bunker
+						level = 3
+						province = 11835
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = bunker
+						level = 3
+						province = 9918
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = bunker
+						level = 3
+						province = 9795
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = bunker
+						level = 3
+						province = 11828
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = bunker
+						level = 3
+						province = 6963
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = bunker
+						level = 3
+						province = 906
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = bunker
+						level = 3
+						province = 9899
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = bunker
+						level = 3
+						province = 3803
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = bunker
+						level = 3
+						province = 3860
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = bunker
+						level = 3
+						province = 898
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = bunker
+						level = 3
+						province = 6944
+						instant_build = yes
+					}
+				}
+			}
 		}
 	}
 
@@ -430,9 +604,14 @@ focus_tree = {
 		available = {
 			
 		}
+
+		bypass = {
+			ENG = { has_guaranteed = JAP }
+			has_country_flag = russia_gives_manchuria
+		}
 		
 		completion_reward = { 
-			
+			ENG = { country_event = { id = japan.6 days = 1 } }
 		}
 	}
 
@@ -449,9 +628,22 @@ focus_tree = {
 		available = {
 			
 		}
+
+		bypass = {
+			has_country_flag = russia_gives_manchuria
+		}
 		
 		completion_reward = { 
-			
+			JAP = {
+				create_wargoal = {
+					target = SOV
+					type = take_claimed_state
+				}
+
+				add_war_support = 0.10
+
+				add_timed_idea = { idea = for_the_emperor days = 300 }
+			}
 		}
 	}
 
@@ -467,11 +659,22 @@ focus_tree = {
 		mutually_exclusive = { focus = JAP_the_unthinkable_victory }
 
 		available = {
-			
+			SOV = {
+				owns_state = 716
+				owns_state = 328
+				owns_state = 717
+			}
+
+			has_war = no
 		}
 		
 		completion_reward = { 
-			
+			716 = { remove_claim_by = JAP }
+			328 = { remove_claim_by = JAP }
+			717 = { remove_claim_by = JAP }
+
+			add_war_support = -0.10
+			add_stability = -0.10
 		}
 	}
 
@@ -490,7 +693,17 @@ focus_tree = {
 		}
 		
 		completion_reward = { 
+			custom_effect_tooltip = "Recruitable Population Factor: +1% (NEED TO ADD)"
 			
+			JAP = {
+				random_state = {
+					add_building_construction = {
+						type = arms_factory
+						level = 2
+					}
+					add_extra_state_shared_building_slots = 2
+				}
+			}
 		}
 	}
 
@@ -505,11 +718,14 @@ focus_tree = {
 		prerequisite = { focus = JAP_lick_our_wounds }
 
 		available = {
-			
+			CHI = {
+				is_subject = no
+			}
 		}
 		
 		completion_reward = { 
-			
+			CHI = { country_event = { id = japan.8 days = 1 } }
+			SOV = { country_event = { id = japan.8 days = 1 } }
 		}
 	}
 
@@ -520,7 +736,7 @@ focus_tree = {
 		x = 16
 		y = 9
 
-		cost = 10
+		cost = 20
 		prerequisite = { focus = JAP_take_a_backseat_in_chinese_affairs }
 
 		available = {
@@ -528,7 +744,7 @@ focus_tree = {
 		}
 		
 		completion_reward = { 
-			
+			custom_effect_tooltip = "Gets access to Pacific Expansion Decisions."
 		}
 	}
 
@@ -539,16 +755,23 @@ focus_tree = {
 		x = 12
 		y = 6
 
-		cost = 10
+		cost = 5
 		prerequisite = { focus = JAP_military_intervention }
 		mutually_exclusive = { focus = JAP_honorable_defeat }
 
 		available = {
-			
+			JAP = {
+				owns_state = 716
+				owns_state = 328
+				owns_state = 717
+			}
 		}
 		
 		completion_reward = { 
-			
+			JAP = {
+				add_war_support = 0.05
+				add_stability = 0.15
+			}
 		}
 	}
 
@@ -567,7 +790,7 @@ focus_tree = {
 		}
 		
 		completion_reward = { 
-			
+			country_event = { id = japan.7 days = 1 }
 		}
 	}
 
@@ -582,11 +805,21 @@ focus_tree = {
 		prerequisite = { focus = JAP_assert_our_dominance }
 
 		available = {
-			
+			JAP = {
+				owns_state = 475
+			}
 		}
 		
 		completion_reward = { 
-			
+			add_compliance = 20
+
+			745 = {
+				add_building_construction = {
+					type = dockyard
+					level = 2
+					instant_build = yes
+				}
+			}
 		}
 	}
 
@@ -601,11 +834,16 @@ focus_tree = {
 		prerequisite = { focus = JAP_assert_our_dominance }
 
 		available = {
-			
+			has_war = no
 		}
 		
 		completion_reward = { 
-			
+			ENG = { add_opinion_modifier = { target = JAP modifier = diplomatic_envoy } }
+			GER = { add_opinion_modifier = { target = JAP modifier = diplomatic_envoy } }
+			FRA = { add_opinion_modifier = { target = JAP modifier = diplomatic_envoy } }
+			ITA = { add_opinion_modifier = { target = JAP modifier = diplomatic_envoy } }
+			HUN = { add_opinion_modifier = { target = JAP modifier = diplomatic_envoy } }
+			SOV = { add_opinion_modifier = { target = JAP modifier = large_decrease } }
 		}
 	}
 
@@ -620,11 +858,19 @@ focus_tree = {
 		prerequisite = { focus = JAP_repurpose_russian_ports }
 
 		available = {
-			
+			JAP = {
+				owns_state = 716
+				owns_state = 328
+				owns_state = 717
+			}
+			has_war = no
 		}
 		
 		completion_reward = { 
-			
+			MAN = { transfer_state = 716 transfer_state = 328 transfer_state = 717 }
+			716 = { add_core_of = MAN }
+			328 = { add_core_of = MAN }
+			717 = { add_core_of = MAN }
 		}
 	}
 

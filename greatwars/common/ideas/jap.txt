@@ -1,0 +1,30 @@
+ideas = {
+	country = {
+        for_the_emperor = {
+			picture = jap_for_the_emperor
+
+			allowed = {
+				tag = JAP
+				has_completed_focus = JAP_military_intervention
+			}
+
+			modifier = {
+				army_speed_factor = 0.05
+				army_attack_factor = 0.10
+				supply_consumption_factor = -0.10
+			}
+    	}
+
+		overstreched_economy = {
+			picture = jap_overstreched_economy
+
+			allowed = {
+				tag = JAP
+			}
+
+			modifier = {
+				civilian_factory_use = 0.05
+			}
+    	}
+	}
+}
