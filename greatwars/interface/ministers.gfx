@@ -1,0 +1,25 @@
+spriteTypes = {
+	### GER | Head of Government ###
+	spriteType = {
+		name = "GFX_idea_GER_carl_viktor_hog"
+		texturefile = "gfx/interface/ministers/ger/GER_carl_viktor.dds"
+	}
+
+	### GER | Foreign Minister ###
+	spriteType = {
+		name = "GFX_idea_GER_bernhard_von_bulow_frg"
+		texturefile = "gfx/interface/ministers/ger/GER_bernhard_von_bulow.dds"
+	}
+
+	### GER | Economic Minister ###
+	spriteType = {
+		name = "GFX_idea_GER_arthur_von_posadowsky_wehner_eco"
+		texturefile = "gfx/interface/ministers/ger/GER_arthur_von_posadowsky-wehner.dds"
+	}
+
+	### GER | Interior Minister ###
+	spriteType = {
+		name = "GFX_idea_GER_arthur_von_posadowsky_wehner_int"
+		texturefile = "gfx/interface/ministers/ger/GER_arthur_von_posadowsky-wehner.dds"
+	}
+}

@@ -31,6 +31,9 @@
     social_liberalism_desc: ""
     social_liberal:0 "Social Liberalism"
     social_liberal_desc:0 ""
+    social_liberalism_drift:0 "Daily Social Liberalism Support"
+    social_liberalism_acceptance:0 "Acceptance of Social Liberalist Diplomacy"
+    social_liberalism_noun:0 "Social Liberalism"
 
 
     centrism:0 "Market Liberalism"
@@ -91,6 +94,6 @@
     syndicalism:0 "Syndicalism"
     syndicalism_desc:0 "Syndicalism is a radical current in the labour movement that was most active in the early 20th century. Its main idea is the establishment of local worker-based organizations and the advancement of the demands and rights of workers through strikes."
     liberal_social_:0 "Liberal Socialism"
-    liberal_social__desc:0 "Liberal socialism is a political philosophy that incorporates liberal principles to socialism. Liberal socialism has been compared to post-war social democracy as it supports a mixed economy that includes both private property and social ownership in capital goods."
+    liberal_social_desc:0 "Liberal socialism is a political philosophy that incorporates liberal principles to socialism. Liberal socialism has been compared to post-war social democracy as it supports a mixed economy that includes both private property and social ownership in capital goods."
     anarchism:0 "Anarchism"
     anarchism_desc:0 "Anarchism is a political philosophy and movement that is sceptical of authority and rejects all involuntary, coercive forms of hierarchy. Anarchism calls for the abolition of the state, which it holds to be undesirable, unnecessary, and harmful."

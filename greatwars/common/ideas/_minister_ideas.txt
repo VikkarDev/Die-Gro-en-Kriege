@@ -1,0 +1,106 @@
+ideas = {
+
+	######### GER #########
+	head_of_government = {
+		GER_carl_viktor_hog = {
+			allowed = {
+				original_tag = GER
+			}
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = head_of_gov_available
+					always = no
+				}
+			}
+
+			cancel_if_invalid = no
+
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea GER_carl_viktor_hog"
+			}
+
+			traits = {
+				head_of_government
+				social_liberal_1
+			}
+		}
+	}
+	
+	foreign_minister = {
+		GER_bernhard_von_bulow_frg = {
+			allowed = {
+				original_tag = GER
+			}
+
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = foreign_minister_available
+					always = no
+				}
+			}
+
+			cancel_if_invalid = no
+
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea GER_bernhard_von_bulow_frg"
+			}
+
+			traits = {
+				foreign_minister
+				conservative
+			}
+		}
+	}
+
+	economic_minister = {
+		GER_arthur_von_posadowsky_wehner_eco = {
+			allowed = {
+				original_tag = GER
+			}
+
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = economic_minister_available
+					always = no
+				}
+			}
+
+			cancel_if_invalid = no
+
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea GER_arthur_von_posadowsky_wehner_eco"
+			}
+
+			traits = {
+				economic_minister
+				conservative
+			}
+		}
+	}
+
+	interior_minister = {
+		GER_arthur_von_posadowsky_wehner_int = {
+			allowed = {
+				original_tag = GER
+			}
+
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = interior_minister_available
+					always = no
+				}
+			}
+
+			cancel_if_invalid = no
+
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea GER_arthur_von_posadowsky_wehner_int"
+			}
+
+			traits = {
+				interior_minister
+				conservative
+			}
+		}
+	}
+}

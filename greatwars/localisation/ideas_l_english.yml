@@ -1,5 +1,12 @@
 ﻿l_english:
 
+# Ministers
+minister:0 "Ministers"
+head_of_government:0 "Head of Government"
+foreign_minister:0 "Foreign Minister"
+economic_minister:0 "Economic Minister"
+interior_minister:0 "Interior Minister"
+
 # GER
 wilhelm_ii:0 "Wilhelm II"
 wilhelm_ii_desc:0 "Wilhelm II, anglicised as William II, was the last German Emperor and King of Prussia. His reign lasted from 15 June 1888 to 9 November 1918."

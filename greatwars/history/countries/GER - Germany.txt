@@ -46,14 +46,20 @@ capital = 819
 		failed_kultur_kampf
 		colony_cost1
 
-		# government
+		# Government / Laws
 		limited_conscription
-		limited_exports
+		free_trade
 		partial_economic_mobilisation
+
+		# Ministers
+		GER_carl_viktor_hog
+		GER_bernhard_von_bulow_frg
+		GER_arthur_von_posadowsky_wehner_eco
+		GER_arthur_von_posadowsky_wehner_int
 	}
 
 	set_politics = {
-		ruling_party = centrism
+		ruling_party = social_liberalism
 		#last_election = "2078.9.26"
 		#election_frequency = 48
 		#elections_allowed = yes
@@ -61,8 +67,9 @@ capital = 819
 
 	set_popularities = {
 		vanguard_communism = 0
-		social_egalitarianism = 5
-		centrism = 55
+		social_egalitarianism = 3
+		social_liberalism = 55
+		centrism = 2
 		traditional_conservatism = 0
 		radical_democracy = 5
 		chauvinist_populism = 5
@@ -74,7 +81,7 @@ capital = 819
 		name = "Wilhelm II"
 		desc = WILHELM_LEADER_DESCRIPTION
 		picture = "Wilhelm_II.dds"
-		ideology = con_liberal
+		ideology = social_liberal
 		traits = {
 			kaiserin_of_the_people
 		}

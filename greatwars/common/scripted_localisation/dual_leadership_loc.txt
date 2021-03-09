@@ -9,6 +9,8 @@ defined_text = {
 			OR = {
 				has_government = centrism
 				has_government = traditional_conservatism
+				has_government = social_liberalism
+				has_government = social_egalitarianism
 			}
 		}
 		localization_key = GER_HOS_TITLE
@@ -20,6 +22,8 @@ defined_text = {
 			OR = {
 				has_government = centrism
 				has_government = traditional_conservatism
+				has_government = social_liberalism
+				has_government = social_egalitarianism
 			}
 		}
 		localization_key = ENG_HOS_TITLE
@@ -31,6 +35,8 @@ defined_text = {
 			OR = {
 				has_government = centrism
 				has_government = traditional_conservatism
+				has_government = social_liberalism
+				has_government = social_egalitarianism
 			}
 		}
 		localization_key = FRA_HOS_TITLE
@@ -42,6 +48,8 @@ defined_text = {
 			OR = {
 				has_government = centrism
 				has_government = traditional_conservatism
+				has_government = social_liberalism
+				has_government = social_egalitarianism
 			}
 		}
 		localization_key = USA_HOS_TITLE
@@ -61,6 +69,8 @@ defined_text = {
 			OR = {
 				has_government = centrism
 				has_government = traditional_conservatism
+				has_government = social_liberalism
+				has_government = social_egalitarianism
 			}
 		}
 		localization_key = GER_HOG_TITLE
@@ -72,6 +82,8 @@ defined_text = {
 			OR = {
 				has_government = centrism
 				has_government = traditional_conservatism
+				has_government = social_liberalism
+				has_government = social_egalitarianism
 			}
 		}
 		localization_key = ENG_HOG_TITLE
@@ -83,6 +95,8 @@ defined_text = {
 			OR = {
 				has_government = centrism
 				has_government = traditional_conservatism
+				has_government = social_liberalism
+				has_government = social_egalitarianism
 			}
 		}
 		localization_key = FRA_HOG_TITLE
@@ -94,6 +108,8 @@ defined_text = {
 			OR = {
 				has_government = centrism
 				has_government = traditional_conservatism
+				has_government = social_liberalism
+				has_government = social_egalitarianism
 			}
 		}
 		localization_key = USA_HOG_TITLE
@@ -113,6 +129,8 @@ defined_text = {
 			OR = {
 				has_government = centrism
 				has_government = traditional_conservatism
+				has_government = social_liberalism
+				has_government = social_egalitarianism
 			}
 		}
 		localization_key = CARL_VIKTOR_NAME
@@ -124,6 +142,8 @@ defined_text = {
 			OR = {
 				has_government = centrism
 				has_government = traditional_conservatism
+				has_government = social_liberalism
+				has_government = social_egalitarianism
 			}
 		}
 		localization_key = ENG_ROBERT_NAME
@@ -135,6 +155,8 @@ defined_text = {
 			OR = {
 				has_government = centrism
 				has_government = traditional_conservatism
+				has_government = social_liberalism
+				has_government = social_egalitarianism
 			}
 		}
 		localization_key = FRA_PIERRE_NAME
@@ -147,6 +169,8 @@ defined_text = {
 			OR = {
 				has_government = centrism
 				has_government = traditional_conservatism
+				has_government = social_liberalism
+				has_government = social_egalitarianism
 			}
 		}
 		localization_key = USA_UNKNOWN_NAME
@@ -159,6 +183,8 @@ defined_text = {
 			OR = {
 				has_government = centrism
 				has_government = traditional_conservatism
+				has_government = social_liberalism
+				has_government = social_egalitarianism
 			}
 		}
 		localization_key = USA_THEODORE_NAME
@@ -178,6 +204,8 @@ defined_text = {
 			OR = {
 				has_government = centrism
 				has_government = traditional_conservatism
+				has_government = social_liberalism
+				has_government = social_egalitarianism
 			}
 		}
 		localization_key = "GFX_GER_Carl_Viktor"
@@ -189,6 +217,8 @@ defined_text = {
 			OR = {
 				has_government = centrism
 				has_government = traditional_conservatism
+				has_government = social_liberalism
+				has_government = social_egalitarianism
 			}
 		}
 		localization_key = "GFX_ENG_Robert_Cecil"
@@ -200,6 +230,8 @@ defined_text = {
 			OR = {
 				has_government = centrism
 				has_government = traditional_conservatism
+				has_government = social_liberalism
+				has_government = social_egalitarianism
 			}
 		}
 		localization_key = "GFX_FRA_Pierre_Rousseau"
@@ -212,6 +244,8 @@ defined_text = {
 			OR = {
 				has_government = centrism
 				has_government = traditional_conservatism
+				has_government = social_liberalism
+				has_government = social_egalitarianism
 			}
 		}
 		localization_key = "GFX_USA_UNKOWN"
@@ -224,6 +258,8 @@ defined_text = {
 			OR = {
 				has_government = centrism
 				has_government = traditional_conservatism
+				has_government = social_liberalism
+				has_government = social_egalitarianism
 			}
 		}
 		localization_key = "GFX_USA_Theodore_Roosevelt"
@@ -236,6 +272,8 @@ defined_text = {
 			OR = {
 				has_government = centrism
 				has_government = traditional_conservatism
+				has_government = social_liberalism
+				has_government = social_egalitarianism
 			}
 		}
 		localization_key = "GFX_USA_John_Long"

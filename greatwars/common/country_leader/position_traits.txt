@@ -1,0 +1,12 @@
+leader_traits = {
+	# Minister Stuff
+	
+	head_of_government = {}
+	foreign_minister = {}
+	economic_minister = {}
+	interior_minister = {}
+
+	# Miniser Ideology
+	social_liberal_1 = {}
+	conservative = {}
+}

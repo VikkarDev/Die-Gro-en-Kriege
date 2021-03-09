@@ -116,7 +116,7 @@ focus_tree = {
 
 		completion_reward = { 
 			add_political_power = 120
-			add_popularity = { ideology = centrism popularity = 0.05 }
+			add_popularity = { ideology = social_liberalism popularity = 0.05 }
 		}
 	}
 	focus = {
@@ -145,7 +145,7 @@ focus_tree = {
 
 		completion_reward = { 
 			add_political_power = 120
-			add_popularity = { ideology = centrism popularity = -0.20 }
+			add_popularity = { ideology = social_liberalism popularity = -0.20 }
 			custom_effect_tooltip = HISTORICAL_BREAK
 		}
 	}
@@ -991,7 +991,7 @@ focus_tree = {
 		completion_reward = {
 			add_ideas = { welfare_programs }
 			add_popularity = {
-    			ideology = centrism
+    			ideology = social_liberalism
     			popularity = 0.05
 			}	
 		}			
@@ -2262,7 +2262,7 @@ focus_tree = {
 		}
 
 		completion_reward = { 
-			add_popularity = { ideology = centrism popularity = 0.10 }
+			add_popularity = { ideology = social_liberalism popularity = 0.10 }
 		}				
 	}
 	focus = {

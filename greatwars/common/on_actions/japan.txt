@@ -7,7 +7,7 @@ on_actions = {
 				}
 
 				JAP = {
-					country_event = { id = japan.1 days = 1497 } # Feb. 8 1904
+					#country_event = { id = japan.1 days = 1497 } # Feb. 8 1904
 				}
 			}
 		}
