@@ -26,5 +26,53 @@ ideas = {
 				civilian_factory_use = 0.05
 			}
     	}
+		
+		meiji_restoration = {
+			picture = jap_meiji_restoration
+
+			allowed = {
+				tag = JAP
+			}
+
+			modifier = {
+				
+			}
+		}
+
+		bushido_code = {
+			picture = jap_bushido_code
+
+			allowed = {
+				tag = JAP
+			}
+
+			modifier = {
+				
+			}
+		}
+
+		developed_rail_network = {
+			picture = jap_developed_rail_network
+
+			allowed = {
+				tag = JAP
+			}
+
+			modifier = {
+				
+			}
+		}
+
+		wooden_constructions = {
+			picture = jap_wooden_constructions
+
+			allowed = {
+				tag = JAP
+			}
+
+			modifier = {
+				
+			}
+		}
 	}
 }

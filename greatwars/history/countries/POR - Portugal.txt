@@ -1,0 +1,38 @@
+capital = 112
+
+1900.1.1 = {
+
+	OOB = "POR_1900"
+
+	set_cosmetic_tag = POR_KINGDOM
+
+	set_research_slots = 2
+
+	set_politics = {
+		ruling_party = centrism
+		#last_election = "2078.9.26"
+		#election_frequency = 48
+		#elections_allowed = yes
+	}
+
+	set_popularities = {
+		vanguard_communism = 0
+		social_egalitarianism = 1
+		centrism = 65
+		traditional_conservatism = 27
+		radical_democracy = 2
+		chauvinist_populism = 0
+		autocracy = 3
+		democratic_socialism = 2
+	}
+
+	create_country_leader = {
+		name = "Carlos I"
+		desc = ""
+		picture = "Carlos_I.dds"
+		ideology = con_liberal
+		traits = {
+			#father_of_the_turks
+		}
+	}
+}

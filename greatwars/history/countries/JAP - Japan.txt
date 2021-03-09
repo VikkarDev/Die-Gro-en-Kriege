@@ -1,23 +1,34 @@
 capital = 282
 
-OOB = "JAP_1900"
+1900.1.1 = {
+	OOB = "JAP_1900"
 
-set_convoys = 45
+	set_cosmetic_tag = JAP_EMPIRE
+	set_convoys = 215
 
-set_research_slots = 2
+	set_research_slots = 2
 
-set_politics = {
-	ruling_party = autocracy
-	elections_allowed = no
-}
+	set_politics = {
+		ruling_party = traditional_conservatism
+		elections_allowed = no
+	}
 
-set_popularities = {
-	autocracy = 100
-}
+	set_popularities = {
+		vanguard_communism = 2.2
+		social_egalitarianism = 5.1
+		social_liberalism = 7.2
+		centrism = 14.4
+		traditional_conservatism = 54.9
+		radical_democracy = 3.3
+		chauvinist_populism = 3.6
+		autocracy = 9.3
+		democratic_socialism = 0
+	}
 
-create_country_leader = {
-	name = "Unknown"
-	desc = ""
-	picture = ""
-	ideology = despotism
+	create_country_leader = {
+		name = "Mutsuhito"
+		desc = ""
+		picture = "Mutsuhito.dds"
+		ideology = conserv
+	}
 }

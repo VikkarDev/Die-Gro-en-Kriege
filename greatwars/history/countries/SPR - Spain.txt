@@ -5,6 +5,8 @@ capital = 41
 
 	OOB = "SPR_1900"
 
+	set_cosmetic_tag = SPR_KINGDOM
+
 	set_convoys = 100
 
 	set_research_slots = 3

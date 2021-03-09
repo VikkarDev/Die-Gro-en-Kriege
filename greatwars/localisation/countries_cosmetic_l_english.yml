@@ -60,6 +60,18 @@ GER_KAISER_traditional_conservatism_DEF:0 "The Deutsches Kaiserreich"
 GNG_GER_centrism:0 "Kaiser-Wilhelmsland"
 GNG_GER_centrism_DEF:0 "Kaiser-Wilhelmsland"
 
+POR_KINGDOM:0 "Kingdom of Portugal"
+POR_KINGDOM_DEF:0 "The Kingdom of Portugal"
+POR_KINGDOM_ADJ:0 "Portuguese"
+
+SPR_KINGDOM:0 "Kingdom of Spain"
+SPR_KINGDOM_DEF:0 "The Kingdom of Spain"
+SPR_KINGDOM_ADJ:0 "Spanish"
+
+JAP_EMPIRE:0 "Empire of Japan"
+JAP_EMPIRE_DEF:0 "The Empire of Japan"
+JAP_EMPIRE_ADJ:0 "Japanese"
+
 OTO:0 "Ottoman Empire"
 OTO_DEF:0 "The Ottoman Empire"
 OTO_ADJ:0 "Ottoman"
