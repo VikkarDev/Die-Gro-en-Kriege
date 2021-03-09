@@ -103,4 +103,108 @@ ideas = {
 			}
 		}
 	}
+
+	######### USA #########
+	head_of_government = {
+		USA_william_mckinley_hog = {
+			allowed = {
+				original_tag = USA
+			}
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = head_of_gov_available
+					always = no
+				}
+			}
+
+			cancel_if_invalid = no
+
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea USA_william_mckinley_hog"
+			}
+
+			traits = {
+				head_of_government
+				republican
+			}
+		}
+	}
+	
+	foreign_minister = {
+		USA_john_hay_frg = {
+			allowed = {
+				original_tag = USA
+			}
+
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = foreign_minister_available
+					always = no
+				}
+			}
+
+			cancel_if_invalid = no
+
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea USA_john_hay_frg"
+			}
+
+			traits = {
+				foreign_minister
+				republican
+			}
+		}
+	}
+
+	economic_minister = {
+		USA_lyman_j_gage_eco = {
+			allowed = {
+				original_tag = USA
+			}
+
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = economic_minister_available
+					always = no
+				}
+			}
+
+			cancel_if_invalid = no
+
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea USA_lyman_j_gage_eco"
+			}
+
+			traits = {
+				economic_minister
+				republican
+			}
+		}
+	}
+
+	interior_minister = {
+		USA_ethan_a_hitchcock_int = {
+			allowed = {
+				original_tag = USA
+			}
+
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = interior_minister_available
+					always = no
+				}
+			}
+
+			cancel_if_invalid = no
+
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea USA_ethan_a_hitchcock_int"
+			}
+
+			traits = {
+				interior_minister
+				republican
+			}
+		}
+	}
 }

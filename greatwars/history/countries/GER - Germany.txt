@@ -40,6 +40,7 @@ capital = 819
 	}
 
 	add_ideas = {
+		# Starting Ideas
 		german_colonies
 		naval_arms_race
 		bloated_naval_budget1

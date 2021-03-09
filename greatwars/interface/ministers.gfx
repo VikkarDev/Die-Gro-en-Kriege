@@ -1,4 +1,7 @@
 spriteTypes = {
+
+	####### GER #######
+
 	### GER | Head of Government ###
 	spriteType = {
 		name = "GFX_idea_GER_carl_viktor_hog"
@@ -21,5 +24,31 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_GER_arthur_von_posadowsky_wehner_int"
 		texturefile = "gfx/interface/ministers/ger/GER_arthur_von_posadowsky-wehner.dds"
+	}
+
+	####### USA #######
+
+	### USA | Head of Government ###
+	spriteType = {
+		name = "GFX_idea_USA_william_mckinley_hog"
+		texturefile = "gfx/interface/ministers/usa/USA_william_mckinley.dds"
+	}
+
+	### USA | Foreign Minister ###
+	spriteType = {
+		name = "GFX_idea_USA_john_hay_frg"
+		texturefile = "gfx/interface/ministers/usa/USA_john_hay.dds"
+	}
+
+	### USA | Economic Minister ###
+	spriteType = {
+		name = "GFX_idea_USA_lyman_j_gage_eco"
+		texturefile = "gfx/interface/ministers/usa/USA_lyman_j_gage.dds"
+	}
+
+	### USA | Interior Minister ###
+	spriteType = {
+		name = "GFX_idea_USA_ethan_a_hitchcock_int"
+		texturefile = "gfx/interface/ministers/usa/USA_ethan_a_hitchcock.dds"
 	}
 }

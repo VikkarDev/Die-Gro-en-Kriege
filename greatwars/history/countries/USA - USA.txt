@@ -106,12 +106,18 @@ capital = 361
 	}
 
 	add_ideas = {
-		# government
+		# Government / Laws
 		limited_conscription
 		limited_exports
 		partial_economic_mobilisation
 
-		# other
+		# Ministers
+		USA_william_mckinley_hog
+		USA_john_hay_frg
+		USA_lyman_j_gage_eco
+		USA_ethan_a_hitchcock_int
+
+		# Starting Ideas
 		jim_crow_laws
 		scars_of_1865
 		the_gold_standard

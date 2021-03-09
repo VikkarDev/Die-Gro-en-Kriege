@@ -9,4 +9,5 @@ leader_traits = {
 	# Miniser Ideology
 	social_liberal_1 = {}
 	conservative = {}
+	republican = {}
 }

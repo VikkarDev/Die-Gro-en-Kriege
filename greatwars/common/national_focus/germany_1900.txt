@@ -696,11 +696,11 @@ focus_tree = {
 		id = GER_deutsches_kolonialreich
 		icon = GFX_goal_generic_territory_or_war
 		search_filters = { FOCUS_FILTER_MANPOWER }
-		x = 35
-		y = 6
+		x = 90
+		y = 0
 
 		cost = 10
-		prerequisite = { focus = GER_global_endevours focus = GER_worlds_third_best_economy  focus = GER_the_cartel_system  }
+		#prerequisite = { focus = GER_global_endevours focus = GER_worlds_third_best_economy  focus = GER_the_cartel_system  }
 		
 		available = {
 			country_exists = GER
@@ -711,18 +711,113 @@ focus_tree = {
 		}
 
 		completion_reward = { 
-			 country_event = {
-				id = germany.2
-				days = 10
-			}
+			country_event = { id = germany.2 days = 10 }
 		}				
 	}
+
+	focus = {
+		id = GER_closer_colonial_ties
+		icon = GFX_ger_closer_colonial_ties
+		search_filters = { FOCUS_FILTER_MANPOWER }
+		x = 86
+		y = 1
+
+		cost = 10
+		prerequisite = { focus = GER_deutsches_kolonialreich }
+		mutually_exclusive = { focus = GER_lead_the_colonies }
+
+
+		available = {
+			OR = {
+				GEA = {
+					is_subject_of = GER
+				}
+				GNG = {
+					is_subject_of = GER
+				}
+			}
+		}
+
+		bypass = {
+			
+		}
+
+		completion_reward = {
+			if = {
+				limit = {
+					GEA = {
+						is_subject_of = GER
+					}
+				}
+				GEA = { add_autonomy_score = { value = 100 } }
+			}
+
+			if = {
+				limit = {
+					GNG = {
+						is_subject_of = GER
+					}
+				}
+				GNG = { add_autonomy_score = { value = 100 } }
+			}
+
+			add_political_power = 15
+		}
+	}
+
+	focus = {
+		id = GER_lead_the_colonies
+		icon = GFX_ger_lead_the_colonies
+		search_filters = { FOCUS_FILTER_MANPOWER }
+		x = 94
+		y = 1
+
+		cost = 10
+		prerequisite = { focus = GER_deutsches_kolonialreich }
+		mutually_exclusive = { focus = GER_closer_colonial_ties }
+
+		available = {
+			OR = {
+				GEA = {
+					is_subject_of = GER
+				}
+				GNG = {
+					is_subject_of = GER
+				}
+			}
+		}
+
+		bypass = {
+			
+		}
+
+		completion_reward = {
+			if = {
+				limit = {
+					GEA = {
+						is_subject_of = GER
+					}
+				}
+				GEA = { add_autonomy_score = { value = -100 } }
+			}
+
+			if = {
+				limit = {
+					GNG = {
+						is_subject_of = GER
+					}
+				}
+				GNG = { add_autonomy_score = { value = -100 } }
+			}
+		}
+	}
+
 	focus = {
 		id = GER_sieze_native_assests
 		icon = GFX_GER_focus_sieze_native_assets
 		search_filters = { FOCUS_FILTER_MANPOWER }
-		x = 34
-		y = 8
+		x = 85
+		y = 3
 
 		cost = 10
 		prerequisite = { focus = GER_subsidis_colonial_manufacturing }
@@ -747,11 +842,11 @@ focus_tree = {
 		id = GER_subsidis_colonial_manufacturing
 		icon = GFX_GER_focus_colonial_industry
 		search_filters = { FOCUS_FILTER_MANPOWER }
-		x = 35
-		y = 7
+		x = 86
+		y = 2
 
 		cost = 10
-		prerequisite = { focus = GER_deutsches_kolonialreich }
+		prerequisite = { focus = GER_closer_colonial_ties }
 		
 		available = {
 			country_exists = GER
@@ -772,8 +867,8 @@ focus_tree = {
 		id = GER_build_colonial_schools
 		icon = GFX_goal_generic_construct_civilian
 		search_filters = { FOCUS_FILTER_MANPOWER }
-		x = 35
-		y = 9
+		x = 86
+		y = 4
 
 		cost = 10
 		prerequisite = { focus = GER_sieze_native_assests }
@@ -798,8 +893,8 @@ focus_tree = {
 		id = GER_develop_asian_colonies
 		icon = GFX_GER_focus_develop_colonies
 		search_filters = { FOCUS_FILTER_MANPOWER }
-		x = 36
-		y = 8
+		x = 87
+		y = 3
 
 		cost = 10
 		prerequisite = { focus = GER_subsidis_colonial_manufacturing }
@@ -823,8 +918,8 @@ focus_tree = {
 		id = GER_a_profitable_empire
 		icon = GFX_goal_tfv_strengthen_commonwealth_ties
 		search_filters = { FOCUS_FILTER_MANPOWER }
-		x = 35
-		y = 11
+		x = 86
+		y = 6
 		
 		cost = 10
 		prerequisite = { focus = GER_offload_naval_cost_to_colonies }
@@ -1726,8 +1821,8 @@ focus_tree = {
 		id = GER_offload_naval_cost_to_colonies
 		icon = GFX_goal_generic_navy_cruiser
 		search_filters = { FOCUS_FILTER_MANPOWER }
-		x = 35
-		y = 10
+		x = 86
+		y = 5
 
 		cost = 10
 		
@@ -2169,10 +2264,12 @@ focus_tree = {
 		icon = GFX_focus_spa_the_spanish_miracle
 		search_filters = { FOCUS_FILTER_MANPOWER }
 		x = 35
-		y = 4
+		y = 5
 		
 		cost = 10
 		prerequisite = { focus = GER_prioritize_military focus = GER_prioritize_navy}
+		prerequisite = { focus = GER_global_endevours }
+		prerequisite = { focus = GER_the_cartel_system }
 		
 		available = {
 			country_exists = GER
