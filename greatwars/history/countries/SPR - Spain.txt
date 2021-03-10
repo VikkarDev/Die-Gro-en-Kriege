@@ -10,6 +10,16 @@ capital = 41
 	set_convoys = 100
 
 	set_research_slots = 3
+	
+	add_ideas = {
+		# Starting Ideas
+
+		# Government / Laws
+		limited_conscription
+		limited_exports
+
+		# Ministers
+	}
 
 	set_politics = {
 		ruling_party = radical_democracy
@@ -35,7 +45,7 @@ capital = 41
 		picture = "Alfonso_XIII.dds"
 		ideology = plutocracy
 		traits = {
-			
+			underage_monarch
 		}
 	}
 }
