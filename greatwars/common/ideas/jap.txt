@@ -35,7 +35,16 @@ ideas = {
 			}
 
 			modifier = {
-				
+				stability_factor = 0.30
+				war_support_factor = 0.10
+				political_advisor_cost_factor = -0.10
+				trade_laws_cost_factor = -0.10
+				mobilization_laws_cost_factor = -0.10
+				economy_cost_factor = -0.10
+				high_command_cost_factor = -0.10
+				air_chief_cost_factor = -0.10
+				army_chief_cost_factor = -0.10
+				navy_chief_cost_factor = -0.10
 			}
 		}
 
@@ -47,7 +56,8 @@ ideas = {
 			}
 
 			modifier = {
-				
+				army_morale_factor = 0.08
+				army_org_Factor = 0.05
 			}
 		}
 
@@ -59,7 +69,9 @@ ideas = {
 			}
 
 			modifier = {
-				
+				production_speed_infrastructure_factor = 0.10
+				production_speed_buildings_factor = 0.10
+
 			}
 		}
 
@@ -71,7 +83,22 @@ ideas = {
 			}
 
 			modifier = {
-				
+				industry_air_damage_factor = 0.50
+				production_speed_buildings_factor = -0.10
+			}
+		}
+
+		kokai_naval_spirit = {
+			picture = jap_kokai_naval_spirit
+
+			allowed = {
+				tag = JAP
+			}
+
+			modifier = {
+				naval_detection = 0.10
+				naval_speed_factor = 0.05
+				naval_strike_attack_factor = 0.10
 			}
 		}
 	}

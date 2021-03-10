@@ -92,12 +92,14 @@ bookmarks = {
 		}
 
 		# minors from DLC ####
-		"SER"={
+		"JAP"={
 			minor = yes
-			history = "SER_SILENT_NIGHT_DESC"
+			history = "JAP_SILENT_NIGHT_DESC"
 			ideology = traditional_conservatism
 			ideas = {
-				
+				meiji_restoration
+				bushido_code
+				developed_rail_network
 			}
 			focuses = {
 

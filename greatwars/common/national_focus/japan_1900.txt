@@ -432,52 +432,23 @@ focus_tree = {
 		prerequisite = { focus = JAP_concede_our_sphere_of_influence focus = JAP_protest_russian_deployment }
 
 		available = {
-
-			OR = {
-				KOR = {
-					is_subject_of = JAP
-				}
-
-				525 = {
-					is_owned_and_controlled_by = JAP
-				}
-
-				527 = {
-					is_owned_and_controlled_by = JAP
-				}
+			KOR = {
+				is_subject_of = JAP
 			}
 		}
 		
 		completion_reward = { 
+			KOR = { add_autonomy_score = { value = -1000 } }
+
 			525 = {
 				add_building_construction = {
-					type = infrastructure
-					level = 2
+					type = dockyard
+					level = 3
 					instant_build = yes
 				}
-				add_building_construction = {
-					type = industrial_complex
-					level = 1
-					instant_build = yes
-				}
-				add_extra_state_shared_building_slots = 1
 			}
 
-			527 = {
-				add_building_construction = {
-					type = infrastructure
-					level = 2
-					instant_build = yes
-				}
-				add_building_construction = {
-					type = industrial_complex
-					level = 1
-					instant_build = yes
-				}
-				add_extra_state_shared_building_slots = 1
-			}
-
-			custom_effect_tooltip = "Select provinces bordering China gain +3 land fort level."
+			custom_effect_tooltip = "Select provinces bordering China gain +2 land fort level."
 
 			hidden_effect = {
 				527 = {
@@ -559,7 +530,7 @@ focus_tree = {
 		x = 18
 		y = 3
 
-		cost = 10
+		cost = 5
 		prerequisite = { focus = JAP_strengthen_japanese_hold_on_korea }
 
 		available = {
@@ -567,7 +538,25 @@ focus_tree = {
 		}
 		
 		completion_reward = { 
-			
+			random_owned_state = {
+				add_building_construction = {
+					type = dockyard
+					level = 2
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 2
+			}
+
+			random_owned_state = {
+				add_building_construction = {
+					type = dockyard
+					level = 2
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 2
+			}
+
+			custom_effect_tooltip = "Gains decisions for shipbuilding contracts."
 		}
 	}
 
@@ -587,7 +576,8 @@ focus_tree = {
 		}
 		
 		completion_reward = { 
-			
+			custom_effect_tooltip = "Unlocks a ship designer: Kure Naval Arsenal. (+10% capital ship armor, +50% carrier deck armor, +10% capital ship attack, +15% naval research speed."
+			add_ideas = { kokai_naval_spirit }
 		}
 	}
 
@@ -702,6 +692,129 @@ focus_tree = {
 						level = 2
 					}
 					add_extra_state_shared_building_slots = 2
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = JAP_fortify_korea
+		icon = GFX_JAP_fortiy_korea
+		#search_filters = { FOCUS }
+		x = 18
+		y = 8
+
+		cost = 10
+		prerequisite = { focus = JAP_lick_our_wounds }
+
+		available = {
+			OR = {
+				KOR = { is_subject_of = KOR }
+
+				525 = { is_owned_and_controlled_by = JAP }
+				527 = { is_owned_and_controlled_by = JAP }
+			}
+		}
+
+		completion_reward = {
+			525 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+			}
+
+			527 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+			}
+
+			custom_effect_tooltip = "Select provinces bordering China gain +3 land fort level."
+
+			hidden_effect = {
+				527 = {
+					add_building_construction = {
+						type = bunker
+						level = 3
+						province = 11835
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = bunker
+						level = 3
+						province = 9918
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = bunker
+						level = 3
+						province = 9795
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = bunker
+						level = 3
+						province = 11828
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = bunker
+						level = 3
+						province = 6963
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = bunker
+						level = 3
+						province = 906
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = bunker
+						level = 3
+						province = 9899
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = bunker
+						level = 3
+						province = 3803
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = bunker
+						level = 3
+						province = 3860
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = bunker
+						level = 3
+						province = 898
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = bunker
+						level = 3
+						province = 6944
+						instant_build = yes
+					}
 				}
 			}
 		}
