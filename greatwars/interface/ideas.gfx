@@ -124,6 +124,11 @@ spriteTypes = {
 		name = "GFX_idea_jap_developed_rail_network"
 		texturefile = "gfx/interface/ideas/jap/JAP_idea_developed_rail_network.dds"
 	}
+	
+	SpriteType = {
+		name = "GFX_idea_ser_unpopular_monarchy"
+		texturefile = "gfx/interface/ideas/ser/SER_idea_unpopular_monarchy.dds"
+	}
 
 	### new tfv nat spirit icons
 

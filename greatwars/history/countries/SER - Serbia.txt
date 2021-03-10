@@ -11,10 +11,15 @@
 	set_cosmetic_tag = SER_KINGDOM
 
 	add_ideas = {
-		# government
+
+		# Government / Laws
 		volunteer_only
 		limited_exports
 		civilian_economy
+
+		# Starting Ideas
+		unpopular_monarchy
+		legacy_of_serbo_bulgarian_war
 	}
 
 	set_politics = {

@@ -127,6 +127,12 @@ wooden_constructions_desc:0 "Spare for a handful of buildings in the largest cit
 kokai_naval_spirit:0 "Kokai Naval Spirit"
 kokai_naval_spirit_desc:0 "Kokai is known as "high seas". Japan has always had its eye on the seas beyond. The sun rises from the great ocean in the east, and sets in the sea of Japan to the west. Instead of sheer firepower and force, Japan can rely on a supreme spirit and will of her sailors, and the conviction of the commanders that guide them."
 
+# SERBIA
+unpopular_monarchy:0 "Unpopular Monarchy"
+unpopular_monarchy_desc:0 ""
+legacy_of_serbo_bulgarian_war:0 "Legacy of the Serbo-Bulgarian War"
+legacy_of_serbo_bulgarian_war_desc:0 "While this National Spirit is active, we will have a hateful relation with  [BUL.GetFlag]  §GBulgaria§!\n\nAcutal Description Goes Here"
+
 # GENERIC
 colonial_influence:0 "Colonial Influence"
 colonial_influence_desc:0 "Closer ties to colonies are important in order to keep power world wide. Colonial influence will allow closer ties to the overlords country."
