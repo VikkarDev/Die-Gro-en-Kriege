@@ -2,14 +2,25 @@ on_actions = {
 	on_startup = {
 		effect = {
 			SOV = {
-			add_opinion_modifier = {
-    			target = FRA
-    			modifier = allied_partners
+				add_opinion_modifier = {
+					target = FRA
+					modifier = allied_partners
+				}
+				add_opinion_modifier = {
+					target = FRA
+					modifier = market_dependancy
+				}
 			}
-			add_opinion_modifier = {
-   				 target = FRA
-  				  modifier = market_dependancy
-			}
+
+			if = {
+				limit = {
+					has_start_date < 1900.1.2
+				}
+
+				SOV = {
+					set_country_flag = ivan_durnovo_vp
+					set_country_flag = nicholas_ii_leader
+				}
 			}
 		}
 	}

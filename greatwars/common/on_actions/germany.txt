@@ -8,6 +8,9 @@ on_actions = {
 
 				GER = {
 					country_event = { id = dgk_generic.7 days = 1474 } # Jan. 15, 1904
+					
+					set_country_flag = carl_viktor_vp
+					set_country_flag = wilhelm_leader
 				}
 			}
 		}

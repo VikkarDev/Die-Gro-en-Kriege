@@ -56,6 +56,47 @@ defined_text = {
 	}
 
 	text = {
+		trigger = {
+			tag = JAP
+			OR = {
+				has_government = centrism
+				has_government = traditional_conservatism
+				has_government = social_liberalism
+				has_government = social_egalitarianism
+			}
+		}
+		localization_key = JAP_HOS_TITLE
+	}
+
+	text = {
+		trigger = {
+			tag = SOV
+			OR = {
+				has_government = centrism
+				has_government = traditional_conservatism
+				has_government = social_liberalism
+				has_government = social_egalitarianism
+				has_government = autocracy
+			}
+		}
+		localization_key = SOV_HOS_TITLE
+	}
+
+	text = {
+		trigger = {
+			tag = SPR
+			OR = {
+				has_government = centrism
+				has_government = traditional_conservatism
+				has_government = social_liberalism
+				has_government = social_egalitarianism
+				has_government = radical_democracy
+			}
+		}
+		localization_key = SPR_HOS_TITLE
+	}
+
+	text = {
 		localization_key = DEFAULT_HOS_TITLE
 	}
 }
@@ -116,6 +157,47 @@ defined_text = {
 	}
 
 	text = {
+		trigger = {
+			tag = JAP
+			OR = {
+				has_government = centrism
+				has_government = traditional_conservatism
+				has_government = social_liberalism
+				has_government = social_egalitarianism
+			}
+		}
+		localization_key = JAP_HOG_TITLE
+	}
+
+	text = {
+		trigger = {
+			tag = SOV
+			OR = {
+				has_government = centrism
+				has_government = traditional_conservatism
+				has_government = social_liberalism
+				has_government = social_egalitarianism
+				has_government = autocracy
+			}
+		}
+		localization_key = SOV_HOG_TITLE
+	}
+
+	text = {
+		trigger = {
+			tag = SPR
+			OR = {
+				has_government = centrism
+				has_government = traditional_conservatism
+				has_government = social_liberalism
+				has_government = social_egalitarianism
+				has_government = radical_democracy
+			}
+		}
+		localization_key = SPR_HOG_TITLE
+	}
+
+	text = {
 		localization_key = DEFAULT_HOG_TITLE
 	}
 }
@@ -126,6 +208,7 @@ defined_text = {
 	text = {
 		trigger = {
 			tag = GER
+			has_country_flag = carl_viktor_vp
 			OR = {
 				has_government = centrism
 				has_government = traditional_conservatism
@@ -139,6 +222,7 @@ defined_text = {
 	text = {
 		trigger = {
 			tag = ENG
+			has_country_flag = robert_cecil_vp
 			OR = {
 				has_government = centrism
 				has_government = traditional_conservatism
@@ -152,6 +236,7 @@ defined_text = {
 	text = {
 		trigger = {
 			tag = FRA
+			has_country_flag = pierre_rousseau_vp
 			OR = {
 				has_government = centrism
 				has_government = traditional_conservatism
@@ -191,6 +276,42 @@ defined_text = {
 	}
 
 	text = {
+		trigger = {
+			tag = JAP
+			has_country_flag = hirobumi_vp
+			OR = {
+				has_government = centrism
+				has_government = traditional_conservatism
+				has_government = social_liberalism
+				has_government = social_egalitarianism
+			}
+		}
+		localization_key = JAP_HIROBUMI_NAME
+	}
+
+	text = {
+		trigger = {
+			tag = SOV
+			has_country_flag = ivan_durnovo_vp
+			OR = {
+				has_government = autocracy
+			}
+		}
+		localization_key = SOV_DURNOVO_NAME
+	}
+
+	text = {
+		trigger = {
+			tag = SPR
+			has_country_flag = francisco_silvela_vp
+			OR = {
+				has_government = radical_democracy
+			}
+		}
+		localization_key = SPR_FRANCISCO_NAME
+	}
+
+	text = {
 		localization_key = DEFAULT_TITLE
 	}
 }
@@ -201,6 +322,7 @@ defined_text = {
 	text = {
 		trigger = {
 			tag = GER
+			has_country_flag = carl_viktor_vp
 			OR = {
 				has_government = centrism
 				has_government = traditional_conservatism
@@ -214,6 +336,7 @@ defined_text = {
 	text = {
 		trigger = {
 			tag = ENG
+			has_country_flag = robert_cecil_vp
 			OR = {
 				has_government = centrism
 				has_government = traditional_conservatism
@@ -227,6 +350,7 @@ defined_text = {
 	text = {
 		trigger = {
 			tag = FRA
+			has_country_flag = pierre_rousseau_vp
 			OR = {
 				has_government = centrism
 				has_government = traditional_conservatism
@@ -280,6 +404,42 @@ defined_text = {
 	}
 
 	text = {
+		trigger = {
+			tag = JAP
+			has_country_flag = hirobumi_vp
+			OR = {
+				has_government = centrism
+				has_government = traditional_conservatism
+				has_government = social_liberalism
+				has_government = social_egalitarianism
+			}
+		}
+		localization_key = "GFX_JAP_Hirobumi"
+	}
+
+	text = {
+		trigger = {
+			tag = SOV
+			has_country_flag = ivan_durnovo_vp
+			OR = {
+				has_government = autocracy
+			}
+		}
+		localization_key = "GFX_SOV_Ivan_Durnovo"
+	}
+
+	text = {
+		trigger = {
+			tag = SPR
+			has_country_flag = francisco_silvela_vp
+			OR = {
+				has_government = radical_democracy
+			}
+		}
+		localization_key = "GFX_SPR_Francisco_Silvela"
+	}
+
+	text = {
 		localization_key = "GFX_portrait_bg_blank"
 	}
 }
@@ -291,6 +451,7 @@ defined_text = {
 	text = {
 		trigger = {
 			original_tag = GER
+			has_country_flag = wilhelm_leader
 		}
 		localization_key = WILHELM_LEADER_DESCRIPTION
 	}
@@ -298,6 +459,7 @@ defined_text = {
 	text = {
 		trigger = {
 			original_tag = ENG
+			has_country_flag = victoria_leader
 		}
 		localization_key = VICTORIA_LEADER_DESCRIPTION
 	}
@@ -305,6 +467,7 @@ defined_text = {
 	text = {
 		trigger = {
 			original_tag = FRA
+			has_country_flag = emile_leader
 		}
 		localization_key = EMILE_LEADER_DESCRIPTION
 	}
@@ -316,6 +479,30 @@ defined_text = {
 		}
 		localization_key = WILLIAM_LEADER_DESCRIPTION
 	}
+
+	text = {
+		trigger = {
+			original_tag = JAP
+			has_country_flag = meiji_leader
+		}
+		localization_key = MEIJI_LEADER_DESCRIPTION
+	}
+
+	text = {
+		trigger = {
+			original_tag = SOV
+			has_country_flag = nicholas_ii_leader
+		}
+		localization_key = NICHOLAS_II_LEADER_DESCRIPTION
+	}
+
+	text = {
+		trigger = {
+			original_tag = SPR
+			has_country_flag = alfonso_leader
+		}
+		localization_key = ALFONSO_LEADER_DESCRIPTION
+	}
 }
 
 defined_text = {
@@ -324,6 +511,7 @@ defined_text = {
 	text = {
 		trigger = {
 			original_tag = GER
+			has_country_flag = carl_viktor_vp
 		}
 		localization_key = VIKTOR_LEADER_DESCRIPTION
 	}
@@ -331,6 +519,7 @@ defined_text = {
 	text = {
 		trigger = {
 			original_tag = ENG
+			has_country_flag = robert_cecil_vp
 		}
 		localization_key = ROBERT_LEADER_DESCRIPTION
 	}
@@ -338,6 +527,7 @@ defined_text = {
 	text = {
 		trigger = {
 			original_tag = FRA
+			has_country_flag = pierre_rousseau_vp
 		}
 		localization_key = PIERRE_LEADER_DESCRIPTION
 	}
@@ -356,5 +546,29 @@ defined_text = {
 			has_country_flag = theodore_roosevelt_becomes_vp
 		}
 		localization_key = THEODORE_LEADER_DESCRIPTION
+	}
+
+	text = {
+		trigger = {
+			original_tag = JAP
+			has_country_flag = hirobumi_vp
+		}
+		localization_key = HIROBUMI_LEADER_DESCRIPTION
+	}
+
+	text = {
+		trigger = {
+			original_tag = SOV
+			has_country_flag = ivan_durnovo_vp
+		}
+		localization_key = DURNOVO_LEADER_DESCRIPTION
+	}
+
+	text = {
+		trigger = {
+			original_tag = SPR
+			has_country_flag = francisco_silvela_vp
+		}
+		localization_key = FRANCISCO_SILVELA_LEADER_DESCRIPTION
 	}
 }

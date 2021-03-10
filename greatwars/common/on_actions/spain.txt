@@ -6,9 +6,9 @@ on_actions = {
 					has_start_date < 1900.1.2
 				}
 
-				JAP = {
-					set_country_flag = meiji_leader
-					set_country_flag = hirobumi_vp
+				SPR = {
+					set_country_flag = francisco_silvela_vp
+					set_country_flag = alfonso_leader
 				}
 			}
 		}
