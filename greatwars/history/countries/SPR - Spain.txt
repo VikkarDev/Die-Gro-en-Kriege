@@ -31,7 +31,7 @@ capital = 41
 
 	create_country_leader = {
 		name = "Alfonso XIII"
-		desc = ""
+		desc = ALFONSO_LEADER_DESCRIPTION
 		picture = "Alfonso_XIII.dds"
 		ideology = plutocracy
 		traits = {
