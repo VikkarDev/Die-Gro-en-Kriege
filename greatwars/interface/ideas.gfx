@@ -105,6 +105,26 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/tur/TUR_idea_outdated_military.dds"
 	}
 
+	SpriteType = {
+		name = "GFX_idea_jap_meiji_restoration"
+		texturefile = "gfx/interface/ideas/jap/JAP_idea_meiji_restoration.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_idea_jap_bushido_code"
+		texturefile = "gfx/interface/ideas/jap/JAP_idea_bushido_code.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_idea_jap_wooden_constructions"
+		texturefile = "gfx/interface/ideas/jap/JAP_idea_wooden_constructions.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_idea_jap_developed_rail_network"
+		texturefile = "gfx/interface/ideas/jap/JAP_idea_developed_rail_network.dds"
+	}
+
 	### new tfv nat spirit icons
 
 	spriteType = {

@@ -13,6 +13,21 @@ capital = 282
 		elections_allowed = no
 	}
 
+	add_ideas = {
+		# Government / Laws
+		limited_conscription
+		free_trade
+		low_economic_mobilisation
+
+		# Ministers
+
+		# Starting Ideas
+		meiji_restoration
+		bushido_code
+		developed_rail_network
+		wooden_constructions
+	}
+
 	set_popularities = {
 		vanguard_communism = 2.2
 		social_egalitarianism = 5.1
