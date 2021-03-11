@@ -207,4 +207,108 @@ ideas = {
 			}
 		}
 	}
+	
+	######### SPR #########
+	head_of_government = {
+		SPR_francisco_silvela_hog = {
+			allowed = {
+				original_tag = SPR
+			}
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = head_of_gov_available
+					always = no
+				}
+			}
+
+			cancel_if_invalid = no
+
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea SPR_francisco_silvela_hog"
+			}
+
+			traits = {
+				head_of_government
+				conservative
+			}
+		}
+	}
+	
+	foreign_minister = {
+		SPR_francisco_silvela_frg = {
+			allowed = {
+				original_tag = SPR
+			}
+
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = foreign_minister_available
+					always = no
+				}
+			}
+
+			cancel_if_invalid = no
+
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea SPR_francisco_silvela_frg"
+			}
+
+			traits = {
+				foreign_minister
+				conservative
+			}
+		}
+	}
+
+	economic_minister = {
+		SPR_raimundo_f_villaverde_eco = {
+			allowed = {
+				original_tag = SPR
+			}
+
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = economic_minister_available
+					always = no
+				}
+			}
+
+			cancel_if_invalid = no
+
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea SPR_raimundo_f_villaverde_eco"
+			}
+
+			traits = {
+				economic_minister
+				conservative
+			}
+		}
+	}
+
+	interior_minister = {
+		SPR_eduardo_d_iradier_int = {
+			allowed = {
+				original_tag = SPR
+			}
+
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = interior_minister_available
+					always = no
+				}
+			}
+
+			cancel_if_invalid = no
+
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea SPR_eduardo_d_iradier_int"
+			}
+
+			traits = {
+				interior_minister
+				conservative
+			}
+		}
+	}
 }

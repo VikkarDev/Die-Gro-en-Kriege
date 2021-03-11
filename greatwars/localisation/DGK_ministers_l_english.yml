@@ -12,6 +12,12 @@ USA_john_hay_frg:0 "John Hay"
 USA_lyman_j_gage_eco:0 "Lyman J. Gage"
 USA_ethan_a_hitchcock_int:0 "Ethan A. Hitchcock"
 
+######### SPR #########
+SPR_francisco_silvela_hog:0 "Francisco Silvela"
+SPR_francisco_silvela_frg:0 "Francisco Silvela"
+SPR_raimundo_f_villaverde_eco:0 "Raimundo Fernandez-Villaverde"
+SPR_eduardo_d_iradier_int:0 "Eduardo D. Iradier"
+
 ######### MINISTER POLITICAL #########
 social_liberal_1:0 "Social Liberal"
 conservative:0 "Conservative"

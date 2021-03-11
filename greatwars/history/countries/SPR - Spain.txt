@@ -19,6 +19,10 @@ capital = 41
 		limited_exports
 
 		# Ministers
+		SPR_francisco_silvela_hog
+		SPR_francisco_silvela_frg
+		SPR_raimundo_f_villaverde_eco
+		SPR_eduardo_d_iradier_int
 	}
 
 	set_politics = {
