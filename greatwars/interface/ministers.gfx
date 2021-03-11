@@ -57,24 +57,24 @@ spriteTypes = {
 	### SPR | Head of Government ###
 	spriteType = {
 		name = "GFX_idea_SPR_francisco_silvela_hog"
-		texturefile = "gfx/interface/ministers/usa/SPR_francisco_silvela.dds"
+		texturefile = "gfx/interface/ministers/spr/SPR_francisco_silvela.dds"
 	}
 
 	### SPR | Foreign Minister ###
 	spriteType = {
 		name = "GFX_idea_SPR_francisco_silvela_frg"
-		texturefile = "gfx/interface/ministers/usa/SPR_francisco_silvela.dds"
+		texturefile = "gfx/interface/ministers/spr/SPR_francisco_silvela.dds"
 	}
 
 	### SPR | Economic Minister ###
 	spriteType = {
 		name = "GFX_idea_SPR_raimundo_f_villaverde_eco"
-		texturefile = "gfx/interface/ministers/usa/SPR_raimundo_f_villaverde.dds"
+		texturefile = "gfx/interface/ministers/spr/SPR_raimundo_f_villaverde.dds"
 	}
 
 	### SPR | Interior Minister ###
 	spriteType = {
 		name = "GFX_idea_SPR_eduardo_d_iradier_int"
-		texturefile = "gfx/interface/ministers/usa/SPR_eduardo_d_iradier.dds"
+		texturefile = "gfx/interface/ministers/spr/SPR_eduardo_d_iradier.dds"
 	}
 }
