@@ -105,6 +105,17 @@ bookmarks = {
 
 			}
 		}
+			"SPR"={
+			minor = yes
+			history = "SPR_SILENT_NIGHT_DESC"
+			ideology = radical_democracy
+			ideas = {
+			
+			}
+			focuses = {
+
+			}
+		}
 
 		effect = {
 			randomize_weather = 12345 # <- Obligatory in every bookmark !
