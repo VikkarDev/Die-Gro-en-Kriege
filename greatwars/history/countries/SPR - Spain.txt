@@ -45,7 +45,7 @@ capital = 41
 		picture = "Alfonso_XIII.dds"
 		ideology = plutocracy
 		traits = {
-			
+			underage_monarch_trait
 		}
 	}
 }
