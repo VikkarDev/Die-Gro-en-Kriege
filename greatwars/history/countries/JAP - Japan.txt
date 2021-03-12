@@ -33,7 +33,7 @@ capital = 282
 	}
 
 	set_popularities = {
-		vanguard_communism = 2.2
+		vanguard_communism = 0
 		social_egalitarianism = 5.1
 		social_liberalism = 7.2
 		centrism = 14.4
@@ -41,7 +41,7 @@ capital = 282
 		radical_democracy = 3.3
 		chauvinist_populism = 3.6
 		autocracy = 9.3
-		democratic_socialism = 0
+		democratic_socialism = 2.2
 	}
 
 	create_country_leader = {
