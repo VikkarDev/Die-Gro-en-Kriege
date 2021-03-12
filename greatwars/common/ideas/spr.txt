@@ -1,0 +1,24 @@
+ideas = {
+	country = {
+		memories_of_the_spanish_american_war = {
+		picture = spr_spanish_american_humiliation
+		removal_cost = -1
+	  
+		allowed = {
+			tag = SPR
+		}
+		avaiable = {
+		}
+		cancel = {
+		}
+		allowed_civil_war = {
+			always = yes
+		}
+	  
+		modifier = {
+		stability_factor = -0.40
+		resistance_activity = 0.05
+		}
+	  }
+	}
+}
