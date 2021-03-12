@@ -18,6 +18,12 @@ SPR_francisco_silvela_frg:0 "Francisco Silvela"
 SPR_raimundo_f_villaverde_eco:0 "Raimundo Fernandez-Villaverde"
 SPR_eduardo_d_iradier_int:0 "Eduardo D. Iradier"
 
+######### JAP #########
+JAP_hirobumi_ito_hog:0 "Hirobumi Itō"
+JAP_aoki_shuzo_frg:0 "Aoki Shūzō"
+JAP_watanabe_kunitake_eco:0 "Watanabe Kunitake"
+JAP_saigo_judo_int:0 "Saigō Jūdō"
+
 ######### MINISTER POLITICAL #########
 social_liberal_1:0 "Social Liberal"
 conservative:0 "Conservative"

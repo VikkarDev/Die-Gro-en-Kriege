@@ -77,4 +77,30 @@ spriteTypes = {
 		name = "GFX_idea_SPR_eduardo_d_iradier_int"
 		texturefile = "gfx/interface/ministers/spr/SPR_eduardo_d_iradier.dds"
 	}
+
+	####### JAP #######
+
+	### JAP | Head of Government ###
+	spriteType = {
+		name = "GFX_idea_JAP_hirobumi_ito_hog"
+		texturefile = "gfx/interface/ministers/jap/JAP_hirobumi_ito.dds"
+	}
+
+	### JAP | Foreign Minister ###
+	spriteType = {
+		name = "GFX_idea_JAP_aoki_shuzo_frg"
+		texturefile = "gfx/interface/ministers/jap/JAP_aoki_shuzo.dds"
+	}
+
+	### JAP | Economic Minister ###
+	spriteType = {
+		name = "GFX_idea_JAP_watanabe_kunitake_eco"
+		texturefile = "gfx/interface/ministers/jap/JAP_watanabe_kunitake.dds"
+	}
+
+	### JAP | Interior Minister ###
+	spriteType = {
+		name = "GFX_idea_JAP_saigo_judo_int"
+		texturefile = "gfx/interface/ministers/jap/JAP_saigo_judo.dds"
+	}
 }

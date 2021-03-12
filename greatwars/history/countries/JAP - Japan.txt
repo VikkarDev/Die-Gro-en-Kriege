@@ -20,6 +20,10 @@ capital = 282
 		low_economic_mobilisation
 
 		# Ministers
+		JAP_hirobumi_ito_hog
+		JAP_aoki_shuzo_frg
+		JAP_watanabe_kunitake_eco
+		JAP_saigo_judo_int
 
 		# Starting Ideas
 		meiji_restoration
