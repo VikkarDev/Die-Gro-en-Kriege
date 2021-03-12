@@ -133,6 +133,10 @@ unpopular_monarchy_desc:0 ""
 legacy_of_serbo_bulgarian_war:0 "Legacy of the Serbo-Bulgarian War"
 legacy_of_serbo_bulgarian_war_desc:0 "While this National Spirit is active, we will have a hateful relation with  [BUL.GetFlag]  §GBulgaria§!\n\nAcutal Description Goes Here"
 
+# SPAIN
+memories_of_the_spanish_american_war:0 "Memories of the Spanish-American war"
+memories_of_the_spanish_american_war_desc:0 "The Spanish-American war of 1898 was the most humilating war Spain has ever been in. /n/ §RIf we want to remove this badge shame on our nation, we need to get revenge!§"
+
 # GENERIC
 colonial_influence:0 "Colonial Influence"
 colonial_influence_desc:0 "Closer ties to colonies are important in order to keep power world wide. Colonial influence will allow closer ties to the overlords country."
