@@ -13,4 +13,155 @@ focus_tree = {
 	default = no
 
 	continuous_focus_position = { x = 50 y = 1000 }
+
+	focus = {
+        id = POR_recovering_economy
+        icon = GFX_por_recovering_economy
+        search_filters = { FOCUS_FILTER_INDUSTRY }
+        x = 4
+        y = 0
+
+        cost = 10
+
+        available = {
+            country_exists = POR
+        }
+
+        bypass = {
+            
+        }
+
+		completion_reward = {
+			swap_ideas = { 
+				remove_idea = POR_poor_economy
+				add_idea = POR_recovering_economy
+			}
+		}
+    }
+
+	focus = {
+        id = POR_better_industrialization
+        icon = GFX_por_better_industrialization
+        search_filters = { FOCUS_FILTER_INDUSTRY }
+        x = 2
+        y = 1
+
+        cost = 10
+		prerequisite = { focus = POR_recovering_economy }
+
+        available = {
+            
+        }
+
+        bypass = {
+            
+        }
+
+		completion_reward = {
+			random_owned_state = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 2
+			}
+
+			random_owned_state = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 2
+			}
+		}
+    }
+
+	focus = {
+        id = POR_develop_transportation_systems
+        icon = GFX_por_develop_transportation_systems
+        search_filters = { FOCUS_FILTER_INDUSTRY }
+        x = 6
+        y = 1
+
+        cost = 10
+		prerequisite = { focus = POR_recovering_economy }
+
+        available = {
+            POR = {
+				owns_state = 112
+			}
+        }
+
+        bypass = {
+            
+        }
+
+		completion_reward = {
+			112 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 3
+					instant_build = yes
+				}
+			}
+		}
+    }
+
+	focus = {
+        id = POR_the_kings_portugal
+        icon = GFX_por_the_kings_portugal
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        x = 18
+        y = 0
+
+        cost = 10
+		#prerequisite = { focus = POR_recovering_economy }
+		mutually_exclusive = { focus = POR_a_republican_portugal }
+
+        available = {
+            has_country_leader = {
+				name = "Carlos I"
+				ruling_only = yes
+			}
+			country_exists = POR
+        }
+
+        bypass = {
+            
+        }
+
+		completion_reward = {
+			
+		}
+    }
+
+	focus = {
+        id = POR_a_republican_portugal
+        icon = GFX_por_a_republican_portugal
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        x = 24
+        y = 0
+
+        cost = 10
+		#prerequisite = { focus = POR_recovering_economy }
+		mutually_exclusive = { focus = POR_the_kings_portugal }
+
+        available = {
+            has_country_leader = {
+				name = "Carlos I"
+				ruling_only = yes
+			}
+			country_exists = POR
+        }
+
+        bypass = {
+            
+        }
+
+		completion_reward = {
+			
+		}
+    }
 }

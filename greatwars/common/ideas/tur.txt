@@ -1,6 +1,6 @@
 ideas = {
 	country = {
-		outdated_military = {
+		TUR_outdated_military = {
 		picture = tur_outdated_military
 		removal_cost = -1
 	  
@@ -17,7 +17,7 @@ ideas = {
 			mobilization_speed = -0.1
 		}
 	  }
-	  sickman_of_europe = {
+	  TUR_sickman_of_europe = {
 		picture = tur_sickman_of_europe
 		removal_cost = -1
 	  

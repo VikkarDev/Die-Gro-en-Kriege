@@ -9,7 +9,7 @@ capital = 112
 	set_research_slots = 2
 
 	set_politics = {
-		ruling_party = centrism
+		ruling_party = social_liberalism
 		#last_election = "2078.9.26"
 		#election_frequency = 48
 		#elections_allowed = yes
@@ -24,14 +24,17 @@ capital = 112
 		# Ministers
 
 		# Starting Ideas
-		unstable_monarchy
+		POR_unstable_monarchy
+		POR_poor_economy
+		illiteracy
 	}
 
 	set_popularities = {
 		vanguard_communism = 0
 		social_egalitarianism = 1
-		centrism = 65
-		traditional_conservatism = 27
+		social_liberalism = 65
+		centrism = 13
+		traditional_conservatism = 14
 		radical_democracy = 2
 		chauvinist_populism = 0
 		autocracy = 3
@@ -42,9 +45,9 @@ capital = 112
 		name = "Carlos I"
 		desc = ""
 		picture = "Carlos_I.dds"
-		ideology = con_liberal
+		ideology = social_liberal
 		traits = {
-			#father_of_the_turks
+			
 		}
 	}
 }

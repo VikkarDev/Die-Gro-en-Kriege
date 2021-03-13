@@ -1,6 +1,6 @@
 ideas = {
 	country = {
-		unpopular_monarchy = {
+		SER_unpopular_monarchy = {
 			picture = ser_unpopular_monarchy
 		  
 			allowed = {
@@ -13,7 +13,7 @@ ideas = {
 			}
 		}
 
-		legacy_of_serbo_bulgarian_war = {
+		SER_legacy_of_serbo_bulgarian_war = {
 			picture = ser_legacy_of_serbo_bulgarian_war
 		  
 			allowed = {

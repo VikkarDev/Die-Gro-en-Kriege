@@ -1,6 +1,6 @@
 ideas = {
 	country = {
-		Swedish_neutrality = {
+		SWE_Swedish_neutrality = {
 		picture = Swedish_neutrality
 	  
 		allowed = {

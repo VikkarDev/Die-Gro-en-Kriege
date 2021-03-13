@@ -41,11 +41,11 @@ capital = 819
 
 	add_ideas = {
 		# Starting Ideas
-		german_colonies
-		naval_arms_race
-		bloated_naval_budget1
-		failed_kultur_kampf
-		colony_cost1
+		GER_german_colonies
+		GER_naval_arms_race
+		GER_bloated_naval_budget1
+		GER_failed_kultur_kampf
+		GER_colony_cost1
 
 		# Government / Laws
 		limited_conscription

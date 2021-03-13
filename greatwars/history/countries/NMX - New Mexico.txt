@@ -26,9 +26,9 @@ capital = 376
 	}
 
 	create_country_leader = {
-		name = "Unknown"
+		name = "Miguel Otero"
 		desc = ""
-		picture = "Unkown.dds"
+		picture = "Miguel_Otero.dds"
 		ideology = conserv
 		traits = {
 			

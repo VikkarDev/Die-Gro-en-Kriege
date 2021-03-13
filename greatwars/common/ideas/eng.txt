@@ -1,6 +1,6 @@
 ideas = {
 	country = {
-		victoria = {
+		ENG_victoria = {
 		picture = eng_victoria
 	  
 		allowed = {

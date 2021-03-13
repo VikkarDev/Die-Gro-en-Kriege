@@ -41,9 +41,9 @@ bookmarks = {
 			history = GER_SILENT_NIGHT_DESC
 			ideology = centrism
 			ideas = {
-				german_army
-				german_colonies
-				naval_arms_race
+				GER_german_army
+				GER_german_colonies
+				GER_naval_arms_race
 			}
 			focuses = {
 				GER_weltpolitik
@@ -55,9 +55,9 @@ bookmarks = {
 			history = USA_SILENT_NIGHT_DESC
 			ideology = traditional_conservatism
 			ideas = {
-				jim_crow_laws
-				the_two_party_system
-				scars_of_1865
+				USA_jim_crow_laws
+				USA_the_two_party_system
+				USA_scars_of_1865
 			}
 			focuses = {
 				
@@ -67,8 +67,8 @@ bookmarks = {
 			history = TUR_SILENT_NIGHT_DESC
 			ideology = autocracy
 			ideas = {
-				sickman_of_europe
-				outdated_military
+				TUR_sickman_of_europe
+				TUR_outdated_military
 			}	
 			focuses = {
 				
@@ -78,9 +78,9 @@ bookmarks = {
 			history = SOV_SILENT_NIGHT_DESC
 			ideology = autocracy
 			ideas = {
-				french_Dependancy
-				fear_of_revolution
-				long_live_the_tsar
+				SOV_french_Dependancy
+				SOV_fear_of_revolution
+				SOV_long_live_the_tsar
 			}
 			focuses = {
 				
@@ -97,9 +97,9 @@ bookmarks = {
 			history = "JAP_SILENT_NIGHT_DESC"
 			ideology = traditional_conservatism
 			ideas = {
-				meiji_restoration
-				bushido_code
-				developed_rail_network
+				JAP_meiji_restoration
+				JAP_bushido_code
+				JAP_developed_rail_network
 			}
 			focuses = {
 
@@ -121,7 +121,9 @@ bookmarks = {
 			history = "POR_SILENT_NIGHT_DESC"
 			ideology = traditional_conservatism
 			ideas = {
-				unstable_monarchy
+				POR_unstable_monarchy
+				POR_poor_economy
+				POR_overstreched_empire
 			}
 			focuses = {
 

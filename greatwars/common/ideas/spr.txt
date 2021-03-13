@@ -1,13 +1,13 @@
 ideas = {
 	country = {
-		memories_of_the_spanish_american_war = {
+		SPR_memories_of_the_spanish_american_war = {
 		picture = spr_spanish_american_humiliation
 		removal_cost = -1
 	  
 		allowed = {
 			tag = SPR
 		}
-		avaiable = {
+		available = {
 		}
 		cancel = {
 		}

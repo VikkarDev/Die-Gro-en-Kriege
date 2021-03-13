@@ -577,7 +577,7 @@ focus_tree = {
 		
 		completion_reward = { 
 			custom_effect_tooltip = "Unlocks a ship designer: Kure Naval Arsenal. (+10% capital ship armor, +50% carrier deck armor, +10% capital ship attack, +15% naval research speed.)"
-			add_ideas = { kokai_naval_spirit }
+			add_ideas = { JAP_kokai_naval_spirit }
 		}
 	}
 

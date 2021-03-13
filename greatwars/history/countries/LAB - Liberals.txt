@@ -9,8 +9,8 @@ capital = 869
 	set_research_slots = 2
 
 	add_ideas = {
-		support_from_ecuadorian_liberals
-		support_from_venezuelan_liberals
+		COL_support_from_ecuadorian_liberals
+		COL_support_from_venezuelan_liberals
 	}
 	
 	set_politics = {

@@ -1,6 +1,6 @@
 ideas = {
 	country = {
-		wilhelm_ii = {
+		GER_wilhelm_ii = {
 		picture = ger_wilhelm_ii
 	  
 		allowed = {
@@ -17,7 +17,7 @@ ideas = {
 	  }
 	}
 	country = {
-		loyalty_to_the_kaiser = {
+		GER_loyalty_to_the_kaiser = {
 		picture = ger_german_army
 	  
 		allowed = {
@@ -34,7 +34,7 @@ ideas = {
 	
 	###Army
 	country = {
-		german_army = {
+		GER_german_army = {
 		picture = ger_german_army
 	  
 		allowed = {
@@ -48,7 +48,7 @@ ideas = {
 	  }
 	}
 	country = {
-		german_aces = {
+		GER_german_aces = {
 		picture = ger_german_army
 	  
 		allowed = {
@@ -62,7 +62,7 @@ ideas = {
 	  }
 	}
 	country = {
-		worlds_largest_army = {
+		GER_worlds_largest_army = {
 		picture = ger_bloated_naval_budget
 	  
 		allowed = {
@@ -76,7 +76,7 @@ ideas = {
 	  }
 	}
 	country = {
-		mass_conscription = {
+		GER_mass_conscription = {
 		picture = ger_german_army
 	  
 		allowed = {
@@ -91,7 +91,7 @@ ideas = {
 	  }
 	}
 	country = {
-		german_reserve_system = {
+		GER_german_reserve_system = {
 		picture = ger_german_army
 	  
 		allowed = {
@@ -109,7 +109,7 @@ ideas = {
 	
 	###Economuy
 	country = {
-		BASF = {
+		GER_BASF = {
 		picture = ger_german_army
 	  
 		allowed = {
@@ -123,7 +123,7 @@ ideas = {
 	  }
 	}
 	country = {
-		tarrif_on_grain_imports = {
+		GER_tarrif_on_grain_imports = {
 		picture = ger_german_army
 	  
 		allowed = {
@@ -137,7 +137,7 @@ ideas = {
 	  }
 	}
 	country = {
-		foriegn_direct_investments = {
+		GER_foriegn_direct_investments = {
 		picture = ger_german_army
 	  
 		allowed = {
@@ -150,7 +150,7 @@ ideas = {
 	  }
 	}
 	country = {
-		german_economy = {
+		GER_german_economy = {
 		picture = ger_german_economy
 	  
 		allowed = {
@@ -164,7 +164,7 @@ ideas = {
 	  }
 	}
 	country = {
-		german_textiles = {
+		GER_german_textiles = {
 		picture = ger_german_army
 	  
 		allowed = {
@@ -179,7 +179,7 @@ ideas = {
 	  }
 	}
 	country = {
-		cartel_system = {
+		GER_cartel_system = {
 		picture = ger_german_army
 	  
 		allowed = {
@@ -197,7 +197,7 @@ ideas = {
 	
 	###Colony
 	country = {
-		german_colonies = {
+		GER_german_colonies = {
 		picture = ger_german_colonies
 	  
 		allowed = {
@@ -212,7 +212,7 @@ ideas = {
 	  }
 	}
 	country = {
-		colony_cost1 = {
+		GER_colony_cost1 = {
 		picture = ger_german_army
 	  
 		allowed = {
@@ -226,7 +226,7 @@ ideas = {
 	  }
 	}
 	country = {
-		colony_cost2 = {
+		GER_colony_cost2 = {
 		picture = ger_german_army
 	  
 		allowed = {
@@ -240,7 +240,7 @@ ideas = {
 	  }
 	}
 	country = {
-		colony_cost3 = {
+		GER_colony_cost3 = {
 		picture = ger_german_army
 	  
 		allowed = {
@@ -254,7 +254,7 @@ ideas = {
 	  }
 	}
 	country = {
-		colony_cost4 = {
+		GER_colony_cost4 = {
 		picture = ger_german_army
 	  
 		allowed = {
@@ -268,7 +268,7 @@ ideas = {
 	  }
 	}
 	country = {
-		colony_cost5 = {
+		GER_colony_cost5 = {
 		picture = ger_german_army
 	  
 		allowed = {
@@ -282,7 +282,7 @@ ideas = {
 	  }
 	}
 	country = {
-		colony_cost6 = {
+		GER_colony_cost6 = {
 		picture = ger_german_army
 	  
 		allowed = {
@@ -299,7 +299,7 @@ ideas = {
 	
 	###Navy
 	country = {
-		naval_arms_race = {
+		GER_naval_arms_race = {
 		picture = ger_naval_arms_race
 	  
 		allowed = {
@@ -317,7 +317,7 @@ ideas = {
 	  }
 	}
 	country = {
-		german_imperial_admirality = {
+		GER_german_imperial_admirality = {
 		picture = ger_german_army
 	  
 		allowed = {
@@ -333,7 +333,7 @@ ideas = {
 	  }
 	}
 	country = {
-		bloated_naval_budget1 = {
+		GER_bloated_naval_budget1 = {
 		picture = ger_bloated_naval_budget
 	  
 		allowed = {
@@ -348,7 +348,7 @@ ideas = {
 	  }
 	}
 	country = {
-		bloated_naval_budget2 = {
+		GER_bloated_naval_budget2 = {
 		picture = ger_bloated_naval_budget
 	  
 		allowed = {
@@ -362,7 +362,7 @@ ideas = {
 	  }
 	}
 	country = {
-		bloated_naval_budget3 = {
+		GER_bloated_naval_budget3 = {
 		picture = ger_bloated_naval_budget
 	  
 		allowed = {
@@ -376,7 +376,7 @@ ideas = {
 	  }
 	}
 	country = {
-		bloated_naval_budget4 = {
+		GER_bloated_naval_budget4 = {
 		picture = ger_bloated_naval_budget
 	  
 		allowed = {
@@ -390,7 +390,7 @@ ideas = {
 	  }
 	}
 	country = {
-		bloated_naval_budget5 = {
+		GER_bloated_naval_budget5 = {
 		picture = ger_bloated_naval_budget
 	  
 		allowed = {
@@ -406,7 +406,7 @@ ideas = {
 	
 	###General
 	country = {
-		our_place_in_the_sun = {
+		GER_our_place_in_the_sun = {
 		picture = ger_german_army
 	  
 		allowed = {
@@ -420,7 +420,7 @@ ideas = {
 	  }
 	}
 	country = {
-		failed_kultur_kampf = {
+		GER_failed_kultur_kampf = {
 		picture = ger_failed_kultur_kampf
 	  
 		allowed = {
@@ -434,7 +434,7 @@ ideas = {
 	  }
 	}
 	country = {
-		second_kultur_kampf = {
+		GER_second_kultur_kampf = {
 		picture = ger_second_kultur_kampf
 	  
 		allowed = {
@@ -448,7 +448,7 @@ ideas = {
 	  }
 	}
 	country = {
-		proggressive_reforms = {
+		GER_proggressive_reforms = {
 		picture = ger_german_army
 	  
 		allowed = {
@@ -461,7 +461,7 @@ ideas = {
 	  }
 	}
 	country = {
-		end_religious_persicution = {
+		GER_end_religious_persicution = {
 		picture = ger_bloated_naval_budget
 	  
 		allowed = {
@@ -474,7 +474,7 @@ ideas = {
 	  }
 	}
 	country = {
-		welfare_programs = {
+		GER_welfare_programs = {
 		picture = ger_german_army
 	  
 		allowed = {

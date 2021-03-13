@@ -1,6 +1,6 @@
 ideas = {
 	country = {
-        for_the_emperor = {
+        JAP_for_the_emperor = {
 			picture = jap_for_the_emperor
 
 			allowed = {
@@ -15,7 +15,7 @@ ideas = {
 			}
     	}
 
-		overstreched_economy = {
+		JAP_overstreched_economy = {
 			picture = jap_overstreched_economy
 
 			allowed = {
@@ -27,7 +27,7 @@ ideas = {
 			}
     	}
 		
-		meiji_restoration = {
+		JAP_meiji_restoration = {
 			picture = jap_meiji_restoration
 
 			allowed = {
@@ -48,7 +48,7 @@ ideas = {
 			}
 		}
 
-		bushido_code = {
+		JAP_bushido_code = {
 			picture = jap_bushido_code
 
 			allowed = {
@@ -61,7 +61,7 @@ ideas = {
 			}
 		}
 
-		developed_rail_network = {
+		JAP_developed_rail_network = {
 			picture = jap_developed_rail_network
 
 			allowed = {
@@ -75,7 +75,7 @@ ideas = {
 			}
 		}
 
-		wooden_constructions = {
+		JAP_wooden_constructions = {
 			picture = jap_wooden_constructions
 
 			allowed = {
@@ -88,7 +88,7 @@ ideas = {
 			}
 		}
 
-		kokai_naval_spirit = {
+		JAP_kokai_naval_spirit = {
 			picture = jap_kokai_naval_spirit
 
 			allowed = {

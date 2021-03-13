@@ -45,7 +45,7 @@ focus_tree = {
 		}
 
 		completion_reward = { 
-			add_ideas = { german_economy }
+			add_ideas = { GER_german_economy }
 			add_political_power = 50
 		}
 	}
@@ -60,14 +60,14 @@ focus_tree = {
 		cost = 10
 
 		available = {
-			has_idea = german_economy
+			has_idea = GER_german_economy
 		}
 		bypass = {
 			
 		}
 
 		completion_reward = { 
-			add_ideas = { foriegn_direct_investments }
+			add_ideas = { GER_foriegn_direct_investments }
 		}
 	}
 	focus = {
@@ -81,7 +81,7 @@ focus_tree = {
 		cost = 10
 
 		available = {
-			has_idea = german_economy
+			has_idea = GER_german_economy
 		}
 		bypass = {
 			
@@ -239,7 +239,7 @@ focus_tree = {
 		}
 
 		completion_reward = { 
-			add_ideas = { german_textiles }
+			add_ideas = { GER_german_textiles }
 		}
 	}
 	focus = {
@@ -262,7 +262,7 @@ focus_tree = {
 		}
 
 		completion_reward = { 
-			add_ideas = { cartel_system }
+			add_ideas = { GER_cartel_system }
 		}
 	}
 	focus = {
@@ -363,7 +363,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			add_ideas = { tarrif_on_grain_imports }
+			add_ideas = { GER_tarrif_on_grain_imports }
 		}
 	}
 	focus = {
@@ -386,7 +386,7 @@ focus_tree = {
 		completion_reward = { 
 			army_experience = 25
 			add_war_support = 0.10
-			add_ideas = { german_army }
+			add_ideas = { GER_german_army }
 		}
 	}
 	focus = {
@@ -431,7 +431,7 @@ focus_tree = {
 		}
 
 		completion_reward = { 
-			add_ideas = { german_reserve_system }
+			add_ideas = { GER_german_reserve_system }
 		}
 	}
 	focus = {
@@ -454,7 +454,7 @@ focus_tree = {
 		}
 
 		completion_reward = { 
-			add_ideas = { mass_conscription }
+			add_ideas = { GER_mass_conscription }
 		}
 	}
 	focus = {
@@ -485,7 +485,7 @@ focus_tree = {
 		}
 
 		completion_reward = { 
-			add_ideas = { loyalty_to_the_kaiser }
+			add_ideas = { GER_loyalty_to_the_kaiser }
 		}
 	}
 	focus = {
@@ -825,7 +825,7 @@ focus_tree = {
 		
 		available = {
 			country_exists = GER
-			has_idea = colony_cost3
+			has_idea = GER_colony_cost3
 		}
 		bypass = {
 			
@@ -833,8 +833,8 @@ focus_tree = {
 
 		completion_reward = { 
 			swap_ideas = {
-				remove_idea = colony_cost3
-				add_idea = colony_cost4
+				remove_idea = GER_colony_cost3
+				add_idea = GER_colony_cost4
 			}
 		}				
 	}
@@ -850,7 +850,7 @@ focus_tree = {
 		
 		available = {
 			country_exists = GER
-			has_idea = colony_cost1
+			has_idea = GER_colony_cost1
 		}
 		bypass = {
 			
@@ -858,8 +858,8 @@ focus_tree = {
 
 		completion_reward = { 
 			swap_ideas = {
-				remove_idea = colony_cost1
-				add_idea = colony_cost2
+				remove_idea = GER_colony_cost1
+				add_idea = GER_colony_cost2
 			}
 		}				
 	}
@@ -876,7 +876,7 @@ focus_tree = {
 		
 		available = {
 			country_exists = GER
-			has_idea = colony_cost4
+			has_idea = GER_colony_cost4
 		}
 		bypass = {
 			
@@ -884,8 +884,8 @@ focus_tree = {
 
 		completion_reward = { 
 			swap_ideas = {
-				remove_idea = colony_cost4
-				add_idea = colony_cost5
+				remove_idea = GER_colony_cost4
+				add_idea = GER_colony_cost5
 			}
 		}				
 	}
@@ -901,7 +901,7 @@ focus_tree = {
 		
 		available = {
 			country_exists = GER
-			has_idea = colony_cost2
+			has_idea = GER_colony_cost2
 		}
 		bypass = {
 			
@@ -909,8 +909,8 @@ focus_tree = {
 
 		completion_reward = { 
 			swap_ideas = {
-				remove_idea = colony_cost2
-				add_idea = colony_cost3
+				remove_idea = GER_colony_cost2
+				add_idea = GER_colony_cost3
 			}
 		}				
 	}
@@ -926,7 +926,7 @@ focus_tree = {
 		
 		available = {
 			country_exists = GER
-			has_idea = colony_cost5
+			has_idea = GER_colony_cost5
 		}
 		bypass = {
 			
@@ -935,8 +935,8 @@ focus_tree = {
 		completion_reward = { 
 			add_political_power = 25
 			swap_ideas = {
-				remove_idea = colony_cost5
-				add_idea = colony_cost6
+				remove_idea = GER_colony_cost5
+				add_idea = GER_colony_cost6
 			}
 		}				
 	}
@@ -996,7 +996,7 @@ focus_tree = {
 		}
 
 		completion_reward = { 
-			add_ideas = { BASF }
+			add_ideas = { GER_BASF }
 		}				
 	}
 	focus = {
@@ -1084,7 +1084,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			add_ideas = { welfare_programs }
+			add_ideas = { GER_welfare_programs }
 			add_popularity = {
     			ideology = social_liberalism
     			popularity = 0.05
@@ -1137,7 +1137,7 @@ focus_tree = {
     			ideology = vanguard_communism
     			popularity = -0.10
 			}
-			add_ideas = { welfare_programs }
+			add_ideas = { GER_welfare_programs }
 		}				
 	}
 	focus = {
@@ -1261,8 +1261,8 @@ focus_tree = {
 				}
 			}
 			swap_ideas = {
-				remove_idea = bloated_naval_budget1
-				add_idea = bloated_naval_budget2
+				remove_idea = GER_bloated_naval_budget1
+				add_idea = GER_bloated_naval_budget2
 			}
 		}				
 	}
@@ -1344,7 +1344,7 @@ focus_tree = {
 		}
 
 		completion_reward = { 
-			remove_ideas = naval_arms_race
+			remove_ideas = GER_naval_arms_race
 			add_stability = 0.025
 
 			custom_effect_tooltip = HISTORICAL_BREAK
@@ -1362,7 +1362,7 @@ focus_tree = {
 		
 		available = {
 			country_exists = GER
-			has_idea = bloated_naval_budget1
+			has_idea = GER_bloated_naval_budget1
 			NOT = {
 				has_war_with = ENG }
 		}
@@ -1376,8 +1376,8 @@ focus_tree = {
 				days = 10
 			}
 			swap_ideas = {
-				remove_idea = bloated_naval_budget1
-				add_idea = bloated_naval_budget2
+				remove_idea = GER_bloated_naval_budget1
+				add_idea = GER_bloated_naval_budget2
 			}
 		}				
 	}
@@ -1454,7 +1454,7 @@ focus_tree = {
 		}
 
 		completion_reward = { 
-			add_ideas = { german_imperial_admirality }
+			add_ideas = { GER_german_imperial_admirality }
 		}				
 	}
 	focus = {
@@ -1594,7 +1594,7 @@ focus_tree = {
 
 		available = {
 			country_exists = GER
-			has_idea = bloated_naval_budget2
+			has_idea = GER_bloated_naval_budget2
 		}
 		bypass = {
 			
@@ -1602,8 +1602,8 @@ focus_tree = {
 
 		completion_reward = { 
 			swap_ideas = {
-				remove_idea = bloated_naval_budget2
-				add_idea = bloated_naval_budget4
+				remove_idea = GER_bloated_naval_budget2
+				add_idea = GER_bloated_naval_budget4
 			}
 		}				
 	}
@@ -1688,7 +1688,7 @@ focus_tree = {
 
 		available = {
 			country_exists = GER
-			has_idea = failed_kultur_kampf
+			has_idea = GER_failed_kultur_kampf
 		}
 		bypass = {
 			
@@ -1696,7 +1696,7 @@ focus_tree = {
 
 		completion_reward = { 
 			add_timed_idea = {
-				idea = second_kultur_kampf
+				idea = GER_second_kultur_kampf
 				days = 80
 			}
 			custom_effect_tooltip = trade_worse_temp_debuffs_to_fix_kultur_sooner
@@ -1714,14 +1714,14 @@ focus_tree = {
 		
 		available = {
 			country_exists = GER
-			NOT = { has_idea = end_religious_persicution }
+			NOT = { has_idea = GER_end_religious_persicution }
 		}
 		bypass = {
 			
 		}
 
 		completion_reward = { 
-			remove_ideas = failed_kultur_kampf
+			remove_ideas = GER_failed_kultur_kampf
 		}				
 	}
 	focus = {
@@ -1760,7 +1760,7 @@ focus_tree = {
 		
 		available = {
 			country_exists = GER
-			has_idea = failed_kultur_kampf
+			has_idea = GER_failed_kultur_kampf
 		}
 		bypass = {
 			
@@ -1768,7 +1768,7 @@ focus_tree = {
 		
 		completion_reward = { 
 			add_timed_idea = {
-				idea = end_religious_persicution
+				idea = GER_end_religious_persicution
 				days = 180
 			}
 			custom_effect_tooltip = trade_less_temp_debuffs_for_waiting_longer_to_fix_kultur
@@ -1786,14 +1786,14 @@ focus_tree = {
 	
 		available = {
 			country_exists = GER
-			NOT = { has_idea = second_kultur_kampf }
+			NOT = { has_idea = GER_second_kultur_kampf }
 		}
 		bypass = {
 			
 		}
 
 		completion_reward = { 
-			remove_ideas = { failed_kultur_kampf }
+			remove_ideas = { GER_failed_kultur_kampf }
 		}				
 	}
 	focus = {
@@ -1814,7 +1814,7 @@ focus_tree = {
 		}
 
 		completion_reward = { 
-			add_ideas = { our_place_in_the_sun }
+			add_ideas = { GER_our_place_in_the_sun }
 		}				
 	}
 	focus = {
@@ -1841,8 +1841,8 @@ focus_tree = {
 
 		completion_reward = { 			
 			swap_ideas = {
-				remove_idea = bloated_naval_budget3
-				add_idea = bloated_naval_budget5
+				remove_idea = GER_bloated_naval_budget3
+				add_idea = GER_bloated_naval_budget5
 			}
 		}				
 	}
@@ -2141,7 +2141,7 @@ focus_tree = {
 		
 		available = {
 			country_exists = GER
-			has_idea = failed_kultur_kampf
+			has_idea = GER_failed_kultur_kampf
 		}
 		bypass = {
 			
@@ -2169,7 +2169,7 @@ focus_tree = {
 		}
 
 		completion_reward = { 
-			add_ideas = { proggressive_reforms }
+			add_ideas = { GER_proggressive_reforms }
 		}				
 	}
 	focus = {
@@ -2234,7 +2234,7 @@ focus_tree = {
 		}
 
 		completion_reward = { 
-			add_ideas = { worlds_largest_army }
+			add_ideas = { GER_worlds_largest_army }
 		}				
 	}
 	focus = {
@@ -2452,7 +2452,7 @@ focus_tree = {
 		
 		available = {
 			country_exists = GER
-			has_idea = bloated_naval_budget1
+			has_idea = GER_bloated_naval_budget1
 		}
 		bypass = {
 			
@@ -2460,8 +2460,8 @@ focus_tree = {
 		
 		completion_reward = { 
 			swap_ideas = {
-				remove_idea = bloated_naval_budget1
-				add_idea = bloated_naval_budget3
+				remove_idea = GER_bloated_naval_budget1
+				add_idea = GER_bloated_naval_budget3
 			}
 		}				
 	}
@@ -2584,7 +2584,7 @@ focus_tree = {
 		}
 
 		completion_reward = { 
-			add_ideas = { german_aces }
+			add_ideas = { GER_german_aces }
 		}				
 	}
 }

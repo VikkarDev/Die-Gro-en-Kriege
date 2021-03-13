@@ -13,7 +13,7 @@ capital = 41
 	
 	add_ideas = {
 		# Starting Ideas
-		memories_of_the_spanish_american_war
+		SPR_memories_of_the_spanish_american_war
 
 		# Government / Laws
 		limited_conscription

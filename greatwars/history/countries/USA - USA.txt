@@ -118,15 +118,15 @@ capital = 361
 		USA_ethan_a_hitchcock_int
 
 		# Starting Ideas
-		jim_crow_laws
-		scars_of_1865
-		the_gold_standard
-		american_imperialism
-		the_two_party_system
-		fully_industrialized_society
+		USA_jim_crow_laws
+		USA_scars_of_1865
+		USA_the_gold_standard
+		USA_american_imperialism
+		USA_the_two_party_system
+		USA_fully_industrialized_society
 	}
 
-	add_timed_idea = { idea = 1900_us_election days = 310 }
+	add_timed_idea = { idea = USA_1900_us_election days = 310 }
 
 	set_politics = {
 		ruling_party = centrism

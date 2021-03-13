@@ -1,6 +1,6 @@
 ideas = {
 	country = {
-		columbian_civil_war = {
+		COL_columbian_civil_war = {
 		picture = col_colombian_civil_war
 	  
 		allowed = {
@@ -15,7 +15,7 @@ ideas = {
 		}
 	  }
 
-	  support_from_ecuadorian_liberals = {
+	  COL_support_from_ecuadorian_liberals = {
 		picture = lab_support_from_ecuadorian_liberals
 	  
 		allowed = {
@@ -30,7 +30,7 @@ ideas = {
 		}
 	  }
 
-	  support_from_venezuelan_liberals = {
+	  COL_support_from_venezuelan_liberals = {
 	  	picture = LAB_support_from_venezuelan_liberals
 		
 		allowed = {

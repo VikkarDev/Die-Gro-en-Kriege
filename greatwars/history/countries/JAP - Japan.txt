@@ -26,10 +26,10 @@ capital = 282
 		JAP_saigo_judo_int
 
 		# Starting Ideas
-		meiji_restoration
-		bushido_code
-		developed_rail_network
-		wooden_constructions
+		JAP_meiji_restoration
+		JAP_bushido_code
+		JAP_developed_rail_network
+		JAP_wooden_constructions
 	}
 
 	set_popularities = {

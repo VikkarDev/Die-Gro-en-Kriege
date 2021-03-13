@@ -43,14 +43,14 @@ capital = 49
 	set_research_slots = 3
 
 	add_ideas = {
-		# government
+		# Government / Laws
 		limited_conscription
 		partial_economic_mobilisation
 		free_trade
 
-		# other
-		sickman_of_europe
-		outdated_military
+		# Starting Ideas
+		TUR_sickman_of_europe
+		TUR_outdated_military
 	}
 
 	set_politics = {

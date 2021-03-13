@@ -1,6 +1,6 @@
 ideas = {
 	country = {
-		1900_us_election = {
+		USA_1900_us_election = {
 		picture = usa_1900_us_election
 		removal_cost = -1
 	  
@@ -14,7 +14,7 @@ ideas = {
 			resistance_activity = 0.025
 		}
 	  }
-	  jim_crow_laws = {
+	  USA_jim_crow_laws = {
 		picture = usa_jim_crow_laws
 		removal_cost = -1
 	  
@@ -28,7 +28,7 @@ ideas = {
 			political_power_gain = 0.10
 		}
 	  }
-	  scars_of_1865 = {
+	  USA_scars_of_1865 = {
 		picture = usa_scars_of_1865
 		removal_cost = -1
 	  
@@ -42,7 +42,7 @@ ideas = {
 			recruitable_population = -0.02
 		}
 	  }
-	  the_gold_standard = {
+	  USA_the_gold_standard = {
 		picture = usa_the_gold_standard
 		removal_cost = -1
 	  
@@ -57,7 +57,7 @@ ideas = {
 			production_factory_efficiency_gain_factor = 0.05
 		}
 	  }
-	  american_imperialism = {
+	  USA_american_imperialism = {
 		picture = usa_american_imperialism
 		removal_cost = -1
 	  
@@ -73,7 +73,7 @@ ideas = {
 			justify_war_goal_time = -0.10
 		}
 	  }
-	  the_two_party_system = {
+	  USA_the_two_party_system = {
 		picture = usa_the_two_party_system
 		removal_cost = -1
 	  
@@ -86,7 +86,7 @@ ideas = {
 			stability_factor = 0.05
 		}
 	  }
-	  fully_industrialized_society = {
+	  USA_fully_industrialized_society = {
 		picture = usa_fully_industrialized_society
 		removal_cost = -1
 	  

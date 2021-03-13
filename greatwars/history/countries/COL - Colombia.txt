@@ -11,7 +11,7 @@ capital = 608
 	set_research_slots = 2
 
 	add_ideas = {
-		columbian_civil_war
+		COL_columbian_civil_war
 
 		# GOVERNMENT STUFF
 		volunteer_only
