@@ -105,12 +105,23 @@ bookmarks = {
 
 			}
 		}
-			"SPR"={
+		"SPR"={
 			minor = yes
 			history = "SPR_SILENT_NIGHT_DESC"
 			ideology = radical_democracy
 			ideas = {
 			
+			}
+			focuses = {
+
+			}
+		}
+		"POR"={
+			minor = yes
+			history = "POR_SILENT_NIGHT_DESC"
+			ideology = traditional_conservatism
+			ideas = {
+				unstable_monarchy
 			}
 			focuses = {
 

@@ -3,6 +3,11 @@ BOS_OCU = {
 	color_ui = rgb { 255 255 255 }
 }
 
+POR_KINGDOM = {
+	color = rgb { 43 75 179 }
+	color_ui = rgb { 43 75 179 }
+}
+
 USA_CUB = {
 	color = rgb {20 133 237}
 	color_ui = rgb {87 160 255}

@@ -83,6 +83,18 @@ EGY_UK_ADJ:0 "Egyptian"
 BOS_OCU_centrism:0 "Condominium of Bosnia and Herzegovina"
 BOS_OCU_centrism_DEF:0 "The Condominium of Bosnia and Herzegovina"
 
+HOL_KINGDOM:0 "Kingdom of the Netherlands"
+HOL_KINGDOM_DEF:0 "The Kingdom of the Netherlands"
+HOL_KINGDOM_ADJ:0 "Dutch"
+
+BEL_KINGDOM:0 "Kingdom of Belgium"
+BEL_KINGDOM_DEF:0 "The Kingdom of Belgium"
+BEL_KINGDOM_ADJ:0 "Belgain"
+
+DEN_KINGDOM:0 "Kingdom of Denmark"
+DEN_KINGDOM_DESC:0 "The Kingdom of Denmark"
+DEN_KINGDOM_ADJ:0 "Danish"
+
 HAW_USA:0 "Hawaii Territory"
 HAW_USA:0 "Hawaii Territory"
 

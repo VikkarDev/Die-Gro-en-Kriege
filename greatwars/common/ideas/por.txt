@@ -1,0 +1,22 @@
+ideas = {
+	country = {
+		unstable_monarchy = {
+			picture = por_unstable_monarchy
+
+			available = {
+				tag = POR
+			}
+
+			allowed_civil_war = {
+				tag = POR
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				political_power_gain = -0.25
+				stability_weekly = -0.002
+			}
+		}
+	}
+}
