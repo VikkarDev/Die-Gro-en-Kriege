@@ -71,5 +71,10 @@ spriteTypes = {
 		name = "GFX_JAP_Hirobumi"
 		texturefile = "gfx/leaders/JAP/Hirobumi.dds"
 	}
-
+    
+    # KOREA
+    spriteType = {
+		name = "GFX_KOR_Yoon_Yong_sun"
+		texturefile = "gfx/leaders/KOR/Yoon_Yong_sun.dds"
+	}
 }

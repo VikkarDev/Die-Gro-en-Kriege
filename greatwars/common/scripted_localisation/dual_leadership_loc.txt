@@ -95,6 +95,13 @@ defined_text = {
 		}
 		localization_key = SPR_HOS_TITLE
 	}
+    
+    text = {
+		trigger = {
+			tag = KOR
+		}
+		localization_key = KOR_HOS_TITLE
+	}
 
 	text = {
 		localization_key = DEFAULT_HOS_TITLE
@@ -195,6 +202,13 @@ defined_text = {
 			}
 		}
 		localization_key = SPR_HOG_TITLE
+	}
+    
+    text = {
+		trigger = {
+			tag = KOR
+		}
+		localization_key = KOR_HOG_TITLE
 	}
 
 	text = {
@@ -309,6 +323,14 @@ defined_text = {
 			}
 		}
 		localization_key = SPR_FRANCISCO_NAME
+	}
+    
+    text = {
+		trigger = {
+			tag = KOR
+			has_country_flag = yoon_yong_sun_vp
+		}
+		localization_key = KOR_YYS_NAME
 	}
 
 	text = {
@@ -438,7 +460,14 @@ defined_text = {
 		}
 		localization_key = "GFX_SPR_Francisco_Silvela"
 	}
-
+    
+    text = {
+		trigger = {
+			tag = KOR
+			has_country_flag = yoon_yong_sun_vp
+		}
+		localization_key = "GFX_KOR_Yoon_Yong_sun"
+	}
 	text = {
 		localization_key = "GFX_portrait_bg_blank"
 	}
@@ -502,6 +531,14 @@ defined_text = {
 			has_country_flag = alfonso_leader
 		}
 		localization_key = ALFONSO_LEADER_DESCRIPTION
+	}
+    
+    text = {
+		trigger = {
+			original_tag = KOR
+			has_country_flag = gojong_leader
+		}
+		localization_key = GOJONG_LEADER_DESCRIPTION
 	}
 }
 
@@ -570,5 +607,12 @@ defined_text = {
 			has_country_flag = francisco_silvela_vp
 		}
 		localization_key = FRANCISCO_SILVELA_LEADER_DESCRIPTION
+	}
+    text = {
+		trigger = {
+			original_tag = KOR
+			has_country_flag = yoon_yong_sun_vp
+		}
+		localization_key = YYS_LEADER_DESCRIPTION
 	}
 }
