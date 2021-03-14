@@ -35,6 +35,12 @@ COL_traditional_conservatism_party_long:0 "Partido Conservador Colombiano"
 COL_chauvinist_populism_party:0 "PN"
 COL_chauvinist_populism_party_long:0 "Partido Nacional"
 
+##chile
+CHL_traditional_centrism_party:0 "PL"
+CHL_traditional_centrism_party_long:0 "Partido Liberal"
+CHL_chauvinist_populism_party:0 "MV"
+CHL_chauvinist_populism_party_long:0 "Montt Varist"
+
 
 GER_vanguard_communism_party:0 "KPD"
 GER_vanguard_communism_party_long:0 "Kommunistische Partei Deutschlands"
