@@ -1,17 +1,13 @@
-capital = 869
+﻿capital = 302
 
 1900.1.1 = {
 
-	oob = "LAB_1900"
+	oob = "BOL_1900"
 
 	set_convoys = 165
 
 	set_research_slots = 2
 
-	add_ideas = {
-		COL_support_from_ecuadorian_liberals
-		COL_support_from_venezuelan_liberals
-	}
 	
 	set_politics = {
 		ruling_party = centrism
@@ -20,16 +16,7 @@ capital = 869
 		#elections_allowed = yes
 	}
 	
-	if = {
-		limit = {
-			has_start_date < 1900.1.2
-		}
 
-		declare_war_on = {
-			target = COL
-			type = annex_everything
-		}
-	}
 	set_popularities = {
 		vanguard_communism = 0
 		social_egalitarianism = 0
@@ -42,7 +29,7 @@ capital = 869
 	}
 
 	create_country_leader = {
-		name = "Rafael Uribe Uribe"
+		name = "José Manuel Pando"
 		desc = ""
 		picture = "Rafael_Uribe_Uribe.dds"
 		ideology = con_liberal
