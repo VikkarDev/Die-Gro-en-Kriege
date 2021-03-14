@@ -29,6 +29,13 @@ CAN_social_egalitarianism_party_long:0 "Liberal Party (Left)"
 CAN_centrist_party:0 "LP(C)"
 CAN_centrist_party_long:0 "Liberal Party (Centre)"
 
+##colombia
+COL_traditional_conservatism_party:0 "PCC"
+COL_traditional_conservatism_party_long:0 "Partido Conservador Colombiano"
+COL_chauvinist_populism_party:0 "PN"
+COL_chauvinist_populism_party_long:0 "Partido Nacional"
+
+
 GER_vanguard_communism_party:0 "KPD"
 GER_vanguard_communism_party_long:0 "Kommunistische Partei Deutschlands"
 GER_social_egalitarianism_party:0 "SPD (C)"
