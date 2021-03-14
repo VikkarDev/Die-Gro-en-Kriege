@@ -15,7 +15,7 @@ focus_tree = {
 	continuous_focus_position = { x = 50 y = 1000 }
 
 	focus = {
-        id = POR_recovering_economy
+        id = POR_recovering_economy_focus
         icon = GFX_por_recovering_economy
         search_filters = { FOCUS_FILTER_INDUSTRY }
         x = 4
@@ -47,7 +47,7 @@ focus_tree = {
         y = 1
 
         cost = 10
-		prerequisite = { focus = POR_recovering_economy }
+		prerequisite = { focus = POR_recovering_economy_focus }
 
         available = {
             
@@ -86,7 +86,7 @@ focus_tree = {
         y = 1
 
         cost = 10
-		prerequisite = { focus = POR_recovering_economy }
+		prerequisite = { focus = POR_recovering_economy_focus }
 
         available = {
             POR = {
@@ -162,6 +162,107 @@ focus_tree = {
 
 		completion_reward = {
 			
+		}
+    }
+
+	focus = {
+        id = POR_the_colonies
+        icon = GFX_por_the_colonies
+        #search_filters = { FOCUS_FILTER_POLITICAL }
+        x = 34
+        y = 0
+
+        cost = 10
+		#prerequisite = { focus = POR_recovering_economy }
+		#mutually_exclusive = { focus = POR_the_kings_portugal }
+
+        available = {
+            owns_state = 540
+			owns_state = 544
+        }
+
+        bypass = {
+            
+        }
+
+		completion_reward = {
+			add_political_power = 45
+		}
+    }
+
+	focus = {
+        id = POR_develop_angola
+        icon = GFX_por_develop_angola
+        #search_filters = { FOCUS_FILTER_POLITICAL }
+        x = 33
+        y = 1
+
+        cost = 5
+		prerequisite = { focus = POR_the_colonies }
+		#mutually_exclusive = { focus = POR_the_kings_portugal }
+
+        available = {
+            owns_state = 540
+        }
+
+        bypass = {
+            
+        }
+
+		completion_reward = {
+			540 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+
+				add_extra_state_shared_building_slots = 3
+			}
+		}
+    }
+
+	focus = {
+        id = POR_develop_mozambique
+        icon = GFX_por_develop_mozambique
+        #search_filters = { FOCUS_FILTER_POLITICAL }
+        x = 35
+        y = 1
+
+        cost = 5
+		prerequisite = { focus = POR_the_colonies }
+		#mutually_exclusive = { focus = POR_the_kings_portugal }
+
+        available = {
+            owns_state = 544
+        }
+
+        bypass = {
+            
+        }
+
+		completion_reward = {
+			544 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+
+				add_extra_state_shared_building_slots = 3
+			}
 		}
     }
 }

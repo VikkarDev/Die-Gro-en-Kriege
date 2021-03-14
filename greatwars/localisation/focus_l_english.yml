@@ -39,6 +39,22 @@ JAP_genjo:0 "Genjo"
 JAP_genjo_desc:0 "Genjo, or "status quo" is a pervasive idea in Japanese politics. it is often thought that to disturb normality you make yourself a threat, a blade of grass sticking up ready to be cut down. Ever since Meiji's restoration of the Emperor, we have seen untold success and fortune. In order to continue these successes, it is evident that we should not stray from our path in the coming years."
 JAP_look_elsewhere_for_expansion:0 "Look Elsewhere for Expansion"
 
+# PORTUGAL
+POR_recovering_economy_focus:0 "Recovering Economy"
+POR_recovering_economy_focus_desc:0 ""
+POR_better_industrialization:0 "Better Industrialization"
+POR_better_industrialization_desc:0 ""
+POR_develop_transportation_systems:0 "Develop Transportation Systems"
+POR_develop_transportation_systems_desc:0 ""
+POR_the_kings_portugal:0 "The King's Portugal"
+POR_the_kings_portugal_desc:0 ""
+POR_a_republican_portugal:0 "A Republican Portugal"
+POR_a_republican_portugal_desc:0 ""
+POR_the_colonies:0 "The Colonies"
+POR_the_colonies_desc:0 ""
+POR_develop_angola:0 "Develop Angola"
+POR_develop_angola_desc:0 ""
+
 #### GERMAN ALTHISTORY
 GER_birth_of_republic:0 "Birth of the Republic"
 GER_birth_of_republic_desc:0 "The weaknesses of the imperial system are evident. In order to face the future, we must model our society off of those who have sought freedom, justice and equality."

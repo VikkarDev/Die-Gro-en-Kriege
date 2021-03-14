@@ -126,7 +126,9 @@ bookmarks = {
 				POR_overstreched_empire
 			}
 			focuses = {
-
+				POR_the_kings_portugal
+				POR_recovering_economy_focus
+				POR_a_republican_portugal
 			}
 		}
 

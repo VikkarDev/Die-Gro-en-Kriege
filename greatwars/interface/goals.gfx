@@ -233,6 +233,26 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/por/POR_focus_a_republican_portugal.dds"
 	}
 
+	SpriteType = {
+		name = "GFX_por_the_colonies"
+		texturefile = "gfx/interface/goals/por/POR_focus_the_colonies.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_por_develop_angola"
+		texturefile = "gfx/interface/goals/por/POR_focus_develop_angola.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_por_develop_mozambique"
+		texturefile = "gfx/interface/goals/por/POR_focus_develop_mozambique.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_por_the_kings_portugal"
+		texturefile = "gfx/interface/goals/por/POR_focus_the_kings_portugal.dds"
+	}
+
 	#### Generic goal icons
 
 	SpriteType = {

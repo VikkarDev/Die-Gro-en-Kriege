@@ -130,6 +130,16 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/ser/SER_idea_unpopular_monarchy.dds"
 	}
 
+	SpriteType = {
+		name = "GFX_idea_generic_illiteracy"
+		texturefile = "gfx/interface/ideas/generic/idea_illiteracy.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_idea_por_unstable_monarchy"
+		texturefile = "gfx/interface/ideas/por/POR_idea_unstable_monarchy.dds"
+	}
+
 	### new tfv nat spirit icons
 
 	spriteType = {
