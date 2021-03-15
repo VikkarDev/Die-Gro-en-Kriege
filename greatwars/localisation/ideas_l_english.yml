@@ -133,7 +133,11 @@ SER_legacy_of_serbo_bulgarian_war_desc:0 "While this National Spirit is active, 
 
 # SPAIN
 SPR_memories_of_the_spanish_american_war:0 "El desastre del 98"
-SPR_memories_of_the_spanish_american_war_desc:0 "The Spanish-American war of 1898, or 'El desastre del 98', was the most humilating war Spain has seen. /n/ §RIf we want to remove this badge shame on our nation, we must have revenge!§"
+SPR_memories_of_the_spanish_american_war_desc:0 "The Spanish-American war of 1898, or 'El desastre del 98', was the most humilating war Spain has seen, putting the weakness of the Spanish navy and army on full display, as well as helping catapult America's status as a great power even further. /n/ §RIf we want to remove this badge shame on our nation, we must have revenge!§"
+SPR_the_regency_of_maria_christina:0 "The Regency of Maria Christina"
+SPR_the_regency_of_maria_christina_desc:0 "From the death of her husband, Maria Christina has been the regent for Spain until the king becomes of age. Her reign as her son's regent has seen a peaceful return to relative stability, passing through reforms whenever needed. Although the Spanish-American war tarnished her image greatly, she still has still managed to hold a fragile Spain together.. §RFor now...§"
+SPR_election_rigging:0 "Election Rigging"
+SPR_election_rigging_desc: "With the failure of the First Spanish Republic, the creation of the Spanish Constitution of 1876 allowed the king to continue his reign as a constitutional monarchy, but still holding the power to help in the system named 'Turno Pacifico', or 'Peaceful Turn', a system in which the king would appoint and topple governments, allowing the opposition party to take power. Under this system the Conseratives and Liberals have altered in power by the means of Election rigging, by using their links to the local governments and Ministry of the Interior to ensure power and prevent smaller parties from taking on any form of power."
 
 # PORTUGAL
 POR_unstable_monarchy:0 "Unstable Monarchy"

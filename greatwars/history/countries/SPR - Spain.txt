@@ -14,6 +14,8 @@ capital = 41
 	add_ideas = {
 		# Starting Ideas
 		SPR_memories_of_the_spanish_american_war
+		SPR_the_regency_of_maria_christina
+		SPR_election_rigging
 
 		# Government / Laws
 		limited_conscription
