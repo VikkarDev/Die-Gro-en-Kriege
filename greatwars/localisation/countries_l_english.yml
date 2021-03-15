@@ -124,6 +124,22 @@
  ORC_traditional_conservatism_DEF:0 "The Orange Free State"
  ORC_traditional_conservatism_ADJ:0 "African"
 
+ GDI:0 "Sultanate of the Geledi"
+ GDI_DEF:0 "The Sultanate of the Geledi"
+ GDI_ADJ:0 "Geledian"
+
+ DAR:0 "Sultanate of Darfur"
+ DAR_DEF:0 "The Sultanate of Darfur"
+ DAR_ADJ:0 "Darfurian"
+
+ WAD:0 "Sultanate of Wadai"
+ WAD_DEF:0 " The Sultanate of Wadai"
+ WAD_ADJ:0 "Wadaian"
+
+ DER:0 "Dervish State"
+ DER_DEF:0 "The Dervish State"
+ DER_ADJ:0 "Dervish"
+
  SAR_traditional_conservatism:0 "South African Republic"
  SAR_traditional_conservatism_DEF:0 "South African Republic"
  SAR_traditional_conservatism_ADJ:0 "South African"

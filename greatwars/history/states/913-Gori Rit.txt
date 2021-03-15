@@ -1,0 +1,21 @@
+state={
+	id=913
+	name="STATE_913"
+	state_category = rural
+
+	history = {
+		owner = DER
+		add_core_of = DER
+		add_core_of = SOM
+
+		buildings = {
+			infrastructure = 3
+		}
+	}
+
+	provinces={
+		13254 
+	}
+	manpower=15000
+	buildings_max_level_factor=1.000
+}

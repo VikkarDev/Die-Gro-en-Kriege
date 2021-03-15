@@ -1,0 +1,22 @@
+state={
+	id=911
+	name="STATE_911"
+	state_category = town	
+
+	history = {
+		owner = WAD
+		add_core_of = WAD
+		add_core_of = CHA
+
+		buildings = {
+			infrastructure = 2
+
+		}
+	}
+
+	provinces={
+		1473 7919 
+	}
+	manpower=35000
+	buildings_max_level_factor=1.000
+}

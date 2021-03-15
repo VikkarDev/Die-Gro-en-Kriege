@@ -1,0 +1,21 @@
+state={
+	id=914
+	name="STATE_914"
+	state_category = town
+
+	history = {
+		owner = DER
+		add_core_of = DER
+		add_core_of = SOM
+
+		buildings = {
+			infrastructure = 3
+		}
+	}
+
+	provinces={
+		1905 
+	}
+	manpower=25000
+	buildings_max_level_factor=1.000
+}

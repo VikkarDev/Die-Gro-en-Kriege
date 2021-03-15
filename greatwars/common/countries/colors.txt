@@ -179,6 +179,22 @@ POR = {
 	color = rgb { 39 116 70 }
 	color_ui = rgb { 51 151 91 }
 }
+GDI = {
+	color = rgb { 217 211 106 }
+	color_ui = rgb { 217 211 106 }
+}
+DAR = {
+	color = rgb { 233  157  114 }
+	color_ui = rgb { 233  157  114 }
+}
+WAD = {
+	color = rgb { 250  223  173 }
+	color_ui = rgb { 250  223  173 }
+}
+DER = {
+	color = rgb { 96 41 22 }
+	color_ui = rgb { 96 41 22 }
+}
 
 LUX = {
 	color = rgb { 65 175 179 }
