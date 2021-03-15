@@ -138,6 +138,126 @@ focus_tree = {
     }
 
 	focus = {
+        id = POR_creation_of_the_prl
+        icon = GFX_por_creation_of_the_prl
+        #search_filters = { FOCUS_FILTER_POLITICAL }
+        x = 18
+        y = 1
+
+        cost = 7
+		prerequisite = { focus = POR_the_kings_portugal }
+		#mutually_exclusive = { focus = POR_a_republican_portugal }
+
+        available = {
+            
+        }
+
+        bypass = {
+            
+        }
+
+		completion_reward = {
+			
+		}
+    }
+
+	focus = {
+        id = POR_appoint_ernesto_hintze_ribeiro
+        icon = GFX_por_appoint_ernesto_hintze_ribeiro
+        #search_filters = { FOCUS_FILTER_POLITICAL }
+        x = 15
+        y = 2
+
+        cost = 10
+		prerequisite = { focus = POR_creation_of_the_prl }
+		mutually_exclusive = { focus = POR_appoint_jose_luciano_de_castro }
+
+        available = {
+            
+        }
+
+        bypass = {
+            
+        }
+
+		completion_reward = {
+			
+		}
+    }
+
+	focus = {
+        id = POR_pharmacies_law
+        icon = GFX_por_pharmacies_law
+        #search_filters = { FOCUS_FILTER_POLITICAL }
+        x = 14
+        y = 3
+
+        cost = 6
+		prerequisite = { focus = POR_appoint_ernesto_hintze_ribeiro }
+		#mutually_exclusive = { focus = POR_appoint_jose_luciano_de_castro }
+
+        available = {
+            
+        }
+
+        bypass = {
+            
+        }
+
+		completion_reward = {
+			
+		}
+    }
+
+	focus = {
+        id = POR_forests_law
+        icon = GFX_por_forests_law
+        #search_filters = { FOCUS_FILTER_POLITICAL }
+        x = 16
+        y = 3
+
+        cost = 6
+		prerequisite = { focus = POR_appoint_ernesto_hintze_ribeiro }
+		#mutually_exclusive = { focus = POR_appoint_jose_luciano_de_castro }
+
+        available = {
+            
+        }
+
+        bypass = {
+            
+        }
+
+		completion_reward = {
+			
+		}
+    }
+
+	focus = {
+        id = POR_appoint_jose_luciano_de_castro
+        icon = GFX_por_appoint_appoint_jose_luciano_de_castro
+        #search_filters = { FOCUS_FILTER_POLITICAL }
+        x = 21
+        y = 2
+
+        cost = 10
+		prerequisite = { focus = POR_creation_of_the_prl }
+		mutually_exclusive = { focus = POR_appoint_ernesto_hintze_ribeiro }
+
+        available = {
+            
+        }
+
+        bypass = {
+            
+        }
+
+		completion_reward = {
+			
+		}
+    }
+
+	focus = {
         id = POR_a_republican_portugal
         icon = GFX_por_a_republican_portugal
         search_filters = { FOCUS_FILTER_POLITICAL }
@@ -154,6 +274,54 @@ focus_tree = {
 				ruling_only = yes
 			}
 			country_exists = POR
+        }
+
+        bypass = {
+            
+        }
+
+		completion_reward = {
+			
+		}
+    }
+
+	focus = {
+        id = POR_free_election_system
+        icon = GFX_por_free_election_system
+        #search_filters = { FOCUS_FILTER_POLITICAL }
+        x = 24
+        y = 1
+
+        cost = 10
+		prerequisite = { focus = POR_a_republican_portugal }
+		#mutually_exclusive = { focus = POR_the_kings_portugal }
+
+        available = {
+           
+        }
+
+        bypass = {
+            
+        }
+
+		completion_reward = {
+			
+		}
+    }
+
+	focus = {
+        id = POR_amend_the_constitution
+        icon = GFX_por_amend_the_constitution
+        #search_filters = { FOCUS_FILTER_POLITICAL }
+        x = 24
+        y = 2
+
+        cost = 10
+		prerequisite = { focus = POR_free_election_system }
+		#mutually_exclusive = { focus = POR_the_kings_portugal }
+
+        available = {
+           
         }
 
         bypass = {
@@ -203,6 +371,7 @@ focus_tree = {
 
         available = {
             owns_state = 540
+			owns_state = 796
         }
 
         bypass = {
@@ -224,6 +393,16 @@ focus_tree = {
 				}
 
 				add_extra_state_shared_building_slots = 3
+			}
+
+			796 = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+
+				add_extra_state_shared_building_slots = 1
 			}
 		}
     }
