@@ -1,0 +1,60 @@
+focus_tree = {
+	id = spain_1900_focus
+
+	country = {
+		factor = 0
+
+		modifier = {
+			add = 11
+			tag = SPR
+		}
+	}
+
+	default = no
+
+	continuous_focus_position = { x = 50 y = 1000 }
+
+	focus = {
+        id = SPR_continue_election_rigging_focus
+        icon = GFX_spr_election_rigging_focus
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        x = 18
+        y = 0
+
+        cost = 5
+
+        available = {
+            country_exists = SPR
+        }
+
+        bypass = {
+            
+        }
+
+		completion_reward = {
+			
+		}
+    }
+	
+	focus = {
+        id = SPR_propose_free_elections_focus
+        icon = GFX_spr_propose_free_elections_focus
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        x = 24
+        y = 0
+
+        cost = 5
+
+        available = {
+            country_exists = SPR
+        }
+
+        bypass = {
+            
+        }
+
+		completion_reward = {
+			
+		}
+    }
+}

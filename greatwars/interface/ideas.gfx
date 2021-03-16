@@ -139,6 +139,23 @@ spriteTypes = {
 		name = "GFX_idea_por_unstable_monarchy"
 		texturefile = "gfx/interface/ideas/por/POR_idea_unstable_monarchy.dds"
 	}
+	
+	### SPAIN ###
+	
+	SpriteType = {
+		name = "GFX_idea_spr_memories_of_the_spanish_american_war"
+		texturefile = "gfx/interface/ideas/por/SPR_idea_memories_of_the_spanish_american_war.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_spr_the_regency_of_maria_christina_war"
+		texturefile = "gfx/interface/ideas/por/SPR_idea_the_regency_of_maria_christina.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_idea_spr_election_rigging"
+		texturefile = "gfx/interface/ideas/por/SPR_idea_election_rigging.dds"
+	}
 
 	### new tfv nat spirit icons
 
