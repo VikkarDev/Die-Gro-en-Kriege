@@ -10,7 +10,7 @@
 
 
 	set_politics = {
-		ruling_party = centrism
+		ruling_party = radical_democracy
 		#last_election = "1895.6.25"
 		#election_frequency = 85
 		#elections_allowed = yes
@@ -20,9 +20,9 @@
 	set_popularities = {
 		vanguard_communism = 0
 		social_egalitarianism = 0
-		centrism = 100
+		centrism = 0
 		traditional_conservatism = 0
-		radical_democracy = 0
+		radical_democracy = 100
 		chauvinist_populism = 0
 		autocracy = 0
 		democratic_socialism = 0
