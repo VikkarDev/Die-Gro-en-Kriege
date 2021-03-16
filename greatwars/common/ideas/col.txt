@@ -1,0 +1,51 @@
+ideas = {
+	country = {
+		COL_columbian_civil_war = {
+		picture = col_colombian_civil_war
+	  
+		allowed = {
+			tag = COL
+			tag = LAB
+		}
+	  
+		modifier = {
+			stability_factor = -0.35
+			war_support_factor = 0.10
+			political_power_gain = -0.5
+		}
+	  }
+
+	  COL_support_from_ecuadorian_liberals = {
+		picture = lab_support_from_ecuadorian_liberals
+	  
+		allowed = {
+			tag = LAB
+		}
+	  
+		modifier = {
+			mobilization_speed = 0.10
+			war_support_factor = 0.05
+			political_power_gain = -1
+			army_attack_factor = 0.08
+		}
+	  }
+
+	  COL_support_from_venezuelan_liberals = {
+	  	picture = LAB_support_from_venezuelan_liberals
+		
+		allowed = {
+			tag = LAB
+		}
+
+		modifier = {
+			mobilization_speed = 0.10
+			war_support_factor = 0.05
+			political_power_gain = -1
+			army_attack_factor = 0.05
+		}
+	  }
+
+	
+	}
+
+}

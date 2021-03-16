@@ -1,0 +1,67 @@
+ideas = {
+	country = {
+		SPR_memories_of_the_spanish_american_war = {
+		picture = spr_spanish_american_humiliation
+		removal_cost = -1
+	  
+		allowed = {
+			tag = SPR
+		}
+		available = {
+		}
+		cancel = {
+		}
+		allowed_civil_war = {
+			always = yes
+		}
+	  
+		modifier = {
+		stability_factor = -0.40
+		war_support_factor = -0.20
+		}
+	  }
+	  
+	  SPR_the_regency_of_maria_christina = {
+		picture = spr_the_regency_of_maria_christina
+		removal_cost = -1
+	  
+		allowed = {
+			tag = SPR
+		}
+		available = {
+		}
+		cancel = {
+		}
+		allowed_civil_war = {
+			always = no
+		}
+	  
+		modifier = {
+		stability_factor = 0.05
+		political_power_gain = 0.10
+		}
+	  }
+	  
+	   SPR_election_rigging = {
+		picture = spr_election_rigging
+		removal_cost = -1
+	  
+		allowed = {
+			tag = SPR
+		}
+		available = {
+		}
+		cancel = {
+		}
+		allowed_civil_war = {
+			always = no
+		}
+	  
+		modifier = {
+		stability_factor = 0.05
+		drift_defence_factor = 0.60
+		political_power_gain = -0.15
+		}
+	  }
+	}
+}

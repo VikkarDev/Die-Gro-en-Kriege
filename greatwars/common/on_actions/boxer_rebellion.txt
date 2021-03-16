@@ -1,0 +1,41 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			if = {
+				limit = {
+					has_start_date < 1900.1.2
+					NOT = {
+						has_global_flag = is_dgk_scripted_false
+					}
+				}
+
+				GER = {
+					country_event = { id = boxer_rebellion.1 days = 160 } #160 days. 10 is for testing
+				}
+
+				#GER = {
+				#	country_event = { id = boxer_rebellion.3 days = 614 }
+				#}
+			}
+		}
+	}
+	
+	on_state_control_changed = {
+		effect = {
+			if = {
+				limit = {
+					BOX = {
+						controls_state = 608
+						controls_state = 609
+						controls_state = 597
+						controls_state = 598
+					}
+				}
+
+				BOX = {
+					country_event = { id = boxer_rebellion.5 }
+				}
+			}
+		}
+	}
+}

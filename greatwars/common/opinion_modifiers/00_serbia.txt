@@ -1,0 +1,6 @@
+opinion_modifiers = {
+	
+	legacy_of_war = {
+		value = -50
+	}
+}

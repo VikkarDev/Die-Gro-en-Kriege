@@ -1,0 +1,19 @@
+ideas = {
+	country = {
+		ENG_victoria = {
+		picture = eng_victoria
+	  
+		allowed = {
+			tag = ENG
+		}
+	  
+		#rule = {
+		#	can_create_factions = yes
+		#}
+
+		traits = {
+			popular_figurehead
+		}
+	  }
+	}
+}

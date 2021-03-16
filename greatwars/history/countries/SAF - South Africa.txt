@@ -1,0 +1,42 @@
+capital = 275
+
+1900.1.1 = {
+
+	capital = 681	
+
+	OOB = "SAF_1900"
+
+	set_cosmetic_tag = SAF_COLONY
+
+	set_convoys = 215
+
+	set_research_slots = 2
+
+	set_politics = {
+		ruling_party = traditional_conservatism
+		#last_election = "2078.9.26"
+		#election_frequency = 48
+		elections_allowed = no
+	}
+
+	set_popularities = {
+		vanguard_communism = 0
+		social_egalitarianism = 0
+		centrism = 0
+		traditional_conservatism = 100
+		radical_democracy = 0
+		chauvinist_populism = 0
+		autocracy = 0
+		democratic_socialism = 0
+	}
+
+	create_country_leader = {
+		name = "Unkown"
+		desc = ""
+		picture = "unknown.dds"
+		ideology = conserv
+		traits = {
+			
+		}
+	}
+}

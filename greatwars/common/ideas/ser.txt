@@ -1,0 +1,36 @@
+ideas = {
+	country = {
+		SER_unpopular_monarchy = {
+			picture = ser_unpopular_monarchy
+		  
+			allowed = {
+				tag = SER
+			}
+	
+			modifier = {
+				stability_factor = -0.10
+				war_support_factor = -0.05
+			}
+		}
+
+		SER_legacy_of_serbo_bulgarian_war = {
+			picture = ser_legacy_of_serbo_bulgarian_war
+		  
+			allowed = {
+				tag = SER
+			}
+	
+			modifier = {
+				experience_gain_army_factor = 0.10
+				military_leader_cost_factor = -0.20
+			}
+
+			on_remove = {
+				remove_opinion_modifier = {
+					target = BUL
+					modifier = legacy_of_war
+				}
+			}
+		}
+	}
+}

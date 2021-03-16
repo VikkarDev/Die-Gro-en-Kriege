@@ -1,0 +1,229 @@
+focus_tree = {
+	id = uk_1900_focus
+
+	country = {
+		factor = 0
+
+		modifier = {
+			add = 11
+			tag = ENG
+		}
+	}
+
+	default = no
+
+	continuous_focus_position = { x = 50 y = 1000 }
+
+	focus = {
+		id = ENG_military_reforms
+		icon = GFX_eng_military_reforms
+		#search_filters = { FOCUS_FILTER_POLITICAL }
+		x = 7
+		y = 0
+
+		cost = 10
+
+		available = {
+			
+		}
+		
+		completion_reward = { 
+			add_war_support = -0.05
+			add_stability = 0.05
+		}
+	}
+
+	focus = {
+		id = ENG_remaking_artillery
+		icon = GFX_eng_remaking_artillery
+		#search_filters = { FOCUS_FILTER_POLITICAL }
+		x = 7
+		y = 1
+
+		cost = 10
+		prerequisite = { focus = ENG_military_reforms }
+
+		available = {
+			
+		}
+		
+		completion_reward = { 
+			add_tech_bonus = {
+				name = ENG_remaking_artillery
+				bonus = 1.0
+				uses = 2
+				category = artillery
+			}
+		}
+	}
+
+	focus = {
+		id = ENG_production_of_artillery
+		icon = GFX_eng_production_of_artillery
+		#search_filters = { FOCUS_FILTER_POLITICAL }
+		x = 7
+		y = 2
+
+		cost = 10
+		prerequisite = { focus = ENG_remaking_artillery }
+
+		available = {
+			
+		}
+		
+		completion_reward = { 
+			ROOT = {
+				if = {
+					limit = {
+						has_equipment = { artillery_equipment_1 = 1 }
+					}
+					add_equipment_to_stockpile = {
+						type = artillery_equipment_1
+						amount = 300
+					}
+				}
+				else = {
+					add_equipment_to_stockpile = {
+						type = artillery_equipment
+						amount = 300
+					}
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = ENG_improving_the_british_rifle
+		icon = GFX_eng_improving_the_british_rifle
+		#search_filters = { FOCUS_FILTER_POLITICAL }
+		x = 9
+		y = 1
+
+		cost = 10
+		prerequisite = { focus = ENG_military_reforms }
+
+		available = {
+			
+		}
+		
+		completion_reward = { 
+			add_tech_bonus = {
+				name = ENG_improving_the_british_rifle
+				bonus = 1.0
+				uses = 2
+				category = infantry_weapons
+			}
+		}
+	}
+
+	focus = {
+		id = ENG_production_of_rifles
+		icon = GFX_eng_production_of_rifles
+		#search_filters = { FOCUS_FILTER_POLITICAL }
+		x = 9
+		y = 2
+
+		cost = 10
+		prerequisite = { focus = ENG_improving_the_british_rifle }
+
+		available = {
+			
+		}
+		
+		completion_reward = { 
+			ROOT = {
+				if = {
+					limit = {
+						has_equipment = { infantry_equipment_1 = 1 }
+					}
+					add_equipment_to_stockpile = {
+						type = infantry_equipment_1
+						amount = 300
+					}
+				}
+				else = {
+					add_equipment_to_stockpile = {
+						type = infantry_equipment_0
+						amount = 300
+					}
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = ENG_form_the_labour_party
+		icon = GFX_eng_form_the_labour_party
+		#search_filters = { FOCUS_FILTER_POLITICAL }
+		x = 25
+		y = 0
+
+		cost = 10
+		#prerequisite = { focus = ENG_military_reforms }
+
+		available = {
+			
+		}
+		
+		completion_reward = { 
+			
+		}
+	}
+
+	focus = {
+		id = ENG_the_lib_lab_pact
+		icon = GFX_eng_the_lib_lab_pact
+		#search_filters = { FOCUS_FILTER_POLITICAL }
+		x = 25
+		y = 1
+
+		cost = 10
+		prerequisite = { focus = ENG_form_the_labour_party }
+
+		available = {
+			
+		}
+		
+		completion_reward = { 
+		
+		}
+	}
+
+	focus = {
+		id = ENG_sign_the_entente_cordiale
+		icon = GFX_eng_sign_the_entente_cordiale
+		#search_filters = { FOCUS_FILTER_POLITICAL }
+		x = 23
+		y = 2
+
+		cost = 10
+		prerequisite = { focus = ENG_the_lib_lab_pact }
+
+		available = {
+			
+		}
+		
+		completion_reward = { 
+			
+		}
+	}
+
+	focus = {
+		id = ENG_appoint_henry_campbell-bannerman
+		icon = GFX_eng_appoint_henry_campbell-bannerman
+		#search_filters = { FOCUS_FILTER_POLITICAL }
+		x = 27
+		y = 2
+
+		cost = 10
+		prerequisite = { focus = ENG_the_lib_lab_pact }
+
+		available = {
+			
+		}
+		
+		completion_reward = { 
+			
+		}
+	}
+}

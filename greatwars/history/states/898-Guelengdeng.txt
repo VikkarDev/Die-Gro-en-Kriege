@@ -1,0 +1,21 @@
+state={
+	id=898
+	name="STATE_898"
+	state_category = rural
+
+	history={
+		owner = GER
+		add_core_of = CHA
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+
+	}
+
+	provinces={
+		13249 
+	}
+	manpower=25000
+	buildings_max_level_factor=1.000
+}

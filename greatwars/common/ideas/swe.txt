@@ -1,0 +1,16 @@
+ideas = {
+	country = {
+		SWE_Swedish_neutrality = {
+		picture = Swedish_neutrality
+	  
+		allowed = {
+			tag = SWE
+		}
+	  
+		modifier = {
+			political_power_gain = 0.25
+			join_faction_tension = 0.30
+		}
+	  }
+	}
+}

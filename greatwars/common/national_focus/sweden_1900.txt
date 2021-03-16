@@ -1,0 +1,179 @@
+focus_tree = {
+	id = sweden_1900_focus
+
+	country = {
+		factor = 0
+
+		modifier = {
+			add = 11
+			tag = SWE
+		}
+	}
+
+	default = no
+
+	continuous_focus_position = { x = 50 y = 1000 }
+    focus = {
+		id = SWE_TEST
+		icon = GFX_focus_generic_industry_1
+		x = 5
+		y = 0
+
+		cost = 10
+
+		available = {
+			country_exists = SWE
+		}
+
+		
+
+		completion_reward = { 
+			
+		}
+	}
+
+
+
+    focus = {
+		id = SWE_TEST2
+		icon = GFX_focus_generic_industry_1
+		x = 5
+		y = 1
+
+		cost = 10
+		prerequisite = { focus = SWE_TEST }
+
+		available = {
+			country_exists = SWE
+		}
+
+		
+
+		completion_reward = { 
+			
+		}
+	}
+	focus = {
+		id = SWE_TEST3
+		icon = GFX_focus_generic_industry_1
+		x = 6
+		y = 2
+
+		cost = 10
+		prerequisite = { focus = SWE_TEST2 }
+
+		available = {
+			country_exists = SWE
+		}
+
+		
+
+		completion_reward = { 
+			
+		}
+	}
+	focus = {
+		id = SWE_TEST4
+		icon = GFX_focus_generic_industry_1
+		x = 4
+		y = 2
+
+		cost = 10
+		prerequisite = { focus = SWE_TEST2 }
+		mutually_exclusive = { focus = SWE_TEST3 }
+
+		available = {
+			country_exists = SWE
+		}
+
+		
+
+		completion_reward = { 
+			
+		}
+	}
+	focus = {
+		id = SWE_TEST5
+		icon = GFX_focus_generic_industry_1
+		x = 20
+		y = 0
+
+		cost = 10
+		
+
+		available = {
+			country_exists = SWE
+		}
+
+		
+
+		completion_reward = { 
+			
+		}
+	}
+	focus = {
+		id = SWE_navy
+		icon = GFX_focus_generic_industry_1
+		x = 29
+		y = 0
+
+		cost = 10
+		
+
+		available = {
+			country_exists = SWE
+		}
+
+		
+
+		completion_reward = { 
+			
+		}
+	}
+}
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

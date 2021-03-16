@@ -1,0 +1,49 @@
+capital = 141
+
+1900.1.1 = {
+	OOB = "SWE_1900"
+
+	set_convoys = 125
+	
+	set_capital = 141
+
+	set_research_slots = 3
+
+	set_cosmetic_tag = NOR_SWE_union
+
+	add_ideas = {
+		# government
+		SWE_Swedish_neutrality
+		volunteer_only
+		free_trade
+		low_economic_mobilisation
+	}
+
+	set_politics = {
+		ruling_party = centrism
+		#last_election = "2078.9.26"
+		#election_frequency = 48
+		#elections_allowed = yes
+	}
+
+	set_popularities = {
+		vanguard_communism = 0
+		social_egalitarianism = 0
+		centrism = 59.3
+		traditional_conservatism = 30
+		radical_democracy = 3.8
+		chauvinist_populism = 0
+		autocracy = 1.9
+		democratic_socialism = 5
+	}
+
+	create_country_leader = {
+		name = "Oscar II"
+		desc = ""
+		picture = "Oscar_II.dds"
+		ideology = con_liberal
+		#traits = {
+		#	
+		#}
+	}
+}

@@ -1,0 +1,36 @@
+capital = 893
+
+1900.1.1 = {
+
+	OOB = "ANZ_1900"
+
+	set_research_slots = 1
+
+	set_politics = {
+		ruling_party = autocracy
+		#last_election = "2078.9.26"
+		#election_frequency = 48
+		#elections_allowed = yes
+	}
+
+	set_popularities = {
+		vanguard_communism = 0
+		social_egalitarianism = 0
+		centrism = 5
+		traditional_conservatism = 10
+		radical_democracy = 0
+		chauvinist_populism = 5
+		autocracy = 80
+		democratic_socialism = 0
+	}
+
+	create_country_leader = {
+		name = "Fahad bin Abdul Mohsen Al-Hatthal"
+		desc = ""
+		picture = "Fahad_Mohsen_Al-Hatthal.dds"
+		ideology = despotism
+		traits = {
+			#father_of_the_turks
+		}
+	}
+}

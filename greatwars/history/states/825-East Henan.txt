@@ -1,0 +1,22 @@
+state={
+	id=825
+	name="STATE_825"
+	state_category = town
+
+	history={
+		owner = CHI
+		add_core_of = CHI
+		add_core_of = PRC
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 2
+
+		}
+	}
+
+	provinces={
+		4010 7129 
+	}
+	manpower=13869400
+	buildings_max_level_factor=1.000
+}

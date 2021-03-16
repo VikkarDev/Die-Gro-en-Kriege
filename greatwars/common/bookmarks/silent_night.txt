@@ -1,0 +1,140 @@
+bookmarks = {
+	bookmark = {
+		name = "SILENT_NIGHT_NAME"
+		desc = "SILENT_NIGHT_DESC"
+		date = 1900.1.1.12
+		picture = "GFX_dgk_1900_bookmark"
+		default_country = "GER"
+	
+		FRA = {
+			history = FRA_SILENT_NIGHT_DESC
+			ideology = centrism
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		HUN = {
+			history = AUSHUN_SILENT_NIGHT_DESC
+			ideology = centrism
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		ENG = {
+			history = ENG_SILENT_NIGHT_DESC
+			ideology = traditional_conservatism
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+			
+		}
+		GER = {
+			history = GER_SILENT_NIGHT_DESC
+			ideology = centrism
+			ideas = {
+				GER_german_army
+				GER_german_colonies
+				GER_naval_arms_race
+			}
+			focuses = {
+				GER_weltpolitik
+				GER_imperial_german_army
+				GER_imperial_german_economy
+			}
+		}
+		USA = {
+			history = USA_SILENT_NIGHT_DESC
+			ideology = traditional_conservatism
+			ideas = {
+				USA_jim_crow_laws
+				USA_the_two_party_system
+				USA_scars_of_1865
+			}
+			focuses = {
+				
+			}			
+		}
+		TUR = {
+			history = TUR_SILENT_NIGHT_DESC
+			ideology = autocracy
+			ideas = {
+				TUR_sickman_of_europe
+				TUR_outdated_military
+			}	
+			focuses = {
+				
+			}		
+		}
+		SOV = {
+			history = SOV_SILENT_NIGHT_DESC
+			ideology = autocracy
+			ideas = {
+				SOV_french_Dependancy
+				SOV_fear_of_revolution
+				SOV_long_live_the_tsar
+			}
+			focuses = {
+				
+			}
+		}
+
+		"---"={
+			history = "OTHER_BLITZKRIEG_DESC"
+		}
+
+		# minors from DLC ####
+		"JAP"={
+			minor = yes
+			history = "JAP_SILENT_NIGHT_DESC"
+			ideology = traditional_conservatism
+			ideas = {
+				JAP_meiji_restoration
+				JAP_bushido_code
+				JAP_developed_rail_network
+			}
+			focuses = {
+
+			}
+		}
+		"SPR"={
+			minor = yes
+			history = "SPR_SILENT_NIGHT_DESC"
+			ideology = radical_democracy
+			ideas = {
+			
+			}
+			focuses = {
+
+			}
+		}
+		"POR"={
+			minor = yes
+			history = "POR_SILENT_NIGHT_DESC"
+			ideology = traditional_conservatism
+			ideas = {
+				POR_unstable_monarchy
+				POR_poor_economy
+				POR_overstreched_empire
+			}
+			focuses = {
+				POR_the_kings_portugal
+				POR_recovering_economy_focus
+				POR_appoint_ernesto_hintze_ribeiro
+			}
+		}
+
+		effect = {
+			randomize_weather = 12345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

@@ -1,0 +1,48 @@
+﻿capital = 6
+
+1900.1.1 = {
+
+	oob = "BEL_1900"
+
+	set_convoys = 100
+
+	set_research_slots = 2
+
+	set_cosmetic_tag = DEN_KINGDOM
+
+	add_ideas = {
+		# Government / Laws
+		volunteer_only
+		limited_exports
+		civilian_economy
+	}
+
+	set_politics = {
+		ruling_party = traditional_conservatism
+		#last_election = "1838.12.30"
+		#election_frequency = 48
+		elections_allowed = no
+	}
+
+	set_popularities = {
+		vanguard_communism = 0
+		social_egalitarianism = 0
+		social_liberalism = 13
+		centrism = 7
+		traditional_conservatism = 62
+		radical_democracy = 5
+		chauvinist_populism = 0
+		autocracy = 7
+		democratic_socialism = 2
+	}
+
+	create_country_leader = {
+		name = "Christian IX"
+		desc = ""
+		picture = "Christian_IX.dds"
+		ideology = conserv
+		traits = {
+			
+		}
+	}
+}

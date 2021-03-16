@@ -1,0 +1,53 @@
+capital = 282
+
+1900.1.1 = {
+	OOB = "JAP_1900"
+
+	set_cosmetic_tag = JAP_EMPIRE
+	set_convoys = 215
+
+	set_research_slots = 2
+
+	set_politics = {
+		ruling_party = traditional_conservatism
+		elections_allowed = no
+	}
+
+	add_ideas = {
+		# Government / Laws
+		limited_conscription
+		free_trade
+		low_economic_mobilisation
+
+		# Ministers
+		JAP_hirobumi_ito_hog
+		JAP_aoki_shuzo_frg
+		JAP_watanabe_kunitake_eco
+		JAP_saigo_judo_int
+
+		# Starting Ideas
+		JAP_meiji_restoration
+		JAP_bushido_code
+		JAP_developed_rail_network
+		JAP_wooden_constructions
+	}
+
+	set_popularities = {
+		vanguard_communism = 0
+		social_egalitarianism = 5.1
+		social_liberalism = 7.2
+		centrism = 14.4
+		traditional_conservatism = 54.9
+		radical_democracy = 3.3
+		chauvinist_populism = 3.6
+		autocracy = 9.3
+		democratic_socialism = 2.2
+	}
+
+	create_country_leader = {
+		name = "Mutsuhito"
+		desc = MEIJI_LEADER_DESCRIPTION
+		picture = "Mutsuhito.dds"
+		ideology = conserv
+	}
+}

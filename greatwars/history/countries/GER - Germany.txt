@@ -1,0 +1,102 @@
+capital = 819
+
+1900.1.1 = {
+
+	oob = "GER_1900"
+
+	set_convoys = 200
+
+	set_stability = 0.8
+	set_war_support = 0.4
+	set_research_slots = 4
+
+	set_cosmetic_tag = GER_EMPIRE
+	#create_faction = "Central Powers"
+	#add_to_faction = GER
+
+	set_technology = {
+		infantry_weapons = 1
+	}
+
+	if = {
+		limit = {
+			OR = {
+				has_dlc = "Together for Victory"
+				has_dlc = "Man the Guns"
+			}
+		}
+		set_autonomy = {
+			target = GNG
+			autonomy_state = autonomy_protectorate
+		}
+		set_autonomy = {
+			target = GEA
+			autonomy_state = autonomy_protectorate
+		}
+		else = {
+			puppet = GNG
+			puppet = GEA
+		}
+	}
+
+	add_ideas = {
+		# Starting Ideas
+		GER_german_colonies
+		GER_naval_arms_race
+		GER_bloated_naval_budget1
+		GER_failed_kultur_kampf
+		GER_colony_cost1
+
+		# Government / Laws
+		limited_conscription
+		free_trade
+		partial_economic_mobilisation
+
+		# Ministers
+		GER_carl_viktor_hog
+		GER_bernhard_von_bulow_frg
+		GER_arthur_von_posadowsky_wehner_eco
+		GER_arthur_von_posadowsky_wehner_int
+	}
+
+	set_politics = {
+		ruling_party = social_liberalism
+		#last_election = "2078.9.26"
+		#election_frequency = 48
+		#elections_allowed = yes
+	}
+
+	set_popularities = {
+		vanguard_communism = 0
+		social_egalitarianism = 3
+		social_liberalism = 55
+		centrism = 2
+		traditional_conservatism = 0
+		radical_democracy = 5
+		chauvinist_populism = 5
+		autocracy = 30
+		democratic_socialism = 0
+	}
+
+	create_country_leader = {
+		name = "Wilhelm II"
+		desc = WILHELM_LEADER_DESCRIPTION
+		picture = "Wilhelm_II.dds"
+		ideology = social_liberal
+		traits = {
+			kaiserin_of_the_people
+		}
+	}
+
+	create_field_marshal = {
+		name = "Remus von Woyrsch"
+		portrait_path = "gfx/leaders/GER/Field Marshals/Remus_von_Woyrsch.dds"
+		skill = 3
+		attack_skill = 3
+		defense_skill = 3
+		planning_skill = 2
+		logistics_skill = 1
+		traits = { infantry_leader }
+		id = 1
+	}
+}

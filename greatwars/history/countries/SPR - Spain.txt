@@ -1,0 +1,58 @@
+capital = 41
+
+1900.1.1 = {
+	capital = 41
+
+	OOB = "SPR_1900"
+
+	set_cosmetic_tag = SPR_KINGDOM
+
+	set_convoys = 100
+
+	set_research_slots = 3
+	
+	add_ideas = {
+		# Starting Ideas
+		SPR_memories_of_the_spanish_american_war
+		SPR_the_regency_of_maria_christina
+		SPR_election_rigging
+
+		# Government / Laws
+		limited_conscription
+		limited_exports
+
+		# Ministers
+		SPR_francisco_silvela_hog
+		SPR_francisco_silvela_frg
+		SPR_raimundo_f_villaverde_eco
+		SPR_eduardo_d_iradier_int
+	}
+
+	set_politics = {
+		ruling_party = radical_democracy
+		last_election = "1899.4.16"
+		election_frequency = 24
+		elections_allowed = no
+	}
+
+	set_popularities = {
+		vanguard_communism = 0
+		social_egalitarianism = 0
+		centrism = 0
+		traditional_conservatism = 0
+		radical_democracy = 100
+		chauvinist_populism = 0
+		autocracy = 0
+		democratic_socialism = 0
+	}
+
+	create_country_leader = {
+		name = "Alfonso XIII"
+		desc = ALFONSO_LEADER_DESCRIPTION
+		picture = "Alfonso_XIII.dds"
+		ideology = plutocracy
+		traits = {
+			underage_monarch_trait
+		}
+	}
+}
