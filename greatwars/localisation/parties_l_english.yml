@@ -37,10 +37,14 @@ COL_chauvinist_populism_party:0 "PN"
 COL_chauvinist_populism_party_long:0 "Partido Nacional"
 
 ##chile
-CHL_traditional_centrism_party:0 "PL"
-CHL_traditional_centrism_party_long:0 "Partido Liberal"
+CHL_traditional_centrism_party:0 "PCon"
+CHL_traditional_centrism_party_long:0 "Partido Conservador"
 CHL_chauvinist_populism_party:0 "MV"
-CHL_chauvinist_populism_party_long:0 "Montt Varist"
+CHL_chauvinist_populism_party_long:0 "Monttvarista"
+CHL_social_democracy_party:0 "PD"
+CHL_social_democracy_party_long:0 "Partido Demócrata"
+CHL_radical_democracy_party:0 "PR"
+CHL_radical_democracy_party_long:0 "Partido Radical"
 
 #germany
 GER_vanguard_communism_party:0 "KPD"
