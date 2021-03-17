@@ -134,6 +134,18 @@ bookmarks = {
 				POR_appoint_ernesto_hintze_ribeiro
 			}
 		}
+		"SER"={
+			minor = yes
+			history = "SER_SILENT_NIGHT_DESC"
+			ideology = traditional_conservatism
+			ideas = {
+				SER_unpopular_monarchy
+				SER_legacy_of_serbo_bulgarian_war
+			}
+			focuses = {
+				
+			}
+		}
 
 		effect = {
 			randomize_weather = 12345 # <- Obligatory in every bookmark !

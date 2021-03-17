@@ -27,13 +27,13 @@ guiTypes = {
 		show_position = { x=0 y =-1 }
 		animation_type = decelerated
 		animation_time = 1500
-		size = { width = 256 height = 768}
+		size = { width = 256 height = 768 }
 
 		iconType =
 		{
 			name ="frontend_game_logo"
 			spriteType = "GFX_frontend_game_logo"
-			position = { x= 20 y = 20 }
+			position = { x= 30 y = -10``` }
 		}
 
 	}
@@ -89,16 +89,16 @@ guiTypes = {
 	### SINGLE PLAYER MENU
 	containerWindowType = {
 		name = "mainmenu_single_player"
-		position = { x=-360 y =-420}
+		position = {  x=-385 y =-420 }
 		size = { width = 370 height = 330}
 		Orientation = LOWER_RIGHT
 		Origo = upper_left
 
-		background = {
-			name = "Background"
-			quadTextureSprite ="GFX_mainmenu_tiled_window"
-			position = { x=-30 y =-30}
-		}
+		#background = {
+		#	name = "Background"
+		#	quadTextureSprite ="GFX_mainmenu_tiled_window"
+		#	position = { x=-30 y =-30}
+		#}
 
 		ButtonType = {
 			name = "sp_continue_button"
@@ -188,16 +188,16 @@ guiTypes = {
 	### MAIN MENU PANEL (bottom)
 	containerWindowType = {
 		name ="mainmenu_panel_bottom"
-		position = { x=-360 y =-440}
+		position = { x=-385 y =-470 }
 		size = { width = 370 height = 470}
 		Orientation = LOWER_RIGHT
 		Origo = upper_left
 
-		background = {
-			name = "Background"
-			quadTextureSprite ="GFX_mainmenu_tiled_window"
-			position = { x=-30 y =-30}
-		}
+		#background = {
+		#	name = "Background"
+		#	quadTextureSprite ="GFX_mainmenu_tiled_window"
+		#	position = { x=-30 y =-30}
+		#}
 
 		ButtonType = {
 			name = "single_player_button"
@@ -360,7 +360,7 @@ guiTypes = {
 		#}
 		ButtonType = {
 			name = "steamworkshop_button"
-			position = { x = 45 y = -25 }
+			position = { x = 5 y = -55 }
 			quadTextureSprite ="steam_workshop"
 			clicksound = click_default
 			pdx_tooltip = "MENU_STEAMWORKSHOP"
@@ -368,7 +368,7 @@ guiTypes = {
 		}
 		ButtonType = {
 			name = "discord_button"
-			position = { x = 95 y = -25 }
+			position = { x = 65 y = -55 }
 			quadTextureSprite ="discord"
 			clicksound = click_default
 			pdx_tooltip = "MENU_DISCORD"
@@ -377,7 +377,7 @@ guiTypes = {
 
 		ButtonType = {
 			name = "twitter_button"
-			position = { x = 145 y = -25 }
+			position = { x = 125 y = -55 }
 			quadTextureSprite ="twitter"
 			#clicksound = click_default
 			pdx_tooltip = "MENU_TWITTER"
