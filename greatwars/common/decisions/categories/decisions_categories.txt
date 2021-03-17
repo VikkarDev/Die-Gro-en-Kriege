@@ -73,3 +73,21 @@ dgk_usa_statehood_policies_category = {
 		tag = USA
 	}
 }
+
+dgk_colombia_thousand_days_war = {
+	icon = generic_political_actions
+
+	available = {
+		tag = COL
+	}
+
+	priority = {
+		base = 30
+	}
+
+	visible_when_empty = no
+
+	visible = {
+		tag = COL
+	}
+}
