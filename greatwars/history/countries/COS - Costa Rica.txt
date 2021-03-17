@@ -16,16 +16,6 @@
 		#elections_allowed = yes
 	}
 	
-	if = {
-		limit = {
-			has_start_date < 1900.1.2
-		}
-
-		declare_war_on = {
-			target = COL
-			type = annex_everything
-		}
-	}
 	set_popularities = {
 		vanguard_communism = 0
 		social_egalitarianism = 0
