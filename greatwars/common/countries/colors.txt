@@ -136,8 +136,8 @@ FRI = {
 	color_ui = rgb { 33 49 156 }
 }
 LAB = {
-	color = rgb { 76 145 63 }
-	color_ui = rgb { 76 145 63 }
+	color = rgb { 77 143 201 }
+	color_ui = rgb { 77 143 201 }
 }
 USA = {
 	color = rgb { 20 133 237 }

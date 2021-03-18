@@ -1,15 +1,17 @@
-﻿capital = 105 # Montenegro
+﻿capital = 266
 
 1900.1.1 = {
 
-	oob = "MNT_1900"
+	oob = "PER_1900"
 
-	set_convoys = 50
+	set_convoys = 300
 
 	set_research_slots = 2
 
+	#set_cosmetic_tag = BEL_KINGDOM
+
 	add_ideas = {
-		# government
+		# Government / Laws
 		volunteer_only
 		limited_exports
 		civilian_economy
@@ -24,24 +26,20 @@
 
 	set_popularities = {
 		vanguard_communism = 0
-		social_egalitarianism = 0
-		centrism = 9
-		traditional_conservatism = 4
-		radical_democracy = 3
-		chauvinist_populism = 1
-		autocracy = 83
+		social_egalitarianism = 1.7
+		social_liberalism = 2
+		centrism = 4.2
+		traditional_conservatism = 7.9
+		radical_democracy = 6.9
+		chauvinist_populism = 0
+		autocracy = 77.3
 		democratic_socialism = 0
 	}
 
 	create_country_leader = {
-		name = "Nikola I"
+		name = "Mozaffar ad-Din Shah Qajar"
 		desc = ""
-		picture = "Nikola_I.dds"
+		picture = "Mozaffar_ad-Din_Shah_Qajar.dds"
 		ideology = despotism
-		traits = {
-			
-		}
 	}
 }
-
-

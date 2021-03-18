@@ -32,7 +32,7 @@ focus_tree = {
         }
 
 		completion_reward = {
-			
+			add_ideas = { SER_fake_pregnancy }
 		}
     }
 
@@ -56,7 +56,7 @@ focus_tree = {
         }
 
 		completion_reward = {
-			
+			country_event = { id = serbia.1 days = 3 }
 		}
     }
 
@@ -80,7 +80,7 @@ focus_tree = {
         }
 
 		completion_reward = {
-			
+			add_ideas = { SER_rally_the_people }
 		}
     }
 
@@ -104,7 +104,7 @@ focus_tree = {
         }
 
 		completion_reward = {
-			
+			add_ideas = { SER_rally_the_industrialists }
 		}
     }
 
@@ -128,7 +128,7 @@ focus_tree = {
         }
 
 		completion_reward = {
-			
+			add_ideas = { SER_rally_the_army }
 		}
     }
 
@@ -153,7 +153,7 @@ focus_tree = {
         }
 
 		completion_reward = {
-			
+			country_event = { id = serbia.2 days = 3 }
 		}
     }
 
@@ -176,7 +176,7 @@ focus_tree = {
         }
 
 		completion_reward = {
-			
+			country_event = { id = serbia.3 days = 3 }
 		}
     }
 
@@ -200,7 +200,14 @@ focus_tree = {
         }
 
 		completion_reward = {
-			
+			create_country_leader = {
+                name = "Peter I"
+                desc = ""
+                picture = "Peter_I.dds"
+                ideology = conserv
+            }
+
+            add_country_leader_trait = veteran_of_franco_prussian_war
 		}
     }
 
@@ -223,7 +230,9 @@ focus_tree = {
         }
 
 		completion_reward = {
-			
+			SOV = { add_opinion_modifier = { target = SOV modifier = huge_increase } }
+            add_opinion_modifier = { target = SOV modifier = huge_increase }
+            # SOV gets decisions to invest in improving Serbian economy.
 		}
     }
 

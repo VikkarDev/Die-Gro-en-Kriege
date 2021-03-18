@@ -131,6 +131,11 @@ spriteTypes = {
 	}
 
 	SpriteType = {
+		name = "GFX_idea_ser_legacy_of_serbo_bulgarian_war"
+		texturefile = "gfx/interface/ideas/ser/SER_idea_legacy_of_serbo_bulgarian_war.dds"
+	}
+
+	SpriteType = {
 		name = "GFX_idea_generic_illiteracy"
 		texturefile = "gfx/interface/ideas/generic/idea_illiteracy.dds"
 	}

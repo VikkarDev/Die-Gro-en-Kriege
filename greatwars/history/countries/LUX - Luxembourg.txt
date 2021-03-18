@@ -1,22 +1,24 @@
-﻿capital = 105 # Montenegro
+﻿capital = 8
 
 1900.1.1 = {
 
-	oob = "MNT_1900"
+	oob = "LUX_1900"
 
-	set_convoys = 50
+	set_convoys = 100
 
 	set_research_slots = 2
 
+	set_cosmetic_tag = LUX_GRAND_DUTCHY
+
 	add_ideas = {
-		# government
+		# Government / Laws
 		volunteer_only
 		limited_exports
 		civilian_economy
 	}
 
 	set_politics = {
-		ruling_party = autocracy
+		ruling_party = social_liberalism
 		#last_election = "1838.12.30"
 		#election_frequency = 48
 		elections_allowed = no
@@ -25,23 +27,22 @@
 	set_popularities = {
 		vanguard_communism = 0
 		social_egalitarianism = 0
-		centrism = 9
-		traditional_conservatism = 4
-		radical_democracy = 3
-		chauvinist_populism = 1
-		autocracy = 83
+		social_liberalism = 100
+		centrism = 0
+		traditional_conservatism = 0
+		radical_democracy = 0
+		chauvinist_populism = 0
+		autocracy = 0
 		democratic_socialism = 0
 	}
 
 	create_country_leader = {
-		name = "Nikola I"
+		name = "Adolphe"
 		desc = ""
-		picture = "Nikola_I.dds"
-		ideology = despotism
+		picture = "Adolphe.dds"
+		ideology = social_liberal
 		traits = {
 			
 		}
 	}
 }
-
-

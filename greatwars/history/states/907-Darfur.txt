@@ -7,6 +7,11 @@ state={
 		owner = DAR
 		add_core_of = DAR
 		add_core_of = SUD
+
+		victory_points = {
+			5060 5
+		}
+
 		buildings = {
 			infrastructure = 3
 		}
