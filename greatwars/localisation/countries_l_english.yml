@@ -99,6 +99,22 @@
  WAD_DEF:0 " The Sultanate of Wadai"
  WAD_ADJ:0 "Wadaian"
 
+ SKM:0 "Sikkim"
+ SKM_DEF:0 "Sikkim"
+ SKM_ADJ:0 "Sikkimese"
+
+ RUW:0 "Emirate of Ruwallah"
+ RUW_DEF:0 "The Emirate of Ruwallah"
+ RUW_ADJ:0 "Ruwallan"
+
+ NAJ:0 "Principality of Najran"
+ NAJ_DEF:0 "The Principality of Najran"
+ NAJ_ADJ:0 "Najranian"
+
+ MUT:0 "Emirate of Mutayr"
+ MUT_DEF:0 "The Emirate of Mutayr"
+ MUT_ADJ:0 "Mutayrian"
+
  NMX:0 "New Mexico Territory"
  NMX_DEF:0 "New Mexico Territory"
  NMX_ADJ:0 "American"

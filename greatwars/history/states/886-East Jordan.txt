@@ -4,14 +4,14 @@ state={
 	state_category = wasteland
 
 	history={
-		owner = ANZ
+		owner = RUW
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
 
 		}
 		add_core_of = JOR
-		add_core_of = ANZ
+		add_core_of = RUW
 
 	}
 

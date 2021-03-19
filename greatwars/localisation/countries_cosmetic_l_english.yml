@@ -64,6 +64,10 @@ POR_KINGDOM:0 "Kingdom of Portugal"
 POR_KINGDOM_DEF:0 "The Kingdom of Portugal"
 POR_KINGDOM_ADJ:0 "Portuguese"
 
+COG_FREE_STATE:0 "Congo Free State"
+COG_FREE_STATE_DEF:0 "The Congo Free State"
+COG_ADJ:0 "Congolese"
+
 ROM_KINGDOM:0 "Kingdom of Romania"
 ROM_KINGDOM_DEF:0 "The Kingdom of Romania"
 ROM_KINGDOM_ADJ:0 "Romanian"

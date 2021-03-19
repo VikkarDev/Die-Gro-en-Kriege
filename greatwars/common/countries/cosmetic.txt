@@ -13,6 +13,11 @@ USA_CUB = {
 	color_ui = rgb {87 160 255}
 }
 
+COG_FREE_STATE = {
+	color = rgb { 75 66 245 }
+	color_ui = rgb { 75 66 245 }
+}
+
 HAW_USA = {
 	color = rgb { 20 133 237 }
 	color_ui = rgb { 87 160 255 }

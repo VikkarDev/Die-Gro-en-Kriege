@@ -17,6 +17,23 @@
 		civilian_economy
 	}
 
+	if = {
+		limit = {
+			OR = {
+				has_dlc = "Together for Victory"
+				has_dlc = "Man the Guns"
+			}
+		}
+		set_autonomy = {
+			target = COG
+			autonomous_state = autonomy_colony
+			freedom_level = 0.2
+		}
+		else = {
+			puppet = COG
+		}
+	}
+
 	set_politics = {
 		ruling_party = traditional_conservatism
 		#last_election = "1838.12.30"

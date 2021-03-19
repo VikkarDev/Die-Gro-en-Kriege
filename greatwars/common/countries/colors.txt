@@ -187,6 +187,22 @@ WAD = {
 	color = rgb { 250  223  173 }
 	color_ui = rgb { 250  223  173 }
 }
+SKM = {
+	color = rgb { 219 130 92 }
+	color_ui = rgb { 219 130 92 }
+}
+RUW = {
+	color = rgb { 92 181 92 }
+	color_ui = rgb { 92 181 92 }
+}
+NAJ = {
+	color = rgb { 110 90 67 }
+	color_ui = rgb { 110 90 67 }
+}
+MUT = {
+	color = rgb { 184 77 159 }
+	color_ui = rgb { 184 77 159 }
+}
 
 LUX = {
 	color = rgb { 65 175 179 }

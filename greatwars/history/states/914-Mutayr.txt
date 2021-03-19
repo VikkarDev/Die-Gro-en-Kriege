@@ -1,0 +1,20 @@
+state={
+	id=914
+	name="STATE_914"
+	state_category = town
+
+	history = {
+		owner = MUT
+		add_core_of = MUT
+
+		buildings = {
+			infrastructure = 2
+		}
+	}
+
+	provinces={
+		10850 
+	}
+	manpower=42000
+	buildings_max_level_factor=1.000
+}

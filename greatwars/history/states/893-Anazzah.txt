@@ -4,14 +4,14 @@ state={
 	state_category = rural
 
 	history={
-		owner = ANZ
+		owner = JSH
 		buildings = {
 			infrastructure = 2
 			#arms_factory = 1
 			industrial_complex = 1
 		}
 		add_core_of = SAU
-		add_core_of = ANZ
+		add_core_of = JSH
 
 	}
 
