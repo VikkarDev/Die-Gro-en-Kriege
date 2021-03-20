@@ -115,6 +115,10 @@
  MUT_DEF:0 "The Emirate of Mutayr"
  MUT_ADJ:0 "Mutayrian"
 
+ DER:0 "Dervish State"
+ DER_DEF:0 "The Dervish State"
+ DER_ADJ:0 "Dervish"
+
  NMX:0 "New Mexico Territory"
  NMX_DEF:0 "New Mexico Territory"
  NMX_ADJ:0 "American"

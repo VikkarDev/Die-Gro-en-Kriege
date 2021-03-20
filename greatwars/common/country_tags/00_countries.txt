@@ -67,6 +67,7 @@ GRE = "countries/Greece.txt"
 RUW = "countries/Ruwallah.txt"
 NAJ = "countries/Najran.txt"
 MUT = "countries/Mutayr.txt"
+DER = "countries/Dervish.txt"
 
 CZE = "countries/Czechoslovakia.txt"
 POL = "countries/Poland.txt"

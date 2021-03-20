@@ -914,4 +914,6 @@
  STATE_913:0 "Najran"
  STATE_914:0 "Mutayr"
  STATE_915:0 "Al-Qurayyat"
- STATE_916:1 "At Tanf"
+ STATE_916:0 "At Tanf"
+ STATE_917:0 "Dervish"
+ STATE_918:0 "Laascaanood"

@@ -203,6 +203,10 @@ MUT = {
 	color = rgb { 184 77 159 }
 	color_ui = rgb { 184 77 159 }
 }
+DER = {
+	color = rgb { 71 143 145 }
+	color_ui = rgb { 71 143 145 }
+}
 
 LUX = {
 	color = rgb { 65 175 179 }

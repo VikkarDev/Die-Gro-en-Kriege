@@ -1,0 +1,18 @@
+state={
+	id=918
+	name="STATE_918"
+	state_category = rural
+
+	history = {
+		owner = DER
+		add_core_of = DER
+		add_core_of = ENG
+	}
+
+
+	provinces={
+		1905 
+	}
+	manpower=22000
+	buildings_max_level_factor=1.000
+}
