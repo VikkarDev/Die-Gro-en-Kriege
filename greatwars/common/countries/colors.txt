@@ -207,6 +207,10 @@ DER = {
 	color = rgb { 71 143 145 }
 	color_ui = rgb { 71 143 145 }
 }
+SEN = {
+	color = rgb { 199 146 48 }
+	color_ui = rgb { 199 146 48 }
+}
 
 LUX = {
 	color = rgb { 65 175 179 }
