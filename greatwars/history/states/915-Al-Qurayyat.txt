@@ -1,24 +1,23 @@
-
 state={
-	id=893
-	name="STATE_893"
+	id=915
+	name="STATE_915"
+	state_category = town
 
 	history={
-		owner = JSH
+		owner = RUW
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
 
 		}
 		add_core_of = SAU
-		add_core_of = JSH
+		add_core_of = RUW
 
 	}
 
 	provinces={
-		5099 7970 10815 10901 
+		8101 12455 
 	}
-	manpower=950312
+	manpower=81000
 	buildings_max_level_factor=1.000
-	state_category=rural
 }

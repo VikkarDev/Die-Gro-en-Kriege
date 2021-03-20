@@ -4,8 +4,8 @@ state={
 	state_category = town
 
 	history = {
-		owner = MUT
-		add_core_of = MUT
+		owner = JSH
+		add_core_of = JSH
 
 		buildings = {
 			infrastructure = 2

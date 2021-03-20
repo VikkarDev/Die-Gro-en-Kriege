@@ -4,8 +4,8 @@ state={
 	state_category = wasteland
 
 	history = {
-		owner = JSH
-		add_core_of = JSH
+		owner = RUW
+		add_core_of = RUW
 		add_core_of = JOR
 		
 		buildings = {
