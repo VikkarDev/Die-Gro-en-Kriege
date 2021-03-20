@@ -379,7 +379,127 @@ focus_tree = {
 		}
 		
 		completion_reward = { 
-			
+			528 = {
+				add_building_construction = {
+					type = naval_base
+					level = 2
+					province = 9950
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			520 = {
+				add_building_construction = {
+					type = naval_base
+					level = 2
+					province = 1092
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			531 = {
+				add_building_construction = {
+					type = naval_base
+					level = 2
+					province = 7072
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			282 = {
+				add_building_construction = {
+					type = naval_base
+					level = 2
+					province = 9998
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			533 = {
+				add_building_construction = {
+					type = naval_base
+					level = 2
+					province = 9859
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			526 = {
+				add_building_construction = {
+					type = naval_base
+					level = 2
+					province = 11932
+					instant_build = yes
+				}
+
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			530 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			532 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			535 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			534 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			536 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			555 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
 		}
 	}
 

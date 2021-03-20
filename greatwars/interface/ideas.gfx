@@ -144,6 +144,11 @@ spriteTypes = {
 		name = "GFX_idea_por_unstable_monarchy"
 		texturefile = "gfx/interface/ideas/por/POR_idea_unstable_monarchy.dds"
 	}
+
+	SpriteType = {
+		name = "GFX_idea_por_poor_economy"
+		texturefile = "gfx/interface/ideas/por/POR_idea_poor_economy.dds"
+	}
 	
 	### SPAIN ###
 	

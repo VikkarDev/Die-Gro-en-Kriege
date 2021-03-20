@@ -80,7 +80,9 @@ focus_tree = {
         }
 
 		completion_reward = {
-			add_ideas = { SER_rally_the_people }
+            hidden_effect = {
+                add_ideas = { SER_rally_the_people }
+            }
 		}
     }
 
@@ -104,7 +106,9 @@ focus_tree = {
         }
 
 		completion_reward = {
-			add_ideas = { SER_rally_the_industrialists }
+            hidden_effect = {
+                add_ideas = { SER_rally_the_industrialists }
+            }
 		}
     }
 
@@ -128,7 +132,9 @@ focus_tree = {
         }
 
 		completion_reward = {
-			add_ideas = { SER_rally_the_army }
+            hidden_effect = {
+                add_ideas = { SER_rally_the_army }
+            }
 		}
     }
 
@@ -205,9 +211,10 @@ focus_tree = {
                 desc = ""
                 picture = "Peter_I.dds"
                 ideology = conserv
+                traits = {
+                    veteran_of_franco_prussian_war
+                }
             }
-
-            add_country_leader_trait = veteran_of_franco_prussian_war
 		}
     }
 
@@ -255,7 +262,7 @@ focus_tree = {
         }
 
 		completion_reward = {
-			
+			add_opinion_modifier = { target = MNT modifier = large_increase }
 		}
     }
 
@@ -278,7 +285,8 @@ focus_tree = {
         }
 
 		completion_reward = {
-			
+			add_opinion_modifier = { target = HUN modifier = large_decrease }
+            add_timed_idea = { idea = SER_self_sufficient_economy days = 730 }
 		}
     }
 
@@ -302,7 +310,7 @@ focus_tree = {
         }
 
 		completion_reward = {
-			
+			add_research_slot = 1
 		}
     }
 
@@ -326,7 +334,11 @@ focus_tree = {
         }
 
 		completion_reward = {
-			
+			add_tech_bonus = {
+                name = SER_medical_reforms
+                technology = tech_field_hospital
+                bonus = 1.0
+            }
 		}
     }
 
@@ -350,7 +362,10 @@ focus_tree = {
         }
 
 		completion_reward = {
-			
+			swap_ideas = {
+                remove_idea = SER_legacy_of_serbo_bulgarian_war
+                add_idea = SER_bulgarian_friendship_treaty
+            }
 		}
     }
 
@@ -373,7 +388,7 @@ focus_tree = {
         }
 
 		completion_reward = {
-			
+			# gets decisions to invite foreign investors (civs, improve infrastructure)
 		}
     }
 
@@ -396,7 +411,7 @@ focus_tree = {
         }
 
 		completion_reward = {
-			
+			# After doing this focus, and Austria's annexation of Bosnia, each European GP can choose to back Austria or Serbia, the guy with more votes wins
 		}
     }
 
@@ -419,7 +434,15 @@ focus_tree = {
         }
 
 		completion_reward = {
-			
+			FRA = {
+                add_ideas = { SER_serbian_economic_aid }
+            }
+            ENG = {
+                add_ideas = { SER_serbian_economic_aid }
+            }
+            SER = {
+                add_ideas = { SER_entente_aid }
+            }
 		}
     }
 
@@ -442,7 +465,24 @@ focus_tree = {
         }
 
 		completion_reward = {
-			
+			add_opinion_modifier = {
+                target = GRE
+                modifier = huge_increase
+            }
+
+            GRE = {
+                diplomatic_relation = {
+                    country = SER
+                    relation = guarantee
+                }
+            }
+
+            SER = {
+                diplomatic_relation = {
+                    country = GRE
+                    relation = guarantee
+                }
+            }
 		}
     }
 
@@ -466,7 +506,35 @@ focus_tree = {
         }
 
 		completion_reward = {
-			
+			GRE = {
+                declare_war_on = {
+                    target = TUR
+                    type = take_state
+                }
+                add_ideas = { SER_our_home_restored }
+            }
+            SER = {
+                declare_war_on = {
+                    target = TUR
+                    type = take_state
+                }
+                add_ideas = { SER_our_home_restored }
+            }
+            MNT = {
+                declare_war_on = {
+                    target = TUR
+                    type = take_state
+                }
+                add_ideas = { SER_our_home_restored }
+            }
+            BUL = {
+                declare_war_on = {
+                    target = TUR
+                    type = take_state
+                }
+                add_ideas = { SER_our_home_restored }
+            }
+            # unlocks the decision to form an anti-bulgarian coalition when it goes crazy
 		}
     }
 
@@ -489,7 +557,9 @@ focus_tree = {
         }
 
 		completion_reward = {
-			
+			hidden_effect = {
+                add_ideas = { SER_on_the_offsv }
+            }
 		}
     }
 
@@ -512,7 +582,43 @@ focus_tree = {
         }
 
 		completion_reward = {
-			
+            107 = {
+                add_building_construction = {
+                    type = bunker
+                    level = 2
+                    province = 3609
+                    instant_build = yes
+                }
+                add_building_construction = {
+                    type = bunker
+                    level = 2
+                    province = 11586
+                    instant_build = yes
+                }
+                add_building_construction = {
+                    type = bunker
+                    level = 2
+                    province = 11583
+                    instant_build = yes
+                }
+                add_building_construction = {
+                    type = bunker
+                    level = 2
+                    province = 6634
+                    instant_build = yes
+                }
+            }
+            813 = {
+                add_building_construction = {
+                    type = bunker
+                    level = 2
+                    province = 630
+                    instant_build = yes
+                }
+            }
+			hidden_effect = {
+                add_ideas = { SER_on_the_defensv }
+            }
 		}
     }
 
@@ -536,7 +642,9 @@ focus_tree = {
         }
 
 		completion_reward = {
-			
+			AUS = {
+                country_event = { id = serbia.4 days = 1 }
+            }
 		}
     }
 
@@ -560,7 +668,15 @@ focus_tree = {
         }
 
 		completion_reward = {
-			
+			create_country_leader = {
+                name = "Jovan Avakomovic"
+                desc = ""
+                picture = "Jovan_Avakomovic.dds"
+                ideology = conserv
+                traits = {
+                    first_president_of_serbia
+                }
+            }
 		}
     }
 
@@ -583,7 +699,7 @@ focus_tree = {
         }
 
 		completion_reward = {
-			
+			#serbian democratic front takes control of nation (idk what ideology that is)
 		}
     }
 
@@ -606,7 +722,10 @@ focus_tree = {
         }
 
 		completion_reward = {
-			
+            custom_effect_tooltip = "Gain 30% research boost."
+			hidden_effect = {
+                add_ideas = { SER_research_30 }
+            }
 		}
     }
 
@@ -629,7 +748,7 @@ focus_tree = {
         }
 
 		completion_reward = {
-			
+			add_ideas = { SER_balkan_neutrality }
 		}
     }
 
@@ -652,7 +771,7 @@ focus_tree = {
         }
 
 		completion_reward = {
-			
+			#unlocks decisions to construct the parliament upon full construction, gain National Spirit "The Serbian Parliament" which gives +10% Stability, +30% PP Gain, +10% Production Efficiency
 		}
     }
 
@@ -675,7 +794,74 @@ focus_tree = {
         }
 
 		completion_reward = {
-			
+			107 = {
+                add_building_construction = {
+                    type = bunker
+                    level = 5
+                    province = 3609
+                    instant_build = yes
+                }
+                add_building_construction = {
+                    type = bunker
+                    level = 5
+                    province = 11586
+                    instant_build = yes
+                }
+                add_building_construction = {
+                    type = bunker
+                    level = 5
+                    province = 11583
+                    instant_build = yes
+                }
+                add_building_construction = {
+                    type = bunker
+                    level = 5
+                    province = 6634
+                    instant_build = yes
+                }
+            }
+
+            813 = {
+                add_building_construction = {
+                    type = bunker
+                    level = 5
+                    province = 630
+                    instant_build = yes
+                }
+                add_building_construction = {
+                    type = bunker
+                    level = 5
+                    province = 9756
+                    instant_build = yes
+                }
+            }
+
+            108 = {
+                add_building_construction = {
+                    type = bunker
+                    level = 5
+                    province = 11887
+                    instant_build = yes
+                }
+            }
+
+            803 = {
+                add_building_construction = {
+                    type = bunker
+                    level = 5
+                    province = 11868
+                    instant_build = yes
+                }
+            }
+
+            815 = {
+                add_building_construction = {
+                    type = bunker
+                    level = 5
+                    province = 11857
+                    instant_build = yes
+                }
+            }
 		}
     }
 
@@ -722,7 +908,7 @@ focus_tree = {
         }
 
 		completion_reward = {
-			
+            
 		}
     }
 

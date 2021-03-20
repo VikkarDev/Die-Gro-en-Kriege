@@ -15,6 +15,11 @@ leader_traits = {
 		# Germany opinion -50
 	}
 
+	first_president_of_serbia = {
+		political_power_gain = 0.10
+		social_liberalism_drift = 0.5
+	}
+
 	# MAIN GAME
 
 	dictator = {
