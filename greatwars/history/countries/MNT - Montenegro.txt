@@ -8,8 +8,6 @@
 
 	set_research_slots = 2
 
-	#set_cosmetic_tag = SER_KINGDOM
-
 	add_ideas = {
 		# government
 		volunteer_only
@@ -18,7 +16,7 @@
 	}
 
 	set_politics = {
-		ruling_party = traditional_conservatism
+		ruling_party = autocracy
 		#last_election = "1838.12.30"
 		#election_frequency = 48
 		elections_allowed = no
@@ -28,18 +26,18 @@
 		vanguard_communism = 0
 		social_egalitarianism = 0
 		centrism = 9
-		traditional_conservatism = 83
+		traditional_conservatism = 4
 		radical_democracy = 3
 		chauvinist_populism = 1
-		autocracy = 4
+		autocracy = 83
 		democratic_socialism = 0
 	}
 
 	create_country_leader = {
 		name = "Nikola I"
 		desc = ""
-		picture = "Alexander_I.dds"
-		ideology = conserv
+		picture = "Nikola_I.dds"
+		ideology = despotism
 		traits = {
 			
 		}

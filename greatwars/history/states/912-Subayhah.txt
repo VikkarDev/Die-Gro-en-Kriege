@@ -1,0 +1,20 @@
+state={
+	id=912
+	name="STATE_912"
+	state_category = rural
+
+	history = {
+		owner = RUW
+		add_core_of = RUW
+		
+		buildings = {
+			infrastructure = 2
+		}
+	}	
+
+	provinces={
+		13250 
+	}
+	manpower=25000
+	buildings_max_level_factor=1.000
+}

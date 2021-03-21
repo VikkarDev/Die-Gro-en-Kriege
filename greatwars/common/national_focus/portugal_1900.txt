@@ -78,6 +78,54 @@ focus_tree = {
 		}
     }
 
+    focus = {
+        id = POR_arms_production
+        icon = GFX_por_arms_production
+        search_filters = { FOCUS_FILTER_INDUSTRY }
+        x = 1
+        y = 2
+
+        cost = 10
+		prerequisite = { focus = POR_better_industrialization }
+        mutually_exclusive = { focus = POR_civilian_jobs }
+
+        available = {
+            
+        }
+
+        bypass = {
+            
+        }
+
+		completion_reward = {
+            
+		}
+    }
+
+    focus = {
+        id = POR_civilian_jobs
+        icon = GFX_por_civilian_jobs
+        search_filters = { FOCUS_FILTER_INDUSTRY }
+        x = 3
+        y = 2
+
+        cost = 10
+		prerequisite = { focus = POR_better_industrialization }
+        mutually_exclusive = { focus = POR_arms_production }
+
+        available = {
+            
+        }
+
+        bypass = {
+            
+        }
+
+		completion_reward = {
+            
+		}
+    }
+
 	focus = {
         id = POR_develop_transportation_systems
         icon = GFX_por_develop_transportation_systems
@@ -230,6 +278,30 @@ focus_tree = {
 
 		completion_reward = {
 			
+		}
+    }
+
+    focus = {
+        id = POR_associate_of_the_royal_academy_of_sciences
+        icon = GFX_por_associate_of_the_royal_academy_of_sciences
+        #search_filters = { FOCUS_FILTER_POLITICAL }
+        x = 11
+        y = 3
+
+        cost = 6
+		prerequisite = { focus = POR_appoint_ernesto_hintze_ribeiro }
+		#mutually_exclusive = { focus = POR_appoint_jose_luciano_de_castro }
+
+        available = {
+            
+        }
+
+        bypass = {
+            
+        }
+
+		completion_reward = {
+			add_research_slot = 1
 		}
     }
 
@@ -442,6 +514,54 @@ focus_tree = {
 
 				add_extra_state_shared_building_slots = 3
 			}
+		}
+    }
+
+    focus = {
+        id = POR_niassa_company
+        icon = GFX_por_niassa_company
+        #search_filters = { FOCUS_FILTER_POLITICAL }
+        x = 35
+        y = 2
+
+        cost = 5
+		prerequisite = { focus = POR_develop_mozambique }
+		#mutually_exclusive = { focus = POR_the_kings_portugal }
+
+        available = {
+            
+        }
+
+        bypass = {
+            
+        }
+
+		completion_reward = {
+			
+		}
+    }
+
+    focus = {
+        id = POR_develop_macau
+        icon = GFX_por_develop_macau
+        #search_filters = { FOCUS_FILTER_POLITICAL }
+        x = 37
+        y = 1
+
+        cost = 5
+		prerequisite = { focus = POR_the_colonies }
+		#mutually_exclusive = { focus = POR_the_kings_portugal }
+
+        available = {
+            
+        }
+
+        bypass = {
+            
+        }
+
+		completion_reward = {
+            
 		}
     }
 }

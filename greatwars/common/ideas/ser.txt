@@ -32,5 +32,217 @@ ideas = {
 				}
 			}
 		}
+
+		SER_fake_pregnancy = {
+			picture = ser_fake_pregnancy
+		  
+			allowed = {
+				tag = SER
+			}
+	
+			modifier = {
+				political_power_cost = -0.05
+				stability_factor = -0.20
+				drift_defence_factor = -0.05
+			}
+		}
+
+		SER_rally_the_people = {
+			picture = ser_rally_the_people
+
+			visible = {
+				always = no
+			}
+		  
+			allowed = {
+				tag = SER
+			}
+	
+			modifier = {
+				political_power_gain = 0.10
+				# higher chance for plot to succeed
+			}
+		}
+
+		SER_rally_the_industrialists = {
+			picture = ser_rally_the_industrialists
+		  
+			visible = {
+				always = no
+			}
+
+			allowed = {
+				tag = SER
+			}
+	
+			modifier = {
+				production_speed_arms_factory_factor = 0.20
+				production_speed_industrial_complex_factor = 0.20
+				# higher chance for plot to succeed
+			}
+		}
+
+		SER_rally_the_army = {
+			picture = ser_rally_the_industrialists
+		  
+			visible = {
+				always = no
+			}
+
+			allowed = {
+				tag = SER
+			}
+	
+			modifier = {
+				experience_gain_army_factor = 0.05
+				# higher chance for plot to succeed
+			}
+		}
+
+		SER_open_borders_with_mnt = {
+			picture = SER_open_borders_with_mnt
+
+			visible = {
+				always = no
+			}
+
+			allowed = {
+				tag = SER
+			}
+
+			modifier = {
+				recruitable_population_factor = 0.05
+				mobilization_speed = 0.10
+			}
+		}
+
+		SER_self_sufficient_economy = {
+			picture = ser_self_sufficient_economy
+
+			allowed = {
+				tag = SER
+			}
+	
+			modifier = {
+				consumer_goods_factor = 0.05
+				production_factory_efficiency_gain_factor = -0.05
+				production_speed_industrial_complex_factor = 0.05
+				production_speed_arms_factory_factor = 0.05
+			}
+		}
+
+		SER_bulgarian_friendship_treaty = {
+			picture = ser_bulgarian_friendship_treaty
+
+			allowed = {
+				tag = SER
+			}
+	
+			on_remove = {
+				remove_opinion_modifier = {
+					target = BUL
+					modifier = huge_increase
+				}
+			}
+		}
+
+		SER_serbian_economic_aid = {
+			picture = ser_serbian_economic_aid
+
+			allowed = {
+				tag = FRA
+				tag = ENG
+			}
+	
+			modifier = {
+				consumer_goods_factor = -0.05
+			}
+		}
+
+		SER_entente_aid = {
+			picture = ser_entente_aid
+
+			allowed = {
+				tag = SER
+			}
+	
+			modifier = {
+				consumer_goods_factor = -0.10
+			}
+		}
+
+		SER_our_home_restored = {
+			picture = ser_our_home_restored
+
+			allowed = {
+				tag = SER
+			}
+	
+			modifier = {
+				attack_bonus_against = 0.40
+				defense_bonus_against = 0.40
+			}
+		}
+
+		SER_on_the_offsv = {
+			picture = ser_on_the_offsv
+
+			visible = {
+				always = no
+			}
+
+			allowed = {
+				tag = SER
+			}
+
+			modifier = {
+				army_attack_factor = 0.20
+			}
+		}
+
+		SER_on_the_defensv = {
+			picture = ser_on_the_defensv
+
+			visible = {
+				always = no
+			}
+
+			allowed = {
+				tag = SER
+			}
+
+			modifier = {
+				army_defence_factor =  0.20
+			}
+		}
+
+		SER_research_30 = {
+			picture = ser_on_the_defensv
+
+			visible = {
+				always = no
+			}
+
+			allowed = {
+				tag = SER
+			}
+
+			modifier = {
+				research_speed_factor = 0.30
+			}
+		}
+
+		SER_balkan_neutrality = {
+			picture = ser_balkan_neutrality
+
+			allowed = {
+				tag = SER
+			}
+	
+			modifier = {
+				justify_war_goal_time = 1
+				join_faction_tension = 1
+			}
+		}
 	}
 }

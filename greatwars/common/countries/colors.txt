@@ -136,8 +136,8 @@ FRI = {
 	color_ui = rgb { 33 49 156 }
 }
 LAB = {
-	color = rgb { 76 145 63 }
-	color_ui = rgb { 76 145 63 }
+	color = rgb { 77 143 201 }
+	color_ui = rgb { 77 143 201 }
 }
 USA = {
 	color = rgb { 20 133 237 }
@@ -186,6 +186,30 @@ DAR = {
 WAD = {
 	color = rgb { 250  223  173 }
 	color_ui = rgb { 250  223  173 }
+}
+SKM = {
+	color = rgb { 219 130 92 }
+	color_ui = rgb { 219 130 92 }
+}
+RUW = {
+	color = rgb { 92 181 92 }
+	color_ui = rgb { 92 181 92 }
+}
+NAJ = {
+	color = rgb { 110 90 67 }
+	color_ui = rgb { 110 90 67 }
+}
+MUT = {
+	color = rgb { 184 77 159 }
+	color_ui = rgb { 184 77 159 }
+}
+DER = {
+	color = rgb { 71 143 145 }
+	color_ui = rgb { 71 143 145 }
+}
+SEN = {
+	color = rgb { 199 146 48 }
+	color_ui = rgb { 199 146 48 }
 }
 
 LUX = {

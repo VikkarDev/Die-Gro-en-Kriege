@@ -7,6 +7,21 @@ leader_traits = {
 		war_support_factor = -0.05
 	}
 
+	veteran_of_franco_prussian_war = {
+		random = no
+		army_org = 0.05
+		
+		# France opinion +100
+		# Germany opinion -50
+	}
+
+	first_president_of_serbia = {
+		political_power_gain = 0.10
+		social_liberalism_drift = 0.5
+	}
+
+	# MAIN GAME
+
 	dictator = {
 		random = no
 		political_power_factor = 0.25

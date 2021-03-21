@@ -4,9 +4,9 @@
 
 	oob = "BUL_1900"
 
-	set_convoys = 85
+	set_convoys = 69
 
-	set_research_slots = 4
+	set_research_slots = 3
 
 	set_cosmetic_tag = BUL_OTT
 
@@ -18,7 +18,7 @@
 	}
 
 	set_politics = {
-		ruling_party = autocracy
+		ruling_party = radical_democracy
 		#last_election = "1838.12.30"
 		#election_frequency = 48
 		elections_allowed = no
@@ -29,9 +29,9 @@
 		social_egalitarianism = 0
 		centrism = 0
 		traditional_conservatism = 0
-		radical_democracy = 0
+		radical_democracy = 83
 		chauvinist_populism = 0
-		autocracy = 100
+		autocracy = 17
 		democratic_socialism = 0
 	}
 
@@ -39,7 +39,7 @@
 		name = "Ferdinand I"
 		desc = ""
 		picture = "Ferdinand_I.dds"
-		ideology = despotism
+		ideology = plutocracy
 		traits = {
 			
 		}
