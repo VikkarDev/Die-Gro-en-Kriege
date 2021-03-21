@@ -211,6 +211,10 @@ SEN = {
 	color = rgb { 199 146 48 }
 	color_ui = rgb { 199 146 48 }
 }
+ASA = {
+	color = rgb { 209 102 129 }
+	color_ui = rgb { 209 102 129 }
+}
 
 LUX = {
 	color = rgb { 65 175 179 }

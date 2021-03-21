@@ -123,6 +123,10 @@
  SEN_DEF:0 "The Senussi Order"
  SEN_ADJ:0 "Senussian"
 
+ ASA:0 "Sultanate of Aussa"
+ ASA_DEF:0 "The Sultanate of Aussa"
+ ASA_ADJ:0 "Aussan"
+
  NMX:0 "New Mexico Territory"
  NMX_DEF:0 "New Mexico Territory"
  NMX_ADJ:0 "American"

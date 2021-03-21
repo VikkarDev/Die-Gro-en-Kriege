@@ -7,11 +7,6 @@
 	set_convoys = 165
 
 	set_research_slots = 2
-
-	add_ideas = {
-		COL_support_from_ecuadorian_liberals
-		COL_support_from_venezuelan_liberals
-	}
 	
 	set_politics = {
 		ruling_party = centrism
