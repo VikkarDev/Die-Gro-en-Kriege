@@ -9,8 +9,8 @@ guiTypes = {
 	### bookmark entry
 	containerWindowType = {
 		name = "bookmark_entry"
-		position = { x= 0 y = 0 }
-		size = { width=232 height=211}
+		position = { x= 0 y = 25 }
+		size = { width = 232 height = 211 }
 		clipping = no
 		fade_time = 500
 		fade_type = linear
@@ -18,6 +18,7 @@ guiTypes = {
 		background = {
 			name = "background"
 			quadTextureSprite = "GFX_bookmark_entry_bg"
+			position = { x = 23 y = 24 }
 			clicksound = click_checkbox
 		}
 
@@ -28,17 +29,17 @@ guiTypes = {
 			alwaystransparent = yes
 		}
 
-		instantTextBoxType = {
-			name = "date"
-			position = { x = 22 y = 147 }
-			font = "hoi_20b"
-			borderSize = {x = 0 y = 0}
-			text = "FE_BOOKMARK_DATE"
-			maxWidth = 185
-			maxHeight = 20
-			fixedsize = yes	
-			format = centre
-		}
+		#instantTextBoxType = {
+		#	name = "date"
+		#	position = { x = 22 y = 147 }
+		#	font = "hoi_20b"
+		#	borderSize = {x = 0 y = 0}
+		#	text = "FE_BOOKMARK_DATE"
+		#	maxWidth = 185
+		#	maxHeight = 20
+		#	fixedsize = yes	
+		#	format = centre
+		#}
 	}
 	
 	containerWindowType = {
