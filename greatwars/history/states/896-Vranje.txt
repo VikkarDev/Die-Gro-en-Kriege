@@ -1,7 +1,7 @@
 state={
 	id=896
 	name="STATE_896"
-	state_category = small_town
+	state_category = town
 
 	history={
 		owner = TUR

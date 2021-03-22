@@ -1,7 +1,7 @@
 #reload countrycolors
 GLD = {
-	color = rgb { 152  121  184 }
-	color_ui = rgb { 152  121  184 }
+	color = rgb { 19 59 27 }
+	color_ui = rgb { 19 59 27 }
 }
 GNG = {
 	color = rgb { 101 102 99 }

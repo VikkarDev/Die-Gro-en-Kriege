@@ -127,6 +127,10 @@
  ASA_DEF:0 "The Sultanate of Aussa"
  ASA_ADJ:0 "Aussan"
 
+ GLD:0 "Sultanate of Geledi"
+ GLD_DEF:0 "The Sultanate of Geledi"
+ GLD_ADJ:0 "Geledian"
+
  NMX:0 "New Mexico Territory"
  NMX_DEF:0 "New Mexico Territory"
  NMX_ADJ:0 "American"
@@ -3374,7 +3378,4 @@
  vojvodina:0 "Vojvodina"
  vojvodina_DEF:0 "Vojvodina"
  vojvodina_ADJ:0 "Vojvodinian"
- 
- GLD:0 "Geledi"
- GLD_autocracy:0 "Sultanate of Geledi"
  
