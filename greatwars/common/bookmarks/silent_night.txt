@@ -147,6 +147,18 @@ bookmarks = {
 			}
 		}
 
+		"KOR"={
+			minor = yes
+			history = "KOR_SILENT_NIGHT_DESC"
+			ideology = autocracy
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+
 		effect = {
 			randomize_weather = 12345 # <- Obligatory in every bookmark !
 			#123 = { rain_light = yes }
