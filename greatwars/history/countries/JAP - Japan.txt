@@ -30,6 +30,7 @@ capital = 282
 		JAP_bushido_code
 		JAP_developed_rail_network
 		JAP_wooden_constructions
+		JAP_interservice_rivalry_low
 	}
 
 	set_popularities = {

@@ -101,5 +101,95 @@ ideas = {
 				naval_strike_attack_factor = 0.10
 			}
 		}
+
+		JAP_interservice_rivalry_cooperative = {
+			picture = jap_interservice_rivalry_cooperative
+
+			allowed = {
+				tag = JAP
+			}
+
+			modifier = {
+				production_factory_efficiency_gain_factor = 0.05
+				industrial_capacity_dockyard = 0.05
+				army_org = 0.05
+				navy_org = -0.05
+			}
+		}
+
+		JAP_interservice_rivalry_none = {
+			picture = jap_interservice_rivalry_none
+
+			allowed = {
+				tag = JAP
+			}
+
+			modifier = {
+				
+			}
+		}
+
+		JAP_interservice_rivalry_low = {
+			picture = jap_interservice_rivalry_low
+
+			allowed = {
+				tag = JAP
+			}
+
+			modifier = {
+				production_factory_efficiency_gain_factor = -0.02
+				industrial_capacity_dockyard = -0.02
+			}
+		}
+
+		JAP_interservice_rivalry_medium = {
+			picture = jap_interservice_rivalry_medium
+
+			allowed = {
+				tag = JAP
+			}
+
+			modifier = {
+				production_factory_efficiency_gain_factor = -0.05
+				industrial_capacity_dockyard = -0.05
+				army_org = -0.02
+				navy_org = -0.02
+			}
+		}
+
+		JAP_interservice_rivalry_high = {
+			picture = jap_interservice_rivalry_medium
+
+			allowed = {
+				tag = JAP
+			}
+
+			modifier = {
+				production_factory_efficiency_gain_factor = -0.10
+				industrial_capacity_dockyard = -0.10
+				army_org = -0.05
+				navy_org = -0.05
+				planning_speed = -0.05
+				naval_speed_factor = -0.05
+			}
+		}
+
+		JAP_interservice_rivalry_extreme = {
+			picture = jap_interservice_rivalry_medium
+
+			allowed = {
+				tag = JAP
+			}
+
+			modifier = {
+				production_factory_efficiency_gain_factor = -0.25
+				industrial_capacity_dockyard = -0.25
+				army_org = -0.10
+				navy_org = -0.10
+				naval_speed_factor = -0.10
+				war_support_factor = -0.05
+				stability_factor = -0.05
+			}
+		}
 	}
 }
