@@ -206,14 +206,6 @@ units = {
 		start_experience_factor = 0.3
 	}
 
-	division = {
-		name = "Chinkai Kichi Kaiheidan"
-		location = 4056 #Pusan
-		division_template = "Chuton-chi Shidan"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.3		
-	}
-
 
 	### Island IJN Garrisons ###
 
@@ -341,16 +333,6 @@ units = {
 	}
 
 	# 5 Homengun - 5th Field Army
-
-	division = { # "8 'Sugi' Hohei Shidan"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 8
-		}
-		location = 906
-		division_template = "Hohei Shidan"
-		start_experience_factor = 0.3
-	}
 	
 	### Chumo Gun -- Inner Mongolian Army ###
 	division = { # "5 Mouko Kiheishidan"
