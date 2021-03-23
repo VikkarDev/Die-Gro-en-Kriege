@@ -1,169 +1,133 @@
 focus_tree = {
 	id = sweden_1900_focus
-
 	country = {
-		factor = 0
-
 		modifier = {
-			add = 11
+			add = 10
 			tag = SWE
 		}
 	}
-
-	default = no
-
-	continuous_focus_position = { x = 50 y = 1000 }
-    focus = {
-		id = SWE_TEST
-		icon = GFX_focus_generic_industry_1
-		x = 5
+	#1
+	focus = {
+		id = SWE_1
+		icon = GFX_goal_tripartite_pact
+		x = 1
 		y = 0
-
 		cost = 10
-
-		available = {
-			country_exists = SWE
-		}
-
-		
-
-		completion_reward = { 
+		search_filters = {
 			
 		}
 	}
 
-
-
-    focus = {
-		id = SWE_TEST2
-		icon = GFX_focus_generic_industry_1
-		x = 5
+	#2
+	focus = {
+		id = SWE_2
+		icon = GFX_goal_tripartite_pact
+		x = 1
 		y = 1
-
-		cost = 10
-		prerequisite = { focus = SWE_TEST }
-
-		available = {
-			country_exists = SWE
-		}
-
-		
-
-		completion_reward = { 
+		search_filters = {
 			
 		}
+		prerequisite = { focus = SWE_1  }
 	}
+
+	#3
 	focus = {
-		id = SWE_TEST3
-		icon = GFX_focus_generic_industry_1
-		x = 6
+		id = SWE_3
+		icon = GFX_goal_tripartite_pact
+		x = 0
 		y = 2
-
 		cost = 10
-		prerequisite = { focus = SWE_TEST2 }
-
-		available = {
-			country_exists = SWE
-		}
-
-		
-
-		completion_reward = { 
+		search_filters = {
 			
 		}
+		prerequisite = { focus = SWE_2  }
 	}
+
+	#4
 	focus = {
-		id = SWE_TEST4
-		icon = GFX_focus_generic_industry_1
+		id = SWE_4
+		icon = GFX_SWE_4
+		x = 2
+		y = 2
+		cost = 10
+		search_filters = {
+			
+		}
+		prerequisite = { focus = SWE_2  }
+	}
+
+	#5
+	focus = {
+		id = SWE_5
+		icon = GFX_SWE_5
+		x = -1
+		y = 3
+		search_filters = {
+			
+		}
+		prerequisite = { focus = SWE_3  }
+	}
+
+	#6
+	focus = {
+		id = SWE_6
+		icon = GFX_SWE_6
+		x = 1
+		y = 4
+		search_filters = {
+			
+		}
+		prerequisite = { focus = SWE_5  focus = SWE_7  }
+	}
+
+	#7
+	focus = {
+		id = SWE_7
+		icon = GFX_SWE_7
+		x = 3
+		y = 3
+		search_filters = {
+			
+		}
+		prerequisite = { focus = SWE_4  }
+	}
+
+	#8
+	focus = {
+		id = SWE_8
+		icon = GFX_SWE_8
 		x = 4
-		y = 2
-
-		cost = 10
-		prerequisite = { focus = SWE_TEST2 }
-		mutually_exclusive = { focus = SWE_TEST3 }
-
-		available = {
-			country_exists = SWE
-		}
-
-		
-
-		completion_reward = { 
+		y = 4
+		search_filters = {
 			
 		}
+		prerequisite = { focus = SWE_7  }
 	}
+
+	#9
 	focus = {
-		id = SWE_TEST5
-		icon = GFX_focus_generic_industry_1
-		x = 20
-		y = 0
-
-		cost = 10
-		
-
-		available = {
-			country_exists = SWE
-		}
-
-		
-
-		completion_reward = { 
+		id = SWE_9
+		icon = GFX_SWE_9
+		x = 1
+		y = 6
+		search_filters = {
 			
 		}
+		prerequisite = { focus = SWE_6  }
 	}
+
+	#army
 	focus = {
-		id = SWE_navy
-		icon = GFX_focus_generic_industry_1
-		x = 29
+		id = SWE_army
+		icon = GFX_SWE_army
+		x = 10
 		y = 0
-
-		cost = 10
-		
-
-		available = {
-			country_exists = SWE
-		}
-
-		
-
-		completion_reward = { 
+		search_filters = {
 			
 		}
 	}
+
 }
-
-	
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
