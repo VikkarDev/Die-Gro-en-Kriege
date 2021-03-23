@@ -5,7 +5,7 @@ capital = 909
 
 	set_convoys = 0
 
-	set_research_slots = 2
+	set_research_slots = 1
 
 	set_politics = {
 		ruling_party = autocracy
@@ -26,9 +26,9 @@ capital = 909
 	}
 
 	create_country_leader = {
-		name = "Unknown"
+		name = "Thutob Namgyal"
 		desc = ""
-		picture = "Unknown.dds"
+		picture = "Thutob_Namgyal.dds"
 		ideology = despotism
 		traits = {
 		}

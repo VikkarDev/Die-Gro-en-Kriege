@@ -5,7 +5,7 @@ capital = 919
 
 	set_convoys = 0
 
-	set_research_slots = 2
+	set_research_slots = 1
 
 	set_politics = {
 		ruling_party = autocracy
@@ -26,9 +26,9 @@ capital = 919
 	}
 
 	create_country_leader = {
-		name = "Unknown"
+		name = "Macammad Canfaxe"
 		desc = ""
-		picture = "Unkown.dds"
+		picture = "Macammad_Canfaxe.dds"
 		ideology = despotism
 		traits = {
 		}

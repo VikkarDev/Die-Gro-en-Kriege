@@ -28,12 +28,12 @@ capital = 446
 	}
 
 	create_country_leader = {
-		name = "Unknown"
+		name = "Abbas II Helmy"
 		desc = ""
-		picture = "Unknown.dds"
+		picture = "Abbas_II_Helmy.dds"
 		ideology = despotism
 		traits = {
-			father_of_the_turks
+			#
 		}
 	}
 }
