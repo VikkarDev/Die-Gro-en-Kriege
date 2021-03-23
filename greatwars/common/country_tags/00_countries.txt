@@ -70,6 +70,8 @@ MUT = "countries/Mutayr.txt"
 DER = "countries/Dervish.txt"
 SEN = "countries/Senussi.txt"
 ASA = "countries/Aussa.txt"
+ARO = "countries/Aro.txt"
+SOK = "countries/Sokoto.txt"
 
 CZE = "countries/Czechoslovakia.txt"
 POL = "countries/Poland.txt"

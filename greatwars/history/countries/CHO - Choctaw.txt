@@ -26,9 +26,9 @@ capital = 875
 	}
 
 	create_country_leader = {
-		name = "William Leander Byrd"
+		name = "Greenwood McCurtain"
 		desc = ""
-		picture = "William_Leander_Byrd.dds"
+		picture = "Greenwood_McCurtain.dds"
 		ideology = conserv
 		traits = {
 			

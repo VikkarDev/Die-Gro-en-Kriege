@@ -33,7 +33,7 @@ capital = 608
 	}
 
 	create_country_leader = {
-		name = "Emperor Zaitian"
+		name = "Guangxu Emperor"
 		desc = ""
 		picture = "Guangxu_Emperor.dds"
 		ideology = despotism

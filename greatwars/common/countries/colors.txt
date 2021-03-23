@@ -219,6 +219,14 @@ ASA = {
 	color = rgb { 209 102 129 }
 	color_ui = rgb { 209 102 129 }
 }
+ARO = {
+	color = rgb { 128 111 99 }
+	color_ui = rgb { 128 111 99 }
+}
+SOK = {
+	color = rgb { 193 199 82 }
+	color_ui = rgb { 193 199 82 }
+}
 
 LUX = {
 	color = rgb { 65 175 179 }

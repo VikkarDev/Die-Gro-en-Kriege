@@ -131,6 +131,14 @@
  GLD_DEF:0 "The Sultanate of Geledi"
  GLD_ADJ:0 "Geledian"
 
+ ARO:0 "Aro Confederacy"
+ ARO_DEF:0 "The Aro Confederacy"
+ ARO_ADJ:0 "Aroan"
+
+ SOK:0 "Sokoto Caliphate"
+ SOK_DEF:0 "The Sokoto Caliphate"
+ SOK_ADJ:0 "Sokotan"
+
  NMX:0 "New Mexico Territory"
  NMX_DEF:0 "New Mexico Territory"
  NMX_ADJ:0 "American"

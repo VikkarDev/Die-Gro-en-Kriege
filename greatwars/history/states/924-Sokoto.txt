@@ -1,0 +1,22 @@
+state={
+	id=924
+	name="STATE_924"
+	state_category = city
+
+	history={
+		owner = SOK
+		add_core_of = NGA
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 2
+
+		}
+	}
+
+	provinces={
+		1891 1932 1969 2025 4938 8021 
+	}
+	manpower=17301588
+	buildings_max_level_factor=1.000
+}

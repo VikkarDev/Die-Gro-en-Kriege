@@ -26,9 +26,9 @@ capital = 877
 	}
 
 	create_country_leader = {
-		name = "Greenwod McCurtain"
+		name = "Douglas Henry Johnston"
 		desc = ""
-		picture = "Greenwood_McCurtain.dds"
+		picture = "Douglas_Henry_Johnston.dds"
 		ideology = conserv
 		traits = {
 			
