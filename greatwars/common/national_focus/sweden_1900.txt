@@ -13,9 +13,7 @@ focus_tree = {
 		x = 1
 		y = 0
 		cost = 10
-		search_filters = {
-			
-		}
+		
 	}
 
 	#2
@@ -24,9 +22,7 @@ focus_tree = {
 		icon = GFX_goal_tripartite_pact
 		x = 1
 		y = 1
-		search_filters = {
-			
-		}
+		
 		prerequisite = { focus = SWE_1  }
 	}
 
@@ -37,9 +33,7 @@ focus_tree = {
 		x = 0
 		y = 2
 		cost = 10
-		search_filters = {
-			
-		}
+		
 		prerequisite = { focus = SWE_2  }
 	}
 
@@ -50,9 +44,7 @@ focus_tree = {
 		x = 2
 		y = 2
 		cost = 10
-		search_filters = {
-			
-		}
+		
 		prerequisite = { focus = SWE_2  }
 	}
 
@@ -62,9 +54,7 @@ focus_tree = {
 		icon = GFX_SWE_5
 		x = -1
 		y = 3
-		search_filters = {
-			
-		}
+		
 		prerequisite = { focus = SWE_3  }
 	}
 
@@ -74,9 +64,7 @@ focus_tree = {
 		icon = GFX_SWE_6
 		x = 1
 		y = 4
-		search_filters = {
-			
-		}
+		
 		prerequisite = { focus = SWE_5  focus = SWE_7  }
 	}
 
@@ -86,9 +74,7 @@ focus_tree = {
 		icon = GFX_SWE_7
 		x = 3
 		y = 3
-		search_filters = {
-			
-		}
+		
 		prerequisite = { focus = SWE_4  }
 	}
 
@@ -98,9 +84,7 @@ focus_tree = {
 		icon = GFX_SWE_8
 		x = 4
 		y = 4
-		search_filters = {
-			
-		}
+		
 		prerequisite = { focus = SWE_7  }
 	}
 
@@ -110,9 +94,7 @@ focus_tree = {
 		icon = GFX_SWE_9
 		x = 1
 		y = 6
-		search_filters = {
-			
-		}
+		
 		prerequisite = { focus = SWE_6  }
 	}
 
@@ -122,9 +104,7 @@ focus_tree = {
 		icon = GFX_SWE_army
 		x = 10
 		y = 0
-		search_filters = {
-			
-		}
+		
 	}
 
 }
