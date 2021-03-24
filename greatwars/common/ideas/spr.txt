@@ -58,9 +58,9 @@ ideas = {
 		}
 	  
 		modifier = {
-		stability_factor = 0.05
+		stability_factor = -0.05
 		drift_defence_factor = 0.60
-		political_power_gain = -0.15
+		political_power_gain = 0.15
 		}
 	  }
 	}

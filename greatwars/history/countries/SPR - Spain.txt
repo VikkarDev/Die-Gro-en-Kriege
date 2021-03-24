@@ -37,20 +37,21 @@ capital = 41
 
 	set_popularities = {
 		vanguard_communism = 0
-		social_egalitarianism = 0
+		social_egalitarianism = 7
 		centrism = 0
 		traditional_conservatism = 0
-		radical_democracy = 100
+		radical_democracy = 70
 		chauvinist_populism = 0
 		autocracy = 0
 		democratic_socialism = 0
+		libertarian_socialism = 23
 	}
 
 	create_country_leader = {
 		name = "Alfonso XIII"
 		desc = ALFONSO_LEADER_DESCRIPTION
 		picture = "Alfonso_XIII.dds"
-		ideology = plutocracy
+		ideology = reactionary
 		traits = {
 			underage_monarch_trait
 		}
