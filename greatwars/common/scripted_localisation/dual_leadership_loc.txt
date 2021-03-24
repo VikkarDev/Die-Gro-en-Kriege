@@ -102,6 +102,13 @@ defined_text = {
 		}
 		localization_key = KOR_HOS_TITLE
 	}
+    
+    text = {
+		trigger = {
+			tag = SAF
+		}
+		localization_key = SAF_HOS_TITLE
+	}
 
 	text = {
 		localization_key = DEFAULT_HOS_TITLE
@@ -209,6 +216,13 @@ defined_text = {
 			tag = KOR
 		}
 		localization_key = KOR_HOG_TITLE
+	}
+    
+    text = {
+		trigger = {
+			tag = SAF
+		}
+		localization_key = SAF_HOG_TITLE
 	}
 
 	text = {
@@ -331,6 +345,14 @@ defined_text = {
 			has_country_flag = yoon_yong_sun_vp
 		}
 		localization_key = KOR_YYS_NAME
+	}
+    
+    text = {
+		trigger = {
+			tag = SAF
+			has_country_flag = william_philip_schreiner_vp
+		}
+		localization_key = SAF_William_Philip_Schreiner_NAME
 	}
 
 	text = {
@@ -467,6 +489,14 @@ defined_text = {
 			has_country_flag = yoon_yong_sun_vp
 		}
 		localization_key = "GFX_KOR_Yoon_Yong_sun"
+	}
+    
+    text = {
+		trigger = {
+			tag = SAF
+			has_country_flag = william_philip_schreiner_vp
+		}
+		localization_key = "GFX_SAF_William_Philip_Schreiner"
 	}
 	text = {
 		localization_key = "GFX_portrait_bg_blank"

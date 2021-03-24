@@ -77,4 +77,10 @@ spriteTypes = {
 		name = "GFX_KOR_Yoon_Yong_sun"
 		texturefile = "gfx/leaders/KOR/Yoon_Yong_sun.dds"
 	}
+    
+    # CAPE COLONY
+    spriteType = {
+		name = "GFX_SAF_William_Philip_Schreiner"
+		texturefile = "gfx/leaders/SAF/William_Philip_Schreiner.dds"
+	}
 }

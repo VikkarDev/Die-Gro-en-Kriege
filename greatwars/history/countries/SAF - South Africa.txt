@@ -23,17 +23,17 @@ capital = 275
 		vanguard_communism = 0
 		social_egalitarianism = 0
 		centrism = 0
-		traditional_conservatism = 100
-		radical_democracy = 0
+		traditional_conservatism = 83
+		radical_democracy = 15
 		chauvinist_populism = 0
-		autocracy = 0
+		autocracy = 2
 		democratic_socialism = 0
 	}
 
 	create_country_leader = {
-		name = "Unkown"
-		desc = ""
-		picture = "unknown.dds"
+		name = "Alfred_Milner"
+		desc = "Alfred_Milner_desc"
+		picture = "Alfred_Milner.dds"
 		ideology = conserv
 		traits = {
 			
