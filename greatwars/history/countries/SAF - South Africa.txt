@@ -31,7 +31,7 @@ capital = 275
 	}
 
 	create_country_leader = {
-		name = "Alfred_Milner"
+		name = "Alfred Milner"
 		desc = "Alfred_Milner_desc"
 		picture = "Alfred_Milner.dds"
 		ideology = conserv
