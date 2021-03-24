@@ -8,7 +8,7 @@ ideas = {
 		}
 	  
 		modifier = {
-			political_power_gain = 0.25
+			political_power_gain = 0.10
 			join_faction_tension = 0.30
 		}
 	  }

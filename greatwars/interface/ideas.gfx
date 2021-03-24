@@ -1,5 +1,9 @@
 spriteTypes = {
-
+	
+	SpriteType = {
+		name = "GFX_idea_Swedish_neutrality"
+		texturefile = "gfx/interface/ideas/swe/swe_neutral.dds"
+	}
 	SpriteType = {
 		name = "GFX_idea_sov_french_dependancy"
 		texturefile = "gfx/interface/ideas/sov/idea_rus_french_dependency.dds"
@@ -5763,5 +5767,6 @@ spriteTypes = {
 		name = "GFX_idea_gre_metaxism_empowered"
 		texturefile = "gfx/interface/ideas/idea_gre_metaxism_empowered.dds"
 	}
+	
 
 }
