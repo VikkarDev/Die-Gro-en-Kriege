@@ -17,7 +17,6 @@ state={
 		buildings = {
 			infrastructure = 8
 			industrial_complex = 2
-			anti_air_building = 1
 			5283 = {
 				bunker = 1
 

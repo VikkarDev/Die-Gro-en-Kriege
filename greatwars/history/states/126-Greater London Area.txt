@@ -13,9 +13,6 @@ state={
 			arms_factory = 3
 			industrial_complex = 3
 			dockyard = 1
-			anti_air_building = 5
-			radar_station = 1
-			air_base = 10
 			11374 = {
 				naval_base = 10
 
@@ -23,15 +20,6 @@ state={
 
 		}
 		add_core_of = ENG
-		1939.1.1 = {
-			buildings = {
-				arms_factory = 4
-				industrial_complex = 4
-
-			}
-
-		}
-
 	}
 
 	provinces={

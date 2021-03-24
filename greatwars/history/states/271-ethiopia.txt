@@ -12,8 +12,6 @@ state={
 			infrastructure = 3
 			arms_factory = 2
 			industrial_complex = 2
-			air_base = 1
-
 		}
 		victory_points = {
 			5010 5 
@@ -25,12 +23,6 @@ state={
 			7980 1.0 
 		}
 		add_core_of = ETH
-		1936.6.1 = {
-			owner = ITA
-			controller = ITA
-
-		}
-
 	}
 
 	provinces={

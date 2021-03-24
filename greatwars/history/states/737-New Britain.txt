@@ -4,10 +4,9 @@ state={
 
 	history={
 		add_core_of = PNG
-		owner = ENG
+		owner = GER
 		buildings = {
 			infrastructure = 2
-			air_base = 1
 			7251 = {
 				naval_base = 5
 
