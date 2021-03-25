@@ -1,10 +1,7 @@
-
 state={
-	id=39
-	name="STATE_39"
-	resources={
-		aluminium=14.000
-	}
+	id=931
+	name="STATE_931"
+	state_category = town
 
 	history={
 		victory_points = {
@@ -12,7 +9,7 @@ state={
 		}
 		owner = HUN
 		buildings = {
-			infrastructure = 6
+			infrastructure = 4
 			industrial_complex = 1
 
 		}
@@ -23,9 +20,8 @@ state={
 	}
 
 	provinces={
-		6631 6675 9630 11615 
+		656 9598 11598 
 	}
-	manpower=641650
+	manpower=491931
 	buildings_max_level_factor=1.000
-	state_category=town
 }

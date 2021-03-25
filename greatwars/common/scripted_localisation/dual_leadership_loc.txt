@@ -306,6 +306,20 @@ defined_text = {
 	text = {
 		trigger = {
 			tag = JAP
+			has_country_flag = yamagata_vp
+			OR = {
+				has_government = centrism
+				has_government = traditional_conservatism
+				has_government = social_liberalism
+				has_government = social_egalitarianism
+			}
+		}
+		localization_key = JAP_YAMAGATA_NAME
+	}
+
+	text = {
+		trigger = {
+			tag = JAP
 			has_country_flag = hirobumi_vp
 			OR = {
 				has_government = centrism
@@ -445,6 +459,20 @@ defined_text = {
 			}
 		}
 		localization_key = "GFX_USA_John_Long"
+	}
+
+	text = {
+		trigger = {
+			tag = JAP
+			has_country_flag = yamagata_vp
+			OR = {
+				has_government = centrism
+				has_government = traditional_conservatism
+				has_government = social_liberalism
+				has_government = social_egalitarianism
+			}
+		}
+		localization_key = "GFX_JAP_Yamagata"
 	}
 
 	text = {
@@ -613,6 +641,14 @@ defined_text = {
 			has_country_flag = theodore_roosevelt_becomes_vp
 		}
 		localization_key = THEODORE_LEADER_DESCRIPTION
+	}
+
+	text = {
+		trigger = {
+			original_tag = JAP
+			has_country_flag = yamagata_vp
+		}
+		localization_key = YAMAGATA_LEADER_DESCRIPTION
 	}
 
 	text = {

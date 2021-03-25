@@ -68,6 +68,11 @@ spriteTypes = {
 
 	# JAPAN
 	spriteType = {
+		name = "GFX_JAP_Yamagata"
+		texturefile = "gfx/leaders/JAP/Yamagata_Aritomo.dds"
+	}
+
+	spriteType = {
 		name = "GFX_JAP_Hirobumi"
 		texturefile = "gfx/leaders/JAP/Hirobumi.dds"
 	}
