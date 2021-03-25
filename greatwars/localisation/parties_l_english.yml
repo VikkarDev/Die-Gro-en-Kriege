@@ -192,3 +192,8 @@ JAP_radical_democracy_party:0 "TKK"
 JAP_radical_democracy_party_long:0 "Teikokutō"
 JAP_chauvinist_populism_party:0 "KKJ"
 JAP_chauvinist_populism_party_long:0 "Kokumin Jiyutō"
+#Spain
+SPR_social_liberalism_party:0 "PL"
+SPR_social_liberalism_party_long:0 "Partido Liberal"
+SPR_traditional_conservatism_party:0 "PLC"
+SPR_traditional_conservatism_party_long:0 "Partido Liberal-Conservador"
