@@ -1,0 +1,21 @@
+state={
+	id=933
+	name="STATE_933"
+	state_category = town
+
+	history = {
+		owner = HUN
+		add_core_of = MNT
+		add_core_of = HUN
+
+		victory_points = {
+			13252 5
+		}
+	}
+
+	provinces={
+		13252
+	}
+	manpower=50310
+	buildings_max_level_factor=1.000
+}

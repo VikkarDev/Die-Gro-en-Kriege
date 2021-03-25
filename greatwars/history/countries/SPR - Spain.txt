@@ -29,7 +29,7 @@ capital = 41
 	}
 
 	set_politics = {
-		ruling_party = radical_democracy
+		ruling_party = traditional_conservatism
 		last_election = "1899.4.16"
 		election_frequency = 24
 		elections_allowed = no

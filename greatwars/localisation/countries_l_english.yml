@@ -139,6 +139,10 @@
  SOK_DEF:0 "The Sokoto Caliphate"
  SOK_ADJ:0 "Sokotan"
 
+ RAB:0 "Rabih az-Zubayr's Revolt"
+ RAB_DEF:0 "The Rabih az-Zubayr Revolt"
+ RAB_ADJ:0 "Rabihan"
+
  NMX:0 "New Mexico Territory"
  NMX_DEF:0 "New Mexico Territory"
  NMX_ADJ:0 "American"

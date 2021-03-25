@@ -227,6 +227,10 @@ SOK = {
 	color = rgb { 193 199 82 }
 	color_ui = rgb { 193 199 82 }
 }
+RAB = {
+	color = rgb { 176 113 12 }
+	color_ui = rgb { 176 113 12 }
+}
 
 LUX = {
 	color = rgb { 65 175 179 }
