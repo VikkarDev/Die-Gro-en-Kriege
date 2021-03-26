@@ -26,9 +26,9 @@ capital = 923
 	}
 
 	create_country_leader = {
-		name = "Okoro Idozuka"
+		name = "Kanu Okoro"
 		desc = ""
-		picture = "Okoro_Idozuka.dds"
+		picture = "Kanu_Okoro.dds"
 		ideology = despotism
 		traits = {
 		}

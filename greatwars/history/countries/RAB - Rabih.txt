@@ -26,9 +26,9 @@ capital = 932
 	}
 
 	create_country_leader = {
-		name = "Unkown"
+		name = "Rabih az-Zubayr"
 		desc = ""
-		picture = "Unkown.dds"
+		picture = "Rabih_az_Zubayr.dds"
 		ideology = despotism
 		traits = {
 		}
