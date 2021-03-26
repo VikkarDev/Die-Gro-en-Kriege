@@ -24,19 +24,9 @@ capital = 49
 			target = POS
 			autonomous_state = autonomy_integrated_puppet
 		}
-		set_autonomy = {
-			target = ANZ
-			autonomous_state = autonomy_integrated_puppet
-		}
-		set_autonomy = {
-			target = JSH
-			autonomous_state = autonomy_integrated_puppet
-		}
 		else = {
 			puppet = BUL
 			puppet = POS
-			puppet = ANZ
-			puppet = JSH
 		}
 	}
 
