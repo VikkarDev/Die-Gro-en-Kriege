@@ -1,21 +1,24 @@
+
 state={
 	id=898
 	name="STATE_898"
-	state_category = rural
 
 	history={
-		owner = GER
+		owner = RAB
 		add_core_of = CHA
+		add_core_of = RAB
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
+
 		}
 
 	}
 
 	provinces={
-		13249 
+		7963 13249 
 	}
 	manpower=25000
 	buildings_max_level_factor=1.000
+	state_category=rural
 }

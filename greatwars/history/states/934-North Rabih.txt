@@ -1,0 +1,21 @@
+state={
+	id=934
+	name="STATE_934"
+	state_category = wasteland
+
+	history = {
+		owner = RAB
+		add_core_of = RAB
+		add_core_of = NGR
+
+		buildings = {
+			infrastructure = 1
+		}
+	}
+
+	provinces={
+		10780 10805 
+	}
+	manpower=30102
+	buildings_max_level_factor=1.000
+}

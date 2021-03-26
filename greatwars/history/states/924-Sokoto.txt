@@ -1,7 +1,7 @@
+
 state={
 	id=924
 	name="STATE_924"
-	state_category = city
 
 	history={
 		owner = SOK
@@ -12,11 +12,13 @@ state={
 			industrial_complex = 2
 
 		}
+
 	}
 
 	provinces={
-		1891 1932 1969 2025 4938 8021 
+		1891 1932 1969 2025 2056 4938 8021 
 	}
 	manpower=17301588
 	buildings_max_level_factor=1.000
+	state_category=city
 }
