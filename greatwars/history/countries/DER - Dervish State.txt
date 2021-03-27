@@ -7,6 +7,22 @@ capital = 917
 
 	set_research_slots = 2
 
+	if = {
+		limit = {
+			has_start_date < 1900.1.2
+		}
+
+		declare_war_on = {
+			target = ETH
+			type = take_state
+		}
+
+		declare_war_on = {
+			target = ENG
+			type = take_state
+		}
+	}
+
 	set_politics = {
 		ruling_party = autocracy
 		#last_election = "2078.9.26"

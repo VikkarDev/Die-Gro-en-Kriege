@@ -7,6 +7,17 @@ capital = 932
 
 	set_research_slots = 1
 
+	if = {
+		limit = {
+			has_start_date < 1900.1.2
+		}
+
+		declare_war_on = {
+			target = FRA
+			type = take_state
+		}
+	}
+
 	set_politics = {
 		ruling_party = autocracy
 		#last_election = "2078.9.26"

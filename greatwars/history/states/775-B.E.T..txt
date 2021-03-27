@@ -4,7 +4,8 @@ state={
 	name="STATE_775"
 
 	history={
-		owner = FRA
+		owner = SEN
+		add_core_of = SEN
 		add_core_of = CHA
 		buildings = {
 			infrastructure = 0
@@ -14,7 +15,7 @@ state={
 	}
 
 	provinces={
-		4902 10893 
+		1956 4902 10893 
 	}
 	manpower=18744
 	buildings_max_level_factor=1.000
