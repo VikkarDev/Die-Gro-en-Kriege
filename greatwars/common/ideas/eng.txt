@@ -15,5 +15,41 @@ ideas = {
 			popular_figurehead
 		}
 	  }
+
+	  ENG_overextened_empire = {
+		picture = eng_overextened_empire
+
+		allowed = {
+			tag = ENG
+		}
+
+		modifier = {
+			
+		}
+	  }
+
+	  ENG_pax_britania = {
+		picture = eng_pax_britania
+
+		allowed = {
+			tag = ENG
+		}
+
+		modifier = {
+			
+		}
+	  }
+
+	  ENG_rising_threat_of_germany = {
+		picture = eng_rising_threat_of_germany
+
+		allowed = {
+			tag = ENG
+		}
+
+		modifier = {
+			
+		}
+	  }
 	}
 }

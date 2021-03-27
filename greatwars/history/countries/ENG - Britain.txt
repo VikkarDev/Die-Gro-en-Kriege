@@ -13,10 +13,15 @@ capital = 126
 	set_cosmetic_tag = ENG_IRE
 
 	add_ideas = {
-		# government
+		# Government and Laws
 		volunteer_only
 		free_trade
 		civilian_economy
+
+		# Starting Ideas
+		ENG_overextened_empire
+		ENG_pax_britania
+		ENG_rising_threat_of_germany
 	}
 
 	if = {
@@ -104,7 +109,7 @@ capital = 126
 		picture = "Queen_Victoria.dds"
 		ideology = conserv
 		traits = {
-			
+			queen_of_the_people
 		}
 	}
 }
