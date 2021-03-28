@@ -108,7 +108,7 @@ bookmarks = {
 		"SPR"={
 			minor = yes
 			history = "SPR_SILENT_NIGHT_DESC"
-			ideology = traditional_conservatism
+			ideology = radical_democracy
 			ideas = {
 				SPR_memories_of_the_spanish_american_war
 				SPR_the_regency_of_maria_christina

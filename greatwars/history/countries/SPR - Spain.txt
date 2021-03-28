@@ -29,7 +29,7 @@ capital = 41
 	}
 
 	set_politics = {
-		ruling_party = traditional_conservatism
+		ruling_party = radical_democracy
 		last_election = "1899.4.16"
 		election_frequency = 24
 		elections_allowed = no
@@ -39,20 +39,20 @@ capital = 41
 		vanguard_communism = 0
 		social_egalitarianism = 0
 		centrism = 14
-		traditional_conservatism = 56
-		radical_democracy = 0
+		traditional_conservatism = 26
+		radical_democracy = 40
 		chauvinist_populism = 0
 		autocracy = 0
 		democratic_socialism = 0
 		libertarian_socialism = 0
-		social_liberalism = 30
+		social_liberalism = 20
 	}
 
 	create_country_leader = {
 		name = "Alfonso XIII"
 		desc = ALFONSO_LEADER_DESCRIPTION
 		picture = "Alfonso_XIII.dds"
-		ideology = conserv
+		ideology = reactionary
 		traits = {
 			underage_monarch_trait
 		}
