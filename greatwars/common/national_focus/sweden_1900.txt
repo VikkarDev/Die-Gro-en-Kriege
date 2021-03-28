@@ -6,7 +6,7 @@ focus_tree = {
 			tag = SWE
 		}
 	}
-	#1
+
 	focus = {
 		id = SWE_1
 		icon = GFX_goal_tripartite_pact
@@ -16,7 +16,7 @@ focus_tree = {
 		
 	}
 
-	#2
+
 	focus = {
 		id = SWE_2
 		icon = GFX_goal_tripartite_pact
@@ -26,7 +26,7 @@ focus_tree = {
 		prerequisite = { focus = SWE_1  }
 	}
 
-	#3
+
 	focus = {
 		id = SWE_3
 		icon = GFX_goal_tripartite_pact
@@ -37,7 +37,7 @@ focus_tree = {
 		prerequisite = { focus = SWE_2  }
 	}
 
-	#4
+
 	focus = {
 		id = SWE_4
 		icon = GFX_SWE_4
@@ -48,7 +48,7 @@ focus_tree = {
 		prerequisite = { focus = SWE_2  }
 	}
 
-	#5
+
 	focus = {
 		id = SWE_5
 		icon = GFX_SWE_5
@@ -58,7 +58,7 @@ focus_tree = {
 		prerequisite = { focus = SWE_3  }
 	}
 
-	#6
+
 	focus = {
 		id = SWE_6
 		icon = GFX_SWE_6
@@ -68,7 +68,7 @@ focus_tree = {
 		prerequisite = { focus = SWE_5  focus = SWE_7  }
 	}
 
-	#7
+
 	focus = {
 		id = SWE_7
 		icon = GFX_SWE_7
@@ -78,7 +78,7 @@ focus_tree = {
 		prerequisite = { focus = SWE_4  }
 	}
 
-	#8
+	
 	focus = {
 		id = SWE_8
 		icon = GFX_SWE_8
@@ -88,7 +88,7 @@ focus_tree = {
 		prerequisite = { focus = SWE_7  }
 	}
 
-	#9
+	
 	focus = {
 		id = SWE_9
 		icon = GFX_SWE_9
@@ -98,13 +98,22 @@ focus_tree = {
 		prerequisite = { focus = SWE_6  }
 	}
 
-	#army
+	
 	focus = {
 		id = SWE_army
 		icon = GFX_SWE_army
 		x = 10
 		y = 0
 		
+	}
+	
+	focus = {
+		id = SWE_army2
+		icon = GFX_SWE_army2
+		x = 10
+		y = 2
+		
+		prerequisite = { focus = SWE_army  }
 	}
 
 }
