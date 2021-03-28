@@ -9,7 +9,7 @@ capital = 282
 	set_research_slots = 2
 
 	set_politics = {
-		ruling_party = traditional_conservatism
+		ruling_party = radical_democracy
 		elections_allowed = no
 	}
 
@@ -38,8 +38,8 @@ capital = 282
 		social_egalitarianism = 5.1
 		social_liberalism = 7.2
 		centrism = 14.4
-		traditional_conservatism = 54.9
-		radical_democracy = 3.3
+		traditional_conservatism = 3.3
+		radical_democracy = 54.9
 		chauvinist_populism = 3.6
 		autocracy = 9.3
 		democratic_socialism = 2.2
@@ -49,6 +49,6 @@ capital = 282
 		name = "Mutsuhito"
 		desc = MEIJI_LEADER_DESCRIPTION
 		picture = "Mutsuhito.dds"
-		ideology = conserv
+		ideology = plutocracy
 	}
 }
