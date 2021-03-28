@@ -44,7 +44,7 @@ capital = 219
 		picture = "Nicholas_II.dds"
 		ideology = despotism
 		traits = {
-			empire_builder
+			poor_leader
 		}
 	}
 }
