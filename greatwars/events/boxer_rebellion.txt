@@ -22,7 +22,7 @@ country_event = {
 			add_to_faction = GER
 			add_to_faction = USA
 			add_to_faction = ITA
-			add_to_faction = HUN
+			add_to_faction = AUS
 			add_to_faction = FRA
 		}
 
@@ -68,7 +68,7 @@ country_event = {
 				type = take_state
 			}
 			declare_war_on = {
-				target = HUN
+				target = AUS
 				type = take_state
 			}
 			declare_war_on = {
@@ -226,7 +226,7 @@ country_event = {
 			add_threat = -35
 
 			create_faction = "Central Powers"
-			add_to_faction = HUN
+			add_to_faction = AUS
 			add_to_faction = ITA
 		}
 	}

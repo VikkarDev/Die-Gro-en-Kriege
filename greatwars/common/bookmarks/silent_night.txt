@@ -16,7 +16,7 @@ bookmarks = {
 				
 			}
 		}
-		HUN = {
+		AUS = {
 			history = AUSHUN_SILENT_NIGHT_DESC
 			ideology = centrism
 			ideas = {
