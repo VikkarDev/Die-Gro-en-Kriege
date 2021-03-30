@@ -16,6 +16,17 @@ continuous_focus_position = {
 		x = 1
 		y = 0
 		cost = 10
+		completion_reward = {
+		add_tech_bonus = {
+			name = assembly_bonus
+				bonus = 1
+				uses = 1
+				technology = construction1 
+				technology = dispersed_industry
+				technology = concentrated_industry
+		}
+		}
+
 		
 	}
 
