@@ -1,0 +1,25 @@
+state={
+	id=944
+	name="STATE_944"
+	history={
+		owner = CHI
+		
+		victory_points = {
+			7799 1 
+		}
+		buildings = {
+			infrastructure = 2
+			arms_factory = 0
+			industrial_complex = 1
+
+		}
+		add_core_of = MON
+
+	}
+	provinces={
+		1689 1774 1781 1855 4697 4751 4777 4858 7773 7799 7808 7843 7864 7870 10539 10560 10563 10634 10669 10695 12520 12544 12614 12649 12675 12695 
+	}
+	manpower=204260
+	state_category=town
+	buildings_max_level_factor=1.000
+}
