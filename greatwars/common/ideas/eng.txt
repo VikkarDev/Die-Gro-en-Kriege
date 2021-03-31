@@ -28,8 +28,8 @@ ideas = {
 		}
 	  }
 
-	  ENG_pax_britania = {
-		picture = eng_pax_britania
+	  ENG_pax_britannica = {
+		picture = eng_pax_britannica
 
 		allowed = {
 			tag = ENG

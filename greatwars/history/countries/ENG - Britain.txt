@@ -20,7 +20,7 @@ capital = 126
 
 		# Starting Ideas
 		ENG_overextened_empire
-		ENG_pax_britania
+		ENG_pax_britannica
 		ENG_rising_threat_of_germany
 	}
 
