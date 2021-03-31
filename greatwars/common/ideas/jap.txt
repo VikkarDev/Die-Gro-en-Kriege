@@ -70,7 +70,7 @@ ideas = {
 
 			modifier = {
 				production_speed_infrastructure_factor = 0.10
-				production_speed_buildings_factor = 0.10
+				production_speed_buildings_factor = 0.02
 
 			}
 		}
@@ -84,7 +84,7 @@ ideas = {
 
 			modifier = {
 				industry_air_damage_factor = 0.50
-				production_speed_buildings_factor = -0.10
+				production_speed_buildings_factor = -0.15
 			}
 		}
 
