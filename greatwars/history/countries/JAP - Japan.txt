@@ -49,6 +49,6 @@ capital = 282
 		name = "Mutsuhito"
 		desc = MEIJI_LEADER_DESCRIPTION
 		picture = "Mutsuhito.dds"
-		ideology = plutocracy
+		ideology = conserv
 	}
 }
