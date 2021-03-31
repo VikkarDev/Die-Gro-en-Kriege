@@ -1,4 +1,4 @@
-capital = 43
+capital = 945
 
 1900.1.1 = {
 
@@ -7,8 +7,6 @@ capital = 43
 	set_convoys = 0
 
 	set_research_slots = 2
-
-	#set_cosmetic_tag = AUS_HUN_dual
 
 	add_ideas = {
 		# Government and Laws
