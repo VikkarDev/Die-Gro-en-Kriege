@@ -6,7 +6,7 @@ guiTypes = {
 		iconType ={
 			name ="dual_leader_portrait"
 			spriteType = "GFX_portrait_bg_blank"
-			position = { x = 193 y = 87 }
+			position = { x = 193 y = 84 }
 
 			pdx_tooltip = second_leader_tt
 			pdx_tooltip_delayed = dual_leader_desc_tt
