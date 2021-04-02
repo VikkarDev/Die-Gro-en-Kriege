@@ -219,8 +219,13 @@ spriteTypes = {
 	}
 
 	SpriteType = {
-		name = "GFX_GER_focus_german_army"
-		texturefile = "gfx/interface/goals/ger/GER_focus_german_army.dds"
+		name = "GFX_GER_focus_birth_of_republic"
+		texturefile = "gfx/interface/goals/ger/GER_focus_birth_of_republic.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_GER_focus_state_of_the_triple_alliance"
+		texturefile = "gfx/interface/goals/ger/GER_focus_state_of_the_triple_alliance.dds"
 	}
 	
 	SpriteType = {
@@ -239,47 +244,57 @@ spriteTypes = {
 	}
 
 	SpriteType = {
-		name = "GFX_por_a_republican_portugal"
+		name = "GFX_por_focus_a_republican_portugal"
 		texturefile = "gfx/interface/goals/por/POR_focus_a_republican_portugal.dds"
 	}
 
 	SpriteType = {
-		name = "GFX_por_the_colonies"
+		name = "GFX_por_focus_develop_transportation_systems"
+		texturefile = "gfx/interface/goals/por/POR_focus_develop_transportation_systems.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_por_focus_the_colonies"
 		texturefile = "gfx/interface/goals/por/POR_focus_the_colonies.dds"
 	}
 
 	SpriteType = {
-		name = "GFX_por_develop_angola"
+		name = "GFX_por_focus_develop_angola"
 		texturefile = "gfx/interface/goals/por/POR_focus_develop_angola.dds"
 	}
 
 	SpriteType = {
-		name = "GFX_por_develop_mozambique"
+		name = "GFX_por_focus_develop_mozambique"
 		texturefile = "gfx/interface/goals/por/POR_focus_develop_mozambique.dds"
 	}
 
 	SpriteType = {
-		name = "GFX_por_the_kings_portugal"
+		name = "GFX_por_focus_the_kings_portugal"
 		texturefile = "gfx/interface/goals/por/POR_focus_the_kings_portugal.dds"
 	}
 
 	SpriteType = {
-		name = "GFX_por_free_election_system"
+		name = "GFX_por_focus_free_election_system"
 		texturefile = "gfx/interface/goals/por/POR_focus_free_election_system.dds"
 	}
 
 	SpriteType = {
-		name = "GFX_por_amend_the_constitution"
+		name = "GFX_por_focus_amend_the_constitution"
 		texturefile = "gfx/interface/goals/por/POR_focus_amend_the_constitution.dds"
 	}
 
 	SpriteType = {
-		name = "GFX_por_pharmacies_law"
+		name = "GFX_por_focus_pharmacies_law"
 		texturefile = "gfx/interface/goals/por/POR_focus_pharmacies_law.dds"
 	}
 
 	SpriteType = {
-		name = "GFX_por_forests_law"
+		name = "GFX_por_focus_forests_law"
+		texturefile = "gfx/interface/goals/por/POR_focus_forests_law.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_por_focus_forests_law"
 		texturefile = "gfx/interface/goals/por/POR_focus_forests_law.dds"
 	}
 
