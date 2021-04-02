@@ -88,7 +88,7 @@ bookmarks = {
 			history = "POL_BLITZKRIEG_DESC"
 			ideology = autocracy
 			ideas = {
-				deterrence
+				
 			}
 			focuses = {
 				
