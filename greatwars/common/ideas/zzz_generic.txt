@@ -199,7 +199,7 @@ ideas = {
 				vanguard_communism_acceptance = 85
 			}
 		}
-		democratic_influence = {
+		traditional_conservatism_influence = {
 			
 			
 			allowed = {
@@ -211,12 +211,12 @@ ideas = {
 				has_government = centrism
 				has_government = radical_democracy
 				has_government = social_egalitarianism
-				has_government = democratic_socialism
+				has_government = traditional_conservatism_socialism
 			}
 
 			removal_cost = -1
 
-			picture = generic_democratic_drift_bonus
+			picture = generic_traditional_conservatism_drift_bonus
 			
 			modifier = {
 				traditional_conservatism_drift = 0.1
@@ -345,15 +345,15 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = democratic
+				has_government = traditional_conservatism
 			}
 
 			removal_cost = -1
 
-			picture = generic_democratic_drift_bonus
+			picture = generic_traditional_conservatism_drift_bonus
 			
 			modifier = {
-				democratic_drift = 0.1
+				traditional_conservatism_drift = 0.1
 				stability_factor = 0.1
 			}
 		}
@@ -412,7 +412,7 @@ ideas = {
 			picture = generic_pp_unity_bonus
 
 			modifier = {
-				democratic_drift = -0.02
+				traditional_conservatism_drift = -0.02
 			}
 		}
 	
@@ -424,12 +424,12 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = democratic
+				has_government = traditional_conservatism
 			}
 			
 			removal_cost = -1
 
-			picture = generic_democratic_drift_bonus
+			picture = generic_traditional_conservatism_drift_bonus
 	
 			modifier = {
 				trade_opinion_factor = 0.2
@@ -1150,12 +1150,12 @@ ideas = {
 			}
 		}
 			
-		generic_democratic_reformer = {
+		generic_traditional_conservatism_reformer = {
 			
 			allowed = {
 				NOT = { OR = { tag = GER tag = ENG tag = SOV original_tag = FRA tag = ITA tag = JAP tag = USA tag = AST tag = RAJ tag = CAN tag = SAF tag = CZE tag = PRC tag = CHI tag = MAN tag = MEX tag = HOL original_tag = SPR } }
 				NOT = {
-					has_available_idea_with_traits = { idea = democratic_reformer limit = 1 }
+					has_available_idea_with_traits = { idea = traditional_conservatism_reformer limit = 1 }
 				}
 				if = {
 					limit = { has_dlc = "Battle for the Bosporus" }
@@ -1185,7 +1185,7 @@ ideas = {
 			}
 
 			
-			traits = { democratic_reformer }
+			traits = { traditional_conservatism_reformer }
 	
 			on_add = {
 				#country_event = political.13
@@ -1193,7 +1193,7 @@ ideas = {
 	
 			do_effect = {
 				NOT = {
-					has_government = democratic
+					has_government = traditional_conservatism
 				}
 			}
 	
