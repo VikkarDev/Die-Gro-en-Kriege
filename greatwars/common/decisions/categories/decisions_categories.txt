@@ -34,6 +34,24 @@ dgk_usa_campaign_decisions_category = {
 	}
 }
 
+dgk_usa_the_magnates_decisions_category = {
+	icon = generic_political_actions
+
+	allowed = {
+		original_tag = USA
+	}
+
+	priority = {
+		base = 100
+	}
+
+	#visible_when_empty = yes
+
+	visible = {
+		always = yes
+	}
+}
+
 dgk_britain_naval_race_category = {
 	icon = "gfx/interface/decisions/decision_category_mtg_naval_treaties.dds/"
 	picture = "gfx/interface/decisions/decision_britain_naval_race.dds/"
