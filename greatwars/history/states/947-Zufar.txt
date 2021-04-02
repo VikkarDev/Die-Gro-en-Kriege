@@ -1,13 +1,14 @@
+
 state={
 	id=947
 	name="STATE_947"
-	state_category = wasteland
 
 	history={
 		owner = JSH
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
+
 		}
 		add_core_of = OMA
 		add_core_of = JSH
@@ -15,8 +16,9 @@ state={
 	}
 
 	provinces={
-		2018 2059 5049 
+		2018 2059 
 	}
 	manpower=18000
 	buildings_max_level_factor=1.000
+	state_category=wasteland
 }
