@@ -19,9 +19,10 @@ capital = 126
 		civilian_economy
 
 		# Starting Ideas
-		ENG_overextened_empire
+		ENG_victorian_era
+		ENG_overextended_empire
 		ENG_pax_britannica
-		ENG_rising_threat_of_germany
+		ENG_boer_offensive
 		GER_naval_arms_race
 	}
 
@@ -93,15 +94,15 @@ capital = 126
 
 	set_popularities = {
 		vanguard_communism = 0
-		social_egalitarianism = 2
-		centrism = 27
-		traditional_conservatism = 52
+		social_egalitarianism = 1.3
+		centrism = 45.1
+		traditional_conservatism = 50.2
 		radical_democracy = 2
-		chauvinist_populism = 0
-		autocracy = 4
-		democratic_socialism = 3
-		social_liberalism = 1
-		libertarian_socialism = 9
+		chauvinist_populism = 1.4
+		autocracy = 0
+		democratic_socialism = 0
+		social_liberalism = 0
+		libertarian_socialism = 0
 	}
 
 	create_country_leader = {
