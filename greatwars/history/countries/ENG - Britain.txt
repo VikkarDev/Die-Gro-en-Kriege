@@ -22,6 +22,7 @@ capital = 126
 		ENG_overextened_empire
 		ENG_pax_britannica
 		ENG_rising_threat_of_germany
+		GER_naval_arms_race
 	}
 
 	if = {

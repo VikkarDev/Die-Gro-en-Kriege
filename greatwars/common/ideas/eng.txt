@@ -24,7 +24,9 @@ ideas = {
 		}
 
 		modifier = {
-			
+			stability_factor = -0.15
+			political_power_gain = -0.04
+			resistance_activity = 0.035
 		}
 	  }
 
@@ -35,8 +37,14 @@ ideas = {
 			tag = ENG
 		}
 
+		rule = {
+			can_create_factions = no
+		}
+
 		modifier = {
-			
+			political_power_gain = 0.08
+			stability_factor = 0.06
+			production_speed_buildings_factor = 0.05
 		}
 	  }
 
@@ -48,7 +56,10 @@ ideas = {
 		}
 
 		modifier = {
-			
+			political_power_gain = 0.03
+			stability_factor = -0.02
+			production_speed_arms_factory_factor = 0.08
+			mobilization_speed = 0.025
 		}
 	  }
 	}

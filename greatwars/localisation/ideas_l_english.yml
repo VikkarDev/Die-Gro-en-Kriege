@@ -164,6 +164,12 @@ POR_recovering_economy_desc:0 ""
 # SWEDEN
 SWE_Swedish_neutrality:0 "Swedish Neutrality"
 
+# ENGLAND
+ENG_overextended_empire:0 "Overextended Empire"
+ENG_overextended_empire_desc:0 ""
+ENG_pax_britannica:0 "Pax Britannica"
+ENG_pax_britannica_desc:0 ""
+
 # GENERIC
 colonial_influence:0 "Colonial Influence"
 colonial_influence_desc:0 "Closer ties to colonies are important in order to keep power world wide. Colonial influence will allow closer ties to the overlords country."
