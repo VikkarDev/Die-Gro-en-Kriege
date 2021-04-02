@@ -24,8 +24,7 @@ ideas = {
 		}
 
 		modifier = {
-			stability_factor = -0.15
-			political_power_gain = -0.04
+			
 		}
 	  }
 
@@ -36,14 +35,8 @@ ideas = {
 			tag = ENG
 		}
 
-		rule = {
-			can_join_factions = no
-		}
-
 		modifier = {
-			political_power_gain = 0.08
-			stability_factor = 0.06
-			production_speed_buildings_factor = 0.05
+			
 		}
 	  }
 

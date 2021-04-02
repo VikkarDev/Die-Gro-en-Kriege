@@ -1,21 +1,18 @@
 focus_tree = {
 	id = sweden_1900_focus
-
 	country = {
-		factor = 0
-
 		modifier = {
 			add = 10
 			tag = SWE
 		}
 	}
-
-	default = no
-
-	continuous_focus_position = { x = 1 y = 1500 }
+continuous_focus_position = {
+	x = 1
+	y = 1500
+}
 	focus = {
 		id = SWE_1
-		icon = GFX_swe1
+		icon = GFX_
 		x = 1
 		y = 0
 		cost = 10
@@ -36,7 +33,7 @@ focus_tree = {
 
 	focus = {
 		id = SWE_2
-		icon = GFX_swe2
+		icon = GFX_
 		x = 1
 		y = 1
 		cost = 10
@@ -46,7 +43,7 @@ focus_tree = {
 
 	focus = {
 		id = SWE_3
-		icon = GFX_swe3
+		icon = GFX_
 		x = 0
 		y = 2
 		cost = 10
