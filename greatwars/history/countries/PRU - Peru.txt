@@ -27,6 +27,6 @@
 		name = "Eduardo López de Romaña"
 		desc = ""
 		picture = ""
-		ideology = despotism
+		ideology = plutocracy
 	}
 }

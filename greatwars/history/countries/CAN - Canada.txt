@@ -1,0 +1,47 @@
+capital = 276
+
+1900.1.1 = {
+
+	oob = "CAN_1900"
+	set_cosmetic_tag = CAN_UK
+
+	set_convoys = 200
+
+	set_stability = 0.61
+	set_war_support = 0.13
+	set_research_slots = 3
+
+	add_ideas = {
+		# Government and Laws
+		volunteer_only
+		free_trade
+		civilian_economy
+	}
+
+	set_politics = {
+		ruling_party = social_liberalism
+		last_election = "1895.6.25"
+		#election_frequency = 85
+		elections_allowed = no
+	}
+
+	set_popularities = {
+		vanguard_communism = 0
+		social_egalitarianism = 0
+		centrism = 13
+		traditional_conservatism = 23
+		radical_democracy = 0
+		chauvinist_populism = 0
+		autocracy = 0
+		democratic_socialism = 0
+		social_liberalism = 62
+		libertarian_socialism = 0
+	}
+
+	create_country_leader = {
+		name = "Gilbert Elliot-Murray-Kynynmound"
+		desc = ""
+		picture = "Gilbert_Elliot-Murray-Kynynmound.dds"
+		ideology = social_liberal
+	}
+}

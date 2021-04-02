@@ -4,8 +4,6 @@ capital = 141
 	OOB = "SWE_1900"
 
 	set_convoys = 125
-	
-	set_capital = 141
 
 	set_research_slots = 3
 	set_stability = 0.82
