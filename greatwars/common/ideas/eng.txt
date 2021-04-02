@@ -6,10 +6,6 @@ ideas = {
 		allowed = {
 			tag = ENG
 		}
-	  
-		#rule = {
-		#	can_create_factions = yes
-		#}
 
 		modifier = {
 			political_power_gain = 0.15
@@ -46,6 +42,26 @@ ideas = {
 			political_power_gain = 0.08
 			stability_factor = 0.06
 			production_speed_buildings_factor = 0.05
+		}
+	  }
+
+	  ENG_boer_offensive = {
+		picture = eng_boer_offensive
+
+		allowed = {
+			tag = ENG
+		}
+
+		#rule = {
+		#	
+		#}
+
+		modifier = {
+			mobilization_speed = 0.038
+			army_attack_factor = 0.04
+			army_defence_factor = -0.035
+			army_org = -5.3
+			experience_gain_army = 0.05
 		}
 	  }
 	}
