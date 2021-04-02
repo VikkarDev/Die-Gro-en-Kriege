@@ -1,7 +1,7 @@
 ideas = {
 	country = {
-		ENG_victoria = {
-		picture = eng_victoria
+		ENG_victorian_era = {
+		picture = eng_victoria_era
 	  
 		allowed = {
 			tag = ENG
@@ -11,13 +11,14 @@ ideas = {
 		#	can_create_factions = yes
 		#}
 
-		traits = {
-			popular_figurehead
+		modifier = {
+			political_power_gain = 0.15
+			stability_factor = 0.08
 		}
 	  }
 
-	  ENG_overextened_empire = {
-		picture = eng_overextened_empire
+	  ENG_overextended_empire = {
+		picture = eng_overextended_empire
 
 		allowed = {
 			tag = ENG
@@ -45,21 +46,6 @@ ideas = {
 			political_power_gain = 0.08
 			stability_factor = 0.06
 			production_speed_buildings_factor = 0.05
-		}
-	  }
-
-	  ENG_rising_threat_of_germany = {
-		picture = eng_rising_threat_of_germany
-
-		allowed = {
-			tag = ENG
-		}
-
-		modifier = {
-			political_power_gain = 0.03
-			stability_factor = -0.02
-			production_speed_arms_factory_factor = 0.08
-			mobilization_speed = 0.025
 		}
 	  }
 	}

@@ -200,8 +200,8 @@ focus_tree = {
     }
 
     focus = {
-        id = ENG_anglo-american_treaty
-        icon = GFX_eng_anglo-american_treaty
+        id = ENG_hay_pauncefote_treaty
+        icon = GFX_eng_hay_pauncefote_treaty
         search_filters = { FOCUS_FILTER_POLITICAL }
         x = 36
         y = 1
@@ -227,7 +227,7 @@ focus_tree = {
         id = ENG_the_arms_race
         icon = GFX_eng_the_arms_race
         search_filters = { FOCUS_FILTER_POLITICAL }
-        x = 42
+        x = 41
         y = 1
 
         cost = 10
