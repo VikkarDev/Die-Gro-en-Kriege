@@ -97,6 +97,38 @@ spriteTypes = {
 		}
 		legacy_lazy_load = no
 	}
+
+	SpriteType = {
+		name = "GFX_GER_focus_state_of_the_triple_alliance_shine"
+		texturefile = "gfx/interface/goals/ger/GER_focus_state_of_the_triple_alliance.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile =  "gfx/interface/goals/ger/GER_focus_state_of_the_triple_alliance.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no ;)
+			animationtime = 0.75				# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+
+		animation = {
+			animationmaskfile =  "gfx/interface/goals/ger/GER_focus_state_of_the_triple_alliance.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no ;)
+			animationtime = 0.75				# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		legacy_lazy_load = no
+	}
 	
 	SpriteType = {
 		name = "GFX_GER_focus_anglo_navy_treaty_shine"
@@ -1409,7 +1441,7 @@ spriteTypes = {
 	}
 
 	SpriteType = {
-		name = "GFX_por_a_republican_portugal_shine"
+		name = "GFX_por_focus_a_republican_portugal_shine"
 		texturefile = "gfx/interface/goals/por/POR_focus_a_republican_portugal.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -1441,7 +1473,7 @@ spriteTypes = {
 	}
 
 	SpriteType = {
-		name = "GFX_por_the_colonies_shine"
+		name = "GFX_por_focus_the_colonies_shine"
 		texturefile = "gfx/interface/goals/por/POR_focus_the_colonies.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -1473,7 +1505,7 @@ spriteTypes = {
 	}
 
 	SpriteType = {
-		name = "GFX_por_develop_angola_shine"
+		name = "GFX_por_focus_develop_angola_shine"
 		texturefile = "gfx/interface/goals/por/POR_focus_develop_angola.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -1505,7 +1537,7 @@ spriteTypes = {
 	}
 
 	SpriteType = {
-		name = "GFX_por_develop_mozambique_shine"
+		name = "GFX_por_focus_develop_mozambique_shine"
 		texturefile = "gfx/interface/goals/por/POR_focus_develop_mozambique.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -1537,7 +1569,7 @@ spriteTypes = {
 	}
 
 	SpriteType = {
-		name = "GFX_por_the_kings_portugal_shine"
+		name = "GFX_por_focus_the_kings_portugal_shine"
 		texturefile = "gfx/interface/goals/por/POR_focus_the_kings_portugal.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -1569,7 +1601,39 @@ spriteTypes = {
 	}
 
 	SpriteType = {
-		name = "GFX_por_free_election_system_shine"
+		name = "GFX_por_focus_develop_transportation_systems_shine"
+		texturefile = "gfx/interface/goals/por/POR_focus_develop_transportation_systems.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile =  "gfx/interface/goals/por/POR_focus_develop_transportation_systems.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no ;)
+			animationtime = 0.75				# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+
+		animation = {
+			animationmaskfile =  "gfx/interface/goals/por/POR_focus_develop_transportation_systems.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no ;)
+			animationtime = 0.75				# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		legacy_lazy_load = no
+	}
+
+	SpriteType = {
+		name = "GFX_por_focus_free_election_system_shine"
 		texturefile = "gfx/interface/goals/por/POR_focus_free_election_system.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -1601,7 +1665,7 @@ spriteTypes = {
 	}
 
 	SpriteType = {
-		name = "GFX_por_amend_the_constitution_shine"
+		name = "GFX_por_focus_amend_the_constitution_shine"
 		texturefile = "gfx/interface/goals/por/POR_focus_amend_the_constitution.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -1633,7 +1697,7 @@ spriteTypes = {
 	}
 
 	SpriteType = {
-		name = "GFX_por_pharmacies_law_shine"
+		name = "GFX_por_focus_pharmacies_law_shine"
 		texturefile = "gfx/interface/goals/por/POR_focus_pharmacies_law.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -1665,7 +1729,7 @@ spriteTypes = {
 	}
 
 	SpriteType = {
-		name = "GFX_por_forests_law_shine"
+		name = "GFX_por_focus_forests_law_shine"
 		texturefile = "gfx/interface/goals/por/POR_focus_forests_law.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {

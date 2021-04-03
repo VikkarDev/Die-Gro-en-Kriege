@@ -35,6 +35,9 @@ USA_open_campaign_rally:0 "Open Electoral Map"
 USA_campaign_in_texas:0 "Campaign in Texas"
 USA_campaign_in_new_england:0 "Campaign in New England"
 
+# USA The Magnates
+dgk_the_magnates_decisions_category:0 "The Magnates"
+
 # USA STATEHOOD
 USA_OKLAHOMA_STATEHOOD:0 "§HOklahoma will be brought into the union and participate in electoral votes.§!"
 USA_ARIZONA_STATEHOOD:0 "§HArizona will be brought into the union and participate in electoral votes.§!"

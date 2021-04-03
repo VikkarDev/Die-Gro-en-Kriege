@@ -30,10 +30,14 @@ bookmarks = {
 			history = ENG_SILENT_NIGHT_DESC
 			ideology = traditional_conservatism
 			ideas = {
-				
+				ENG_overextended_empire
+				ENG_pax_britannica
+				ENG_victorian_era
 			}
 			focuses = {
-				
+				ENG_continue_isolationism
+				ENG_open_up_to_foreign_affairs
+				ENG_second_boer_war
 			}
 			
 		}

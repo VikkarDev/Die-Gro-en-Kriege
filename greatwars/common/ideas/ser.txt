@@ -111,7 +111,7 @@ ideas = {
 			}
 
 			modifier = {
-				recruitable_population_factor = 0.05
+				recruitable_population = 0.05
 				mobilization_speed = 0.10
 			}
 		}

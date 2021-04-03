@@ -841,7 +841,7 @@ focus_tree = {
 
 		cost = 10
 		#prerequisite = { focus = AUSHUN_the_question_of_bosnia }
-		mutually_exclusive = { focus = AUSHUN_revenge_for_koniggratz focus = CZE_hungarian_situation focus = AUSHUN_make_franz_ferdinand_heir_to_franz_joseph focus = AUSHUN_danubian_federation }
+		mutually_exclusive = { focus = AUSHUN_revenge_for_koniggratz focus = AUSHUN_hungarian_separatism focus = AUSHUN_make_franz_ferdinand_heir_to_franz_joseph focus = AUSHUN_danubian_federation }
 
 		available = {
 			
@@ -861,7 +861,7 @@ focus_tree = {
 
 		cost = 10
 		#prerequisite = { focus = AUSHUN_the_question_of_bosnia }
-		mutually_exclusive = { focus = AUSHUN_revenge_for_koniggratz focus = CZE_hungarian_situation focus = AUSHUN_make_franz_ferdinand_heir_to_franz_joseph focus = AUSHUN_the_united_states_model }
+		mutually_exclusive = { focus = AUSHUN_danubian_federation focus = AUSHUN_revenge_for_koniggratz focus = AUSHUN_hungarian_separatism focus = AUSHUN_make_franz_ferdinand_heir_to_franz_joseph focus = AUSHUN_the_united_states_model }
 
 		available = {
 			
@@ -881,7 +881,7 @@ focus_tree = {
 
 		cost = 10
 		#prerequisite = { focus = AUSHUN_the_question_of_bosnia }
-		#mutually_exclusive = { focus = AUSHUN_revenge_for_koniggratz focus = CZE_hungarian_situation focus = AUSHUN_make_franz_ferdinand_heir_to_franz_joseph focus = AUSHUN_the_united_states_model }
+		#mutually_exclusive = { focus = AUSHUN_revenge_for_koniggratz focus = AUSHUN_hungarian_separatism focus = AUSHUN_make_franz_ferdinand_heir_to_franz_joseph focus = AUSHUN_the_united_states_model }
 
 		available = {
 			
@@ -902,7 +902,7 @@ focus_tree = {
 		cost = 10
 		prerequisite = { focus = AUSHUN_reorganize_the_armed_forces }
 		relative_position_id = AUSHUN_reorganize_the_armed_forces
-		#mutually_exclusive = { focus = AUSHUN_revenge_for_koniggratz focus = CZE_hungarian_situation focus = AUSHUN_make_franz_ferdinand_heir_to_franz_joseph focus = AUSHUN_the_united_states_model }
+		#mutually_exclusive = { focus = AUSHUN_revenge_for_koniggratz focus = AUSHUN_hungarian_separatism focus = AUSHUN_make_franz_ferdinand_heir_to_franz_joseph focus = AUSHUN_the_united_states_model }
 
 		available = {
 			
@@ -923,7 +923,7 @@ focus_tree = {
 		cost = 10
 		prerequisite = { focus = AUSHUN_austro_hungarian_navy }
 		relative_position_id = AUSHUN_austro_hungarian_navy
-		#mutually_exclusive = { focus = AUSHUN_revenge_for_koniggratz focus = CZE_hungarian_situation focus = AUSHUN_make_franz_ferdinand_heir_to_franz_joseph focus = AUSHUN_the_united_states_model }
+		#mutually_exclusive = { focus = AUSHUN_revenge_for_koniggratz focus = AUSHUN_hungarian_separatism focus = AUSHUN_make_franz_ferdinand_heir_to_franz_joseph focus = AUSHUN_the_united_states_model }
 
 		available = {
 			
@@ -944,7 +944,7 @@ focus_tree = {
 		cost = 10
 		prerequisite = { focus = AUSHUN_austro_hungarian_navy }
 		relative_position_id = AUSHUN_austro_hungarian_navy
-		#mutually_exclusive = { focus = AUSHUN_revenge_for_koniggratz focus = CZE_hungarian_situation focus = AUSHUN_make_franz_ferdinand_heir_to_franz_joseph focus = AUSHUN_the_united_states_model }
+		#mutually_exclusive = { focus = AUSHUN_revenge_for_koniggratz focus = AUSHUN_hungarian_separatism focus = AUSHUN_make_franz_ferdinand_heir_to_franz_joseph focus = AUSHUN_the_united_states_model }
 
 		available = {
 			
@@ -966,7 +966,7 @@ focus_tree = {
 		prerequisite = { focus = AUSHUN_secure_funds_for_more_battleships }
 		prerequisite = { focus = AUSHUN_authorize_the_building_of_the_habsburg_class_battleships }
 		relative_position_id = AUSHUN_austro_hungarian_navy
-		#mutually_exclusive = { focus = AUSHUN_revenge_for_koniggratz focus = CZE_hungarian_situation focus = AUSHUN_make_franz_ferdinand_heir_to_franz_joseph focus = AUSHUN_the_united_states_model }
+		#mutually_exclusive = { focus = AUSHUN_revenge_for_koniggratz focus = AUSHUN_hungarian_separatism focus = AUSHUN_make_franz_ferdinand_heir_to_franz_joseph focus = AUSHUN_the_united_states_model }
 
 		available = {
 			
@@ -1283,7 +1283,7 @@ focus_tree = {
 		cost = 10
 		prerequisite = { focus = AUSHUN_reorganize_the_armed_forces }
 		relative_position_id = AUSHUN_reorganize_the_armed_forces
-		#mutually_exclusive = { focus = AUSHUN_revenge_for_koniggratz focus = CZE_hungarian_situation focus = AUSHUN_make_franz_ferdinand_heir_to_franz_joseph focus = AUSHUN_the_united_states_model }
+		#mutually_exclusive = { focus = AUSHUN_revenge_for_koniggratz focus = AUSHUN_hungarian_separatism focus = AUSHUN_make_franz_ferdinand_heir_to_franz_joseph focus = AUSHUN_the_united_states_model }
 
 		available = {
 			
@@ -1304,7 +1304,7 @@ focus_tree = {
 		cost = 10
 		prerequisite = { focus = AUSHUN_austro_hungarian_general_staff }
 		relative_position_id = AUSHUN_austro_hungarian_general_staff
-		#mutually_exclusive = { focus = AUSHUN_revenge_for_koniggratz focus = CZE_hungarian_situation focus = AUSHUN_make_franz_ferdinand_heir_to_franz_joseph focus = AUSHUN_the_united_states_model }
+		#mutually_exclusive = { focus = AUSHUN_revenge_for_koniggratz focus = AUSHUN_hungarian_separatism focus = AUSHUN_make_franz_ferdinand_heir_to_franz_joseph focus = AUSHUN_the_united_states_model }
 
 		available = {
 			
@@ -1325,7 +1325,7 @@ focus_tree = {
 		cost = 10
 		prerequisite = { focus = AUSHUN_replace_beck_rzikowsky }
 		relative_position_id = AUSHUN_austro_hungarian_general_staff
-		#mutually_exclusive = { focus = AUSHUN_revenge_for_koniggratz focus = CZE_hungarian_situation focus = AUSHUN_make_franz_ferdinand_heir_to_franz_joseph focus = AUSHUN_the_united_states_model }
+		#mutually_exclusive = { focus = AUSHUN_revenge_for_koniggratz focus = AUSHUN_hungarian_separatism focus = AUSHUN_make_franz_ferdinand_heir_to_franz_joseph focus = AUSHUN_the_united_states_model }
 
 		available = {
 			
@@ -1346,7 +1346,7 @@ focus_tree = {
 		cost = 10
 		prerequisite = { focus = AUSHUN_update_conscription_laws }
 		relative_position_id = AUSHUN_austro_hungarian_general_staff
-		#mutually_exclusive = { focus = AUSHUN_revenge_for_koniggratz focus = CZE_hungarian_situation focus = AUSHUN_make_franz_ferdinand_heir_to_franz_joseph focus = AUSHUN_the_united_states_model }
+		#mutually_exclusive = { focus = AUSHUN_revenge_for_koniggratz focus = AUSHUN_hungarian_separatism focus = AUSHUN_make_franz_ferdinand_heir_to_franz_joseph focus = AUSHUN_the_united_states_model }
 
 		available = {
 			
@@ -1367,7 +1367,7 @@ focus_tree = {
 		cost = 10
 		prerequisite = { focus = AUSHUN_replace_beck_rzikowsky }
 		relative_position_id = AUSHUN_austro_hungarian_general_staff
-		#mutually_exclusive = { focus = AUSHUN_revenge_for_koniggratz focus = CZE_hungarian_situation focus = AUSHUN_make_franz_ferdinand_heir_to_franz_joseph focus = AUSHUN_the_united_states_model }
+		#mutually_exclusive = { focus = AUSHUN_revenge_for_koniggratz focus = AUSHUN_hungarian_separatism focus = AUSHUN_make_franz_ferdinand_heir_to_franz_joseph focus = AUSHUN_the_united_states_model }
 
 		available = {
 			
@@ -1388,7 +1388,7 @@ focus_tree = {
 		cost = 10
 		prerequisite = { focus = AUSHUN_reform_the_common_army }
 		relative_position_id = AUSHUN_austro_hungarian_general_staff
-		#mutually_exclusive = { focus = AUSHUN_revenge_for_koniggratz focus = CZE_hungarian_situation focus = AUSHUN_make_franz_ferdinand_heir_to_franz_joseph focus = AUSHUN_the_united_states_model }
+		#mutually_exclusive = { focus = AUSHUN_revenge_for_koniggratz focus = AUSHUN_hungarian_separatism focus = AUSHUN_make_franz_ferdinand_heir_to_franz_joseph focus = AUSHUN_the_united_states_model }
 
 		available = {
 			
@@ -1410,7 +1410,7 @@ focus_tree = {
 		prerequisite = { focus = AUSHUN_expand_the_officer_core }
 		prerequisite = { focus = AUSHUN_national_regiments }
 		relative_position_id = AUSHUN_austro_hungarian_general_staff
-		#mutually_exclusive = { focus = AUSHUN_revenge_for_koniggratz focus = CZE_hungarian_situation focus = AUSHUN_make_franz_ferdinand_heir_to_franz_joseph focus = AUSHUN_the_united_states_model }
+		#mutually_exclusive = { focus = AUSHUN_revenge_for_koniggratz focus = AUSHUN_hungarian_separatism focus = AUSHUN_make_franz_ferdinand_heir_to_franz_joseph focus = AUSHUN_the_united_states_model }
 
 		available = {
 			
@@ -1432,7 +1432,7 @@ focus_tree = {
 		prerequisite = { focus = AUSHUN_expand_the_officer_core }
 		prerequisite = { focus = AUSHUN_national_regiments }
 		relative_position_id = AUSHUN_austro_hungarian_general_staff
-		#mutually_exclusive = { focus = AUSHUN_revenge_for_koniggratz focus = CZE_hungarian_situation focus = AUSHUN_make_franz_ferdinand_heir_to_franz_joseph focus = AUSHUN_the_united_states_model }
+		#mutually_exclusive = { focus = AUSHUN_revenge_for_koniggratz focus = AUSHUN_hungarian_separatism focus = AUSHUN_make_franz_ferdinand_heir_to_franz_joseph focus = AUSHUN_the_united_states_model }
 
 		available = {
 			
@@ -1453,7 +1453,7 @@ focus_tree = {
 		cost = 10
 		prerequisite = { focus = AUSHUN_his_imperial_and_royal_apostolic_majesty_general_staff }
 		relative_position_id = AUSHUN_austro_hungarian_general_staff
-		#mutually_exclusive = { focus = AUSHUN_revenge_for_koniggratz focus = CZE_hungarian_situation focus = AUSHUN_make_franz_ferdinand_heir_to_franz_joseph focus = AUSHUN_the_united_states_model }
+		#mutually_exclusive = { focus = AUSHUN_revenge_for_koniggratz focus = AUSHUN_hungarian_separatism focus = AUSHUN_make_franz_ferdinand_heir_to_franz_joseph focus = AUSHUN_the_united_states_model }
 
 		available = {
 			
@@ -1474,7 +1474,7 @@ focus_tree = {
 		cost = 10
 		prerequisite = { focus = AUSHUN_his_imperial_and_royal_apostolic_majesty_general_staff }
 		relative_position_id = AUSHUN_austro_hungarian_general_staff
-		#mutually_exclusive = { focus = AUSHUN_revenge_for_koniggratz focus = CZE_hungarian_situation focus = AUSHUN_make_franz_ferdinand_heir_to_franz_joseph focus = AUSHUN_the_united_states_model }
+		#mutually_exclusive = { focus = AUSHUN_revenge_for_koniggratz focus = AUSHUN_hungarian_separatism focus = AUSHUN_make_franz_ferdinand_heir_to_franz_joseph focus = AUSHUN_the_united_states_model }
 
 		available = {
 			
@@ -1495,7 +1495,7 @@ focus_tree = {
 		cost = 10
 		prerequisite = { focus = AUSHUN_reorganize_the_armed_forces }
 		relative_position_id = AUSHUN_reorganize_the_armed_forces
-		#mutually_exclusive = { focus = AUSHUN_revenge_for_koniggratz focus = CZE_hungarian_situation focus = AUSHUN_make_franz_ferdinand_heir_to_franz_joseph focus = AUSHUN_the_united_states_model }
+		#mutually_exclusive = { focus = AUSHUN_revenge_for_koniggratz focus = AUSHUN_hungarian_separatism focus = AUSHUN_make_franz_ferdinand_heir_to_franz_joseph focus = AUSHUN_the_united_states_model }
 
 		available = {
 			

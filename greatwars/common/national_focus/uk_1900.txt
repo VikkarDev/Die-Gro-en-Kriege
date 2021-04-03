@@ -60,10 +60,33 @@ focus_tree = {
     }
 
 	focus = {
-        id = ENG_the_kingdoms_industry
-        icon = GFX_eng_the_kingdoms_industry
+        id = ENG_the_british_military
+        icon = GFX_eng_the_the_british_military
         search_filters = { FOCUS_FILTER_POLITICAL }
-        x = 14
+        x = 11
+        y = 0
+
+        cost = 10
+		#prerequisite = { focus = ENG_second_boer_war }
+
+        available = {
+            
+        }
+
+        bypass = {
+            
+        }
+
+		completion_reward = {
+			
+		}
+    }
+
+    focus = {
+        id = ENG_the_anglo_industry
+        icon = GFX_eng_the_the_british_military
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        x = 16
         y = 0
 
         cost = 10
@@ -128,11 +151,83 @@ focus_tree = {
 		}
     }
 
+    focus = {
+        id = ENG_boxer_intervention
+        icon = GFX_eng_boxer_intervention
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        x = 31
+        y = 1
+
+        cost = 10
+        prerequisite = { focus = ENG_open_up_to_foreign_affairs }
+		#mutually_exclusive = { focus = ENG_continue_isolationism }
+
+        available = {
+            
+        }
+
+        bypass = {
+            
+        }
+
+		completion_reward = {
+			
+		}
+    }
+
+    focus = {
+        id = ENG_the_labour_party
+        icon = GFX_eng_the_labour_party
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        x = 34
+        y = 1
+
+        cost = 10
+        prerequisite = { focus = ENG_open_up_to_foreign_affairs }
+		#mutually_exclusive = { focus = ENG_continue_isolationism }
+
+        available = {
+            
+        }
+
+        bypass = {
+            
+        }
+
+		completion_reward = {
+			
+		}
+    }
+
+    focus = {
+        id = ENG_hay_pauncefote_treaty
+        icon = GFX_eng_hay_pauncefote_treaty
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        x = 36
+        y = 1
+
+        cost = 10
+        prerequisite = { focus = ENG_open_up_to_foreign_affairs }
+		#mutually_exclusive = { focus = ENG_continue_isolationism }
+
+        available = {
+            
+        }
+
+        bypass = {
+            
+        }
+
+		completion_reward = {
+			
+		}
+    }
+
 	focus = {
         id = ENG_the_arms_race
         icon = GFX_eng_the_arms_race
         search_filters = { FOCUS_FILTER_POLITICAL }
-        x = 42
+        x = 41
         y = 1
 
         cost = 10

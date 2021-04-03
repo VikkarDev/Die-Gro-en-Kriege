@@ -16,7 +16,7 @@ focus_tree = {
 
 	focus = {
         id = POR_recovering_economy_focus
-        icon = GFX_por_recovering_economy
+        icon = GFX_por_focus_recovering_economy
         search_filters = { FOCUS_FILTER_INDUSTRY }
         x = 4
         y = 0
@@ -41,7 +41,7 @@ focus_tree = {
 
 	focus = {
         id = POR_better_industrialization
-        icon = GFX_por_better_industrialization
+        icon = GFX_por_focus_better_industrialization
         search_filters = { FOCUS_FILTER_INDUSTRY }
         x = 2
         y = 1
@@ -80,7 +80,7 @@ focus_tree = {
 
     focus = {
         id = POR_arms_production
-        icon = GFX_por_arms_production
+        icon = GFX_por_focus_arms_production
         search_filters = { FOCUS_FILTER_INDUSTRY }
         x = 1
         y = 2
@@ -104,7 +104,7 @@ focus_tree = {
 
     focus = {
         id = POR_civilian_jobs
-        icon = GFX_por_civilian_jobs
+        icon = GFX_por_focus_civilian_jobs
         search_filters = { FOCUS_FILTER_INDUSTRY }
         x = 3
         y = 2
@@ -128,7 +128,7 @@ focus_tree = {
 
 	focus = {
         id = POR_develop_transportation_systems
-        icon = GFX_por_develop_transportation_systems
+        icon = GFX_por_focus_develop_transportation_systems
         search_filters = { FOCUS_FILTER_INDUSTRY }
         x = 6
         y = 1
@@ -159,7 +159,7 @@ focus_tree = {
 
 	focus = {
         id = POR_the_kings_portugal
-        icon = GFX_por_the_kings_portugal
+        icon = GFX_por_focus_the_kings_portugal
         search_filters = { FOCUS_FILTER_POLITICAL }
         x = 18
         y = 0
@@ -187,7 +187,7 @@ focus_tree = {
 
 	focus = {
         id = POR_creation_of_the_prl
-        icon = GFX_por_creation_of_the_prl
+        icon = GFX_por_focus_creation_of_the_prl
         #search_filters = { FOCUS_FILTER_POLITICAL }
         x = 18
         y = 1
@@ -211,7 +211,7 @@ focus_tree = {
 
 	focus = {
         id = POR_appoint_ernesto_hintze_ribeiro
-        icon = GFX_por_appoint_ernesto_hintze_ribeiro
+        icon = GFX_por_focus_appoint_ernesto_hintze_ribeiro
         #search_filters = { FOCUS_FILTER_POLITICAL }
         x = 15
         y = 2
@@ -235,7 +235,7 @@ focus_tree = {
 
 	focus = {
         id = POR_pharmacies_law
-        icon = GFX_por_pharmacies_law
+        icon = GFX_por_focus_pharmacies_law
         #search_filters = { FOCUS_FILTER_POLITICAL }
         x = 14
         y = 3
@@ -259,7 +259,7 @@ focus_tree = {
 
 	focus = {
         id = POR_forests_law
-        icon = GFX_por_forests_law
+        icon = GFX_por_focus_forests_law
         #search_filters = { FOCUS_FILTER_POLITICAL }
         x = 16
         y = 3
@@ -283,7 +283,7 @@ focus_tree = {
 
     focus = {
         id = POR_associate_of_the_royal_academy_of_sciences
-        icon = GFX_por_associate_of_the_royal_academy_of_sciences
+        icon = GFX_por_focus_associate_of_the_royal_academy_of_sciences
         #search_filters = { FOCUS_FILTER_POLITICAL }
         x = 11
         y = 3
@@ -307,7 +307,7 @@ focus_tree = {
 
 	focus = {
         id = POR_appoint_jose_luciano_de_castro
-        icon = GFX_por_appoint_appoint_jose_luciano_de_castro
+        icon = GFX_por_focus_appoint_appoint_jose_luciano_de_castro
         #search_filters = { FOCUS_FILTER_POLITICAL }
         x = 21
         y = 2
@@ -331,7 +331,7 @@ focus_tree = {
 
 	focus = {
         id = POR_a_republican_portugal
-        icon = GFX_por_a_republican_portugal
+        icon = GFX_por_focus_a_republican_portugal
         search_filters = { FOCUS_FILTER_POLITICAL }
         x = 24
         y = 0
@@ -359,7 +359,7 @@ focus_tree = {
 
 	focus = {
         id = POR_free_election_system
-        icon = GFX_por_free_election_system
+        icon = GFX_por_focus_free_election_system
         #search_filters = { FOCUS_FILTER_POLITICAL }
         x = 24
         y = 1
@@ -383,7 +383,7 @@ focus_tree = {
 
 	focus = {
         id = POR_amend_the_constitution
-        icon = GFX_por_amend_the_constitution
+        icon = GFX_por_focus_amend_the_constitution
         #search_filters = { FOCUS_FILTER_POLITICAL }
         x = 24
         y = 2
@@ -407,7 +407,7 @@ focus_tree = {
 
 	focus = {
         id = POR_the_colonies
-        icon = GFX_por_the_colonies
+        icon = GFX_por_focus_the_colonies
         #search_filters = { FOCUS_FILTER_POLITICAL }
         x = 34
         y = 0
@@ -432,7 +432,7 @@ focus_tree = {
 
 	focus = {
         id = POR_develop_angola
-        icon = GFX_por_develop_angola
+        icon = GFX_por_focus_develop_angola
         #search_filters = { FOCUS_FILTER_POLITICAL }
         x = 33
         y = 1
@@ -481,7 +481,7 @@ focus_tree = {
 
 	focus = {
         id = POR_develop_mozambique
-        icon = GFX_por_develop_mozambique
+        icon = GFX_por_focus_develop_mozambique
         #search_filters = { FOCUS_FILTER_POLITICAL }
         x = 35
         y = 1
@@ -519,7 +519,7 @@ focus_tree = {
 
     focus = {
         id = POR_niassa_company
-        icon = GFX_por_niassa_company
+        icon = GFX_por_focus_niassa_company
         #search_filters = { FOCUS_FILTER_POLITICAL }
         x = 35
         y = 2
@@ -543,7 +543,7 @@ focus_tree = {
 
     focus = {
         id = POR_develop_macau
-        icon = GFX_por_develop_macau
+        icon = GFX_por_focus_develop_macau
         #search_filters = { FOCUS_FILTER_POLITICAL }
         x = 37
         y = 1

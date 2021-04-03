@@ -1,0 +1,23 @@
+state={
+	id=948
+	name="STATE_948"
+	state_category = wasteland
+
+	history={
+		add_core_of = UAE
+		owner = JSH
+		victory_points = {
+			7960 1 
+		}
+		buildings = {
+			infrastructure = 2
+		}
+
+	}
+
+	provinces={
+		8108 
+	}
+	manpower=12842
+	buildings_max_level_factor=1.000
+}

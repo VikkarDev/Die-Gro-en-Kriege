@@ -32,7 +32,7 @@
 		name = "Cipriano Castro"
 		desc = ""
 		picture = ""
-		ideology = con_liberal
+		ideology = plutocracy
 		traits = {
 			
 		}

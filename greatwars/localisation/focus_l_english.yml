@@ -44,6 +44,28 @@ JAP_continue_industrial_build-up_desc:0 "Japan, in the previous decades has seen
 JAP_strengthen_the_home_islands:0 "Strengthen the Home Islands"
 JAP_strengthen_the_home_islands_desc:0 "Instead of focusing on expansion, we must turn our home islands into a venerable fortress. A massive indsustrial overhaul. This is in no way impossible, as the lack of expansionist drive has allowed a lot of resources to be diverted..."
 
+# UNITED KINGDOM
+ENG_second_boer_war:0 "Second Boer War"
+ENG_second_boer_war_desc:0 ""
+ENG_offer_negotiations:0 "Offer Negotiations"
+ENG_offer_negotiations_desc:0 ""
+ENG_the_british_military:0 "The British Military"
+ENG_the_british_military_desc:0 ""
+ENG_the_anglo_industry:0 "The Anglo Industry"
+ENG_the_anglo_industry_desc:0 ""
+ENG_continue_isolationism:0 "Continue Isolationism"
+ENG_continue_isolationism_desc:0 ""
+ENG_open_up_to_foreign_affairs:0 "Open up to Foreign Affairs"
+ENG_open_up_to_foreign_affairs_desc:0 ""
+ENG_boxer_intervention:0 "Boxer Intervention"
+ENG_boxer_intervention_desc:0 ""
+ENG_the_labour_party:0 "The Labour Party"
+ENG_the_labour_party_desc:0 ""
+ENG_hay_pauncefote_treaty:0 "Hay-Pauncefote Treaty"
+ENG_hay_pauncefote_treaty_desc:0 ""
+ENG_the_arms_race:0 "The Arms Race"
+ENG_the_arms_race_desc:0 ""
+
 # PORTUGAL
 POR_recovering_economy_focus:0 "Recovering Economy"
 POR_recovering_economy_focus_desc:0 ""

@@ -1960,7 +1960,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_state_of_the_triple_alliance
-		icon = GFX_goal_generic_national_unity
+		icon = GFX_GER_focus_state_of_the_triple_alliance
 		search_filters = { FOCUS_FILTER_MANPOWER }
 		x = 46
 		y = 2

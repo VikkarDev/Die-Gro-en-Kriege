@@ -6,11 +6,10 @@ focus_tree = {
 
 		modifier = {
 			add = 11
-			tag = MNT
 		}
 	}
 
-	default = no
+	default = yes
 
 	continuous_focus_position = { x = 50 y = 2000 }
 

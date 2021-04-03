@@ -191,5 +191,18 @@ ideas = {
 				stability_factor = -0.05
 			}
 		}
+
+		JAP_genjo_idea = {
+			picture = jap_genjo_idea
+
+			allowed = {
+				tag = JAP
+			}
+
+			modifier = {
+				stability_factor = 0.05
+				political_power_gain = -0.02
+			}
+		}
 	}
 }

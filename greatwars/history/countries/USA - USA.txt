@@ -104,6 +104,13 @@ capital = 361
 			}
 		}
 	}
+	
+	#focus teases, get trolled nerds
+	complete_national_focus = USA_gilded_age
+	complete_national_focus = USA_corporate_primacy
+	complete_national_focus = USA_continue_protectionism
+
+	set_country_flag = USA_gold_standard
 
 	add_ideas = {
 		# Government / Laws

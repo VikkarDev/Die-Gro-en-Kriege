@@ -118,7 +118,7 @@ ideas = {
 	  
 		modifier = {
 			research_speed_factor = 0.05
-			fuel_gain = 100
+			fuel_gain_factor = 100
 		}
 	  }
 	}
@@ -174,7 +174,7 @@ ideas = {
 		modifier = {
 			min_export = 0.2
 			political_power_gain = 0.1
-			local_resources = 0.25
+			#local_resources = 0.3
 		}
 	  }
 	}

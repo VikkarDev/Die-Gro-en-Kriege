@@ -1,0 +1,3228 @@
+focus_tree = {
+	id = USA_1900_focus
+
+	country = {
+		factor = 0
+
+		modifier = {
+			add = 11
+			tag = USA
+		}
+	}
+
+	default = no
+
+	continuous_focus_position = { x = 50 y = 1000 }
+
+	focus = {
+		id = USA_gilded_age
+		icon = USA_placeholder
+		x = 6
+		y = 0
+		
+		cost = 10
+
+		
+		mutually_exclusive = { focus = USA_jeffersons_vision }
+
+		completion_reward = { 
+			add_political_power = 100
+		}
+	}
+	focus = {
+		id = USA_jeffersons_vision
+		icon = USA_placeholder
+		x = 10
+		y = 0
+		cost = 10
+
+		
+		mutually_exclusive = { focus = USA_gilded_age }
+		completion_reward = {
+			add_political_power = 100
+		}
+	}
+
+	focus = {
+		id = USA_corporate_primacy
+		icon = USA_placeholder
+		x = 6
+		y = 1
+
+		cost = 10
+
+		
+		prerequisite = { focus = USA_gilded_age }
+
+		completion_reward = {
+			add_ideas = USA_corporate_primacy
+		}
+
+	}
+	focus = {
+		id = USA_continue_subsidies
+		icon = USA_placeholder
+		x = 6
+		y = 2
+
+		cost = 10
+
+		
+
+		prerequisite = { focus = USA_corporate_primacy }
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = GER_industrial_effort_2_2IC
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = USA_favorable_business_reg
+		icon = USA_placeholder
+		x = 6
+		y = 3
+
+		cost = 10
+
+		
+
+		prerequisite = { focus = USA_continue_subsidies }
+
+		completion_reward = {
+			add_ideas = USA_favorable_business_reg
+		}
+	}
+	focus = {
+		id = USA_ignore_monopolization
+		icon = USA_placeholder
+		x = 6
+		y = 4
+		cost = 5
+
+		
+
+		prerequisite = { focus = USA_favorable_business_reg }
+
+		mutually_exclusive = { focus = USA_true_free_market }
+
+		completion_reward = {
+			set_country_flag = monopolies_ignored ##event series about corporate mergers
+
+			add_ideas = USA_monopolization_ignored
+			add_political_power = 50
+		}
+
+	}
+	focus = {
+		id = USA_true_free_market
+		icon = USA_placeholder
+		x = 9
+		y = 4
+
+		cost = 5
+
+		
+
+		mutually_exclusive = { focus = USA_ignore_monopolization }
+
+		prerequisite = { focus = USA_favorable_business_reg }
+		
+		completion_reward = {
+			add_political_power = -100
+
+			set_country_flag = USA_anti_monopoly #Event will trigger about corporate unhappiness
+		}
+	}
+
+	focus = {
+		id = USA_enforce_sherman_act
+		icon = USA_placeholder 
+		x = 9
+		y = 5
+
+		cost = 5
+
+		
+
+		prerequisite = { focus = USA_true_free_market }
+
+		completion_reward = {
+			add_political_power = -50
+
+			set_country_flag = USA_sherman_act_enforcement #event series concerning Sherman Act enforcement 
+		}
+	}
+
+	focus = {
+		id = USA_anti_monopoly_hearings
+		icon = USA_placeholder
+		x = 9
+		y = 6
+
+		cost = 10
+
+		
+
+		prerequisite = { focus = USA_enforce_sherman_act }
+
+		completion_reward = {
+			country_event = { id = usa.100 } #monopoly hearings event series
+		}
+
+	}
+	
+	focus = {
+		id = USA_fair_competition
+		icon = USA_placeholder
+		x = 9
+		y = 7
+		cost = 5
+
+		
+
+		prerequisite = { focus = USA_anti_monopoly_hearings }
+
+		completion_reward = {
+			add_political_power = 25
+			add_ideas = USA_free_competition
+		}
+	}
+
+	focus = {
+		id = USA_encourage_vertical_integration
+		icon = USA_placeholder
+		x = 6
+		y = 5
+		cost = 10
+		
+
+		prerequisite = { focus = USA_ignore_monopolization }
+		
+		completion_reward = {
+			add_political_power = 25
+
+			#DECISIONS REGARDING CONSOLIDATING CORPORATE SECTORS UNLOCK
+			custom_effect_tooltip = USA_vertical_integration_decisions
+		}
+	}
+
+	focus = {
+		id = USA_consolidate_sectors
+		icon = USA_placeholder
+		x = 7
+		y = 6
+
+		cost = 10
+		
+
+		prerequisite = { focus = USA_encourage_vertical_integration }
+
+		completion_reward = {
+			add_political_power = 50
+
+			#MORE DECISIONS REGARDING CONSOLIDATION UNLOCK HERE
+			custom_effect_tooltip = USA_corporate_consolidation_decisions
+		}
+	}
+
+	focus = {
+		id = USA_sponsored_industrialization
+		icon = USA_placeholder
+		x = 5
+		y = 6
+
+		cost = 10
+
+		
+
+		prerequisite = {
+			focus = USA_encourage_vertical_integration
+		}
+		prerequisite = { focus = USA_purchase_ag_debt }
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = GER_industrial_effort_2_2IC
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+
+			add_ideas = USA_sponsored_industrialization
+		}
+
+	}
+	focus = {
+		id = USA_continue_laissez_faire
+		icon = USA_placeholder
+		x = 2
+		y = 1
+
+		cost = 10
+
+		
+
+		prerequisite = { focus = USA_gilded_age }
+
+		completion_reward = {
+			add_political_power = 20
+			add_stability = 0.03
+			add_popularity = {
+				ideology = traditional_conservatism
+				popularity = 0.02
+			}
+
+		}
+	}
+	focus = {
+		id = USA_continue_protectionism
+		icon = USA_placeholder
+		x = 4
+		y = 2
+
+		cost = 10
+
+		
+
+		prerequisite = { focus = USA_continue_laissez_faire }
+		prerequisite = { focus = USA_corporate_primacy }
+
+		completion_reward = {
+			add_country_leader_trait = staunch_protectionist
+			add_political_power = 20
+		}
+	}
+	focus = {
+		id = USA_gold_question
+		icon = USA_placeholder
+		x = 2
+		y = 2
+
+		cost = 5
+
+		available = {
+			country_exists = USA
+			has_country_flag = USA_gold_standard
+		}
+
+		prerequisite = { focus = USA_continue_laissez_faire }
+		
+		completion_reward = {
+			country_event = {
+				id = USA.100 #Gold Standard Event
+			}
+		}
+	}
+	focus = {
+		id = USA_gold_standard_act
+		icon = USA_placeholder
+		x = 2
+		y = 3
+
+		cost = 15
+
+		
+
+		prerequisite = { focus = USA_gold_question }
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = USA_gold_stay_course
+		icon = USA_placeholder
+		x = 2
+		y = 4
+
+
+
+		available = {
+			always = no
+		}
+
+		prerequisite = { focus = USA_gold_standard_act }
+
+		bypass = {
+
+		} 
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = USA_fiduciary_responsibility
+		icon = USA_placeholder
+		x = 2
+		y = 5
+
+		cost = 5
+
+		
+
+		prerequisite = { focus = USA_gold_stay_course }
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = USA_central_banking_question
+		icon = USA_placeholder
+		x = 2
+		y = 6
+
+		cost = 10
+
+		
+
+		prerequisite = { focus = USA_fiduciary_responsibility }
+
+		completion_reward = {
+
+		}
+	}
+	
+	focus = {
+		id = USA_bimetallism
+		icon = USA_placeholder
+		x = 0
+		y = 4
+
+		available = {
+			always = no
+		}
+
+		bypass = {
+
+		}
+
+		prerequisite = { focus = USA_gold_standard_act }
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = USA_america_silver_slippers
+		icon = USA_placeholder
+		x = 0
+		y = 5
+
+		cost = 5
+
+		
+
+		bypass = {
+
+		}
+		
+		prerequisite = { focus = USA_bimetallism }
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = USA_devalue_dollar
+		icon = USA_placeholder
+		x = 0
+		y = 6
+
+		cost = 5
+
+		
+
+		bypass = {
+
+		}
+
+		prerequisite = { focus = USA_america_silver_slippers }
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = USA_higher_man_tariffs
+		icon = USA_placeholder
+		x = 4
+		y = 3
+
+		cost = 10
+
+		available = {
+
+		}
+
+		prerequisite = {
+			focus = USA_continue_protectionism
+		}
+
+		completion_reward = {
+			
+		}
+
+	}
+	focus = {
+		id = USA_compromise_with_farmers
+		icon = USA_placeholder
+		x = 4
+		y = 4
+
+		cost = 10
+
+
+		prerequisite = {
+			focus = USA_higher_man_tariffs
+		}
+
+		completion_reward = {
+			
+		}
+
+	}
+	focus = {
+		id = USA_purchase_ag_debt
+		icon = USA_placeholder
+		x = 4
+		y = 5
+
+		cost = 10
+
+		available = {
+			USA = {
+				country_exists = yes
+			}
+		}
+
+		prerequisite = {
+			focus = USA_compromise_with_farmers
+		}
+
+		completion_reward = {
+			
+		}
+
+	}
+
+	##########################
+	### SHARED FOCUSES #######
+	##########################
+
+	focus = {
+		id = USA_american_ingenuity
+		icon = USA_placeholder
+		x = 8
+		y = 1
+		cost = 5
+
+		
+		prerequisite = {
+			focus = USA_gilded_age
+			focus = USA_jeffersons_vision
+		}
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = USA_hotbed_of_innovation
+		icon = USA_placeholder
+		x = 8
+		y = 2
+		cost = 5
+
+		
+		prerequisite = {
+			focus = USA_american_ingenuity
+		}
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = USA_american_work_ethic
+		icon = USA_placeholder
+		x = 8
+		y = 3
+		cost = 5
+
+		
+		prerequisite = {
+			focus = USA_hotbed_of_innovation
+		}
+		completion_reward = {
+			
+		}
+	}
+	#######################################
+	###### JEFFERSON'S VISION FOCUSES #####
+	#######################################
+	
+	focus = {
+		id = USA_agricultural_primacy
+		icon = USA_placeholder
+		x = 10
+		y = 1
+		cost = 10
+
+		
+		prerequisite = {
+			focus = USA_jeffersons_vision
+		}
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = USA_limited_econ_intervention
+		icon = USA_placeholder
+		x = 10
+		y = 2
+		cost = 10
+
+		
+		prerequisite = {
+			focus = USA_agricultural_primacy
+		}
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = USA_break_up_businesses
+		icon = USA_placeholder
+		x = 10
+		y = 3
+		cost = 5
+
+		
+		prerequisite = {
+			focus = USA_limited_econ_intervention
+		}
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = USA_repeal_tariffs
+		icon = USA_placeholder
+		x = 12
+		y = 2
+		cost = 10
+
+		
+		prerequisite = {
+			focus = USA_agricultural_primacy
+		}
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = USA_common_man_policy
+		icon = USA_placeholder
+		x = 12
+		y = 3
+		cost = 5
+
+		
+		prerequisite = {
+			focus = USA_repeal_tariffs
+		}
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = USA_global_trade
+		icon = USA_placeholder
+		x = 11
+		y = 4
+		cost = 10
+
+		
+		prerequisite = {
+			focus = USA_common_man_policy
+		}
+		prerequisite = {
+			focus = USA_break_up_businesses
+		}
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = USA_british_contracts
+		icon = USA_placeholder
+		x = 11
+		y = 5
+		cost = 10
+
+		
+		prerequisite = {
+			focus = USA_global_trade
+		}
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = USA_german_trade
+		icon = USA_placeholder
+		x = 11
+		y = 6
+		cost = 10
+
+		
+		prerequisite = {
+			focus = USA_british_contracts
+		}
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = USA_nation_of_farmers
+		icon = USA_placeholder
+		x = 14
+		y = 1
+		cost = 10
+
+		
+		prerequisite = {
+			focus = USA_jeffersons_vision
+		}
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = USA_develop_western_territories
+		icon = USA_placeholder
+		x = 14
+		y = 2
+		cost = 10
+
+		
+		prerequisite = {
+			focus = USA_nation_of_farmers
+		}
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = USA_farming_innovations
+		icon = USA_placeholder
+		x = 14
+		y = 3
+		cost = 10
+
+		
+		prerequisite = {
+			focus = USA_develop_western_territories
+		}
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = USA_domestic_processing
+		icon = USA_placeholder
+		x = 13
+		y = 4
+		cost = 10
+
+		
+		mutually_exclusive = {
+			focus = USA_foreign_processing
+		}
+		prerequisite = {
+			focus = USA_farming_innovations
+		}
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = USA_foreign_processing
+		icon = USA_placeholder
+		x = 15
+		y = 4
+		cost = 10
+
+		
+		prerequisite = {
+			focus = USA_farming_innovations
+		}
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = USA_textile_subsidies
+		icon = USA_placeholder
+		x = 13
+		y = 5
+		cost = 5
+
+		
+		prerequisite = {
+			focus = USA_domestic_processing
+		}
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = USA_minimal_protectionism
+		icon = USA_placeholder
+		x = 13
+		y = 6
+		cost = 5
+
+		
+		prerequisite = {
+			focus = USA_textile_subsidies
+		}
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = USA_self_sufficiency
+		icon = USA_placeholder
+		x = 13
+		y = 7
+		cost = 5
+
+		
+		prerequisite = {
+			focus = USA_minimal_protectionism
+		}
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = USA_merchant_fleets
+		icon = USA_placeholder
+		x = 15
+		y = 5
+		cost = 5
+
+		
+		prerequisite = {
+			focus = USA_foreign_processing
+		}
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = USA_global_free_trade
+		icon = USA_placeholder
+		x = 15
+		y = 6
+		cost = 5
+
+		
+		prerequisite = {
+			focus = USA_merchant_fleets
+		}
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = USA_business_unites_us
+		icon = USA_placeholder
+		x = 15
+		y = 7
+		cost = 5
+
+		
+		prerequisite = {
+			focus = USA_global_free_trade
+		}
+		completion_reward = {
+			
+		}
+	}
+
+	########################################
+	##### POLITICAL FOCUSES AREA ###########
+	########################################
+
+	focus = {
+		id = USA_american_politics
+		icon = USA_placeholder
+		x = 20
+		y = 9
+		cost = 5
+
+		
+		
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = USA_question_of_establishment
+		icon = USA_placeholder
+		x = 20
+		y = 10
+		cost = 2
+
+		
+		prerequisite = {
+			focus = USA_american_politics
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = USA_status_quo #bypass
+		icon = USA_placeholder
+		x = 15
+		y = 11
+		cost = 5
+
+		
+
+		bypass = {
+
+		}
+		prerequisite = {
+			focus = USA_question_of_establishment
+		}
+		mutually_exclusive = {
+			focus = USA_winds_of_change
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = USA_winds_of_change #bypass
+		icon = USA_placeholder
+		x = 25
+		y = 11
+		cost = 5
+
+		
+
+		bypass = {
+
+		}
+		prerequisite = {
+			focus = USA_question_of_establishment
+		}
+		mutually_exclusive = {
+			focus = USA_winds_of_change
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = USA_duopoly_preserved
+		icon = USA_placeholder
+		x = 15
+		y = 12
+		cost = 1
+
+		
+		prerequisite = {
+			focus = USA_status_quo
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = USA_partisan_politics
+		icon = USA_placeholder
+		x = 15
+		y = 13
+		cost = 5
+
+		
+		prerequisite = {
+			focus = USA_duopoly_preserved
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = USA_confederate_legacy
+		icon = USA_placeholder
+		x = 11
+		y = 14
+		cost = 10
+
+		
+		prerequisite = {
+			focus = USA_partisan_politics
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = USA_damn_traitors
+		icon = USA_placeholder
+		x = 7
+		y = 15
+		cost = 5
+
+		
+		prerequisite = {
+			focus = USA_confederate_legacy
+		}
+
+		mutually_exclusive = {
+			focus = USA_lost_cause
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = USA_lost_cause
+		icon = USA_placeholder
+		x = 11
+		y = 15
+		cost = 5
+
+		
+		prerequisite = {
+			focus = USA_confederate_legacy
+		}
+
+		mutually_exclusive = {
+			focus = USA_damn_traitors
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	##################################
+	#### ANTI CONFEDERATE FOCUSES ####
+	##################################
+	focus = {
+		id = USA_end_confederate_veneration
+		icon = USA_placeholder
+		x = 7
+		y = 16
+		cost = 10
+
+		
+		prerequisite = {
+			focus = USA_damn_traitors
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = USA_jim_crow_crackdown
+		icon = USA_placeholder
+		x = 6
+		y = 17
+		cost = 5
+
+		
+		prerequisite = {
+			focus = USA_end_confederate_veneration
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = USA_1877_revisited
+		icon = USA_placeholder
+		x = 8
+		y = 17
+		cost = 5
+
+		
+		prerequisite = {
+			focus = USA_end_confederate_veneration
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = USA_plessy_v_ferguson_revisited
+		icon = USA_placeholder
+		x = 6
+		y = 18
+		cost = 5
+
+		
+		prerequisite = {
+			focus = USA_jim_crow_crackdown
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = USA_fight_disenfranchisement
+		icon = USA_placeholder
+		x = 8
+		y = 18
+		cost = 5
+
+		
+		prerequisite = {
+			focus = USA_1877_revisited
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = USA_enforce_14th_amendment
+		icon = USA_placeholder
+		x = 7
+		y = 19
+		cost = 10
+
+		
+		prerequisite = {
+			focus = USA_fight_disenfranchisement
+		}
+		prerequisite = {
+			focus = USA_plessy_v_ferguson_revisited
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = USA_federal_curriculum
+		icon = USA_placeholder
+		x = 4
+		y = 16
+		cost = 6
+
+		
+		prerequisite = {
+			focus = USA_damn_traitors
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = USA_replace_southern_teachers
+		icon = USA_placeholder
+		x = 4
+		y = 17
+		cost = 6
+
+		
+		prerequisite = {
+			focus = USA_federal_curriculum
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = USA_ban_revisionist_books
+		icon = USA_placeholder
+		x = 4
+		y = 18
+		cost = 6
+
+		
+		prerequisite = {
+			focus = USA_replace_southern_teachers
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = USA_show_the_horror
+		icon = USA_placeholder
+		x = 4
+		y = 19
+		cost = 6
+
+		
+		prerequisite = {
+			focus = USA_ban_revisionist_books
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = USA_shatter_the_mythos
+		icon = USA_placeholder
+		x = 6
+		y = 20
+		cost = 10
+
+		
+		prerequisite = {
+			focus = USA_show_the_horror
+		}
+
+		prerequisite = {
+			focus = USA_enforce_14th_amendment
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+
+	###################################
+	##### PRO-CONFEDERATE FOCUSES #####
+	###################################
+
+	focus = {
+		id = USA_confederate_monuments
+		icon = USA_placeholder
+		x = 11
+		y = 16
+		cost = 6
+
+		
+		prerequisite = {
+			focus = USA_lost_cause
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = USA_state_education
+		icon = USA_placeholder
+		x = 10
+		y = 17
+		cost = 6
+
+		
+		prerequisite = {
+			focus = USA_confederate_monuments
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = USA_support_confederate_revisionism
+		icon = USA_placeholder
+		x = 10
+		y = 18
+		cost = 6
+
+		
+		prerequisite = {
+			focus = USA_state_education
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = USA_romanticize_CSA
+		icon = USA_placeholder
+		x = 10
+		y = 19
+		cost = 6
+
+		
+		prerequisite = {
+			focus = USA_support_confederate_revisionism
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = USA_turn_blind_eye
+		icon = USA_placeholder
+		x = 12
+		y = 17
+		cost = 6
+
+		
+		prerequisite = {
+			focus = USA_confederate_monuments
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = USA_separate_but_equal
+		icon = USA_placeholder
+		x = 12
+		y = 18
+		cost = 6
+
+		
+		prerequisite = {
+			focus = USA_turn_blind_eye
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = USA_end_electoral_oversight
+		icon = USA_placeholder
+		x = 12
+		y = 19
+		cost = 6
+
+		
+		prerequisite = {
+			focus = USA_separate_but_equal
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = USA_out_of_sight
+		icon = USA_placeholder
+		x = 11
+		y = 20
+		cost = 6
+
+		
+		prerequisite = {
+			focus = USA_end_electoral_oversight
+		}
+
+		prerequisite = {
+			focus = USA_romanticize_CSA
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	 #########################################
+	 #########################################
+	 ######### POLITICAL STATUS QUO ##########
+	 #########################################
+	 #########################################
+
+	 #################################
+	 ###### POPULIST FOCUSES #########
+	 #################################
+
+	 focus = {
+		id = USA_question_of_populism
+		icon = USA_placeholder
+		x = 15
+		y = 14
+		cost = 6
+
+		
+		prerequisite = {
+			focus = USA_partisan_politics
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = USA_absorb_populists
+		icon = USA_placeholder
+		x = 14
+		y = 15
+		cost = 1
+
+		
+		prerequisite = {
+			focus = USA_question_of_populism
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = USA_more_to_dems
+		icon = USA_placeholder
+		x = 13
+		y = 16
+		cost = 1
+
+		
+		prerequisite = {
+			focus = USA_absorb_populists
+		}
+
+		mutually_exclusive = {
+			focus = USA_more_to_repubs
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = USA_more_to_repubs
+		icon = USA_placeholder
+		x = 15
+		y = 16
+		cost = 1
+
+		
+		prerequisite = {
+			focus = USA_absorb_populists
+		}
+
+		mutually_exclusive = {
+			focus = USA_more_to_dems
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = USA_change_election_laws
+		icon = USA_placeholder
+		x = 14
+		y = 17
+		cost = 5
+
+		
+		prerequisite = {
+			focus = USA_more_to_dems
+			focus = USA_more_to_repubs
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = USA_no_third_parties
+		icon = USA_placeholder
+		x = 14
+		y = 18
+		cost = 4
+
+		
+		prerequisite = {
+			focus = USA_change_election_laws
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = USA_no_third_parties
+		icon = USA_placeholder
+		x = 14
+		y = 18
+		cost = 4
+
+		
+		prerequisite = {
+			focus = USA_change_election_laws
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = USA_adopt_populism
+		icon = USA_placeholder
+		x = 17
+		y = 15
+		cost = 1
+
+		
+		prerequisite = {
+			focus = USA_question_of_populism
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = USA_silver_reexamined
+		icon = USA_placeholder
+		x = 17
+		y = 16
+		cost = 10
+
+		
+		prerequisite = {
+			focus = USA_adopt_populism
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = USA_anti_monopoly_rhetoric
+		icon = USA_placeholder
+		x = 17
+		y = 17
+		cost = 6
+
+		
+		prerequisite = {
+			focus = USA_silver_reexamined
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = USA_help_farmers
+		icon = USA_placeholder
+		x = 17
+		y = 18
+		cost = 6
+
+		
+		prerequisite = {
+			focus = USA_anti_monopoly_rhetoric
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = USA_help_big_business
+		icon = USA_placeholder
+		x = 17
+		y = 19
+		cost = 6
+
+		
+		prerequisite = {
+			focus = USA_help_farmers
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+######################################
+######## SOCIALIST FOCUSES ###########
+######################################
+
+	focus = {
+		id = USA_socialist_problem
+		icon = USA_placeholder
+		x = 19
+		y = 14
+		cost = 10
+
+		
+		prerequisite = {
+			focus = USA_partisan_politics
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = USA_trade_union_question
+		icon = USA_placeholder
+		x = 19
+		y = 15
+		cost = 6
+
+		
+		prerequisite = {
+			focus = USA_socialist_problem
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = USA_smear_campaign
+		icon = USA_placeholder
+		x = 19
+		y = 16
+		cost = 10
+
+		
+		prerequisite = {
+			focus = USA_trade_union_question
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = USA_infiltrate_socialists
+		icon = USA_placeholder
+		x = 19
+		y = 17
+		cost = 10
+
+		
+		prerequisite = {
+			focus = USA_smear_campaign
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = USA_propaganda_campaign
+		icon = USA_placeholder
+		x = 19
+		y = 18
+		cost = 10
+
+		
+		prerequisite = {
+			focus = USA_infiltrate_socialists
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+
+##########################################
+##########################################
+##### CHANGING POLITICS FOCUSES USA ######
+##########################################
+##########################################
+
+	focus = {
+		id = USA_new_politics
+		icon = USA_placeholder
+		x = 25
+		y = 12
+		cost = 2
+
+		
+
+		prerequisite = {
+			focus = USA_winds_of_change
+		}
+		
+		
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = USA_economic_populism
+		icon = USA_placeholder
+		x = 21
+		y = 13
+		cost = 10
+
+		
+
+		prerequisite = {
+			focus = USA_new_politics
+		}
+		
+		
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = USA_free_silver
+		icon = USA_placeholder
+		x = 21
+		y = 14
+		cost = 6
+
+		
+
+		prerequisite = {
+			focus = USA_economic_populism
+		}
+		
+		
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = USA_the_financeers
+		icon = USA_placeholder
+		x = 21
+		y = 15
+		cost = 6
+
+		
+
+		prerequisite = {
+			focus = USA_free_silver
+		}
+		
+		
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = USA_examine_business_regulations
+		icon = USA_placeholder
+		x = 21
+		y = 16
+		cost = 6
+
+		
+
+		prerequisite = {
+			focus = USA_the_financeers
+		}
+		
+		
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = USA_church_and_state
+		icon = USA_placeholder
+		x = 24
+		y = 13
+		cost = 6
+
+		
+
+		prerequisite = {
+			focus = USA_new_politics
+		}
+		
+		
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = USA_protestant_domination
+		icon = USA_placeholder
+		x = 23
+		y = 14
+		cost = 1
+
+		
+
+		bypass = {
+
+		}
+
+		prerequisite = {
+			focus = USA_church_and_state
+		}
+
+		mutually_exclusive = {
+			focus = USA_pan_christian_society
+		}
+		
+		
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = USA_pan_christian_society
+		icon = USA_placeholder
+		x = 25
+		y = 14
+		cost = 1
+
+		
+
+		bypass = {
+
+		}
+
+		prerequisite = {
+			focus = USA_church_and_state
+		}
+
+		mutually_exclusive = {
+			focus = USA_protestant_domination
+		}
+		
+		
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = USA_god_and_evolution
+		icon = USA_placeholder
+		x = 24
+		y = 15
+		cost = 6
+
+		
+
+		prerequisite = {
+			focus = USA_pan_christian_society
+			focus = USA_protestant_domination
+		}
+		
+		
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = USA_temperance
+		icon = USA_placeholder
+		x = 24
+		y = 16
+		cost = 6
+
+		
+
+		prerequisite = {
+			focus = USA_god_and_evolution
+		}
+		
+		
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = USA_question_of_tolerance
+		icon = USA_placeholder
+		x = 24
+		y = 17
+		cost = 6
+
+		
+
+		prerequisite = {
+			focus = USA_temperance
+		}
+		
+		
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = USA_immigration
+		icon = USA_placeholder
+		x = 27
+		y = 13
+		cost = 10
+
+		
+
+		prerequisite = {
+			focus = USA_new_politics
+		}
+		
+		
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = USA_religious_requirements
+		icon = USA_placeholder
+		x = 27
+		y = 14
+		cost = 6
+
+		
+
+		prerequisite = {
+			focus = USA_immigration
+		}
+		
+		
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = USA_protestant_immigration
+		icon = USA_placeholder
+		x = 26
+		y = 15
+		cost = 10
+
+		
+
+		prerequisite = {
+			focus = USA_religious_requirements
+		}
+
+		prerequisite = {
+			focus = USA_protestant_domination
+		}
+		
+		
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = USA_target_catholic_institutions
+		icon = USA_placeholder
+		x = 26
+		y = 16
+		cost = 10
+
+		
+
+		prerequisite = {
+			focus = USA_protestant_immigration
+		}
+		
+		
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = USA_irish_question
+		icon = USA_placeholder
+		x = 26
+		y = 17
+		cost = 10
+
+		
+
+		prerequisite = {
+			focus = USA_target_catholic_institutions
+		}
+		
+		
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = USA_amnesty_for_irish
+		icon = USA_placeholder
+		x = 25
+		y = 18
+		cost = 1
+
+		
+		
+		bypass = {
+
+		
+		}
+
+		prerequisite = {
+			focus = USA_irish_question
+		}
+
+		mutually_exclusive = {
+			focus = USA_throw_them_out
+		}
+		
+		
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = USA_throw_them_out
+		icon = USA_placeholder
+		x = 27
+		y = 18
+		cost = 1
+
+		
+
+		prerequisite = {
+			focus = USA_irish_question
+		}
+
+		mutually_exclusive = {
+			focus = USA_amnesty_for_irish
+		}
+		
+		
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = USA_force_assimilation
+		icon = USA_placeholder
+		x = 25
+		y = 19
+		cost = 6
+
+		
+
+		prerequisite = {
+			focus = USA_amnesty_for_irish
+		}
+		
+		
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = USA_america_for_americans
+		icon = USA_placeholder
+		x = 27
+		y = 19
+		cost = 10
+
+		
+
+		prerequisite = {
+			focus = USA_throw_them_out
+		}
+		
+		
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = USA_our_motherland
+		icon = USA_placeholder
+		x = 26
+		y = 20
+		cost = 10
+
+		
+
+		prerequisite = {
+			focus = USA_america_for_americans
+			focus = USA_force_assimilation
+		}
+		
+		
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = USA_open_immigration_policy
+		icon = USA_placeholder
+		x = 28
+		y = 15
+		cost = 1
+
+		available = {
+			country_exists = USA
+			always = no
+		}
+
+		prerequisite = {
+			focus = USA_religious_requirements
+		}
+		
+		
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = USA_city_on_a_hill
+		icon = USA_placeholder
+		x = 28
+		y = 16
+		cost = 10
+
+		available = {
+			country_exists = USA
+			always = no
+		}
+
+		prerequisite = {
+			focus = USA_religious_requirements
+		}
+		
+		
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = USA_worker_unions
+		icon = USA_placeholder
+		x = 30
+		y = 13
+		cost = 10
+
+		
+
+		prerequisite = {
+			focus = USA_new_politics
+		}
+		
+		
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = USA_worker_unions
+		icon = USA_placeholder
+		x = 30
+		y = 13
+		cost = 10
+
+		
+
+		prerequisite = {
+			focus = USA_new_politics
+		}
+		
+		
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = USA_right_to_strike
+		icon = USA_placeholder
+		x = 30
+		y = 14
+		cost = 6
+
+		
+
+		prerequisite = {
+			focus = USA_worker_unions
+		}
+		
+		
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = USA_maximum_hours
+		icon = USA_placeholder
+		x = 30
+		y = 15
+		cost = 6
+
+		
+
+		prerequisite = {
+			focus = USA_right_to_strike
+		}
+		
+		
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = USA_wage_protections
+		icon = USA_placeholder
+		x = 30
+		y = 16
+		cost = 6
+
+		
+
+		prerequisite = {
+			focus = USA_maximum_hours
+		}
+		
+		
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = USA_rent_control
+		icon = USA_placeholder
+		x = 30
+		y = 17
+		cost = 6
+
+		
+
+		prerequisite = {
+			focus = USA_wage_protections
+		}
+		
+		
+		completion_reward = {
+			
+		}
+	}
+
+
+##########################################
+##########################################
+######### MILITARY FOCUSES USA ###########
+##########################################
+##########################################
+
+	focus = {
+		id = USA_armed_forces
+		icon = USA_placeholder
+		x = 25
+		y = 0
+		
+		cost = 5
+
+		
+		
+		completion_reward = { 
+			
+		}
+	}
+######################################
+########## ARMY SECTION ##############
+######################################
+	
+	focus = {
+		id = USA_reorganize_war_department
+		icon = USA_placeholder
+		x = 20
+		y = 1
+		
+		cost = 10
+
+		
+
+		prerequisite = {
+			focus = USA_armed_forces
+		}
+		
+		completion_reward = { 
+			
+		}
+	}
+
+	focus = {
+		id = USA_overseas_army
+		icon = USA_placeholder
+		x = 18
+		y = 2
+		
+		cost = 10
+
+		
+
+		prerequisite = {
+			focus = USA_reorganize_war_department
+		}
+		
+		completion_reward = { 
+			
+		}
+	}
+
+	focus = {
+		id = USA_american_foreign_legion
+		icon = USA_placeholder
+		x = 17
+		y = 3
+		
+		cost = 5
+
+		
+
+		prerequisite = {
+			focus = USA_overseas_army
+		}
+		
+		completion_reward = { 
+			
+		}
+	}
+
+	focus = {
+		id = USA_overseas_engineers
+		icon = USA_placeholder
+		x = 19
+		y = 3
+		
+		cost = 5
+
+		
+
+		prerequisite = {
+			focus = USA_overseas_army
+		}
+		
+		completion_reward = { 
+			
+		}
+	}
+
+	focus = {
+		id = USA_regional_recruitment_centers
+		icon = USA_placeholder
+		x = 17
+		y = 4
+		
+		cost = 5
+
+		
+
+		prerequisite = {
+			focus = USA_american_foreign_legion
+		}
+		
+		completion_reward = { 
+			
+		}
+	}
+
+	focus = {
+		id = USA_occupation_force
+		icon = USA_placeholder
+		x = 19
+		y = 4
+		
+		cost = 5
+
+		
+
+		prerequisite = {
+			focus = USA_overseas_engineers
+		}
+		
+		completion_reward = { 
+			
+		}
+	}
+
+	focus = {
+		id = USA_defending_our_positions
+		icon = USA_placeholder
+		x = 18
+		y = 5
+		
+		cost = 10
+
+		
+
+		prerequisite = {
+			focus = USA_occupation_force
+		}
+
+		prerequisite = {
+			focus = USA_regional_recruitment_centers
+		}
+		
+		completion_reward = { 
+			
+		}
+	}
+
+	focus = {
+		id = USA_expand_our_army
+		icon = USA_placeholder
+		x = 22
+		y = 2
+		
+		cost = 6
+
+		
+
+		prerequisite = {
+			focus = USA_reorganize_war_department
+		}
+		
+		completion_reward = { 
+			
+		}
+	}
+
+	focus = {
+		id = USA_civil_war_lessons
+		icon = USA_placeholder
+		x = 22
+		y = 3
+		
+		cost = 6
+
+		
+
+		prerequisite = {
+			focus = USA_expand_our_army
+		}
+		
+		completion_reward = { 
+			
+		}
+	}
+
+	focus = {
+		id = USA_industrial_warfare
+		icon = USA_placeholder
+		x = 22
+		y = 4
+		
+		cost = 6
+
+		
+
+		prerequisite = {
+			focus = USA_civil_war_lessons
+		}
+		
+		completion_reward = { 
+			
+		}
+	}
+
+	focus = {
+		id = USA_total_war_tactics
+		icon = USA_placeholder
+		x = 22
+		y = 5
+		
+		cost = 6
+
+		
+
+		prerequisite = {
+			focus = USA_industrial_warfare
+		}
+		
+		completion_reward = { 
+			
+		}
+	}
+
+	focus = {
+		id = USA_military_industrial_complex
+		icon = USA_placeholder
+		x = 24
+		y = 5
+		
+		cost = 10
+
+		
+
+		prerequisite = {
+			focus = USA_industrial_warfare
+		}
+		
+		completion_reward = { 
+			
+		}
+	}
+	
+	focus = {
+		id = USA_military_contractors
+		icon = USA_placeholder
+		x = 24
+		y = 6
+		
+		cost = 10
+
+		
+
+		prerequisite = {
+			focus = USA_military_industrial_complex
+		}
+		
+		completion_reward = { 
+			
+		}
+	}
+
+	focus = {
+		id = USA_ready_to_defend
+		icon = USA_placeholder
+		x = 20
+		y = 6
+		
+		cost = 5
+
+		
+
+		prerequisite = {
+			focus = USA_total_war_tactics
+		}
+
+		prerequisite = {
+			focus = USA_defending_our_positions
+		}
+		
+		completion_reward = { 
+			
+		}
+	}
+
+	#########################################
+	#### MILITARY SPENDING SECTION ##########
+	#########################################
+
+	#WILL REQUIRE CONGRESSIONAL SUPPORT
+
+	focus = {
+		id = USA_fund_academies
+		icon = USA_placeholder
+		x = 25
+		y = 1
+		
+		cost = 6
+
+		
+
+		prerequisite = {
+			focus = USA_armed_forces
+		}
+		
+		completion_reward = { 
+			
+		}
+	}
+
+	focus = {
+		id = USA_expand_military_budget
+		icon = USA_placeholder
+		x = 25
+		y = 2
+		
+		cost = 6
+
+		
+
+		prerequisite = {
+			focus = USA_fund_academies
+		}
+		
+		completion_reward = { 
+			
+		}
+	}
+
+	focus = {
+		id = USA_authorize_RnD_programs
+		icon = USA_placeholder
+		x = 25
+		y = 3
+		
+		cost = 6
+
+		
+
+		prerequisite = {
+			focus = USA_expand_military_budget
+		}
+		
+		completion_reward = { 
+			
+		}
+	}
+
+	focus = {
+		id = USA_aerial_warfare
+		icon = USA_placeholder
+		x = 25
+		y = 4
+		
+		cost = 6
+
+		
+
+		prerequisite = {
+			focus = USA_authorize_RnD_programs
+		}
+		
+		completion_reward = { 
+			
+		}
+	}
+
+	######################################
+	########### US NAVY FOCUSES ##########
+	######################################
+
+	focus = {
+		id = USA_state_of_the_navy
+		icon = USA_placeholder
+		x = 30
+		y = 1
+		
+		cost = 10
+
+		
+
+		prerequisite = {
+			focus = USA_armed_forces
+		}
+		
+		completion_reward = { 
+			
+		}
+	}
+
+	focus = {
+		id = USA_continued_dreadnought_investment
+		icon = USA_placeholder
+		x = 28
+		y = 2
+		
+		cost = 10
+
+		
+
+		prerequisite = {
+			focus = USA_state_of_the_navy
+		}
+		
+		completion_reward = { 
+			
+		}
+	}
+
+	focus = {
+		id = USA_great_white_fleet
+		icon = USA_placeholder
+		x = 28
+		y = 3
+		
+		cost = 6
+
+		
+
+		prerequisite = {
+			focus = USA_continued_dreadnought_investment
+		}
+		
+		completion_reward = { 
+			
+		}
+	}
+
+	focus = {
+		id = USA_submarine_development
+		icon = USA_placeholder
+		x = 30
+		y = 2
+		
+		cost = 6
+
+		
+
+		prerequisite = {
+			focus = USA_state_of_the_navy
+		}
+		
+		completion_reward = { 
+			
+		}
+	}
+
+	focus = {
+		id = USA_undersea_warfare
+		icon = USA_placeholder
+		x = 30
+		y = 3
+		
+		cost = 6
+
+		
+
+		prerequisite = {
+			focus = USA_submarine_development
+		}
+		
+		completion_reward = { 
+			
+		}
+	}
+
+	focus = {
+		id = USA_great_white_fleet
+		icon = USA_placeholder
+		x = 28
+		y = 3
+		
+		cost = 6
+
+		
+
+		prerequisite = {
+			focus = USA_continued_dreadnought_investment
+		}
+		
+		completion_reward = { 
+			
+		}
+	}
+
+	focus = {
+		id = USA_commission_destroyers
+		icon = USA_placeholder
+		x = 32
+		y = 2
+		
+		cost = 6
+
+		
+
+		prerequisite = {
+			focus = USA_state_of_the_navy
+		}
+		
+		completion_reward = { 
+			
+		}
+	}
+
+	focus = {
+		id = USA_support_ship_focus
+		icon = USA_placeholder
+		x = 32
+		y = 3
+		
+		cost = 6
+
+		
+
+		prerequisite = {
+			focus = USA_commission_destroyers
+		}
+		
+		completion_reward = { 
+			
+		}
+	}
+
+	focus = {
+		id = USA_versatile_task_forces
+		icon = USA_placeholder
+		x = 28
+		y = 4
+		
+		cost = 10
+
+		
+
+		prerequisite = {
+			focus = USA_great_white_fleet
+		}
+
+		prerequisite = {
+			focus = USA_undersea_warfare
+		}
+
+		prerequisite = {
+			focus = USA_support_ship_focus
+		}
+
+		mutually_exclusive = {
+			focus = USA_maximum_firepower
+		}
+		
+		completion_reward = { 
+			
+		}
+	}
+
+	focus = {
+		id = USA_streamlined_production_techniques
+		icon = USA_placeholder
+		x = 27
+		y = 5
+		
+		cost = 6
+
+		
+
+		prerequisite = {
+			focus = USA_versatile_task_forces
+		}
+		
+		completion_reward = { 
+			
+		}
+	}
+
+	focus = {
+		id = USA_screen_ships
+		icon = USA_placeholder
+		x = 29
+		y = 5
+		
+		cost = 6
+
+		
+
+		prerequisite = {
+			focus = USA_versatile_task_forces
+		}
+		
+		completion_reward = { 
+			
+		}
+	}
+
+	focus = {
+		id = USA_quantity_over_quality
+		icon = USA_placeholder
+		x = 27
+		y = 6
+		
+		cost = 6
+
+		
+
+		prerequisite = {
+			focus = USA_streamlined_production_techniques
+		}
+		
+		completion_reward = { 
+			
+		}
+	}
+
+	focus = {
+		id = USA_manueverability_over_firepower
+		icon = USA_placeholder
+		x = 29
+		y = 6
+		
+		cost = 6
+
+		
+
+		prerequisite = {
+			focus = USA_screen_ships
+		}
+		
+		completion_reward = { 
+			
+		}
+	}
+
+	focus = {
+		id = USA_global_navy
+		icon = USA_placeholder
+		x = 28
+		y = 7
+		
+		cost = 6
+
+		
+
+		prerequisite = {
+			focus = USA_manueverability_over_firepower
+		}
+
+		prerequisite = {
+			focus = USA_quantity_over_quality
+		}
+		
+		completion_reward = { 
+			
+		}
+	}
+
+	focus = {
+		id = USA_maximum_firepower
+		icon = USA_placeholder
+		x = 32
+		y = 4
+		
+		cost = 10
+
+		
+
+		prerequisite = {
+			focus = USA_great_white_fleet
+		}
+
+		prerequisite = {
+			focus = USA_undersea_warfare
+		}
+
+		prerequisite = {
+			focus = USA_support_ship_focus
+		}
+
+		mutually_exclusive = {
+			focus = USA_versatile_task_forces
+		}
+		
+		completion_reward = { 
+			
+		}
+	}
+
+	focus = {
+		id = USA_bigger_ships
+		icon = USA_placeholder
+		x = 32
+		y = 5
+		
+		cost = 5
+
+		
+
+		prerequisite = {
+			focus = USA_maximum_firepower
+		}
+		
+		completion_reward = { 
+			
+		}
+	}
+
+	focus = {
+		id = USA_bigger_guns
+		icon = USA_placeholder
+		x = 32
+		y = 6
+		
+		cost = 5
+
+		
+
+		prerequisite = {
+			focus = USA_bigger_ships
+		}
+		
+		completion_reward = { 
+			
+		}
+	}
+
+	focus = {
+		id = USA_new_naval_theory
+		icon = USA_placeholder
+		x = 32
+		y = 7
+		
+		cost = 5
+
+		
+
+		prerequisite = {
+			focus = USA_bigger_guns
+		}
+		
+		completion_reward = { 
+
+		add_political_power = 10
+			
+		}
+	}
+
+	focus = {
+		id = USA_the_battleship
+		icon = USA_placeholder
+		x = 32
+		y = 8
+		
+		cost = 10
+
+		
+
+		prerequisite = {
+			focus = USA_new_naval_theory
+		}
+		
+		completion_reward = { 
+			
+		}
+	}
+
+	##########################################
+	####### UNITED STATES MARINES URAH #######
+	##########################################
+
+	focus = {
+		id = USA_united_states_marines
+		icon = USA_placeholder
+		x = 37
+		y = 1
+		
+		cost = 10
+
+		
+
+		prerequisite = {
+			focus = USA_armed_forces
+		}
+		
+		completion_reward = { 
+			
+		}
+	}
+
+	focus = {
+		id = USA_halls_of_montezuma
+		icon = USA_placeholder
+		x = 35
+		y = 2
+		
+		cost = 5
+
+		
+
+		prerequisite = {
+			focus = USA_united_states_marines
+		}
+		
+		completion_reward = { 
+			
+		}
+	}
+
+	focus = {
+		id = USA_shores_of_tripoli
+		icon = USA_placeholder
+		x = 39
+		y = 2
+		
+		cost = 5
+
+		
+
+		prerequisite = {
+			focus = USA_united_states_marines
+		}
+		
+		completion_reward = { 
+			
+		}
+	}
+
+	focus = {
+		id = USA_fight_battles
+		icon = USA_placeholder
+		x = 36
+		y = 3
+		
+		cost = 5
+
+		
+
+		prerequisite = {
+			focus = USA_shores_of_tripoli
+		}
+
+		prerequisite = {
+			focus = USA_halls_of_montezuma
+		}
+		
+		completion_reward = { 
+			
+		}
+	}
+
+	focus = {
+		id = USA_land_and_sea
+		icon = USA_placeholder
+		x = 38
+		y = 3
+		
+		cost = 5
+
+		
+
+		prerequisite = {
+			focus = USA_shores_of_tripoli
+		}
+
+		prerequisite = {
+			focus = USA_halls_of_montezuma
+		}
+		
+		completion_reward = { 
+			
+		}
+	}
+
+	focus = {
+		id = USA_americas_finest
+		icon = USA_placeholder
+		x = 37
+		y = 4
+		
+		cost = 5
+
+		
+
+		prerequisite = {
+			focus = USA_fight_battles
+		}
+
+		prerequisite = {
+			focus = USA_land_and_sea
+		}
+		
+		completion_reward = { 
+			
+		}
+	}
+
+}
