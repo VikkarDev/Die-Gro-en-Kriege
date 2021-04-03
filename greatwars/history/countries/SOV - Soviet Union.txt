@@ -28,14 +28,15 @@ capital = 219
 	}
 
 	set_popularities = {
-		vanguard_communism = 5
-		social_egalitarianism = 2
-		centrism = 4.4
-		traditional_conservatism = 8.6
+		vanguard_communism = 7
+		social_egalitarianism = 0
+		democratic_socialism = 24
+		social_liberalism = 1
+		centrism = 0
+		traditional_conservatism = 3
 		radical_democracy = 0
-		chauvinist_populism = 5
-		autocracy = 75
-		democratic_socialism = 0
+		chauvinist_populism = 0
+		autocracy = 64
 	}
 
 	create_country_leader = {
