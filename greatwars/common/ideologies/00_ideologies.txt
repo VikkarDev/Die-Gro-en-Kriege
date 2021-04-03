@@ -347,7 +347,7 @@ ideologies = {
 			"FACTION_NAME_TRADCON_5"
 		}
 
-		color = { 16 0 255 }
+		color = { 65 133 217 }
 
 		rules = {
 			can_declare_war_on_same_ideology = no
