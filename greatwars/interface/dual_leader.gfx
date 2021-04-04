@@ -88,4 +88,10 @@ spriteTypes = {
 		name = "GFX_SAF_William_Philip_Schreiner"
 		texturefile = "gfx/leaders/SAF/William_Philip_Schreiner.dds"
 	}
+
+	# RUSSIAN EMPIRE / SOVIET UNION
+    spriteType = {
+		name = "GFX_SOV_Ivan_Durnovo"
+		texturefile = "gfx/leaders/SOV/Ivan_Durnovo.dds"
+	}
 }
