@@ -401,10 +401,10 @@ continuous_focus_position = {
 		id = SWE_hist12
 		icon = GFX_
 		x = 25
-		y = 1
+		y = 6
 		cost = 10
 			prerequisite = {
-				focus = SWE_hist1
+				focus = SWE_hist2
 			}
 	}		
 	focus = {
@@ -432,7 +432,60 @@ continuous_focus_position = {
 			mutually_exclusive = {
 				focus = SWE_hist13
 			}
-	}
+		}
+		focus = {
+			id = SWE_hist15
+			icon = GFX_
+			x = 23
+			y = 7
+			cost = 10
+				prerequisite = {
+					focus = SWE_hist12
+				}
+		}
+		focus = {
+			id = SWE_hist16
+			icon = GFX_
+			x = 27
+			y = 7
+			cost = 10
+				prerequisite = {
+					focus = SWE_hist12
+				}
+		}
+		focus = {
+			id = SWE_hist17
+			icon = GFX_
+			x = 27
+			y = 8
+			cost = 10
+				prerequisite = {
+					focus = SWE_hist16
+				}
+		}
+		focus = {
+			id = SWE_hist18
+			icon = GFX_
+			x = 23
+			y = 8
+			cost = 10
+				prerequisite = {
+					focus = SWE_hist15
+				}
+		}
+		focus = {
+			id = SWE_hist19
+			icon = GFX_
+			x = 25
+			y = 9
+			cost = 10
+				prerequisite = {
+					focus = SWE_hist18
+				}
+				prerequisite = {
+					focus = SWE_hist17
+				}
+		}
 }
 
 
