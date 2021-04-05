@@ -39,6 +39,9 @@ capital = 819
 		}
 	}
 
+	give_guarantee = ITA
+	give_guarantee = AUS
+
 	add_ideas = {
 		# Starting Ideas
 		GER_german_colonies

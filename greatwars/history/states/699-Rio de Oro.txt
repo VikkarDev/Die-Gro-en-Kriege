@@ -1,22 +1,19 @@
 
 state={
-	id=273
-	name="STATE_273"
+	id=699
+	name="STATE_699"
 
 	history={
-		owner = TUR
+		owner = SPR
 		buildings = {
 			infrastructure = 1
-
 		}
-		add_core_of = LBA
-
 	}
 
 	provinces={
-		1994 4962 7985 12022 12082 12866 
+		5012 10875 
 	}
-	manpower=42633
+	manpower=21056
 	buildings_max_level_factor=1.000
 	state_category=wasteland
 }

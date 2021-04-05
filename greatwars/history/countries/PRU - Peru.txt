@@ -8,7 +8,7 @@
 	set_research_slots = 2
 
 	set_politics = {
-		ruling_party = authdem
+		ruling_party = radical_democracy
 		elections_allowed = no
 	}
 

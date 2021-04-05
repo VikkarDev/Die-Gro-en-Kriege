@@ -8,6 +8,9 @@ capital = 2
 	set_cosmetic_tag = ITA1900
 	set_research_slots = 3
 
+	give_guarantee = GER
+	give_guarantee = AUS
+
 	add_ideas = {
 		# government
 		volunteer_only

@@ -27,7 +27,7 @@ capital = 276
 
 	set_popularities = {
 		vanguard_communism = 0
-		social_egalitarianism = 0
+		social_egalitarianism = 2
 		centrism = 13
 		traditional_conservatism = 23
 		radical_democracy = 0
