@@ -21,6 +21,63 @@ focus_tree = {
         x = 18
         y = 0
 
+		mutually_exclusive = {
+			focus = SPR_propose_free_elections_focus
+		}
+
+        cost = 5
+
+        available = {
+            country_exists = SPR
+        }
+
+        bypass = {
+            
+        }
+
+		completion_reward = {
+			
+		}
+    }
+
+
+
+	
+	focus = {
+        id = SPR_propose_free_elections_focus
+        icon = GFX_spr_propose_free_elections_focus
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        x = 24
+        y = 0
+
+		mutually_exclusive = {
+			focus = SPR_continue_election_rigging_focus
+		}
+
+        cost = 5
+
+        available = {
+            country_exists = SPR
+        }
+
+        bypass = {
+            
+        }
+
+		completion_reward = {
+			
+		}
+    }
+	
+	#Coup path
+	focus = {
+        id = SPR_prepare_a_coup_focus
+        icon = GFX_spr_propose_free_elections_focus
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        x = 27
+        y = 1
+		prerequisite = { focus = SPR_propose_free_elections_focus  }
+
         cost = 5
 
         available = {
@@ -37,11 +94,62 @@ focus_tree = {
     }
 	
 	focus = {
-        id = SPR_propose_free_elections_focus
-        icon = GFX_spr_propose_free_elections_focus
+        id = SPR_contact_political_exiles_focus
+        icon = GFX_spr_contact_political_exiles_focus
         search_filters = { FOCUS_FILTER_POLITICAL }
-        x = 24
-        y = 0
+        x = 27
+        y = 2
+		prerequisite = { focus = SPR_prepare_a_coup_focus  }
+
+        cost = 5
+
+        available = {
+            country_exists = SPR
+        }
+
+        bypass = {
+            
+        }
+
+		completion_reward = {
+			
+		}
+    }
+
+
+#People's Coup
+	focus = {
+	    id = SPR_win_over_people_focus
+        icon = GFX_spr_win_over_people_focus
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        x = 27
+        y = 3
+		prerequisite = { focus = SPR_contact_political_exiles_focus }
+
+        cost = 5
+
+        available = {
+            country_exists = SPR
+        }
+
+        bypass = {
+            
+        }
+
+		completion_reward = {
+			
+		}
+    }
+
+	
+#Militaristic Coup
+	focus = {
+        id = SPR_win_over_military_focus
+        icon = GFX_spr_win_over_military_focus
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        x = 32
+        y = 3
+		prerequisite = { focus = SPR_contact_political_exiles_focus }
 
         cost = 5
 

@@ -20,7 +20,8 @@ ideas = {
 		war_support_factor = -0.20
 		}
 	  }
-	  
+	}
+	country = {
 	  SPR_the_regency_of_maria_christina = {
 		picture = spr_the_regency_of_maria_christina
 		removal_cost = -1
@@ -41,7 +42,8 @@ ideas = {
 		political_power_gain = 0.10
 		}
 	  }
-	  
+	}
+	country = {
 	   SPR_election_rigging = {
 		picture = spr_election_rigging
 		removal_cost = -1
