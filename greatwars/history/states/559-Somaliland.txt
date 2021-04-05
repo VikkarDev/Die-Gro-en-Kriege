@@ -8,11 +8,6 @@ state={
 		add_core_of = SOM
 		buildings = {
 			infrastructure = 3
-			12941 = {
-				naval_base = 2
-
-			}
-
 		}
 
 	}

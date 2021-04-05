@@ -9,10 +9,6 @@ state={
 		add_claim_by = AST
 		buildings = {
 			infrastructure = 2
-			4329 = {
-				naval_base = 3
-
-			}
 			12237 = {
 				naval_base = 2
 

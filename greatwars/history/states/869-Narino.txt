@@ -11,8 +11,8 @@ state={
 		owner = LAB
 		buildings = {
 			infrastructure = 3
-			arms_factory = 2
-			industrial_complex = 5
+			arms_factory = 3
+			industrial_complex = 1
 		}
 		add_core_of = COL
 		add_core_of = LAB
