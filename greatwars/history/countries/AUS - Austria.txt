@@ -10,6 +10,9 @@ capital = 4
 
 	set_cosmetic_tag = AUS_HUN_dual
 
+	give_guarantee = GER
+	give_guarantee = AUS
+
 	if = {
 		limit = {
 			OR = {
