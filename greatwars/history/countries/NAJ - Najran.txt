@@ -1,8 +1,8 @@
-capital = 813
+capital = 913
 
 1900.1.1 = {
 
-	OOB = "ANZ_1900"
+	OOB = "NAJ_1900"
 
 	set_research_slots = 1
 

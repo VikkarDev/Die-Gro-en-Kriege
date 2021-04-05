@@ -29,8 +29,8 @@ capital = 286
 		traditional_conservatism = 3
 		radical_democracy = 2
 		chauvinist_populism = 0
-		autocracy = 5
-		democratic_socialism = 7
+		autocracy = 2
+		democratic_socialism = 3
 	}
 
 	create_country_leader = {
