@@ -14,7 +14,7 @@ ideas = {
 	  }
 	}
 	country = {
-		SWE_swe_nor_union = {
+		SWE_swed_nor_union = {
 		picture = swe_nor_union
 		
 		allowed = {
@@ -23,8 +23,7 @@ ideas = {
 	  
 		modifier = {
 			political_power_gain = 0.20
-			stability_factor = 0.14
-			
+			stability_factor = 0.15
 		}
 	  }
 	}

@@ -1,6 +1,10 @@
 spriteTypes = {
 	
 	SpriteType = {
+		name = "GFX_idea_swe_nor_union"
+		texturefile = "gfx/interface/ideas/swe/idea_swe_swe_nor_union.dds"
+	}
+	SpriteType = {
 		name = "GFX_idea_Swedish_neutrality"
 		texturefile = "gfx/interface/ideas/swe/swe_neutral.dds"
 	}
