@@ -18,9 +18,9 @@ autocracy_desc:0 "Autocratic Regime"
 radical_democracy:0 "Authoritarian Democratic"
 radical_democracy_noun:0 "Authoritarian Democracy"
 radical_democracy_desc:0 "Authoritarian Democratic Regime"
-chauvinist_populism:0 "National Authoritarian"
-chauvinist_populism_noun:0 "National Authoritarianism"
-chauvinist_populism_desc:0 "National Authoritarian Regime"
+chauvinist_populism:0 "Ultranationalist"
+chauvinist_populism_noun:0 "Ultranationalism"
+chauvinist_populism_desc:0 "Ultranationalist Regime"
 
 #canada
 CAN_traditional_conservatism_party:0 "CPC"
