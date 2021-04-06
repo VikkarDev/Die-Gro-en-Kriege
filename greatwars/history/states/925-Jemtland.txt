@@ -1,22 +1,22 @@
+
 state={
 	id=925
 	name="STATE_925"
-	provinces={
-		46 113 168 184 3039 3108 3111 3162 3191 6126 6129 6185 6207 9066 9095 9134 9141 9154 9171 9229 11049 11052 11116 11120 11129 11148 11187 13117 
-	}
-	state_category = rural
-	manpower=300402
-	buildings_max_level_factor=1.000
+
 	history={
 		owner = SWE
-		
-		
 		buildings = {
 			infrastructure = 4
+
 		}
-	
 		add_core_of = SWE
-		
+
 	}
 
+	provinces={
+		46 113 168 184 202 3005 3039 3108 3111 3162 3191 6010 6123 6126 6129 6185 6207 9066 9068 9095 9134 9141 9148 9154 9171 9229 11049 11052 11053 11116 11120 11123 11148 11187 11209 13117 
+	}
+	manpower=300402
+	buildings_max_level_factor=1.000
+	state_category=rural
 }
