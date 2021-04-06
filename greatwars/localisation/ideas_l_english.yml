@@ -163,7 +163,9 @@ POR_recovering_economy_desc:0 ""
 
 # SWEDEN
 SWE_Swedish_neutrality:0 "Swedish Neutrality"
-
+SWE_Swedish_neutrality_desc:0 ""
+SWE_swed_nor_union:0 "Two Nations as One"
+SWE_swed_nor_union_desc:0 ""
 # ENGLAND
 ENG_overextended_empire:0 "Overextended Empire"
 ENG_overextended_empire_desc:0 ""

@@ -14,7 +14,7 @@ capital = 141
 	add_ideas = {
 		# government
 		SWE_Swedish_neutrality
-		SWE_swe_nor_union
+		SWE_swed_nor_union
 		volunteer_only
 		free_trade
 		low_economic_mobilisation
