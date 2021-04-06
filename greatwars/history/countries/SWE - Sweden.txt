@@ -19,6 +19,9 @@ capital = 141
 		free_trade
 		low_economic_mobilisation
 	}
+	set_technology = {
+		infantry_weapons = 1
+	}
 
 	set_politics = {
 		ruling_party = social_liberalism
@@ -29,11 +32,11 @@ capital = 141
 
 	set_popularities = {
 		vanguard_communism = 0
-		social_egalitarianism = 10
-		centrism = 0
-		radical_democracy = 0
+		libertarian_socialism = 5
+		centrism = 5
+		radical_democracy = 5
 		chauvinist_populism = 0
-		autocracy = 10
+		autocracy = 5
 		democratic_socialism = 35.5
 		social_liberalism = 44.5
 	}

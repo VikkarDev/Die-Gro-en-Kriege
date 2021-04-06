@@ -116,6 +116,12 @@ CHI_social_democracy_party:0 "XZH"
 CHI_social_democracy_party_long:0 "Xīngzhōnghuì"
 CHI_chauvinist_populism_party:0 "Běiyáng Jūn"
 
+#sweden 
+SWE_social_liberalism_party:0 "Liberalerna"
+SWE_democratic_socialism_party:0 "Social demokraterna"
+SWE_libertarian_socialism_party:0 "Sverges kommunistiska parti"
+SWE_centrism_party:0 "Centerpartiet"
+
 #switzerland (the most importatnt country here)
 SWI_vanguard_communism_party:0 "Partei der Arbeit der Schweiz"
 SWI_democratic_socialism_party:0 "Arbeiterpartei"
