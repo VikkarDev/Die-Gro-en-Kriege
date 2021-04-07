@@ -51,11 +51,31 @@ USA_devalue_dollar_desc:0 "It's become a nightmare in this nation to be someone 
 USA_higher_man_tariffs:0 "Raise Manufacturing Tariffs"
 USA_higher_man_tariffs_desc:0 ""
 
+########### USA Country Names & Cosmetic Localisation ###########
+USA_chauvinist_populism:0 "Free American Empire"
+USA_chauvinist_populism_DEF:0 "The Free American Empire"
+USA_radical_democracy:0 "United States of America"
+USA_radical_democracy_DEF:0 "The United States of America"
+USA_centrism:0 "United States of America"
+USA_centrism_DEF:0 "The United States of America"
+USA_traditional_conservatism:0 "United States of America"
+USA_traditional_conservatism_DEF:0 "The United States of America"
+USA_autocracy:0 "United Kingdom of America"
+USA_autocracy_DEF:0 "The United Kingdom of America"
+USA_marxist_leninism:0 "United Socialist States of America"
+USA_marxist_leninism_DEF:0 "The United Socialist States of America"
+USA_chauvinist_populism_ADJ:0 "American"
+USA_centrism_ADJ:0 "American"
+USA_traditional_conservatism_ADJ:0 "American"
+USA_autocracy_ADJ:0 "American"
+USA_marxist_leninism_ADJ:0 "American"
+
 # EVENTS
 ########### USA Events Localisation ###########
 USA.1.t:0 "Philippines Surrenders!"
 USA.1.d:0 "The United States has scored another victory! After 3 years of fighting, the government of the Philippines announced its unconditional surrender to the government of the United States. While it seems like victory has been achieved, the region is not yet stable and the local populations are wary of the American liberators. We will need to sort out our policy in relationship to the occupation of the Philippines soon. But before we can do even that, we must defeat another military enemy, the Tagalog Republic. The Tagalog Republic was formed by the Katipunan, a Fillipino revolutionary movement which originally called for revolution against the Spanish colonial overlords, but now they oppose the American occupation. Despite the surrender of the Fillipino government, the fighting is by no means over."
 USA.1.a:0 "Occupy them for some time."
+
 USA_campaign_decisions.1.t:0 "Campaign in Texas is a Success!"
 USA_campaign_decisions.1.d:0 "After [Root.GetLeader]’s recent campaign in Texas, polls have noticed a stark upturn in support for the presidential hopeful. Large crowds were seen attending rallies at Dallas and Houston, with [Root.GetLeader] crossing the state in his personal locomotive, in what seemed to be something out of a cowboy movie."
 USA_campaign_decisions.1.a:0 "We're one step closer to winning."
@@ -97,6 +117,10 @@ USA_chauvininist_populism_party:0 "Red Shirts"
 
 # MINISTERS
 ########### USA Ministers Localisation ###########
+USA_william_mckinley:0 "William McKinley"
+USA_john_hay_frg:0 "John Hay"
+USA_lyman_j_gage_eco:0 "Lyman J. Gage"
+USA_ethan_a_hitchcock_int:0 "Ethan A. Hitchcock"
 
 # LEADER INFO
 ########### USA Leader Info Localisation ###########
