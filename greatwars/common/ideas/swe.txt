@@ -9,7 +9,9 @@ ideas = {
 	  
 		modifier = {
 			political_power_gain = 0.10
-			join_faction_tension = 0.30
+			join_faction_tension = 0.75
+			mobilization_laws_cost_factor = 0.25
+			guarantee_cost = 0.35
 		}
 	  }
 	}
