@@ -22,15 +22,6 @@ ENG_ROBERT_NAME:0 "Robert Gascoyne-Cecil"
 VICTORIA_LEADER_DESCRIPTION:0 "Description here"
 ROBERT_LEADER_DESCRIPTION:0 "Description here"
 
-# FRENCH REPUBLIC
-FRA_HOG_TITLE:0 "Premier Ministre"
-FRA_HOS_TITLE:0 "Président"
-FRA_EMILE:0 "Emile Loubet"
-FRA_PIERRE_ROUSSEAU:0 "Pierre Waldeck-Rousseau"
-FRA_PIERRE_NAME:0 "Pierre Waldeck-Rousseau"
-EMILE_LEADER_DESCRIPTION:0 "Description here"
-PIERRE_LEADER_DESCRIPTION:0 "Description here"
-
 # RUSSIA / SOVIET UNION
 SOV_HOG_TITLE:0 "Prem'yer-Ministr"
 SOV_HOS_TITLE:0 "Tsar"

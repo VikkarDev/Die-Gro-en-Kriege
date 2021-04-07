@@ -1,0 +1,51 @@
+l_english:
+
+# FOCUS TREE
+########### 1900-1914 Focus Tree Localisation ###########
+
+
+########### France Country Names & Cosmetic Localisation ###########
+FRA_autocracy:0 "French Empire"
+FRA_autocracy_DEF:0 "The French Empire"
+FRA_autocracy_ADJ:0 "French"
+FRA_traditional_conservatism:0 "French Republic"
+FRA_traditional_conservatism_DEF:0 "The French Republic"
+FRA_traditional_conservatism_ADJ:0 "French"
+FRA_chauvinist_populism:0 "Vichy France"
+FRA_chauvinist_populism_DEF:0 "Vichy France"
+FRA_centrism:0 "French Republic"
+FRA_centrism_DEF:0 "The French Republic"
+FRA_autocracy:0 "French Empire"
+FRA_autocracy_DEF:0 "The French Empire"
+FRA_marxist_leninism:0 "French Commune"
+FRA_marxist_leninism_DEF:0 "The French Commune"
+FRA_chauvinist_populism_ADJ:0 "French"
+FRA_centrism_ADJ:0 "French"
+FRA_autocracy_ADJ:0 "French"
+FRA_marxist_leninism_ADJ:0 "French"
+
+# EVENTS
+########### France Events Localisation ###########
+
+
+# NATIONAL SPIRITS
+########### France National Spirits Localisation ###########
+
+
+# PARTY NAMES
+########### France Party Names Localisation ###########
+
+
+# MINISTERS
+########### France Ministers Localisation ###########
+
+
+# LEADER INFO
+########### France Leader Info Localisation ###########
+FRA_HOG_TITLE:0 "Premier Ministre"
+FRA_HOS_TITLE:0 "Président"
+FRA_EMILE:0 "Emile Loubet"
+FRA_PIERRE_ROUSSEAU:0 "Pierre Waldeck-Rousseau"
+FRA_PIERRE_NAME:0 "Pierre Waldeck-Rousseau"
+EMILE_LEADER_DESCRIPTION:0 "Description here"
+PIERRE_LEADER_DESCRIPTION:0 "Description here"
