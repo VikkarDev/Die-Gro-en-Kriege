@@ -13,15 +13,6 @@ second_leader_diplo_tt:0 "§Y[From.GetDualLeaderName]§!\n[From.GetSecondTitle] 
 dual_leader_desc_tt:0 "§g[From.GetDualLeaderDesc]§!"
 first_leader_desc_tt:0 "§g[From.GetFirstLeaderDesc]§!"
 
-# UNITED KINGDOM
-ENG_HOG_TITLE:0 "Prime Minister"
-ENG_HOS_TITLE:0 "Queen"
-ENG_VICTORIA:0 "Victoria"
-ENG_ROBERT_CECIL:0 "Robert Gascoyne-Cecil"
-ENG_ROBERT_NAME:0 "Robert Gascoyne-Cecil"
-VICTORIA_LEADER_DESCRIPTION:0 "Description here"
-ROBERT_LEADER_DESCRIPTION:0 "Description here"
-
 # RUSSIA / SOVIET UNION
 SOV_HOG_TITLE:0 "Prem'yer-Ministr"
 SOV_HOS_TITLE:0 "Tsar"

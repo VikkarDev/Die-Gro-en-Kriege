@@ -55,11 +55,6 @@ dgk_generic.7.t:0 "Native Uprising"
 dgk_generic.7.d:0 "A native uprising has happened in a colony! Rumors spread that a group of people were going to uprise against the overlord. Following this, the uprising plans to have their own soveriegn state, but have to fight for it."
 dgk_generic.7.a:0 "We'll resolve this in some way."
 
-# UNITED KINGDOM
-united_kingdom.1.t:0 "British Victory!"
-united_kingdom.1.d:0 "The Second Boer War, having been fought between the British Empire and the Boer nations of South Africa and the Orange Free State since 1899, has finally come to an end. As expected by many, the British Empire has emerged triumphant and the Boers have been crushed.\n\nThe peace agreement signed in Pretoria will bring the former Boer states under British authority. And while amongst those knowledgeable about the situation, there is no doubt that there will be further ethnic tensions in the region, but for now, peace has arrived in South Africa."
-united_kingdom.1.a:0 "Occupy them for a few years."
-
 # BOXER REBELLION
 boxer_rebellion.5.t:0 "Boxer Victory!"
 boxer_rebellion.5.d:0 "After months of countless fighting, the Boxer's have finally won. Before peace, Qing was ready to negotiate with the Boxer's, but they didn't respond for a while. Now, they finally have, resulting in peace between the two countries."
