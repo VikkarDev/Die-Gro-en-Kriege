@@ -146,22 +146,6 @@ POL_radical_democracy_party_long:0 "Stronnicto Narodowo Demokratyczne"
 POL_chauvinist_populism_party:0 "LN"
 POL_chauvinist_populism_party_long:0 "Liga Narodowa"
 
-#japan
-JAP_traditional_conservatism_party:0 "KSH"
-JAP_traditional_conservatism_party_long:0 "Kensei Hontō"
-JAP_social_egalitarianism_party:0 "JNK"
-JAP_social_egalitarianism_party_long:0 "Jinin Kai"
-JAP_centrism_party:0 "RSY"
-JAP_centrism_party_long:0 "Rikken Seiyūkai"
-JAP_vanguard_communism_party:0 "SMT"
-JAP_vanguard_communism_party_long:0 "Shakaiminshu-tō"
-JAP_autocracy_party:0 "DCL"
-JAP_autocracy_party_long:0 "Doshi Club"
-JAP_radical_democracy_party:0 "TKK"
-JAP_radical_democracy_party_long:0 "Teikokutō"
-JAP_chauvinist_populism_party:0 "KKJ"
-JAP_chauvinist_populism_party_long:0 "Kokumin Jiyutō"
-
 #Spain
 SPR_social_liberalism_party:0 "PL"
 SPR_social_liberalism_party_long:0 "Partido Liberal"
