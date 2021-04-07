@@ -16,7 +16,7 @@
 		limited_exports
 		civilian_economy
 	}
-
+	puppet = INS
 	set_politics = {
 		ruling_party = centrism
 		#last_election = "1838.12.30"
