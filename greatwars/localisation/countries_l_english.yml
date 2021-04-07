@@ -321,21 +321,7 @@
  MEX_radical_democracy_DEF:0 "The United Mexican States"
  MEX_ADJ:0 "Mexican"
 
- SWE_traditional_conservatism:0 "Sweden"
- SWE_traditional_conservatism_DEF:0 "Sweden"
- SWE_traditional_conservatism_ADJ:0 "Swedish"
- SWE_chauvinist_populism:0 "Svea Rike"
- SWE_chauvinist_populism_DEF:0 "Svea Rike"
- SWE_centrism:0 "Sweden"
- SWE_centrism_DEF:0 "Sweden"
- SWE_autocracy:0 "Kingdom of Sweden"
- SWE_autocracy_DEF:0 "The Kingdom of Sweden"
- SWE_marxist_leninism:0 "Folkhemmet"
- SWE_marxist_leninism_DEF:0 "Folkhemmet"
- SWE_chauvinist_populism_ADJ:0 "Swedish"
- SWE_centrism_ADJ:0 "Swedish"
- SWE_autocracy_ADJ:0 "Swedish"
- SWE_marxist_leninism_ADJ:0 "Swedish"
+
 
  LUX_traditional_conservatism:0 "Luxembourg"
  LUX_traditional_conservatism_DEF:0 "Luxembourg"
