@@ -25,7 +25,7 @@ capital = 862
 		}
 
 		declare_war_on = {
-			target = INS
+			target = HOL
 			type = annex_everything
 		}
 	}
