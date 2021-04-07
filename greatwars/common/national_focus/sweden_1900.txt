@@ -486,7 +486,54 @@ continuous_focus_position = {
 					focus = SWE_hist17
 				}
 		}
+		focus = {
+			id = SWE_ahist1
+			icon = GFX_
+			x = 40
+			y = 1
+			cost = 10
+				prerequisite = {
+					focus = SWE_break_neutrality
+				}
+		}
+		focus = {
+			id = SWE_ahist2
+			icon = GFX_
+			x = 40
+			y = 2
+			cost = 10
+				prerequisite = {
+					focus = SWE_ahist1
+				}
+		}
+		focus = {
+			id = SWE_ahist3
+			icon = GFX_
+			x = 35
+			y = 3
+			cost = 10
+			mutually_exclusive = {
+				focus = SWE_ahist4
+			}
+				prerequisite = {
+					focus = SWE_ahist2
+				}
+		}
+		focus = {
+			id = SWE_ahist4
+			icon = GFX_
+			x = 45
+			y = 3
+			cost = 10
+				prerequisite = {
+					focus = SWE_ahist2
+				}
+				mutually_exclusive = {
+					focus = SWE_ahist3
+				}
+		}
 }
+
 
 
 
