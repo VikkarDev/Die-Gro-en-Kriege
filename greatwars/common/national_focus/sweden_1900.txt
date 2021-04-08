@@ -187,7 +187,10 @@ continuous_focus_position = {
 		x = 10
 		y = 2
 		cost = 10
-		mutually_exclusive = { focus = SWE_army3 }
+		mutually_exclusive = {
+			focus = SWE_army4
+			focus = SWE_army3
+		}
 		prerequisite = { focus = SWE_army  }
 	}
     
@@ -197,7 +200,10 @@ continuous_focus_position = {
 		x = 12
 		y = 2
 		cost = 10
-		mutually_exclusive = { focus = SWE_army2 }
+		mutually_exclusive = {
+			focus = SWE_army2
+			focus = SWE_army4
+		}
 		prerequisite = { focus = SWE_army}
 	}
     
@@ -329,7 +335,7 @@ continuous_focus_position = {
 				focus = SWE_hist5
 			}
 			prerequisite = {
-				focus = swe_hist9
+				focus = SWE_hist9
 			}
 			mutually_exclusive = {
 				focus = SWE_hist10
@@ -379,7 +385,7 @@ continuous_focus_position = {
 			}
 			
 			prerequisite = {
-				focus = swe_hist5
+				focus = SWE_hist5
 			}
 			mutually_exclusive = {
 					focus = SWE_hist6

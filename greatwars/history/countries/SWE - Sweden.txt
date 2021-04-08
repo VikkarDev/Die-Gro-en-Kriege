@@ -17,7 +17,7 @@ capital = 141
 		SWE_swed_nor_union
 		volunteer_only
 		free_trade
-		low_economic_mobilisation
+		civilian_economy
 	}
 	set_technology = {
 		infantry_weapons = 1
