@@ -87,7 +87,9 @@ bookmarks = {
 				SOV_long_live_the_tsar
 			}
 			focuses = {
-				
+				RUS_1900_state_duma_elections
+				RUS_1900_russian_foreign_policy
+				RUS_1900_the_revolution
 			}
 		}
 
