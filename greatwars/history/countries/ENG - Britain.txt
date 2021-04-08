@@ -108,7 +108,7 @@ capital = 126
 	create_country_leader = {
 		name = "Victoria"
 		desc = ""
-		picture = "Queen_Victoria.dds"
+		picture = "Victoria.dds"
 		ideology = conserv
 		traits = {
 			queen_of_the_people
