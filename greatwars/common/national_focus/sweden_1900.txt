@@ -538,6 +538,50 @@ continuous_focus_position = {
 					focus = SWE_ahist3
 				}
 		}
+		focus = {
+			id = SWE_ahist5
+			icon = GFX_
+			x = 34
+			y = 4
+			cost = 10
+				prerequisite = {
+					focus = SWE_ahist3
+				}
+				
+		}
+		focus = {
+			id = SWE_ahist6
+			icon = GFX_
+			x = 36
+			y = 4
+			cost = 10
+				prerequisite = {
+					focus = SWE_ahist3
+				}
+				
+		}
+		focus = {
+			id = SWE_ahist7
+			icon = GFX_
+			x = 46
+			y = 4
+			cost = 10
+				prerequisite = {
+					focus = SWE_ahist4
+				}
+				
+		}
+		focus = {
+			id = SWE_ahist8
+			icon = GFX_
+			x = 44
+			y = 4
+			cost = 10
+				prerequisite = {
+					focus = SWE_ahist4
+				}
+				
+		}
 }
 
 
