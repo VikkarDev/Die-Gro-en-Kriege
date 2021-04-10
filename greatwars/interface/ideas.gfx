@@ -37,6 +37,11 @@ spriteTypes = {
 	}
 
 	SpriteType = {
+		name = "GFX_idea_eng_boer_offensive"
+		texturefile = "gfx/interface/ideas/eng/ENG_idea_boer_offensive.dds"
+	}
+
+	SpriteType = {
 		name = "GFX_idea_ger_naval_arms_race"
 		texturefile = "gfx/interface/ideas/ger/GER_idea_anglo-german_naval_arms_race.dds"
 	}
