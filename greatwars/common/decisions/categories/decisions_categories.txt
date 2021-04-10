@@ -53,6 +53,8 @@ dgk_britain_naval_race_category = {
 
 	visible = {
 		tag = ENG
+
+		has_completed_focus = ENG_the_arms_race
 	}
 }
 

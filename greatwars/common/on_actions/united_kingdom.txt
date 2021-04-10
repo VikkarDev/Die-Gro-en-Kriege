@@ -8,10 +8,6 @@ on_actions = {
 						has_global_flag = is_dgk_scripted_false
 					}
 				}
-
-				ENG = {
-					country_event = { id = united_kingdom.1 days = 880 } # May 31, 1902
-				}
 			}
 
 			if = {

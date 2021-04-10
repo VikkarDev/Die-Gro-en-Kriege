@@ -247,7 +247,7 @@ focus_tree = {
 		#mutually_exclusive = { focus = ENG_continue_isolationism }
 
         available = {
-            
+            country_exists = ENG
         }
 
         bypass = {
@@ -255,7 +255,11 @@ focus_tree = {
         }
 
 		completion_reward = {
-			
+			set_party_name = {
+                ideology = democratic_socialism
+                long_name = "Labour Party"
+                name = "LP"
+            }
 		}
     }
 
@@ -271,7 +275,10 @@ focus_tree = {
 		#mutually_exclusive = { focus = ENG_continue_isolationism }
 
         available = {
-            
+            country_exists = USA
+            custom_trigger_tooltip = {
+                tooltip = "Need to figure out how to check relations for a focus."
+            }
         }
 
         bypass = {
@@ -279,7 +286,7 @@ focus_tree = {
         }
 
 		completion_reward = {
-			
+			USA = { country_event = { id = britain.4 days = 5 } }
 		}
     }
 
@@ -295,7 +302,10 @@ focus_tree = {
 		#mutually_exclusive = { focus = ENG_continue_isolationism }
 
         available = {
-            
+            country_exists = JAP
+            custom_trigger_tooltip = {
+                tooltip = "Need to figure out how to check relations for a focus."
+            }
         }
 
         bypass = {
@@ -303,7 +313,7 @@ focus_tree = {
         }
 
 		completion_reward = {
-			
+			JAP = { country_event = { id = britain.5 days = 5 } }
 		}
     }
 
@@ -318,7 +328,7 @@ focus_tree = {
 		prerequisite = { focus = ENG_open_up_to_foreign_affairs }
 
         available = {
-            
+            country_exists = GER
         }
 
         bypass = {
@@ -326,7 +336,7 @@ focus_tree = {
         }
 
 		completion_reward = {
-			
+			unlock_decision_category_tooltip = dgk_britain_naval_race_category
 		}
     }
 
@@ -349,7 +359,15 @@ focus_tree = {
         }
 
 		completion_reward = {
-			
+			ENG = {
+                random_owned_state = {
+                    add_building_construction = {
+                        type = dockyard
+                        level = 2
+                        instant_build = yes
+                    }
+                }
+            }
 		}
     }
 
@@ -372,7 +390,7 @@ focus_tree = {
         }
 
 		completion_reward = {
-			
+			custom_effect_tooltip = "Gets a research boost for dreadnoughts (We need techtree figured out first.)"
 		}
     }
 }
