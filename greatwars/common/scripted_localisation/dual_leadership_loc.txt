@@ -111,6 +111,13 @@ defined_text = {
 	}
 
 	text = {
+		trigger = {
+			tag = SWE
+		}
+		localization_key = SWE_HOS_TITLE
+	}
+
+	text = {
 		localization_key = DEFAULT_HOS_TITLE
 	}
 }
@@ -223,6 +230,13 @@ defined_text = {
 			tag = SAF
 		}
 		localization_key = SAF_HOG_TITLE
+	}
+
+	text = {
+		trigger = {
+			tag = SWE
+		}
+		localization_key = SWE_HOG_TITLE
 	}
 
 	text = {
@@ -367,6 +381,14 @@ defined_text = {
 			has_country_flag = william_philip_schreiner_vp
 		}
 		localization_key = SAF_William_Philip_Schreiner_NAME
+	}
+
+	text = {
+		trigger = {
+			tag = SWE
+			has_country_flag = erik_gustaf_bostrom_vp
+		}
+		localization_key = SWE_Erik_Gustaf_Bostrom_NAME
 	}
 
 	text = {
@@ -526,6 +548,14 @@ defined_text = {
 		}
 		localization_key = "GFX_SAF_William_Philip_Schreiner"
 	}
+
+	text = {
+		trigger = {
+			tag = SWE
+			has_country_flag = erik_gustaf_bostrom_vp
+		}
+		localization_key = "GFX_SWE_Erik_Gustaf_Bostrom"
+	}
 	text = {
 		localization_key = "GFX_portrait_bg_blank"
 	}
@@ -597,6 +627,14 @@ defined_text = {
 			has_country_flag = gojong_leader
 		}
 		localization_key = GOJONG_LEADER_DESCRIPTION
+	}
+
+	text = {
+		trigger = {
+			original_tag = SWE
+			has_country_flag = oscar_ii_leader
+		}
+		localization_key = OSCAR_II_LEADER_DESCRIPTION
 	}
 }
 
@@ -680,5 +718,13 @@ defined_text = {
 			has_country_flag = yoon_yong_sun_vp
 		}
 		localization_key = YYS_LEADER_DESCRIPTION
+	}
+
+	text = {
+		trigger = {
+			original_tag = SWE
+			has_country_flag = erik_gustaf_bostrom_vp
+		}
+		localization_key = BOSTROM_LEADER_DESCRIPTION
 	}
 }
