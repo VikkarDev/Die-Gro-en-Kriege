@@ -12,6 +12,8 @@ capital = 126
 
 	set_cosmetic_tag = ENG_IRE
 
+	complete_national_focus = ENG_second_boer_war
+
 	add_ideas = {
 		# Government and Laws
 		volunteer_only
