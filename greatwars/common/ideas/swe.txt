@@ -31,7 +31,7 @@ ideas = {
 	}
 		country = {
      SWE_Undeveloped_North_Region = {
-		picture = swe_nor_union
+		picture = swe_Industrial
 		
 		allowed = {
 			tag = SWE
