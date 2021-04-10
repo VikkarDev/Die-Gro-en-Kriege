@@ -60,3 +60,12 @@
  NOR_SWE_union_centrism_DEF:0 "The United Kingdoms of Sweden and Norway"
  NOR_SWE_union_traditional_conservatism:0 "United Kingdoms of Sweden and Norway"
  NOR_SWE_union_traditional_conservatism_DEF:0 "The United Kingdoms of Sweden and Norway"
+
+ #leader localization
+ SWE_HOG_TITLE:0 "Statsminister"
+ SWE_HOS_TITLE:0 "Kung"
+ SWE_OSCAR_II:0 "Oscar II"
+ SWE_Erik_Gustaf_Bostrom:0 "Erik Gustaf Boström"
+ SWE_Erik_Gustaf_Bostrom_NAME:0 "Erik Gustaf Boström"
+ OSCAR_II_LEADER_DESCRIPTION:0 "Description needed."
+ BOSTROM_LEADER_DESCRIPTION:0 "Description needed."

@@ -94,4 +94,10 @@ spriteTypes = {
 		name = "GFX_SOV_Ivan_Durnovo"
 		texturefile = "gfx/leaders/SOV/Ivan_Durnovo.dds"
 	}
+
+	# SWEDEN / SWEDEN-NORWAY
+	spriteType = {
+		name = "GFX_SWE_Erik_Gustaf_Bostrom"
+		texturefile = "gfx/leaders/SWE/Erik_Gustaf_Bostrom.dds"
+	}
 }
