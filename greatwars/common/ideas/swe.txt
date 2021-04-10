@@ -29,4 +29,17 @@ ideas = {
 		}
 	  }
 	}
+		country = {
+     SWE_Undeveloped_North_Region = {
+		picture = swe_nor_union
+		
+		allowed = {
+			tag = SWE
+		}
+	  
+		modifier = {
+			
+		}
+	  }
+	}
 }
