@@ -1,0 +1,19 @@
+on_action = {
+	on_startup = {
+		effect = {
+			if = {
+				limit = {
+					has_start_date < 1900.1.2
+					NOT = {
+						has_global_flag = is_dgk_scripted_false
+					}
+				}
+				SWE = {
+					country_event = { id = sweden.1 days = 2091 }
+					
+
+				}
+			}	
+		}
+	}
+}
