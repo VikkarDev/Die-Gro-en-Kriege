@@ -15,6 +15,7 @@ capital = 141
 		# government
 		SWE_Swedish_neutrality
 		SWE_swed_nor_union
+		SWE_Undeveloped_North_Region
 		volunteer_only
 		free_trade
 		civilian_economy
