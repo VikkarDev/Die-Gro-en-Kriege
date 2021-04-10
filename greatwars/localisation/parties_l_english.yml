@@ -21,6 +21,9 @@ radical_democracy_desc:0 "Authoritarian Democratic Regime"
 chauvinist_populism:0 "Ultranationalist"
 chauvinist_populism_noun:0 "Ultranationalism"
 chauvinist_populism_desc:0 "Ultranationalist Regime"
+democratic_socialism:0 "Democratic Socialist"
+democratic_socialism_noun:0 "Democratic Socialism"
+democratic_socialism_desc:0 "Democratic Socialist Government"
 
 #canada
 CAN_traditional_conservatism_party:0 "CPC"
