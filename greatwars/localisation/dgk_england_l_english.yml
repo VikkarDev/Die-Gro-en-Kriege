@@ -59,9 +59,18 @@ ENG_ADJ:0 "British"
 
 # EVENTS
 ########### UK Events Localisation ###########
-united_kingdom.1.t:0 "British Victory!"
-united_kingdom.1.d:0 "The Second Boer War, having been fought between the British Empire and the Boer nations of South Africa and the Orange Free State since 1899, has finally come to an end. As expected by many, the British Empire has emerged triumphant and the Boers have been crushed.\n\nThe peace agreement signed in Pretoria will bring the former Boer states under British authority. And while amongst those knowledgeable about the situation, there is no doubt that there will be further ethnic tensions in the region, but for now, peace has arrived in South Africa."
-united_kingdom.1.a:0 "Occupy them for a few years."
+britain.1.t:0 "Britain Offers Negotiations"
+britain.1.d:0 "Description needed."
+britain.1.a:0 "Accept Terms."
+britain.1.b:0 "Deny Terms, keeps fighting!"
+
+britain.2.t:0 "Boers Accept Negotiations!"
+britain.2.d:0 "Description needed."
+britian.2.a:0 "Excellent."
+
+britain.3.t:0 "Boers Decline Negotiations"
+britain.3.d:0 "Description needed."
+britain.3.a:0 "We'll have to do this the hard way."
 
 # NATIONAL SPIRITS
 ########### UK National Spirits Localisation ###########
