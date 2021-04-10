@@ -270,7 +270,11 @@ continuous_focus_position = {
 			focus =  SWE_hist1
 		}
 		completion_reward = {
+			add_popularity = { ideology = autocracy popularity = 0.05 }
+			add_popularity = { ideology = democratic_socialism popularity = 0.10 }
+		   
 			remove_ideas = SWE_Swedish_neutrality 
+
 			custom_effect_tooltip = HISTORICAL_BREAK
 		}
 	}
