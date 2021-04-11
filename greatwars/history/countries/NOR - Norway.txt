@@ -17,7 +17,7 @@ capital = 110
 	}
 
 	set_politics = {
-		ruling_party = centrism
+		ruling_party = social_liberalism
 		#last_election = "2078.9.26"
 		#election_frequency = 48
 		#elections_allowed = yes
@@ -26,12 +26,13 @@ capital = 110
 	set_popularities = {
 		vanguard_communism = 0
 		social_egalitarianism = 0
-		centrism = 59.3
-		traditional_conservatism = 30
-		radical_democracy = 3.8
+		centrism = 10
+		traditional_conservatism = 35
+		radical_democracy = 3
 		chauvinist_populism = 0
-		autocracy = 1.9
+		autocracy = 2
 		democratic_socialism = 5
+		social_liberalism = 45
 	}
 
 	create_country_leader = {
