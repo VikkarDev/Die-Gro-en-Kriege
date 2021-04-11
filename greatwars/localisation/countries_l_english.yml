@@ -525,6 +525,8 @@
  NOR_centrism_ADJ:0 "Norwegian"
  NOR_autocracy_ADJ:0 "Norwegian"
  NOR_marxist_leninism_ADJ:0 "Norwegian"
+ NOR_social_liberalism:0 "Kingdom of Norway"
+ NOR_social_liberalism_DEF:0 "The Kingdom of Norway"
 
  DEN_traditional_conservatism:0 "Denmark"
  DEN_traditional_conservatism_DEF:0 "Denmark"
