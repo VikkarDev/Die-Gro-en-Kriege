@@ -10,7 +10,7 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		has_completed_focus = ENG_offer_negotiations
+		
   	}
 
 	option = {
@@ -82,6 +82,185 @@ country_event = {
 
 		ENG = {
 			add_war_support = 0.05
+		}
+	}
+}
+
+# Britain offers USA a treaty
+country_event = {
+	id = britain.4
+	title = britain.4.t
+	desc = britain.4.d
+	picture = GFX_report_event_imperial_conference
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	trigger = {
+		tag = USA
+  	}
+
+	option = {
+		name = britain.4.a
+
+		custom_effect_tooltip = NOT_COMPLETE
+		
+		hidden_effect = {
+			ENG = { country_event = { id = britain.5 days = 3 } }
+		}
+
+		ai_chance = { factor = 100 }
+	}
+
+	option = {
+		name = britain.4.b
+
+		custom_effect_tooltip = NOT_COMPLETE
+
+		hidden_effect = {
+			ENG = { country_event = { id = britain.6 days = 3 } }
+		}
+	}
+}
+
+# USA accepts treaty (gets sent to ENG)
+country_event = {
+	id = britain.5
+	title = britain.5.t
+	desc = britain.5.d
+	picture = GFX_report_event_imperial_conference
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	trigger = {
+		tag = ENG
+  	}
+
+	option = {
+		name = britain.5.a
+
+		custom_effect_tooltip = NOT_COMPLETE
+	}
+}
+
+# USA declines treaty (gets sent to ENG)
+country_event = {
+	id = britain.6
+	title = britain.6.t
+	desc = britain.6.d
+	picture = GFX_report_event_imperial_conference
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	trigger = {
+		tag = ENG
+  	}
+
+	option = {
+		name = britain.6.a
+
+		custom_effect_tooltip = NOT_COMPLETE
+	}
+}
+
+# Britain offers Japan alliance
+country_event = {
+	id = britain.7
+	title = britain.7.t
+	desc = britain.7.d
+	picture = GFX_report_event_imperial_conference
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	trigger = {
+		tag = JAP
+  	}
+
+	option = {
+		name = britain.7.a
+
+		custom_effect_tooltip = NOT_COMPLETE
+
+		ai_chance = { factor = 95 }
+	}
+
+	option = {
+		name = britain.7.b
+
+		custom_effect_tooltip = NOT_COMPLETE
+
+		ai_chance = { factor = 5 }
+	}
+}
+
+# Japan accepts alliance (gets sent to ENG)
+country_event = {
+	id = britain.8
+	title = britain.8.t
+	desc = britain.8.d
+	picture = GFX_report_event_imperial_conference
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	trigger = {
+		tag = ENG
+  	}
+
+	option = {
+		name = britain.8.a
+
+		custom_effect_tooltip = NOT_COMPLETE
+	}
+}
+
+# Japan accepts alliance (gets sent to ENG)
+country_event = {
+	id = britain.9
+	title = britain.9.t
+	desc = britain.9.d
+	picture = GFX_report_event_imperial_conference
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	trigger = {
+		tag = ENG
+  	}
+
+	option = {
+		name = britain.9.a
+
+		custom_effect_tooltip = NOT_COMPLETE
+	}
+}
+
+# Britain pulls out of arms race
+country_event = {
+	id = britain.10
+	title = britain.10.t
+	desc = britain.10.d
+	picture = GFX_report_event_imperial_conference
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	trigger = {
+		tag = GER
+  	}
+
+	option = {
+		name = britain.8.a
+
+		GER = {
+			remove_ideas = { GER_naval_arms_race }
+		}
+
+		ENG = {
+			remove_ideas = { GER_naval_arms_race }
 		}
 	}
 }

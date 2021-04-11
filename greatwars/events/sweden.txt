@@ -22,3 +22,25 @@ country_event = {
 		drop_cosmetic_tag = yes
 	}
 }
+country_event = {
+	id = sweden.2
+	title = sweden.2.t
+	desc = sweden.2.d
+	picture = GFX 
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	trigger = {
+		tag = SWE
+	}
+
+
+	option = {
+		name = "For the swedes"
+		ai_chance = {
+			factor = 100
+		}
+		add_political_power = 20
+		remove_ideas = SWE_Swedish_neutrality
+	}
+}

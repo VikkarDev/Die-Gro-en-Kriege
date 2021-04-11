@@ -34,6 +34,12 @@ FRA_marxist_leninism_ADJ:0 "French"
 
 # PARTY NAMES
 ########### France Party Names Localisation ###########
+FRA_libertarian_socialism_party:0 "CGT"
+FRA_libertarian_socialism_party_long:0 "Confédération Générale du Travail"
+FRA_democratic_socialism_party:0 "SFIO"
+FRA_democratic_socialism_party_long:0 "Section Française de l'Internationale Ouvrière"
+FRA_radical_democracy_party:0 "PR"
+FRA_radical_democracy_party_long:0 "Parti Radical"
 
 
 # MINISTERS

@@ -147,7 +147,9 @@ focus_tree = {
 		mutually_exclusive = { focus = ENG_open_up_to_foreign_affairs }
 
         available = {
-            
+            country_exists = ENG
+            is_subject = no
+            has_idea = ENG_pax_britannica
         }
 
         bypass = {
@@ -155,7 +157,7 @@ focus_tree = {
         }
 
 		completion_reward = {
-			
+			add_political_power = 100
 		}
     }
 
@@ -171,15 +173,18 @@ focus_tree = {
 		#mutually_exclusive = { focus = ENG_continue_isolationism }
 
         available = {
-            
+            has_idea = GER_naval_arms_race
+            country_exists = GER
         }
 
         bypass = {
-            
+            NOT = {
+                has_idea = GER_naval_arms_race
+            }
         }
 
 		completion_reward = {
-			
+			GER = { country_event = { id = britain.10 days = 5 } }
 		}
     }
 
@@ -313,7 +318,7 @@ focus_tree = {
         }
 
 		completion_reward = {
-			JAP = { country_event = { id = britain.5 days = 5 } }
+			JAP = { country_event = { id = britain.7 days = 5 } }
 		}
     }
 

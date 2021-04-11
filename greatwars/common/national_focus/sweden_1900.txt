@@ -273,7 +273,6 @@ continuous_focus_position = {
 			add_popularity = { ideology = autocracy popularity = 0.05 }
 			add_popularity = { ideology = democratic_socialism popularity = 0.10 }
 		   
-			remove_ideas = SWE_Swedish_neutrality 
 
 			custom_effect_tooltip = HISTORICAL_BREAK
 		}
@@ -504,6 +503,9 @@ continuous_focus_position = {
 			cost = 10
 				prerequisite = {
 					focus = SWE_break_neutrality
+				}
+				completion_reward = {
+					country_event = sweden.2
 				}
 		}
 		focus = {
