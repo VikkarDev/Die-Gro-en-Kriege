@@ -10,7 +10,7 @@ state={
 	history={
 		owner = SWE
 		buildings = {
-			infrastructure = 2
+			infrastructure = 1
 			192 = {
 				naval_base = 3
 
@@ -20,7 +20,7 @@ state={
 
 			}
 			11050 = {
-				naval_base = 2
+				naval_base = 1
 
 			}
 
