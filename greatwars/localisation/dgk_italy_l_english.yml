@@ -1,0 +1,52 @@
+﻿l_english:
+
+# FOCUS TREE
+########### 1900-1914 Focus Tree Localisation ###########
+
+
+########### Italy Country Names & Cosmetic Localisation ###########
+ITA1900_centrism:0 "Kingdom of Italy"
+ITA1900_centrism_DEF:0 "The Kingdom of Italy"
+ITA1900_traditional_conservatism:0 "Kingdom of Italy"
+ITA1900_traditional_conservatism_DEF:0 "The Kingdom of Italy"
+
+ITA_traditional_conservatism:0 "Republican Italy"
+ITA_traditional_conservatism_DEF:0 "Republican Italy"
+ITA_traditional_conservatism_ADJ:0 "Italian"
+ITA_chauvinist_populism:0 "Italy"
+ITA_chauvinist_populism_DEF:0 "Italy"
+ITA_centrism:0 "Republican Italy"
+ITA_centrism_DEF:0 "Republican Italy"
+ITA_autocracy:0 "Kingdom of Italy"
+ITA_autocracy_DEF:0 "The Kingdom of Italy"
+ITA_marxist_leninism:0 "Italian Union"
+ITA_marxist_leninism_DEF:0 "The Italian Union"
+ITA_chauvinist_populism_ADJ:0 "Italian"
+ITA_centrism_ADJ:0 "Italian"
+ITA_autocracy_ADJ:0 "Italian"
+ITA_marxist_leninism_ADJ:0 "Italian"
+
+# EVENTS
+########### Italy Events Localisation ###########
+
+
+# NATIONAL SPIRITS
+########### Italy National Spirits Localisation ###########
+
+
+# PARTY NAMES
+########### Italy Party Names Localisation ###########
+
+
+# MINISTERS
+########### Italy Ministers Localisation ###########
+
+
+# LEADER INFO
+########### Italy Leader Info Localisation ###########
+ITA_HOG_TITLE:0 "Il Duce"
+ITA_HOS_TITLE:0 "Il Monarca d'Italia"
+ITA_UMBERTO:0 "Umberto I"
+ITA_PELLOUX_NAME:0 "Luigi Pelloux"
+UMBERTO_I_LEADER_DESCRIPTION:0 "Description here"
+PELLOUX_LEADER_DESCRIPTION:0 "Description here"
