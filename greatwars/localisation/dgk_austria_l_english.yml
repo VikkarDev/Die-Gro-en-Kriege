@@ -58,7 +58,10 @@ AUS_marxist_leninism_ADJ:0 "Austrian"
 
 # PARTY NAMES
 ########### Austria Party Names Localisation ###########
-
+AUS_traditional_conservatism_party:0 "AS"
+AUS_traditional_conservatism_party_long:0 "Autonomaška stranka"
+AUS_centrism_party:0 "OA"
+AUS_centrism_party_long:0 "Országos Alkotmánypárt"
 
 # MINISTERS
 ########### Austria Ministers Localisation ###########
