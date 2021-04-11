@@ -22,6 +22,9 @@ ideas = {
 		allowed = {
 			tag = SWE
 		}
+		available = {
+			has_cosmetic_tag = NOR_SWE_union
+		}
 	  
 		modifier = {
 			political_power_gain = 0.20
