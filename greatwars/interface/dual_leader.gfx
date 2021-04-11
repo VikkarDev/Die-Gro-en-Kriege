@@ -100,4 +100,10 @@ spriteTypes = {
 		name = "GFX_SWE_Erik_Gustaf_Bostrom"
 		texturefile = "gfx/leaders/SWE/Erik_Gustaf_Bostrom.dds"
 	}
+
+	# ITALY
+	spriteType = {
+		name = "GFX_ITA_Luigi_Pelloux"
+		texturefile = "gfx/leaders/ITA/Luigi_Pelloux.dds"
+	}
 }

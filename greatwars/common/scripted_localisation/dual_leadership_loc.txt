@@ -118,6 +118,13 @@ defined_text = {
 	}
 
 	text = {
+		trigger = {
+			tag = ITA
+		}
+		localization_key = ITA_HOS_TITLE
+	}
+
+	text = {
 		localization_key = DEFAULT_HOS_TITLE
 	}
 }
@@ -237,6 +244,13 @@ defined_text = {
 			tag = SWE
 		}
 		localization_key = SWE_HOG_TITLE
+	}
+
+	text = {
+		trigger = {
+			tag = ITA
+		}
+		localization_key = ITA_HOG_TITLE
 	}
 
 	text = {
@@ -389,6 +403,20 @@ defined_text = {
 			has_country_flag = erik_gustaf_bostrom_vp
 		}
 		localization_key = SWE_Erik_Gustaf_Bostrom_NAME
+	}
+
+	text = {
+		trigger = {
+			tag = ITA
+			has_country_flag = luigi_pelloux_vp
+			OR = {
+				has_government = centrism
+				has_government = traditional_conservatism
+				has_government = social_liberalism
+				has_government = social_egalitarianism
+			}
+		}
+		localization_key = ITA_PELLOUX_NAME
 	}
 
 	text = {
@@ -556,6 +584,14 @@ defined_text = {
 		}
 		localization_key = "GFX_SWE_Erik_Gustaf_Bostrom"
 	}
+
+	text = {
+		trigger = {
+			tag = ITA
+			has_country_flag = luigi_pelloux_vp
+		}
+		localization_key = "GFX_ITA_Luigi_Pelloux"
+	}
 	text = {
 		localization_key = "GFX_portrait_bg_blank"
 	}
@@ -635,6 +671,14 @@ defined_text = {
 			has_country_flag = oscar_ii_leader
 		}
 		localization_key = OSCAR_II_LEADER_DESCRIPTION
+	}
+
+	text = {
+		trigger = {
+			original_tag = ITA
+			has_country_flag = umberto_i_leader
+		}
+		localization_key = UMBRETO_I_LEADER_DESCRIPTION
 	}
 }
 
@@ -726,5 +770,13 @@ defined_text = {
 			has_country_flag = erik_gustaf_bostrom_vp
 		}
 		localization_key = BOSTROM_LEADER_DESCRIPTION
+	}
+
+	text = {
+		trigger = {
+			original_tag = ITA
+			has_country_flag = luigi_pelloux_vp
+		}
+		localization_key = PELLOUX_LEADER_DESCRIPTION
 	}
 }
