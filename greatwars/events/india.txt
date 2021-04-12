@@ -1,0 +1,19 @@
+add_namespace = india
+
+##Event: Rise of the Muslim League
+country_event = {
+	id = india.1
+	title = india.1.title
+	desc = india.1.desc
+	picture = GFX_report_event_india_protests2
+	is_triggered_only = yes
+	fire_only_once = yes
+	trigger = {
+		date > 1906.12.30
+	}
+	option = {
+		name = india.1.a
+		ai_chance = { factor = 1}
+		add_ideas= RAJ_the_muslim_league
+	}
+}
