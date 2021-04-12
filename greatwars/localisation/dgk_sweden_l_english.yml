@@ -23,7 +23,8 @@
  SWE_social_liberalism_DEF:0 "The Kingdom of Sweden"
 
 
-
+# EVENTS 
+ sweden.1.t:0 "Norway left the union"
 
  # IDEAS
  SWE_Swedish_neutrality:0 "Swedish Neutrality"

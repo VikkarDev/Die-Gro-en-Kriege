@@ -14,7 +14,7 @@ country_event = {
 
 
 	option = {
-		name = "We Will kill them!"
+		name = "Okay!"
 		ai_chance = {
 			factor = 100
 		}
