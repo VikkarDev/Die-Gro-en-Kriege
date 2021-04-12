@@ -1,0 +1,43 @@
+﻿l_english: 
+ 
+# FOCUS TREE
+########### 1900-1914 Focus Tree Localisation ###########
+RAJ_invite_british_investors:0 "Invite British Investors"
+RAJ_invite_british_investors_desc:0 "To expand our factories and resources we still heavily rely on British capital. Until we have a vigorous banking sector of our own, we must go on bended knee to London to seek support."
+RAJ_indian_national_congress:0 "Indian National Congress"
+RAJ_indian_national_congress_desc:0 "In 1885, the Indian National Congress was created so that Indians could get a greater say in how the British would govern them. If the National Congress is expanded and supported, hopefully Britain will offer India some autonomy and freedom."
+RAJ_anti_british_stance:0 "Anti British Stance"
+RAJ_anti_british_stance_desc:0 "Locals must do everything to try and fight against the British rule. We do not want them in India, for India should be a free country ruled by Indians, not by foreigners."
+RAJ_pro_british_stance:0 "Pro British Stance"
+RAJ_pro_british_stance_desc:0 "We should accept the British rule. They are too powerful for us to fight against them, and perhaps allowing the British into our lands could help our economy. Not only that, but we need Britain's naval power to protect us from foreign threats looking to conquer and steal our resources."
+RAJ_protest_in_the_streets:0 "Protest in the Streets"
+RAJ_protest_in_the_streets_desc:0 "If we want to make a change and kick the British out of our nation, we must start protesting on the streets. Eventually if we gain enough support, we can overpower the British and get rid of them."
+RAJ_improve_the_trade_routes:0 "Improve the Trade Routes"
+RAJ_improve_the_trade_routes_desc:0 "Many land trade routes through Asia go through the Indian state. If continue to expand and improve the trade routes, the trade that goes through our land will help our economy."
+RAJ_draw_in_foreign_trade:0 "Draw in Foreign Trade"
+RAJ_draw_in_foreign_trade_desc:0 "We should convince more nations to use our trade routes. This will drastically improve our economy and industry, and many nations will have a higher opinion of us."
+RAJ_invite_foreign_investors:0 "Invite Foreign Investors"
+RAJ_invite_foreign_investors_desc:0 "Humiliating though it may be, the best way to industrialize our nation is by approaching the very people who have been exploiting us."
+
+# EVENTS
+########### RAJ Events Localisation ###########
+india.1.title:0 "Rise of the Muslim League"
+india.1.desc:0 "Today Muhammad Ali Jinnah has announced the formation of the Muslim League, and organization dedicated to the creation of a new Muslim state in India, Pakistan. What this will mean for India's future is uncertain."
+india.1.a:0 "This isn't good"
+india.2.title:0 "Protests Against the British"
+india.2.desc:0 "We have managed to rally many Indian citizens and they have risen up in the streets to protest against the British rule. Soon the British will be out of our country!"
+india.2.a:0 "For India!"
+india.3.title:0 "British Police Crackdowns"
+india.3.desc:0 "Some British garrison police arrived at a protesting site and started beating up and arresting protestors. Many Indians were angered by this ruthless action."
+india.3.a:0 "Damn the British"
+
+# NATIONAL SPIRITS
+########### RAJ National Spirits Localisation ###########
+RAJ_heavy_british_garrison:0 "Heavy British Garrison"
+RAJ_heavy_british_garrison_desc:0 "India is one of Britain's most important colony. Because of this, the British government has decided to place very heavy garrison in India for the purpose of crushing any resistance."
+RAJ_failing_economy:0 "Failing Economy"
+RAJ_failing_economy_desc:0 "India has simply too many people to feed. With British taking away some of their crops to send to their homeland, we have even less food to go on. Our algricultural economy is very unstable and there is a risk of famine." 
+RAJ_the_muslim_league:0 "The Muslim League"
+RAJ_protest_in_the_streets:0 "Protest in the Streets"
+RAJ_improve_the_trade_routes:0 "Improve the Trade Routes"
+RAJ_draw_in_foreign_trade:0 "Draw in Foreign Trade"
