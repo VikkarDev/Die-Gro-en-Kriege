@@ -101,7 +101,7 @@ continuous_focus_position = {
 
 	focus = {
 		id = SWE_4
-		icon = GFX_GER_focus_north_coalmines
+		icon = GFX_SWE_focus_steel_fc
 		x = 2
 		y = 2
 		cost = 10
