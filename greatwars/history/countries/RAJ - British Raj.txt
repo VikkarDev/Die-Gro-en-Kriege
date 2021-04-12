@@ -13,6 +13,14 @@ capital = 439
 		#election_frequency = 48
 		elections_allowed = no
 	}
+	
+	add_ideas = {
+		RAJ_heavy_british_garrison
+		RAJ_failing_economy
+		volunteer_only
+		export_focus
+		civilian_economy
+	}
 
 	set_popularities = {
 		vanguard_communism = 0
