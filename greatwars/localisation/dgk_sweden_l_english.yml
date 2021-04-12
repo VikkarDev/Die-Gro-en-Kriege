@@ -24,7 +24,11 @@
 
 
 # EVENTS 
- sweden.1.t:0 "Norway left the union"
+ sweden.1.t:0 "Norway Leaves the Union"
+ sweden.1.d:0 "Norway entered a union with us Swedes after they lost the war against us in 1814. Even though we tried to give the Norwegians a sense of independence, they still complained. Their economic system is rather different from ours, and Norway and Sweden have different diplomatic statuses with different countries. A coalition government was created in Norway with the goal of dissolving the union. Our King Oscar failed to pass some laws that the Norwegians wanted, and even more Norwegians started turning towards the idea of breaking up the union. Eventually our king was forced to let the Norwegians hold a vote on them leaving the union, and dissolution passed by 99.95% of the vote. Now Norway has officially left the union."
+
+
+
 
  # IDEAS
  SWE_Swedish_neutrality:0 "Swedish Neutrality"
