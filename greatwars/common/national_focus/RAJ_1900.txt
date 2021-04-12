@@ -25,5 +25,48 @@ focus_tree = {
 		completion_reward = {
 			add_political_power = 120
 		}
+
+	focus = {
+		id = RAJ_oppose_the_british
+		icon = GFX_goal_unknown
+		x = 6
+		y = 1
+		cost = 10
+		prerequisite = { focus = RAJ_empower_the_national_congress }
+		mutually_exclusive = { focus = RAJ_accept_the_british }
+		search_filters = { FOCUS_FILTER_STABILITY } 
+		ai_will_do = {
+			factor = 3
+		}
+		completion_reward = {
+			add_stability= 0.1  
+
+			add_opinion_modifier= { 
+        			target = ENG 
+       				modifier = large_decrease
+			}
+		}
+	}
+
+	focus = {
+		id = RAJ_accept_the_british
+		icon = GFX_goal_unknown
+		x = 0
+		y = 0
+		cost = 10
+		prerequisite = { focus = RAJ_empower_the_national_congress }
+		mutually_exclusive = { focus = RAJ_oppose_the_british }
+		search_filters = { FOCUS_FILTER_STABILITY } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_stability= -0.1  
+			add_political_power= 100 
+			add_opinion_modifier= { 
+        			target = ENG 
+        			modifier = large_increase
+			}
+		}
 	}
 }
