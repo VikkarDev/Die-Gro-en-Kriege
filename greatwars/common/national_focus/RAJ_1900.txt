@@ -25,6 +25,7 @@ focus_tree = {
 		completion_reward = {
 			add_political_power = 120
 		}
+	}
 
 	focus = {
 		id = RAJ_oppose_the_british
