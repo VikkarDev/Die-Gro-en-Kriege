@@ -7,7 +7,7 @@ capital = 141
 
 	set_research_slots = 3
 	set_stability = 0.54
-	set_war_support = 0.34
+	set_war_support = 0.16
 
 	set_cosmetic_tag = NOR_SWE_union
 
