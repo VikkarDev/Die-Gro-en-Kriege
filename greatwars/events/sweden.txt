@@ -14,7 +14,7 @@ country_event = {
 
 
 	option = {
-		name = "Okay!"
+		name = "Our union is collapsing..."
 		ai_chance = {
 			factor = 100
 		}
