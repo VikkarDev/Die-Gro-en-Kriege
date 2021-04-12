@@ -1,23 +1,46 @@
 focus_tree = {
 	id = RAJ_1900
-
 	country = {
 		factor = 0
-
 		modifier = {
 			add = 10
 			tag = RAJ
 		}
 	}
-
-	default = no
-
+	#Focus for Invite British Investors
 	focus = {
-		id = RAJ_empower_the_national_congress
+		id = RAJ_invite_british_investors
 		icon = GFX_goal_unknown
-		x = 0
+		x = 3
+		y = 2
+		cost = 10
+		 
+		prerequisite = { 
+			focus = RAJ_pro_british_stance 
+		}
+		prerequisite = { 
+			focus = RAJ_invite_foreign_investors 
+		}
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_offsite_building= { 
+        				type = industrial_complex 
+        				level = 3
+			}
+		}
+	}
+
+	#Focus for Indian National Congress
+	focus = {
+		id = RAJ_indian_national_congress
+		icon = GFX_goal_unknown
+		x = 6
 		y = 0
 		cost = 10
+		 
 		search_filters = { FOCUS_FILTER_POLITICAL } 
 		ai_will_do = {
 			factor = 1
@@ -27,47 +50,133 @@ focus_tree = {
 		}
 	}
 
+	#Focus for Anti British Stance
 	focus = {
-		id = RAJ_oppose_the_british
+		id = RAJ_anti_british_stance
 		icon = GFX_goal_unknown
-		x = 6
+		x = 8
 		y = 1
 		cost = 10
-		prerequisite = { focus = RAJ_empower_the_national_congress }
-		mutually_exclusive = { focus = RAJ_accept_the_british }
+		 
+		prerequisite = { focus = RAJ_indian_national_congress }
+		mutually_exclusive = { focus = RAJ_pro_british_stance }
 		search_filters = { FOCUS_FILTER_STABILITY } 
 		ai_will_do = {
-			factor = 3
+			factor = 1
 		}
 		completion_reward = {
 			add_stability= 0.1  
 
 			add_opinion_modifier= { 
-        			target = ENG 
+        				target = ENG 
        				modifier = large_decrease
 			}
 		}
 	}
 
+	#Focus for Pro British Stance
 	focus = {
-		id = RAJ_accept_the_british
+		id = RAJ_pro_british_stance
 		icon = GFX_goal_unknown
-		x = 0
-		y = 0
+		x = 4
+		y = 1
 		cost = 10
-		prerequisite = { focus = RAJ_empower_the_national_congress }
-		mutually_exclusive = { focus = RAJ_oppose_the_british }
+		 
+		prerequisite = { focus = RAJ_indian_national_congress }
+		mutually_exclusive = { focus = RAJ_anti_british_stance }
 		search_filters = { FOCUS_FILTER_STABILITY } 
 		ai_will_do = {
 			factor = 1
 		}
 		completion_reward = {
 			add_stability= -0.1  
-			add_political_power= 100 
-			add_opinion_modifier= { 
-        			target = ENG 
-        			modifier = large_increase
+			add_political_power= 100  add_opinion_modifier= { 
+        				target = ENG 
+        				modifier = large_increase
 			}
 		}
 	}
+
+	#Focus for Protest in the Streets
+	focus = {
+		id = RAJ_protest_in_the_streets
+		icon = GFX_goal_unknown
+		x = 8
+		y = 2
+		cost = 10
+		 
+		prerequisite = { focus = RAJ_anti_british_stance }
+		search_filters = { FOCUS_FILTER_TFV_AUTONOMY } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_ideas= RAJ_protest_in_the_streets
+
+			hidden_effect = {
+        				country_event = { 
+                				days = 1 
+                				id = india.2 
+        				}
+			}
+		}
+	}
+
+	#Focus for Improve the Trade Routes
+	focus = {
+		id = RAJ_improve_the_trade_routes
+		icon = GFX_goal_unknown
+		x = 1
+		y = 0
+		cost = 10
+		 
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_ideas= RAJ_improve_the_trade_routes
+		}
+	}
+
+	#Focus for Draw in Foreign Trade
+	focus = {
+		id = RAJ_draw_in_foreign_trade
+		icon = GFX_goal_unknown
+		x = 0
+		y = 1
+		cost = 10
+		 
+		prerequisite = { focus = RAJ_improve_the_trade_routes }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_ideas= RAJ_draw_in_foreign_trade
+		}
+	}
+
+	#Focus for Invite Foreign Investors
+	focus = {
+		id = RAJ_invite_foreign_investors
+		icon = GFX_goal_unknown
+		x = 2
+		y = 1
+		cost = 10
+		 
+		prerequisite = { focus = RAJ_improve_the_trade_routes }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_offsite_building= { 
+       				type = industrial_complex 
+        				level = 2 
+			}
+		}
+	}
+
+#End of focuses 
 }
