@@ -45,7 +45,9 @@
  SWE_kiruna-narvik_Railroad_desc:0 ""
  SWE_SCHOOL:0 "Build New Schools"
  SWE_SCHOOL_desc:0 "" 
- SWE_4:0 "Steel Production"
+ SWE_steel_foc:0 "Steel Production"
+ SWE_steel_foc_desc:0 ""
+ SWE_expand_civilian_work:0 "Expand Civilian Work"
 
  #partys 
  #sweden 

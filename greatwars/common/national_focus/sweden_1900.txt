@@ -64,7 +64,7 @@ continuous_focus_position = {
 	}
 
 	focus = {
-		id = SWE_3
+		id = SWE_expand_civilian_work
 		icon = GFX_GER_focus_heavy_industry
 		x = 0
 		y = 2
@@ -100,7 +100,7 @@ continuous_focus_position = {
 
 
 	focus = {
-		id = SWE_4
+		id = SWE_steel_foc
 		icon = GFX_SWE_focus_steel_fc
 		x = 2
 		y = 2
@@ -134,7 +134,7 @@ continuous_focus_position = {
 		x = -1
 		y = 3
 		cost = 10
-		prerequisite = { focus = SWE_3  }
+		prerequisite = { focus = SWE_expand_civilian_work  }
 		
 	}
 
@@ -155,7 +155,7 @@ continuous_focus_position = {
 		x = 3
 		y = 3
 		cost = 10
-		prerequisite = { focus = SWE_4  }
+		prerequisite = { focus = SWE_steel_foc  }
 	}
 
 
@@ -239,10 +239,10 @@ continuous_focus_position = {
 		y = 3
 		cost = 10
 			prerequisite = {
-				focus = SWE_4
+				focus = SWE_steel_foc
 			}
 			prerequisite = {
-				focus = SWE_3
+				focus = SWE_expand_civilian_work
 			}
 			completion_reward = {
 		    add_research_slot = 1
