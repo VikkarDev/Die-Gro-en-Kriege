@@ -1,0 +1,31 @@
+ideas = {
+	country = {
+
+		RAJ_heavy_british_garrison = {
+			ledger = army
+			picture = tfv_can_conscription_crisis
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = no
+			}
+			modifier = {
+				autonomy_gain = -1
+			}
+		}
+
+		RAJ_failing_economy = {
+			picture = raj_risk_of_famine
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = no
+			}
+			modifier = {
+				consumer_goods_factor = 0.1
+			}
+		}
+	}
+}
