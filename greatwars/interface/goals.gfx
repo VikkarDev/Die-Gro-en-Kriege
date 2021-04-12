@@ -1,6 +1,10 @@
 spriteTypes = {
 
 	#### Mod goal icons
+	SpriteType = {
+		name = "GFX_SWE_focus_steel_fc"
+		texturefile = "gfx/interface/goals/swe/SWE_focus_steel.dds"
+	}
 	
 	SpriteType = {
 		name = "GFX_SOV_focus_state_duma"
