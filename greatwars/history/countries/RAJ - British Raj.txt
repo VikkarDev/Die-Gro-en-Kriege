@@ -34,7 +34,7 @@ capital = 439
 	}
 
 	create_country_leader = {
-		name = "Unknown"
+		name = "George Curzon"
 		desc = ""
 		picture = "Unknown.dds"
 		ideology = conserv
