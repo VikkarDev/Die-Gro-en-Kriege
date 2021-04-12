@@ -14,3 +14,8 @@ RAJ_accept_the_british_desc:0 "We should accept the British rule. They are too p
 #IDEAS
 RAJ_heavy_british_garrison:0 "Heavy British Garrison"
 RAJ_failing_economy:0 "Failing Economy"
+
+#EVENTS
+india.1.title:0 "Rise of the Muslim League"
+india.1.desc:0 "Today Muhammad Ali Jinnah has announced the formation of the Muslim League, and organization dedicated to the creation of a new Muslim state in India, Pakistan. What this will mean for India's future is uncertain."
+india.1.a:0 "This isn't good"
