@@ -34,12 +34,12 @@ capital = 439
 	}
 
 	create_country_leader = {
-		name = "Lord Curzon"
+		name = "Victoria"
 		desc = ""
-		picture = "Unknown.dds"
+		picture = "Victoria.dds"
 		ideology = conserv
 		traits = {
-			
+			queen_of_the_people
 		}
 	}
 }
