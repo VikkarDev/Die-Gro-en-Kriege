@@ -27,7 +27,7 @@ ideas = {
 				consumer_goods_factor = 0.1
 			}
 		}
-		
+
 		RAJ_the_muslim_league = {
 			picture = raj_marginalized_muslim_community
 			allowed = {
@@ -38,9 +38,10 @@ ideas = {
 			}
 			modifier = {
 				stability_factor = -0.1
-			conscription_factor = -0.2
+				conscription_factor = -0.2
 			}
 		}
+
 		RAJ_protest_in_the_streets = {
 			ledger = army
 			picture = raj_all_india_forward_bloc
@@ -78,6 +79,61 @@ ideas = {
 			}
 			modifier = {
 				consumer_goods_factor = -0.05
+			}
+		}
+
+		RAJ_the_economic_path = {
+			ledger = army
+			picture = generic_goods_red_bonus
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = no
+			}
+			modifier = {
+				production_speed_buildings_factor = 0.1
+			}
+		}
+
+		RAJ_continue_down_the_agrarian_path = {
+			picture = generic_agrarian_society
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = no
+			}
+			modifier = {
+				consumer_goods_factor = -0.05
+			}
+		}
+
+		RAJ_maintain_the_crops = {
+			picture = generic_agrarian_reform
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = no
+			}
+			modifier = {
+				consumer_goods_factor = -0.01
+				local_resources_factor = 0.1
+			}
+		}
+
+		RAJ_clean_out_the_water = {
+			picture = yug_federal_defense_council
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = no
+			}
+			modifier = {
+				consumer_goods_factor = -0.03
+				conscription_factor = 0.1
 			}
 		}
 	}
