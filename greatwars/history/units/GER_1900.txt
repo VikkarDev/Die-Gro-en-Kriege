@@ -130,9 +130,36 @@ units = {
 	division= {	
 		division_name = {
 				is_name_ordered = yes
+				name_order = 3
+		}
+		location = 4879
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		division_name = {
+				is_name_ordered = yes
 				name_order = 23
 		}
 		location = 478
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 23
+		}
+		location = 12843
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 23
+		}
+		location = 2080
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.3
 	}
