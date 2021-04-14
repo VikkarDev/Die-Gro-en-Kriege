@@ -125,6 +125,13 @@ defined_text = {
 	}
 
 	text = {
+		trigger = {
+			tag = AUS
+		}
+		localization_key = AUS_HOS_TITLE
+	}
+
+	text = {
 		localization_key = DEFAULT_HOS_TITLE
 	}
 }
@@ -252,7 +259,14 @@ defined_text = {
 		}
 		localization_key = ITA_HOG_TITLE
 	}
-
+	
+	text = {
+		trigger = {
+			tag = AUS
+		}
+		localization_key = AUS_HOG_TITLE
+	}
+	
 	text = {
 		localization_key = DEFAULT_HOG_TITLE
 	}
@@ -417,6 +431,14 @@ defined_text = {
 			}
 		}
 		localization_key = ITA_PELLOUX_NAME
+	}
+
+	text = {
+		trigger = {
+			tag = AUS
+			has_country_flag = Heinrich_von_Wittek_vp
+		}
+		localization_key = AUS_Heinrich_von_Wittek_NAME
 	}
 
 	text = {
@@ -592,6 +614,15 @@ defined_text = {
 		}
 		localization_key = "GFX_ITA_Luigi_Pelloux"
 	}
+
+	text = {
+		trigger = {
+			tag = AUS
+			has_country_flag = Heinrich_von_Wittek_vp
+		}
+		localization_key = "GFX_AUS_Heinrich_von_Wittek"
+	}
+
 	text = {
 		localization_key = "GFX_portrait_bg_blank"
 	}

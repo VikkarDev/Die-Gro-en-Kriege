@@ -106,4 +106,9 @@ spriteTypes = {
 		name = "GFX_ITA_Luigi_Pelloux"
 		texturefile = "gfx/leaders/ITA/Luigi_Pelloux.dds"
 	}
+	# AUSTRIA 
+	spriteType = {
+		name = "GFX_AUS_Heinrich_von_Wittek"
+		texturefile = "gfx/leaders/AUS/Heinrich_von_Wittek.dds"
+	}
 }

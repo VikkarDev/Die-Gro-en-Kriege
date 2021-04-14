@@ -9,6 +9,7 @@ capital = 4
 	set_research_slots = 4
 
 	set_cosmetic_tag = AUS_HUN_dual
+	set_country_flag = Heinrich_von_Wittek_vp
 
 	give_guarantee = GER
 	give_guarantee = AUS

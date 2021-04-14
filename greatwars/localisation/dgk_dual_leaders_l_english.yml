@@ -33,3 +33,9 @@ SAF_HOG_TITLE:0 "Prime Minister"
 SAF_HOS_TITLE:0 "Governor"
 SAF_William_Philip_Schreiner:0 "William Philip Schreiner"
 SAF_William_Philip_Schreiner_NAME:0 "William Philip Schreiner"
+
+# AUS
+AUS_HOG_TITLE:0 "Premierminister"
+AUS_HOS_TITLE:0 "Kaiser"
+AUS_Heinrich_von_Wittek_NAME:0 "Heinrich von Wittek" 
+AUS_Heinrich_von_Wittek:0 "Heinrich von Wittek"
