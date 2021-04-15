@@ -135,6 +135,99 @@ focus_tree = {
             }
 		}
     }
+    focus = {
+        id = ENG_develop_the_isles
+        icon = GFX_eng_the_the_british_military
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        x = 15
+        y = 1
+
+        cost = 10
+		prerequisite = { focus = ENG_the_anglo_industry }
+        mutually_exclusive = {
+            focus = ENG_develop_the_colonies
+        }
+        available = {
+            country_exists = ENG
+        }
+
+        bypass = {
+            
+        }
+
+		completion_reward = {
+			
+		}
+    }
+    focus = {
+        id = ENG_independize_irish_economy
+        icon = GFX_eng_the_the_british_military
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        x = 15
+        y = 2
+
+        cost = 10
+		prerequisite = { focus = ENG_develop_the_isles }
+
+        available = {
+            country_exists = ENG
+        }
+
+        bypass = {
+            
+        }
+
+		completion_reward = { 
+			
+		}
+    }
+    focus = {
+        id = ENG_develop_the_colonies
+        icon = GFX_eng_the_the_british_military
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        x = 17
+        y = 1
+
+        cost = 10
+		prerequisite = { focus = ENG_the_anglo_industry }
+        mutually_exclusive = {
+            focus = ENG_develop_the_isles
+        }
+        available = {
+            country_exists = ENG
+        }
+
+        bypass = {
+            
+        }
+
+		completion_reward = { 
+			
+		}
+    }
+    focus = {
+        id = ENG_fortify_the_RAJ
+        icon = GFX_eng_the_the_british_military
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        x = 17
+        y = 2
+
+        cost = 10
+		prerequisite = { focus = ENG_develop_the_colonies }
+       
+        available = {
+            country_exists = ENG
+        }
+
+        bypass = {
+            
+        }
+
+		completion_reward = { 
+			
+		}
+    }
+
 
 	focus = {
         id = ENG_continue_isolationism
