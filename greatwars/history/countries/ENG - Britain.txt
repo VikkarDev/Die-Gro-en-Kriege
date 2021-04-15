@@ -108,12 +108,12 @@ capital = 126
 	}
 
 	create_country_leader = {
-		name = "Victoria"
-		desc = ""
-		picture = "Victoria.dds"
+		name = "Robert Gascoyne-Cecil"
+		desc = ROBERT_CECIL_LEADER_DESCRIPTION
+		picture = "Robert_Gascoyne-Cecil.dds"
 		ideology = conserv
 		traits = {
-			queen_of_the_people
+			#queen_of_the_people
 		}
 	}
 }
