@@ -30,7 +30,12 @@ ENG_dockyard_production:0 "Dockyard Production"
 ENG_dockyard_production_desc:0 ""
 ENG_dreadnought_construction:0 "Dreadnought Construction"
 ENG_dreadnought_construction_desc:0 ""
-
+ENG_The_Conservative_Party:0 "The Conservative Party Has Always Known Best"
+ENG_The_Conservative_Party_desc:0 ""
+ENG_Hierarchical_Society:0 "Enforce The Traditional Hierarchical Society"
+ENG_Hierarchical_Society_desc:0 ""
+ENG_Working_Class:0 "Better Compensation For Our Working Class"
+ENG_Working_Class_desc:0 ""
 ########### UK Country Names & Cosmetic Localisation ###########
 ENG_IRE_centrism:0 "United Kingdom"
 ENG_IRE_centrism_DEF:0 "The United Kingdom of Great Britain and Ireland"
