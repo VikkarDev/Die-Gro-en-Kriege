@@ -82,12 +82,12 @@ capital = 819
 	}
 
 	create_country_leader = {
-		name = "Wilhelm II"
-		desc = WILHELM_LEADER_DESCRIPTION
-		picture = "Wilhelm_II.dds"
+		name = "Chlodwig Carl Viktor"
+		desc = VIKTOR_LEADER_DESCRIPTION
+		picture = "Carl_Viktor.dds"
 		ideology = social_liberal
 		traits = {
-			kaiserin_of_the_people
+			#kaiserin_of_the_people
 		}
 	}
 

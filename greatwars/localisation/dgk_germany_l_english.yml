@@ -374,6 +374,7 @@ GER_arthur_von_posadowsky_wehner_int:0 "Arthur von Posadowsky-Wehner"
 ########### Germany Leader Info Localisation ###########
 GER_HOG_TITLE:0 "Reichskanzler"
 GER_HOS_TITLE:0 "Deutscher Kaiser"
+GER_WILHELM_II_NAME:0 "Wilhelm II"
 GER_WILHELM_II:0 "Wilhelm II"
 GER_CARL_VIKTOR:0 "Chlodwig Carl Viktor Fürst zu Hohenlohe-Schillingsfürst"
 CARL_VIKTOR_NAME:0 "Chlodwig Carl Viktor"
