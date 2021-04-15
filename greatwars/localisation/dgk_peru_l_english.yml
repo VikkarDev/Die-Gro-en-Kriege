@@ -1,0 +1,71 @@
+﻿ l_english:
+
+
+# Peru #
+ #localisation# 
+ ##BY Eoot##
+ PRU_traditional_conservatism:0 "Peru"
+ PRU_traditional_conservatism_DEF:0 "Peru"
+ PRU_traditional_conservatism_ADJ:0 "Peruvian"
+ PRU_chauvinist_populism:0 "Commune of Peru"
+ PRU_chauvinist_populism_DEF:0 "Commune of Peru"
+ PRU_centrism:0 "Peru"
+ PRU_centrism_DEF:0 "Peru"
+ PRU_autocracy:0 "Kingdom of Peru"
+ PRU_autocracy_DEF:0 "The Kingdom of Peru"
+ PRU_marxist_leninism:0 "Peruano"
+ PRU_marxist_leninism_DEF:0 "Peruano"
+ PRU_chauvinist_populism_ADJ:0 "Peruvian"
+ PRU_centrism_ADJ:0 "Peruvian"
+ PRU_autocracy_ADJ:0 "Peruvian"
+ PRU_marxist_leninism_ADJ:0 "Peruvian"
+ PRU_social_liberalism:0 "Kingdom of Peru"
+ PRU_social_liberalism_DEF:0 "The Kingdom of Peru"
+
+
+# EVENTS 
+ Peru.1.d:0 "desc"
+
+
+
+
+ # IDEAS
+ PRU_Political_Instability:0 "Political Instability"
+ PRU_Political_Instability_desc:0 "The political landscape of Peru must be reworked."
+ PRU_Economic_Instability:0 "Economic Instability"
+ PRU_Economic_Instability_desc:0 "The Economic landscape of Peru must be remade!"
+
+ #FOCUS
+ #### Peru
+ PRU__focus:0 ""
+ PRU__focus_desc:0 ""
+
+
+ #partys 
+ #Peru 
+ SWE_social_liberalism_party_long:0 "Civilista Party"
+ SWE_democratic_socialism_party_long:0 "insert party here"
+ SWE_libertarian_socialism_party_long:0 "insert party here"
+ SWE_centrism_party:0 "" 
+ SWE_democratic_socialism_party:0 "IPH"
+ SWE_social_liberalism_party:0 "CP"
+ SWE_libertarian_socialism_party:0 "IPH"
+
+
+
+ #Peru-norway names
+ NOR_SWE_union_social_liberalism:0 "United Kingdoms of Peru and Norway"
+ NOR_SWE_union_social_liberalism_DEF:0 "United Kingdoms of Peru and Norway"
+ NOR_SWE_union_centrism:0 "United Kingdoms of Peru and Norway"
+ NOR_SWE_union_centrism_DEF:0 "The United Kingdoms of Peru and Norway"
+ NOR_SWE_union_traditional_conservatism:0 "United Kingdoms of Peru and Norway"
+ NOR_SWE_union_traditional_conservatism_DEF:0 "The United Kingdoms of Peru and Norway"
+
+ #leader localization
+ SWE_HOG_TITLE:0 "Statsminister"
+ SWE_HOS_TITLE:0 "Kung"
+ SWE_OSCAR_II:0 "Oscar II"
+ SWE_Erik_Gustaf_Bostrom:0 "Erik Gustaf Boström"
+ SWE_Erik_Gustaf_Bostrom_NAME:0 "Erik Gustaf Boström"
+ OSCAR_II_LEADER_DESCRIPTION:0 "Description needed."
+ BOSTROM_LEADER_DESCRIPTION:0 "Description needed."
