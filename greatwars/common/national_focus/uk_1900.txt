@@ -470,4 +470,169 @@ focus_tree = {
 			
 		}
     }
+    focus = {
+        id = ENG_irish_question
+        icon = GFX_eng_The_Irish_Question
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        x = 47
+        y = 0
+
+        cost = 10
+		#prerequisite = { focus = ENG_the_labour_party }
+        #mutually_exclusive = {
+          #  focus = ENG_the_labour_party
+        #}
+        available = {
+            
+        }
+
+        bypass = {
+            
+        }
+
+		completion_reward = {
+			
+		}
+    }
+    focus = {
+        id = ENG_Negotiate_IRA
+        icon = GFX_eng_The_Irish_Question
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        x = 45
+        y = 1
+
+        cost = 10
+		prerequisite = { focus = ENG_irish_question }
+        mutually_exclusive = {
+            focus = ENG_Oppress_The_Irish
+        }
+        available = {
+            
+        }
+
+        bypass = {
+            
+        }
+
+		completion_reward = {
+			
+		}
+    }
+    focus = {
+        id = ENG_puppet_ireland
+        icon = GFX_eng_The_Irish_Question
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        x = 46
+        y = 2
+
+        cost = 10
+		prerequisite = { focus = ENG_Negotiate_IRA }
+        mutually_exclusive = {
+          focus = ENG_free_ireland
+        }
+        available = {
+            
+        }
+
+        bypass = {
+            
+        }
+
+		completion_reward = {
+            
+		}
+    }
+    focus = {
+        id = ENG_free_ireland
+        icon = GFX_eng_The_Irish_Question
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        x = 44
+        y = 2
+
+        cost = 10
+		prerequisite = { focus = ENG_Negotiate_IRA }
+        mutually_exclusive = {
+            focus = ENG_puppet_ireland
+        }
+        available = {
+            
+        }
+
+        bypass = {
+            
+        }
+        
+		completion_reward = {
+            
+		}
+    }
+    focus = {
+        id = ENG_Oppress_The_Irish
+        icon = GFX_eng_The_Irish_Question
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        x = 49
+        y = 1
+
+        cost = 10
+		prerequisite = { focus = ENG_irish_question }
+        mutually_exclusive = {
+            focus = ENG_Negotiate_IRA
+        }
+        available = {
+            
+        }
+
+        bypass = {
+            
+        }
+		completion_reward = {
+            
+		}
+    }
+    focus = {
+        id = ENG_Destroy_IRA
+        icon = GFX_eng_The_Irish_Question
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        x = 49
+        y = 2
+
+        cost = 10
+		prerequisite = { focus = ENG_Oppress_The_Irish }
+       # mutually_exclusive = {
+        #    focus = ENG_puppet_ireland
+        #}
+        available = {
+            
+        }
+
+        bypass = {
+            
+        }
+		completion_reward = {
+            
+		}
+    }
+    focus = {
+        id = ENG_Irish_Resistance
+        icon = GFX_eng_The_Irish_Question
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        x = 49
+        y = 3
+
+        cost = 10
+		prerequisite = { focus = ENG_Destroy_IRA }
+       # mutually_exclusive = {
+        #    focus = ENG_puppet_ireland
+        #}
+        available = {
+            
+        }
+
+        bypass = {
+            
+        }
+		completion_reward = {
+            
+		}
+    }
 }
