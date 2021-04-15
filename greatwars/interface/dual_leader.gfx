@@ -56,8 +56,8 @@ spriteTypes = {
 
 	# UNITED KINGDOM
 	spriteType = {
-		name = "GFX_ENG_Robert_Cecil"
-		texturefile = "gfx/leaders/ENG/Robert_Gascoyne-Cecil.dds"
+		name = "GFX_ENG_Victoria"
+		texturefile = "gfx/leaders/ENG/Victoria.dds"
 	}
 
 	# UNITED STATES
@@ -68,13 +68,8 @@ spriteTypes = {
 
 	# JAPAN
 	spriteType = {
-		name = "GFX_JAP_Yamagata"
-		texturefile = "gfx/leaders/JAP/Yamagata_Aritomo.dds"
-	}
-
-	spriteType = {
-		name = "GFX_JAP_Hirobumi"
-		texturefile = "gfx/leaders/JAP/Hirobumi.dds"
+		name = "GFX_JAP_Mutsuhito"
+		texturefile = "gfx/leaders/JAP/Mutsuhito.dds"
 	}
     
     # KOREA
@@ -103,12 +98,13 @@ spriteTypes = {
 
 	# ITALY
 	spriteType = {
-		name = "GFX_ITA_Luigi_Pelloux"
-		texturefile = "gfx/leaders/ITA/Luigi_Pelloux.dds"
+		name = "GFX_ITA_Umberto_I"
+		texturefile = "gfx/leaders/ITA/Umberto_I.dds"
 	}
-	# AUSTRIA 
+
+	# AUSTRIA
 	spriteType = {
-		name = "GFX_AUS_Heinrich_von_Wittek"
-		texturefile = "gfx/leaders/AUS/Heinrich_von_Wittek.dds"
+		name = "GFX_AUS_Franz_Joseph"
+		texturefile = "gfx/leaders/AUS/Franz_Joseph.dds"
 	}
 }

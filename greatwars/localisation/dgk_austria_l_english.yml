@@ -69,3 +69,8 @@ AUS_centrism_party_long:0 "Országos Alkotmánypárt"
 
 # LEADER INFO
 ########### Austria Leader Info Localisation ###########
+AUS_HOG_TITLE:0 "Premierminister"
+AUS_HOS_TITLE:0 "Kaiser"
+AUS_FRANZ_JOSEPH_NAME:0 "Franz Joseph"
+HEINRICH_RITTER_VON_WITTEK_LEADER_DESCRIPTION:0 "Description needed.
+FRANZ_JOSEPH_LEADER_DESCRIPTION:0 "Description needed."

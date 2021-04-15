@@ -13,6 +13,16 @@ defined_text = {
 				has_government = social_egalitarianism
 			}
 		}
+		localization_key = GER_HOG_TITLE
+	}
+
+	text = {
+		trigger = {
+			tag = GER
+			OR = {
+				has_government = autocracy
+			}
+		}
 		localization_key = GER_HOS_TITLE
 	}
 
@@ -26,7 +36,7 @@ defined_text = {
 				has_government = social_egalitarianism
 			}
 		}
-		localization_key = ENG_HOS_TITLE
+		localization_key = ENG_HOG_TITLE
 	}
 
 	text = {
@@ -57,6 +67,34 @@ defined_text = {
 
 	text = {
 		trigger = {
+			tag = ITA
+			OR = {
+				has_government = centrism
+				has_government = traditional_conservatism
+				has_government = social_liberalism
+				has_government = social_egalitarianism
+				has_government = radical_democracy
+			}
+		}
+		localization_key = ITA_HOG_TITLE
+	}
+
+	text = {
+		trigger = {
+			tag = AUS
+			OR = {
+				has_government = centrism
+				has_government = traditional_conservatism
+				has_government = social_liberalism
+				has_government = social_egalitarianism
+				has_government = radical_democracy
+			}
+		}
+		localization_key = AUS_HOG_TITLE
+	}
+
+	text = {
+		trigger = {
 			tag = JAP
 			OR = {
 				has_government = centrism
@@ -65,7 +103,7 @@ defined_text = {
 				has_government = social_egalitarianism
 			}
 		}
-		localization_key = JAP_HOS_TITLE
+		localization_key = JAP_HOG_TITLE
 	}
 
 	text = {
@@ -118,20 +156,6 @@ defined_text = {
 	}
 
 	text = {
-		trigger = {
-			tag = ITA
-		}
-		localization_key = ITA_HOS_TITLE
-	}
-
-	text = {
-		trigger = {
-			tag = AUS
-		}
-		localization_key = AUS_HOS_TITLE
-	}
-
-	text = {
 		localization_key = DEFAULT_HOS_TITLE
 	}
 }
@@ -149,6 +173,16 @@ defined_text = {
 				has_government = social_egalitarianism
 			}
 		}
+		localization_key = GER_HOS_TITLE
+	}
+
+	text = {
+		trigger = {
+			tag = GER
+			OR = {
+				has_government = autocracy
+			}
+		}
 		localization_key = GER_HOG_TITLE
 	}
 
@@ -162,7 +196,7 @@ defined_text = {
 				has_government = social_egalitarianism
 			}
 		}
-		localization_key = ENG_HOG_TITLE
+		localization_key = ENG_HOS_TITLE
 	}
 
 	text = {
@@ -193,6 +227,32 @@ defined_text = {
 
 	text = {
 		trigger = {
+			tag = ITA
+			OR = {
+				has_government = centrism
+				has_government = traditional_conservatism
+				has_government = social_liberalism
+				has_government = social_egalitarianism
+			}
+		}
+		localization_key = ITA_HOS_TITLE
+	}
+
+	text = {
+		trigger = {
+			tag = AUS
+			OR = {
+				has_government = centrism
+				has_government = traditional_conservatism
+				has_government = social_liberalism
+				has_government = social_egalitarianism
+			}
+		}
+		localization_key = AUS_HOS_TITLE
+	}
+
+	text = {
+		trigger = {
 			tag = JAP
 			OR = {
 				has_government = centrism
@@ -201,7 +261,7 @@ defined_text = {
 				has_government = social_egalitarianism
 			}
 		}
-		localization_key = JAP_HOG_TITLE
+		localization_key = JAP_HOS_TITLE
 	}
 
 	text = {
@@ -254,20 +314,6 @@ defined_text = {
 	}
 
 	text = {
-		trigger = {
-			tag = ITA
-		}
-		localization_key = ITA_HOG_TITLE
-	}
-	
-	text = {
-		trigger = {
-			tag = AUS
-		}
-		localization_key = AUS_HOG_TITLE
-	}
-	
-	text = {
 		localization_key = DEFAULT_HOG_TITLE
 	}
 }
@@ -278,7 +324,7 @@ defined_text = {
 	text = {
 		trigger = {
 			tag = GER
-			has_country_flag = carl_viktor_vp
+			has_country_flag = wilhelm_leader
 			OR = {
 				has_government = centrism
 				has_government = traditional_conservatism
@@ -286,13 +332,13 @@ defined_text = {
 				has_government = social_egalitarianism
 			}
 		}
-		localization_key = CARL_VIKTOR_NAME
+		localization_key = GER_WILHELM_II_NAME
 	}
 
 	text = {
 		trigger = {
 			tag = ENG
-			has_country_flag = robert_cecil_vp
+			has_country_flag = victoria_leader
 			OR = {
 				has_government = centrism
 				has_government = traditional_conservatism
@@ -300,7 +346,7 @@ defined_text = {
 				has_government = social_egalitarianism
 			}
 		}
-		localization_key = ENG_ROBERT_NAME
+		localization_key = ENG_VICTORIA_NAME
 	}
 
 	text = {
@@ -347,8 +393,8 @@ defined_text = {
 
 	text = {
 		trigger = {
-			tag = JAP
-			has_country_flag = yamagata_vp
+			tag = ITA
+			has_country_flag = umberto_i_leader
 			OR = {
 				has_government = centrism
 				has_government = traditional_conservatism
@@ -356,13 +402,27 @@ defined_text = {
 				has_government = social_egalitarianism
 			}
 		}
-		localization_key = JAP_YAMAGATA_NAME
+		localization_key = ITA_UMBERTO_I_NAME
+	}
+
+	text = {
+		trigger = {
+			tag = AUS
+			has_country_flag = franz_joseph_leader
+			OR = {
+				has_government = centrism
+				has_government = traditional_conservatism
+				has_government = social_liberalism
+				has_government = social_egalitarianism
+			}
+		}
+		localization_key = AUS_FRANZ_JOSEPH_NAME
 	}
 
 	text = {
 		trigger = {
 			tag = JAP
-			has_country_flag = hirobumi_vp
+			has_country_flag = meiji_leader
 			OR = {
 				has_government = centrism
 				has_government = traditional_conservatism
@@ -370,7 +430,7 @@ defined_text = {
 				has_government = social_egalitarianism
 			}
 		}
-		localization_key = JAP_HIROBUMI_NAME
+		localization_key = JAP_MUTSUHITO_NAME
 	}
 
 	text = {
@@ -420,28 +480,6 @@ defined_text = {
 	}
 
 	text = {
-		trigger = {
-			tag = ITA
-			has_country_flag = luigi_pelloux_vp
-			OR = {
-				has_government = centrism
-				has_government = traditional_conservatism
-				has_government = social_liberalism
-				has_government = social_egalitarianism
-			}
-		}
-		localization_key = ITA_PELLOUX_NAME
-	}
-
-	text = {
-		trigger = {
-			tag = AUS
-			has_country_flag = Heinrich_von_Wittek_vp
-		}
-		localization_key = AUS_Heinrich_von_Wittek_NAME
-	}
-
-	text = {
 		localization_key = DEFAULT_TITLE
 	}
 }
@@ -452,7 +490,7 @@ defined_text = {
 	text = {
 		trigger = {
 			tag = GER
-			has_country_flag = carl_viktor_vp
+			has_country_flag = wilhelm_leader
 			OR = {
 				has_government = centrism
 				has_government = traditional_conservatism
@@ -460,13 +498,13 @@ defined_text = {
 				has_government = social_egalitarianism
 			}
 		}
-		localization_key = "GFX_GER_Carl_Viktor"
+		localization_key = "GFX_GER_Wilhelm_II"
 	}
 
 	text = {
 		trigger = {
 			tag = ENG
-			has_country_flag = robert_cecil_vp
+			has_country_flag = victoria_leader
 			OR = {
 				has_government = centrism
 				has_government = traditional_conservatism
@@ -474,7 +512,7 @@ defined_text = {
 				has_government = social_egalitarianism
 			}
 		}
-		localization_key = "GFX_ENG_Robert_Cecil"
+		localization_key = "GFX_ENG_Victoria"
 	}
 
 	text = {
@@ -535,8 +573,8 @@ defined_text = {
 
 	text = {
 		trigger = {
-			tag = JAP
-			has_country_flag = yamagata_vp
+			tag = ITA
+			has_country_flag = umberto_i_leader
 			OR = {
 				has_government = centrism
 				has_government = traditional_conservatism
@@ -544,13 +582,27 @@ defined_text = {
 				has_government = social_egalitarianism
 			}
 		}
-		localization_key = "GFX_JAP_Yamagata"
+		localization_key = "GFX_ITA_Umberto_I"
+	}
+
+	text = {
+		trigger = {
+			tag = AUS
+			has_country_flag = franz_joseph_leader
+			OR = {
+				has_government = centrism
+				has_government = traditional_conservatism
+				has_government = social_liberalism
+				has_government = social_egalitarianism
+			}
+		}
+		localization_key = "GFX_AUS_Franz_Joseph"
 	}
 
 	text = {
 		trigger = {
 			tag = JAP
-			has_country_flag = hirobumi_vp
+			has_country_flag = meiji_leader
 			OR = {
 				has_government = centrism
 				has_government = traditional_conservatism
@@ -558,7 +610,7 @@ defined_text = {
 				has_government = social_egalitarianism
 			}
 		}
-		localization_key = "GFX_JAP_Hirobumi"
+		localization_key = "GFX_JAP_Mutsuhito"
 	}
 
 	text = {
@@ -608,22 +660,6 @@ defined_text = {
 	}
 
 	text = {
-		trigger = {
-			tag = ITA
-			has_country_flag = luigi_pelloux_vp
-		}
-		localization_key = "GFX_ITA_Luigi_Pelloux"
-	}
-
-	text = {
-		trigger = {
-			tag = AUS
-			has_country_flag = Heinrich_von_Wittek_vp
-		}
-		localization_key = "GFX_AUS_Heinrich_von_Wittek"
-	}
-
-	text = {
 		localization_key = "GFX_portrait_bg_blank"
 	}
 }
@@ -635,17 +671,17 @@ defined_text = {
 	text = {
 		trigger = {
 			original_tag = GER
-			has_country_flag = wilhelm_leader
+			has_country_flag = carl_viktor_vp
 		}
-		localization_key = WILHELM_LEADER_DESCRIPTION
+		localization_key = VIKTOR_LEADER_DESCRIPTION
 	}
 
 	text = {
 		trigger = {
 			original_tag = ENG
-			has_country_flag = victoria_leader
+			has_country_flag = robert_cecil_vp
 		}
-		localization_key = VICTORIA_LEADER_DESCRIPTION
+		localization_key = ROBERT_CECIL_LEADER_DESCRIPTION
 	}
 
 	text = {
@@ -666,10 +702,26 @@ defined_text = {
 
 	text = {
 		trigger = {
-			original_tag = JAP
-			has_country_flag = meiji_leader
+			original_tag = ITA
+			has_country_flag = luigi_pelloux_vp
 		}
-		localization_key = MEIJI_LEADER_DESCRIPTION
+		localization_key = LUIGI_PELLOUX_LEADER_DESCRIPTION
+	}
+
+	text = {
+		trigger = {
+			original_tag = AUS
+			has_country_flag = heinrich_ritter_von_wittek_vp
+		}
+		localization_key = HEINRICH_RITTER_VON_WITTEK_LEADER_DESCRIPTION
+	}
+
+	text = {
+		trigger = {
+			original_tag = JAP
+			has_country_flag = yamagata_vp
+		}
+		localization_key = YAMAGATA_ARITOMO_LEADER_DESCRIPTION
 	}
 
 	text = {
@@ -703,14 +755,6 @@ defined_text = {
 		}
 		localization_key = OSCAR_II_LEADER_DESCRIPTION
 	}
-
-	text = {
-		trigger = {
-			original_tag = ITA
-			has_country_flag = umberto_i_leader
-		}
-		localization_key = UMBRETO_I_LEADER_DESCRIPTION
-	}
 }
 
 defined_text = {
@@ -719,17 +763,17 @@ defined_text = {
 	text = {
 		trigger = {
 			original_tag = GER
-			has_country_flag = carl_viktor_vp
+			has_country_flag = wilhelm_leader
 		}
-		localization_key = VIKTOR_LEADER_DESCRIPTION
+		localization_key = WILHELM_LEADER_DESCRIPTION
 	}
 
 	text = {
 		trigger = {
 			original_tag = ENG
-			has_country_flag = robert_cecil_vp
+			has_country_flag = victoria_leader
 		}
-		localization_key = ROBERT_LEADER_DESCRIPTION
+		localization_key = VICTORIA_LEADER_DESCRIPTION
 	}
 
 	text = {
@@ -759,17 +803,33 @@ defined_text = {
 	text = {
 		trigger = {
 			original_tag = JAP
-			has_country_flag = yamagata_vp
+			has_country_flag = meiji_leader
 		}
-		localization_key = YAMAGATA_LEADER_DESCRIPTION
+		localization_key = MEIJI_LEADER_DESCRIPTION
+	}
+
+	text = {
+		trigger = {
+			original_tag = ITA
+			has_country_flag = umberto_i_leader
+		}
+		localization_key = UMBERTO_I_LEADER_DESCRIPTION
+	}
+
+	text = {
+		trigger = {
+			original_tag = AUS
+			has_country_flag = franz_joseph_leader
+		}
+		localization_key = FRANZ_JOSEPH_LEADER_DESCRIPTION
 	}
 
 	text = {
 		trigger = {
 			original_tag = JAP
-			has_country_flag = hirobumi_vp
+			has_country_flag = meiji_leader
 		}
-		localization_key = HIROBUMI_LEADER_DESCRIPTION
+		localization_key = MEIJI_LEADER_DESCRIPTION
 	}
 
 	text = {
@@ -801,13 +861,5 @@ defined_text = {
 			has_country_flag = erik_gustaf_bostrom_vp
 		}
 		localization_key = BOSTROM_LEADER_DESCRIPTION
-	}
-
-	text = {
-		trigger = {
-			original_tag = ITA
-			has_country_flag = luigi_pelloux_vp
-		}
-		localization_key = PELLOUX_LEADER_DESCRIPTION
 	}
 }

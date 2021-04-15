@@ -9,7 +9,6 @@ capital = 4
 	set_research_slots = 4
 
 	set_cosmetic_tag = AUS_HUN_dual
-	set_country_flag = Heinrich_von_Wittek_vp
 
 	give_guarantee = GER
 	give_guarantee = AUS
@@ -57,9 +56,9 @@ capital = 4
 	}
 
 	create_country_leader = {
-		name = "Franz Joseph"
-		desc = ""
-		picture = "Franz_Joseph.dds"
+		name = "Heinrich Ritter von Wittek"
+		desc = HEINRICH_RITTER_VON_WITTEK_LEADER_DESCRIPTION
+		picture = "Heinrich_von_Wittek.dds"
 		ideology = con_liberal
 		traits = {
 			
