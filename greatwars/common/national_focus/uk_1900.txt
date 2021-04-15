@@ -138,7 +138,7 @@ focus_tree = {
 
 	focus = {
         id = ENG_continue_isolationism
-        icon = GFX_eng_continue_isolationism
+        icon = GFX_Continue_Isolationism
         search_filters = { FOCUS_FILTER_POLITICAL }
         x = 22
         y = 0
@@ -220,7 +220,7 @@ focus_tree = {
         id = ENG_boxer_intervention
         icon = GFX_eng_boxer_intervention
         search_filters = { FOCUS_FILTER_POLITICAL }
-        x = 31
+        x = 30
         y = 1
 
         cost = 10
@@ -249,7 +249,7 @@ focus_tree = {
 
         cost = 10
         prerequisite = { focus = ENG_open_up_to_foreign_affairs }
-		#mutually_exclusive = { focus = ENG_continue_isolationism }
+		mutually_exclusive = { focus = ENG_The_Conservative_Party }
 
         available = {
             country_exists = ENG
@@ -396,6 +396,78 @@ focus_tree = {
 
 		completion_reward = {
 			custom_effect_tooltip = "Gets a research boost for dreadnoughts (We need techtree figured out first.)"
+		}
+    }
+    focus = {
+        id = ENG_The_Conservative_Party
+        icon = GFX_eng_dreadnought_construction
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        x = 32
+        y = 1
+
+        cost = 10
+		prerequisite = { focus = ENG_open_up_to_foreign_affairs }
+        mutually_exclusive = {
+            focus = ENG_the_labour_party
+        }
+        available = {
+            
+        }
+
+        bypass = {
+            
+        }
+
+		completion_reward = {
+			
+		}
+    }
+    focus = {
+        id = ENG_Hierarchical_Society
+        icon = GFX_eng_Hierarchical_Society
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        x = 32
+        y = 2
+
+        cost = 10
+		prerequisite = { focus = ENG_The_Conservative_Party }
+        #mutually_exclusive = {
+          #  focus = ENG_the_labour_party
+        #}
+        available = {
+            
+        }
+
+        bypass = {
+            
+        }
+
+		completion_reward = {
+			
+		}
+    }
+    focus = {
+        id = ENG_Working_Class
+        icon = GFX_eng_Working_Class
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        x = 34
+        y = 2
+
+        cost = 10
+		prerequisite = { focus = ENG_the_labour_party }
+        #mutually_exclusive = {
+          #  focus = ENG_the_labour_party
+        #}
+        available = {
+            
+        }
+
+        bypass = {
+            
+        }
+
+		completion_reward = {
+			
 		}
     }
 }
