@@ -46,9 +46,9 @@ capital = 282
 	}
 
 	create_country_leader = {
-		name = "Mutsuhito"
-		desc = MEIJI_LEADER_DESCRIPTION
-		picture = "Mutsuhito.dds"
+		name = "Yamagata Aritomo"
+		desc = YAMAGATA_ARITOMO_LEADER_DESCRIPTION
+		picture = "Yamagata_Aritomo.dds"
 		ideology = conserv
 	}
 }
