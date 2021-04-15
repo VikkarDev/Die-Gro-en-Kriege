@@ -51,8 +51,8 @@ bookmarks = {
 			}
 			focuses = {
 				GER_weltpolitik
+				GER_state_of_the_triple_alliance
 				GER_imperial_german_army
-				GER_imperial_german_economy
 			}
 		}
 		USA = {
@@ -162,6 +162,22 @@ bookmarks = {
 			}
 			focuses = {
 				
+			}
+		}
+
+		"SWE"={
+			minor = yes
+			history = "SWE_SILENT_NIGHT_DESC"
+			ideology = social_liberalism
+			ideas = {
+				SWE_Swedish_neutrality
+				SWE_Undeveloped_North_Region
+				SWE_swed_nor_union
+			}
+			focuses = {
+				SWE_break_neutrality
+				SWE_expand_civilian_work
+				SWE_steel_foc
 			}
 		}
 
