@@ -50,6 +50,11 @@ spriteTypes = {
 		name = "GFX_GER_focus_deutchland_class"
 		texturefile = "gfx/interface/goals/ger/GER_focus_deutchland_class.dds"
 	}
+
+	SpriteType = {
+		name = "GFX_GER_focus_german_army"
+		texturefile = "gfx/interface/goals/ger/GER_focus_german_army.dds"
+	}
 	
 	SpriteType = {
 		name = "GFX_GER_focus_balance_spending"
