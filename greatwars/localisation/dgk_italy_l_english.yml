@@ -44,9 +44,8 @@ ITA_marxist_leninism_ADJ:0 "Italian"
 
 # LEADER INFO
 ########### Italy Leader Info Localisation ###########
-ITA_HOG_TITLE:0 "Il Duce"
+ITA_HOG_TITLE:0 "Presidente del Consiglio dei Ministri"
 ITA_HOS_TITLE:0 "Il Monarca d'Italia"
-ITA_UMBERTO:0 "Umberto I"
-ITA_PELLOUX_NAME:0 "Luigi Pelloux"
+ITA_UMBERTO_I_NAME:0 "Umberto I"
 UMBERTO_I_LEADER_DESCRIPTION:0 "Description here"
-PELLOUX_LEADER_DESCRIPTION:0 "Description here"
+LUIGI_PELLOUX_LEADER_DESCRIPTION:0 "Description here"

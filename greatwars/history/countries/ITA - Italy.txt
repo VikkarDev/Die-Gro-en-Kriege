@@ -37,9 +37,9 @@ capital = 2
 	}
 
 	create_country_leader = {
-		name = "Umberto I"
-		desc = ""
-		picture = "Umberto_I.dds"
+		name = "Luigi Pelloux"
+		desc = LUIGI_PELLOUX_LEADER_DESCRIPTION
+		picture = "Luigi_Pelloux.dds"
 		ideology = conserv
 		traits = {
 			#empire_builder
