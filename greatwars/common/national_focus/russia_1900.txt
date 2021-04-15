@@ -79,7 +79,7 @@
 
 		focus = {
 			id = RUS_1900_what_the_people_want
-			icon = GFX_focus_generic_industry_1
+			icon = GFX_SOV_focus_what_the_people_want
 			x = 7
 			y = 3
 
