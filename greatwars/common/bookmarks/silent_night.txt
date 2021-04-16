@@ -116,9 +116,9 @@ bookmarks = {
 			history = "SPR_SILENT_NIGHT_DESC"
 			ideology = radical_democracy
 			ideas = {
-				SPR_memories_of_the_spanish_american_war
-				SPR_the_regency_of_maria_christina
-				SPR_election_rigging
+				SPR_memories_of_the_spanish_american_war_idea
+				SPR_rigged_elections_idea
+				SPR_an_empire_in_decline_idea
 			}
 			focuses = {
 				SPR_continue_election_rigging_focus

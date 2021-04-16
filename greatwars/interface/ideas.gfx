@@ -173,20 +173,7 @@ spriteTypes = {
 	
 	### SPAIN ###
 	
-	SpriteType = {
-		name = "GFX_idea_spr_memories_of_the_spanish_american_war"
-		texturefile = "gfx/interface/ideas/spr/SPR_idea_memories_of_the_spanish_american_war.dds"
-	}
-	
-	SpriteType = {
-		name = "GFX_idea_spr_the_regency_of_maria_christina_war"
-		texturefile = "gfx/interface/ideas/spr/SPR_idea_the_regency_of_maria_christina.dds"
-	}
 
-	SpriteType = {
-		name = "GFX_idea_spr_election_rigging"
-		texturefile = "gfx/interface/ideas/spr/SPR_idea_election_rigging.dds"
-	}
 
 	### new tfv nat spirit icons
 
