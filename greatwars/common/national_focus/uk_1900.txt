@@ -76,7 +76,7 @@ focus_tree = {
         id = ENG_the_british_military
         icon = GFX_eng_the_the_british_military
         search_filters = { FOCUS_FILTER_POLITICAL }
-        x = 11
+        x = 10
         y = 0
 
         cost = 10
@@ -231,7 +231,7 @@ focus_tree = {
 
 	focus = {
         id = ENG_continue_isolationism
-        icon = GFX_Continue_Isolationism
+        icon = GFX_ENG_focus_continue_isolationism
         search_filters = { FOCUS_FILTER_POLITICAL }
         x = 22
         y = 0
