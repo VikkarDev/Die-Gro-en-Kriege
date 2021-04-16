@@ -108,6 +108,9 @@ continuous_focus_position = {
 		#mutually_exclusive = {
 		#	focus = SWE_3
 		#}
+		available = {
+			country_exists = SWE
+		}
 		prerequisite = { focus = SWE_kiruna-narvik_Railroad  }
 	
 		completion_reward = {
@@ -401,6 +404,9 @@ continuous_focus_position = {
 		x = 30
 		y = 1
 		cost = 10
+		available = {
+			country_exists = SWE
+		}
 			prerequisite = {
 				focus = SWE_hist1
 				focus = SWE_break_neutrality
