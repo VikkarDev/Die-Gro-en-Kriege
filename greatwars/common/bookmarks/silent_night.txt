@@ -36,14 +36,14 @@ bookmarks = {
 			}
 			focuses = {
 				ENG_continue_isolationism
-				ENG_open_up_to_foreign_affairs
+				ENG_irish_question
 				ENG_second_boer_war
 			}
 			
 		}
 		GER = {
 			history = GER_SILENT_NIGHT_DESC
-			ideology = centrism
+			ideology = social_liberalism
 			ideas = {
 				GER_german_army
 				GER_german_colonies
