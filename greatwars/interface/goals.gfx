@@ -20,6 +20,16 @@ spriteTypes = {
 		name = "GFX_SOV_focus_what_the_people_want"
 		texturefile = "gfx/interface/goals/sov/SOV_focus_what_the_people_want.dds"
 	}
+
+	SpriteType = {
+		name = "GFX_SOV_focus_the_safe_option"
+		texturefile = "gfx/interface/goals/sov/SOV_focus_the_safe_option.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_ENG_focus_continue_isolationism"
+		texturefile = "gfx/interface/goals/eng/ENG_focus_continue_isolationism.dds"
+	}
 	
 	SpriteType = {
 		name = "GFX_GER_focus_artillery"

@@ -54,7 +54,7 @@
 
 		focus = {
 			id = RUS_1900_the_safe_option
-			icon = GFX_focus_generic_industry_1
+			icon = GFX_SOV_focus_the_safe_option
 			x = 3
 			y = 3
 
