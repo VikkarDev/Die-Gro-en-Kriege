@@ -789,7 +789,7 @@ defined_text = {
 			original_tag = USA
 			has_country_flag = undecided_vp
 		}
-		localization_key = UNKOWN_LEADER_DESCRIPTION
+		localization_key = UNKNOWN_LEADER_DESCRIPTION
 	}
 
 	text = {
