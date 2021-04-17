@@ -3,7 +3,7 @@ This is experimental. You probaby don't want to download this.
 ----------------------------------------------
 
 Die Großen Kriege is a Hearts of Iron 4 starting in the year 1900.
-An all-encompassing mod of the 20th century, DGK will focus on the important wars and events that took place from 1900-1990, through the basis of the HOI4 Engine.
+An all-encompassing mod of the 20th century, DGK will focus on the important wars and events that took place from 1900-1948, through the basis of the HOI4 Engine.
 
 Our mod team will be initially developing from 1900-1918, and continuing to add new settings and start-dates as we finish the last.
 Play as Germany with the Central Powers, or play as the German Reich with the Axis. Experience the Korean War, Vietnam War, and more. This mod will allow everyone to experience all sides of war from Asia, to Europe, and to America, as well as experiment with various and subtle differences caused by your actions.
