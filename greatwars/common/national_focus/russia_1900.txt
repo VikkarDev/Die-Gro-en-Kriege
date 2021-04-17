@@ -56,7 +56,7 @@
 			id = RUS_1900_the_safe_option
 			icon = GFX_SOV_focus_the_safe_option
 			x = 3
-			y = 3
+			y = 2
 
 			prerequisite = {
 				focus = RUS_1900_first_election_in_russia
@@ -81,7 +81,7 @@
 			id = RUS_1900_what_the_people_want
 			icon = GFX_SOV_focus_what_the_people_want
 			x = 7
-			y = 3
+			y = 2
 
 			prerequisite = {
 				focus = RUS_1900_first_election_in_russia
@@ -104,9 +104,9 @@
 
 		focus = {
 			id = RUS_1900_the_anti_revolution
-			icon = GFX_focus_generic_industry_1
+			icon = GFX_SOV_focus_the_anti_revolution
 			x = 11
-			y = 3
+			y = 2
 
 			cost = 10
 
@@ -131,7 +131,7 @@
 			id = RUS_1900_stabilize_the_people
 			icon = GFX_focus_generic_industry_1
 			x = 2
-			y = 4
+			y = 3
 
 			cost = 10
 
@@ -152,7 +152,7 @@
 			id = RUS_1900_anti_authoritarianism
 			icon = GFX_focus_generic_industry_1
 			x = 4
-			y = 4
+			y = 3
 
 			cost = 10
 
@@ -173,7 +173,7 @@
 			id = RUS_1900_workers_rights
 			icon = GFX_focus_generic_industry_1
 			x = 6
-			y = 4
+			y = 3
 
 			cost = 10
 
@@ -194,7 +194,7 @@
 			id = RUS_1900_government_comprimise
 			icon = GFX_focus_generic_industry_1
 			x = 8
-			y = 4
+			y = 3
 
 			prerequisite = {
 				focus = RUS_1900_what_the_people_want
@@ -215,7 +215,7 @@
 			id = RUS_1900_work_with_the_tsar
 			icon = GFX_focus_generic_industry_1
 			x = 10
-			y = 4
+			y = 3
 
 			prerequisite = {
 				focus = RUS_1900_the_anti_revolution
@@ -236,7 +236,7 @@
 			id = RUS_1900_clash_with_revolutionaries
 			icon = GFX_focus_generic_industry_1
 			x = 12
-			y = 4
+			y = 3
 
 			prerequisite = {
 				focus = RUS_1900_the_anti_revolution
@@ -257,7 +257,7 @@
 			id = RUS_1900_legislative_election_1907
 			icon = GFX_focus_generic_industry_1
 			x = 7
-			y = 6
+			y = 5
 
 			prerequisite = {
 				focus = RUS_1900_work_with_the_tsar
