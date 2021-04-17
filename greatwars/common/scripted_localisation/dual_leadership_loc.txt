@@ -573,6 +573,20 @@ defined_text = {
 
 	text = {
 		trigger = {
+			tag = USA
+			has_country_flag = undecided_vp
+			OR = {
+				has_government = centrism
+				has_government = traditional_conservatism
+				has_government = social_liberalism
+				has_government = social_egalitarianism
+			}
+		}
+		localization_key = "GFX_USA_Vacant_Office"
+	}
+
+	text = {
+		trigger = {
 			tag = ITA
 			has_country_flag = umberto_i_leader
 			OR = {

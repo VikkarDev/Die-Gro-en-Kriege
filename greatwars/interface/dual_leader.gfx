@@ -65,6 +65,11 @@ spriteTypes = {
 		name = "GFX_USA_Theodore_Roosevelt"
 		texturefile = "gfx/leaders/USA/Theodore_Roosevelt.dds"
 	}
+	
+	spriteType = {
+		name = "GFX_USA_Vacant_Office"
+		texturefile = "gfx/leaders/USA/Empty_Office.dds"
+	}
 
 	# JAPAN
 	spriteType = {
