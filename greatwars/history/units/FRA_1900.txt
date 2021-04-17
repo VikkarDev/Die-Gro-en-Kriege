@@ -207,17 +207,6 @@ units = {
 		start_equipment_factor = 0.5
 
 	}
-
-	# Ie Corps d'Armée (Région Militaire in 1936) -- Lille
-	division= {	# "1ère Div. d'Infanterie Motorisée"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 11483
-		division_template = "Division d'Infanterie Motorisée" 	# All motorized are frontline, best equipment
-		start_experience_factor = 0.3
-	}
 	division= {	# "7ème Division d'Infanterie"
 		division_name = {
 			is_name_ordered = yes
@@ -252,27 +241,6 @@ units = {
 		start_experience_factor = 0.3
 	}
 
-	# XIIe Corps d'Armée (Région Militaire in 1936) -- Reims
-	division= {	# "12ème Div. d'Infanterie Motorisée"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 12
-		}
-		location = 9472
-		division_template = "Division d'Infanterie Motorisée" 	# All motorized are frontline, best equipment
-		start_experience_factor = 0.3
-	}
-	division= {	# "1ère Division Légère Mécanique"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 13011
-		division_template = "Division Légère Mécanique" 	# DLM is frontline, best equipment, L Arm = H-35
-		start_experience_factor = 0.3
-		force_equipment_variants = { light_tank_equipment_1 = { owner = "FRA" } }
-	}
-
 	# IVe Corps d'Armée (Région Militaire in 1936) -- Le Mans
 	division= {	# "19ème Division d'Infanterie"
 		division_name = {
@@ -281,17 +249,6 @@ units = {
 		}
 		location = 3509
 		division_template = "Division d'Infanterie" 	# Frontline, best equipment
-		start_experience_factor = 0.3
-	}
-
-	# Ve Corps d'Armée (Région Militaire in 1936) -- Orleans
-	division= {	# "9ème Div. d'Infanterie Motorisée"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 9
-		}
-		location = 3509
-		division_template = "Division d'Infanterie Motorisée" 	# All motorized are frontline, best equipment
 		start_experience_factor = 0.3
 	}
 	division= {	# "1ère Division de Cavalerie"
@@ -348,13 +305,6 @@ units = {
 		location = 6536
 		division_template = "Division d'Infanterie" 	# Frontline, best equipment
 		start_experience_factor = 0.3
-	}
-	division= {	
-		name = "5ème Brigade de Chars de Combat"
-		location = 11465
-		division_template = "Brigade de Chars de Combat" 		# R-35s
-		start_experience_factor = 0.2
-		force_equipment_variants = { light_tank_equipment_1 = { owner = "FRA" } }
 	}
 
 	# Région Militaire de Paris -- Paris
