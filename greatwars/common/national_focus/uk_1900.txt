@@ -18,7 +18,7 @@ focus_tree = {
         id = ENG_second_boer_war
         icon = GFX_eng_second_boer_war
         search_filters = { FOCUS_FILTER_POLITICAL }
-        x = 5
+        x = 3
         y = 0
 
         cost = 6
@@ -44,7 +44,7 @@ focus_tree = {
         id = ENG_offer_negotiations
         icon = GFX_eng_offer_negotiations
         search_filters = { FOCUS_FILTER_POLITICAL }
-        x = 5
+        x = 3
         y = 1
 
         cost = 6
@@ -76,7 +76,7 @@ focus_tree = {
         id = ENG_the_british_military
         icon = GFX_eng_the_the_british_military
         search_filters = { FOCUS_FILTER_POLITICAL }
-        x = 10
+        x = 9
         y = 0
 
         cost = 10
@@ -137,9 +137,9 @@ focus_tree = {
     }
     focus = {
         id = ENG_develop_the_isles
-        icon = GFX_eng_the_the_british_military
+        icon = GFX_ENG_focus_develop_the_isles
         search_filters = { FOCUS_FILTER_POLITICAL }
-        x = 15
+        x = 14
         y = 1
 
         cost = 10
@@ -160,14 +160,124 @@ focus_tree = {
 		}
     }
     focus = {
-        id = ENG_independize_irish_economy
-        icon = GFX_eng_the_the_british_military
+        id = ENG_centralized_economy
+        icon = GFX_ENG_focus_centralized_economy
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        x = 13
+        y = 2
+
+        cost = 10
+		prerequisite = { focus = ENG_develop_the_isles }
+        mutually_exclusive = { focus = ENG_decentralized_economy }
+        available = {
+            country_exists = ENG
+        }
+
+        bypass = {
+            
+        }
+
+		completion_reward = {
+			
+		}
+    }
+    focus = {
+        id = ENG_nationalize_factories
+        icon = GFX_ENG_focus_nationalize_factories
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        x = 13
+        y = 3
+
+        cost = 10
+		prerequisite = { focus = ENG_centralized_economy }
+        #mutually_exclusive = { focus = ENG_decentralized_economy }
+        available = {
+            country_exists = ENG
+        }
+
+        bypass = {
+            
+        }
+
+		completion_reward = {
+			
+		}
+    }
+    focus = {
+        id = ENG_center_of_uk_economy
+        icon = GFX_ENG_focus_center_of_uk_economy
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        x = 13
+        y = 4
+
+        cost = 10
+		prerequisite = { focus = ENG_nationalize_factories }
+        #mutually_exclusive = { focus = ENG_decentralized_economy }
+        available = {
+            country_exists = ENG
+        }
+
+        bypass = {
+            
+        }
+
+		completion_reward = {
+			
+		}
+    }
+    focus = {
+        id = ENG_decentralized_economy
+        icon = GFX_ENG_focus_decentralized_economy
         search_filters = { FOCUS_FILTER_POLITICAL }
         x = 15
         y = 2
 
         cost = 10
 		prerequisite = { focus = ENG_develop_the_isles }
+        mutually_exclusive = { focus = ENG_centralized_economy }
+        available = {
+            country_exists = ENG
+        }
+
+        bypass = {
+            
+        }
+
+		completion_reward = {
+			
+		}
+    }
+    focus = {
+        id = ENG_independize_irish_economy
+        icon = GFX_ENG_focus_independize_irish_economy
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        x = 15
+        y = 3
+
+        cost = 10
+		prerequisite = { focus = ENG_decentralized_economy }
+
+        available = {
+            country_exists = ENG
+        }
+
+        bypass = {
+            
+        }
+
+		completion_reward = { 
+			
+		}
+    }
+    focus = {
+        id = ENG_more_economical_autonomy_to_scottish
+        icon = GFX_ENG_focus_more_economical_autonomy_to_scottish
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        x = 15
+        y = 4
+
+        cost = 10
+		prerequisite = { focus = ENG_independize_irish_economy }
 
         available = {
             country_exists = ENG
@@ -183,9 +293,9 @@ focus_tree = {
     }
     focus = {
         id = ENG_develop_the_colonies
-        icon = GFX_eng_the_the_british_military
+        icon = GFX_ENG_focus_develop_the_colonies
         search_filters = { FOCUS_FILTER_POLITICAL }
-        x = 17
+        x = 18
         y = 1
 
         cost = 10
@@ -206,14 +316,36 @@ focus_tree = {
 		}
     }
     focus = {
-        id = ENG_fortify_the_RAJ
-        icon = GFX_eng_the_the_british_military
+        id = ENG_fortify_the_raj
+        icon = GFX_ENG_focus_fortify_the_raj
         search_filters = { FOCUS_FILTER_POLITICAL }
-        x = 17
+        x = 18
         y = 2
 
         cost = 10
 		prerequisite = { focus = ENG_develop_the_colonies }
+       
+        available = {
+            country_exists = ENG
+        }
+
+        bypass = {
+            
+        }
+
+		completion_reward = { 
+			
+		}
+    }
+    focus = {
+        id = ENG_develop_the_sahara
+        icon = GFX_ENG_focus_develop_the_sahara
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        x = 18
+        y = 3
+
+        cost = 10
+		prerequisite = { focus = ENG_fortify_the_raj }
        
         available = {
             country_exists = ENG
@@ -492,8 +624,8 @@ focus_tree = {
 		}
     }
     focus = {
-        id = ENG_The_Conservative_Party
-        icon = GFX_eng_dreadnought_construction
+        id = ENG_the_conservative_party
+        icon = GFX_ENG_focus_the_conservative_party
         search_filters = { FOCUS_FILTER_POLITICAL }
         x = 32
         y = 1
@@ -516,14 +648,14 @@ focus_tree = {
 		}
     }
     focus = {
-        id = ENG_Hierarchical_Society
-        icon = GFX_eng_Hierarchical_Society
+        id = ENG_hierarchical_society
+        icon = GFX_ENG_focus_hierarchical_society
         search_filters = { FOCUS_FILTER_POLITICAL }
         x = 32
         y = 2
 
         cost = 10
-		prerequisite = { focus = ENG_The_Conservative_Party }
+		prerequisite = { focus = ENG_the_conservative_party }
         #mutually_exclusive = {
           #  focus = ENG_the_labour_party
         #}
@@ -540,8 +672,8 @@ focus_tree = {
 		}
     }
     focus = {
-        id = ENG_Working_Class
-        icon = GFX_eng_Working_Class
+        id = ENG_working_class
+        icon = GFX_ENG_focus_working_class
         search_filters = { FOCUS_FILTER_POLITICAL }
         x = 34
         y = 2
@@ -565,7 +697,7 @@ focus_tree = {
     }
     focus = {
         id = ENG_irish_question
-        icon = GFX_eng_The_Irish_Question
+        icon = GFX_ENG_focus_irish_question
         search_filters = { FOCUS_FILTER_POLITICAL }
         x = 47
         y = 0
@@ -588,8 +720,8 @@ focus_tree = {
 		}
     }
     focus = {
-        id = ENG_Negotiate_IRA
-        icon = GFX_eng_The_Irish_Question
+        id = ENG_negotiate_ira
+        icon = GFX_ENG_focus_negotiate_ira
         search_filters = { FOCUS_FILTER_POLITICAL }
         x = 45
         y = 1
@@ -613,16 +745,14 @@ focus_tree = {
     }
     focus = {
         id = ENG_puppet_ireland
-        icon = GFX_eng_The_Irish_Question
+        icon = GFX_ENG_focus_puppet_ireland
         search_filters = { FOCUS_FILTER_POLITICAL }
         x = 46
         y = 2
 
         cost = 10
-		prerequisite = { focus = ENG_Negotiate_IRA }
-        mutually_exclusive = {
-          focus = ENG_free_ireland
-        }
+		prerequisite = { focus = ENG_negotiate_ira }
+        mutually_exclusive = { focus = ENG_free_ireland }
         available = {
             
         }
@@ -637,16 +767,14 @@ focus_tree = {
     }
     focus = {
         id = ENG_free_ireland
-        icon = GFX_eng_The_Irish_Question
+        icon = GFX_ENG_focus_free_ireland
         search_filters = { FOCUS_FILTER_POLITICAL }
         x = 44
         y = 2
 
         cost = 10
-		prerequisite = { focus = ENG_Negotiate_IRA }
-        mutually_exclusive = {
-            focus = ENG_puppet_ireland
-        }
+		prerequisite = { focus = ENG_negotiate_ira }
+        mutually_exclusive = { focus = ENG_puppet_ireland }
         available = {
             
         }
@@ -660,17 +788,37 @@ focus_tree = {
 		}
     }
     focus = {
-        id = ENG_Oppress_The_Irish
-        icon = GFX_eng_The_Irish_Question
+        id = ENG_transfer_factories_to_north
+        icon = GFX_ENG_focus_transfer_factories_to_north
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        x = 44
+        y = 3
+
+        cost = 10
+		prerequisite = { focus = ENG_free_ireland }
+        #mutually_exclusive = { focus = ENG_puppet_ireland }
+        available = {
+            
+        }
+
+        bypass = {
+            
+        }
+        
+		completion_reward = {
+            
+		}
+    }
+    focus = {
+        id = ENG_oppress_the_irish
+        icon = GFX_ENG_focus_oppress_the_irish
         search_filters = { FOCUS_FILTER_POLITICAL }
         x = 49
         y = 1
 
         cost = 10
 		prerequisite = { focus = ENG_irish_question }
-        mutually_exclusive = {
-            focus = ENG_Negotiate_IRA
-        }
+        mutually_exclusive = { focus = ENG_negotiate_ira }
         available = {
             
         }
@@ -683,17 +831,15 @@ focus_tree = {
 		}
     }
     focus = {
-        id = ENG_Destroy_IRA
-        icon = GFX_eng_The_Irish_Question
+        id = ENG_destroy_ira
+        icon = GFX_ENG_focus_destroy_ira
         search_filters = { FOCUS_FILTER_POLITICAL }
         x = 49
         y = 2
 
         cost = 10
-		prerequisite = { focus = ENG_Oppress_The_Irish }
-       # mutually_exclusive = {
-        #    focus = ENG_puppet_ireland
-        #}
+		prerequisite = { focus = ENG_oppress_the_irish }
+
         available = {
             
         }
@@ -706,17 +852,15 @@ focus_tree = {
 		}
     }
     focus = {
-        id = ENG_Irish_Resistance
-        icon = GFX_eng_The_Irish_Question
+        id = ENG_irish_resistance
+        icon = GFX_ENG_focus_irish_resistance
         search_filters = { FOCUS_FILTER_POLITICAL }
         x = 49
         y = 3
 
         cost = 10
-		prerequisite = { focus = ENG_Destroy_IRA }
-       # mutually_exclusive = {
-        #    focus = ENG_puppet_ireland
-        #}
+		prerequisite = { focus = ENG_destroy_ira }
+
         available = {
             
         }
