@@ -485,11 +485,7 @@ focus_tree = {
         }
 
 		completion_reward = {
-			set_party_name = {
-                ideology = democratic_socialism
-                long_name = "Labour Party"
-                name = "LP"
-            }
+			
 		}
     }
 
@@ -708,7 +704,9 @@ focus_tree = {
           #  focus = ENG_the_labour_party
         #}
         available = {
-            
+            NOT = {
+                country_exists = IRE
+            }
         }
 
         bypass = {
