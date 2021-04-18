@@ -47,4 +47,18 @@ ideas = {
 		}
 	  }
 	}
+	country = {
+		SWE_tree_Industrial = {
+		   picture = swe_
+		   
+		   allowed = {
+			   tag = SWE
+		   }
+		 
+		   modifier = {
+			   production_speed_industrial_complex_factor = 0.03
+			   production_factory_efficiency_gain_factor = 0.07
+		   }
+		 }
+	   }
 }
