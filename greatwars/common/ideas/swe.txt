@@ -49,7 +49,7 @@ ideas = {
 	}
 	country = {
 		SWE_tree_Industrial = {
-		   picture = swe_
+		   picture = swe_tree_industry
 		   
 		   allowed = {
 			   tag = SWE
