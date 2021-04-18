@@ -133,7 +133,7 @@ continuous_focus_position = {
 
 	focus = {
 		id = SWE_Vapenfabriker
-		icon = GFX_SWE_5
+		icon = GFX_focus_generic_industry_1
 		x = -1
 		y = 3
 		cost = 10
@@ -160,13 +160,12 @@ continuous_focus_position = {
 
 	focus = {
 		id = SWE_Var_krig
-		icon = GFX_SWE_6 
+		icon = GFX_focus_generic_industry_1
 		x = 0
 		y = 4
 		cost = 10
 		prerequisite = { focus = SWE_Vapenfabriker }
 		completion_reward = {
-			
 			random_owned_controlled_state = {
 				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
@@ -176,13 +175,14 @@ continuous_focus_position = {
 				}
 			}
 			add_ideas = partial_economic_mobilisation
+			army_experience = 5
 		}
 	}
 
 
 	focus = {
 		id = SWE_Utveckla_Treindustrin
-		icon = GFX_SWE_7
+		icon = GFX_focus_generic_industry_1
 		x = 3
 		y = 3
 		cost = 10
@@ -204,77 +204,93 @@ continuous_focus_position = {
 	
 	focus = {
 		id = SWE_the_plan
-		icon = GFX_SWE_9
+		icon = GFX_focus_generic_industry_1
 		x = 2
 		y = 4
 		cost = 10
 		prerequisite = { focus = SWE_Utveckla_Treindustrin  }
 		completion_reward = {
-			
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+				level = 1
+				instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+				level = 1
+				instant_build = yes
+				}
+			}
 		}
 	}
 
 	
 	focus = {
-		id = SWE_army
-		icon = GFX_focus_chi_army_reform
+		id = SWE_swe_nor_army
+		icon = GFX_GER_focus_mass_conscription
 		x = 10
 		y = 0
 		cost = 10
 		completion_reward = {
+		army_experience = 10
 		
 		}
 	}
 	
 	focus = {
-		id = SWE_army2
-		icon = GFX_SWE_army2
+		id = SWE_balanced_approach
+		icon = GFX_GER_focus_mass_conscription
 		x = 10
 		y = 2
 		cost = 10
 		mutually_exclusive = {
-			focus = SWE_army4
-			focus = SWE_army3
+			focus = SWE_defensive_approach
+			focus = SWE_aggressive_approach
 		}
-		prerequisite = { focus = SWE_army  }
+		prerequisite = { focus = SWE_swe_nor_army  }
 	}
     
 	focus = {
-		id = SWE_army3
-		icon = GFX_SWE_army2
+		id = SWE_aggressive_approach
+		icon = GFX_GER_focus_mass_conscription
 		x = 12
 		y = 2
 		cost = 10
 		mutually_exclusive = {
-			focus = SWE_army2
-			focus = SWE_army4
+			focus = SWE_balanced_approach
+			focus = SWE_defensive_approach
 		}
-		prerequisite = { focus = SWE_army}
+		prerequisite = { focus = SWE_swe_nor_army}
 	}
     
 	focus = {
-		id = SWE_army4
-		icon = GFX_SWE_army2
+		id = SWE_defensive_approach
+		icon = GFX_GER_focus_mass_conscription
 		x = 8
 		y = 2
 		cost = 10
 		mutually_exclusive = {
-			focus = SWE_army2
-			focus = SWE_army3
+			focus = SWE_balanced_approach
+			focus = SWE_aggressive_approach
 		}
-		prerequisite = { focus = SWE_army}
+		prerequisite = { focus = SWE_swe_nor_army}
 	}
 	
 	focus = {
-		id = SWE_army5
-		icon = GFX_SWE_army2
+		id = SWE_stor_vernplikt
+		icon = GFX_GER_focus_mass_conscription
 		x = 10
 		y = 4
 		cost = 10
 		prerequisite = {
-			focus = SWE_army4
-			focus = SWE_army3
-			focus = SWE_army2
+			focus = SWE_defensive_approach
+			focus = SWE_aggressive_approach
+			focus = SWE_balanced_approach
 		}
 	}
     focus = {
