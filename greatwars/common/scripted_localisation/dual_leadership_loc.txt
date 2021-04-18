@@ -152,7 +152,7 @@ defined_text = {
 		trigger = {
 			tag = SWE
 		}
-		localization_key = SWE_HOS_TITLE
+		localization_key = SWE_HOG_TITLE
 	}
 
 	text = {
@@ -310,7 +310,7 @@ defined_text = {
 		trigger = {
 			tag = SWE
 		}
-		localization_key = SWE_HOG_TITLE
+		localization_key = SWE_HOS_TITLE
 	}
 
 	text = {
@@ -474,9 +474,9 @@ defined_text = {
 	text = {
 		trigger = {
 			tag = SWE
-			has_country_flag = erik_gustaf_bostrom_vp
+			has_country_flag = oscar_ii_leader
 		}
-		localization_key = SWE_Erik_Gustaf_Bostrom_NAME
+		localization_key = SWE_OSCAR_II_NAME
 	}
 
 	text = {
@@ -668,9 +668,9 @@ defined_text = {
 	text = {
 		trigger = {
 			tag = SWE
-			has_country_flag = erik_gustaf_bostrom_vp
+			has_country_flag = oscar_ii_leader
 		}
-		localization_key = "GFX_SWE_Erik_Gustaf_Bostrom"
+		localization_key = "GFX_SWE_Oscar_II"
 	}
 
 	text = {
@@ -765,9 +765,9 @@ defined_text = {
 	text = {
 		trigger = {
 			original_tag = SWE
-			has_country_flag = oscar_ii_leader
+			has_country_flag = erik_gustaf_bostrom_vp
 		}
-		localization_key = OSCAR_II_LEADER_DESCRIPTION
+		localization_key = BOSTROM_LEADER_DESCRIPTION
 	}
 }
 
@@ -872,8 +872,8 @@ defined_text = {
 	text = {
 		trigger = {
 			original_tag = SWE
-			has_country_flag = erik_gustaf_bostrom_vp
+			has_country_flag = oscar_ii_leader
 		}
-		localization_key = BOSTROM_LEADER_DESCRIPTION
+		localization_key = OSCAR_II_LEADER_DESCRIPTION
 	}
 }

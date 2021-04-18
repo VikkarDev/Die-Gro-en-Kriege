@@ -43,9 +43,9 @@ capital = 141
 	}
 
 	create_country_leader = {
-		name = "Oscar II"
-		desc = ""
-		picture = "Oscar_II.dds"
+		name = "Erik Gustaf Boström"
+		desc = BOSTROM_LEADER_DESCRIPTION
+		picture = "Erik_Gustaf_Bostrom.dds"
 		ideology = social_liberal
 		#traits = {
 		#	

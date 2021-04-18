@@ -97,8 +97,8 @@ spriteTypes = {
 
 	# SWEDEN / SWEDEN-NORWAY
 	spriteType = {
-		name = "GFX_SWE_Erik_Gustaf_Bostrom"
-		texturefile = "gfx/leaders/SWE/Erik_Gustaf_Bostrom.dds"
+		name = "GFX_SWE_Oscar_II"
+		texturefile = "gfx/leaders/SWE/Oscar_II.dds"
 	}
 
 	# ITALY
