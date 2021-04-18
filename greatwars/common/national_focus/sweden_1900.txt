@@ -38,7 +38,7 @@ continuous_focus_position = {
 		icon = GFX_goal_generic_construct_infrastructure
 		x = 1
 		y = 1
-		cost = 5
+		cost = 8
 		available = {
 			country_exists = SWE
 		}
@@ -137,6 +137,9 @@ continuous_focus_position = {
 		x = -1
 		y = 3
 		cost = 10
+		available = {
+			country_exists = SWE
+		}
 		prerequisite = { focus = SWE_expand_civilian_work  }
 		completion_reward = {
 			random_owned_controlled_state = {
@@ -164,6 +167,9 @@ continuous_focus_position = {
 		x = 0
 		y = 4
 		cost = 10
+		available = {
+			country_exists = SWE
+		}
 		prerequisite = { focus = SWE_Vapenfabriker }
 		completion_reward = {
 			random_owned_controlled_state = {
@@ -186,6 +192,9 @@ continuous_focus_position = {
 		x = 3
 		y = 3
 		cost = 10
+		available = {
+			country_exists = SWE
+		}
 		prerequisite = { focus = SWE_steel_foc  }
 		completion_reward = {
 			random_owned_controlled_state = {
@@ -196,7 +205,7 @@ continuous_focus_position = {
 				instant_build = yes
 				}
 			}
-			add_ideas = SWE
+			add_ideas = SWE_tree_Industrial
 		}
 	}
 
@@ -208,6 +217,9 @@ continuous_focus_position = {
 		x = 2
 		y = 4
 		cost = 10
+		available = {
+			country_exists = SWE
+		}
 		prerequisite = { focus = SWE_Utveckla_Treindustrin  }
 		completion_reward = {
 			random_owned_controlled_state = {
@@ -226,6 +238,7 @@ continuous_focus_position = {
 				instant_build = yes
 				}
 			}
+			#country_event = sweden.3 WIP
 		}
 	}
 
@@ -299,6 +312,9 @@ continuous_focus_position = {
 		x = 1
 		y = 3
 		cost = 10
+		available = {
+			country_exists = SWE
+		}
 			prerequisite = {
 				focus = SWE_steel_foc
 			}

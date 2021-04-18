@@ -36,6 +36,8 @@
  SWE_swed_nor_union:0 "Two Nations as One"
  SWE_swed_nor_union_desc:0 ""
  SWE_Undeveloped_North_Region:0 "Undeveloped North Industrial Region"
+ 
+ SWE_tree_Industrial:0 "Träindustrin"
 
  #FOCUS
  #### SWEDEN
@@ -54,7 +56,7 @@
  SWE_the_plan:0 "The Boström Plan"
  SWE_balanced_approach:0 "Balanced Approach"
  SWE_defensive_approach:0 "Defensive Approach"
- SWE_swe_nor_army:0 "Svenska Norska armén"
+ SWE_swe_nor_army:0 "Svensk-Norska armén"
  SWE_aggressive_approach:0 "Aggressive Approach"
  SWE_stor_vernplikt:0 "Stor Värnplikt"
 
