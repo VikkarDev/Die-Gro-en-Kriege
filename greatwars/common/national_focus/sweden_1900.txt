@@ -327,8 +327,8 @@ continuous_focus_position = {
 		}
 	}
 	focus = {
-		id = SWE_hist1
-		icon = GFX_
+		id = SWE_Stabilize_Country
+		icon = GFX_focus_generic_home_defense
 		x = 20
 		y = 0
 		cost = 10
@@ -339,12 +339,12 @@ continuous_focus_position = {
 	}
 	focus = {
 		id = SWE_break_neutrality
-		icon = GFX_goal_anschluss
+		icon = GFX_focus_generic_vichy_france_triumphant
 		x = 40
 		y = 0
 		cost = 10
 		mutually_exclusive = {
-			focus =  SWE_hist1
+			focus =  SWE_Stabilize_Country
 		}
 		completion_reward = {
 			add_popularity = { ideology = autocracy popularity = 0.05 }
@@ -361,7 +361,7 @@ continuous_focus_position = {
 		y = 1
 		cost = 10
 			prerequisite = {
-				focus = SWE_hist1
+				focus = SWE_Stabilize_Country
 			}
 			
 		
@@ -482,7 +482,7 @@ continuous_focus_position = {
 			country_exists = SWE
 		}
 			prerequisite = {
-				focus = SWE_hist1
+				focus = SWE_Stabilize_Country
 				focus = SWE_break_neutrality
 			}
 	}

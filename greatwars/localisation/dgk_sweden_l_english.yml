@@ -59,6 +59,8 @@
  SWE_swe_nor_army:0 "Svensk-Norska armén"
  SWE_aggressive_approach:0 "Aggressive Approach"
  SWE_stor_vernplikt:0 "Stor Värnplikt"
+ SWE_Stabilize_Country:0 "Stabilize The Country"
+ SWE_break_neutrality:0 "Open up our foreign policy"
 
 
 #partys 
@@ -83,7 +85,7 @@
  #leader localization
  SWE_HOG_TITLE:0 "Statsminister"
  SWE_HOS_TITLE:0 "Kung"
- SWE_OSCAR_II_NAME:0 "Oscar II"
+ SWE_OSCAR_II:0 "Oscar II"
  SWE_Erik_Gustaf_Bostrom:0 "Erik Gustaf Boström"
  SWE_Erik_Gustaf_Bostrom_NAME:0 "Erik Gustaf Boström"
  OSCAR_II_LEADER_DESCRIPTION:0 "Description needed."
