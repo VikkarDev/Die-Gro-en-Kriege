@@ -2,6 +2,10 @@ spriteTypes = {
 
 	#### Mod goal icons
 	SpriteType = {
+		name = "GFX_ENG_focus_irish_question"
+		texturefile = "gfx/interface/goals/eng/ENG_focus_irish_question.dds"
+	}
+	SpriteType = {
 		name = "GFX_SWE_focus_steel_fc"
 		texturefile = "gfx/interface/goals/swe/SWE_focus_steel.dds"
 	}
