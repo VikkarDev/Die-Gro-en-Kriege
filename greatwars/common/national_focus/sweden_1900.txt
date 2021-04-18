@@ -238,7 +238,7 @@ continuous_focus_position = {
 				instant_build = yes
 				}
 			}
-			#country_event = sweden.3 WIP
+			country_event = sweden.2 
 		}
 	}
 
@@ -585,7 +585,7 @@ continuous_focus_position = {
 					focus = SWE_break_neutrality
 				}
 				completion_reward = {
-					country_event = sweden.2
+					
 				}
 		}
 		focus = {
