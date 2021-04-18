@@ -2,7 +2,7 @@ spriteTypes = {
 
 	#### Mod goal icons
 	SpriteType = {
-		name = "GFX_ENG_focus_irish_question"
+		name = "GFX_ENG_focus_irish_question_shine"
 		texturefile = "gfx/interface/goals/eng/ENG_focus_irish_question.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
