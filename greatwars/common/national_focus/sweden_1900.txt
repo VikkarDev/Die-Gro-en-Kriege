@@ -169,6 +169,16 @@ continuous_focus_position = {
 		cost = 10
 		available = {
 			country_exists = SWE
+			OR = {
+				threat > 0.20
+				has_war = yes
+			}	
+		}
+		bypass = {
+			OR = {
+				has_idea = partial_economic_mobilisation
+				has_idea = war_economy		
+			}
 		}
 		prerequisite = { focus = SWE_Vapenfabriker }
 		completion_reward = {
@@ -181,7 +191,7 @@ continuous_focus_position = {
 				}
 			}
 			add_ideas = partial_economic_mobilisation
-			army_experience = 5
+			
 		}
 	}
 
@@ -260,7 +270,7 @@ continuous_focus_position = {
 		icon = GFX_GER_focus_mass_conscription
 		x = 10
 		y = 2
-		cost = 10
+		cost = 8
 		mutually_exclusive = {
 			focus = SWE_defensive_approach
 			focus = SWE_aggressive_approach
@@ -273,7 +283,7 @@ continuous_focus_position = {
 		icon = GFX_GER_focus_mass_conscription
 		x = 12
 		y = 2
-		cost = 10
+		cost = 8
 		mutually_exclusive = {
 			focus = SWE_balanced_approach
 			focus = SWE_defensive_approach
@@ -286,7 +296,7 @@ continuous_focus_position = {
 		icon = GFX_GER_focus_mass_conscription
 		x = 8
 		y = 2
-		cost = 10
+		cost = 8
 		mutually_exclusive = {
 			focus = SWE_balanced_approach
 			focus = SWE_aggressive_approach
@@ -332,6 +342,10 @@ continuous_focus_position = {
 		x = 20
 		y = 0
 		cost = 10
+		available = {
+			has_war = no
+			country_exists = SWE
+		}
 			mutually_exclusive = {
 				focus = SWE_break_neutrality
 			}
