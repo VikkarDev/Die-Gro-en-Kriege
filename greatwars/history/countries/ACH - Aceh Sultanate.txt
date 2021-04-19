@@ -44,7 +44,7 @@ capital = 862
 	create_country_leader = {
 		name = "Alauddin Muhammad Da'ud Syah II"
 		desc = ""
-		picture = "Alauddin_Syah_II.dds"
+		picture = "Alauddin_Syah_II.tga"
 		ideology = despotism
 		traits = {
 			
