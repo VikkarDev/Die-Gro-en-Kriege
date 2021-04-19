@@ -58,7 +58,7 @@ capital = 4
 	create_country_leader = {
 		name = "Heinrich Ritter von Wittek"
 		desc = HEINRICH_RITTER_VON_WITTEK_LEADER_DESCRIPTION
-		picture = "Heinrich_von_Wittek.dds"
+		picture = "Heinrich_von_Wittek.tga"
 		ideology = con_liberal
 		traits = {
 			
