@@ -31,7 +31,7 @@
 	create_country_leader = {
 		name = "Emilio Aguinaldo"
 		desc = "Emilio_Aguinaldo_desc"
-		picture = "Emilio_Aguinaldo.dds"
+		picture = "Emilio_Aguinaldo.tga"
 		ideology = con_liberal
 		traits = {
 			
