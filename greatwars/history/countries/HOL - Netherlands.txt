@@ -39,7 +39,7 @@
 	create_country_leader = {
 		name = "Wilhelmina"
 		desc = ""
-		picture = "Wilhelmina.dds"
+		picture = "Wilhelmina.tga"
 		ideology = con_liberal
 		traits = {
 			queen_of_the_people
