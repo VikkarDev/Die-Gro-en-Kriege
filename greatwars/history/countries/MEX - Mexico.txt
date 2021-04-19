@@ -43,7 +43,7 @@ capital = 277
 	create_country_leader = {
 		name = "Porfirio Díaz"
 		desc = ""
-		picture = "Porfirio_Diaz.dds"
+		picture = "Porfirio_Diaz.tga"
 		ideology = plutocracy
 		traits = {
 		}
