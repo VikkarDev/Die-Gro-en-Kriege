@@ -110,7 +110,7 @@ capital = 126
 	create_country_leader = {
 		name = "Robert Gascoyne-Cecil"
 		desc = ROBERT_CECIL_LEADER_DESCRIPTION
-		picture = "Robert_Gascoyne-Cecil.dds"
+		picture = "Robert_Gascoyne-Cecil.tga"
 		ideology = conserv
 		traits = {
 			#queen_of_the_people
