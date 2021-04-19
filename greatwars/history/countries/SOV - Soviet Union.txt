@@ -42,7 +42,7 @@ capital = 219
 	create_country_leader = {
 		name = "Nicholas II"
 		desc = NICHOLAS_II_LEADER_DESCRIPTION
-		picture = "Nicholas_II.dds"
+		picture = "Nicholas_II.tga"
 		ideology = despotism
 		traits = {
 			poor_leader
