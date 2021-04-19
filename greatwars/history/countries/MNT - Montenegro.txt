@@ -36,7 +36,7 @@
 	create_country_leader = {
 		name = "Nikola I"
 		desc = ""
-		picture = "Nicholas.dds"
+		picture = "Nicholas.tga"
 		ideology = despotism
 		traits = {
 			
