@@ -27,9 +27,9 @@ capital = 182
 	}
 
 	create_country_leader = {
-		name = "Prince George of Greece and Denmark"
+		name = "Prince George"
 		desc = ""
-		picture = "Prince_George.dds"
+		picture = "Prince_George.tga"
 		ideology = reactionary
 		#traits = {
 		#	father_of_the_turks
