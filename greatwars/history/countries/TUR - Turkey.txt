@@ -64,7 +64,7 @@ capital = 49
 	create_country_leader = {
 		name = "Abdulhamid II"
 		desc = ""
-		picture = "Abdulhamid_II.dds"
+		picture = "Abdulhamid_II.tga"
 		ideology = despotism
 		traits = {
 			father_of_the_turks
