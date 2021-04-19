@@ -44,7 +44,7 @@ capital = 112
 	create_country_leader = {
 		name = "Carlos I"
 		desc = ""
-		picture = "Carlos_I.dds"
+		picture = "Carlos_I.tga"
 		ideology = social_liberal
 		traits = {
 			
