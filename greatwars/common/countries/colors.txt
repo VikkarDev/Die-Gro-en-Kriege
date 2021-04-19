@@ -1,4 +1,8 @@
 #reload countrycolors
+NEG = {
+	color = rgb { 152  130  191 }
+	color_ui = rgb { 152  130  191 }
+}
 GLD = {
 	color = rgb { 19 59 27 }
 	color_ui = rgb { 19 59 27 }

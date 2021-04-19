@@ -1131,4 +1131,6 @@ NAT_UK_DEF:0 "Colony of Natal"
  TUR_PROVISIONARY_fascism:0 "Provisionary State of Anatolia"
  TUR_PROVISIONARY_neutrality:0 "Provisionary State of Anatolia"
  TRN_neutrality_DEF:0 "Turan"
+ NEG_radical_democracy:0 "Republic of Negros"
+ NEG_radical_democracy_DEF:0 "The Republic of Negros"
  

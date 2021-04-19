@@ -32,6 +32,7 @@ capital = 361
 	give_guarantee = PAR
 	give_guarantee = ARG
 	give_guarantee = URG
+	puppet = NEG
 
     # US protection of Liberia from colonial powers
 	give_guarantee = LIB
