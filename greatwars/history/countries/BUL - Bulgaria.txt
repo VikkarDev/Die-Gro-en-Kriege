@@ -38,7 +38,7 @@
 	create_country_leader = {
 		name = "Ferdinand I"
 		desc = ""
-		picture = "Ferdinand_I.dds"
+		picture = "Ferdinand_I.tga"
 		ideology = plutocracy
 		traits = {
 			
