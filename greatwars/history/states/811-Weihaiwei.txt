@@ -10,7 +10,7 @@ state={
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
-			air_base = 3
+			air_base = 0
 			4205 = {
 				naval_base = 2
 				coastal_bunker = 1
@@ -26,6 +26,6 @@ state={
 	provinces={
 		4205 
 	}
-	manpower=13262100
+	manpower=262100
 	buildings_max_level_factor=1.000
 }
