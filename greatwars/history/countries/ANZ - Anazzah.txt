@@ -27,7 +27,7 @@ capital = 892
 	create_country_leader = {
 		name = "Fahad bin Abdul Mohsen Al-Hatthal"
 		desc = ""
-		picture = "Fahad_Mohsen_Al-Hatthal.dds"
+		picture = "Fahad_Mohsen_Al-Hatthal.tga"
 		ideology = despotism
 		traits = {
 			#father_of_the_turks
