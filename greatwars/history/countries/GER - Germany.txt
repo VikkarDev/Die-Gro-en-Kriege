@@ -18,27 +18,6 @@ capital = 819
 		infantry_weapons = 1
 	}
 
-	if = {
-		limit = {
-			OR = {
-				has_dlc = "Together for Victory"
-				has_dlc = "Man the Guns"
-			}
-		}
-		set_autonomy = {
-			target = GNG
-			autonomy_state = autonomy_protectorate
-		}
-		set_autonomy = {
-			target = GEA
-			autonomy_state = autonomy_protectorate
-		}
-		else = {
-			puppet = GNG
-			puppet = GEA
-		}
-	}
-
 	give_guarantee = ITA
 	give_guarantee = AUS
 
@@ -84,7 +63,7 @@ capital = 819
 	create_country_leader = {
 		name = "Chlodwig Carl Viktor"
 		desc = VIKTOR_LEADER_DESCRIPTION
-		picture = "Carl_Viktor.dds"
+		picture = "Carl_Viktor.tga"
 		ideology = social_liberal
 		traits = {
 			#kaiserin_of_the_people
@@ -93,7 +72,7 @@ capital = 819
 
 	create_field_marshal = {
 		name = "Remus von Woyrsch"
-		portrait_path = "gfx/leaders/GER/Field Marshals/Remus_von_Woyrsch.dds"
+		portrait_path = "gfx/leaders/GER/Field Marshals/Remus_von_Woyrsch.tga"
 		skill = 3
 		attack_skill = 3
 		defense_skill = 3
