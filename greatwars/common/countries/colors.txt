@@ -3,14 +3,6 @@ GLD = {
 	color = rgb { 19 59 27 }
 	color_ui = rgb { 19 59 27 }
 }
-GNG = {
-	color = rgb { 101 102 99 }
-	color_ui = rgb { 101 102 99 }
-}
-GEA = {
-	color = rgb { 101 102 99 }
-	color_ui = rgb { 101 102 99 }
-}
 GER = {
 	color = rgb { 101 102 99 }
 	color_ui = rgb { 101 102 99 }

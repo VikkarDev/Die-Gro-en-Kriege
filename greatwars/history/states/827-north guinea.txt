@@ -5,7 +5,7 @@ state={
 
 	history={
 		add_core_of = PNG
-		owner = GNG
+		owner = GER
 		add_claim_by = AST
 		buildings = {
 			infrastructure = 2
