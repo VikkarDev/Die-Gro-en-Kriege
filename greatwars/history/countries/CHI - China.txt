@@ -35,7 +35,7 @@ capital = 608
 	create_country_leader = {
 		name = "Guangxu Emperor"
 		desc = ""
-		picture = "Guangxu_Emperor.dds"
+		picture = "Guangxu_Emperor.tga"
 		ideology = despotism
 		traits = {
 			
