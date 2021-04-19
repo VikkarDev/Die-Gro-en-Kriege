@@ -66,11 +66,11 @@
 #partys 
  SWE_social_liberalism_party_long:0 "Liberalerna"
  SWE_democratic_socialism_party_long:0 "Sveriges Socialdemokratiska arbetarparti"
- SWE_libertarian_socialism_party_long:0 "Vänsterpartiet"
+ SWE_social_egalitarianism_party_long:0 "Vänsterpartiet"
  SWE_centrism_party:0 "Centerpartiet" 
  SWE_democratic_socialism_party:0 "S"
  SWE_social_liberalism_party:0 "L"
- SWE_libertarian_socialism_party:0 "V"
+ SWE_social_egalitarianism_party:0 "V"
 
 
 
