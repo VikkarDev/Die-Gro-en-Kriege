@@ -36,7 +36,7 @@ capital = 286
 	create_country_leader = {
 		name = "Joseph Athanase Paul Doumer"
 		desc = ""
-		picture = "Joseph_Athanase_Paul_Doumer.dds"
+		picture = "Paul_Doumer.tga"
 		ideology = con_liberal
 	}
 }

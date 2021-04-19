@@ -52,7 +52,7 @@ capital = 16
 	create_country_leader = {
 		name = "Émile Loubet"
 		desc = ""
-		picture = "Emile_Loubet.dds"
+		picture = "Emile_Loubet.tga"
 		ideology = con_liberal
 		traits = {
 			figurehead_president
