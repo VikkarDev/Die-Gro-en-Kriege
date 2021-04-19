@@ -53,7 +53,7 @@ capital = 41
 	create_country_leader = {
 		name = "Alfonso XIII"
 		desc = ALFONSO_LEADER_DESCRIPTION
-		picture = "Alfonso_XIII.dds"
+		picture = "Alfonso_XIII.tga"
 		ideology = reactionary
 		traits = {
 			underage_monarch_trait
