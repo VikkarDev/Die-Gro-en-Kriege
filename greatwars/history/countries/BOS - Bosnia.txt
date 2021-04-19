@@ -40,7 +40,7 @@
 	create_country_leader = {
 		name = "Johann von Appel"
 		desc = ""
-		picture = "Johann_von_Appel.dds"
+		picture = "Johann_von_Appel.tga"
 		ideology = con_liberal
 		traits = {
 			
