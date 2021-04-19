@@ -28,7 +28,7 @@ capital = 874
 	create_country_leader = {
 		name = "Thomas Buffington"
 		desc = ""
-		picture = "Thomas_Buffington.dds"
+		picture = "Thomas_Buffington.tga"
 		ideology = conserv
 		traits = {
 			

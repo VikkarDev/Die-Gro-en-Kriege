@@ -159,21 +159,21 @@ capital = 361
 	create_country_leader = {
 		name = "William McKinley"
 		desc = WILLIAM_LEADER_DESCRIPTION
-		picture = "William_McKinley.dds"
+		picture = "William_McKinley.tga"
 		ideology = con_liberal
 	}
 
 	create_country_leader = {
 		name = "William Jennings Bryan"
 		desc = BRYAN_LEADER_DESCRIPTION
-		picture = "William_Jennings_Bryan.dds"
+		picture = "William_Jennings_Bryan.tga"
 		ideology = social_liberal
 	}
 
 	create_country_leader = {
 		name = "Eugene Debs"
 		desc = DEBS_LEADER_DESCRIPTION
-		picture = "Eugene_Debs.dds"
+		picture = "Eugene_Debs.tga"
 		ideology = democratic_social
 	}
 }

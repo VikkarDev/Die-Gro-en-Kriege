@@ -28,7 +28,7 @@ capital = 877
 	create_country_leader = {
 		name = "Douglas Henry Johnston"
 		desc = ""
-		picture = "Douglas_Henry_Johnston.dds"
+		picture = "Douglas_Henry_Johnston.tga"
 		ideology = conserv
 		traits = {
 			

@@ -28,7 +28,7 @@ capital = 377
 	create_country_leader = {
 		name = "Oakes Murphy"
 		desc = ""
-		picture = "Oakes_Murphy.dds"
+		picture = "Oakes_Murphy.tga"
 		ideology = conserv
 		traits = {
 			
