@@ -39,9 +39,9 @@ capital = 276
 	}
 
 	create_country_leader = {
-		name = "Gilbert Elliot-Murray-Kynynmound"
+		name = "Wilfrid Laurier"
 		desc = ""
-		picture = "Gilbert_Elliot-Murray-Kynynmound.dds"
+		picture = "Wilfrid_Laurier.tga"
 		ideology = social_liberal
 	}
 }
