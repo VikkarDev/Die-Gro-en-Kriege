@@ -43,7 +43,7 @@
 	create_country_leader = {
 		name = "Alexander I"
 		desc = ""
-		picture = "Alexander_I.dds"
+		picture = "Alexander_I.tga"
 		ideology = conserv
 		traits = {
 			
