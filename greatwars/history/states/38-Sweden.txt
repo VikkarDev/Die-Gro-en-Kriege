@@ -3,7 +3,7 @@ state={
 	id=38
 	name="STATE_38"
 	resources={
-		steel=40.000
+		steel=35.000
 	}
 
 	history={
@@ -27,7 +27,7 @@ state={
 	provinces={
 		49 77 114 125 130 156 205 3045 3070 3148 6023 6063 6067 6093 6147 9035 9051 9088 9117 9151 9173 9182 9193 11040 11091 11129 11147 11185 11197 13099 
 	}
-	manpower=631955
+	manpower=531955
 	buildings_max_level_factor=1.000
 	state_category=town
 }
