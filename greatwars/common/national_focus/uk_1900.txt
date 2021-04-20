@@ -519,7 +519,86 @@ focus_tree = {
         }
 
 		completion_reward = { 
-			
+			125 = {
+	            add_building_construction = {
+		            type = coastal_bunker
+        	        province = 221
+		        level = 3
+	            }
+                add_building_construction = {
+		            type = coastal_bunker
+        	        province = 271
+		        level = 3
+	            }
+                add_building_construction = {
+		            type = coastal_bunker
+        	        province = 322
+		        level = 3
+	            }      
+            }
+            126 = {
+	            add_building_construction = {
+		            type = coastal_bunker
+        	        province = 11374
+		        level = 5
+	            }   
+            }
+            127 = {
+	            add_building_construction = {
+		            type = coastal_bunker
+        	        province = 221
+		        level = 3
+	            }
+                add_building_construction = {
+		            type = coastal_bunker
+        	        province = 271
+		        level = 3
+	            }
+                add_building_construction = {
+		            type = coastal_bunker
+        	        province = 322
+		        level = 3
+	            }      
+            }
+            854 = {
+	            add_building_construction = {
+		            type = coastal_bunker
+        	        province = 9458
+		        level = 3
+	            }
+                add_building_construction = {
+		            type = coastal_bunker
+        	        province = 6489
+		        level = 3
+	            }
+            }
+            338 = {
+	            add_building_construction = {
+		            type = coastal_bunker
+        	        province = 3422
+		        level = 3
+	            }   
+            }
+            123 = {
+	            add_building_construction = {
+		            type = coastal_bunker
+        	        province = 3463
+		        level = 3
+	            }
+                add_building_construction = {
+		            type = coastal_bunker
+        	        province = 540
+		        level = 3
+	            }
+                add_building_construction = {
+		            type = coastal_bunker
+        	        province = 6326
+		        level = 3
+	            }      
+            }
+            
+
+
 		}
     }
 
