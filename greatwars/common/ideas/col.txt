@@ -25,8 +25,8 @@ ideas = {
 			}
 
 			modifier = {
-				army_attack_factor = 0.5
-				army_speed_factor = 0.5
+				army_attack_factor = 00.10
+				army_speed_factor = 0.1
 			}
 		}
 	}
@@ -38,8 +38,8 @@ ideas = {
 				tag = COL
 			}
 			modifier = {
-				stability_factor = -0.35
-				resistance_growth_on_our_occupied_states = 0.5
+				stability_factor = -0.12
+				resistance_growth_on_our_occupied_states = 0.1
 			}
 		}
 	}
