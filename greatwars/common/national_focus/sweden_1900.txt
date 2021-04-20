@@ -174,24 +174,20 @@ continuous_focus_position = {
 				has_war = yes
 			}	
 		}
-		bypass = {
-			OR = {
-				has_idea = partial_economic_mobilisation
-				has_idea = war_economy		
-			}
-		}
 		prerequisite = { focus = SWE_Vapenfabriker }
-		completion_reward = {
-			random_owned_controlled_state = {
-				add_extra_state_shared_building_slots = 1
-				add_building_construction = {
-					type = arms_factory
-					level = 1
-					instant_build = yes
+				completion_reward = {
+				if = {
+					limit = {
+						NOT = { has_idea = partial_economic_mobilisation }
+						NOT = { has_idea = war_economy }
+						NOT = { has_idea = tot_economic_mobilisation }
+					}
+					add_ideas = partial_economic_mobilisation
 				}
+			if = {
+				limit = { has_idea = partial_economic_mobilisation }
+				add_ideas = war_economy
 			}
-			add_ideas = partial_economic_mobilisation
-			
 		}
 	}
 
