@@ -14,6 +14,7 @@ capital = 141
 	add_ideas = {
 		# government
 		SWE_Swedish_neutrality
+		SWE_memories_of_the_war
 		SWE_swed_nor_union
 		SWE_Undeveloped_North_Region
 		volunteer_only
