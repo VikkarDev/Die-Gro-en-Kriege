@@ -476,8 +476,8 @@ focus_tree = {
     }
 
     focus = {
-        id = ENG_fortify_eire
-        icon = GFX_ENG_focus_fortify_eire
+        id = ENG_fortify_main_cities
+        icon = GFX_ENG_focus_fortify_main_cities
         search_filters = { FOCUS_FILTER_POLITICAL }
         x = 11
         y = 7
@@ -495,8 +495,50 @@ focus_tree = {
         }
 
 		completion_reward = { 
-			
-		}
+			126 = {
+	            add_building_construction = {
+		            type = coastal_bunker
+        	        province = 11374
+		        level = 2
+	            }
+                add_building_construction = {
+		            type = bunker
+        	        province = 6103
+		        level = 2
+	            }    
+            }
+            132 = {
+	            add_building_construction = {
+		            type = coastal_bunker
+        	        province = 6384
+		        level = 2
+	            }
+                add_building_construction = {
+		            type = bunker
+        	        province = 6384
+		        level = 2
+	            }    
+            }
+            128 = {
+                add_building_construction = {
+		            type = bunker
+        	        province = 9297
+		        level = 2
+	            }    
+            }
+            127 = {
+                add_building_construction = {
+		            type = bunker
+        	        province = 3501
+		        level = 2
+	            }
+                add_building_construction = {
+		            type = coastal_bunker
+        	        province = 3501
+		        level = 2
+	            }       
+            }
+        }
     }
 
     focus = {
@@ -508,7 +550,7 @@ focus_tree = {
 
         cost = 10
 		prerequisite = { focus = ENG_prepare_for_an_invasion_of_home_isles }
-        mutually_exclusive = { focus = ENG_fortify_eire }
+        mutually_exclusive = { focus = ENG_fortify_main_cities }
 
         available = {
             country_exists = ENG
@@ -523,77 +565,77 @@ focus_tree = {
 	            add_building_construction = {
 		            type = coastal_bunker
         	        province = 221
-		        level = 3
+		        level = 2
 	            }
                 add_building_construction = {
 		            type = coastal_bunker
         	        province = 271
-		        level = 3
+		        level = 2
 	            }
                 add_building_construction = {
 		            type = coastal_bunker
         	        province = 322
-		        level = 3
+		        level = 2
 	            }      
             }
             126 = {
 	            add_building_construction = {
 		            type = coastal_bunker
         	        province = 11374
-		        level = 5
+		        level = 2
 	            }   
             }
             127 = {
 	            add_building_construction = {
 		            type = coastal_bunker
         	        province = 221
-		        level = 3
+		        level = 2
 	            }
                 add_building_construction = {
 		            type = coastal_bunker
         	        province = 271
-		        level = 3
+		        level = 2
 	            }
                 add_building_construction = {
 		            type = coastal_bunker
         	        province = 322
-		        level = 3
+		        level = 2
 	            }      
             }
             854 = {
 	            add_building_construction = {
 		            type = coastal_bunker
         	        province = 9458
-		        level = 3
+		        level = 2
 	            }
                 add_building_construction = {
 		            type = coastal_bunker
         	        province = 6489
-		        level = 3
+		        level = 2
 	            }
             }
             338 = {
 	            add_building_construction = {
 		            type = coastal_bunker
         	        province = 3422
-		        level = 3
+		        level = 2
 	            }   
             }
             123 = {
 	            add_building_construction = {
 		            type = coastal_bunker
         	        province = 3463
-		        level = 3
+		        level = 2
 	            }
                 add_building_construction = {
 		            type = coastal_bunker
         	        province = 540
-		        level = 3
+		        level = 2
 	            }
                 add_building_construction = {
 		            type = coastal_bunker
         	        province = 6326
-		        level = 3
+		        level = 2
 	            }      
             }
             
