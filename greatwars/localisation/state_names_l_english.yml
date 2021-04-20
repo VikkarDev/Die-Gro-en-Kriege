@@ -69,7 +69,7 @@
  STATE_68:0 "Ostmark"
  STATE_69:1 "Sudety"
  STATE_70:1 "Bratislava"
- STATE_71:0 "Eastern Slovakia"
+ STATE_71:1 "Prešov"
  STATE_72:0 "Zaolzie"
  STATE_73:0 "Carpathian Ruthenia"
  STATE_74:1 "Vychondí Sudety"
@@ -959,3 +959,4 @@
  STATE_958:0 "Norrbotten"
  STATE_959:0 "Walvis Bay"
  STATE_960:0 "Negros"
+ STATE_961:0 "Saarland"

@@ -82,8 +82,11 @@
  NOR_SWE_union_traditional_conservatism:0 "United Kingdoms of Sweden and Norway"
  NOR_SWE_union_traditional_conservatism_DEF:0 "The United Kingdoms of Sweden and Norway"
  NOR_SWE_union_social_liberalism_ADJ:0 "Sweden-Norways"
+ NOR_SWE_union_democratic_socialism:0 "The United Kingdoms of Sweden and Norway"
+NOR_SWE_union_democratic_socialism_DEF:0 "The United Kingdoms of Sweden and Norway"
+ 
 
- #leader localization
+#leader localization
  SWE_HOG_TITLE:0 "Statsminister"
  SWE_HOS_TITLE:0 "Kung"
  SWE_OSCAR_II:0 "Oscar II"
