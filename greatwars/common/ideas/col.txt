@@ -1,6 +1,6 @@
 ideas = {
 	country = {
-		COL_columbian_civil_war = {
+		COL_a_nation_divided = {
 		picture = col_colombian_civil_war
 	  
 		allowed = {
@@ -14,38 +14,33 @@ ideas = {
 			political_power_gain = -0.5
 		}
 	  }
-
-	  COL_support_from_ecuadorian_liberals = {
-		picture = lab_support_from_ecuadorian_liberals
-	  
-		allowed = {
-			tag = LAB
-		}
-	  
-		modifier = {
-			mobilization_speed = 0.10
-			war_support_factor = 0.05
-			political_power_gain = -1
-			army_attack_factor = 0.08
-		}
-	  }
-
-	  COL_support_from_venezuelan_liberals = {
-	  	picture = LAB_support_from_venezuelan_liberals
-		
-		allowed = {
-			tag = LAB
-		}
-
-		modifier = {
-			mobilization_speed = 0.10
-			war_support_factor = 0.05
-			political_power_gain = -1
-			army_attack_factor = 0.05
-		}
-	  }
-
-	
 	}
 
+	country = {
+		COL_bolivars_legacy = {
+			picture = COL_bolivars_legacy
+
+			allowed = {
+				tag = COL
+			}
+
+			modifier = {
+				army_attack_factor = 0.5
+				army_speed_factor = 0.5
+			}
+		}
+	}
+	country = {
+		COL_panama_terror = {
+			picture = COL_panama_terror
+
+			allowed = {
+				tag = COL
+			}
+			modifier = {
+				stability_factor = -0.35
+				resistance_growth_on_our_occupied_states = 0.5
+			}
+		}
+	}
 }
