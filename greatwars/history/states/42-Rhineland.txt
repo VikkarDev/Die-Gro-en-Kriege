@@ -3,8 +3,8 @@ state={
 	id=42
 	name="STATE_42"
 	resources={
-		steel=59.000
-		aluminium=14.000
+		steel=30.000
+		aluminium=7.000
 	}
 
 	history={
@@ -13,18 +13,17 @@ state={
 			11435 1 
 		}
 		buildings = {
-			infrastructure = 7
-			industrial_complex = 3
-
+			infrastructure = 6
+			industrial_complex = 2
 		}
 		add_core_of = GER
 
 	}
 
 	provinces={
-		563 3423 3558 9575 11435 11470 11494 11547 
+		3423 9575 11435 11470 11494 
 	}
-	manpower=3027739
+	manpower=2027739
 	buildings_max_level_factor=1.000
 	state_category=metropolis
 }
