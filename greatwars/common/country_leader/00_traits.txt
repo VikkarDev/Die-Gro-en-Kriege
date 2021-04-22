@@ -1,6 +1,12 @@
 leader_traits = {
 	
 	# MOD
+	head_veal_trait = {
+		random = no
+		political_power_gain = -0.10
+		war_support_factor = -0.05
+	}
+	
 	underage_monarch_trait = {
 		random = no
 		stability_factor = -0.10
