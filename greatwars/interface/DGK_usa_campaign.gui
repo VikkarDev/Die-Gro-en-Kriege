@@ -65,7 +65,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "title"
 			text = "Electoral Map"
-			position = { x = 375 y = 20 }
+			position = { x = 425 y = 20 }
 			font = "hoi_36header"
 			maxWidth = 500
 			scale = 2
@@ -96,14 +96,14 @@ guiTypes = {
 
 		containerWindowType = {
 			name = "candidates"
-			position = { x = 0 y = 0 }
+			position = { x = 10 y = -15 }
 
 			instantTextBoxType = { 
 				name = "candidates_title"
 				text = "Candidates"
 				position = { x = 798 y = 435 }
 				font = "hoi_30header"
-				maxWidth = 260
+				maxWidth = 143
 			}
 
 			instantTextBoxType = {
@@ -111,15 +111,23 @@ guiTypes = {
 				text = "republican_campaign_key"
 				position = { x = 830 y = 465 }
 				font = "hoi_30"
-				maxWidth = 200
+				maxWidth = 80
 			}
 
 			instantTextBoxType = {
 				name = "democratic_party_key"
 				text = "democratic_campaign_key"
-				position = { x = 833 y = 485 }
+				position = { x = 832 y = 485 }
 				font = "hoi_30"
-				maxWidth = 230
+				maxWidth = 75
+			}
+
+			instantTextBoxType = {
+				name = "socialist_party_key"
+				text = "socialist_campaign_key"
+				position = { x = 837 y = 505 }
+				font = "hoi_30"
+				maxWidth = 67
 			}
 		}
 

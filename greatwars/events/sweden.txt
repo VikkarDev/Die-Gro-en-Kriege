@@ -61,3 +61,28 @@ country_event = {
 		}
 	}
 }
+country_event = {
+	id = sweden.3
+	title = "The election is around the corner..."
+	desc = sweden.3.d
+	picture = GFX 
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	trigger = {
+		tag = SWE
+	}
+
+
+	option = {
+		name = "The democratic socialism "
+		ai_chance = {
+			factor = 100
+		}
+		set_politics = { ruling_party = democratic_socialism  }
+		hidden_effect = {
+			add_popularity = { ideology = democratic_socialism popularity = 0.13 }
+			add_popularity = { ideology = social_egalitarianism popularity = 0.07 }
+		}
+	}
+}

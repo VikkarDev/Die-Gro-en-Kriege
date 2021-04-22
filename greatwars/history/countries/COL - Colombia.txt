@@ -11,7 +11,9 @@ capital = 306
 	set_research_slots = 2
 
 	add_ideas = {
-		COL_columbian_civil_war
+		COL_a_nation_divided
+		COL_bolivars_legacy
+		COL_panama_terror
 
 		# GOVERNMENT STUFF
 		volunteer_only
