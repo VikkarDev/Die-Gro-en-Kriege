@@ -42,7 +42,32 @@ if = {
 		transport = 1
 	}
 	set_naval_oob = "CHI_1900_naval_legacy"
-}
+
+	### Ship Variants ###
+	create_equipment_variant = {
+		name = "Dingyuan Class"
+		type = heavy_cruiser_1
+		parent_version = 0
+	}
+	create_equipment_variant = {
+		name = "Ting Yuen Class"
+		type = heavy_cruiser_1
+		parent_version = 0
+		obsolete = yes
+	}
+	create_equipment_variant = {
+		name = "Nan Chen Class"
+		type = heavy_cruiser_1
+		parent_version = 0
+		obsolete = yes
+	}
+	create_equipment_variant = {
+		name = "Yixian Class"
+		type = light_ship_hull_1
+		parent_version = 0
+		obsolete = yes
+		}
+	}
 
 	set_popularities = {
 		vanguard_communism = 0
