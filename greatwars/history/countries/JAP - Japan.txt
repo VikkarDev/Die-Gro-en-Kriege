@@ -155,4 +155,15 @@ if = {
 		traits = { infantry_leader thorough_planner }
 		id = 6
 	}
+	create_navy_leader = {
+	name = "Dewa Shigetō"
+	picture = "gfx/leaders/JAP/Heihachiro_Togo.tga"
+	traits = { spotter fleet_protector cruiser_captain}
+	skill = 4
+	attack_skill = 4
+	defense_skill = 3
+	maneuvering_skill = 3
+	coordination_skill = 4
+	id = 7
+	}
 }
