@@ -397,7 +397,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		research_cost = 2.5
-		start_year = 1938
+		start_year = 1902
 		
 		folder = {
 			name = electronics_folder
@@ -450,7 +450,7 @@ technologies = {
 		}
 		
 		research_cost = 2.5
-		start_year = 1940
+		start_year = 1906
 		
 		folder = {
 			name = electronics_folder
@@ -499,7 +499,7 @@ technologies = {
 		}
 		
 		research_cost = 2.5
-		start_year = 1942
+		start_year = 1908
 		
 		folder = {
 			name = electronics_folder
@@ -534,7 +534,7 @@ technologies = {
 		encryption = 1
 		
 		research_cost = 1
-		start_year = 1938
+		start_year = 1904
 		allow_branch = {
 			NOT = { has_dlc = "La Resistance" }
 		}
@@ -579,7 +579,7 @@ technologies = {
 			NOT = { has_dlc = "La Resistance" }
 		}
 		research_cost = 1
-		start_year = 1940
+		start_year = 1906
 		
 		folder = {
 			name = electronics_folder
@@ -622,7 +622,7 @@ technologies = {
 			NOT = { has_dlc = "La Resistance" }
 		}
 		research_cost = 1
-		start_year = 1942
+		start_year = 1908
 		
 		folder = {
 			name = electronics_folder
@@ -665,7 +665,7 @@ technologies = {
 			NOT = { has_dlc = "La Resistance" }
 		}
 		research_cost = 1.5
-		start_year = 1938
+		start_year = 1904
 		
 		folder = {
 			name = electronics_folder
@@ -704,7 +704,7 @@ technologies = {
 			NOT = { has_dlc = "La Resistance" }
 		}
 		research_cost = 1.5
-		start_year = 1940
+		start_year = 1906
 		
 		folder = {
 			name = electronics_folder
@@ -743,7 +743,7 @@ technologies = {
 			NOT = { has_dlc = "La Resistance" }
 		}
 		research_cost = 1.5
-		start_year = 1942
+		start_year = 1908
 		
 		folder = {
 			name = electronics_folder
