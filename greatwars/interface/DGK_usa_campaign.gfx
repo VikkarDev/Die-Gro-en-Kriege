@@ -16,55 +16,66 @@ spriteTypes = {
 		texturefile = "gfx/interface/usa_voting_gfx/democratic_vote_bar.dds"
 	}
 	spriteType = {
-		name = "GFX_USA_texas_red"
-		texturefile = "gfx/interface/usa_voting_gfx/texas_red.dds"
+		name = "GFX_USA_texas_republican"
+		texturefile = "gfx/interface/usa_voting_gfx/texas_republican.dds"
 	}
 	spriteType = {
-		name = "GFX_USA_texas_blue"
-		texturefile = "gfx/interface/usa_voting_gfx/texas_blue.dds"
+		name = "GFX_USA_texas_democratic"
+		texturefile = "gfx/interface/usa_voting_gfx/texas_democratic.dds"
 	}
 	spriteType = {
-		name = "GFX_USA_oklahoma_cant_vote"
-		texturefile = "gfx/interface/usa_voting_gfx/oklahoma_cant_vote.dds"
+		name = "GFX_USA_texas_socialist"
+		textureFile = "gfx/interface/usa_voting_gfx/texas_socialist.dds"
+	}
+
+	spriteType = {
+		name = "GFX_USA_oklahoma_not_state"
+		texturefile = "gfx/interface/usa_voting_gfx/oklahoma_not_state.dds"
+	}
+
+	spriteType = {
+		name = "GFX_USA_florida_democratic"
+		texturefile = "gfx/interface/usa_voting_gfx/florida_democratic.dds"
 	}
 	spriteType = {
-		name = "GFX_USA_florida_blue"
-		texturefile = "gfx/interface/usa_voting_gfx/florida_blue.dds"
+		name = "GFX_USA_florida_republican"
+		texturefile = "gfx/interface/usa_voting_gfx/florida_republican.dds"
+	}
+
+	spriteType = {
+		name = "GFX_USA_louisiana_democratic"
+		texturefile = "gfx/interface/usa_voting_gfx/louisiana_democratic.dds"
 	}
 	spriteType = {
-		name = "GFX_USA_florida_red"
-		texturefile = "gfx/interface/usa_voting_gfx/florida_red.dds"
+		name = "GFX_USA_louisiana_republican"
+		texturefile = "gfx/interface/usa_voting_gfx/louisiana_republican.dds"
+	}
+
+	spriteType = {
+		name = "GFX_USA_new_mexico_not_state"
+		texturefile = "gfx/interface/usa_voting_gfx/new_mexico_not_state.dds"
+	}
+
+	spriteType = {
+		name = "GFX_USA_arizona_not_state"
+		texturefile = "gfx/interface/usa_voting_gfx/arizona_not_state.dds"
+	}
+
+	spriteType = {
+		name = "GFX_USA_california_republican"
+		texturefile = "gfx/interface/usa_voting_gfx/california_republican.dds"
 	}
 	spriteType = {
-		name = "GFX_USA_louisiana_blue"
-		texturefile = "gfx/interface/usa_voting_gfx/louisiana_blue.dds"
+		name = "GFX_USA_california_democratic"
+		texturefile = "gfx/interface/usa_voting_gfx/california_democratic.dds"
+	}
+
+	spriteType = {
+		name = "GFX_USA_nevada_republican"
+		texturefile = "gfx/interface/usa_voting_gfx/nevada_republican.dds"
 	}
 	spriteType = {
-		name = "GFX_USA_louisiana_red"
-		texturefile = "gfx/interface/usa_voting_gfx/louisiana_red.dds"
-	}
-	spriteType = {
-		name = "GFX_USA_new_mexico_cant_vote"
-		texturefile = "gfx/interface/usa_voting_gfx/new_mexico_cant_vote.dds"
-	}
-	spriteType = {
-		name = "GFX_USA_arizona_cant_vote"
-		texturefile = "gfx/interface/usa_voting_gfx/arizona_cant_vote.dds"
-	}
-	spriteType = {
-		name = "GFX_USA_california_red"
-		texturefile = "gfx/interface/usa_voting_gfx/california_red.dds"
-	}
-	spriteType = {
-		name = "GFX_USA_california_blue"
-		texturefile = "gfx/interface/usa_voting_gfx/california_blue.dds"
-	}
-	spriteType = {
-		name = "GFX_USA_nevada_red"
-		texturefile = "gfx/interface/usa_voting_gfx/nevada_red.dds"
-	}
-	spriteType = {
-		name = "GFX_USA_nevada_blue"
-		texturefile = "gfx/interface/usa_voting_gfx/nevada_blue.dds"
+		name = "GFX_USA_nevada_democratic"
+		texturefile = "gfx/interface/usa_voting_gfx/nevada_democratic.dds"
 	}
 }
