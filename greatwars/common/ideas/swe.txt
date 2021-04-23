@@ -61,17 +61,4 @@ ideas = {
 		   }
 		 }
 	   }
-	   country = {
-		SWE_memories_of_the_war = {
-		   picture = swe_memories_of_the_war
-		   
-		   allowed = {
-			   tag = SWE
-		   }
-		 
-		   modifier = {
-			   
-		   }
-		 }
-	   }
 }
