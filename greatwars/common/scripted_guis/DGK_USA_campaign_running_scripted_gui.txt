@@ -30,67 +30,74 @@ scripted_gui = {
 		}
 
 		triggers = {
-			texas_blue_visible = {
+			texas_democratic_visible = {
 				375 = { is_democratic_state = yes }
 			}
-			texas_red_visible = {
+			texas_republican_visible = {
 				375 = { is_republican_state = yes }
 			}
-			louisiana_blue_visible = {
+			texas_socialist_visible = {
+				375 = { is_socialist_state = yes }
+			}
+
+			louisiana_democratic_visible = {
 				371 = { is_democratic_state = yes }
 			}
-			louisiana_red_visible = {
+			louisiana_republican_visible = {
 				371 = { is_republican_state = yes }
 			}
-			florida_blue_visible = {
+
+			florida_democratic_visible = {
 				366 = { is_democratic_state = yes }
 			}
-			florida_red_visible = {
+			florida_republican_visible = {
 				366 = { is_republican_state = yes }
 			}
-			california_blue_visible = {
+
+			california_democratic_visible = {
 				378 = { is_democratic_state = yes }
 			}
-			california_red_visible = {
+			california_republican_visible = {
 				378 = { is_republican_state = yes }
 			}
-			nevada_blue_visible = {
+
+			nevada_democratic_visible = {
 				379 = { is_democratic_state = yes }
 			}
-			nevada_red_visible = {
+			nevada_republican_visible = {
 				379 = { is_republican_state = yes }
 			}
 		}
 
 		effects = {
-			texas_blue_click = {
+			texas_democratic_click = {
 				375 = { save_global_event_target_as = USA_targeted_campaign_running_state }
 			}
-			texas_red_click = {
+			texas_republican_click = {
 				375 = { save_global_event_target_as = USA_targeted_campaign_running_state }
 			}
-			louisiana_blue_click = {
+			louisiana_democratic_click = {
 				371 = { save_global_event_target_as = USA_targeted_campaign_running_state }
 			}
-			louisiana_red_click = {
+			louisiana_republican_click = {
 				371 = { save_global_event_target_as = USA_targeted_campaign_running_state }
 			}
-			florida_blue_click = {
+			florida_democratic_click = {
 				366 = { save_global_event_target_as = USA_targeted_campaign_running_state }
 			}
-			florida_red_click = {
+			florida_republican_click = {
 				366 = { save_global_event_target_as = USA_targeted_campaign_running_state }
 			}
-			california_blue_click = {
+			california_democratic_click = {
 				378 = { save_global_event_target_as = USA_targeted_campaign_running_state }
 			}
-			california_red_click = {
+			california_republican_click = {
 				378 = { save_global_event_target_as = USA_targeted_campaign_running_state }
 			}
-			nevada_blue_click = {
+			nevada_democratic_click = {
 				379 = { save_global_event_target_as = USA_targeted_campaign_running_state }
 			}
-			nevada_red_click = {
+			nevada_republican_click = {
 				379 = { save_global_event_target_as = USA_targeted_campaign_running_state }
 			}
 		}
