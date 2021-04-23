@@ -70,6 +70,10 @@ units = {
             ship = { name = "Sagi" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Hayabusa Class"} } }
             ship = { name = "Hashitaki" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Hayabusa Class"} } }
             ship = { name = "Uzura" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Hayabusa Class"} } }
+            ship = { name = "No.72" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Hayabusa Class"} } }
+            ship = { name = "No.73" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Hayabusa Class"} } }
+            ship = { name = "No.74" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Hayabusa Class"} } }
+            ship = { name = "No.75" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Hayabusa Class"} } }
         }
         task_force = {
 			name = "IJN Reserve Navy"
