@@ -56,7 +56,7 @@ dgk_usa_campaign_decisions_category = {
 		}
 	}
 
-	USA_campaign_in_texas = {
+	USA_republican_campaign_in_texas = {
 		highlight_states = {
 			state = 375
 		}
@@ -86,14 +86,88 @@ dgk_usa_campaign_decisions_category = {
 
 			hidden_effect = {
 				random_list = {
-					65 = { country_event = { id = USA_campaign_decisions.1 } }
-					35 = { country_event = { id = USA_campaign_decisions.2 } }
+					65 = { country_event = { id = USA_republican_campaign_decisions.1 } }
+					35 = { country_event = { id = USA_republican_campaign_decisions.2 } }
 				}
 			}
 		}
 	}
 
-	USA_campaign_in_new_england = {
+	USA_democratic_campaign_in_texas = {
+		highlight_states = {
+			state = 375
+		}
+
+		available = {
+			tag = USA
+			NOT = { has_country_flag = USA_already_campaigning_in_state }
+		}
+
+		allowed = {
+			tag = USA
+		}
+
+		icon = eng_propaganda_campaigns
+		cost = 10
+		days_remove = 15
+
+		ai_will_do = {
+			factor = 20
+		}
+
+		complete_effect = {
+			set_country_flag = USA_already_campaigning_in_state
+		}
+		remove_effect = {
+			clr_country_flag = USA_already_campaigning_in_state
+
+			hidden_effect = {
+				random_list = {
+					65 = { country_event = { id = USA_democratic_campaign_decisions.1 } }
+					35 = { country_event = { id = USA_democratic_campaign_decisions.2 } }
+				}
+			}
+		}
+	}
+
+	USA_socialist_campaign_in_texas = {
+		highlight_states = {
+			state = 375
+		}
+
+		available = {
+			tag = USA
+			NOT = { has_country_flag = USA_already_campaigning_in_state }
+		}
+
+		allowed = {
+			tag = USA
+		}
+
+		icon = eng_propaganda_campaigns
+		cost = 10
+		days_remove = 15
+
+		ai_will_do = {
+			factor = 20
+		}
+
+		complete_effect = {
+			set_country_flag = USA_already_campaigning_in_state
+		}
+		remove_effect = {
+			clr_country_flag = USA_already_campaigning_in_state
+
+			hidden_effect = {
+				random_list = {
+					65 = { country_event = { id = USA_socialist_campaign_decisions.1 } }
+					35 = { country_event = { id = USA_socialist_campaign_decisions.2 } }
+				}
+			}
+		}
+	}
+
+	USA_republican_campaign_in_new_england = {
 		highlight_states = {
 			state = 357
 			state = 878
@@ -128,8 +202,92 @@ dgk_usa_campaign_decisions_category = {
 
 			hidden_effect = {
 				random_list = {
-					65 = { country_event = { id = USA_campaign_decisions.3 } }
-					35 = { country_event = { id = USA_campaign_decisions.4 } }
+					65 = { country_event = { id = USA_republican_campaign_decisions.3 } }
+					35 = { country_event = { id = USA_republican_campaign_decisions.4 } }
+				}
+			}
+		}
+	}
+
+	USA_democratic_campaign_in_new_england = {
+		highlight_states = {
+			state = 357
+			state = 878
+			state = 879
+			state = 880
+			state = 881
+			state = 883
+		}
+
+		available = {
+			tag = USA
+			NOT = { has_country_flag = USA_already_campaigning_in_state }
+		}
+
+		allowed = {
+			tag = USA
+		}
+
+		icon = eng_propaganda_campaigns
+		cost = 10
+		days_remove = 15
+
+		ai_will_do = {
+			factor = 20
+		}
+
+		complete_effect = {
+			set_country_flag = USA_already_campaigning_in_state
+		}
+		remove_effect = {
+			clr_country_flag = USA_already_campaigning_in_state
+
+			hidden_effect = {
+				random_list = {
+					65 = { country_event = { id = USA_democratic_campaign_decisions.3 } }
+					35 = { country_event = { id = USA_democratic_campaign_decisions.4 } }
+				}
+			}
+		}
+	}
+
+	USA_socialist_campaign_in_new_england = {
+		highlight_states = {
+			state = 357
+			state = 878
+			state = 879
+			state = 880
+			state = 881
+			state = 883
+		}
+
+		available = {
+			tag = USA
+			NOT = { has_country_flag = USA_already_campaigning_in_state }
+		}
+
+		allowed = {
+			tag = USA
+		}
+
+		icon = eng_propaganda_campaigns
+		cost = 10
+		days_remove = 15
+
+		ai_will_do = {
+			factor = 20
+		}
+
+		complete_effect = {
+			set_country_flag = USA_already_campaigning_in_state
+		}
+		remove_effect = {
+			clr_country_flag = USA_already_campaigning_in_state
+
+			hidden_effect = {
+				random_list = {
+					65 = { country_event = { id = USA_socialist_campaign_decisions.3 } }
+					35 = { country_event = { id = USA_socialist_campaign_decisions.4 } }
 				}
 			}
 		}

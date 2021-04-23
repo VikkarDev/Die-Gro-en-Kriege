@@ -32,8 +32,15 @@ dgk_colonial_influence:0 "Colonial Influence in [From.GetNameDef]"
 dgk_usa_campaign_decisions_category:0 "[GetYear] Election"
 USA_campaign_runs:0 "Election Day"
 USA_open_campaign_rally:0 "Open Electoral Map"
-USA_campaign_in_texas:0 "Campaign in Texas"
-USA_campaign_in_new_england:0 "Campaign in New England"
+
+USA_republican_campaign_in_texas:0 "Republican Campaign in Texas"
+USA_republican_campaign_in_new_england:0 "Republican Campaign in New England"
+
+USA_democratic_campaign_in_texas:0 "Democratic Campaign in Texas"
+USA_democratic_campaign_in_new_england:0 "Democratic Campaign in New England"
+
+USA_socialist_campaign_in_texas:0 "Socialist Campaign in Texas"
+USA_socialist_campaign_in_new_england:0 "Socialist Campaign in New England"
 
 # USA The Magnates
 dgk_the_magnates_decisions_category:0 "The Magnates"

@@ -2,13 +2,15 @@
 
 SUPPORTING_REPUBLICAN:0 "§RRepublicans§!"
 SUPPORTING_DEMOCRAT:0 "§BDemocrats§!"
+SUPPORTING_SOCIALIST:0 "§OSocialists§!"
 republican_campaign_key:0 "§RRepublicans§!"
 democratic_campaign_key:0 "§BDemocrats§!"
+socialist_campaign_key:0 "§OSocialists§!"
 
 USA_already_campaigning_in_state:0 "§H Already Campaigning§!"
 
-USA_texas_campaign_tt:0 "§Y[375.GetName] Electoral Votes§!\nElectoral Votes Allowed: §Y[?375.vote_value]\n\nRepublican Support: §R[?375.republican_support]§!\nDemocratic Support: §B[?375.democratic_support]§!"
-USA_louisiana_campaign_tt:0 "§Y[371.GetName] Electoral Votes§!\nElectoral Votes Allowed: §Y[?371.vote_value]\n\nRepublican Support: §R[?371.republican_support]§!\nDemocratic Support: §B[?371.democratic_support]§!"
-USA_florida_campaign_tt:0 "§Y[366.GetName] Electoral Votes§!\nElectoral Votes Allowed: §Y[?366.vote_value]\n\nRepublican Support: §R[?366.republican_support]§!\nDemocratic Support: §B[?366.democratic_support]§!"
-USA_california_campaign_tt:0 "§Y[378.GetName] Electoral Votes§!\nElectoral Votes Allowed: §Y[?378.vote_value]\n\nRepublican Support: §R[?378.republican_support]§!\nDemocratic Support: §B[?378.democratic_support]§!"
-USA_nevada_campaign_tt:0 "§Y[379.GetName] Electoral Votes§!\nElectoral Votes Allowed: §Y[?379.vote_value]\n\nRepublican Support: §R[?379.republican_support]§!\nDemocratic Support: §B[?379.democratic_support]§!"
+USA_texas_campaign_tt:0 "§Y[375.GetName] Electoral Votes§!\nElectoral Votes Allowed: §Y[?375.vote_value]\n\nRepublican Support: §R[?375.republican_support]§!\nDemocratic Support: §B[?375.democratic_support]§!\nSocialist Support: §O[?375.socialist_support]§!"
+USA_louisiana_campaign_tt:0 "§Y[371.GetName] Electoral Votes§!\nElectoral Votes Allowed: §Y[?371.vote_value]\n\nRepublican Support: §R[?371.republican_support]§!\nDemocratic Support: §B[?371.democratic_support]§!\nSocialist Support: §B[?371.socialist_support]§!"
+USA_florida_campaign_tt:0 "§Y[366.GetName] Electoral Votes§!\nElectoral Votes Allowed: §Y[?366.vote_value]\n\nRepublican Support: §R[?366.republican_support]§!\nDemocratic Support: §B[?366.democratic_support]§!\nSocialist Support: §O[?366.socialist_support]§!"
+USA_california_campaign_tt:0 "§Y[378.GetName] Electoral Votes§!\nElectoral Votes Allowed: §Y[?378.vote_value]\n\nRepublican Support: §R[?378.republican_support]§!\nDemocratic Support: §B[?378.democratic_support]§!\nSocialist Support: §O[?378.socialist_support]§!"
+USA_nevada_campaign_tt:0 "§Y[379.GetName] Electoral Votes§!\nElectoral Votes Allowed: §Y[?379.vote_value]\n\nRepublican Support: §R[?379.republican_support]§!\nDemocratic Support: §B[?379.democratic_support]§!\nSocialist Support: §O[?379.socialist_support]§!"
