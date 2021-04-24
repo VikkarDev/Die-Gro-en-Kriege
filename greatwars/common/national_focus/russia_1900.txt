@@ -12,35 +12,14 @@
 	
 	default = no
 	
-	continuous_focus_position = { x = 50 y = 1500 }
+	continuous_focus_position = { x = -100 y = 4000 }
 
 		focus = {
-			id = RUS_1900_state_duma_elections
-			icon = GFX_SOV_focus_state_duma
-			x = 7
-			y = 0
-
-			cost = 10
-
-			available = {
-				has_country_flag = state_duma_allowed
-			}
-
-			completion_reward = { 
-			
-			}
-		}
-
-		focus = {
-			id = RUS_1900_first_election_in_russia
+			id = RUS_new_industry0
 			icon = GFX_SOV_focus_first_russian_election
-			x = 7
+			x = 12
 			y = 1
 
-			prerequisite = {
-				focus = RUS_1900_state_duma_elections
-			}
-
 			cost = 10
 
 			available = {
@@ -53,17 +32,13 @@
 		}
 
 		focus = {
-			id = RUS_1900_the_safe_option
-			icon = GFX_SOV_focus_the_safe_option
-			x = 3
+			id = RUS_new_literacy
+			icon = GFX_SOV_focus_first_russian_election 
+			x =2
 			y = 2
 
 			prerequisite = {
-				focus = RUS_1900_first_election_in_russia
-			}
-			mutually_exclusive = {
-				focus = RUS_1900_what_the_people_want
-				focus = RUS_1900_the_anti_revolution
+				focus = RUS_new_industry0
 			}
 
 			cost = 10
@@ -78,17 +53,13 @@
 		}
 
 		focus = {
-			id = RUS_1900_what_the_people_want
-			icon = GFX_SOV_focus_what_the_people_want
-			x = 7
+			id = RUS_new_industry01
+			icon = GFX_SOV_focus_first_russian_election 
+			x = 10
 			y = 2
 
 			prerequisite = {
-				focus = RUS_1900_first_election_in_russia
-			}
-			mutually_exclusive = {
-				focus = RUS_1900_the_safe_option
-				focus = RUS_1900_the_anti_revolution
+				focus = RUS_new_industry0
 			}
 
 			cost = 10
@@ -103,19 +74,15 @@
 		}
 
 		focus = {
-			id = RUS_1900_the_anti_revolution
-			icon = GFX_SOV_focus_the_anti_revolution
-			x = 11
+			id = RUS_new_tsway
+			icon = GFX_SOV_focus_first_russian_election 
+			x = 18
 			y = 2
 
 			cost = 10
 
 			prerequisite = {
-				focus = RUS_1900_first_election_in_russia
-			}
-			mutually_exclusive = {
-				focus = RUS_1900_what_the_people_want
-				focus = RUS_1900_the_safe_option
+				focus = RUS_new_industry0
 			}
 
 			available = {
@@ -128,15 +95,15 @@
 		}
 
 		focus = {
-			id = RUS_1900_stabilize_the_people
-			icon = GFX_focus_generic_industry_1
-			x = 2
+			id = RUS_new_orth
+			icon = GFX_SOV_focus_first_russian_election
+			x = 0
 			y = 3
 
 			cost = 10
 
 			prerequisite = {
-				focus = RUS_1900_the_safe_option
+				focus = RUS_new_literacy
 			}
 
 			available = {
@@ -149,15 +116,15 @@
 		}
 
 		focus = {
-			id = RUS_1900_anti_authoritarianism
-			icon = GFX_focus_generic_industry_1
+			id = RUS_new_skool
+			icon = GFX_SOV_focus_first_russian_election
 			x = 4
 			y = 3
 
 			cost = 10
 
 			prerequisite = {
-				focus = RUS_1900_the_safe_option
+				focus = RUS_new_literacy
 			}
 
 			available = {
@@ -170,37 +137,16 @@
 		}
 
 		focus = {
-			id = RUS_1900_workers_rights
-			icon = GFX_focus_generic_industry_1
-			x = 6
-			y = 3
-
-			cost = 10
-
-			prerequisite = {
-				focus = RUS_1900_what_the_people_want
-			}
-
-			available = {
-			
-			}
-
-			completion_reward = { 
-			
-			}
-		}
-
-		focus = {
-			id = RUS_1900_government_comprimise
-			icon = GFX_focus_generic_industry_1
+			id = RUS_new_excity
+			icon = GFX_SOV_focus_first_russian_election
 			x = 8
 			y = 3
 
-			prerequisite = {
-				focus = RUS_1900_what_the_people_want
-			}
-
 			cost = 10
+
+			prerequisite = {
+				focus = RUS_new_industry01
+			}
 
 			available = {
 			
@@ -212,34 +158,13 @@
 		}
 
 		focus = {
-			id = RUS_1900_work_with_the_tsar
-			icon = GFX_focus_generic_industry_1
-			x = 10
-			y = 3
-
-			prerequisite = {
-				focus = RUS_1900_the_anti_revolution
-			}
-
-			cost = 10
-
-			available = {
-			
-			}
-
-			completion_reward = { 
-			
-			}
-		}
-
-		focus = {
-			id = RUS_1900_clash_with_revolutionaries
-			icon = GFX_focus_generic_industry_1
+			id = RUS_new_imptool
+			icon = GFX_SOV_focus_first_russian_election
 			x = 12
 			y = 3
 
 			prerequisite = {
-				focus = RUS_1900_the_anti_revolution
+				focus = RUS_new_industry01
 			}
 
 			cost = 10
@@ -254,65 +179,66 @@
 		}
 
 		focus = {
-			id = RUS_1900_legislative_election_1907
-			icon = GFX_focus_generic_industry_1
-			x = 7
+			id = RUS_new_civway
+			icon = GFX_SOV_focus_first_russian_election 
+			x = 15
+			y = 3
+
+			prerequisite = {
+				focus = RUS_new_tsway
+			}
+
+            mutually_exclusive = { focus = RUS_new_milway }
+
+
+			cost = 10
+
+			available = {
+			
+			}
+
+			completion_reward = { 
+			
+			}
+		}
+
+		focus = {
+			id = RUS_new_milway
+			icon = GFX_SOV_focus_first_russian_election
+			x = 21
+			y = 3
+
+			prerequisite = {
+				focus = RUS_new_tsway
+			}
+
+            mutually_exclusive = { focus = RUS_new_civway }
+
+
+			cost = 10
+
+			available = {
+			
+			}
+
+			completion_reward = { 
+			
+			}
+		}
+
+
+		focus = {
+			id = RUS_new_onetrack
+			icon = GFX_SOV_focus_first_russian_election 
+			x = 15
 			y = 5
 
-			prerequisite = {
-				focus = RUS_1900_work_with_the_tsar
-				focus = RUS_1900_clash_with_revolutionaries
-				focus = RUS_1900_workers_rights
-				focus = RUS_1900_government_comprimise
-				focus = RUS_1900_anti_authoritarianism
-				focus = RUS_1900_stabilize_the_people
-			}
-
 			cost = 10
-
-			available = {
-			
-			}
-
-			completion_reward = { 
-			
-			}
-		}
-
-		focus = {
-			id = RUS_1900_russian_foreign_policy 
-			icon = GFX_focus_generic_industry_1
-			x = 17
-			y = 0
-
-			cost = 10
-
-			available = {
-			
-			}
-
-			completion_reward = { 
-			
-			}
-		}
-
-		focus = {
-			id = RUS_1900_work_with_france
-			icon = GFX_focus_generic_industry_1
-			x = 15
-			y = 1
-
-			mutually_exclusive = {
-				focus = RUS_1900_russian_banks
-				focus = RUS_1900_steer_towards_germany
-			}
-
 
 			prerequisite = {
-				focus = RUS_1900_russian_foreign_policy
+				focus = RUS_new_civway
 			}
 
-			cost = 10
 
 			available = {
 			
@@ -323,23 +249,19 @@
 			}
 		}
 
+
 		focus = {
-			id = RUS_1900_russian_banks
-			icon = GFX_focus_generic_industry_1
-			x = 17
-			y = 1
+			id = RUS_new_twotrack
+			icon = GFX_SOV_focus_first_russian_election 
+			x = 21
+			y = 5
 
-			mutually_exclusive = {
-				focus = RUS_1900_steer_towards_germany
-				focus = RUS_1900_work_with_france
-			}
-
+			cost = 10
 
 			prerequisite = {
-				focus = RUS_1900_russian_foreign_policy
+				focus = RUS_new_milway
 			}
 
-			cost = 10
 
 			available = {
 			
@@ -351,21 +273,18 @@
 		}
 
 		focus = {
-			id = RUS_1900_steer_towards_germany
-			icon = GFX_focus_generic_industry_1
-			x = 19
-			y = 1
+			id = RUS_new_finway
+			icon = GFX_SOV_focus_first_russian_election 
+			x = 18
+			y = 7
+
+			cost = 10
 
 			prerequisite = {
-				focus = RUS_1900_russian_foreign_policy
+				focus = RUS_new_onetrack
+				focus = RUS_new_twotrack
 			}
 
-			mutually_exclusive = {
-				focus = RUS_1900_russian_banks
-				focus = RUS_1900_work_with_france
-			}
-
-			cost = 10
 
 			available = {
 			
@@ -377,16 +296,16 @@
 		}
 
 		focus = {
-			id = RUS_1900_anti_german_pact
-			icon = GFX_focus_generic_industry_1
-			x = 14
+			id = RUS_new_tcway
+			icon = GFX_SOV_focus_first_russian_election 
+			x = 26
 			y = 2
 
-			prerequisite = {
-				focus = RUS_1900_work_with_france
-			}
-
 			cost = 10
+
+			prerequisite = {
+				focus = RUS_new_industry0
+			}
 
 			available = {
 			
@@ -398,58 +317,19 @@
 		}
 
 		focus = {
-			id = RUS_1900_our_people
-			icon = GFX_focus_generic_industry_1
-			x = 17
-			y = 2
-
-			prerequisite = {
-				focus = RUS_1900_russian_banks
-			}
-
-			cost = 10
-
-			available = {
-			
-			}
-
-			completion_reward = { 
-			
-			}
-		}
-
-		focus = {
-			id = RUS_1900_end_french_dependancy
-			icon = GFX_focus_generic_industry_1
-			x = 20
-			y = 2
-
-			prerequisite = {
-				focus = RUS_1900_steer_towards_germany
-			}
-
-
-			cost = 10
-
-			available = {
-			
-			}
-
-			completion_reward = { 
-			
-			}
-		}
-
-		focus = {
-			id = RUS_1900_the_revolution
-			icon = GFX_focus_generic_industry_1
-			x = 17
+			id = RUS_new_tcway2
+			icon = GFX_SOV_focus_first_russian_election 
+			x = 26
 			y = 4
 
 			cost = 10
 
+			prerequisite = {
+				focus = RUS_new_tcway
+			}
+
 			available = {
-				has_country_flag = first_russian_revolution
+			
 			}
 
 			completion_reward = { 
@@ -458,245 +338,607 @@
 		}
 
 		focus = {
-			id = RUS_1900_for_the_tsar
-			icon = GFX_focus_generic_industry_1
+			id = RUS_new_tcwayBase
+			icon = GFX_SOV_focus_first_russian_election 
+			x = 24
+			y = 5
+
+			cost = 10
+
+			prerequisite = {
+				focus = RUS_new_tcway2
+			}
+
+            mutually_exclusive = { focus = RUS_new_tcwayFriend }
+
+
+			available = {
+			
+			}
+
+			completion_reward = { 
+			
+			}
+		}
+
+
+		focus = {
+			id = RUS_new_tcwayFriend
+			icon = GFX_SOV_focus_first_russian_election 
+			x = 28
+			y = 5
+
+			cost = 10
+
+			prerequisite = {
+				focus = RUS_new_tcway2
+			}
+
+            mutually_exclusive = { focus = RUS_new_tcwayBase}
+
+
+			available = {
+			
+			}
+
+			completion_reward = { 
+			
+			}
+		}
+
+
+		focus = {
+			id = RUS_new_finway2
+			icon = GFX_SOV_focus_first_russian_election 
+			x = 26
+			y = 7
+
+			cost = 10
+
+			prerequisite = {
+				focus = RUS_new_tcwayBase
+				focus = RUS_new_tcwayFriend
+			}
+
+
+			available = {
+			
+			}
+
+			completion_reward = { 
+			
+			}
+		}
+
+
+		focus = {
+			id = RUS_new_morefac
+			icon = GFX_SOV_focus_first_russian_election
+			x = 10
+			y = 5
+
+			prerequisite = {
+				focus = RUS_new_excity
+				focus = RUS_new_imptool
+			}
+
+			cost = 10
+
+			available = {
+			
+			}
+
+			completion_reward = { 
+			
+			}
+		}
+
+
+		focus = {
+			id = RUS_new_indep
+			icon = GFX_SOV_focus_first_russian_election
+			x = 13
+			y = 7
+
+			prerequisite = {
+				focus = RUS_new_morefac
+			}
+
+        mutually_exclusive = { focus = RUS_new_dep }
+
+			cost = 10
+
+			available = {
+			
+			}
+
+			completion_reward = { 
+			
+			}
+		}
+
+
+		focus = {
+			id = RUS_new_incpro
+			icon = GFX_SOV_focus_first_russian_election
 			x = 15
-			y = 5
-
-			mutually_exclusive = {
-				focus = RUS_1900_the_peaceful_way
-				focus = RUS_1900_for_the_revolution
-			}
-
-			prerequisite = {
-				focus = RUS_1900_the_revolution
-			}
-
-			cost = 10
-
-			available = {
-			
-			}
-
-			completion_reward = { 
-			
-			}
-		}
-
-		focus = {
-			id = RUS_1900_the_peaceful_way
-			icon = GFX_focus_generic_industry_1
-			x = 17
-			y = 5
-
-			mutually_exclusive = {
-				focus = RUS_1900_for_the_tsar
-				focus = RUS_1900_for_the_revolution
-			}
-
-			prerequisite = {
-				focus = RUS_1900_the_revolution
-			}
-
-
-			cost = 10
-
-			available = {
-			
-			}
-
-			completion_reward = { 
-			
-			}
-		}
-
-		focus = {
-			id = RUS_1900_for_the_revolution
-			icon = GFX_focus_generic_industry_1
-			x = 19
-			y = 5
-
-			mutually_exclusive = {
-				focus = RUS_1900_the_peaceful_way
-				focus = RUS_1900_for_the_tsar
-			}
-
-			prerequisite = {
-				focus = RUS_1900_the_revolution
-			}
-
-			cost = 10
-
-			available = {
-			
-			}
-
-			completion_reward = { 
-			
-			}
-		}
-
-		focus = {
-			id = RUS_1900_down_with_revolutionaries
-			icon = GFX_focus_generic_industry_1
-			x = 14
-			y = 6
-
-			prerequisite = {
-				focus = RUS_1900_for_the_tsar
-			}
-
-			cost = 10
-
-			available = {
-			
-			}
-
-			completion_reward = { 
-			
-			}
-		}
-
-		focus = {
-			id = RUS_1900_open_discussion
-			icon = GFX_focus_generic_industry_1
-			x = 17
-			y = 6
-
-			prerequisite = {
-				focus = RUS_1900_the_peaceful_way
-			}
-
-
-			cost = 10
-
-			available = {
-			
-			}
-
-			completion_reward = { 
-			
-			}
-		}
-
-		focus = {
-			id = RUS_1900_people_in_power
-			icon = GFX_focus_generic_industry_1
-			x = 20
-			y = 6
-
-			prerequisite = {
-				focus = RUS_1900_for_the_revolution
-			}
-
-
-			cost = 10
-
-			available = {
-			
-			}
-
-			completion_reward = { 
-			
-			}
-		}
-
-		focus = {
-			id = RUS_1900_officer_purge
-			icon = GFX_focus_generic_industry_1
-			x = 14
-			y = 7
-
-			prerequisite = {
-				focus = RUS_1900_down_with_revolutionaries
-			}
-
-
-			cost = 10
-
-			available = {
-			
-			}
-
-			completion_reward = { 
-			
-			}
-		}
-
-		focus = {
-			id = RUS_1900_constitution_1906
-			icon = GFX_focus_generic_industry_1
-			x = 17
-			y = 7
-
-			prerequisite = {
-				focus = RUS_1900_open_discussion
-			}
-
-
-			cost = 10
-
-			available = {
-			
-			}
-
-			completion_reward = { 
-			
-			}
-		}
-
-		focus = {
-			id = RUS_1900_the_new_union
-			icon = GFX_focus_generic_industry_1
-			x = 20
-			y = 7
-
-			prerequisite = {
-				focus = RUS_1900_people_in_power
-			}
-
-
-			cost = 10
-
-			available = {
-			
-			}
-
-			completion_reward = { 
-			
-			}
-		}
-
-		focus = {
-			id = RUS_1900_european_tensions
-			icon = GFX_focus_generic_industry_1
-			x = 17
 			y = 9
 
+			prerequisite = {
+				focus = RUS_new_indep
+			}
+
+
 			cost = 10
 
 			available = {
-				has_country_flag = tensions_in_europe
+			
 			}
 
 			completion_reward = { 
-				
+			
 			}
 		}
 
 		focus = {
-			id = RUS_1900_back_the_french
-			icon = GFX_focus_generic_industry_1
+			id = RUS_new_teachwork
+			icon = GFX_SOV_focus_first_russian_election
+			x = 11
+			y = 9
+
+			prerequisite = {
+				focus = RUS_new_indep
+			}
+
+
+			cost = 10
+
+			available = {
+			
+			}
+
+			completion_reward = { 
+			
+			}
+		}
+
+		focus = {
+			id = RUS_new_inccond
+			icon = GFX_SOV_focus_first_russian_election
+			x = 13
+			y = 9
+
+			prerequisite = {
+				focus = RUS_new_indep
+			}
+
+
+			cost = 10
+
+			available = {
+			
+			}
+
+			completion_reward = { 
+			
+			}
+		}
+
+		focus = {
+			id = RUS_new_milind
+			icon = GFX_SOV_focus_first_russian_election
+			x = 13
+			y = 11
+
+			prerequisite = {
+				focus = RUS_new_indep
+				focus = RUS_new_incpro
+				focus = RUS_new_teachwork
+			}
+
+
+			cost = 10
+
+			available = {
+			
+			}
+
+			completion_reward = { 
+			
+			}
+		}
+
+		focus = {
+			id = RUS_new_limex
+			icon = GFX_SOV_focus_first_russian_election
+			x = 13
+			y = 13
+
+			prerequisite = {
+				focus = RUS_new_milind
+			}
+
+
+			cost = 10
+
+			available = {
+			
+			}
+
+			completion_reward = { 
+			
+			}
+		}
+
+		focus = {
+			id = RUS_new_dep
+			icon = GFX_SOV_focus_first_russian_election
+			x = 7
+			y = 7
+
+			prerequisite = {
+				focus = RUS_new_morefac
+			}
+
+            mutually_exclusive = { focus = RUS_new_indep }
+
+			cost = 10
+
+			available = {
+			
+			}
+
+			completion_reward = { 
+			
+			}
+		}
+
+		focus = {
+			id = RUS_new_coopwest
+			icon = GFX_SOV_focus_first_russian_election
+			x = 9
+			y = 9
+
+			prerequisite = {
+				focus = RUS_new_dep
+			}
+
+
+			cost = 10
+
+			available = {
+			
+			}
+
+			completion_reward = { 
+			
+			}
+		}
+
+		focus = {
+			id = RUS_new_buytools
+			icon = GFX_SOV_focus_first_russian_election
+			x = 7
+			y = 9
+
+			prerequisite = {
+				focus = RUS_new_dep
+			}
+
+
+			cost = 10
+
+			available = {
+			
+			}
+
+			completion_reward = { 
+			
+			}
+		}
+
+		focus = {
+			id = RUS_new_westtech
+			icon = GFX_SOV_focus_first_russian_election
+			x = 5
+			y = 9
+
+			prerequisite = {
+				focus = RUS_new_dep
+			}
+
+
+			cost = 10
+
+			available = {
+			
+			}
+
+			completion_reward = { 
+			
+			}
+		}
+	
+			focus = {
+			id = RUS_new_beginrel
+			icon = GFX_SOV_focus_first_russian_election
+			x = 7
+			y = 11
+
+			prerequisite = {
+				focus = RUS_new_buytools
+				focus = RUS_new_westtech
+				focus = RUS_new_coopwest
+			}
+
+
+			cost = 10
+
+			available = {
+			
+			}
+
+			completion_reward = { 
+			
+			}
+		}
+
+				focus = {
+			id = RUS_new_moreex
+			icon = GFX_SOV_focus_first_russian_election
+			x = 7
+			y = 13
+
+			prerequisite = {
+				focus = RUS_new_beginrel
+			}
+
+
+			cost = 10
+
+			available = {
+			
+			}
+
+			completion_reward = { 
+			
+			}
+		}
+
+				focus = {
+			id = RUS_new_noagri
+			icon = GFX_SOV_focus_first_russian_election
+			x = 10
+			y = 15
+
+			prerequisite = {
+				focus = RUS_new_moreex
+				focus = RUS_new_limex
+			}
+
+
+			cost = 30
+
+			available = {
+			
+			}
+
+			completion_reward = { 
+			
+			}
+		}
+
+		focus = {
+			id = RUS_new_massind
+			icon = GFX_SOV_focus_first_russian_election
+			x = 13
+			y = 17
+
+			prerequisite = {
+				focus = RUS_new_noagri
+			}
+
+
+			cost = 10
+
+			available = {
+			
+			}
+
+			completion_reward = { 
+			
+			}
+		}
+
+		focus = {
+			id = RUS_new_focwes
+			icon = GFX_SOV_focus_first_russian_election
 			x = 15
-			y = 10
-
-			mutually_exclusive = {
-				focus = RUS_1900_not_our_war
-				focus = RUS_1900_back_the_germans
-			}
+			y = 19
 
 			prerequisite = {
-				focus = RUS_1900_european_tensions
+				focus = RUS_new_massind
+			}
+
+
+			cost = 10
+
+			available = {
+			
+			}
+
+			completion_reward = { 
+			
+			}
+		}
+
+		focus = {
+			id = RUS_new_focsib
+			icon = GFX_SOV_focus_first_russian_election
+			x = 11
+			y = 19
+
+			prerequisite = {
+				focus = RUS_new_massind
+			}
+
+
+			cost = 10
+
+			available = {
+			
+			}
+
+			completion_reward = { 
+			
+			}
+		}
+
+		focus = {
+			id = RUS_new_induru
+			icon = GFX_SOV_focus_first_russian_election
+			x = 13
+			y = 21
+
+			prerequisite = {
+				focus = RUS_new_focsib
+				focus = RUS_new_focwes
+			}
+
+
+			cost = 10
+
+			available = {
+			
+			}
+
+			completion_reward = { 
+			
+			}
+		}
+
+		focus = {
+			id = RUS_new_drilloil
+			icon = GFX_SOV_focus_first_russian_election
+			x = 7
+			y = 17
+
+			prerequisite = {
+				focus = RUS_new_noagri
+			}
+
+
+			cost = 10
+
+			available = {
+			
+			}
+
+			completion_reward = { 
+			
+			}
+		}
+
+		focus = {
+			id = RUS_new_oilciv
+			icon = GFX_SOV_focus_first_russian_election
+			x = 9
+			y = 19
+
+			prerequisite = {
+				focus = RUS_new_drilloil
+			}
+
+          mutually_exclusive = { focus = RUS_new_oilmil }
+
+			cost = 10
+
+			available = {
+			
+			}
+
+			completion_reward = { 
+			
+			}
+		}
+
+		focus = {
+			id = RUS_new_oilmil
+			icon = GFX_SOV_focus_first_russian_election
+			x = 5
+			y = 19
+
+			prerequisite = {
+				focus = RUS_new_drilloil
+			}
+
+            mutually_exclusive = { focus = RUS_new_oilciv }
+
+			cost = 10
+
+			available = {
+			
+			}
+
+			completion_reward = { 
+			
+			}
+		}
+
+				focus = {
+			id = RUS_new_lead
+			icon = GFX_SOV_focus_first_russian_election
+			x = 7
+			y = 21
+
+			prerequisite = {
+				focus = RUS_new_oilciv
+				focus = RUS_new_oilmil
+			}
+
+
+			cost = 10
+
+			available = {
+			
+			}
+
+			completion_reward = { 
+			
+			}
+		}
+
+		focus = {
+			id = RUS_new_univ
+			icon = GFX_SOV_focus_first_russian_election
+			x = 2
+			y = 5
+
+			prerequisite = {
+				focus = RUS_new_orth
+				focus = RUS_new_skool
+			}
+
+			cost = 10
+
+			available = {
+			
+			}
+
+			completion_reward = { 
+			
+			}
+		}
+
+
+		focus = {
+			id = RUS_new_iliteracy
+			icon = GFX_SOV_focus_first_russian_election 
+			x = 2
+			y = 7
+
+			prerequisite = {
+				focus = RUS_new_univ
 			}
 
 			cost = 10
@@ -711,20 +953,13 @@
 		}
 
 		focus = {
-			id = RUS_1900_not_our_war
-			icon = GFX_focus_generic_industry_1
-			x = 17
-			y = 10
-
-			
+			id = RUS_new_techdone
+			icon = GFX_SOV_focus_first_russian_election 
+			x = 2
+			y = 9
 
 			prerequisite = {
-				focus = RUS_1900_european_tensions
-			}
-
-			mutually_exclusive = {
-				focus = RUS_1900_back_the_french
-				focus = RUS_1900_back_the_germans
+				focus = RUS_new_iliteracy
 			}
 
 			cost = 10
@@ -737,32 +972,4 @@
 			
 			}
 		}
-
-		focus = {
-			id = RUS_1900_back_the_germans
-			icon = GFX_focus_generic_industry_1
-			x = 19
-			y = 10
-
-			prerequisite = {
-				focus = RUS_1900_european_tensions
-			}
-
-			mutually_exclusive = {
-				focus = RUS_1900_not_our_war
-				focus = RUS_1900_back_the_french
-			}
-
-			cost = 10
-
-			available = {
-			
-			}
-
-			completion_reward = { 
-			
-			}
-		}
-
-}
-
+	}
