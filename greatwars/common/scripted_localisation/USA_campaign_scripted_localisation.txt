@@ -4,7 +4,7 @@ defined_text = {
 		trigger = {
 			OR = { 
 				is_republican_state = yes 
-				is_republican_state_texas = yes 
+				#is_republican_state_texas = yes 
 			}
 		}
 		localization_key = SUPPORTING_REPUBLICAN
