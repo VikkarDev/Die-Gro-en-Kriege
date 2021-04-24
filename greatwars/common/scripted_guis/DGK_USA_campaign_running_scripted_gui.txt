@@ -67,6 +67,34 @@ scripted_gui = {
 			nevada_republican_visible = {
 				379 = { is_republican_state = yes }
 			}
+
+			utah_democratic_visible = {
+				380 = { is_democratic_state = yes }
+			}
+			utah_republican_visible = {
+				380 = { is_republican_state = yes }
+			}
+
+			oregon_democratic_visible = {
+				385 = { is_democratic_state = yes }
+			}
+			oregon_republican_visible = {
+				385 = { is_republican_state = yes }
+			}
+
+			washington_democratic_visible = {
+				386 = { is_democratic_state = yes }
+			}
+			washington_republican_visible = {
+				386 = { is_republican_state = yes }
+			}
+
+			idaho_democratic_visible = {
+				387 = { is_democratic_state = yes }
+			}
+			idaho_republican_visible = {
+				387 = { is_republican_state = yes }
+			}
 		}
 
 		effects = {
@@ -76,29 +104,61 @@ scripted_gui = {
 			texas_republican_click = {
 				375 = { save_global_event_target_as = USA_targeted_campaign_running_state }
 			}
+
 			louisiana_democratic_click = {
 				371 = { save_global_event_target_as = USA_targeted_campaign_running_state }
 			}
 			louisiana_republican_click = {
 				371 = { save_global_event_target_as = USA_targeted_campaign_running_state }
 			}
+
 			florida_democratic_click = {
 				366 = { save_global_event_target_as = USA_targeted_campaign_running_state }
 			}
 			florida_republican_click = {
 				366 = { save_global_event_target_as = USA_targeted_campaign_running_state }
 			}
+
 			california_democratic_click = {
 				378 = { save_global_event_target_as = USA_targeted_campaign_running_state }
 			}
 			california_republican_click = {
 				378 = { save_global_event_target_as = USA_targeted_campaign_running_state }
 			}
+
 			nevada_democratic_click = {
 				379 = { save_global_event_target_as = USA_targeted_campaign_running_state }
 			}
 			nevada_republican_click = {
 				379 = { save_global_event_target_as = USA_targeted_campaign_running_state }
+			}
+
+			utah_democratic_click = {
+				380 = { save_global_event_target_as = USA_targeted_campaign_running_state }
+			}
+			utah_republican_click = {
+				380 = { save_global_event_target_as = USA_targeted_campaign_running_state }
+			}
+
+			oregon_democratic_click = {
+				385 = { save_global_event_target_as = USA_targeted_campaign_running_state }
+			}
+			oregon_republican_click = {
+				385 = { save_global_event_target_as = USA_targeted_campaign_running_state }
+			}
+
+			idaho_democratic_click = {
+				387 = { save_global_event_target_as = USA_targeted_campaign_running_state }
+			}
+			idaho_republican_click = {
+				387 = { save_global_event_target_as = USA_targeted_campaign_running_state }
+			}
+
+			washington_democratic_click = {
+				386 = { save_global_event_target_as = USA_targeted_campaign_running_state }
+			}
+			washington_republican_click = {
+				386 = { save_global_event_target_as = USA_targeted_campaign_running_state }
 			}
 		}
 	}

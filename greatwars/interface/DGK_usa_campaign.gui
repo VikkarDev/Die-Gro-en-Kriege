@@ -240,6 +240,58 @@ guiTypes = {
 				spriteType = "GFX_USA_nevada_democratic"
 				position = { x = 45 y = 116 }
 			}
+
+			iconType = {
+				name = "utah_republican"
+				pdx_tooltip = "USA_utah_campaign_tt"
+				spriteType = "GFX_USA_utah_republican"
+				position = { x = 108 y = 130 }
+			}
+			iconType = {
+				name = "utah_democratic"
+				pdx_tooltip = "USA_utah_campaign_tt"
+				spriteType = "GFX_USA_utah_democratic"
+				position = { x = 108 y = 130 }
+			}
+
+			iconType = {
+				name = "oregon_republican"
+				pdx_tooltip = "USA_oregon_campaign_tt"
+				spriteType = "GFX_USA_oregon_republican"
+				position = { x = 10 y = 43 }
+			}
+			iconType = {
+				name = "oregon_democratic"
+				pdx_tooltip = "USA_oregon_campaign_tt"
+				spriteType = "GFX_USA_oregon_democratic"
+				position = { x = 10 y = 43 }
+			}
+
+			iconType = {
+				name = "idaho_republican"
+				pdx_tooltip = "USA_idaho_campaign_tt"
+				spriteType = "GFX_USA_idaho_republican"
+				position = { x = 89 y = 18 }
+			}
+			iconType = {
+				name = "idaho_democratic"
+				pdx_tooltip = "USA_idaho_campaign_tt"
+				spriteType = "GFX_USA_idaho_democratic"
+				position = { x = 89 y = 18 }
+			}
+
+			iconType = {
+				name = "washington_republican"
+				pdx_tooltip = "USA_washington_campaign_tt"
+				spriteType = "GFX_USA_washington_republican"
+				position = { x = 30 y = 5 }
+			}
+			iconType = {
+				name = "washington_democratic"
+				pdx_tooltip = "USA_washington_campaign_tt"
+				spriteType = "GFX_USA_washington_democratic"
+				position = { x = 30 y = 5 }
+			}
 		}
 	}
 }

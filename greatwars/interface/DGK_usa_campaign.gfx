@@ -78,4 +78,40 @@ spriteTypes = {
 		name = "GFX_USA_nevada_democratic"
 		texturefile = "gfx/interface/usa_voting_gfx/nevada_democratic.dds"
 	}
+
+	spriteType = {
+		name = "GFX_USA_utah_republican"
+		texturefile = "gfx/interface/usa_voting_gfx/utah_republican.dds"
+	}
+	spriteType = {
+		name = "GFX_USA_utah_democratic"
+		texturefile = "gfx/interface/usa_voting_gfx/utah_democratic.dds"
+	}
+
+	spriteType = {
+		name = "GFX_USA_oregon_republican"
+		texturefile = "gfx/interface/usa_voting_gfx/oregon_republican.dds"
+	}
+	spriteType = {
+		name = "GFX_USA_oregon_democratic"
+		texturefile = "gfx/interface/usa_voting_gfx/oregon_democratic.dds"
+	}
+
+	spriteType = {
+		name = "GFX_USA_idaho_republican"
+		texturefile = "gfx/interface/usa_voting_gfx/idaho_republican.dds"
+	}
+	spriteType = {
+		name = "GFX_USA_idaho_democratic"
+		texturefile = "gfx/interface/usa_voting_gfx/idaho_democratic.dds"
+	}
+
+	spriteType = {
+		name = "GFX_USA_washington_republican"
+		texturefile = "gfx/interface/usa_voting_gfx/washington_republican.dds"
+	}
+	spriteType = {
+		name = "GFX_USA_washington_democratic"
+		texturefile = "gfx/interface/usa_voting_gfx/washington_democratic.dds"
+	}
 }

@@ -160,7 +160,7 @@ capital = 361
 	create_country_leader = {
 		name = "William McKinley"
 		desc = WILLIAM_LEADER_DESCRIPTION
-		picture = "Portrait_William_McKinley.tga"
+		picture = "William_McKinley.tga"
 		ideology = con_liberal
 	}
 
