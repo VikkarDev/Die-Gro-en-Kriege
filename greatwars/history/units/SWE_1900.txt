@@ -31,6 +31,42 @@ units = {
 		start_equipment_factor = 0.3
 
 	}
+	division = {
+		#name = "Svenskar i nöd 1"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 6208
+		division_template = "Svenskar i nöd"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.4
+
+	}
+	division = {
+		#name = "Svenskar i nöd 1"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 11380
+		division_template = "Svenskar i nöd"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	division = {
+		#name = "Svenskar i nöd 1"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 6115
+		division_template = "Svenskar i nöd"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.6
+
+	}
 }
 instant_effect = {
 	add_equipment_production = {
