@@ -21,6 +21,7 @@
  SWE_marxist_leninism_ADJ:0 "Swedish"
  SWE_social_liberalism:0 "Kingdom of Sweden"
  SWE_social_liberalism_DEF:0 "The Kingdom of Sweden"
+ SWE_democratic_socialism:0 "Kingdom of Sweden"
 
 
 # EVENTS 
@@ -81,7 +82,7 @@
  NOR_SWE_union_traditional_conservatism:0 "United Kingdoms of Sweden and Norway"
  NOR_SWE_union_traditional_conservatism_DEF:0 "The United Kingdoms of Sweden and Norway"
  NOR_SWE_union_social_liberalism_ADJ:0 "Sweden-Norways"
- NOR_SWE_union_democratic_socialism:0 "The United Kingdoms of Sweden and Norway"
+ NOR_SWE_union_democratic_socialism:0 "United Kingdoms of Sweden and Norway"
 NOR_SWE_union_democratic_socialism_DEF:0 "The United Kingdoms of Sweden and Norway"
  
 
