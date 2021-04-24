@@ -75,6 +75,34 @@ scripted_gui = {
 				380 = { is_republican_state = yes }
 			}
 
+			wyoming_democratic_visible = {
+				381 = { is_democratic_state = yes }
+			}
+			wyoming_republican_visible = {
+				381 = { is_republican_state = yes }
+			}
+
+			colorado_democratic_visible = {
+				382 = { is_democratic_state = yes }
+			}
+			colorado_republican_visible = {
+				382 = { is_republican_state = yes }
+			}
+
+			kansas_democratic_visible = {
+				383 = { is_democratic_state = yes }
+			}
+			kansas_republican_visible = {
+				383 = { is_republican_state = yes }
+			}
+
+			nebraska_democratic_visible = {
+				384 = { is_democratic_state = yes }
+			}
+			nebraska_republican_visible = {
+				384 = { is_republican_state = yes }
+			}
+
 			oregon_democratic_visible = {
 				385 = { is_democratic_state = yes }
 			}
@@ -94,6 +122,27 @@ scripted_gui = {
 			}
 			idaho_republican_visible = {
 				387 = { is_republican_state = yes }
+			}
+
+			montana_democratic_visible = {
+				388 = { is_democratic_state = yes }
+			}
+			montana_republican_visible = {
+				388 = { is_republican_state = yes }
+			}
+
+			north_dakota_democratic_visible = {
+				389 = { is_democratic_state = yes }
+			}
+			north_dakota_republican_visible = {
+				389 = { is_republican_state = yes }
+			}
+
+			south_dakota_democratic_visible = {
+				390 = { is_democratic_state = yes }
+			}
+			south_dakota_republican_visible = {
+				390 = { is_republican_state = yes }
 			}
 		}
 
@@ -140,11 +189,46 @@ scripted_gui = {
 				380 = { save_global_event_target_as = USA_targeted_campaign_running_state }
 			}
 
+			wyoming_democratic_click = {
+				381 = { save_global_event_target_as = USA_targeted_campaign_running_state }
+			}
+			wyoming_republican_click = {
+				381 = { save_global_event_target_as = USA_targeted_campaign_running_state }
+			}
+
+			colorado_democratic_click = {
+				382 = { save_global_event_target_as = USA_targeted_campaign_running_state }
+			}
+			colorado_republican_click = {
+				382 = { save_global_event_target_as = USA_targeted_campaign_running_state }
+			}
+
+			kansas_democratic_click = {
+				383 = { save_global_event_target_as = USA_targeted_campaign_running_state }
+			}
+			kansas_republican_click = {
+				383 = { save_global_event_target_as = USA_targeted_campaign_running_state }
+			}
+
+			nebraska_democratic_click = {
+				384 = { save_global_event_target_as = USA_targeted_campaign_running_state }
+			}
+			nebraska_republican_click = {
+				384 = { save_global_event_target_as = USA_targeted_campaign_running_state }
+			}
+
 			oregon_democratic_click = {
 				385 = { save_global_event_target_as = USA_targeted_campaign_running_state }
 			}
 			oregon_republican_click = {
 				385 = { save_global_event_target_as = USA_targeted_campaign_running_state }
+			}
+
+			washington_democratic_click = {
+				386 = { save_global_event_target_as = USA_targeted_campaign_running_state }
+			}
+			washington_republican_click = {
+				386 = { save_global_event_target_as = USA_targeted_campaign_running_state }
 			}
 
 			idaho_democratic_click = {
@@ -154,11 +238,25 @@ scripted_gui = {
 				387 = { save_global_event_target_as = USA_targeted_campaign_running_state }
 			}
 
-			washington_democratic_click = {
-				386 = { save_global_event_target_as = USA_targeted_campaign_running_state }
+			montana_democratic_click = {
+				388 = { save_global_event_target_as = USA_targeted_campaign_running_state }
 			}
-			washington_republican_click = {
-				386 = { save_global_event_target_as = USA_targeted_campaign_running_state }
+			montana_republican_click = {
+				388 = { save_global_event_target_as = USA_targeted_campaign_running_state }
+			}
+
+			north_dakota_democratic_click = {
+				389 = { save_global_event_target_as = USA_targeted_campaign_running_state }
+			}
+			north_dakota_republican_click = {
+				389 = { save_global_event_target_as = USA_targeted_campaign_running_state }
+			}
+
+			south_dakota_democratic_click = {
+				390 = { save_global_event_target_as = USA_targeted_campaign_running_state }
+			}
+			south_dakota_republican_click = {
+				390 = { save_global_event_target_as = USA_targeted_campaign_running_state }
 			}
 		}
 	}

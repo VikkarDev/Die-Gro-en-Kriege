@@ -51,6 +51,30 @@ on_actions = {
 				set_variable = { socialist_support = 1 }
 				set_variable = { vote_value = 3 }
 			}
+			381 = {
+				set_variable = { republican_support = 1 }
+				set_variable = { democratic_support = 0 }
+				set_variable = { socialist_support = 0 }
+				set_variable = { vote_value = 3 }
+			}
+			382 = {
+				set_variable = { republican_support = 0 }
+				set_variable = { democratic_support = 1 }
+				set_variable = { socialist_support = 0 }
+				set_variable = { vote_value = 4 }
+			}
+			383 = {
+				set_variable = { republican_support = 2 }
+				set_variable = { democratic_support = 1 }
+				set_variable = { socialist_support = 1 }
+				set_variable = { vote_value = 10 }
+			}
+			384 = {
+				set_variable = { republican_support = 2 }
+				set_variable = { democratic_support = 1 }
+				set_variable = { socialist_support = 1 }
+				set_variable = { vote_value = 8 }
+			}
 			385 = {
 				set_variable = { republican_support = 1 }
 				set_variable = { democratic_support = 0 }
@@ -64,6 +88,24 @@ on_actions = {
 				set_variable = { vote_value = 3 }
 			}
 			387 = {
+				set_variable = { republican_support = 0 }
+				set_variable = { democratic_support = 1 }
+				set_variable = { socialist_support = 0 }
+				set_variable = { vote_value = 4 }
+			}
+			388 = {
+				set_variable = { republican_support = 0 }
+				set_variable = { democratic_support = 1 }
+				set_variable = { socialist_support = 0 }
+				set_variable = { vote_value = 3 }
+			}
+			389 = {
+				set_variable = { republican_support = 1 }
+				set_variable = { democratic_support = 0 }
+				set_variable = { socialist_support = 0 }
+				set_variable = { vote_value = 3 }
+			}
+			390 = {
 				set_variable = { republican_support = 1 }
 				set_variable = { democratic_support = 0 }
 				set_variable = { socialist_support = 0 }

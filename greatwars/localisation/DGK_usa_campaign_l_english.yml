@@ -19,10 +19,24 @@ USA_california_campaign_tt:0 "§Y[378.GetName] Electoral Votes§!\nElectoral Vot
 
 USA_nevada_campaign_tt:0 "§Y[379.GetName] Electoral Votes§!\nElectoral Votes Allowed: §Y[?379.vote_value]\n\nRepublican Support: §R[?379.republican_support]§!\nDemocratic Support: §B[?379.democratic_support]§!\nSocialist Support: §O[?379.socialist_support]§!"
 
-USA_utah_campaign_tt:0 "§Y[380.GetName] Electoral Votes§!\nElectoral Votes Allowed: §Y[?380.vote_value]\n\nRepublican Support: §R[?380.republican_support]§!\nDemocratic Support: §B[?380.democratic_support]§!\nSocialist Support: §O[?380.socialist_support]§!"
+USA_utah_campaign_tt:0 "§Y[380.GetName] Electoral Votes§!\nElectoral Votes Allowed: §Y[?380.vote_value]\n\nRepublican Support: §R[?380.republican_support]§!\nDemocratic Support: §B[?380.democratic_support]§!\nSocialist Support: §O[?380.socialist_support]§!"\
+
+USA_wyoming_campaign_tt:0 "§Y[381.GetName] Electoral Votes§!\nElectoral Votes Allowed: §Y[?381.vote_value]\n\nRepublican Support: §R[?381.republican_support]§!\nDemocratic Support: §B[?381.democratic_support]§!\nSocialist Support: §O[?381.socialist_support]§!"
+
+USA_colorado_campaign_tt:0 "§Y[382.GetName] Electoral Votes§!\nElectoral Votes Allowed: §Y[?382.vote_value]\n\nRepublican Support: §R[?382.republican_support]§!\nDemocratic Support: §B[?382.democratic_support]§!\nSocialist Support: §O[?382.socialist_support]§!"
+
+USA_kansas_campaign_tt:0 "§Y[383.GetName] Electoral Votes§!\nElectoral Votes Allowed: §Y[?383.vote_value]\n\nRepublican Support: §R[?383.republican_support]§!\nDemocratic Support: §B[?383.democratic_support]§!\nSocialist Support: §O[?383.socialist_support]§!"
+
+USA_nebraska_campaign_tt:0 "§Y[384.GetName] Electoral Votes§!\nElectoral Votes Allowed: §Y[?384.vote_value]\n\nRepublican Support: §R[?384.republican_support]§!\nDemocratic Support: §B[?384.democratic_support]§!\nSocialist Support: §O[?384.socialist_support]§!"
 
 USA_oregon_campaign_tt:0 "§Y[385.GetName] Electoral Votes§!\nElectoral Votes Allowed: §Y[?385.vote_value]\n\nRepublican Support: §R[?385.republican_support]§!\nDemocratic Support: §B[?385.democratic_support]§!\nSocialist Support: §O[?385.socialist_support]§!"
 
+USA_washington_campaign_tt:0 "§Y[386.GetName] Electoral Votes§!\nElectoral Votes Allowed: §Y[?386.vote_value]\n\nRepublican Support: §R[?386.republican_support]§!\nDemocratic Support: §B[?386.democratic_support]§!\nSocialist Support: §O[?386.socialist_support]§!"
+
 USA_idaho_campaign_tt:0 "§Y[387.GetName] Electoral Votes§!\nElectoral Votes Allowed: §Y[?387.vote_value]\n\nRepublican Support: §R[?387.republican_support]§!\nDemocratic Support: §B[?387.democratic_support]§!\nSocialist Support: §O[?387.socialist_support]§!"
 
-USA_washington_campaign_tt:0 "§Y[386.GetName] Electoral Votes§!\nElectoral Votes Allowed: §Y[?386.vote_value]\n\nRepublican Support: §R[?386.republican_support]§!\nDemocratic Support: §B[?386.democratic_support]§!\nSocialist Support: §O[?386.socialist_support]§!"
+USA_montana_campaign_tt:0 "§Y[388.GetName] Electoral Votes§!\nElectoral Votes Allowed: §Y[?388.vote_value]\n\nRepublican Support: §R[?388.republican_support]§!\nDemocratic Support: §B[?388.democratic_support]§!\nSocialist Support: §O[?388.socialist_support]§!"
+
+USA_north_dakota_campaign_tt:0 "§Y[389.GetName] Electoral Votes§!\nElectoral Votes Allowed: §Y[?389.vote_value]\n\nRepublican Support: §R[?389.republican_support]§!\nDemocratic Support: §B[?389.democratic_support]§!\nSocialist Support: §O[?389.socialist_support]§!"
+
+USA_south_dakota_campaign_tt:0 "§Y[390.GetName] Electoral Votes§!\nElectoral Votes Allowed: §Y[?390.vote_value]\n\nRepublican Support: §R[?390.republican_support]§!\nDemocratic Support: §B[?390.democratic_support]§!\nSocialist Support: §O[?390.socialist_support]§!"

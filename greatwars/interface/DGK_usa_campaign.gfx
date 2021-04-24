@@ -114,4 +114,67 @@ spriteTypes = {
 		name = "GFX_USA_washington_democratic"
 		texturefile = "gfx/interface/usa_voting_gfx/washington_democratic.dds"
 	}
+
+	spriteType = {
+		name = "GFX_USA_montana_republican"
+		texturefile = "gfx/interface/usa_voting_gfx/montana_republican.dds"
+	}
+	spriteType = {
+		name = "GFX_USA_montana_democratic"
+		texturefile = "gfx/interface/usa_voting_gfx/montana_democratic.dds"
+	}
+
+	spriteType = {
+		name = "GFX_USA_wyoming_republican"
+		texturefile = "gfx/interface/usa_voting_gfx/wyoming_republican.dds"
+	}
+	spriteType = {
+		name = "GFX_USA_wyoming_democratic"
+		texturefile = "gfx/interface/usa_voting_gfx/wyoming_democratic.dds"
+	}
+
+	spriteType = {
+		name = "GFX_USA_colorado_republican"
+		texturefile = "gfx/interface/usa_voting_gfx/colorado_republican.dds"
+	}
+	spriteType = {
+		name = "GFX_USA_colorado_democratic"
+		texturefile = "gfx/interface/usa_voting_gfx/colorado_democratic.dds"
+	}
+
+	spriteType = {
+		name = "GFX_USA_north_dakota_republican"
+		texturefile = "gfx/interface/usa_voting_gfx/north_dakota_republican.dds"
+	}
+	spriteType = {
+		name = "GFX_USA_north_dakota_democratic"
+		texturefile = "gfx/interface/usa_voting_gfx/north_dakota_democratic.dds"
+	}
+
+	spriteType = {
+		name = "GFX_USA_south_dakota_republican"
+		texturefile = "gfx/interface/usa_voting_gfx/south_dakota_republican.dds"
+	}
+	spriteType = {
+		name = "GFX_USA_south_dakota_democratic"
+		texturefile = "gfx/interface/usa_voting_gfx/south_dakota_democratic.dds"
+	}
+
+	spriteType = {
+		name = "GFX_USA_nebraska_republican"
+		texturefile = "gfx/interface/usa_voting_gfx/nebraska_republican.dds"
+	}
+	spriteType = {
+		name = "GFX_USA_nebraska_democratic"
+		texturefile = "gfx/interface/usa_voting_gfx/nebraska_democratic.dds"
+	}
+
+	spriteType = {
+		name = "GFX_USA_kansas_republican"
+		texturefile = "gfx/interface/usa_voting_gfx/kansas_republican.dds"
+	}
+	spriteType = {
+		name = "GFX_USA_kansas_democratic"
+		texturefile = "gfx/interface/usa_voting_gfx/kansas_democratic.dds"
+	}
 }

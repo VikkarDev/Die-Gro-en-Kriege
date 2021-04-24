@@ -292,6 +292,97 @@ guiTypes = {
 				spriteType = "GFX_USA_washington_democratic"
 				position = { x = 30 y = 5 }
 			}
+
+			iconType = {
+				name = "montana_republican"
+				pdx_tooltip = "USA_montana_campaign_tt"
+				spriteType = "GFX_USA_montana_republican"
+				position = { x = 117 y = 20 }
+			}
+			iconType = {
+				name = "montana_democratic"
+				pdx_tooltip = "USA_montana_campaign_tt"
+				spriteType = "GFX_USA_montana_democratic"
+				position = { x = 117 y = 20 }
+			}
+
+			iconType = {
+				name = "wyoming_republican"
+				pdx_tooltip = "USA_wyoming_campaign_tt"
+				spriteType = "GFX_USA_wyoming_republican"
+				position = { x = 152 y = 90 }
+			}
+			iconType = {
+				name = "wyoming_democratic"
+				pdx_tooltip = "USA_wyoming_campaign_tt"
+				spriteType = "GFX_USA_wyoming_democratic"
+				position = { x = 152 y = 90 }
+			}
+
+			iconType = {
+				name = "colorado_republican"
+				pdx_tooltip = "USA_colorado_campaign_tt"
+				spriteType = "GFX_USA_colorado_republican"
+				position = { x = 152 y = 120 }
+			}
+			iconType = {
+				name = "colorado_democratic"
+				pdx_tooltip = "USA_colorado_campaign_tt"
+				spriteType = "GFX_USA_colorado_democratic"
+				position = { x = 168 y = 152 }
+			}
+
+			iconType = {
+				name = "north_dakota_republican"
+				pdx_tooltip = "USA_north_dakota_campaign_tt"
+				spriteType = "GFX_USA_north_dakota_republican"
+				position = { x = 237 y = 36 }
+			}
+			iconType = {
+				name = "north_dakota_democratic"
+				pdx_tooltip = "USA_north_dakota_campaign_tt"
+				spriteType = "GFX_USA_north_dakota_democratic"
+				position = { x = 237 y = 36 }
+			}
+
+			iconType = {
+				name = "south_dakota_republican"
+				pdx_tooltip = "USA_south_dakota_campaign_tt"
+				spriteType = "GFX_USA_south_dakota_republican"
+				position = { x = 234 y = 83 }
+			}
+			iconType = {
+				name = "south_dakota_democratic"
+				pdx_tooltip = "USA_south_dakota_campaign_tt"
+				spriteType = "GFX_USA_south_dakota_democratic"
+				position = { x = 237 y = 50 }
+			}
+
+			iconType = {
+				name = "nebraska_republican"
+				pdx_tooltip = "USA_nebraska_campaign_tt"
+				spriteType = "GFX_USA_nebraska_republican"
+				position = { x = 231 y = 127 }
+			}
+			iconType = {
+				name = "nebraska_democratic"
+				pdx_tooltip = "USA_nebraska_campaign_tt"
+				spriteType = "GFX_USA_nebraska_democratic"
+				position = { x = 231 y = 127 }
+			}
+
+			iconType = {
+				name = "kansas_republican"
+				pdx_tooltip = "USA_kansas_campaign_tt"
+				spriteType = "GFX_USA_kansas_republican"
+				position = { x = 252 y = 174 }
+			}
+			iconType = {
+				name = "kansas_democratic"
+				pdx_tooltip = "USA_kansas_campaign_tt"
+				spriteType = "GFX_USA_kansas_democratic"
+				position = { x = 252 y = 174 }
+			}
 		}
 	}
 }
