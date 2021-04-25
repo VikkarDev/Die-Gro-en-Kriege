@@ -22,10 +22,14 @@ focus_tree = {
 		
 		cost = 10
 
-		
+		available = {
+			country_exists = USA
+			is_subject = no
+		}
+
 		mutually_exclusive = { focus = USA_jeffersons_vision }
 
-		completion_reward = { 
+		completion_reward = {
 			add_political_power = 100
 		}
 	}
@@ -36,10 +40,15 @@ focus_tree = {
 		y = 0
 		cost = 10
 
-		
+		available = {
+			country_exists = USA
+			is_subject = no
+		}
+
 		mutually_exclusive = { focus = USA_gilded_age }
 		completion_reward = {
-			add_political_power = 100
+			add_ideas = { USA_jeffersons_vision_idea }
+			add_political_power = 50
 		}
 	}
 
@@ -55,7 +64,7 @@ focus_tree = {
 		prerequisite = { focus = USA_gilded_age }
 
 		completion_reward = {
-			add_ideas = USA_corporate_primacy
+			add_ideas = { USA_corporate_primacy_idea }
 		}
 
 	}
@@ -322,7 +331,7 @@ focus_tree = {
 			add_political_power = 20
 			add_stability = 0.03
 			add_popularity = {
-				ideology = traditional_conservatism
+				ideology = centrism
 				popularity = 0.02
 			}
 
@@ -335,8 +344,6 @@ focus_tree = {
 		y = 2
 
 		cost = 10
-
-		
 
 		prerequisite = { focus = USA_continue_laissez_faire }
 		prerequisite = { focus = USA_corporate_primacy }
@@ -362,9 +369,7 @@ focus_tree = {
 		prerequisite = { focus = USA_continue_laissez_faire }
 		
 		completion_reward = {
-			country_event = {
-				id = USA.100 #Gold Standard Event
-			}
+			country_event = { id = USA.2 }
 		}
 	}
 	focus = {

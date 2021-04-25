@@ -32,7 +32,6 @@ capital = 361
 	give_guarantee = PAR
 	give_guarantee = ARG
 	give_guarantee = URG
-	puppet = NEG
 
     # US protection of Liberia from colonial powers
 	give_guarantee = LIB
@@ -84,6 +83,11 @@ capital = 361
 			target = CSW
 			autonomy_state = autonomy_integrated_puppet
 		}
+		set_autonomy = {
+			target = NEG
+			autonomy_state = autonomy_protectorate
+		}
+		
 		if = {
 			limit = {
 				has_start_date < 1900.1.2
@@ -107,11 +111,6 @@ capital = 361
 			}
 		}
 	}
-	
-	#focus teases, get trolled nerds
-	complete_national_focus = USA_gilded_age
-	complete_national_focus = USA_corporate_primacy
-	complete_national_focus = USA_continue_protectionism
 
 	set_country_flag = USA_gold_standard
 

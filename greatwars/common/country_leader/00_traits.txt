@@ -1,6 +1,19 @@
 leader_traits = {
 	
 	# MOD
+
+	staunch_protectionist = {
+		random = no
+		min_export = -0.1
+	}
+
+	head_veal_trait = {
+		random = no
+		political_power_gain = -0.10
+		war_support_factor = -0.05
+		conscription = -0.1
+	}
+	
 	underage_monarch_trait = {
 		random = no
 		stability_factor = -0.10
