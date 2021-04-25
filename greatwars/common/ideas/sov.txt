@@ -48,8 +48,8 @@ ideas = {
             }
         }
 
-        SOV_high_iliteracy = {
-            picture = missing_gfx
+        SOV_high_iliteracy3 = {
+            picture = generic_illiteracy
 
             allowed = {
                 tag = SOV
@@ -58,6 +58,19 @@ ideas = {
             modifier = {
                 stability_factor = -0.10
                 research_speed_factor = -0.20
+            }
+        }
+
+        SOV_high_iliteracy2 = {
+            picture = generic_illiteracy
+
+            allowed = {
+                tag = SOV
+            }
+
+            modifier = {
+                stability_factor = -0.05
+                research_speed_factor = -0.10
             }
         }
 
