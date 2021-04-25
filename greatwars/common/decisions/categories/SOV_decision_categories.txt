@@ -1,0 +1,12 @@
+sov_literacydes = {
+	icon = generic_political_actions
+	picture = GFX_sov_liteacypic
+	priority = 10
+
+    visible = {
+		tag = SOV
+	}
+
+	allowed = {
+	}
+}

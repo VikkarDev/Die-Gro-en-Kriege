@@ -233,10 +233,13 @@
 			x = 17
 			y = 4
 
+            mutually_exclusive = { focus = RUS_new_twotrack }
+
 			cost = 5
 
 			prerequisite = {
 				focus = RUS_new_civway
+				focus = RUS_new_milway
 			}
 
 
@@ -256,10 +259,13 @@
 			x = 19
 			y = 4
 
+            mutually_exclusive = { focus = RUS_new_onetrack }
+
 			cost = 10
 
 			prerequisite = {
 				focus = RUS_new_milway
+				focus = RUS_new_civway
 			}
 
 
@@ -274,7 +280,7 @@
 
 		focus = {
 			id = RUS_new_finway
-			icon = GFX_SOV_focus_first_russian_election 
+			icon = GFX_GER_focus_develop_colonies
 			x = 18
 			y = 5
 
@@ -389,7 +395,7 @@
 
 		focus = {
 			id = RUS_new_finway2
-			icon = GFX_SOV_focus_first_russian_election 
+			icon = GFX_GER_focus_develop_colonies
 			x = 23
 			y = 5
 
@@ -413,7 +419,7 @@
 
 		focus = {
 			id = RUS_new_morefac
-			icon = GFX_SOV_focus_first_russian_election
+			icon = GFX_GER_focus_colonial_industry
 			x = 10
 			y = 4
 
@@ -436,7 +442,7 @@
 
 		focus = {
 			id = RUS_new_indep
-			icon = GFX_SOV_focus_first_russian_election
+			icon = GFX_GER_focus_factories_factories_factories
 			x = 13
 			y = 5
 
@@ -526,7 +532,7 @@
 
 		focus = {
 			id = RUS_new_milind
-			icon = GFX_SOV_focus_first_russian_election
+			icon = GFX_GER_focus_increase_mil_budget
 			x = 13
 			y = 7
 
@@ -550,7 +556,7 @@
 
 		focus = {
 			id = RUS_new_limex
-			icon = GFX_SOV_focus_first_russian_election
+			icon = GFX_GER_focus_balance_spending
 			x = 13
 			y = 8
 
@@ -572,7 +578,7 @@
 
 		focus = {
 			id = RUS_new_dep
-			icon = GFX_SOV_focus_first_russian_election
+			icon = GFX_GER_focus_help_from_private
 			x = 7
 			y = 5
 
@@ -661,7 +667,7 @@
 	
 			focus = {
 			id = RUS_new_beginrel
-			icon = GFX_SOV_focus_first_russian_election
+			icon = GFX_GER_focus_north_coalmines
 			x = 7
 			y = 7
 
@@ -685,7 +691,7 @@
 
 				focus = {
 			id = RUS_new_moreex
-			icon = GFX_SOV_focus_first_russian_election
+			icon = GFX_GER_focus_european_investment
 			x = 7
 			y = 8
 
@@ -707,7 +713,7 @@
 
 				focus = {
 			id = RUS_new_noagri
-			icon = GFX_SOV_focus_first_russian_election
+			icon = GFX_GER_focus_agriculture_innovation
 			x = 10
 			y = 9
 
@@ -819,7 +825,7 @@
 
 		focus = {
 			id = RUS_new_drilloil
-			icon = GFX_SOV_focus_first_russian_election
+			icon = GFX_GER_focus_synthetic_rubber
 			x = 7
 			y = 10
 
@@ -887,7 +893,7 @@
 
 				focus = {
 			id = RUS_new_lead
-			icon = GFX_SOV_focus_first_russian_election
+			icon = GFX_GER_focus_new_research_techniques
 			x = 7
 			y = 12
 
@@ -909,7 +915,7 @@
 		}
 
 		focus = {
-			id = RUS_new_univ
+			id = RUS_new_fight
 			icon = GFX_SOV_focus_first_russian_election
 			x = 2
 			y = 4
@@ -917,6 +923,28 @@
 			prerequisite = {
 				focus = RUS_new_orth
 				focus = RUS_new_skool
+			}
+
+			cost = 10
+
+			available = {
+			
+			}
+
+			completion_reward = { 
+			
+			}
+		}
+
+
+		focus = {
+			id = RUS_new_universal
+			icon = GFX_SOV_focus_first_russian_election 
+			x = 2
+			y = 5
+
+			prerequisite = {
+				focus = RUS_new_fight
 			}
 
 			cost = 20
@@ -929,47 +957,4 @@
 			
 			}
 		}
-
-
-		focus = {
-			id = RUS_new_iliteracy
-			icon = GFX_SOV_focus_first_russian_election 
-			x = 2
-			y = 5
-
-			prerequisite = {
-				focus = RUS_new_univ
-			}
-
-			cost = 10
-
-			available = {
-			
-			}
-
-			completion_reward = { 
-			
-			}
-		}
-
-		focus = {
-			id = RUS_new_techdone
-			icon = GFX_SOV_focus_first_russian_election 
-			x = 2
-			y = 6
-
-			prerequisite = {
-				focus = RUS_new_iliteracy
-			}
-
-			cost = 10
-
-			available = {
-			
-			}
-
-			completion_reward = { 
-			
-			}
-		}
-	}
+}
