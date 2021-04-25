@@ -97,7 +97,7 @@
 		focus = {
 			id = RUS_new_orth
 			icon = GFX_SOV_focus_first_russian_election
-			x = 0
+			x = 1
 			y = 3
 
 			cost = 10
@@ -118,7 +118,7 @@
 		focus = {
 			id = RUS_new_skool
 			icon = GFX_SOV_focus_first_russian_election
-			x = 4
+			x = 3
 			y = 3
 
 			cost = 10
@@ -139,7 +139,7 @@
 		focus = {
 			id = RUS_new_excity
 			icon = GFX_SOV_focus_first_russian_election
-			x = 8
+			x = 9
 			y = 3
 
 			cost = 10
@@ -160,7 +160,7 @@
 		focus = {
 			id = RUS_new_imptool
 			icon = GFX_SOV_focus_first_russian_election
-			x = 12
+			x = 11
 			y = 3
 
 			prerequisite = {
@@ -181,7 +181,7 @@
 		focus = {
 			id = RUS_new_civway
 			icon = GFX_SOV_focus_first_russian_election 
-			x = 15
+			x = 17
 			y = 3
 
 			prerequisite = {
@@ -205,7 +205,7 @@
 		focus = {
 			id = RUS_new_milway
 			icon = GFX_SOV_focus_first_russian_election
-			x = 21
+			x = 19
 			y = 3
 
 			prerequisite = {
@@ -230,8 +230,8 @@
 		focus = {
 			id = RUS_new_onetrack
 			icon = GFX_SOV_focus_first_russian_election 
-			x = 15
-			y = 5
+			x = 17
+			y = 4
 
 			cost = 10
 
@@ -253,8 +253,8 @@
 		focus = {
 			id = RUS_new_twotrack
 			icon = GFX_SOV_focus_first_russian_election 
-			x = 21
-			y = 5
+			x = 19
+			y = 4
 
 			cost = 10
 
@@ -276,7 +276,7 @@
 			id = RUS_new_finway
 			icon = GFX_SOV_focus_first_russian_election 
 			x = 18
-			y = 7
+			y = 5
 
 			cost = 10
 
@@ -298,7 +298,7 @@
 		focus = {
 			id = RUS_new_tcway
 			icon = GFX_SOV_focus_first_russian_election 
-			x = 26
+			x = 23
 			y = 2
 
 			cost = 10
@@ -319,8 +319,8 @@
 		focus = {
 			id = RUS_new_tcway2
 			icon = GFX_SOV_focus_first_russian_election 
-			x = 26
-			y = 4
+			x = 23
+			y = 3
 
 			cost = 10
 
@@ -340,8 +340,8 @@
 		focus = {
 			id = RUS_new_tcwayBase
 			icon = GFX_SOV_focus_first_russian_election 
-			x = 24
-			y = 5
+			x = 22
+			y = 4
 
 			cost = 10
 
@@ -365,8 +365,8 @@
 		focus = {
 			id = RUS_new_tcwayFriend
 			icon = GFX_SOV_focus_first_russian_election 
-			x = 28
-			y = 5
+			x = 24
+			y = 4
 
 			cost = 10
 
@@ -390,8 +390,8 @@
 		focus = {
 			id = RUS_new_finway2
 			icon = GFX_SOV_focus_first_russian_election 
-			x = 26
-			y = 7
+			x = 23
+			y = 5
 
 			cost = 10
 
@@ -415,7 +415,7 @@
 			id = RUS_new_morefac
 			icon = GFX_SOV_focus_first_russian_election
 			x = 10
-			y = 5
+			y = 4
 
 			prerequisite = {
 				focus = RUS_new_excity
@@ -438,7 +438,7 @@
 			id = RUS_new_indep
 			icon = GFX_SOV_focus_first_russian_election
 			x = 13
-			y = 7
+			y = 5
 
 			prerequisite = {
 				focus = RUS_new_morefac
@@ -462,7 +462,7 @@
 			id = RUS_new_incpro
 			icon = GFX_SOV_focus_first_russian_election
 			x = 15
-			y = 9
+			y = 6
 
 			prerequisite = {
 				focus = RUS_new_indep
@@ -484,7 +484,7 @@
 			id = RUS_new_teachwork
 			icon = GFX_SOV_focus_first_russian_election
 			x = 11
-			y = 9
+			y = 6
 
 			prerequisite = {
 				focus = RUS_new_indep
@@ -506,7 +506,7 @@
 			id = RUS_new_inccond
 			icon = GFX_SOV_focus_first_russian_election
 			x = 13
-			y = 9
+			y = 6
 
 			prerequisite = {
 				focus = RUS_new_indep
@@ -528,7 +528,7 @@
 			id = RUS_new_milind
 			icon = GFX_SOV_focus_first_russian_election
 			x = 13
-			y = 11
+			y = 7
 
 			prerequisite = {
 				focus = RUS_new_indep
@@ -552,7 +552,7 @@
 			id = RUS_new_limex
 			icon = GFX_SOV_focus_first_russian_election
 			x = 13
-			y = 13
+			y = 8
 
 			prerequisite = {
 				focus = RUS_new_milind
@@ -574,7 +574,7 @@
 			id = RUS_new_dep
 			icon = GFX_SOV_focus_first_russian_election
 			x = 7
-			y = 7
+			y = 5
 
 			prerequisite = {
 				focus = RUS_new_morefac
@@ -597,7 +597,7 @@
 			id = RUS_new_coopwest
 			icon = GFX_SOV_focus_first_russian_election
 			x = 9
-			y = 9
+			y = 6
 
 			prerequisite = {
 				focus = RUS_new_dep
@@ -619,7 +619,7 @@
 			id = RUS_new_buytools
 			icon = GFX_SOV_focus_first_russian_election
 			x = 7
-			y = 9
+			y = 6
 
 			prerequisite = {
 				focus = RUS_new_dep
@@ -641,7 +641,7 @@
 			id = RUS_new_westtech
 			icon = GFX_SOV_focus_first_russian_election
 			x = 5
-			y = 9
+			y = 6
 
 			prerequisite = {
 				focus = RUS_new_dep
@@ -663,7 +663,7 @@
 			id = RUS_new_beginrel
 			icon = GFX_SOV_focus_first_russian_election
 			x = 7
-			y = 11
+			y = 7
 
 			prerequisite = {
 				focus = RUS_new_buytools
@@ -687,7 +687,7 @@
 			id = RUS_new_moreex
 			icon = GFX_SOV_focus_first_russian_election
 			x = 7
-			y = 13
+			y = 8
 
 			prerequisite = {
 				focus = RUS_new_beginrel
@@ -709,7 +709,7 @@
 			id = RUS_new_noagri
 			icon = GFX_SOV_focus_first_russian_election
 			x = 10
-			y = 15
+			y = 9
 
 			prerequisite = {
 				focus = RUS_new_moreex
@@ -732,7 +732,7 @@
 			id = RUS_new_massind
 			icon = GFX_SOV_focus_first_russian_election
 			x = 13
-			y = 17
+			y = 10
 
 			prerequisite = {
 				focus = RUS_new_noagri
@@ -754,7 +754,7 @@
 			id = RUS_new_focwes
 			icon = GFX_SOV_focus_first_russian_election
 			x = 15
-			y = 19
+			y = 11
 
 			prerequisite = {
 				focus = RUS_new_massind
@@ -776,7 +776,7 @@
 			id = RUS_new_focsib
 			icon = GFX_SOV_focus_first_russian_election
 			x = 11
-			y = 19
+			y = 11
 
 			prerequisite = {
 				focus = RUS_new_massind
@@ -798,7 +798,7 @@
 			id = RUS_new_induru
 			icon = GFX_SOV_focus_first_russian_election
 			x = 13
-			y = 21
+			y = 12
 
 			prerequisite = {
 				focus = RUS_new_focsib
@@ -821,7 +821,7 @@
 			id = RUS_new_drilloil
 			icon = GFX_SOV_focus_first_russian_election
 			x = 7
-			y = 17
+			y = 10
 
 			prerequisite = {
 				focus = RUS_new_noagri
@@ -843,7 +843,7 @@
 			id = RUS_new_oilciv
 			icon = GFX_SOV_focus_first_russian_election
 			x = 9
-			y = 19
+			y = 11
 
 			prerequisite = {
 				focus = RUS_new_drilloil
@@ -866,7 +866,7 @@
 			id = RUS_new_oilmil
 			icon = GFX_SOV_focus_first_russian_election
 			x = 5
-			y = 19
+			y = 11
 
 			prerequisite = {
 				focus = RUS_new_drilloil
@@ -889,7 +889,7 @@
 			id = RUS_new_lead
 			icon = GFX_SOV_focus_first_russian_election
 			x = 7
-			y = 21
+			y = 12
 
 			prerequisite = {
 				focus = RUS_new_oilciv
@@ -912,7 +912,7 @@
 			id = RUS_new_univ
 			icon = GFX_SOV_focus_first_russian_election
 			x = 2
-			y = 5
+			y = 4
 
 			prerequisite = {
 				focus = RUS_new_orth
@@ -935,7 +935,7 @@
 			id = RUS_new_iliteracy
 			icon = GFX_SOV_focus_first_russian_election 
 			x = 2
-			y = 7
+			y = 5
 
 			prerequisite = {
 				focus = RUS_new_univ
@@ -956,7 +956,7 @@
 			id = RUS_new_techdone
 			icon = GFX_SOV_focus_first_russian_election 
 			x = 2
-			y = 9
+			y = 6
 
 			prerequisite = {
 				focus = RUS_new_iliteracy
