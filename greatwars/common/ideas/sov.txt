@@ -47,5 +47,30 @@ ideas = {
                 war_support_factor = 0.15
             }
         }
-    }
-}
+
+        SOV_high_iliteracy = {
+            picture = missing_gfx
+
+            allowed = {
+                tag = SOV
+            }
+
+            modifier = {
+                stability_factor = -0.10
+                research_speed_factor = -0.20
+            }
+        }
+
+        SOV_crowded_cities = {
+            picture = missing_gfx2
+
+            allowed = {
+                tag = SOV
+            }
+
+            modifier = {
+                stability_factor = -0.15
+                industrial_capacity_factory = -0.15
+                conscription_factor = -0.05
+            }
+        }   
