@@ -12,7 +12,7 @@
 	
 	default = no
 	
-	continuous_focus_position = { x = -100 y = 4000 }
+	continuous_focus_position = { x = 100 y = 4000 }
 
 		focus = {
 			id = RUS_new_industry0
@@ -20,14 +20,14 @@
 			x = 12
 			y = 1
 
-			cost = 10
+			cost = 1
 
 			available = {
 			
 			}
 
 			completion_reward = { 
-			
+			add_political_power	= 50
 			}
 		}
 
@@ -62,7 +62,7 @@
 				focus = RUS_new_industry0
 			}
 
-			cost = 10
+			cost = 5
 
 			available = {
 			
@@ -233,7 +233,7 @@
 			x = 17
 			y = 4
 
-			cost = 10
+			cost = 5
 
 			prerequisite = {
 				focus = RUS_new_civway
@@ -278,7 +278,7 @@
 			x = 18
 			y = 5
 
-			cost = 10
+			cost = 20
 
 			prerequisite = {
 				focus = RUS_new_onetrack
@@ -393,7 +393,7 @@
 			x = 23
 			y = 5
 
-			cost = 10
+			cost = 20
 
 			prerequisite = {
 				focus = RUS_new_tcwayBase
@@ -446,7 +446,7 @@
 
         mutually_exclusive = { focus = RUS_new_dep }
 
-			cost = 10
+			cost = 1
 
 			available = {
 			
@@ -582,7 +582,7 @@
 
             mutually_exclusive = { focus = RUS_new_indep }
 
-			cost = 10
+			cost = 1
 
 			available = {
 			
@@ -806,7 +806,7 @@
 			}
 
 
-			cost = 10
+			cost = 20
 
 			available = {
 			
@@ -919,7 +919,7 @@
 				focus = RUS_new_skool
 			}
 
-			cost = 10
+			cost = 20
 
 			available = {
 			
