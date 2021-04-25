@@ -171,6 +171,50 @@ if = {
 			}
 		}
 		create_equipment_variant = {
+			name = "Ekaterina II Class"
+			type = battleship_2
+			parent_version = 0
+			upgrades = {
+				ship_reliability_upgrade = 1
+				ship_engine_upgrade = 1
+				ship_armor_upgrade = 2
+				ship_gun_upgrade = 3
+			}
+		}
+		create_equipment_variant = {
+			name = "Tri Sviatitelia Class"
+			type = battleship_2
+			parent_version = 0
+			upgrades = {
+				ship_reliability_upgrade = 1
+				ship_engine_upgrade = 1
+				ship_armor_upgrade = 2
+				ship_gun_upgrade = 2
+			}
+		}
+		create_equipment_variant = {
+			name = "Vitse-admiral Popov Class"
+			type = battleship_1
+			parent_version = 0
+			upgrades = {
+				ship_reliability_upgrade = 1
+				ship_engine_upgrade = 1
+				ship_armor_upgrade = 1
+				ship_gun_upgrade = 3
+			}
+		}
+		create_equipment_variant = {
+			name = "Rostislav Class"
+			type = battleship_3
+			parent_version = 0
+			upgrades = {
+				ship_reliability_upgrade = 2
+				ship_engine_upgrade = 2
+				ship_armor_upgrade = 3
+				ship_gun_upgrade = 3
+			}
+		}
+		create_equipment_variant = {
 			name = "Bayan Class"
 			type = heavy_cruiser_3
 			parent_version = 0
@@ -251,6 +295,42 @@ if = {
 		}
 		obsolete = yes
 	}
+	create_equipment_variant = {
+			name = "Pamyat' Merkuriya Class"
+			type = light_cruiser_3
+			parent_version = 0
+			upgrades = {
+				ship_reliability_upgrade = 3
+				ship_engine_upgrade = 3
+				ship_gun_upgrade = 2
+				ship_anti_air_upgrade = 1
+		}
+		obsolete = yes
+	}
+	create_equipment_variant = {
+			name = "Burlak Class"
+			type = light_cruiser_1
+			parent_version = 0
+			upgrades = {
+				ship_reliability_upgrade = 1
+				ship_engine_upgrade = 1
+				ship_gun_upgrade = 2
+				ship_anti_air_upgrade = 1
+		}
+		obsolete = yes
+	}
+	create_equipment_variant = {
+			name = "Kazarsky Class"
+			type = light_cruiser_2
+			parent_version = 0
+			upgrades = {
+				ship_reliability_upgrade = 1
+				ship_engine_upgrade = 2
+				ship_gun_upgrade = 2
+				ship_anti_air_upgrade = 1
+		}
+		obsolete = yes
+	}
 		create_equipment_variant = {
 			name = "Torpednyy Kater Class"
 			type = destroyer_1
@@ -263,7 +343,40 @@ if = {
 			}
 		}
 		create_equipment_variant = {
+			name = "Abo Class"
+			type = destroyer_1
+			parent_version = 0
+			upgrades = {
+				ship_torpedo_upgrade = 4
+				destroyer_engine_upgrade = 1
+				ship_ASW_upgrade = 1
+				ship_anti_air_upgrade = 1
+			}
+		}
+		create_equipment_variant = {
 			name = "Razrushitel Class"
+			type = destroyer_2
+			parent_version = 0
+			upgrades = {
+				ship_torpedo_upgrade = 3
+				destroyer_engine_upgrade = 2
+				ship_ASW_upgrade = 1
+				ship_anti_air_upgrade = 1
+			}
+		}
+		create_equipment_variant = {
+			name = "Mackerel Class"
+			type = destroyer_2
+			parent_version = 0
+			upgrades = {
+				ship_torpedo_upgrade = 2
+				destroyer_engine_upgrade = 2
+				ship_ASW_upgrade = 1
+				ship_anti_air_upgrade = 1
+			}
+		}
+		create_equipment_variant = {
+			name = "Batum Class"
 			type = destroyer_2
 			parent_version = 0
 			upgrades = {
@@ -386,8 +499,80 @@ if = {
 			}
 		}
 		create_equipment_variant = {
+			name = "Ekaterina II Class"
+			type = ship_hull_heavy_2
+			parent_version = 0
+			modules = {
+				fixed_ship_battery_slot = ship_heavy_battery_2
+				fixed_ship_anti_air_slot = empty
+				fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+				fixed_ship_radar_slot = empty
+				fixed_ship_engine_slot = heavy_ship_engine_1
+				fixed_ship_secondaries_slot = ship_secondaries_2
+				fixed_ship_armor_slot = ship_armor_bb_1
+				front_1_custom_slot = empty
+				mid_1_custom_slot = ship_secondaries_1
+				mid_2_custom_slot = ship_secondaries_1
+				rear_1_custom_slot = empty
+			}
+		}
+		create_equipment_variant = {
+			name = "Tri Sviatitelia Class"
+			type = ship_hull_heavy_2
+			parent_version = 0
+			modules = {
+				fixed_ship_battery_slot = ship_heavy_battery_2
+				fixed_ship_anti_air_slot = empty
+				fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+				fixed_ship_radar_slot = empty
+				fixed_ship_engine_slot = heavy_ship_engine_1
+				fixed_ship_secondaries_slot = ship_secondaries_1
+				fixed_ship_armor_slot = ship_armor_bb_1
+				front_1_custom_slot = empty
+				mid_1_custom_slot = ship_secondaries_1
+				mid_2_custom_slot = ship_secondaries_1
+				rear_1_custom_slot = empty
+			}
+		}
+		create_equipment_variant = {
+			name = "Vitse-admiral Popov Class"
+			type = ship_hull_heavy_1
+			parent_version = 0
+			modules = {
+				fixed_ship_battery_slot = ship_heavy_battery_1
+				fixed_ship_anti_air_slot = empty
+				fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+				fixed_ship_radar_slot = empty
+				fixed_ship_engine_slot = heavy_ship_engine_1
+				fixed_ship_secondaries_slot = ship_secondaries_1
+				fixed_ship_armor_slot = ship_armor_bb_1
+				front_1_custom_slot = empty
+				mid_1_custom_slot = empty
+				mid_2_custom_slot = empty
+				rear_1_custom_slot = empty
+			}
+		}
+		create_equipment_variant = {
+			name = "Rostislav Class"
+			type = ship_hull_heavy_3
+			parent_version = 0
+			modules = {
+				fixed_ship_battery_slot = ship_heavy_battery_2
+				fixed_ship_anti_air_slot = empty
+				fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+				fixed_ship_radar_slot = empty
+				fixed_ship_engine_slot = heavy_ship_engine_1
+				fixed_ship_secondaries_slot = ship_secondaries_1
+				fixed_ship_armor_slot = ship_armor_bb_1
+				front_1_custom_slot = empty
+				mid_1_custom_slot = ship_secondaries_1
+				mid_2_custom_slot = ship_secondaries_1
+				rear_1_custom_slot = ship_heavy_battery_2
+			}
+		}
+		create_equipment_variant = {
 			name = "Bayan Class"
-			type = heavy_cruiser_3
+			type = ship_hull_cruiser_3
 			parent_version = 0
 			modules = {
 				fixed_ship_battery_slot = ship_medium_battery_2
@@ -405,7 +590,7 @@ if = {
 		}
 		create_equipment_variant = {
 			name = "Russia Class"
-			type = heavy_cruiser_3
+			type = ship_hull_cruiser_3
 			parent_version = 0
 			modules = {
 				fixed_ship_battery_slot = ship_medium_battery_2
@@ -423,7 +608,7 @@ if = {
 		}
 		create_equipment_variant = {
 			name = "Dmitrii Donskoi Class"
-			type = heavy_cruiser_1
+			type = ship_hull_cruiser_1
 			parent_version = 0
 			modules = {
 				fixed_ship_battery_slot = ship_medium_battery_1
@@ -441,7 +626,7 @@ if = {
 		}
 		create_equipment_variant = {
 			name = "Gilyak Class"
-			type = light_cruiser_1
+			type = ship_hull_cruiser_1
 			parent_version = 0
 			modules = {
 				fixed_ship_battery_slot = ship_medium_battery_1
@@ -460,7 +645,7 @@ if = {
 	}
 	create_equipment_variant = {
 			name = "Pallada Class"
-			type = light_cruiser_2
+			type = ship_hull_cruiser_2
 			parent_version = 0
 			modules = {
 				fixed_ship_battery_slot = ship_medium_battery_1
@@ -468,7 +653,7 @@ if = {
 				fixed_ship_fire_control_system_slot = ship_fire_control_system_0
 				fixed_ship_radar_slot = empty
 				fixed_ship_engine_slot = cruiser_ship_engine_2
-				fixed_ship_armor_slot = ship_armor_cruiser_2
+				fixed_ship_armor_slot = ship_armor_cruiser_1
 				fixed_ship_secondaries_slot = ship_secondaries_2
 				front_1_custom_slot = empty
 				mid_1_custom_slot = empty
@@ -479,7 +664,7 @@ if = {
 	}
 	create_equipment_variant = {
 			name = "Bogatyr Class"
-			type = light_cruiser_2
+			type = ship_hull_cruiser_2
 			parent_version = 0
 			modules = {
 				fixed_ship_battery_slot = ship_medium_battery_1
@@ -497,8 +682,46 @@ if = {
 		obsolete = yes
 	}
 	create_equipment_variant = {
+			name = "Kazarsky Class"
+			type = ship_hull_cruiser_2
+			parent_version = 0
+			modules = {
+				fixed_ship_battery_slot = ship_medium_battery_1
+				fixed_ship_anti_air_slot = empty
+				fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+				fixed_ship_radar_slot = empty
+				fixed_ship_engine_slot = cruiser_ship_engine_2
+				fixed_ship_armor_slot = ship_armor_cruiser_1
+				fixed_ship_secondaries_slot = ship_secondaries_1
+				front_1_custom_slot = empty
+				mid_1_custom_slot = empty
+				mid_2_custom_slot = ship_secondaries_2
+				rear_1_custom_slot = empty
+			}
+		obsolete = yes
+	}
+	create_equipment_variant = {
+			name = "Burlak Class"
+			type = ship_hull_cruiser_1
+			parent_version = 0
+			modules = {
+				fixed_ship_battery_slot = ship_medium_battery_1
+				fixed_ship_anti_air_slot = empty
+				fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+				fixed_ship_radar_slot = empty
+				fixed_ship_engine_slot = cruiser_ship_engine_2
+				fixed_ship_armor_slot = ship_armor_cruiser_1
+				fixed_ship_secondaries_slot = ship_secondaries_2
+				front_1_custom_slot = empty
+				mid_1_custom_slot = empty
+				mid_2_custom_slot = empty
+				rear_1_custom_slot = ship_mine_layer_1
+			}
+		obsolete = yes
+	}
+	create_equipment_variant = {
 			name = "Izumrud Class"
-			type = light_cruiser_3
+			type = ship_hull_cruiser_3
 			parent_version = 0
 			modules = {
 				fixed_ship_battery_slot = ship_medium_battery_1
@@ -513,11 +736,28 @@ if = {
 				mid_2_custom_slot = ship_secondaries_2
 				rear_1_custom_slot = empty
 			}
-		obsolete = yes
+	}
+	create_equipment_variant = {
+			name = "Pamyat' Merkuriya"
+			type = ship_hull_cruiser_3
+			parent_version = 0
+			modules = {
+				fixed_ship_battery_slot = ship_medium_battery_1
+				fixed_ship_anti_air_slot = empty
+				fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+				fixed_ship_radar_slot = empty
+				fixed_ship_engine_slot = cruiser_ship_engine_2
+				fixed_ship_armor_slot = ship_armor_cruiser_2
+				fixed_ship_secondaries_slot = ship_secondaries_2
+				front_1_custom_slot = empty
+				mid_1_custom_slot = empty
+				mid_2_custom_slot = ship_secondaries_2
+				rear_1_custom_slot = empty
+			}
 	}
 		create_equipment_variant = {
 			name = "Torpednyy Kater Class"
-			type = destroyer_1
+			type = ship_hull_light_1
 			parent_version = 0
 			modules = {
 				fixed_ship_battery_slot = ship_light_battery_1
@@ -532,7 +772,7 @@ if = {
 		}
 		create_equipment_variant = {
 			name = "Razrushitel Class"
-			type = destroyer_2
+			type = ship_hull_light_2
 			parent_version = 0
 			modules = {
 				fixed_ship_battery_slot = ship_light_battery_2
@@ -542,6 +782,51 @@ if = {
 				fixed_ship_engine_slot = light_ship_engine_1
 				fixed_ship_torpedo_slot = ship_torpedo_2
 				mid_1_custom_slot = ship_secondaries_1
+				rear_1_custom_slot = empty
+			}
+		}
+		create_equipment_variant = {
+			name = "Batum Class"
+			type = ship_hull_light_2
+			parent_version = 0
+			modules = {
+				fixed_ship_battery_slot = ship_light_battery_2
+				fixed_ship_anti_air_slot = empty
+				fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+				fixed_ship_radar_slot = empty
+				fixed_ship_engine_slot = light_ship_engine_1
+				fixed_ship_torpedo_slot = ship_torpedo_2
+				mid_1_custom_slot = ship_secondaries_1
+				rear_1_custom_slot = empty
+			}
+		}
+		create_equipment_variant = {
+			name = "Mackerel Class"
+			type = ship_hull_light_2
+			parent_version = 0
+			modules = {
+				fixed_ship_battery_slot = ship_light_battery_2
+				fixed_ship_anti_air_slot = empty
+				fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+				fixed_ship_radar_slot = empty
+				fixed_ship_engine_slot = light_ship_engine_1
+				fixed_ship_torpedo_slot = ship_mine_layer_1
+				mid_1_custom_slot = ship_secondaries_1
+				rear_1_custom_slot = empty
+			}
+		}
+		create_equipment_variant = {
+			name = "Abo Class"
+			type = ship_hull_light_1
+			parent_version = 0
+			modules = {
+				fixed_ship_battery_slot = ship_light_battery_1
+				fixed_ship_anti_air_slot = empty
+				fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+				fixed_ship_radar_slot = empty
+				fixed_ship_engine_slot = light_ship_engine_1
+				fixed_ship_torpedo_slot = ship_torpedo_2
+				mid_1_custom_slot = empty
 				rear_1_custom_slot = empty
 			}
 		}

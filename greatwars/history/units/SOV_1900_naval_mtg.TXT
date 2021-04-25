@@ -65,10 +65,10 @@ units = {
 	}
 fleet = {
 		name = "Baltic Fleet"			
-		naval_base = 3151  #Yokosuka
+		naval_base = 3151  #St. Petersburg
 		task_force = {
-			name = "Baltic"
-			location = 3151  #Port Arthur
+			name = "Baltic Fleet"
+			location = 3151  #St. Petersburg
             ship = { name = "Imperator Aleksandr III" definition = battleship equipment = { ship_hull_heavy_2 = {amount = 1 owner = SOV version_name = "Borodino Class" } } }
             ship = { name = "Oryol" definition = battleship equipment = { ship_hull_heavy_2 = {amount = 1 owner = SOV version_name = "Borodino Class" } } }
 			ship = { name = "Borodino" definition = battleship equipment = { ship_hull_heavy_2 = {amount = 1 owner = SOV version_name = "Borodino Class" } } }
@@ -87,8 +87,94 @@ fleet = {
 			ship = { name = "Dmitrii Donskoi" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = {amount = 1 owner = SOV version_name = " Dmitrii Donskoi Class" } } }
 			ship = { name = "Zhemchug" definition = light_cruiser equipment = { ship_hull_cruiser_3 = {amount = 1 owner = SOV version_name = "Izumrud Class" } } }
 			ship = { name = "Izumrud" definition = light_cruiser equipment = { ship_hull_cruiser_3 = {amount = 1 owner = SOV version_name = "Izumrud Class" } } }
-			ship = { name = "Razrushitel" definition = destroyer equipment = { ship_hull_light_2 = {amount = 8 owner = SOV version_name = "Razrushitel Class"} } 
+			ship = { name = "Razrushitel 1" definition = destroyer equipment = { ship_hull_light_2 = {amount = 1 owner = SOV version_name = "Razrushitel Class"} } }
+			ship = { name = "Razrushitel 2" definition = destroyer equipment = { ship_hull_light_2 = {amount = 1 owner = SOV version_name = "Razrushitel Class"} } }
+			ship = { name = "Razrushitel 3" definition = destroyer equipment = { ship_hull_light_2 = {amount = 1 owner = SOV version_name = "Razrushitel Class"} } }
+			ship = { name = "Razrushitel 4" definition = destroyer equipment = { ship_hull_light_2 = {amount = 1 owner = SOV version_name = "Razrushitel Class"} } }
+			ship = { name = "Razrushitel 5" definition = destroyer equipment = { ship_hull_light_2 = {amount = 1 owner = SOV version_name = "Razrushitel Class"} } }
+			ship = { name = "Razrushitel 6" definition = destroyer equipment = { ship_hull_light_2 = {amount = 1 owner = SOV version_name = "Razrushitel Class"} } }
+			ship = { name = "Razrushitel 7" definition = destroyer equipment = { ship_hull_light_2 = {amount = 1 owner = SOV version_name = "Razrushitel Class"} } }
+			ship = { name = "Razrushitel 8" definition = destroyer equipment = { ship_hull_light_2 = {amount = 1 owner = SOV version_name = "Razrushitel Class"} } }
 			}
 		}
+	fleet = {
+		name = "Black Sea Fleet"			
+		naval_base = 3686 #Sevastopol
+		task_force = {
+			name = "Battleships Force"
+			location = 3686 #sevastopol
+			ship = { name = "Ekatirena II" definition = battleship equipment = { ship_hull_heavy_2 = {amount = 1 owner = SOV version_name = "Ekatirena II Class" } } }
+			ship = { name = "Sinop" definition = battleship equipment = { ship_hull_heavy_2 = {amount = 1 owner = SOV version_name = "Ekatirena II Class" } } }
+			ship = { name = "Chesma" definition = battleship equipment = { ship_hull_heavy_2 = {amount = 1 owner = SOV version_name = "Ekatirena II Class" } } }
+			ship = { name = "George the Victorious" definition = battleship equipment = { ship_hull_heavy_2 = {amount = 1 owner = SOV version_name = "Ekatirena II Class" } } }
+			ship = { name = "Rostislav" definition = battleship equipment = { ship_hull_heavy_3 = {amount = 1 owner = SOV version_name = "Rostislav Class" } } }
+			ship = { name = "Tri Sviatitelia" definition = battleship equipment = { ship_hull_heavy_2 = {amount = 1 owner = SOV version_name = "Tri Sviatitelia Class" } } }
+			ship = { name = "Dvenadsat Apostolov" definition = battleship equipment = { ship_hull_heavy_2 = {amount = 1 owner = SOV version_name = "Dvenadsat Apostolov Class" } } }
+			ship = { name = "Vitse-Admiral Popov" definition = battleship equipment = { ship_hull_heavy_1 = {amount = 1 owner = SOV version_name = "Vitse-admiral Popov Class" } } }
+			ship = { name = "Novgorod" definition = battleship equipment = { ship_hull_heavy_1 = {amount = 1 owner = SOV version_name = "Vitse-admiral Popov Class" } } }
+		}
+		task_force = {
+			name = "Escort Group"
+			location = 3686 #sevastopol
+			ship = { name = "Pamyat' Merkuriya" definition = light_cruiser equipment = { ship_hull_cruiser_3 = {amount = 1 owner = SOV version_name = "Pamyat' Merkuriya Class" } } }
+			ship = { name = "Burlak" definition = light_cruiser equipment = { ship_hull_cruiser_1 = {amount = 1 owner = SOV version_name = "Burlak Class" } } }
+			ship = { name = "Donets" definition = light_cruiser equipment = { ship_hull_cruiser_1 = {amount = 1 owner = SOV version_name = "Burlak Class" } } }
+			ship = { name = "Zaporozhets" definition = light_cruiser equipment = { ship_hull_cruiser_1 = {amount = 1 owner = SOV version_name = "Burlak Class" } } }
+			ship = { name = "Kubanets" definition = light_cruiser equipment = { ship_hull_cruiser_1 = {amount = 1 owner = SOV version_name = "Burlak Class" } } }
+			ship = { name = "Terets" definition = light_cruiser equipment = { ship_hull_cruiser_1 = {amount = 1 owner = SOV version_name = "Burlak Class" } } }
+			ship = { name = "Ural" definition = light_cruiser equipment = { ship_hull_cruiser_1 = {amount = 1 owner = SOV version_name = "Burlak Class" } } }
+			ship = { name = "Uralets" definition = light_cruiser equipment = { ship_hull_cruiser_1 = {amount = 1 owner = SOV version_name = "Burlak Class" } } }
+			ship = { name = "Chernomorets" definition = light_cruiser equipment = { ship_hull_cruiser_1 = {amount = 1 owner = SOV version_name = "Burlak Class" } } }
+		}
+		task_force = {
+			name = "Destroyer Group"
+			location = 3686 #sevastopol
+			ship = { name = "Batum" definition = destroyer equipment = { ship_hull_light_2 = {amount = 1 owner = SOV version_name = "Batum Class"} } }
+			ship = { name = "Adler" definition = destroyer equipment = { ship_hull_light_2 = {amount = 1 owner = SOV version_name = "Batum Class"} } }
+			ship = { name = "Chardak" definition = destroyer equipment = { ship_hull_light_2 = {amount = 1 owner = SOV version_name = "Batum Class"} } }
+			ship = { name = "Yalta" definition = destroyer equipment = { ship_hull_light_2 = {amount = 1 owner = SOV version_name = "Batum Class"} } }
+			ship = { name = "Anakria" definition = destroyer equipment = { ship_hull_light_2 = {amount = 1 owner = SOV version_name = "Batum Class"} } }
+			ship = { name = "Anapa" definition = destroyer equipment = { ship_hull_light_2 = {amount = 1 owner = SOV version_name = "Batum Class"} } }
+			ship = { name = "Gagra" definition = destroyer equipment = { ship_hull_light_2 = {amount = 1 owner = SOV version_name = "Batum Class"} } }
+			ship = { name = "Gelendzhik" definition = destroyer equipment = { ship_hull_light_2 = {amount = 1 owner = SOV version_name = "Batum Class"} } }
+			ship = { name = "Kotka" definition = destroyer equipment = { ship_hull_light_2 = {amount = 1 owner = SOV version_name = "Batum Class"} } }
+			ship = { name = "Poti" definition = destroyer equipment = { ship_hull_light_2 = {amount = 1 owner = SOV version_name = "Batum Class"} } }
+			ship = { name = "Svirepy" definition = destroyer equipment = { ship_hull_light_2 = {amount = 1 owner = SOV version_name = "Batum Class"} } }
+			ship = { name = "Smetlivy" definition = destroyer equipment = { ship_hull_light_2 = {amount = 1 owner = SOV version_name = "Batum Class"} } }
+			ship = { name = "Stremitenly" definition = destroyer equipment = { ship_hull_light_2 = {amount = 1 owner = SOV version_name = "Batum Class"} } }
+			ship = { name = "Strogy" definition = destroyer equipment = { ship_hull_light_2 = {amount = 1 owner = SOV version_name = "Batum Class"} } }
+		}
+	task_force = {
+			name = "Mine Squadron"
+			location = 3686 #sevastopol
+			ship = { name = "Kapitan Saken" definition = light_cruiser equipment = { ship_hull_cruiser_2 = {amount = 1 owner = SOV version_name = "Kazarsky Class" } } }
+			ship = { name = "Kazarsky" definition = light_cruiser equipment = { ship_hull_cruiser_2 = {amount = 1 owner = SOV version_name = "Kazarsky Class" } } }
+			ship = { name = "Griden" definition = light_cruiser equipment = { ship_hull_cruiser_2 = {amount = 1 owner = SOV version_name = "Kazarsky Class" } } }
+			ship = { name = "Mackerel" definition = destroyer equipment = { ship_hull_light_2 = {amount = 1 owner = SOV version_name = "Mackerel Class"} } }
+			ship = { name = "Skorpion" definition = destroyer equipment = { ship_hull_light_2 = {amount = 1 owner = SOV version_name = "Mackerel Class"} } }
+			ship = { name = "Yashcheritsa" definition = destroyer equipment = { ship_hull_light_2 = {amount = 1 owner = SOV version_name = "Mackerel Class"} } }
+			ship = { name = "Shchegol" definition = destroyer equipment = { ship_hull_light_2 = {amount = 1 owner = SOV version_name = "Mackerel Class"} } }
+			ship = { name = "Sultanka" definition = destroyer equipment = { ship_hull_light_2 = {amount = 1 owner = SOV version_name = "Mackerel Class"} } }
+			ship = { name = "Shchuka" definition = destroyer equipment = { ship_hull_light_2 = {amount = 1 owner = SOV version_name = "Mackerel Class"} } }
+		}
+		task_force = {
+			name = "Torpedo Boat Force"
+			location = 3686 #sevastopol
+			ship = { name = "Sukhum" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = SOV version_name = "Abo Class"} } }
+			ship = { name = "Kiliya" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = SOV version_name = "Abo Class"} } }
+			ship = { name = "Kodor" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = SOV version_name = "Abo Class"} } }
+			ship = { name = "Novorossiysk" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = SOV version_name = "Abo Class"} } }
+			ship = { name = "Reni" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = SOV version_name = "Abo Class"} } }
+			ship = { name = "Ai-Todor" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = SOV version_name = "Abo Class"} } }
+			ship = { name = "No. 267" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = SOV version_name = "Abo Class"} } }
+			ship = { name = "No. 268" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = SOV version_name = "Abo Class"} } }
+			ship = { name = "No. 269" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = SOV version_name = "Abo Class"} } }
+			ship = { name = "No. 270" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = SOV version_name = "Abo Class"} } }
+			ship = { name = "No. 271" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = SOV version_name = "Abo Class"} } }
+			ship = { name = "No. 272" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = SOV version_name = "Abo Class"} } }
+			ship = { name = "No. 273" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = SOV version_name = "Abo Class"} } }
+		}
 	}
+	
 }
+		
