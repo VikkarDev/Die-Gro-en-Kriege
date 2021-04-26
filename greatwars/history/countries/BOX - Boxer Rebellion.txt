@@ -9,10 +9,6 @@ capital = 614
 	set_research_slots = 2
 
 	add_ideas = {
-
-		BOX_faith_in_rebellion
-		BOX_volunteers
-		BOX_artillery_training
 		
 	}
 	
