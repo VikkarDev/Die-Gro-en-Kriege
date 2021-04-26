@@ -1430,5 +1430,9 @@ spriteTypes = {
 		texturefile = "gfx/interface/decisions/sov/sov_placeholder.dds"
 	}
 
+	spriteType = {
+		name = "GFX_sov_crowd"
+		texturefile = "gfx/interface/decisions/sov/sov_city.dds"
+	}
 
 }

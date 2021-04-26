@@ -75,7 +75,7 @@ sov_literacydes = {
 
         fire_only_once = yes
 		days_re_enable = 0
-		days_remove 150
+		days_remove = 150
 
 		visible = {
 
@@ -90,5 +90,89 @@ sov_literacydes = {
       ai_will_do = {
 		  factor = 100
 	  }
-
 	}
+}
+
+sov_crowded = {
+
+   sov_develop_mos = {
+         
+		 available = {
+			 has_idea = sov_crowd
+		 }
+
+        fire_only_once = yes
+		days_re_enable = 0
+		days_remove = 10
+
+		visible = {
+        has_idea = SOV_crowd
+		}
+
+		cost = 150
+
+		remove_effect = {
+			swap_ideas = { 
+              remove_idea = SOV_crowd
+              add_idea = SOV_crowd2
+			             }
+			add_stability = 0.05
+		}
+
+      ai_will_do = {
+		  factor = 90
+	  }
+   }
+   sov_develop_stpt = {
+         
+		 available = {
+			 has_idea = SOV_crowd2
+		             }
+
+        fire_only_once = yes
+		days_re_enable = 0
+		days_remove = 10
+
+		visible = {
+           tag = SOV
+		}
+
+		cost = 150
+
+		remove_effect = {
+			swap_ideas = { 
+              remove_idea = SOV_crowd2
+              add_idea = SOV_crowd3
+			             }
+			add_stability = 0.05
+		}
+
+      ai_will_do = {
+		  factor = 90
+	                }
+
+	               }
+
+   sov_develop_wrs = {
+         
+		 available = {
+			 has_idea = SOV_crowd3
+		 }
+
+        fire_only_once = yes
+		days_re_enable = 0
+		days_remove = 10
+
+		visible = {
+			tag = SOV
+		}
+
+		cost = 150
+
+		remove_effect = {
+              remove_ideas = SOV_crowd3
+			             }
+			add_stability = 0.05
+                       }
+
+         

@@ -10,3 +10,16 @@ sov_literacydes = {
 	allowed = {
 	}
 }
+
+sov_crowded = {
+	icon = generic_industry
+	picture = GFX_sov_crowd
+	priority = 5
+
+    visible = {
+		tag = SOV
+	}
+
+	allowed = {
+	}
+}

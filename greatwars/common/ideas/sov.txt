@@ -92,6 +92,41 @@ ideas = {
 
                  } 
 
+        SOV_crowd2 = {
+            picture = crowded2
+
+            allowed = {
+                tag = sov
+                      }
+
+            modifier = {
+
+                stability_factor = -0.10
+                industrial_capacity_factory = -0.10
+                conscription_factor = -0.05
+                
+                        }
+
+
+                 } 
+
+        SOV_crowd3 = {
+            picture = crowded1
+
+            allowed = {
+                tag = sov
+                      }
+
+            modifier = {
+
+                stability_factor = -0.05
+                industrial_capacity_factory = -0.05
+
+                        }
+
+
+                 } 
+
                 SOV_literate = {
             picture = literate
 
