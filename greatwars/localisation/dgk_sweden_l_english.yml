@@ -58,8 +58,21 @@
  SWE_swe_nor_army:0 "Svensk-Norska armén"
  SWE_aggressive_approach:0 "Aggressive Approach"
  SWE_stor_vernplikt:0 "Stor Värnplikt"
- SWE_Stabilize_Country:0 "Stabilize The Country"
  SWE_break_neutrality:0 "Open up our foreign policy"
+ SWE_bostrom_cabinet:0 "The Boström Cabinet"
+ SWE_fortress_question:0 "The Boden Fortress question"
+ SWE_norrland_railway:0 "Build the Norrland Railway"
+ SWE_raise_wage:0 "Raise the Minimal Wage"
+ SWE_otter_cabinet:0 "The Otter Cabinet"
+ SWE_department_agriculture:0 "Create the Department of Agriculture"
+ SWE_industrial_workers:0 "Industrial Maternity Leave"
+ SWE_kiruna_mine:0 "Expand the Kiruna mine"
+ SWE_new_resourcs:0 "Search for new Resourcs"
+ SWE_better_mining_equipment:0 "Invest in Better Mining Equipment"
+ SWE_expand_maternity:0 "Expand Maternity leave"
+ SWE_farm_fields:0 "Increase Farm fields"
+ SWE_build_farms:0 "Build More Farms"
+ SWE_1902_election:0 "The Election of 1902"
 
 
 #partys 

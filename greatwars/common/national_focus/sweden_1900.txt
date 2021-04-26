@@ -333,8 +333,8 @@ continuous_focus_position = {
 		}
 	}
 	focus = {
-		id = SWE_Stabilize_Country
-		icon = GFX_focus_generic_home_defense
+		id = SWE_bostrom_cabinet
+		icon = GFX_
 		x = 20
 		y = 0
 		cost = 10
@@ -348,13 +348,205 @@ continuous_focus_position = {
 		
 	}
 	focus = {
+		id = SWE_fortress_question
+		icon = GFX_
+		x = 20
+		y = 1
+		cost = 10
+		available = {
+			country_exists = SWE
+		}
+		prerequisite = {
+			focus = SWE_bostrom_cabinet
+		}
+		
+	}
+	focus = {
+		id = SWE_norrland_railway
+		icon = GFX_
+		x = 22
+		y = 1
+		cost = 10
+		available = {
+			country_exists = SWE
+		}
+		prerequisite = {
+			focus = SWE_bostrom_cabinet
+		}
+		
+	}
+	focus = {
+		id = SWE_raise_wage
+		icon = GFX_
+		x = 18
+		y = 1
+		cost = 10
+		available = {
+			country_exists = SWE
+		}
+		prerequisite = {
+			focus = SWE_bostrom_cabinet
+		}
+		
+	}
+	focus = {
+		id = SWE_otter_cabinet
+		icon = GFX_
+		x = 20
+		y = 2
+		cost = 10
+		available = {
+			country_exists = SWE
+		}
+		prerequisite = {
+			focus = SWE_fortress_question
+		}
+		prerequisite = {
+			focus = SWE_norrland_railway
+		}
+		prerequisite = {
+			focus = SWE_raise_wage
+		}
+		
+	}
+	focus = {
+		id = SWE_kiruna_mine
+		icon = GFX_
+		x = 23
+		y = 3
+		cost = 10
+		available = {
+			country_exists = SWE
+		}
+		prerequisite = {
+			focus = SWE_otter_cabinet
+		}
+		
+	}
+	focus = {
+		id = SWE_industrial_workers
+		icon = GFX_
+		x = 20
+		y = 3
+		cost = 10
+		available = {
+			country_exists = SWE
+		}
+		prerequisite = {
+			focus = SWE_otter_cabinet
+		}
+		
+	}
+	focus = {
+		id = SWE_department_agriculture
+		icon = GFX_
+		x = 17
+		y = 3
+		cost = 10
+		available = {
+			country_exists = SWE
+		}
+		prerequisite = {
+			focus = SWE_otter_cabinet
+		}
+		
+	}
+	focus = {
+		id = SWE_farm_fields
+		icon = GFX_
+		x = 16
+		y = 4
+		cost = 10
+		available = {
+			country_exists = SWE
+		}
+		prerequisite = {
+			focus = SWE_department_agriculture
+		}
+		
+	}
+	focus = {
+		id = SWE_build_farms
+		icon = GFX_
+		x = 18
+		y = 4
+		cost = 10
+		available = {
+			country_exists = SWE
+		}
+		prerequisite = {
+			focus = SWE_department_agriculture
+		}
+		
+	}
+	focus = {
+		id = SWE_new_resourcs
+		icon = GFX_
+		x = 24
+		y = 4
+		cost = 10
+		available = {
+			country_exists = SWE
+		}
+		prerequisite = {
+			focus = SWE_kiruna_mine
+		}
+		
+	}
+	focus = {
+		id = SWE_better_mining_equipment
+		icon = GFX_
+		x = 22
+		y = 4
+		cost = 10
+		available = {
+			country_exists = SWE
+		}
+		prerequisite = {
+			focus = SWE_kiruna_mine
+		}
+		
+	}
+	focus = {
+		id = SWE_expand_maternity
+		icon = GFX_
+		x = 20
+		y = 4
+		cost = 10
+		available = {
+			country_exists = SWE
+		}
+		prerequisite = {
+			focus = SWE_industrial_workers
+		}
+		
+	}
+	focus = {
+		id = SWE_1902_election
+		icon = GFX_
+		x = 20
+		y = 5
+		cost = 10
+		available = {
+			country_exists = SWE
+		}
+		prerequisite = {
+			focus = SWE_expand_maternity
+			focus = SWE_better_mining_equipment
+			focus = SWE_build_farms
+		}
+		
+	}
+
+
+	focus = {
 		id = SWE_break_neutrality
 		icon = GFX_focus_generic_vichy_france_triumphant
 		x = 40
 		y = 0
 		cost = 10
 		mutually_exclusive = {
-			focus =  SWE_Stabilize_Country
+			focus =  SWE_bostrom_cabinet
 		}
 		completion_reward = {
 			add_popularity = { ideology = autocracy popularity = 0.05 }
@@ -364,227 +556,6 @@ continuous_focus_position = {
 			custom_effect_tooltip = HISTORICAL_BREAK
 		}
 	}
-	focus = {
-		id = SWE_hist2
-		icon = GFX_
-		x = 20
-		y = 1
-		cost = 10
-			prerequisite = {
-				focus = SWE_Stabilize_Country
-			}
-			
-		
-	}
-	focus = {
-		id = SWE_hist3
-		icon = GFX_
-		x = 21
-		y = 3
-		cost = 10
-			prerequisite = {
-				focus = SWE_hist2
-			}
-			
-		
-	}
-	focus = {
-		id = SWE_hist4
-		icon = GFX_
-		x = 19
-		y = 3
-		cost = 10
-			prerequisite = {
-				focus = SWE_hist2
-			}
-			
-		
-	}
-	focus = {
-		id = SWE_hist5
-		icon = GFX_
-		x = 18
-		y = 4
-		cost = 10
-			prerequisite = {
-				focus = SWE_hist4
-			}
-			prerequisite = {
-				focus = SWE_hist3
-			}
-		
-	}
-	focus = {
-		id = SWE_hist6
-		icon = GFX_
-		x = 19
-		y = 5
-		cost = 10
-			
-			prerequisite = {
-				focus = SWE_hist5
-			}
-			prerequisite = {
-				focus = SWE_hist9
-			}
-			mutually_exclusive = {
-				focus = SWE_hist10
-			}
-			
-		
-	}
-	focus = {
-		id = SWE_hist8
-		icon = GFX_
-		x = 20
-		y = 4
-		cost = 10
-			prerequisite = {
-				focus = SWE_hist4
-				
-			}
-			prerequisite = {
-				focus = SWE_hist3
-			}
-		
-	}
-	focus = {
-		id = SWE_hist9
-		icon = GFX_
-		x = 22
-		y = 4
-		cost = 10
-			prerequisite = {
-				focus = SWE_hist4
-				
-			}
-			prerequisite = {
-				focus = SWE_hist3
-			}
-		
-	}
-	focus = {
-		id = SWE_hist10
-		icon = GFX_
-		x = 21
-		y = 5
-		cost = 10
-			prerequisite = {
-				focus = SWE_hist9
-				
-			}
-			
-			prerequisite = {
-				focus = SWE_hist5
-			}
-			mutually_exclusive = {
-					focus = SWE_hist6
-			}
-		
-	}
-	focus = {
-		id = SWE_hist11
-		icon = GFX_
-		x = 30
-		y = 1
-		cost = 10
-		available = {
-			country_exists = SWE
-		}
-			prerequisite = {
-				focus = SWE_Stabilize_Country
-				focus = SWE_break_neutrality
-			}
-	}
-	focus = {
-		id = SWE_hist12
-		icon = GFX_
-		x = 26
-		y = 4
-		cost = 10
-			prerequisite = {
-				focus = SWE_hist2
-			}
-	}		
-	focus = {
-		id = SWE_hist13
-		icon = GFX_
-		x = 29 
-		y = 2
-		cost = 10
-			prerequisite = {
-				focus = SWE_hist11
-			}
-			mutually_exclusive = {
-				focus = SWE_hist14
-		}
-	}	
-	focus = {
-		id = SWE_hist14
-		icon = GFX_
-		x = 31
-		y = 2
-		cost = 10
-			prerequisite = {
-				focus = SWE_hist11
-			}
-			mutually_exclusive = {
-				focus = SWE_hist13
-			}
-		}
-		focus = {
-			id = SWE_hist15
-			icon = GFX_
-			x = 24
-			y = 5
-			cost = 10
-				prerequisite = {
-					focus = SWE_hist12
-				}
-		}
-		focus = {
-			id = SWE_hist16
-			icon = GFX_
-			x = 28
-			y = 5
-			cost = 10
-				prerequisite = {
-					focus = SWE_hist12
-				}
-		}
-		focus = {
-			id = SWE_hist17
-			icon = GFX_
-			x = 28
-			y = 6
-			cost = 10
-				prerequisite = {
-					focus = SWE_hist16
-				}
-		}
-		focus = {
-			id = SWE_hist18
-			icon = GFX_
-			x = 24
-			y = 6
-			cost = 10
-				prerequisite = {
-					focus = SWE_hist15
-				}
-		}
-		focus = {
-			id = SWE_hist19
-			icon = GFX_
-			x = 26
-			y = 7
-			cost = 10
-				prerequisite = {
-					focus = SWE_hist18
-				}
-				prerequisite = {
-					focus = SWE_hist17
-				}
-		}
 		focus = {
 			id = SWE_ahist1
 			icon = GFX_
