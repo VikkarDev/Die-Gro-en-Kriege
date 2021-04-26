@@ -5776,5 +5776,24 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/idea_gre_metaxism_empowered.dds"
 	}
 	
+		spriteType = {
+		name = "GFX_idea_literate"
+		texturefile = "gfx/interface/ideas/sov/idea_rus_literate.dss"
+	}
+	
+		spriteType = {
+		name = "GFX_idea_crowded3"
+		texturefile = "gfx/interface/ideas/sov/idea_rus_crowded3.dds"
+	}
+
+		spriteType = {
+		name = "GFX_idea_crowded2"
+		texturefile = "gfx/interface/ideas/sov/idea_rus_crowded2.dss"
+	}
+
+		spriteType = {
+		name = "GFX_idea_crowded1"
+		texturefile = "gfx/interface/ideas/sov/idea_rus_crowded1.dss"
+	}
 
 }

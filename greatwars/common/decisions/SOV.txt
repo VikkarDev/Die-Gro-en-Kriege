@@ -34,7 +34,7 @@ sov_literacydes = {
 		}
 	}
 
-    sov_build_schools1 = {
+    sov_build_schools2 = {
 
 		available = {
 			has_idea = SOV_high_iliteracy2
@@ -65,4 +65,30 @@ sov_literacydes = {
 			factor = 50
 		}
 	}
-}
+
+    sov_promote_edu = {
+         
+		 available = {
+			 not = {has_idea = SOV_high_iliteracy2 }
+			 not = {has_idea = SOV_high_iliteracy3 }
+		 }
+
+        fire_only_once = yes
+		days_re_enable = 0
+		days_remove 150
+
+		visible = {
+
+		}
+
+		cost = 150
+
+		remove_effect = {
+			add_ideas = SOV_literate
+		}
+
+      ai_will_do = {
+		  factor = 100
+	  }
+
+	}

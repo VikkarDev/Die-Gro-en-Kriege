@@ -84,12 +84,12 @@ bookmarks = {
 			ideas = {
 				SOV_french_Dependancy
 				SOV_fear_of_revolution
-				SOV_long_live_the_tsar
+				SOV_high_iliteracy3
 			}
 			focuses = {
              RUS_new_finway
-			 RUS_new_finway2
-			 RUS_new_orth
+			 RUS_new_dep
+			 RUS_new_noagri
 			}
 		}
 

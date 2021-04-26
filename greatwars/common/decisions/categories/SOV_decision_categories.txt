@@ -1,5 +1,5 @@
 sov_literacydes = {
-	icon = generic_political_actions
+	icon = gre_paying_ifc_debt
 	picture = GFX_sov_liteacypic
 	priority = 10
 

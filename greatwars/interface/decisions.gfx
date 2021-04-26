@@ -1425,5 +1425,10 @@ spriteTypes = {
 		name = "GFX_decision_generic_speech"
 		texturefile = "gfx/interface/decisions/decision_generic_speech.dds"
 	}
+	spriteType = {
+		name = "GFX_sov_liteacypic"
+		texturefile = "gfx/interface/decisions/sov/sov_placeholder.dds"
+	}
+
 
 }

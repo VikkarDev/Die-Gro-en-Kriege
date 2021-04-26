@@ -74,16 +74,35 @@ ideas = {
             }
         }
 
-        SOV_crowded_cities = {
-            picture = missing_gfx2
+        SOV_crowd = {
+            picture = crowded3
+
+            allowed = {
+                tag = sov
+                      }
+
+            modifier = {
+
+                stability_factor = -0.15
+                industrial_capacity_factory = -0.15
+                conscription_factor = -0.05
+                
+                        }
+
+
+                 } 
+
+                SOV_literate = {
+            picture = literate
 
             allowed = {
                 tag = SOV
             }
 
             modifier = {
-                stability_factor = -0.15
-                industrial_capacity_factory = -0.15
-                conscription_factor = -0.05
+                stability_factor = +0.10
+                research_speed_factor = +0.10
             }
         }   
+    }
+}
