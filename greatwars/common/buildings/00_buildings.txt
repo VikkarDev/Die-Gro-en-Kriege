@@ -1,4 +1,4 @@
-buildings = {
++buildings = {
 
 	# show_on_map:
 	#    if provincial = yes, then show_on_map = X is amount per each province
@@ -18,8 +18,8 @@ buildings = {
 
 	arms_factory = {
 		show_on_map = 6
-		base_cost = 7200
-		base_cost_conversion = 4000
+		base_cost = 8200
+		base_cost_conversion = 4500
 		military_production = 1
 		icon_frame = 2
 		max_level = 20
@@ -66,8 +66,8 @@ buildings = {
 	bunker = {
 		show_on_map = 1
 		has_destroyed_mesh = yes
-		base_cost = 500
-		per_level_extra_cost = 500
+		base_cost = 1650
+		per_level_extra_cost = 1400
 		provincial = yes
 		disabled_in_dmz = yes
 		icon_frame = 7
@@ -79,8 +79,8 @@ buildings = {
 	coastal_bunker = {
 		show_on_map = 1
 		has_destroyed_mesh = yes
-		base_cost = 500
-		per_level_extra_cost = 500
+		base_cost = 2100
+		per_level_extra_cost = 2000
 		provincial = yes
 		disabled_in_dmz = yes
 		only_costal = yes
