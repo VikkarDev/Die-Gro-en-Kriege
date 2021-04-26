@@ -1,0 +1,153 @@
+focus_tree = {
+    id = CHI_1900
+
+    country = {
+		factor = 0
+		
+		modifier = {
+			add = 11
+			tag = CHI
+		}
+	}
+    default = no
+
+    continuous_focus_position = { x = 50 y = 1500 }
+
+    focus = {
+			id = CHI_1900_boxers
+			icon = GFX_SOV_focus_state_duma
+			x = 7
+			y = 0
+
+			cost = 7
+
+			available = {
+				has_war_with = BOX
+			}
+
+			completion_reward = { 
+                add_political_power = 100
+                add_stability = 0.05
+			}
+		}
+
+        focus = {
+			id = CHI_1900_empress_opinion
+			icon = GFX_SOV_focus_first_russian_election
+			x = 7
+			y = 1
+
+			prerequisite = {
+				focus = CHI_1900_boxers
+			}
+
+			cost = 5
+
+			available = {
+                has_war_with = BOX
+                NOT = {
+                    has_war_with = ENG
+                    has_war_with = RUS
+                }
+			}
+
+			completion_reward = { 
+                country_event = china.1
+                add_political_power = 60
+                
+			}
+		}
+        focus = {
+			id = CHI_1900_ally_with_boxers
+			icon = GFX_SOV_focus_the_safe_option
+			x = 5
+			y = 2
+
+			prerequisite = {
+				focus = CHI_1900_empress_opinion
+			}
+			mutually_exclusive = {
+				focus = CHI_1900_against_boxers
+			}
+
+			cost = 5
+
+			available = {
+                has_country_flag = CHI_pro_boxers
+			}
+
+			completion_reward = { 
+			white_peace = BOX
+            add_stability = 0.3
+            add_manpower = 5000
+            add_political_power = 100
+            add_war_support = 0.1
+			}
+		}
+        focus = {
+			id = CHI_1900_against_boxers
+			icon = GFX_SOV_focus_the_safe_option
+			x = 9
+			y = 2
+
+			prerequisite = {
+				focus = CHI_1900_empress_opinion
+			}
+			mutually_exclusive = {
+				focus = CHI_1900_ally_with_boxers
+			}
+
+			cost = 5
+
+			available = {
+                has_country_flag = CHI_anti_boxers
+			}
+
+			completion_reward = { 
+			
+			}
+		}
+         focus = {
+			id = CHI_1900_taku_forts
+			icon = GFX_SOV_focus_the_safe_option
+			x = 5
+			y = 3
+            prerequisite = {
+				focus = CHI_1900_ally_with_boxers
+			}
+            cost = 2
+
+            available = {
+                NOT = {
+                    has_war_with = BOX
+                }
+            }
+            completion_reward = { 
+                add_manpower = 5000
+                add_war_support = 0.2
+                
+
+			}
+         }
+         focus = {
+			id = CHI_1900_legation_siege
+			icon = GFX_SOV_focus_the_safe_option
+			x = 3
+			y = 4
+            prerequisite = {
+				focus = CHI_1900_taku_forts
+			}
+            cost = 2
+
+            available = {
+                NOT = {
+                    has_war_with = BOX
+                }
+            }
+            completion_reward = { 
+                
+
+			}
+         }
+}
+    
