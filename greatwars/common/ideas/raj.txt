@@ -136,5 +136,44 @@ ideas = {
 				conscription_factor = 0.1
 			}
 		}
+
+		RAJ_violent_protests = {
+			picture = chi_war_of_resistance3
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = no
+			}
+			modifier = {
+				autonomy_gain = 5
+			}
+		}
+
+		RAJ_peaceful_protests = {
+			picture = chi_war_of_resistance
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = no
+			}
+			modifier = {
+				autonomy_gain = 1
+			}
+		}
+
+		RAJ_imperial_service = {
+			picture = generice_manpower_bonus
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = no
+			}
+			modifier = {
+				conscription = 0.07
+			}
+		}
 	}
 }
