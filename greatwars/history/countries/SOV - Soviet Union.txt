@@ -13,11 +13,11 @@ capital = 219
 		SOV_french_dependancy
 		SOV_fear_of_revolution
 		SOV_long_live_the_tsar
-        SOV_high_iliteracy
-		SOV_crowded_cities
+        SOV_high_iliteracy3
+		SOV_crowd
 		# government
 		extensive_conscription
-		limited_exports
+		export_focus
 		partial_economic_mobilisation
 	}
 
