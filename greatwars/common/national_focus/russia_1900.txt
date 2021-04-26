@@ -12,7 +12,7 @@
 	
 	default = no
 	
-	continuous_focus_position = { x = 100 y = 4000 }
+	continuous_focus_position = { x = 100 y = 2000 }
 
 		focus = {
 			id = RUS_new_industry0
@@ -614,10 +614,8 @@
 
 			cost = 20
 
-			prerequisite = {
-				focus = RUS_new_tcwayBase
-				focus = RUS_new_tcwayFriend
-			}
+			prerequisite = {focus = RUS_new_tcwayBase 
+			               focus = RUS_new_tcwayFriend}
 
 
 			available = {
@@ -658,10 +656,8 @@
 			x = 10
 			y = 4
 
-			prerequisite = {
-				focus = RUS_new_excity
-				focus = RUS_new_imptool
-			}
+			prerequisite = {focus = RUS_new_excity}
+			prerequisite = {focus = RUS_new_imptool}
 
 			cost = 10
 
@@ -781,11 +777,9 @@
 			x = 13
 			y = 7
 
-			prerequisite = {
-				focus = RUS_new_indep
-				focus = RUS_new_incpro
-				focus = RUS_new_teachwork
-			}
+			prerequisite = {focus = RUS_new_indep}
+			prerequisite = {focus = RUS_new_incpro}
+			prerequisite = {focus = RUS_new_teachwork}
 
 
 			cost = 10
@@ -941,12 +935,9 @@
 			x = 7
 			y = 7
 
-			prerequisite = {
-				focus = RUS_new_buytools
-				focus = RUS_new_westtech
-				focus = RUS_new_coopwest
-			}
-
+			prerequisite = {focus = RUS_new_buytools}
+            prerequisite = {focus = RUS_new_coopwest}
+			prerequisite = {focus = RUS_new_westtech}
 
 			cost = 10
 
@@ -1104,10 +1095,8 @@
 			x = 13
 			y = 12
 
-			prerequisite = {
-				focus = RUS_new_focsib
-				focus = RUS_new_focwes
-			}
+			prerequisite = {focus = RUS_new_focsib}
+			prerequisite = {focus = RUS_new_focwes}
 
 
 			cost = 20
@@ -1279,4 +1268,235 @@
 			     add_ideas = SOV_edu
 			}
 		}
+    focus = {
+    id = RUS_new_policy
+	icon = GFX_SOV_focus_first_russian_election
+	x = 32
+	y = 1
+	cost = 1
+
+	available = {
+
+	}
+
+	completion_reward ={ add_political_power = 50 }
+                 }
+	focus = {
+    id = RUS_new_calm1
+	icon = GFX_SOV_focus_first_russian_election
+	x = 31
+	y = 2
+	cost = 5
+
+	available = {
+
+	}
+
+			prerequisite = {
+				focus = RUS_new_policy
+			}
+
+	completion_reward {                     } 
+                       }
+	focus = {
+    id = RUS_new_livstand
+	icon = GFX_SOV_focus_first_russian_election
+	x = 33
+	y = 2
+	cost = 5
+
+	available = {
+
+	}
+
+			prerequisite = {
+				focus = RUS_new_policy
+			}
+
+	completion_reward ={ add_stability = 0.05 	}
+           }	
+
+    focus = {
+    id = RUS_new_prop
+	icon = GFX_SOV_focus_first_russian_election
+	x = 32
+	y = 3
+	cost = 5
+
+	available = {
+
+	}
+
+			prerequisite = {focus = RUS_new_calm1 }
+			prerequisite = {focus = RUS_new_livstand}
+
+	completion_reward ={ }
+                 }	
+    focus = {
+    id = RUS_new_faith
+	icon = GFX_SOV_focus_first_russian_election
+	x = 32
+	y = 4
+	cost = 10
+
+	available = {
+
+	}
+
+			prerequisite = {focus = RUS_new_prop}
+
+	completion_reward ={ }
+                 }
+    focus = {
+    id = RUS_new_foreign
+	icon = GFX_SOV_focus_first_russian_election
+	x = 32
+	y = 5
+	cost = 10
+
+	available = {
+
+	}
+
+			prerequisite = {focus = RUS_new_faith}
+
+	completion_reward ={ }
+                 }	
+    focus = {
+    id = RUS_new_def_fra
+	icon = GFX_SOV_focus_first_russian_election
+	x = 34
+	y = 6
+	cost = 5
+
+	available = {
+
+	}
+
+			prerequisite = {focus = RUS_new_foreign}
+
+	completion_reward ={ }
+                 }
+    focus = {
+    id = RUS_new_def_cau
+	icon = GFX_SOV_focus_first_russian_election
+	x = 35
+	y = 7
+	cost = 5
+
+	available = {
+
+	}
+
+			prerequisite = {focus = RUS_new_def_fra}
+
+	completion_reward ={ }
+                 }
+    focus = {
+    id = RUS_new_def_afg
+	icon = GFX_SOV_focus_first_russian_election
+	x = 33
+	y = 7
+	cost = 5
+
+	available = {
+
+	}
+
+			prerequisite = {focus = RUS_new_def_fra}
+
+	completion_reward ={ }
+                 }	
+    focus = {
+    id = RUS_new_ally
+	icon = GFX_SOV_focus_first_russian_election
+	x = 34
+	y = 8
+	cost = 10
+
+	available = {
+
+	}
+
+			prerequisite = {focus = RUS_new_def_cau}
+			prerequisite = {focus = RUS_new_def_afg}
+
+	completion_reward ={ }
+                 }	
+    focus = {
+    id = RUS_new_aisia
+	icon = GFX_SOV_focus_first_russian_election
+	x = 30
+	y = 6
+	cost = 5
+
+	available = {
+
+	}
+
+			prerequisite = {focus = RUS_new_foreign}
+
+	completion_reward ={ }
+                 }	
+    focus = {
+    id = RUS_new_prep_infa
+	icon = GFX_SOV_focus_first_russian_election
+	x = 29
+	y = 7
+	cost = 5
+
+	available = {
+
+	}
+
+			prerequisite = {focus = RUS_new_aisia}
+
+	completion_reward ={ }
+                 }
+    focus = {
+    id = RUS_new_prep_navy
+	icon = GFX_SOV_focus_first_russian_election
+	x = 31
+	y = 7
+	cost = 5
+
+	available = {
+
+	}
+
+			prerequisite = {focus = RUS_new_aisia}
+
+	completion_reward ={ }
+                 }
+    focus = {
+    id = RUS_new_boost_army
+	icon = GFX_SOV_focus_first_russian_election
+	x = 30
+	y = 8
+	cost = 5
+
+	available = {
+
+	}
+
+			prerequisite = {focus = RUS_new_prep_infa}
+			prerequisite = {focus = RUS_new_prep_navy}
+
+	completion_reward ={ }
+                 }
+    focus = {
+    id = RUS_new_negojap
+	icon = GFX_SOV_focus_first_russian_election
+	x = 30
+	y = 9
+	cost = 30
+
+	available = {
+
+	}
+
+			prerequisite = {focus = RUS_new_boost_army}
+
+	completion_reward ={ }
+                 }		 				 			 		 		 			 
 }

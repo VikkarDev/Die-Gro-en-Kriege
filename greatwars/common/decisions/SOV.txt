@@ -9,7 +9,7 @@ sov_literacydes = {
 
 		fire_only_once = yes
 		days_re_enable = 0
-        days_remove = 10
+        days_remove = 100
 
 		visible = {
 		
@@ -43,7 +43,7 @@ sov_literacydes = {
 
 		fire_only_once = yes
 		days_re_enable = 0
-        days_remove = 10
+        days_remove = 100
 
 		visible = {
 		   has_idea = SOV_high_iliteracy2
@@ -172,7 +172,71 @@ sov_crowded = {
 		remove_effect = {
               remove_ideas = SOV_crowd3
 			             }
-			add_stability = 0.05
+			add_political_power = 50
                        }
+}
 
-         
+sov_fear = {
+   sov_brob1 = {
+        	 available = {
+			     has_idea = SOV_fear_of_revolution
+		                 }
+	   fire_only_once = yes
+	   days_re_enable = 0
+	   days_remove = 100
+
+     visible = {
+        tag = sov
+	 }			
+
+	cost = 100
+
+	remove_effect = {
+			  swap_ideas = { 
+              remove_idea = SOV_fear_of_revolution
+              add_idea = SOV_fear_of_revolution2
+			               }
+	                }
+                }
+	sov_brob2 = {
+        	 available = {
+			     has_idea = SOV_fear_of_revolution2
+		                 }
+	   fire_only_once = yes
+	   days_re_enable = 0
+	   days_remove = 100
+
+     visible = {
+        tag = sov
+	 }			
+
+	cost = 100
+
+	remove_effect = {
+			  swap_ideas = { 
+              remove_idea = SOV_fear_of_revolution2
+              add_idea = SOV_fear_of_revolution3
+			               }
+			          }  
+	                }
+
+	sov_brob3 = {
+        	 available = {
+			     has_idea = SOV_fear_of_revolution3
+		                 }
+	   fire_only_once = yes
+	   days_re_enable = 0
+	   days_remove = 100
+
+     visible = {
+        tag = sov
+	 }			
+
+	cost = 100
+
+	remove_effect = {
+              remove_ideas = SOV_fear_of_revolution2
+			               }
+			          }  
+	                }
+	        

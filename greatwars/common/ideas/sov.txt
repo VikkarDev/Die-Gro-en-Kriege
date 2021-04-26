@@ -34,6 +34,32 @@ ideas = {
             }
         }
 
+        SOV_fear_of_revolution2 = {
+            picture = sov_fear_of_revolution
+
+            allowed = {
+                tag = SOV
+            }
+
+            modifier = {
+                stability_factor = -0.10
+                occupation_cost = 0.10
+                compliance_growth_on_our_occupied_states = 0.05
+            }
+        }
+
+        SOV_fear_of_revolution3 = {
+            picture = sov_fear_of_revolution
+
+            allowed = {
+                tag = SOV
+            }
+
+            modifier = {
+                stability_factor = -0.05
+                occupation_cost = 0.05
+            }
+        }
 
         SOV_long_live_the_tsar = {
             picture = generic_victors_of_ww1
