@@ -139,5 +139,69 @@ ideas = {
                 research_speed_factor = +0.10
             }
         }   
+            SOV_french_dependancy1 = {
+            picture = sov_french_dependancy
+
+            allowed = {
+                tag = SOV
+            }
+
+            modifier = {
+                trade_opinion_factor = 0.15
+                min_export = 0.3
+            }
+        }   
+
+            SOV_smartworkers = {
+            picture = generic_production_bonus
+
+            allowed = {
+                tag = SOV
+            }
+
+            modifier = {
+                research_speed_factor = 0.05
+                industrial_capacity_factory = 0.10
+            }
+        }  
+
+                    SOV_edu = {
+            picture = jap_duplicate_research
+
+            allowed = {
+                tag = SOV
+            }
+
+            modifier = {
+                research_speed_factor = 0.10
+                stability_factor = 0.1
+            }
+        }  
+                    SOV_indu = {
+            picture = man_five_year_plan_industry
+
+            allowed = {
+                tag = SOV
+            }
+
+            modifier = {
+                stability_factor = 0.1
+                production_speed_buildings_factor = 0.10
+                industrial_capacity_factory = 0.10
+            }
+        }  
+                  SOV_indu1 = {
+            picture = man_five_year_plan_industry
+
+            allowed = {
+                tag = SOV
+            }
+
+            modifier = {
+                stability_factor = 0.15
+                production_speed_buildings_factor = 0.15
+                industrial_capacity_factory = 0.15
+            }
+        }  
     }
 }

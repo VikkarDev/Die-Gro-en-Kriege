@@ -48,7 +48,7 @@
 			}
 
 			completion_reward = { 
-			
+			   add_political_power = 50
 			}
 		}
 
@@ -69,7 +69,10 @@
 			}
 
 			completion_reward = { 
-			
+			219 = {
+                   add_extra_state_shared_building_slots = 2
+				   add_building_construction = { type = industrial_complex level = 2 instant_build = yes }	
+			      }
 			}
 		}
 
@@ -90,8 +93,32 @@
 			}
 
 			completion_reward = { 
-			
-			}
+			    577 = {
+              add_building_construction = {
+	          type = infrastructure
+	          level = 2
+	          instant_build = yes
+                                           }
+				      }
+
+				576 = {
+              add_building_construction = {
+	          type = infrastructure
+	          level = 2
+	          instant_build = yes
+			                               }
+				      }
+				
+				575 = {
+              add_building_construction = {
+	          type = infrastructure
+	          level = 2
+	          instant_build = yes
+			  }
+					
+				}
+
+			                    }
 		}
 
 		focus = {
@@ -111,7 +138,10 @@
 			}
 
 			completion_reward = { 
-			
+			     random_owned_state = {
+                    add_extra_state_shared_building_slots = 2
+                    add_building_construction = { type = industrial_complex level = 2 instant_build = yes }
+				                      }
 			}
 		}
 
@@ -132,7 +162,7 @@
 			}
 
 			completion_reward = { 
-			
+                   add_stability = 0.05
 			}
 		}
 
@@ -153,7 +183,11 @@
 			}
 
 			completion_reward = { 
-			
+			    add_tech_bonus = {
+                bonus = 1
+                uses = 1
+                category = electronics
+                                  }
 			}
 		}
 
@@ -174,7 +208,11 @@
 			}
 
 			completion_reward = { 
-			
+		        add_tech_bonus = {
+                bonus = 1
+                uses = 2
+                category = industry
+                                  }
 			}
 		}
 
@@ -198,7 +236,14 @@
 			}
 
 			completion_reward = { 
-			
+			565 = {
+              add_building_construction = {
+	          type = industrial_complex
+	          level = 2
+	          instant_build = yes
+                                           }
+			}
+
 			}
 		}
 
@@ -222,7 +267,15 @@
 			}
 
 			completion_reward = { 
-			
+
+				565 = {
+              add_building_construction = {
+	          type = arms_factory
+	          level = 2
+	          instant_build = yes
+                                           }
+				}			
+
 			}
 		}
 
@@ -248,7 +301,38 @@
 			}
 
 			completion_reward = { 
-			
+				565 = {
+              add_building_construction = {
+	          type = infrastructure
+	          level = 2
+	          instant_build = yes
+                                           }				
+				      }
+
+         		562 ={
+              add_building_construction = {
+	          type = infrastructure
+	          level = 2
+	          instant_build = yes
+                                           }    
+				 }	
+
+				 574 = {
+              add_building_construction = {
+	          type = infrastructure
+	          level = 2
+	          instant_build = yes
+                                           }    
+				 }	   
+
+				 516 = {
+              add_building_construction = {
+	          type = infrastructure
+	          level = 2
+	          instant_build = yes
+                                           }    
+				 }	      
+
 			}
 		}
 
@@ -274,9 +358,22 @@
 			}
 
 			completion_reward = { 
-			
+				565 = {
+              add_building_construction = {
+	          type = infrastructure
+	          level = 4
+	          instant_build = yes
+                                           }	
+				}
+				562 ={
+              add_building_construction = {
+	          type = infrastructure
+	          level = 4
+	          instant_build = yes
+                                           }
+				}						   					
 			}
-		}
+	}
 
 		focus = {
 			id = RUS_new_finway
@@ -297,8 +394,87 @@
 			}
 
 			completion_reward = { 
-			
+							657 = {
+              add_building_construction = {
+	          type = infrastructure
+	          level = 2
+	          instant_build = yes
+                                           }	
+				}
+
+							409 = {
+              add_building_construction = {
+	          type = infrastructure
+	          level = 2
+	          instant_build = yes
+                                           }	
+				}
+							563 = {
+              add_building_construction = {
+	          type = infrastructure
+	          level = 2
+	          instant_build = yes
+                                           }	
+				}
+							565 = {
+              add_building_construction = {
+	          type = infrastructure
+	          level = 2
+	          instant_build = yes
+                                           }	
+				}
+							40 = {
+              add_building_construction = {
+	          type = infrastructure
+	          level = 2
+	          instant_build = yes
+                                           }	
+				}
+							560 = {
+              add_building_construction = {
+	          type = infrastructure
+	          level = 2
+	          instant_build = yes
+                                           }	
+				}
+							561 = {
+              add_building_construction = {
+	          type = infrastructure
+	          level = 2
+	          instant_build = yes
+                                           }	
+				}
+							567 = {
+              add_building_construction = {
+	          type = infrastructure
+	          level = 2
+	          instant_build = yes
+                                           }	
+				}
+							568 = {
+              add_building_construction = {
+	          type = infrastructure
+	          level = 2
+	          instant_build = yes
+                                           }	
+				}
+							578 = {
+              add_building_construction = {
+	          type = infrastructure
+	          level = 2
+	          instant_build = yes
+                                           }
+							}	
+							569 = {
+              add_building_construction = {
+	          type = infrastructure
+	          level = 2
+	          instant_build = yes
+                                           }	
+			     	}						   
+				add_stability = 0.05
 			}
+			
 		}
 
 		focus = {
@@ -318,8 +494,21 @@
 			}
 
 			completion_reward = { 
-			
-			}
+			    237	 = {
+              add_building_construction = {
+	          type = infrastructure
+	          level = 2
+	          instant_build = yes
+                                           }
+				      }
+			    236 = {
+              add_building_construction = {
+	          type = infrastructure
+	          level = 2
+	          instant_build = yes
+                                           }
+				      }
+			}	  
 		}
 
 		focus = {
@@ -339,7 +528,28 @@
 			}
 
 			completion_reward = { 
-			
+					 233 = {
+              add_building_construction = {
+	          type = infrastructure
+	          level = 2
+	          instant_build = yes
+                                           }
+				      }
+	  			     231 = {
+              add_building_construction = {
+	          type = infrastructure
+	          level = 2
+	          instant_build = yes
+                                           }
+				      }
+				     232 = {
+              add_building_construction = {
+	          type = infrastructure
+	          level = 1
+	          instant_build = yes
+                                           }
+				      }
+
 			}
 		}
 
@@ -363,7 +573,10 @@
 			}
 
 			completion_reward = { 
-			
+			add_opinion_modifier = {
+            target = TUR
+            modifier = large_decrease	
+                                    }
 			}
 		}
 
@@ -388,7 +601,7 @@
 			}
 
 			completion_reward = { 
-			
+			add_opinion_modifier = { target = TUR modifier = huge_increase }
 			}
 		}
 
@@ -412,7 +625,29 @@
 			}
 
 			completion_reward = { 
-			
+						    942 = {
+              add_building_construction = {
+	          type = infrastructure
+	          level = 2
+	          instant_build = yes
+                                           }
+				      }
+						    230 = {
+              add_building_construction = {
+	          type = infrastructure
+	          level = 2
+	          instant_build = yes
+                                           }
+				      }
+						    229 = {
+              add_building_construction = {
+	          type = infrastructure
+	          level = 2
+	          instant_build = yes
+                                           }
+				      }
+					  add_stability = 0.05
+
 			}
 		}
 
@@ -435,7 +670,7 @@
 			}
 
 			completion_reward = { 
-			
+			custom_effect_tooltip = fight_hos
 			}
 		}
 
@@ -459,7 +694,8 @@
 			}
 
 			completion_reward = { 
-			
+			    remove_ideas = SOV_french_dependancy 
+				add_stability = 0.05
 			}
 		}
 
@@ -482,7 +718,16 @@
 			}
 
 			completion_reward = { 
-			
+			add_resource = {
+              type = steel
+              amount = 25
+              state = 253
+                            }
+			add_resource = {
+              type = alluminuim
+              amount = 10
+              state = 248
+                            }							
 			}
 		}
 
@@ -504,7 +749,7 @@
 			}
 
 			completion_reward = { 
-			
+			 add_stability = 0.10
 			}
 		}
 
@@ -526,7 +771,7 @@
 			}
 
 			completion_reward = { 
-			
+			  add_ideas = SOV_smartworkers
 			}
 		}
 
@@ -550,7 +795,14 @@
 			}
 
 			completion_reward = { 
-			
+			  			206 = {
+                   add_extra_state_shared_building_slots = 2
+				   add_building_construction = { type = arms_factory level = 2 instant_build = yes }	
+			      }
+				  		202 = {
+                   add_extra_state_shared_building_slots = 2
+				   add_building_construction = { type = arms_factory level = 2 instant_build = yes }	
+			      }
 			}
 		}
 
@@ -572,7 +824,7 @@
 			}
 
 			completion_reward = { 
-			
+			 add_ideas = limited_exports
 			}
 		}
 
@@ -595,7 +847,11 @@
 			}
 
 			completion_reward = { 
-			
+			   add_stability = -0.05
+			   			swap_ideas = { 
+              remove_idea = SOV_french_dependancy
+              add_idea = SOV_french_dependancy1
+			             }
 			}
 		}
 
@@ -617,7 +873,14 @@
 			}
 
 			completion_reward = { 
-			
+			add_opinion_modifier = {
+            target = FRA
+            modifier = large_increase	
+                                    }
+			add_opinion_modifier = {
+            target = ENG
+            modifier = large_increase	
+                                    }
 			}
 		}
 
@@ -639,7 +902,10 @@
 			}
 
 			completion_reward = { 
-			
+					195 = {
+                   add_extra_state_shared_building_slots = 2
+				   add_building_construction = { type = industrial_complex level = 2 instant_build = yes }	
+			      }
 			}
 		}
 
@@ -661,7 +927,11 @@
 			}
 
 			completion_reward = { 
-			
+		       add_tech_bonus = {
+                bonus = 1
+                uses = 2
+                category = industry
+                                  }
 			}
 		}
 	
@@ -685,7 +955,14 @@
 			}
 
 			completion_reward = { 
-			
+						  			206 = {
+                   add_extra_state_shared_building_slots = 2
+				   add_building_construction = { type = industrial_complex level = 2 instant_build = yes }	
+			      }
+				  		202 = {
+                   add_extra_state_shared_building_slots = 2
+				   add_building_construction = { type = industrial_complex level = 2 instant_build = yes }	
+			      }
 			}
 		}
 
@@ -707,7 +984,7 @@
 			}
 
 			completion_reward = { 
-			
+		       add_ideas = free_trade
 			}
 		}
 
@@ -730,7 +1007,7 @@
 			}
 
 			completion_reward = { 
-			
+			   add_ideas = SOV_indu
 			}
 		}
 
@@ -752,8 +1029,15 @@
 			}
 
 			completion_reward = { 
-			
-			}
+							217 = {
+                   add_extra_state_shared_building_slots = 2
+				   add_building_construction = { type = industrial_complex level = 2 instant_build = yes }
+			    }
+							12 = {
+                   add_extra_state_shared_building_slots = 2
+				   add_building_construction = { type = industrial_complex level = 2 instant_build = yes }
+			    }
+			}	
 		}
 
 		focus = {
@@ -774,7 +1058,14 @@
 			}
 
 			completion_reward = { 
-			
+							242= {
+                   add_extra_state_shared_building_slots = 2
+				   add_building_construction = { type = industrial_complex level = 2 instant_build = yes }
+			    }
+							222 = {
+                   add_extra_state_shared_building_slots = 2
+				   add_building_construction = { type = industrial_complex level = 2 instant_build = yes }
+			    }
 			}
 		}
 
@@ -796,7 +1087,14 @@
 			}
 
 			completion_reward = { 
-			
+							575 = {
+                   add_extra_state_shared_building_slots = 2
+				   add_building_construction = { type = industrial_complex level = 2 instant_build = yes }
+			    }
+							408 = {
+                   add_extra_state_shared_building_slots = 2
+				   add_building_construction = { type = industrial_complex level = 2 instant_build = yes }
+			    }
 			}
 		}
 
@@ -819,7 +1117,10 @@
 			}
 
 			completion_reward = { 
-			
+		      swap_ideas = { 
+              remove_idea = SOV_indu
+              add_idea = SOV_indu1
+                         }
 			}
 		}
 
@@ -841,7 +1142,12 @@
 			}
 
 			completion_reward = { 
-			
+			  231 = {
+				  	add_resource = {
+		            type = oil
+		            amount = 20
+	                                }
+			        }
 			}
 		}
 
@@ -864,7 +1170,15 @@
 			}
 
 			completion_reward = { 
-			
+										195 = {
+                   add_extra_state_shared_building_slots = 2
+				   add_building_construction = { type = industrial_complex level = 2 instant_build = yes }
+				                            } 
+				                        206 ={
+			       add_extra_state_shared_building_slots = 2
+				   add_building_construction = { type = industrial_complex level = 2 instant_build = yes }	
+										     }
+			    	
 			}
 		}
 
@@ -887,7 +1201,14 @@
 			}
 
 			completion_reward = { 
-			
+										195 = {
+                   add_extra_state_shared_building_slots = 2
+				   add_building_construction = { type = arms_factory level = 2 instant_build = yes }
+				                              } 
+				                        206 ={
+			       add_extra_state_shared_building_slots = 2
+				   add_building_construction = { type = arms_factory level = 2 instant_build = yes }	
+										     }
 			}
 		}
 
@@ -906,11 +1227,12 @@
 			cost = 10
 
 			available = {
-			
+			  
 			}
 
 			completion_reward = { 
-			
+			 add_research_slot = 1
+			 add_stability = 0.05
 			}
 		}
 
@@ -932,7 +1254,7 @@
 			}
 
 			completion_reward = { 
-			
+				custom_effect_tooltip = fight_lit
 			}
 		}
 
@@ -949,12 +1271,12 @@
 
 			cost = 20
 
-			available = {
-			
+			available = 
+			{
 			}
 
 			completion_reward = { 
-			
+			     add_ideas = SOV_edu
 			}
 		}
 }
