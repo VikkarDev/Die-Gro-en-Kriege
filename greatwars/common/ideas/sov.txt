@@ -228,6 +228,22 @@ ideas = {
                 production_speed_buildings_factor = 0.15
                 industrial_capacity_factory = 0.15
             }
-        }  
+        } 
+                  SOV_army_moral = {
+            picture = GFX_idea_army_moral
+
+            allowed = {
+                tag = SOV
+            }
+
+            modifier = {
+                army_speed_factor = 0.05
+                army_attack_factor = 0.05
+                army_org = 0.05
+            }
+        } 
+
+
+
     }
 }

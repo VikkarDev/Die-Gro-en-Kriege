@@ -667,7 +667,7 @@
 
 			completion_reward = { 
 			custom_effect_tooltip = fight_hos
-			}
+			    }
 		}
 
 
@@ -1499,7 +1499,12 @@
 			prerequisite = {focus = RUS_new_def_cau}
 			prerequisite = {focus = RUS_new_def_afg}
 
-	completion_reward ={ }
+	completion_reward ={ 
+            add_opinion_modifier = { target = ENG modifier = large_increase }
+            add_opinion_modifier = { target = FRA modifier = large_increase }
+		    add_opinion_modifier = { target = GER modifier = large_increase }
+			add_opinion_modifier = { target = ITA modifier = large_increase }
+	}
                  }	
     focus = {
     id = RUS_new_aisia
@@ -1514,7 +1519,7 @@
 
 			prerequisite = {focus = RUS_new_foreign}
 
-	completion_reward ={ }
+	completion_reward ={add_war_support = 0.05}
                  }	
     focus = {
     id = RUS_new_prep_infa
@@ -1529,7 +1534,22 @@
 
 			prerequisite = {focus = RUS_new_aisia}
 
-	completion_reward ={ }
+	completion_reward ={
+		403 = {
+         add_building_construction = {
+	         type = infrastructure
+	         level = 2
+	         instant_build = yes
+                                      }
+		       }
+		575 = {
+         add_building_construction = {
+	         type = infrastructure
+	         level = 2
+	         instant_build = yes
+                                      }
+		       }
+	 }
                  }
     focus = {
     id = RUS_new_prep_navy
@@ -1544,7 +1564,15 @@
 
 			prerequisite = {focus = RUS_new_aisia}
 
-	completion_reward ={ }
+	completion_reward ={ 
+		509 = {
+         add_building_construction = {
+	         type = dockyard
+	         level = 2
+	         instant_build = yes
+                                      }
+		       }
+	}
                  }
     focus = {
     id = RUS_new_boost_army
@@ -1560,7 +1588,9 @@
 			prerequisite = {focus = RUS_new_prep_infa}
 			prerequisite = {focus = RUS_new_prep_navy}
 
-	completion_reward ={ }
+	completion_reward ={ 
+	        add_ideas = SOV_army_moral
+	}
                  }
     focus = {
     id = RUS_new_negojap

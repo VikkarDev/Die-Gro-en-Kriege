@@ -59,12 +59,12 @@ RUS_new_foreign:0 "Our Foreign Policy"
 RUS_new_def_fra:0 "Mutual Defence Pact with France"
 RUS_new_def_afg:0 "Prepare Afghan Defences"
 RUS_new_def_cau:0 "Prepare Caucases Defences"
-RUS_new_ally:0 "An Alliance With France?"
+RUS_new_ally:0 "Improve relations with the west"
 RUS_new_aisia:0 "Expand Aisan Influance"
 RUS_new_prep_infa:0 "Build up Infastracture"
 RUS_new_prep_navy:0 "Prepare the navy"
 RUS_new_boost_army:0 "Boost the Army's Morale"
-RUS_new_negojap:0 "Begin Negotiations with japan"
+RUS_new_negojap:0 "The Chineese Situation"
 sov_fear_desc:0 "Faith in the Russian, We must launch a propaganda campaign to ensurethe loyalty of the Russian people to their one and only, tsar Nicholas."
 sov_fear:0 "Propaganda Campaign"
 SOV_fear_of_revolution2:0 "Uneasy Citizens"
@@ -100,6 +100,7 @@ SOV_fear_of_revolution_desc:0 "The people are tired of oppression and the absolu
 SOV_fear_of_revolution:0 "Fear of Revolution"
 SOV_long_live_the_tsar_desc:0 "In the recent decades Europe has seen a wave of nationalism. Russia is the mother nation for all Slavs, and we shall once again rise under the Tsar."
 SOV_long_live_the_tsar:0 "Long Live the Tsar"
+SOV_army_moral:0 "High Army Morale"
 
 # PARTY NAMES
 ########### Russia Party Names Localisation ###########
