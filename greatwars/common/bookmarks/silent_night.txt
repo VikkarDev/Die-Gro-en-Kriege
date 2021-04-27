@@ -168,16 +168,16 @@ bookmarks = {
 		"SWE"={
 			minor = yes
 			history = "SWE_SILENT_NIGHT_DESC"
-			ideology = social_liberalism
+			ideology = centrism
 			ideas = {
 				SWE_Swedish_neutrality
 				SWE_Undeveloped_North_Region
 				SWE_swed_nor_union
 			}
 			focuses = {
-				SWE_break_neutrality
+				SWE_bostrom_cabinet
 				SWE_expand_civilian_work
-				SWE_steel_foc
+				SWE_break_neutrality
 			}
 		}
 
