@@ -112,6 +112,15 @@ capital = 361
 		}
 	}
 
+	# Started Completed Focuses #
+	complete_national_focus = USA_president_mckinley
+	complete_national_focus = USA_mckinleys_inauguration
+	complete_national_focus = USA_the_civil_rights_issue
+	complete_national_focus = USA_token_appointment
+	complete_national_focus = USA_focus_on_sectionalism
+	complete_national_focus = USA_trouble_in_cuba
+	complete_national_focus = USA_republican_economics
+
 	set_country_flag = USA_gold_standard
 
 	add_ideas = {

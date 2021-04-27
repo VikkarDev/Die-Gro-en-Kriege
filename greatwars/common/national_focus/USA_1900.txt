@@ -3235,5 +3235,4 @@ focus_tree = {
 	#################################
 
 	shared_focus = USA_president_mckinley
-	shared_focus = USA_mckinleys_inauguration
 }
