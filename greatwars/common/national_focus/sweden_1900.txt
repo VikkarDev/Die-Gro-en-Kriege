@@ -337,15 +337,17 @@ continuous_focus_position = {
 		icon = GFX_
 		x = 20
 		y = 0
-		cost = 10
+		cost = 5
 		available = {
-			has_war = no
+			has_country_leader = {
+				name = "Erik Gustaf Boström"
+				ruling_only = yes
+			}
 			country_exists = SWE
 		}
 			mutually_exclusive = {
 				focus = SWE_break_neutrality
 			}
-		
 	}
 	focus = {
 		id = SWE_fortress_question
