@@ -44,8 +44,8 @@ RUS_new_drilloil:0 "Drill for Caucasian oil"
 RUS_new_oilciv:0 "Oil for civilian industry"
 RUS_new_oilmil:0 "Oil for military industry"
 RUS_new_lead:0 "Leaders of the future"
-fight_lit:0 "This focus will unlock decisions to fight illiteracy in our country!"
-fight_hos:0 "This focus will unlock decisions to fight the housing crisis!"
+fight_lit:0 "This focus will unlock decisions to fight illiteracy in our country."
+fight_hos:0 "This focus will unlock decisions to fight the housing crisis."
 SOV_smartworkers:0 "Smart Workers"
 SOV_edu:0 "Universal Education System"
 SOV_indu:0 "Industrializing Society"
@@ -55,7 +55,7 @@ RUS_new_calm1:0 "Calm down the people"
 RUS_new_livstand:0 "Increase Living Standards"
 RUS_new_prop:0 "Begin Propaganda Campaign"
 RUS_new_faith:0 "Restore Faith in the Tsar"
-RUS_new_foreign:0 "Foreign Policy"
+RUS_new_foreign:0 "Our Foreign Policy"
 RUS_new_def_fra:0 "Mutual Defence Pact with France"
 RUS_new_def_afg:0 "Prepare Afghan Defences"
 RUS_new_def_cau:0 "Prepare Caucases Defences"
@@ -72,6 +72,7 @@ SOV_fear_of_revolution3:0 "Almost normal life"
 sov_brob1:0 "First Propaganda Wave"
 sov_brob2:0 "Second Propaganda Wave"
 sov_brob3:0 "Last Propaganda Wave"
+prop:0 "This focus will unlock decisions to start propaganda waves to increase support for the royal familly."
 ########### Russia Country Names & Cosmetic Localisation ###########
 SOV_chauvinist_populism:0 "Russian Empire"
 SOV_chauvinist_populism_DEF:0 "The Russian Empire"
@@ -88,7 +89,9 @@ SOV_marxist_leninism_ADJ:0 "Soviet"
 
 # EVENTS
 ########### Russia Events Localisation ###########
-
+russia.1.t:0 "Succesful Propaganda Campaigns"
+russia1.d:0 "After the massive propaganda campaigns across the country, Polls show people have now more trust and faith the tsar Nicholas than ever before, We must celebrate this great victory!"
+russia.1.a:0 "Long Live the Tsar"
 # NATIONAL SPIRITS
 ########### Russia National Spirits Localisation ###########
 SOV_french_dependancy_desc:0 "While this National Spirit is active, we will have improved relations with  [FRA.GetFlag]  §BFrance§!\n\nRussia has a large military, but its arms are obsolete and some troops even lack equipment. We cannot hope to make progress against German and Austrian forces without French help."

@@ -171,8 +171,6 @@ sov_crowded = {
 
 		remove_effect = {
               remove_ideas = SOV_crowd3
-			             }
-			add_political_power = 50
                        }
 }
 
@@ -183,7 +181,7 @@ sov_fear = {
 		                 }
 	   fire_only_once = yes
 	   days_re_enable = 0
-	   days_remove = 100
+	   days_remove = 10
 
      visible = {
         tag = sov
@@ -204,7 +202,7 @@ sov_fear = {
 		                 }
 	   fire_only_once = yes
 	   days_re_enable = 0
-	   days_remove = 100
+	   days_remove = 10
 
      visible = {
         tag = sov
@@ -226,7 +224,7 @@ sov_fear = {
 		                 }
 	   fire_only_once = yes
 	   days_re_enable = 0
-	   days_remove = 100
+	   days_remove = 10
 
      visible = {
         tag = sov
@@ -235,8 +233,8 @@ sov_fear = {
 	cost = 100
 
 	remove_effect = {
-              remove_ideas = SOV_fear_of_revolution2
-			               }
+              remove_ideas = SOV_fear_of_revolution3
+			  country_event = { id = russia.1 days = 0}
 			          }  
 	                }
 	        
