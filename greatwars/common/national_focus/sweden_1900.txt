@@ -344,6 +344,11 @@ continuous_focus_position = {
 				ruling_only = yes
 			}
 			country_exists = SWE
+			OR = {
+				has_government = social_liberalism
+				has_government = centrism
+			}
+			
 		}
 			mutually_exclusive = {
 				focus = SWE_break_neutrality
