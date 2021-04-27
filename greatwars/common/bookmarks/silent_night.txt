@@ -158,8 +158,7 @@ bookmarks = {
 			history = "KOR_SILENT_NIGHT_DESC"
 			ideology = autocracy
 			ideas = {
-				KOR_great_game
-				KOR_gwangmu_reform	
+				
 			}
 			focuses = {
 				
