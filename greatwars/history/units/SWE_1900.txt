@@ -15,7 +15,7 @@ division_template = {
 	}	
 }
 division_template = {
-	name = "cav"			# Infantry Division
+	name = "Ryttar division"			# Infantry Division
 	# Note: also Fortress divisions
 
 	division_names_group = SWE_INF_01
@@ -86,9 +86,9 @@ units = {
 			name_order = 4
 		}
 		location = 9279
-		division_template = "cav"
-		start_experience_factor = 0.3
-		start_equipment_factor = 0.6
+		division_template = "Ryttar division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.4
 
 	}
 	division = {
@@ -98,9 +98,9 @@ units = {
 			name_order = 4
 		}
 		location = 9132
-		division_template = "cav"
-		start_experience_factor = 0.3
-		start_equipment_factor = 0.6
+		division_template = "Ryttar division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
 
 	}
 	division = {
@@ -110,8 +110,8 @@ units = {
 			name_order = 4
 		}
 		location = 130
-		division_template = "cav"
-		start_experience_factor = 0.3
+		division_template = "Ryttar division"
+		start_experience_factor = 0.2
 		start_equipment_factor = 0.6
 
 	}
