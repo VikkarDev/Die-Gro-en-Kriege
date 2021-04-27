@@ -1372,7 +1372,9 @@
 
 			prerequisite = {focus = RUS_new_foreign}
 
-	completion_reward ={ give_guarantee = FRA }
+	completion_reward ={ give_guarantee = FRA 
+	                    FRA = { country_event = { id = france.1 } }
+	                             }
 	        }
     focus = {
     id = RUS_new_def_cau
