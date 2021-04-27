@@ -1,0 +1,40 @@
+shared_focus = {
+	id = USA_president_mckinley
+	icon = GFX_usa_president_mckinley
+	x = 40
+	y = 12
+
+	cost = 70
+
+	available = {
+		country_exists = USA
+		has_country_leader = {
+			name = "William McKinley"
+			ruling_only = yes
+		}
+	}
+
+	completion_reward = {
+		add_political_power = 50
+	}
+}
+
+shared_focus = {
+	id = USA_mckinleys_inauguration
+	icon = GFX_usa_mckinleys_inauguration
+	x = 40
+	y = 13
+
+	cost = 70
+	prerequisite = { focus = USA_president_mckinley }
+	available = {
+		has_country_leader = {
+			name = "William McKinley"
+			ruling_only = yes
+		}
+	}
+
+	completion_reward = {
+
+	}
+}

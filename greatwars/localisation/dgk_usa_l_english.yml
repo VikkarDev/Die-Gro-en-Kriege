@@ -170,6 +170,32 @@ USA_republican_campaign_decisions.1.t:0 "Campaign in Texas is a Success!"
 USA_republican_campaign_decisions.1.d:0 "After [Root.GetLeader]’s recent campaign in Texas, polls have noticed a stark upturn in support for the presidential hopeful. Large crowds were seen attending rallies at Dallas and Houston, with [Root.GetLeader] crossing the state in his personal locomotive, in what seemed to be something out of a cowboy movie."
 USA_republican_campaign_decisions.1.a:0 "We're one step closer to winning."
 
+# DECISIONS
+########### USA Decisions Localisation ###########
+dgk_usa_campaign_decisions_category:0 "[GetYear] Election"
+dgk_usa_campaign_decisions_category_desc:0 "A description is needed for the 1900 US election."
+USA_campaign_runs:0 "Election Day"
+USA_open_campaign_rally:0 "Open Electoral Map"
+
+USA_republican_campaign_in_texas:0 "Republican Campaign in Texas"
+USA_republican_campaign_in_new_england:0 "Republican Campaign in New England"
+USA_democratic_campaign_in_texas:0 "Democratic Campaign in Texas"
+USA_democratic_campaign_in_new_england:0 "Democratic Campaign in New England"
+USA_socialist_campaign_in_texas:0 "Socialist Campaign in Texas"
+USA_socialist_campaign_in_new_england:0 "Socialist Campaign in New England"
+
+USA_OKLAHOMA_STATEHOOD:0 "§HOklahoma will be brought into the union and participate in electoral votes.§!"
+USA_ARIZONA_STATEHOOD:0 "§HArizona will be brought into the union and participate in electoral votes.§!"
+USA_NEW_MEXICO_STATEHOOD:0 "§HNew Mexico will be brought into the union and participate in electoral votes.§!"
+USA_ALASKA_STATEHOOD:0 "§HAlaska will be brought into the union.§!"
+USA_HAWAII_STATEHOOD:0 "§HHawaii will be brought into the union.§!"
+dgk_usa_statehood_policies_category:0 "Statehood Policies"
+grant_statehood_oklahoma:0 "Statehood for Oklahoma"
+grant_statehood_new_mexico:0 "Statehood for New Mexico"
+grant_statehood_arizona:0 "Statehood for Arizona"
+grant_statehood_alaska:0 "Statehood for Alaska"
+grant_statehood_hawaii:0 "Statehood for Hawaii"
+
 # NATIONAL SPIRITS
 ########### USA National Spirits Localisation ###########
 USA_1900_us_election:0 "1900 US Election"

@@ -45,6 +45,10 @@ focus_tree = {
 			is_subject = no
 		}
 
+		bypass = {
+			has_idea = USA_jeffersons_vision_idea
+		}
+
 		mutually_exclusive = { focus = USA_gilded_age }
 		completion_reward = {
 			add_ideas = { USA_jeffersons_vision_idea }
@@ -59,9 +63,11 @@ focus_tree = {
 		y = 1
 
 		cost = 10
-
-		
 		prerequisite = { focus = USA_gilded_age }
+
+		bypass = {
+			has_idea = USA_corporate_primacy_idea
+		}
 
 		completion_reward = {
 			add_ideas = { USA_corporate_primacy_idea }
@@ -75,9 +81,6 @@ focus_tree = {
 		y = 2
 
 		cost = 10
-
-		
-
 		prerequisite = { focus = USA_corporate_primacy }
 
 		completion_reward = {
@@ -121,13 +124,10 @@ focus_tree = {
 		y = 3
 
 		cost = 10
-
-		
-
 		prerequisite = { focus = USA_continue_subsidies }
 
 		completion_reward = {
-			add_ideas = USA_favorable_business_reg
+			add_ideas = { USA_favorable_business_reg }
 		}
 	}
 	focus = {
@@ -146,7 +146,7 @@ focus_tree = {
 		completion_reward = {
 			set_country_flag = monopolies_ignored ##event series about corporate mergers
 
-			add_ideas = USA_monopolization_ignored
+			add_ideas = { USA_monopolization_ignored }
 			add_political_power = 50
 		}
 
@@ -222,7 +222,7 @@ focus_tree = {
 
 		completion_reward = {
 			add_political_power = 25
-			add_ideas = USA_free_competition
+			add_ideas = { USA_free_competition }
 		}
 	}
 
@@ -3230,4 +3230,10 @@ focus_tree = {
 		}
 	}
 
+	#################################
+	####### PRESIDENT FOCUSES #######
+	#################################
+
+	shared_focus = USA_president_mckinley
+	shared_focus = USA_mckinleys_inauguration
 }

@@ -51,6 +51,27 @@ country_event = {
     }
 }
 
+# The Gold Standard Act
+country_event = {
+    id = USA.3
+    title = USA.3.t
+    desc = USA.3.d 
+    #picture = victory_american_philippine_war
+
+    fire_only_once = yes 
+    is_triggered_only = yes
+
+    trigger = {
+        has_completed_focus = USA_gold_standard_act
+    }
+
+    option = {
+        name = USA.2.a 
+        ai_chance = { factor = 100 }
+    }
+}
+
+
 add_namespace = USA_VP
 
 # Teddy Roosevelt or John D. Long Becomes VP

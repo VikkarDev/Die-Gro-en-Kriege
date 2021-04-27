@@ -496,24 +496,6 @@ dgk_usa_statehood_policies_category = {
 			custom_effect_tooltip = USA_HAWAII_STATEHOOD
 		}
 	}
-	rise_troops_in_panama_canal = {
-		icon = generic_political_actions
-
-		highlight_states = {
-			state = 685
-		}
-
-		cost = 25
-
-		ai_will_do = {
-			factor = 30
-		}
-		
-		complete_effect = {
-			load_oob = COL_panama_canal_tropps
-		}
-
-	}
 }
 
 USA_congress = {
