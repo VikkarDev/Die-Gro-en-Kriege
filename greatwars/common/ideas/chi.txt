@@ -91,7 +91,7 @@ ideas ={
         modifier = {
             experience_loss_factor = 0.15
             command_power_gain = -0.1
-            war_stability_factor = -0.5
+            war_support_factor = -0.1
             land_reinforce_rate = -0.3
             military_leader_cost_factor = 0.5 
             army_attack_factor = -0.3
@@ -115,10 +115,23 @@ ideas ={
             tag = CHI
         }
         modifier = {
-            consumer_goods_factor = 5.0
+            consumer_goods_factor = 0.05
             stability_factor = -0.05
             production_speed_buildings_factor = 0.1
             war_support_factor = -0.05
+
+            }
+        }
+        CHI_heavenly_emperor = {
+        picture = generic_victors_of_ww1
+        allowed = {
+            tag = CHI
+        }
+        modifier = {
+            stability_factor = 0.2
+            war_support_factor = 0.3
+            army_attack_factor = 0.15
+            army_morale = 10
 
             }
         }

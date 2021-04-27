@@ -115,7 +115,7 @@ focus_tree = {
             prerequisite = {
 				focus = CHI_1900_ally_with_boxers
 			}
-            cost = 2
+            cost = 5
 
             available = {
                 NOT = {
@@ -125,6 +125,12 @@ focus_tree = {
             completion_reward = { 
                 add_manpower = 5000
                 add_war_support = 0.2
+				add_stability = 0.2
+				country_event = boxer_rebellion.2
+				GER = {
+					country_event = boxer_rebellion.1
+				}
+				news_event = { id = dgk_news.1 }
                 
 
 			}
