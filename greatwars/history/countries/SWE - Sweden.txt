@@ -25,7 +25,7 @@ capital = 141
 	}
 
 	set_politics = {
-		ruling_party = social_liberalism
+		ruling_party = centrism
 		#last_election = "2078.9.26"
 		#election_frequency = 48
 		#elections_allowed = yes
@@ -33,14 +33,15 @@ capital = 141
 
 	set_popularities = {
 		vanguard_communism = 0
-		social_egalitarianism = 5
-		centrism = 5
-		radical_democracy = 5
+		social_egalitarianism = 34
+		centrism = 43
+		radical_democracy = 0
 		chauvinist_populism = 0
-		autocracy = 5
-		democratic_socialism = 35.5
-		social_liberalism = 44.5
+		autocracy = 10
+		democratic_socialism = 6
+		social_liberalism = 7
 	}
+	
 	create_country_leader = {
 		name = "Karl Staaf"
 		desc = Karl_Staaf_LEADER_DESCRIPTION
@@ -63,7 +64,7 @@ capital = 141
 		name = "Erik Gustaf Boström"
 		desc = BOSTROM_LEADER_DESCRIPTION
 		picture = "Erik_Gustaf_Bostrom.tga"
-		ideology = social_liberal
+		ideology = con_liberal
 		#traits = {
 		#	
 		#}
