@@ -33,15 +33,15 @@ capital = 141
 
 	set_popularities = {
 		vanguard_communism = 0
-		social_egalitarianism = 34
-		centrism = 43
+		social_egalitarianism = 37
+		centrism = 46
 		radical_democracy = 0
 		chauvinist_populism = 0
 		autocracy = 10
-		democratic_socialism = 6
+		democratic_socialism = 0
 		social_liberalism = 7
 	}
-	
+
 	create_country_leader = {
 		name = "Karl Staaf"
 		desc = Karl_Staaf_LEADER_DESCRIPTION
