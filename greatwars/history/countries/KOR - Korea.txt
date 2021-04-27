@@ -22,6 +22,8 @@ set_politics = {
 }
 
 add_ideas = {
+	KOR_great_game
+	KOR_gwangmu_reform
 }
 
 set_popularities = {

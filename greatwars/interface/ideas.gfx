@@ -5775,6 +5775,13 @@ spriteTypes = {
 		name = "GFX_idea_gre_metaxism_empowered"
 		texturefile = "gfx/interface/ideas/idea_gre_metaxism_empowered.dds"
 	}
-	
-
+    ### KOR 1900 ###
+    spriteType = {
+		name = "GFX_idea_kor_gwangmu_reform"
+		texturefile = "gfx/interface/ideas/kor_great_game.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_kor_great_game"
+		texturefile = "gfx/interface/ideas/kor_great_game.dds"
+	}
 }
