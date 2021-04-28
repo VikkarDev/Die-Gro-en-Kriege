@@ -164,7 +164,7 @@ ideas = {
 		}
 
 		RAJ_imperial_service = {
-			picture = generice_manpower_bonus
+			picture = generic_manpower_bonus
 			allowed = {
 				always = no
 			}
@@ -173,6 +173,102 @@ ideas = {
 			}
 			modifier = {
 				conscription = 0.07
+			}
+		}
+
+		RAJ_jungle_training= {
+			picture = fra_scw_intervention_nationalists_focus
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = no
+			}
+			modifier = {
+				attrition = -0.05
+				no_supply_grace = 0.05
+				training_time_army_factor = -0.1
+			}
+		}
+
+		RAJ_gorkha_regiments= {
+			picture = fra_scw_intervention_nationalists_focus
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = no
+			}
+			modifier = {
+				experience_gain_mountaineers_combat_factor = 0.1
+			}
+		}
+
+		RAJ_a_deal_with_the_muslim_league= {
+			picture = raj_marginalized_muslim_community_happy
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = no
+			}
+			modifier = {
+				stability_factor = -0.05
+				conscription_factor = -0.1
+			}
+		}
+
+		RAJ_challenge_the_muslim_league = {
+			picture = raj_marginalized_muslim_community_angry
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = no
+			}
+			modifier = {
+				stability_factor = -0.05
+				conscription_factor = -0.1
+			}
+		}
+
+		RAJ_the_two_nation_theory = {
+			picture = raj_marginalized_muslim_community_happy
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = no
+			}
+			modifier = {
+				autonomy_gain = 2
+			}
+		}
+
+		RAJ_ban_the_muslim_league = {
+			picture = fra_scw_intervention_republicans_focus
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = no
+			}
+			modifier = {
+				autonomy_gain = 1
+				stability_factor = 0.05
+			}
+		}
+
+		RAJ_national_congress_dissolved = {
+			picture = generic_morale_bonus
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = no
+			}
+			modifier = {
+				political_power_gain = 0.15
 			}
 		}
 	}
