@@ -33,29 +33,28 @@ capital = 141
 
 	set_popularities = {
 		vanguard_communism = 0
-		social_egalitarianism = 37
-		centrism = 46
+		social_egalitarianism = 35.5
+		centrism = 39.5
 		radical_democracy = 0
 		chauvinist_populism = 0
-		autocracy = 10
+		autocracy = 13
 		democratic_socialism = 0
-		social_liberalism = 7
+		social_liberalism = 12
 	}
-
 	create_country_leader = {
 		name = "Karl Staaf"
-		desc = Karl_Staaf_LEADER_DESCRIPTION
+		desc = Karl_Staaf_LEADER_DESCRIPTION 
 		picture = "Karl_Staaf.tga"
-		ideology = social_liberal
+		ideology = con_liberal
 		#traits = {
 		#	
 		#}
 	}
 	create_country_leader = {
 		name = "Frederik von Otter"
-		desc = Frederik_von_Otter_LEADER_DESCRIPTION
+		desc = Frederik_von_Otter_LEADER_DESCRIPTION 
 		picture = "Frederik_von_Otter.tga"
-		ideology = social_liberal
+		ideology = con_liberal
 		#traits = {
 		#	
 		#}
