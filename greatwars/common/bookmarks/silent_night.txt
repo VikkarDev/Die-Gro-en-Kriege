@@ -180,6 +180,21 @@ bookmarks = {
 				SWE_steel_foc
 			}
 		}
+		
+		"RAJ"={
+			minor = yes
+			history = "RAJ_SILENT_NIGHT_DESC"
+			ideology = traditional_conservatism
+			ideas = {
+				RAJ_heavy_british_garrison
+				RAJ_failing_economy
+			}
+			focuses = {
+				RAJ_indian_national_congress_elections
+				RAJ_import_british_guns
+				RAJ_challenge_the_muslim_league
+			}
+		}
 
 		effect = {
 			randomize_weather = 12345 # <- Obligatory in every bookmark !
