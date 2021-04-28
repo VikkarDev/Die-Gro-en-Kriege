@@ -5,7 +5,7 @@ ideas = {
 			ledger = army
 			picture = tfv_can_conscription_crisis
 			allowed = {
-				always = no
+				tag = RAJ
 			}
 			allowed_civil_war = {
 				always = no
@@ -18,7 +18,7 @@ ideas = {
 		RAJ_failing_economy = {
 			picture = raj_risk_of_famine
 			allowed = {
-				always = no
+				tag = RAJ
 			}
 			allowed_civil_war = {
 				always = no
@@ -31,7 +31,7 @@ ideas = {
 		RAJ_the_muslim_league = {
 			picture = raj_marginalized_muslim_community
 			allowed = {
-				always = no
+				tag = RAJ
 			}
 			allowed_civil_war = {
 				always = no
@@ -46,7 +46,7 @@ ideas = {
 			ledger = army
 			picture = raj_all_india_forward_bloc
 			allowed = {
-				always = no
+				tag = RAJ
 			}
 			allowed_civil_war = {
 				always = no
@@ -59,7 +59,7 @@ ideas = {
 		RAJ_improve_the_trade_routes = {
 			picture = generic_build_infrastructure
 			allowed = {
-				always = no
+				tag = RAJ
 			}
 			allowed_civil_war = {
 				always = no
@@ -72,7 +72,7 @@ ideas = {
 		RAJ_draw_in_foreign_trade = {
 			picture = can_wartime_prices_and_trade_board
 			allowed = {
-				always = no
+				tag = RAJ
 			}
 			allowed_civil_war = {
 				always = no
@@ -86,7 +86,7 @@ ideas = {
 			ledger = army
 			picture = generic_goods_red_bonus
 			allowed = {
-				always = no
+				tag = RAJ
 			}
 			allowed_civil_war = {
 				always = no
@@ -99,7 +99,7 @@ ideas = {
 		RAJ_continue_down_the_agrarian_path = {
 			picture = generic_agrarian_society
 			allowed = {
-				always = no
+				tag = RAJ
 			}
 			allowed_civil_war = {
 				always = no
@@ -112,7 +112,7 @@ ideas = {
 		RAJ_maintain_the_crops = {
 			picture = generic_agrarian_reform
 			allowed = {
-				always = no
+				tag = RAJ
 			}
 			allowed_civil_war = {
 				always = no
@@ -126,7 +126,7 @@ ideas = {
 		RAJ_clean_out_the_water = {
 			picture = yug_federal_defense_council
 			allowed = {
-				always = no
+				tag = RAJ
 			}
 			allowed_civil_war = {
 				always = no
@@ -140,7 +140,7 @@ ideas = {
 		RAJ_violent_protests = {
 			picture = chi_war_of_resistance3
 			allowed = {
-				always = no
+				tag = RAJ
 			}
 			allowed_civil_war = {
 				always = no
@@ -153,7 +153,7 @@ ideas = {
 		RAJ_peaceful_protests = {
 			picture = chi_war_of_resistance
 			allowed = {
-				always = no
+				tag = RAJ
 			}
 			allowed_civil_war = {
 				always = no
@@ -166,7 +166,7 @@ ideas = {
 		RAJ_imperial_service = {
 			picture = generic_manpower_bonus
 			allowed = {
-				always = no
+				tag = RAJ
 			}
 			allowed_civil_war = {
 				always = no
@@ -179,7 +179,7 @@ ideas = {
 		RAJ_jungle_training= {
 			picture = fra_scw_intervention_nationalists_focus
 			allowed = {
-				always = no
+				tag = RAJ
 			}
 			allowed_civil_war = {
 				always = no
@@ -194,7 +194,7 @@ ideas = {
 		RAJ_gorkha_regiments= {
 			picture = fra_scw_intervention_nationalists_focus
 			allowed = {
-				always = no
+				tag = RAJ
 			}
 			allowed_civil_war = {
 				always = no
@@ -207,7 +207,7 @@ ideas = {
 		RAJ_a_deal_with_the_muslim_league= {
 			picture = raj_marginalized_muslim_community_happy
 			allowed = {
-				always = no
+				tag = RAJ
 			}
 			allowed_civil_war = {
 				always = no
@@ -221,7 +221,7 @@ ideas = {
 		RAJ_challenge_the_muslim_league = {
 			picture = raj_marginalized_muslim_community_angry
 			allowed = {
-				always = no
+				tag = RAJ
 			}
 			allowed_civil_war = {
 				always = no
@@ -235,7 +235,7 @@ ideas = {
 		RAJ_the_two_nation_theory = {
 			picture = raj_marginalized_muslim_community_happy
 			allowed = {
-				always = no
+				tag = RAJ
 			}
 			allowed_civil_war = {
 				always = no
@@ -248,7 +248,7 @@ ideas = {
 		RAJ_ban_the_muslim_league = {
 			picture = fra_scw_intervention_republicans_focus
 			allowed = {
-				always = no
+				tag = RAJ
 			}
 			allowed_civil_war = {
 				always = no
@@ -262,7 +262,7 @@ ideas = {
 		RAJ_national_congress_dissolved = {
 			picture = generic_morale_bonus
 			allowed = {
-				always = no
+				tag = RAJ
 			}
 			allowed_civil_war = {
 				always = no
