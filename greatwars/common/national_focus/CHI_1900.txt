@@ -11,7 +11,7 @@ focus_tree = {
 	}
     default = no
 
-    continuous_focus_position = { x = 50 y = 1500 }
+    continuous_focus_position = { x = 50 y = 15000 }
 
     focus = {
 			id = CHI_1900_boxers
@@ -47,7 +47,7 @@ focus_tree = {
                 has_war_with = BOX
                 NOT = {
                     has_war_with = ENG
-                    has_war_with = RUS
+                    has_war_with = SOV
                 }
 			}
 
@@ -70,7 +70,7 @@ focus_tree = {
 				focus = CHI_1900_against_boxers
 			}
 
-			cost = 5
+			cost = 10
 
 			available = {
                 has_country_flag = CHI_pro_boxers
@@ -97,7 +97,7 @@ focus_tree = {
 				focus = CHI_1900_ally_with_boxers
 			}
 
-			cost = 5
+			cost = 10
 
 			available = {
                 has_country_flag = CHI_anti_boxers
@@ -136,7 +136,7 @@ focus_tree = {
 			}
          }
          focus = {
-			id = CHI_1900_legation_siege
+			id = CHI_1900_seymour_expedition
 			icon = GFX_SOV_focus_the_safe_option
 			x = 3
 			y = 4
@@ -149,11 +149,228 @@ focus_tree = {
                 NOT = {
                     has_war_with = BOX
                 }
+				has_war_with = ENG
+				has_war_with = GER
+				has_war_with = JAP
+				has_war_with = ITA
+				has_war_with = AUS
+				has_war_with = SOV
+				has_war_with = FRA
             }
             completion_reward = { 
                 
 
 			}
          }
+		 focus = {
+			id = CHI_1900_supply_arms
+			icon = GFX_SOV_focus_the_safe_option
+			x = 7
+			y = 4
+            prerequisite = {
+				focus = CHI_1900_taku_forts
+			}
+            cost = 7
+
+            available = {
+                NOT = {
+                    has_war_with = BOX
+                }
+				has_war_with = ENG
+				has_war_with = GER
+				has_war_with = JAP
+				has_war_with = ITA
+				has_war_with = AUS
+				has_war_with = SOV
+				has_war_with = FRA
+            }
+            completion_reward = { 
+            
+			}
+         }
+		 focus = {
+			id = CHI_1900_seize_weapons
+			icon = GFX_SOV_focus_the_safe_option
+			x = 7
+			y = 6
+            prerequisite = {
+				focus = CHI_1900_supply_arms
+			}
+            cost = 7
+
+            available = {
+                NOT = {
+                    has_war_with = BOX
+                }
+				has_war_with = ENG
+				has_war_with = GER
+				has_war_with = JAP
+				has_war_with = ITA
+				has_war_with = AUS
+				has_war_with = SOV
+				has_war_with = FRA
+            }
+            completion_reward = { 
+            
+			}
+         }
+		  focus = {
+			id = CHI_1900_mobilize_the_bannermen
+			icon = GFX_SOV_focus_the_safe_option
+			x = 3
+			y = 6
+            prerequisite = {
+				focus = CHI_1900_seymour_expedition
+			}
+            cost = 10
+
+            available = {
+                NOT = {
+                    has_war_with = BOX
+                }
+				has_war_with = ENG
+				has_war_with = GER
+				has_war_with = JAP
+				has_war_with = ITA
+				has_war_with = AUS
+				has_war_with = SOV
+				has_war_with = FRA
+            }
+            completion_reward = { 
+
+            
+			}
+         }
+		 focus = {
+			id = CHI_1900_stunning_victory
+			icon = GFX_SOV_focus_the_safe_option
+			x = 3
+			y = 8
+            cost = 2
+
+            available = {
+                NOT = {
+                has_war_with = BOX
+				has_war_with = ENG
+				has_war_with = GER
+				has_war_with = JAP
+				has_war_with = ITA
+				has_war_with = AUS
+				has_war_with = SOV
+				has_war_with = FRA
+				}
+            }
+            completion_reward = { 
+            
+			}
+         }
+		 focus = {
+			id = CHI_1900_horrific_loss
+			icon = GFX_SOV_focus_the_safe_option
+			x = 7
+			y = 8
+            cost = 2
+
+			mutually_exclusive = {
+				focus = CHI_1900_stunning_victory
+			}
+
+            available = {
+                NOT = {
+                has_war_with = BOX
+				has_war_with = ENG
+				has_war_with = GER
+				has_war_with = JAP
+				has_war_with = ITA
+				has_war_with = AUS
+				has_war_with = SOV
+				has_war_with = FRA
+				}
+            }
+            completion_reward = { 
+            
+			}
+         }
+		 focus = {
+			id = CHI_1900_new_age_for_china
+			icon = GFX_SOV_focus_the_safe_option
+			x = 3
+			y = 10
+            prerequisite = {
+				focus = CHI_1900_stunning_victory
+			}
+            cost = 10
+
+            available = {
+                NOT = {
+                has_war = yes
+				}
+            }
+            completion_reward = { 
+
+            
+			}
+         }
+		 focus = {
+			id = CHI_1900_boxer_experience
+			icon = GFX_SOV_focus_the_safe_option
+			x = 3
+			y = 12
+            prerequisite = {
+				focus = CHI_1900_new_age_for_china
+			}
+            cost = 7
+
+            available = {
+                NOT = {
+                has_war = yes
+				}
+            }
+            completion_reward = { 
+
+            
+			}
+         }
+		 focus = {
+			id = CHI_1900_begin_reintegration
+			icon = GFX_SOV_focus_the_safe_option
+			x = 7
+			y = 10
+            prerequisite = {
+				focus = CHI_1900_horrific_loss
+			}
+            cost = 7
+
+            available = {
+                NOT = {
+                has_war = yes
+				}
+            }
+            completion_reward = { 
+
+            
+			}
+         }
+		  focus = {
+			id = CHI_1900_power_to_governers
+			icon = GFX_SOV_focus_the_safe_option
+			x = 7
+			y = 12
+            prerequisite = {
+				focus = CHI_1900_begin_reintegration
+			}
+            cost = 7
+
+            available = {
+                NOT = {
+                has_war = yes
+				}
+            }
+            completion_reward = { 
+
+            
+			}
+         }
+
 }
     
