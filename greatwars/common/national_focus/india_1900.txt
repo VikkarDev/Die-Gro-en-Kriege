@@ -710,6 +710,12 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
+
+		completion_reward = {
+			add_ideas = {
+				RAJ_jungle_training
+			}
+		}
 	}
 
 	#Focus for Gorkha Regiments
@@ -723,6 +729,45 @@ focus_tree = {
 		prerequisite = { focus = RAJ_mountain_training }
 		ai_will_do = {
 			factor = 1
+		}
+
+		available = {
+			has_tech = tech_mountaineers
+		}
+
+		completion_reward = {
+			add_ideas = {
+				RAJ_gorkha_regiments
+			}
+			custom_effect_tooltip = RAJ_create_unit_gorkas_tt
+			hidden_effect = {	
+				division_template = {
+					name = "Gorkha Rifles"
+					priority = 2
+					division_names_group = RAJ_MNT_01
+					regiments = {
+						mountaineers = { x = 0 y = 0 }
+						mountaineers = { x = 0 y = 1 }
+						mountaineers = { x = 0 y = 2 }
+			
+	    	   		 	mountaineers = { x = 1 y = 0 }
+						mountaineers = { x = 1 y = 1 }
+						mountaineers = { x = 1 y = 2 }
+
+						mountaineers = { x = 2 y = 0 }
+						mountaineers = { x = 2 y = 1 }
+						mountaineers = { x = 2 y = 2 }
+					}
+				}
+	
+				random_owned_controlled_state = {
+					prioritize = { 439 }
+					create_unit = {
+						division = "name = \"1. Gorkha Rifles\" division_template = \"Gorkha Rifles\" start_experience_factor = 1.0" 
+						owner = RAJ
+					}	
+				}
+			}
 		}
 	}
 
@@ -812,6 +857,14 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_RESEARCH } 
 		ai_will_do = {
 			factor = 1
+		}
+
+		completion_reward = {
+			army_experience = 10
+			add_tech_bonus = {
+				technology = tech_mountaineers
+				technology = tech_mountaineers2
+			}
 		}
 	}
 
@@ -1122,9 +1175,10 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			add_ideas = {
-				RAJ_imperial_service
-			}
+			swap_ideas = {
+    			remove_idea = RAJ_heavy_british_garrison
+    			add_idea = RAJ_imperial_service
+			}			
 		}
 	}
 
@@ -1146,6 +1200,26 @@ focus_tree = {
 		}
 
 		completion_reward = {
+			custom_effect_tooltip = RAJ_launch_a_far_right_revolution_tt
+			hidden_effect = {
+				random_owned_controlled_state = {
+					prioritize = { 429 425 }
+					RAJ = { set_capital = PREV }
+				}
+				start_civil_war = {
+					ruling_party = fascism
+					ideology = neutrality
+					size = 70
+					capital = 439
+				}
+				random_other_country = {
+					limit = {
+						original_tag = RAJ
+						has_government = neutrality
+					}
+					ENG = { add_to_faction = PREV }
+				}						
+			}
 		}
 	}
 
@@ -1167,6 +1241,26 @@ focus_tree = {
 		}
 
 		completion_reward = {
+			custom_effect_tooltip = RAJ_launch_a_far_left_revolution_tt
+			hidden_effect = {
+				random_owned_controlled_state = {
+					prioritize = { 429 425 }
+					RAJ = { set_capital = PREV }
+				}
+				start_civil_war = {
+					ruling_party = communism
+					ideology = neutrality
+					size = 70
+					capital = 439
+				}
+				random_other_country = {
+					limit = {
+						original_tag = RAJ
+						has_government = neutrality
+					}
+					ENG = { add_to_faction = PREV }
+				}						
+			}
 		}
 	}
 
@@ -1230,7 +1324,7 @@ focus_tree = {
 	
 	
 		ai_will_do = {
-			factor = 1
+			factor = 2
 		}
 
 		completion_reward = {
@@ -1333,7 +1427,7 @@ focus_tree = {
 		}
 	
 		ai_will_do = {
-			factor = 1
+			factor = 3
 		}
 
 		completion_reward = {
@@ -1578,15 +1672,16 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = RAJ_challenge_the_muslim_league
 		}
-
-		available = {
-		}
 	
 		ai_will_do = {
 			factor = 2
 		}
 
 		completion_reward = {
+			swap_ideas = {
+    			remove_idea = RAJ_the_muslim_league
+    			add_idea = RAJ_a_deal_with_the_muslim_league
+			}
 		}
 	}
 
@@ -1604,15 +1699,16 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = RAJ_a_deal_with_the_muslim_league
 		}
-
-		available = {
-		}
 	
 		ai_will_do = {
 			factor = 1
 		}
 
 		completion_reward = {
+			swap_ideas = {
+    			remove_idea = RAJ_the_muslim_league
+    			add_idea = RAJ_challenge_the_muslim_league
+			}
 		}
 	}
 
@@ -1627,14 +1723,15 @@ focus_tree = {
 			focus = RAJ_a_deal_with_the_muslim_league
 		}
 
-		available = {
-		}
-	
 		ai_will_do = {
 			factor = 1
 		}
 
 		completion_reward = {
+			swap_ideas = {
+    			remove_idea = RAJ_a_deal_with_the_muslim_league
+    			add_idea = RAJ_the_two_nation_theory
+			}
 		}
 	}
 
@@ -1649,14 +1746,15 @@ focus_tree = {
 			focus = RAJ_challenge_the_muslim_league
 		}
 
-		available = {
-		}
-	
 		ai_will_do = {
 			factor = 1
 		}
 
 		completion_reward = {
+			swap_ideas = {
+    			remove_idea = RAJ_challenge_the_muslim_league
+    			add_idea = RAJ_ban_the_muslim_league
+			}
 		}
 	}
 
@@ -1701,6 +1799,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
+			add_political_power = 200
 		}
 	}
 
@@ -1723,6 +1822,9 @@ focus_tree = {
 		}
 
 		completion_reward = {
+			add_ideas = {
+    			add_idea = RAJ_national_congress_dissolved
+			}
 		}
 	}
 	
