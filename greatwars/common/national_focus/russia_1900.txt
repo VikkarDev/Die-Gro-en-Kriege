@@ -12,7 +12,7 @@
 	
 	default = no
 	
-	continuous_focus_position = { x = 100 y = 2000 }
+	continuous_focus_position = { x = 5000 y = 2000 }
 
 		focus = {
 			id = RUS_new_industry0
@@ -1336,11 +1336,12 @@
 	cost = 10
 
 	available = {
-
+                            NOT = {has_idea = SOV_fear_of_revolution }
+			                NOT = {has_idea = SOV_fear_of_revolution2} 
+							NOT = {has_idea = SOV_fear_of_revolution3}
 	}
-
 			prerequisite = {focus = RUS_new_prop}
-
+			                
 	completion_reward ={ remove_country_leader_trait = poor_leader
 	                      add_political_power = 50 }
                  }
@@ -1595,7 +1596,7 @@
     focus = {
     id = RUS_new_negojap
 	icon = GFX_SOV_focus_first_russian_election
-	x = 30
+	x = 32
 	y = 9
 	cost = 30
 
@@ -1604,7 +1605,96 @@
 	}
 
 			prerequisite = {focus = RUS_new_boost_army}
-
+            prerequisite = {focus = RUS_new_ally}
 	completion_reward ={ }
-                 }		 				 			 		 		 			 
+                 }
+
+		focus = {
+			id = RUS_new_after_box
+			icon = GFX_SOV_focus_first_russian_election
+			x = 32
+			y = 10
+
+			cost = 1
+
+			available = {
+			
+			}
+
+             allow_branch = {
+				 has_completed_focus = RUS_new_negojap
+			 }
+
+            prerequisite = {focus = RUS_new_negojap}
+
+			completion_reward = { 
+			add_political_power	= 50
+			}
+		}				 
+
+		focus = {
+			id = RUS_new_warrep
+			icon = GFX_SOV_focus_first_russian_election
+			x = 31
+			y = 11
+
+			cost = 1
+
+			available = {
+			
+			}
+
+			prerequisite = {
+				focus = RUS_new_after_box
+                            }
+
+			completion_reward = { 
+			add_political_power	= 50
+			}
+		}
+
+		focus = {
+			id = RUS_new_develop
+			icon = GFX_SOV_focus_first_russian_election
+			x = 33
+			y = 11
+
+			cost = 1
+
+			available = {
+			
+			}
+
+			prerequisite = {
+				focus = RUS_new_after_box
+                            }
+
+			completion_reward = { 
+			add_political_power	= 50
+			}
+		}
+
+        		focus = {
+			id = RUS_new_celeb
+			icon = GFX_SOV_focus_first_russian_election
+			x = 32
+			y = 12
+
+			cost = 1
+
+			available = {
+			
+			}
+
+			prerequisite = {
+				focus = RUS_new_develop
+                            }
+			prerequisite = {
+				focus = RUS_new_warrep
+                            }
+			completion_reward = { 
+			add_political_power	= 50
+			}
+		}
+
 }

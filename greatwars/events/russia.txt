@@ -28,17 +28,14 @@ country_event = {
 	title = russia.2.t
 	desc = russia.2.d
 	picture = GFX_event_rus_prop
+    hidden = yes
 
-	fire_only_once = yes
+	fire_only_once = no
 	is_triggered_only = yes
-	hidden = yes
 
 	trigger = {
         tag = SOV
 	}
-    
-     immediate = {
-      mark_focus_tree_layout_dirty = yes 
-    }
+        immediate = { mark_focus_tree_layout_dirty = yes }
 
 }

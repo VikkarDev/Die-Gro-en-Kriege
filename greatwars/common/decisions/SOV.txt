@@ -172,6 +172,7 @@ sov_crowded = {
 		remove_effect = {
               remove_ideas = SOV_crowd3
                        }
+    }
 }
 
 sov_fear = {
@@ -196,6 +197,7 @@ sov_fear = {
 			               }
 	                }
                 }
+	
 	sov_brob2 = {
         	 available = {
 			     has_idea = SOV_fear_of_revolution2
@@ -216,7 +218,7 @@ sov_fear = {
               add_idea = SOV_fear_of_revolution3
 			               }
 			          }  
-	                }
+	             }
 
 	sov_brob3 = {
         	 available = {
@@ -236,5 +238,6 @@ sov_fear = {
               remove_ideas = SOV_fear_of_revolution3
 			  country_event = { id = russia.1 days = 0}
 			          }  
-	                }
-	        
+	             }
+        }
+		

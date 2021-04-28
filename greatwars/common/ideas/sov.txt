@@ -230,7 +230,7 @@ ideas = {
             }
         } 
                   SOV_army_moral = {
-            picture = GFX_idea_army_moral
+            picture = GFX_idea_tur_arctic_wolves
 
             allowed = {
                 tag = SOV
