@@ -36,6 +36,8 @@ country_event = {
 	trigger = {
         tag = SOV
 	}
-        immediate = { mark_focus_tree_layout_dirty = yes }
+        immediate = { mark_focus_tree_layout_dirty = yes
+		              set_country_flag = boxer_reb_over
+					  set_country_flag = rus_japwar_over }
 
 }

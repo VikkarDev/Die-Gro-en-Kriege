@@ -101,6 +101,10 @@ SOV_fear_of_revolution:0 "Fear of Revolution"
 SOV_long_live_the_tsar_desc:0 "In the recent decades Europe has seen a wave of nationalism. Russia is the mother nation for all Slavs, and we shall once again rise under the Tsar."
 SOV_long_live_the_tsar:0 "Long Live the Tsar"
 SOV_army_moral:0 "High Army Morale"
+SOV_china_rep:0 "Chineese War Reperations"
+SOV_no_child:0 "No More conscription of children"
+SOV_smart_army:0 "Smart Soldiers"
+SOV_modern_army:0 "Modern Army"
 
 # PARTY NAMES
 ########### Russia Party Names Localisation ###########
