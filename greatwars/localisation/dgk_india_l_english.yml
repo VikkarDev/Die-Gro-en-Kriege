@@ -1,4 +1,4 @@
-﻿l_english: 
+l_english: 
 #FOCUS
 RAJ_invite_british_investors:0 "Invite British Investors"
 RAJ_invite_british_investors_desc:0 "To expand our factories and resources we still heavily rely on British capital. Until we have a vigorous banking sector of our own, we must go on bended knee to London to seek support."
@@ -172,3 +172,5 @@ RAJ_violent_protests:0 "Violent Protests"
 RAJ_peaceful_protests:0 "Peaceful Protests"
 RAJ_imperial_service:0 "Imperial Service"
 
+#BOOKMARKS DESC
+RAJ_SILENT_NIGHT_DESC:0 "On August 24, 1608, British colonizers landed in the region of India. Ever since, India has been a British colony under the title of the British Raj. But now there are more protestors on the streets demanding freedom for India, and radical Muslims and other groups are gaining power. The future of Britain's Crown Jewel Colony is uncertain."
