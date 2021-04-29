@@ -901,5 +901,32 @@ units = {
 		start_equipment_factor = 0.5
 
 	}
+}
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+	
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+			creator = "SOV"
+		}
+		requested_factories = 35
+		progress = 0.1
+		efficiency = 50
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = artillery_equipment_1
+			creator = "SOV" 
+		}
+		requested_factories = 10
+		progress = 0.3
+		efficiency = 50
+	}
 
   }   
