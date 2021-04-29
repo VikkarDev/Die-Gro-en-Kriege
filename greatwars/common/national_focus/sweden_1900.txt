@@ -350,9 +350,7 @@ continuous_focus_position = {
 			}
 			
 		}
-			mutually_exclusive = {
-				focus = SWE_break_neutrality
-			}
+			
 	}
 	focus = {
 		id = SWE_fortress_question
@@ -529,7 +527,7 @@ continuous_focus_position = {
 		
 	}
 	focus = {
-		id = SWE_1902_election
+		id = SWE_Otters_civil_rights 
 		icon = GFX_
 		x = 20
 		y = 5
@@ -544,120 +542,186 @@ continuous_focus_position = {
 		}
 		
 	}
-
-
+	
 	focus = {
-		id = SWE_break_neutrality
-		icon = GFX_focus_generic_vichy_france_triumphant
-		x = 40
-		y = 0
+		id = SWE_reisgnation_of_Otter
+		icon = GFX_
+		x = 20
+		y = 6
 		cost = 10
-		mutually_exclusive = {
-			focus =  SWE_bostrom_cabinet
+		prerequisite = {
+			focus = SWE_Otters_civil_rights
 		}
-		completion_reward = {
-			add_popularity = { ideology = autocracy popularity = 0.05 }
-			add_popularity = { ideology = democratic_socialism popularity = 0.10 }
-		   
-
-			custom_effect_tooltip = HISTORICAL_BREAK
+		
+	}
+	focus = {
+		id = SWE_second_bostrom_cabinet
+		icon = GFX_
+		x = 20
+		y = 7
+		cost = 10
+		prerequisite = {
+			focus = SWE_reisgnation_of_Otter
+		}
+		
+	}
+	focus = {
+		id = SWE_Improve_literacy
+		icon = GFX_
+		x = 23
+		y = 8
+		cost = 10
+		prerequisite = {
+			focus = SWE_second_bostrom_cabinet
+		}
+		
+	}
+	focus = {
+		id = SWE_Union_commitee
+		icon = GFX_
+		x = 17
+		y = 8
+		cost = 10
+		prerequisite = {
+			focus = SWE_second_bostrom_cabinet
+		}
+		
+	}
+	focus = {
+		id = SWE_solution 
+		
+		icon = GFX_
+		x = 16
+		y = 9
+		cost = 10
+		prerequisite = {
+			focus = SWE_Union_commitee
+		}
+		
+	}
+	focus = {
+		id = SWE_Increase_relations_nor
+		icon = GFX_
+		x = 18
+		y = 9
+		cost = 10
+		prerequisite = {
+			focus = SWE_Union_commitee
+		}
+		
+	}
+	focus = {
+		id = SWE_Union_crisis
+		
+		icon = GFX_
+		x = 17
+		y = 10
+		cost = 0
+		prerequisite = {
+			focus = SWE_Increase_relations_nor
+		}
+		prerequisite = {
+			focus = SWE_solution
+		}
+		
+	}
+	focus = {
+		id = SWE_Voting_rights
+		icon = GFX_
+		x = 20
+		y = 8
+		cost = 10
+		prerequisite = {
+			focus = SWE_second_bostrom_cabinet
+		}
+		
+	}
+	focus = {
+		id = SWE_teacher_wages
+		icon = GFX_
+		x = 24
+		y = 9
+		cost = 10
+		prerequisite = {
+			focus = SWE_Improve_literacy
+		}
+		
+	}
+	focus = {
+		id = SWE_Build_schools_rural
+		icon = GFX_
+		x = 22
+		y = 9
+		cost = 10
+		prerequisite = {
+			focus = SWE_Improve_literacy
+		}
+		
+	}
+	focus = {
+		id = SWE_Introduce_education
+		icon = GFX_
+		x = 23
+		y = 10
+		cost = 10
+		prerequisite = {
+			focus = SWE_teacher_wages
+		}
+		prerequisite = {
+			focus = SWE_Build_schools_rural
 		}
 	}
-		focus = {
-			id = SWE_ahist1
-			icon = GFX_
-			x = 40
-			y = 1
-			cost = 10
-				prerequisite = {
-					focus = SWE_break_neutrality
-				}
-				completion_reward = {
-					
-				}
+	focus = {
+		id = SWE_Draft_proposal
+		icon = GFX_
+		x = 20
+		y = 9
+		cost = 10
+		prerequisite = {
+			focus = SWE_Voting_rights
 		}
-		focus = {
-			id = SWE_ahist2
-			icon = GFX_
-			x = 40
-			y = 2
-			cost = 10
-				prerequisite = {
-					focus = SWE_ahist1
-				}
+		
+	}
+	focus = {
+		id = SWE_Present_chambers
+		icon = GFX_
+		x = 20
+		y = 10
+		cost = 10
+		prerequisite = {
+			focus = SWE_Draft_proposal
 		}
-		focus = {
-			id = SWE_ahist3
-			icon = GFX_
-			x = 35
-			y = 3
-			cost = 10
-			mutually_exclusive = {
-				focus = SWE_ahist4
-			}
-				prerequisite = {
-					focus = SWE_ahist2
-				}
+		
+	}
+	focus = {
+		id = SWE_motion_fails
+		icon = GFX_
+		x = 20
+		y = 11
+		cost = 5
+		prerequisite = {
+			focus = SWE_Present_chambers
 		}
-		focus = {
-			id = SWE_ahist4
-			icon = GFX_
-			x = 45
-			y = 3
-			cost = 10
-				prerequisite = {
-					focus = SWE_ahist2
-				}
-				mutually_exclusive = {
-					focus = SWE_ahist3
-				}
+		prerequisite = {
+			focus = SWE_Union_crisis
 		}
-		focus = {
-			id = SWE_ahist5
-			icon = GFX_
-			x = 34
-			y = 4
-			cost = 10
-				prerequisite = {
-					focus = SWE_ahist3
-				}
-				
+		prerequisite = {
+			focus = SWE_Introduce_education
 		}
-		focus = {
-			id = SWE_ahist6
-			icon = GFX_
-			x = 36
-			y = 4
-			cost = 10
-				prerequisite = {
-					focus = SWE_ahist3
-				}
-				
-		}
-		focus = {
-			id = SWE_ahist7
-			icon = GFX_
-			x = 46
-			y = 4
-			cost = 10
-				prerequisite = {
-					focus = SWE_ahist4
-				}
-				
-		}
-		focus = {
-			id = SWE_ahist8
-			icon = GFX_
-			x = 44
-			y = 4
-			cost = 10
-				prerequisite = {
-					focus = SWE_ahist4
-				}
-				
-		}
-}
+		
+	}
+	focus = {
+		id = SWE_resignation_Bostrom
 
+		icon = GFX_
+		x = 20
+		y = 12
+		cost = 10
+		prerequisite = {
+			focus = SWE_motion_fails
+		}
+	}
+}
 
 
 
