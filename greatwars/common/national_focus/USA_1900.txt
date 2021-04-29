@@ -311,7 +311,7 @@ focus_tree = {
 				}
 			}
 
-			add_ideas = USA_sponsored_industrialization
+			add_ideas = { USA_sponsored_industrialization }
 		}
 
 	}
@@ -385,7 +385,7 @@ focus_tree = {
 		prerequisite = { focus = USA_gold_question }
 
 		completion_reward = {
-
+			country_event = { id = USA.3 }
 		}
 	}
 	focus = {
@@ -394,7 +394,7 @@ focus_tree = {
 		x = 2
 		y = 4
 
-
+		cost = 5
 
 		available = {
 			always = no
@@ -418,8 +418,6 @@ focus_tree = {
 		y = 5
 
 		cost = 5
-
-		
 
 		prerequisite = { focus = USA_gold_stay_course }
 
@@ -451,6 +449,8 @@ focus_tree = {
 		x = 0
 		y = 4
 
+		cost = 10
+
 		available = {
 			always = no
 		}
@@ -473,8 +473,6 @@ focus_tree = {
 		y = 5
 
 		cost = 5
-
-		
 
 		bypass = {
 
@@ -555,9 +553,7 @@ focus_tree = {
 		cost = 10
 
 		available = {
-			USA = {
-				country_exists = yes
-			}
+			country_exists = USA
 		}
 
 		prerequisite = {
@@ -2333,16 +2329,19 @@ focus_tree = {
 
 	focus = {
 		id = USA_armed_forces
-		icon = USA_placeholder
+		icon = GFX_usa_armed_forces
 		x = 25
 		y = 0
 		
 		cost = 5
 
-		
+		available = {
+			country_exists = USA
+			is_subject = no
+		}
 		
 		completion_reward = { 
-			
+			army_experience = 5
 		}
 	}
 ######################################
@@ -2351,7 +2350,7 @@ focus_tree = {
 	
 	focus = {
 		id = USA_reorganize_war_department
-		icon = USA_placeholder
+		icon = GFX_usa_focus_reorganize_war_department
 		x = 20
 		y = 1
 		
