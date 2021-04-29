@@ -253,7 +253,7 @@ country_event = {
   	}
 
 	option = {
-		name = britain.10.a
+		name = britain.8.a
 
 		GER = {
 			remove_ideas = { GER_naval_arms_race }
@@ -281,7 +281,6 @@ country_event = {
 		hidden_effect = {
 			navy_experience = 30
 			add_tech_bonus = {
-				name = "naval_arms_race"
 				bonus = 0.2
 				uses = 3
 				category = naval_equipment
@@ -295,7 +294,7 @@ country_event = {
 		add_political_power = 30
 		hidden_effect = {
 			add_offsite_building = {
-				type = naval_base
+				type = naval_factory
 				level = 3
 			}
 			set_variable = { ENG_first_sea_lord = 3 }
@@ -306,10 +305,10 @@ country_event = {
 		add_political_power = 30
 		hidden_effect = {
 			add_war_support = 0.15
-			#research_speed_factor = -0.02
-			#amphibious_invasion = -0.03
-			#convoy_raiding_efficiency_factor = -0.02
-			#experience_gain_navy_factor = -0.2
+			research_speed_factor = -0.02
+			amphibious_invasion = -0.03
+			convoy_raiding_efficiency_factor = -0.02
+			experience_gain_navy_factor = -0.2
 		}
 		set_variable = { ENG_first_sea_lord = 4 }
 	}
