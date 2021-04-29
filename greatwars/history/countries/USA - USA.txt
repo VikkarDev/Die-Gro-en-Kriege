@@ -170,6 +170,10 @@ capital = 361
 		desc = WILLIAM_LEADER_DESCRIPTION
 		picture = "William_McKinley.tga"
 		ideology = con_liberal
+
+		traits = {
+			popular_incumbent
+		}
 	}
 
 	create_country_leader = {
