@@ -391,7 +391,52 @@ focus_tree = {
 		}
     }
 	
+	focus = {
+        id = SPR_alfonsos_coronation_focus
+        icon = GFX_spr_election_rigging_focus
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        x = 15
+        y = 9
+		prerequisite = { focus = SPR_begin_state_censorship_focus }
+		prerequisite = { focus = SPR_ready_alfonso_focus }
+
+        cost = 10
+
+        available = {
+            country_exists = SPR
+        }
+
+        bypass = {
+            
+        }
+
+		completion_reward = {
+			
+		}
+    }
 	
+	focus = {
+        id = SPR_a_disaster_focus
+        icon = GFX_spr_election_rigging_focus
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        x = 8
+        y = 10
+		prerequisite = { focus = SPR_alfonsos_coronation_focus }
+
+        cost = 10
+
+        available = {
+            country_exists = SPR
+        }
+
+        bypass = {
+            
+        }
+
+		completion_reward = {
+			
+		}
+    }
 
 	#Free Elections
 	focus = {
