@@ -112,6 +112,7 @@ ideas = {
                 stability_factor = -0.15
                 industrial_capacity_factory = -0.15
                 conscription_factor = -0.05
+                consumer_goods_factor = 0.15
                 
                         }
 
@@ -130,6 +131,7 @@ ideas = {
                 stability_factor = -0.10
                 industrial_capacity_factory = -0.10
                 conscription_factor = -0.05
+                consumer_goods_factor = 0.10
                 
                         }
 
@@ -147,6 +149,7 @@ ideas = {
 
                 stability_factor = -0.05
                 industrial_capacity_factory = -0.05
+                consumer_goods_factor = 0.5
 
                         }
 
