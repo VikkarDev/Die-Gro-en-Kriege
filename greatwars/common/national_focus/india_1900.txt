@@ -973,8 +973,6 @@ focus_tree = {
 			focus = RAJ_convoy_escorts 
 			focus = RAJ_convoy_raiding
 		}
-
-		mutually_exclusive = { focus = RAJ_heavy_cruiser_project }
 		
 		ai_will_do = {
 			factor = 2
@@ -1002,8 +1000,6 @@ focus_tree = {
 			focus = RAJ_convoy_escorts 
 			focus = RAJ_convoy_raiding
 		}
-
-		mutually_exclusive = { focus = RAJ_light_cruiser_project }
 		
 		ai_will_do = {
 			factor = 1
