@@ -51,6 +51,15 @@ capital = 141
 		#}
 	}
 	create_country_leader = {
+		name = "Johan Ramstedt"
+		desc = Johan_Ramstedt_LEADER_DESCRIPTION
+		picture = "Johan_Ramstedt.tga"
+		ideology = con_liberal
+		#traits = {
+		#	
+		#}
+	}
+	create_country_leader = {
 		name = "Frederik von Otter"
 		desc = Frederik_von_Otter_LEADER_DESCRIPTION 
 		picture = "Frederik_von_Otter.tga"
