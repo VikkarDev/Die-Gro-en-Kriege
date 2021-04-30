@@ -87,7 +87,7 @@ focus_tree = {
         focus = {
 			id = CHI_1900_against_boxers
 			icon = GFX_SOV_focus_the_safe_option
-			x = 9
+			x = 11
 			y = 2
 
 			prerequisite = {
@@ -192,7 +192,7 @@ focus_tree = {
 			id = CHI_1900_seize_weapons
 			icon = GFX_SOV_focus_the_safe_option
 			x = 7
-			y = 6
+			y = 5
             prerequisite = {
 				focus = CHI_1900_supply_arms
 			}
@@ -218,7 +218,7 @@ focus_tree = {
 			id = CHI_1900_mobilize_the_bannermen
 			icon = GFX_SOV_focus_the_safe_option
 			x = 3
-			y = 6
+			y = 5
             prerequisite = {
 				focus = CHI_1900_seymour_expedition
 			}
@@ -245,8 +245,17 @@ focus_tree = {
 			id = CHI_1900_stunning_victory
 			icon = GFX_SOV_focus_the_safe_option
 			x = 3
-			y = 8
+			y = 7
             cost = 2
+
+			mutually_exclusive = {
+				focus = CHI_1900_horrific_loss
+			}
+
+			prerequisite = {
+				focus = CHI_1900_mobilize_the_bannermen
+				focus = CHI_1900_seize_weapons
+			}
 
             available = {
                 NOT = {
@@ -268,11 +277,16 @@ focus_tree = {
 			id = CHI_1900_horrific_loss
 			icon = GFX_SOV_focus_the_safe_option
 			x = 7
-			y = 8
+			y = 7
             cost = 2
 
 			mutually_exclusive = {
 				focus = CHI_1900_stunning_victory
+			}
+
+			prerequisite = {
+				focus = CHI_1900_mobilize_the_bannermen
+				focus = CHI_1900_seize_weapons
 			}
 
             available = {
@@ -295,7 +309,7 @@ focus_tree = {
 			id = CHI_1900_new_age_for_china
 			icon = GFX_SOV_focus_the_safe_option
 			x = 3
-			y = 10
+			y = 8
             prerequisite = {
 				focus = CHI_1900_stunning_victory
 			}
@@ -315,7 +329,7 @@ focus_tree = {
 			id = CHI_1900_boxer_experience
 			icon = GFX_SOV_focus_the_safe_option
 			x = 3
-			y = 12
+			y = 9
             prerequisite = {
 				focus = CHI_1900_new_age_for_china
 			}
@@ -335,7 +349,7 @@ focus_tree = {
 			id = CHI_1900_begin_reintegration
 			icon = GFX_SOV_focus_the_safe_option
 			x = 7
-			y = 10
+			y = 8
             prerequisite = {
 				focus = CHI_1900_horrific_loss
 			}
@@ -355,7 +369,7 @@ focus_tree = {
 			id = CHI_1900_power_to_governers
 			icon = GFX_SOV_focus_the_safe_option
 			x = 7
-			y = 12
+			y = 9
             prerequisite = {
 				focus = CHI_1900_begin_reintegration
 			}
@@ -371,6 +385,650 @@ focus_tree = {
             
 			}
          }
+		  focus = {
+			id = CHI_1900_foreign_aid
+			icon = GFX_SOV_focus_the_safe_option
+			x = 11
+			y = 3
+            prerequisite = {
+				focus = CHI_1900_against_boxers
+			}
+            cost = 7
+
+            available = {
+                NOT = {
+                has_war = yes
+				}
+            }
+            completion_reward = { 
+
+            
+			}
+         }
+		 focus = {
+			id = CHI_1900_protect_christians
+			icon = GFX_SOV_focus_the_safe_option
+			x = 11
+			y = 4
+            prerequisite = {
+				focus = CHI_1900_foreign_aid
+			}
+            cost = 7
+
+            available = {
+                NOT = {
+                has_war = yes
+				}
+            }
+            completion_reward = { 
+
+            
+			}
+         }
+		 focus = {
+			id = CHI_1900_change_foreign_policy
+			icon = GFX_SOV_focus_the_safe_option
+			x = 11
+			y = 5
+            prerequisite = {
+				focus = CHI_1900_protect_christians
+			}
+            cost = 7
+
+            available = {
+                NOT = {
+                has_war = yes
+				}
+            }
+            completion_reward = { 
+
+            
+			}
+         }
+		 focus = {
+			id = CHI_1900_boxer_defeated
+			icon = GFX_SOV_focus_the_safe_option
+			x = 11
+			y = 6
+            prerequisite = {
+				focus = CHI_1900_change_foreign_policy
+			}
+            cost = 7
+
+            available = {
+                NOT = {
+                has_war = yes
+				BOX = {
+					exists = yes
+				}
+				}
+            }
+            completion_reward = { 
+
+            
+			}
+         }
+		 focus = {
+			id = CHI_1900_open_up_to_foreigners
+			icon = GFX_SOV_focus_the_safe_option
+			x = 11
+			y = 7
+            prerequisite = {
+				focus = CHI_1900_boxer_defeated
+			}
+            cost = 7
+
+            available = {
+                NOT = {
+                has_war = yes
+				BOX = {
+					exists = yes
+				}
+				}
+            }
+            completion_reward = { 
+
+            
+			}
+         }
+		 focus = {
+			id = CHI_1900_military_mission
+			icon = GFX_SOV_focus_the_safe_option
+			x = 11
+			y = 8
+            prerequisite = {
+				focus = CHI_1900_open_up_to_foreigners
+			}
+            cost = 7
+
+            available = {
+                NOT = {
+                has_war = yes
+				BOX = {
+					exists = yes
+				}
+				}
+            }
+            completion_reward = { 
+
+            
+			}
+         }
+		 focus = {
+			id = CHI_1900_chinese_politics
+			icon = GFX_SOV_focus_state_duma
+			x = 25
+			y = 0
+
+			cost = 7
+
+			available = {
+				NOT = {
+					is_subject = yes
+				}
+			}
+
+			completion_reward = { 
+                add_political_power = 100
+                add_stability = 0.05
+				#event about political situation
+			}
+		}
+
+		focus = {
+			id = CHI_1900_continue_imperial_china
+			icon = GFX_SOV_focus_state_duma
+			x = 18
+			y = 2
+			prerequisite = {
+				focus = CHI_1900_chinese_politics
+			}
+			mutually_exclusive = {
+				focus = CHI_1900_end_imperial_rule
+			}
+
+			cost = 7
+
+			available = {
+				
+			}
+
+			completion_reward = { 
+            
+			}
+		}
+		focus = {
+			id = CHI_1900_end_imperial_rule
+			icon = GFX_SOV_focus_state_duma
+			x = 32
+			y = 2
+			prerequisite = {
+				focus = CHI_1900_chinese_politics
+			}
+			mutually_exclusive = {
+				focus = CHI_1900_continue_imperial_china
+			}
+
+			cost = 7
+
+			available = {
+				
+			}
+
+			completion_reward = { 
+            
+			}
+		}
+		focus = {
+			id = CHI_1900_legacy_1898_coup
+			icon = GFX_SOV_focus_state_duma
+			x = 38
+			y = 3
+			prerequisite = {
+				focus = CHI_1900_end_imperial_rule
+			}
+			mutually_exclusive = {
+				focus = CHI_1900_sun_yat_sen
+			}
+
+			cost = 7
+
+			available = {
+				
+			}
+
+			completion_reward = { 
+            
+			}
+		}
+		focus = {
+			id = CHI_1900_sun_yat_sen
+			icon = GFX_SOV_focus_state_duma
+			x = 26
+			y = 3
+			prerequisite = {
+				focus = CHI_1900_end_imperial_rule
+			}
+			mutually_exclusive = {
+				focus = CHI_1900_sun_yat_sen
+			}
+
+			cost = 7
+
+			available = {
+				
+			}
+
+			completion_reward = { 
+            
+			}
+		}
+		focus = {
+			id = CHI_1900_remember_hundred_days_reform
+			icon = GFX_SOV_focus_state_duma
+			x = 38
+			y = 4
+			prerequisite = {
+				focus = CHI_1900_legacy_1898_coup
+			}
+
+			cost = 7
+
+			available = {
+				
+			}
+
+			completion_reward = { 
+            
+			}
+		}
+		focus = {
+			id = CHI_1900_the_position_of_the_party
+			icon = GFX_SOV_focus_state_duma
+			x = 38
+			y = 5
+			prerequisite = {
+				focus = CHI_1900_remember_hundred_days_reform
+			}
+
+			cost = 7
+
+			available = {
+				
+			}
+
+			completion_reward = { 
+            
+			}
+		}
+		focus = {
+			id = CHI_1900_japanese_style
+			icon = GFX_SOV_focus_state_duma
+			x = 37
+			y = 6
+			prerequisite = {
+				focus = CHI_1900_the_position_of_the_party
+			}
+			mutually_exclusive = {
+				focus = CHI_1900_british_style
+			}
+
+			cost = 7
+
+			available = {
+				
+			}
+
+			completion_reward = { 
+            
+			}
+		}
+		focus = {
+			id = CHI_1900_british_style
+			icon = GFX_SOV_focus_state_duma
+			x = 39
+			y = 6
+			prerequisite = {
+				focus = CHI_1900_the_position_of_the_party
+			}
+			mutually_exclusive = {
+				focus = CHI_1900_japanese_style
+			}
+
+			cost = 7
+
+			available = {
+				
+			}
+
+			completion_reward = { 
+            
+			}
+		}
+		focus = {
+			id = CHI_1900_message_overseas
+			icon = GFX_SOV_focus_state_duma
+			x = 38
+			y = 7
+			prerequisite = {
+				focus = CHI_1900_japanese_style
+				}
+
+			prerequisite = {
+				focus = CHI_1900_british_style
+				}
+			cost = 7
+
+			available = {
+				
+			}
+
+			completion_reward = { 
+            
+			}
+		}
+		focus = {
+			id = CHI_1900_kang_youwei
+			icon = GFX_SOV_focus_state_duma
+			x = 36
+			y = 8
+			prerequisite = {
+				focus = CHI_1900_message_overseas
+			}
+
+			cost = 7
+
+			available = {
+				
+			}
+
+			completion_reward = { 
+            
+			}
+		}
+		focus = {
+			id = CHI_1900_tom_leung
+			icon = GFX_SOV_focus_state_duma
+			x = 38
+			y = 8
+			prerequisite = {
+				focus = CHI_1900_message_overseas
+			}
+
+			cost = 7
+
+			available = {
+				
+			}
+
+			completion_reward = { 
+            
+			}
+		}
+		focus = {
+			id = CHI_1900_foreign_support_reformist
+			icon = GFX_SOV_focus_state_duma
+			x = 40
+			y = 8
+			prerequisite = {
+				focus = CHI_1900_message_overseas
+			}
+
+			cost = 7
+
+			available = {
+				
+			}
+
+			completion_reward = { 
+            
+			}
+		}
+		focus = {
+			id = CHI_1900_support_governers
+			icon = GFX_SOV_focus_state_duma
+			x = 36
+			y = 9
+			prerequisite = {
+				focus = CHI_1900_message_overseas
+			}
+
+			cost = 7
+
+			available = {
+				
+			}
+
+			completion_reward = { 
+            
+			}
+		}
+		focus = {
+			id = CHI_1900_minority_guarantees
+			icon = GFX_SOV_focus_state_duma
+			x = 38
+			y = 9
+			prerequisite = {
+				focus = CHI_1900_tom_leung
+			}
+
+			cost = 7
+
+			available = {
+				
+			}
+
+			completion_reward = { 
+            
+			}
+		}
+		focus = {
+			id = CHI_1900_make_army_reformist
+			icon = GFX_SOV_focus_state_duma
+			x = 40
+			y = 9
+			prerequisite = {
+				focus = CHI_1900_foreign_support_reformist
+			}
+
+			cost = 7
+
+			available = {
+				
+			}
+
+			completion_reward = { 
+            
+			}
+		}
+		focus = {
+			id = CHI_1900_policy_other_parties_reformist
+			icon = GFX_SOV_focus_state_duma
+			x = 38
+			y = 10
+			prerequisite = {
+				focus = CHI_1900_make_army_reformist
+				focus = CHI_1900_minority_guarantees
+				focus = CHI_1900_support_governers
+			}
+
+			cost = 7
+
+			available = {
+				
+			}
+
+			completion_reward = { 
+            
+			}
+		}
+		focus = {
+			id = CHI_1900_independent_party
+			icon = GFX_SOV_focus_state_duma
+			x = 37
+			y = 11
+			prerequisite = {
+				focus = CHI_1900_policy_other_parties_reformist
+			}
+			mutually_exclusive = {
+				focus = CHI_1900_coalition_reformist
+			}
+
+			cost = 7
+
+			available = {
+				
+			}
+
+			completion_reward = { 
+            
+			}
+		}
+		focus = {
+			id = CHI_1900_coalition_reformist
+			icon = GFX_SOV_focus_state_duma
+			x = 39
+			y = 11
+			prerequisite = {
+				focus = CHI_1900_policy_other_parties_reformist
+			}
+			mutually_exclusive = {
+				focus = CHI_1900_independent_party
+			}
+
+			cost = 7
+
+			available = {
+				
+			}
+
+			completion_reward = { 
+            
+			}
+		}
+		focus = {
+			id = CHI_1900_against_rep_reformist
+			icon = GFX_SOV_focus_state_duma
+			x = 37
+			y = 12
+			prerequisite = {
+				focus = CHI_1900_independent_party
+			}
+
+			cost = 7
+
+			available = {
+				
+			}
+
+			completion_reward = { 
+            
+			}
+		}
+		focus = {
+			id = CHI_1900_agreement_with_rep
+			icon = GFX_SOV_focus_state_duma
+			x = 39
+			y = 12
+			prerequisite = {
+				focus = CHI_1900_coalition_reformist
+			}
+
+			cost = 7
+
+			available = {
+				
+			}
+
+			completion_reward = { 
+            
+			}
+		}
+		focus = {
+			id = CHI_1900_launch_coup_reformist
+			icon = GFX_SOV_focus_state_duma
+			x = 38
+			y = 13
+
+			prerequisite = {
+				focus = CHI_1900_agreement_with_rep
+			}
+			prerequisite = {
+				focus = CHI_1900_against_rep_reformist
+			}
+
+			cost = 7
+
+			available = {
+				
+			}
+
+			completion_reward = { 
+            
+			}
+		}
+
+		focus = {
+			id = CHI_1900_fight_warlords
+			icon = GFX_SOV_focus_state_duma
+			x = 38
+			y = 14
+			prerequisite = {
+				focus = CHI_1900_launch_coup_reformist
+			}
+
+			cost = 7
+
+			available = {
+				
+			}
+
+			completion_reward = { 
+            
+			}
+		}
+
+		focus = {
+			id = CHI_1900_foreign_recognition
+			icon = GFX_SOV_focus_state_duma
+			x = 38
+			y = 15
+			prerequisite = {
+				focus = CHI_1900_fight_warlords
+			}
+
+			cost = 7
+
+			available = {
+				
+			}
+
+			completion_reward = { 
+            
+			}
+		}
+		focus = {
+			id = CHI_1900_a_united_china_reformist
+			icon = GFX_SOV_focus_state_duma
+			x = 38
+			y = 16
+			prerequisite = {
+				focus = CHI_1900_foreign_recognition
+			}
+
+			cost = 7
+
+			available = {
+				
+			}
+
+			completion_reward = { 
+            
+			}
+		}
+
+		# END OF REFORMIST PATH
+		 
 
 }
     
