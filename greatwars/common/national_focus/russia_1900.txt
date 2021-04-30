@@ -1347,33 +1347,19 @@
 	completion_reward ={ remove_country_leader_trait = poor_leader
 	                      add_political_power = 50 }
                  }
-    focus = {
-    id = RUS_new_foreign
-	icon = GFX_SOV_focus_first_russian_election
-	x = 32
-	y = 5
-	cost = 10
-
-	available = {
-
-	}
-
-			prerequisite = {focus = RUS_new_faith}
-
-	completion_reward ={ add_war_support = 0.05 }
-                 }	
+	
     focus = {
     id = RUS_new_def_fra
 	icon = GFX_SOV_focus_first_russian_election
 	x = 34
-	y = 6
+	y = 5
 	cost = 5
 
 	available = {
 
 	}
 
-			prerequisite = {focus = RUS_new_foreign}
+			prerequisite = {focus = RUS_new_faith}
 
 	completion_reward ={ give_guarantee = FRA 
 	                    FRA = { country_event = { id = france.1 } }
@@ -1383,7 +1369,7 @@
     id = RUS_new_def_cau
 	icon = GFX_SOV_focus_first_russian_election
 	x = 35
-	y = 7
+	y = 6
 	cost = 5
 
 	available = {
@@ -1424,7 +1410,7 @@
     id = RUS_new_def_afg
 	icon = GFX_SOV_focus_first_russian_election
 	x = 33
-	y = 7
+	y = 6
 	cost = 5
 
 	available = {
@@ -1492,7 +1478,7 @@
     id = RUS_new_ally
 	icon = GFX_SOV_focus_first_russian_election
 	x = 34
-	y = 8
+	y = 7
 	cost = 10
 
 	available = {
@@ -1513,14 +1499,14 @@
     id = RUS_new_aisia
 	icon = GFX_SOV_focus_first_russian_election
 	x = 30
-	y = 6
+	y = 5
 	cost = 5
 
 	available = {
 
 	}
 
-			prerequisite = {focus = RUS_new_foreign}
+			prerequisite = {focus = RUS_new_faith}
 
 	completion_reward ={add_war_support = 0.05}
                  }	
@@ -1528,7 +1514,7 @@
     id = RUS_new_prep_infa
 	icon = GFX_SOV_focus_first_russian_election
 	x = 29
-	y = 7
+	y = 6
 	cost = 5
 
 	available = {
@@ -1558,7 +1544,7 @@
     id = RUS_new_prep_navy
 	icon = GFX_SOV_focus_first_russian_election
 	x = 31
-	y = 7
+	y = 6
 	cost = 5
 
 	available = {
@@ -1581,7 +1567,7 @@
     id = RUS_new_boost_army
 	icon = GFX_SOV_focus_first_russian_election
 	x = 30
-	y = 8
+	y = 7
 	cost = 5
 
 	available = {
@@ -1599,7 +1585,7 @@
     id = RUS_new_negojap
 	icon = GFX_SOV_focus_first_russian_election
 	x = 32
-	y = 9
+	y = 8
 	cost = 30
 
 	available = {
@@ -1615,7 +1601,7 @@
 			id = RUS_new_after_box
 			icon = GFX_SOV_focus_first_russian_election
 			x = 32
-			y = 10
+			y = 9
 
 			cost = 1
 
@@ -1623,11 +1609,11 @@
 			
 			}
 
-             allow_branch = {
-				 has_country_flag = boxer_reb_over
-			 }
-
             prerequisite = {focus = RUS_new_negojap}
+
+             allow_branch = {
+				
+			 }
 
 			completion_reward = { 
 			add_war_support = 0.10
@@ -1638,7 +1624,7 @@
 			id = RUS_new_warrep
 			icon = GFX_SOV_focus_first_russian_election
 			x = 31
-			y = 11
+			y = 10
 
 			cost = 1
 
@@ -1659,7 +1645,7 @@
 			id = RUS_new_develop
 			icon = GFX_SOV_focus_first_russian_election
 			x = 33
-			y = 11
+			y = 10
 
 			cost = 1
 
@@ -1680,7 +1666,7 @@
 			id = RUS_new_celeb
 			icon = GFX_SOV_focus_first_russian_election
 			x = 32
-			y = 12
+			y = 11
 
 			cost = 1
 
@@ -1699,6 +1685,33 @@
 			}
 		}
 
+        		focus = {
+			id = RUS_new_strong
+			icon = GFX_SOV_focus_first_russian_election
+			x = 10
+			y = 13
+
+			cost = 1
+
+			available = {
+			                NOT = {has_idea = SOV_high_iliteracy2 } 			
+                            NOT = {has_idea = SOV_high_iliteracy3 } 
+							NOT = {has_idea = SOV_crowd } 
+							NOT = {has_idea = SOV_crowd2 } 
+							NOT = {has_idea = SOV_crowd3 } 
+							NOT = {has_idea = SOV_fear_of_revolution }
+							NOT = {has_idea = SOV_fear_of_revolution2 }
+							NOT = {has_idea = SOV_fear_of_revolution3 }
+
+			             }
+
+			prerequisite = {focus = RUS_new_lead}
+			prerequisite = {focus = RUS_new_induru}
+
+			completion_reward = { 
+			add_country_leader_trait = strong_leader}
+		}
+
     focus = {
     id = RUS_new_japwar
 	icon = GFX_SOV_focus_first_russian_election
@@ -1707,7 +1720,7 @@
 	cost = 1
 
     allow_branch = {
-		has_country_flag = rus_japwar_over
+		
 	}
 
 	available = {
@@ -1910,8 +1923,8 @@
 
 	 prerequisite = {focus = RUS_new_army_sit}
 
-	completion_reward ={  add_ideas = SOV_no_child
-	                      add_stability = 0.05 }	
+	completion_reward ={ add_war_support = 0.05 
+	                     add_political_power = 150}	
                  }
 
     focus = {
@@ -1973,29 +1986,6 @@
   }
 
     focus = {
-    id = RUS_new_infantry_eq2
-	icon = GFX_SOV_focus_first_russian_election
-	x = 38
-	y = 5
-	cost = 1
-
-	available = {
-
-	}	
-
-    prerequisite = {focus = RUS_new_infantry_eq1}
-
-	completion_reward ={ add_tech_bonus = {
-             bonus = 1
-             uses = 1
-             category = infantry_tech
-                                           }
-
-	}
-
-  }
-
-    focus = {
     id = RUS_new_support_eq1
 	icon = GFX_SOV_focus_first_russian_election
 	x = 41
@@ -2029,11 +2019,13 @@
 	}	
 
     prerequisite = {focus = RUS_new_support_eq1}
+	 prerequisite = {focus = RUS_new_art_eq1}
+	 prerequisite = {focus = RUS_new_infantry_eq1}
 
 	completion_reward ={ add_tech_bonus = {
              bonus = 1
-             uses = 1
-             category = support_tech
+             uses = 2
+             category = land_doctrine
                                            }
     }
 }	
@@ -2061,28 +2053,6 @@
   }
 
     focus = {
-    id = RUS_new_art_eq2
-	icon = GFX_SOV_focus_first_russian_election
-	x = 44
-	y = 5
-	cost = 1
-
-	available = {
-
-	}	
-
-    prerequisite = {focus = RUS_new_art_eq1}
-
-	completion_reward ={ add_tech_bonus = {
-             bonus = 1
-             uses = 1
-             category = artillery
-                                           }
-	}
-
-  }
-
-    focus = {
     id = RUS_new_modern_arm
 	icon = GFX_SOV_focus_first_russian_election
 	x = 41
@@ -2096,10 +2066,13 @@
 prerequisite = {focus = RUS_new_support_eq2}
 prerequisite = {focus = RUS_new_infantry_eq2}
 prerequisite = {focus = RUS_new_art_eq2}
+
    completion_reward ={
-		add_ideas = SOV_modern_army
-		add_war_support = 0.05
-                       } 
+            swap_ideas = { 
+                 remove_idea = SOV_disorg_army
+                  add_idea = SOV_modern_army
+                           }
+        }		   
  }
 
 }

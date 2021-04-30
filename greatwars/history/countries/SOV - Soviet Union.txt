@@ -23,6 +23,7 @@ capital = 219
 		SOV_long_live_the_tsar
         SOV_high_iliteracy3
 		SOV_crowd
+		SOV_disorg_army
 		# government
 		extensive_conscription
 		export_focus

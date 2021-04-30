@@ -5796,4 +5796,39 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/sov/idea_rus_crowded1.dss"
 	}
 
+		spriteType = {
+		name = "GFX_idea_tur_arctic_wolves"
+		texturefile = "gfx/interface/ideas/idea_tur_arctic_wolves.dds"
+	}
+
+			spriteType = {
+		name = "GFX_idea_china_rep"
+		texturefile = "gfx/interface/ideas/generic_goods_red_bonus.dds"
+	}
+
+			spriteType = {
+		name = "GFX_idea_reserve_divisions"
+		texturefile = "gfx/interface/ideas/idea_generic_reserve_divisions.dds"
+	}
+
+			spriteType = {
+		name = "GFX_idea_generic_manpower_bonus"
+		texturefile = "gfx/interface/ideas/generic_manpower_bonus.dds"
+	}
+
+			spriteType = {
+		name = "GFX_idea_generic_army_war_college"
+		texturefile = "gfx/interface/ideas/idea_generic_army_war_college.dds"
+	}
+
+			spriteType = {
+		name = "GFX_idea_generic_intel_bonus"
+		texturefile = "gfx/interface/ideas/generic_intel_bonus.dds"
+	}
+
+			spriteType = {
+		name = "GFX_idea_chi_army_corruption3"
+		texturefile = "gfx/interface/ideas/idea_chi_army_corruption3.dds"
+	}
+
 }

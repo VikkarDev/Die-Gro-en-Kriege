@@ -108,9 +108,11 @@ SOV_long_live_the_tsar_desc:0 "In the recent decades Europe has seen a wave of n
 SOV_long_live_the_tsar:0 "Long Live the Tsar"
 SOV_army_moral:0 "High Army Morale"
 SOV_china_rep:0 "Chineese War Reperations"
-SOV_no_child:0 "No More conscription of children"
+SOV_no_child:0 "Abolished Child Conscriptions"
 SOV_smart_army:0 "Smart Soldiers"
 SOV_modern_army:0 "Modern Army"
+SOV_disorg_army:0 "Disorganized Army"
+SOV_mandatory:0 "Mandatory Service"
 
 # PARTY NAMES
 ########### Russia Party Names Localisation ###########
