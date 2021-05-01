@@ -177,4 +177,58 @@ spriteTypes = {
 		name = "GFX_USA_kansas_democratic"
 		texturefile = "gfx/interface/usa_voting_gfx/kansas_democratic.dds"
 	}
+
+	spriteType = {
+		name = "GFX_USA_wisconsin_republican"
+		texturefile = "gfx/interface/usa_voting_gfx/wisconsin_republican.dds"
+	}
+	spriteType = {
+		name = "GFX_USA_wisconsin_democratic"
+		texturefile = "gfx/interface/usa_voting_gfx/wisconsin_democratic.dds"
+	}
+
+	spriteType = {
+		name = "GFX_USA_iowa_republican"
+		texturefile = "gfx/interface/usa_voting_gfx/iowa_republican.dds"
+	}
+	spriteType = {
+		name = "GFX_USA_iowa_democratic"
+		texturefile = "gfx/interface/usa_voting_gfx/iowa_democratic.dds"
+	}
+
+	spriteType = {
+		name = "GFX_USA_missouri_republican"
+		texturefile = "gfx/interface/usa_voting_gfx/missouri_republican.dds"
+	}
+	spriteType = {
+		name = "GFX_USA_missouri_democratic"
+		texturefile = "gfx/interface/usa_voting_gfx/missouri_democratic.dds"
+	}
+
+	spriteType = {
+		name = "GFX_USA_arkansas_republican"
+		texturefile = "gfx/interface/usa_voting_gfx/arkansas_republican.dds"
+	}
+	spriteType = {
+		name = "GFX_USA_arkansas_democratic"
+		texturefile = "gfx/interface/usa_voting_gfx/arkansas_democratic.dds"
+	}
+
+	spriteType = {
+		name = "GFX_USA_mississippi_republican"
+		texturefile = "gfx/interface/usa_voting_gfx/mississippi_republican.dds"
+	}
+	spriteType = {
+		name = "GFX_USA_mississippi_democratic"
+		texturefile = "gfx/interface/usa_voting_gfx/mississippi_democratic.dds"
+	}
+
+	spriteType = {
+		name = "GFX_USA_alabama_republican"
+		texturefile = "gfx/interface/usa_voting_gfx/alabama_republican.dds"
+	}
+	spriteType = {
+		name = "GFX_USA_alabama_democratic"
+		texturefile = "gfx/interface/usa_voting_gfx/alabama_democratic.dds"
+	}
 }

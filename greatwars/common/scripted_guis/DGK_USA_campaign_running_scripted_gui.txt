@@ -30,14 +30,26 @@ scripted_gui = {
 		}
 
 		triggers = {
-			texas_democratic_visible = {
-				375 = { is_democratic_state = yes }
+
+			florida_democratic_visible = {
+				366 = { is_democratic_state = yes }
 			}
-			texas_republican_visible = {
-				375 = { is_republican_state = yes }
+			florida_republican_visible = {
+				366 = { is_republican_state = yes }
 			}
-			texas_socialist_visible = {
-				375 = { is_socialist_state = yes }
+
+			alabama_democratic_visible = {
+				367 = { is_democratic_state = yes }
+			}
+			alabama_republican_visible = {
+				367 = { is_republican_state = yes }
+			}
+
+			mississippi_democratic_visible = {
+				370 = { is_democratic_state = yes }
+			}
+			mississippi_republican_visible = {
+				370 = { is_republican_state = yes }
 			}
 
 			louisiana_democratic_visible = {
@@ -47,11 +59,28 @@ scripted_gui = {
 				371 = { is_republican_state = yes }
 			}
 
-			florida_democratic_visible = {
-				366 = { is_democratic_state = yes }
+			arkansas_democratic_visible = {
+				372 = { is_democratic_state = yes }
 			}
-			florida_republican_visible = {
-				366 = { is_republican_state = yes }
+			arkansas_republican_visible = {
+				372 = { is_republican_state = yes }
+			}
+
+			missouri_democratic_visible = {
+				373 = { is_democratic_state = yes }
+			}
+			missouri_republican_visible = {
+				373 = { is_republican_state = yes }
+			}
+
+			texas_democratic_visible = {
+				375 = { is_democratic_state = yes }
+			}
+			texas_republican_visible = {
+				375 = { is_republican_state = yes }
+			}
+			texas_socialist_visible = {
+				375 = { is_socialist_state = yes }
 			}
 
 			california_democratic_visible = {
@@ -144,14 +173,42 @@ scripted_gui = {
 			south_dakota_republican_visible = {
 				390 = { is_republican_state = yes }
 			}
+
+			wisconsin_democratic_visible = {
+				391 = { is_democratic_state = yes }
+			}
+			wisconsin_republican_visible = {
+				391 = { is_republican_state = yes }
+			}
+
+			iowa_democratic_visible = {
+				392 = { is_democratic_state = yes }
+			}
+			iowa_republican_visible = {
+				392 = { is_republican_state = yes }
+			}
 		}
 
 		effects = {
-			texas_democratic_click = {
-				375 = { save_global_event_target_as = USA_targeted_campaign_running_state }
+			florida_democratic_click = {
+				366 = { save_global_event_target_as = USA_targeted_campaign_running_state }
 			}
-			texas_republican_click = {
-				375 = { save_global_event_target_as = USA_targeted_campaign_running_state }
+			florida_republican_click = {
+				366 = { save_global_event_target_as = USA_targeted_campaign_running_state }
+			}
+
+			alabama_democratic_click = {
+				367 = { save_global_event_target_as = USA_targeted_campaign_running_state }
+			}
+			alabama_republican_click = {
+				367 = { save_global_event_target_as = USA_targeted_campaign_running_state }
+			}
+
+			mississippi_democratic_click = {
+				370 = { save_global_event_target_as = USA_targeted_campaign_running_state }
+			}
+			mississippi_republican_click = {
+				370 = { save_global_event_target_as = USA_targeted_campaign_running_state }
 			}
 
 			louisiana_democratic_click = {
@@ -161,11 +218,25 @@ scripted_gui = {
 				371 = { save_global_event_target_as = USA_targeted_campaign_running_state }
 			}
 
-			florida_democratic_click = {
-				366 = { save_global_event_target_as = USA_targeted_campaign_running_state }
+			arkansas_democratic_click = {
+				372 = { save_global_event_target_as = USA_targeted_campaign_running_state }
 			}
-			florida_republican_click = {
-				366 = { save_global_event_target_as = USA_targeted_campaign_running_state }
+			arkansas_republican_click = {
+				372 = { save_global_event_target_as = USA_targeted_campaign_running_state }
+			}
+
+			missouri_democratic_click = {
+				373 = { save_global_event_target_as = USA_targeted_campaign_running_state }
+			}
+			missouri_republican_click = {
+				373 = { save_global_event_target_as = USA_targeted_campaign_running_state }
+			}
+
+			texas_democratic_click = {
+				375 = { save_global_event_target_as = USA_targeted_campaign_running_state }
+			}
+			texas_republican_click = {
+				375 = { save_global_event_target_as = USA_targeted_campaign_running_state }
 			}
 
 			california_democratic_click = {
@@ -257,6 +328,20 @@ scripted_gui = {
 			}
 			south_dakota_republican_click = {
 				390 = { save_global_event_target_as = USA_targeted_campaign_running_state }
+			}
+
+			wisconsin_democratic_click = {
+				391 = { save_global_event_target_as = USA_targeted_campaign_running_state }
+			}
+			wisconsin_republican_click = {
+				391 = { save_global_event_target_as = USA_targeted_campaign_running_state }
+			}
+
+			iowa_democratic_click = {
+				392 = { save_global_event_target_as = USA_targeted_campaign_running_state }
+			}
+			iowa_republican_click = {
+				392 = { save_global_event_target_as = USA_targeted_campaign_running_state }
 			}
 		}
 	}

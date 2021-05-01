@@ -362,13 +362,13 @@ guiTypes = {
 				name = "nebraska_republican"
 				pdx_tooltip = "USA_nebraska_campaign_tt"
 				spriteType = "GFX_USA_nebraska_republican"
-				position = { x = 231 y = 127 }
+				position = { x = 232 y = 127 }
 			}
 			iconType = {
 				name = "nebraska_democratic"
 				pdx_tooltip = "USA_nebraska_campaign_tt"
 				spriteType = "GFX_USA_nebraska_democratic"
-				position = { x = 231 y = 127 }
+				position = { x = 232 y = 127 }
 			}
 
 			iconType = {
@@ -382,6 +382,84 @@ guiTypes = {
 				pdx_tooltip = "USA_kansas_campaign_tt"
 				spriteType = "GFX_USA_kansas_democratic"
 				position = { x = 252 y = 174 }
+			}
+
+			iconType = {
+				name = "wisconsin_republican"
+				pdx_tooltip = "USA_wisconsin_campaign_tt"
+				spriteType = "GFX_USA_wisconsin_republican"
+				position = { x = 309 y = 33 }
+			}
+			iconType = {
+				name = "wisconsin_democratic"
+				pdx_tooltip = "USA_wisconsin_campaign_tt"
+				spriteType = "GFX_USA_wisconsin_democratic"
+				position = { x = 252 y = 174 }
+			}
+
+			iconType = {
+				name = "iowa_republican"
+				pdx_tooltip = "USA_iowa_campaign_tt"
+				spriteType = "GFX_USA_iowa_republican"
+				position = { x = 316 y = 120 }
+			}
+			iconType = {
+				name = "iowa_democratic"
+				pdx_tooltip = "USA_iowa_campaign_tt"
+				spriteType = "GFX_USA_iowa_democratic"
+				position = { x = 316 y = 120 }
+			}
+
+			iconType = {
+				name = "missouri_republican"
+				pdx_tooltip = "USA_missouri_campaign_tt"
+				spriteType = "GFX_USA_missouri_republican"
+				position = { x = 325 y = 165 }
+			}
+			iconType = {
+				name = "missouri_democratic"
+				pdx_tooltip = "USA_missouri_campaign_tt"
+				spriteType = "GFX_USA_missouri_democratic"
+				position = { x = 325 y = 165 }
+			}
+
+			iconType = {
+				name = "arkansas_republican"
+				pdx_tooltip = "USA_arkansas_campaign_tt"
+				spriteType = "GFX_USA_arkansas_republican"
+				position = { x = 341 y = 227 }
+			}
+			iconType = {
+				name = "arkansas_democratic"
+				pdx_tooltip = "USA_arkansas_campaign_tt"
+				spriteType = "GFX_USA_arkansas_democratic"
+				position = { x = 341 y = 227 }
+			}
+
+			iconType = {
+				name = "mississippi_republican"
+				pdx_tooltip = "USA_mississippi_campaign_tt"
+				spriteType = "GFX_USA_mississippi_republican"
+				position = { x = 380 y = 247 }
+			}
+			iconType = {
+				name = "mississippi_democratic"
+				pdx_tooltip = "USA_mississippi_campaign_tt"
+				spriteType = "GFX_USA_mississippi_democratic"
+				position = { x = 380 y = 247 }
+			}
+
+			iconType = {
+				name = "alabama_republican"
+				pdx_tooltip = "USA_alabama_campaign_tt"
+				spriteType = "GFX_USA_alabama_republican"
+				position = { x = 421 y = 244 }
+			}
+			iconType = {
+				name = "alabama_democratic"
+				pdx_tooltip = "USA_alabama_campaign_tt"
+				spriteType = "GFX_USA_alabama_democratic"
+				position = { x = 421 y = 244 }
 			}
 		}
 	}
