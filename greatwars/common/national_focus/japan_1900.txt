@@ -301,7 +301,7 @@ focus_tree = {
 
 	focus = {
 		id = JAP_the_manchurian_crisis
-		icon = GFX_jap_the_manchurian_crisis
+		icon = GFX_JAP_focus_the_manchurian_crisis
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		x = 18
 		y = 0
@@ -1082,7 +1082,7 @@ focus_tree = {
 
 	focus = {
 		id = JAP_the_manchurian_question
-		icon = GFX_jap_the_manchurian_question
+		icon = GFX_JAP_focus_the_manchurian_question
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		x = 10
 		y = 9
@@ -1109,7 +1109,7 @@ focus_tree = {
 
 	focus = {
 		id = JAP_genjo
-		icon = GFX_jap_genjo
+		icon = GFX_JAP_focus_genjo
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		x = 31
 		y = 0
