@@ -2055,11 +2055,7 @@
     focus = {
     id = RUS_new_modern_arm
 	icon = GFX_SOV_focus_first_russian_election
-<<<<<<< Updated upstream
-	x = 41
-=======
 	x = 42
->>>>>>> Stashed changes
 	y = 6
 	cost = 1
 
@@ -2092,7 +2088,7 @@ prerequisite = {focus = RUS_new_art_eq2}
 
 	 prerequisite = {focus = RUS_new_army_sit}
 
-	completion_reward ={ }
+	completion_reward ={ add_ideas = SOV_navy }
          }
 
     focus = {
@@ -2108,7 +2104,16 @@ prerequisite = {focus = RUS_new_art_eq2}
 
 	 prerequisite = {focus = RUS_new_army_sit}
 
-	completion_reward ={ }
+	completion_reward ={ 
+				  			262 = {
+                   add_extra_state_shared_building_slots = 2
+				   add_building_construction = { type = dockyard level = 2 instant_build = yes }	
+			                  }
+				  			214 = {
+                   add_extra_state_shared_building_slots = 2
+				   add_building_construction = { type = dockyard level = 2 instant_build = yes }	
+			                  } 
+				}
          }
 
     focus = {
@@ -2125,7 +2130,12 @@ prerequisite = {focus = RUS_new_art_eq2}
 	 prerequisite = {focus = RUS_new_arctic}
 	 prerequisite = {focus = RUS_new_navy}
 
-	completion_reward ={ }
+	completion_reward ={
+							408 = {
+                   add_extra_state_shared_building_slots = 2
+				   add_building_construction = { type = dockyard level = 2 instant_build = yes }	
+			                  }
+	 }
          }
 
     focus = {
@@ -2141,7 +2151,13 @@ prerequisite = {focus = RUS_new_art_eq2}
 
 	 prerequisite = {focus = RUS_new_pacific}
 
-	completion_reward ={ }
+	completion_reward ={
+		add_tech_bonus = {
+             bonus = 0.5
+             uses = 2
+             category = naval_doctrine
+                                           }
+	 }
          }
 
     focus = {
@@ -2157,7 +2173,13 @@ prerequisite = {focus = RUS_new_art_eq2}
 
 	 prerequisite = {focus = RUS_new_pacific}
 
-	completion_reward ={ }
+	completion_reward ={
+		add_tech_bonus = {
+             bonus = 1
+             uses = 1
+             category = bb_tech
+                                           }
+	 }
          }
 
     focus = {
@@ -2173,7 +2195,13 @@ prerequisite = {focus = RUS_new_art_eq2}
 
 	 prerequisite = {focus = RUS_new_pacific}
 
-	completion_reward ={ }
+	completion_reward ={
+		add_tech_bonus = {
+             bonus = 0.5
+             uses = 2
+             category = ca_tech
+                                           }
+	 }
          }
 
     focus = {
@@ -2191,17 +2219,18 @@ prerequisite = {focus = RUS_new_art_eq2}
 	 prerequisite = {focus = RUS_new_cru}
 	 prerequisite = {focus = RUS_new_doctr}
 
-	completion_reward ={ }
-         }
+	completion_reward ={
+							137 = {
+                   add_extra_state_shared_building_slots = 2
+				   add_building_construction = { type = dockyard level = 2 instant_build = yes }	
+			                  }
+	 }
+  }
 
     focus = {
     id = RUS_new_modern_nav
 	icon = GFX_SOV_focus_first_russian_election
-<<<<<<< Updated upstream
-	x = 49
-=======
 	x = 48
->>>>>>> Stashed changes
 	y = 6
 	cost = 1
 
@@ -2209,13 +2238,9 @@ prerequisite = {focus = RUS_new_art_eq2}
 
 	}
 
-<<<<<<< Updated upstream
-	 prerequisite = {focus = RUS_new_battl}
-=======
 	 prerequisite = {focus = RUS_new_more_doc}
->>>>>>> Stashed changes
 
-	completion_reward ={ }
+	completion_reward ={ add_ideas = SOV_navy_mod}
          }
 
     focus = {
@@ -2232,7 +2257,15 @@ prerequisite = {focus = RUS_new_art_eq2}
      prerequisite = {focus = RUS_new_modern_arm}
      prerequisite = {focus = RUS_new_modern_nav}
 
-	completion_reward ={ add_political_power = 50 }
-                 }
+	completion_reward ={
+		add_tech_bonus = {
+             bonus = 1
+             uses = 1
+             category = air_equipment
+                                           }
+		     add_war_support = 0.10
+	  }
+
+  }
 
 }

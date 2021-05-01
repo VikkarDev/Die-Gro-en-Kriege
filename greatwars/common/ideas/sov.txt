@@ -111,11 +111,7 @@ ideas = {
 
                 stability_factor = -0.15
                 industrial_capacity_factory = -0.15
-<<<<<<< Updated upstream
-                conscription = -0.10    
-=======
                 conscription = -0.03
->>>>>>> Stashed changes
                 consumer_goods_factor = 0.15
                 
                         }
@@ -134,11 +130,7 @@ ideas = {
 
                 stability_factor = -0.10
                 industrial_capacity_factory = -0.10
-<<<<<<< Updated upstream
-                conscription = -0.05
-=======
                 conscription = -0.02
->>>>>>> Stashed changes
                 consumer_goods_factor = 0.10
                 
                         }
@@ -158,10 +150,7 @@ ideas = {
                 stability_factor = -0.05
                 industrial_capacity_factory = -0.05
                 consumer_goods_factor = 0.5
-<<<<<<< Updated upstream
-=======
                 conscription = -0.01
->>>>>>> Stashed changes
 
                         }
 
@@ -318,6 +307,32 @@ ideas = {
                 army_attack_factor	= -0.15
                 army_defence_factor = -0.10
                 army_org = -5
+            }
+        }
+
+                  SOV_navy = {
+            picture = generic_sea_focused_navy
+
+            allowed = {
+                tag = SOV
+            }
+
+            modifier = {
+                industrial_capacity_dockyard = 0.1
+            }
+        }
+
+                  SOV_navy_mod = {
+            picture = generic_navy_bonus
+
+            allowed = {
+                tag = SOV
+            }
+
+            modifier = {
+                navy_capital_ship_attack_factor	= 0.05
+                naval_morale = 5
+                naval_accidents_chance = -0.05
             }
         }
 

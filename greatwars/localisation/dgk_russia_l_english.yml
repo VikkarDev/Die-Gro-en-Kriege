@@ -113,6 +113,8 @@ SOV_smart_army:0 "Smart Soldiers"
 SOV_modern_army:0 "Modern Army"
 SOV_disorg_army:0 "Disorganized Army"
 SOV_mandatory:0 "Mandatory Service"
+SOV_navy:0 "Naval Enthusiasm"
+SOV_navy_mod:0 "Modern Navy"
 
 # PARTY NAMES
 ########### Russia Party Names Localisation ###########
