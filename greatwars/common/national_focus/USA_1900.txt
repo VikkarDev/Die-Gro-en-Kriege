@@ -22,10 +22,14 @@ focus_tree = {
 		
 		cost = 10
 
-		
+		available = {
+			country_exists = USA
+			is_subject = no
+		}
+
 		mutually_exclusive = { focus = USA_jeffersons_vision }
 
-		completion_reward = { 
+		completion_reward = {
 			add_political_power = 100
 		}
 	}
@@ -36,10 +40,19 @@ focus_tree = {
 		y = 0
 		cost = 10
 
-		
+		available = {
+			country_exists = USA
+			is_subject = no
+		}
+
+		bypass = {
+			has_idea = USA_jeffersons_vision_idea
+		}
+
 		mutually_exclusive = { focus = USA_gilded_age }
 		completion_reward = {
-			add_political_power = 100
+			add_ideas = { USA_jeffersons_vision_idea }
+			add_political_power = 50
 		}
 	}
 
@@ -50,12 +63,14 @@ focus_tree = {
 		y = 1
 
 		cost = 10
-
-		
 		prerequisite = { focus = USA_gilded_age }
 
+		bypass = {
+			has_idea = USA_corporate_primacy_idea
+		}
+
 		completion_reward = {
-			add_ideas = USA_corporate_primacy
+			add_ideas = { USA_corporate_primacy_idea }
 		}
 
 	}
@@ -66,9 +81,6 @@ focus_tree = {
 		y = 2
 
 		cost = 10
-
-		
-
 		prerequisite = { focus = USA_corporate_primacy }
 
 		completion_reward = {
@@ -112,13 +124,10 @@ focus_tree = {
 		y = 3
 
 		cost = 10
-
-		
-
 		prerequisite = { focus = USA_continue_subsidies }
 
 		completion_reward = {
-			add_ideas = USA_favorable_business_reg
+			add_ideas = { USA_favorable_business_reg }
 		}
 	}
 	focus = {
@@ -137,7 +146,7 @@ focus_tree = {
 		completion_reward = {
 			set_country_flag = monopolies_ignored ##event series about corporate mergers
 
-			add_ideas = USA_monopolization_ignored
+			add_ideas = { USA_monopolization_ignored }
 			add_political_power = 50
 		}
 
@@ -213,7 +222,7 @@ focus_tree = {
 
 		completion_reward = {
 			add_political_power = 25
-			add_ideas = USA_free_competition
+			add_ideas = { USA_free_competition }
 		}
 	}
 
@@ -302,7 +311,7 @@ focus_tree = {
 				}
 			}
 
-			add_ideas = USA_sponsored_industrialization
+			add_ideas = { USA_sponsored_industrialization }
 		}
 
 	}
@@ -322,7 +331,7 @@ focus_tree = {
 			add_political_power = 20
 			add_stability = 0.03
 			add_popularity = {
-				ideology = traditional_conservatism
+				ideology = centrism
 				popularity = 0.02
 			}
 
@@ -335,8 +344,6 @@ focus_tree = {
 		y = 2
 
 		cost = 10
-
-		
 
 		prerequisite = { focus = USA_continue_laissez_faire }
 		prerequisite = { focus = USA_corporate_primacy }
@@ -362,9 +369,7 @@ focus_tree = {
 		prerequisite = { focus = USA_continue_laissez_faire }
 		
 		completion_reward = {
-			country_event = {
-				id = USA.100 #Gold Standard Event
-			}
+			country_event = { id = USA.2 }
 		}
 	}
 	focus = {
@@ -380,7 +385,7 @@ focus_tree = {
 		prerequisite = { focus = USA_gold_question }
 
 		completion_reward = {
-
+			country_event = { id = USA.3 }
 		}
 	}
 	focus = {
@@ -389,7 +394,7 @@ focus_tree = {
 		x = 2
 		y = 4
 
-
+		cost = 5
 
 		available = {
 			always = no
@@ -413,8 +418,6 @@ focus_tree = {
 		y = 5
 
 		cost = 5
-
-		
 
 		prerequisite = { focus = USA_gold_stay_course }
 
@@ -446,6 +449,8 @@ focus_tree = {
 		x = 0
 		y = 4
 
+		cost = 10
+
 		available = {
 			always = no
 		}
@@ -468,8 +473,6 @@ focus_tree = {
 		y = 5
 
 		cost = 5
-
-		
 
 		bypass = {
 
@@ -550,9 +553,7 @@ focus_tree = {
 		cost = 10
 
 		available = {
-			USA = {
-				country_exists = yes
-			}
+			country_exists = USA
 		}
 
 		prerequisite = {
@@ -2328,16 +2329,19 @@ focus_tree = {
 
 	focus = {
 		id = USA_armed_forces
-		icon = USA_placeholder
+		icon = GFX_usa_armed_forces
 		x = 25
 		y = 0
 		
 		cost = 5
 
-		
+		available = {
+			country_exists = USA
+			is_subject = no
+		}
 		
 		completion_reward = { 
-			
+			army_experience = 5
 		}
 	}
 ######################################
@@ -2346,7 +2350,7 @@ focus_tree = {
 	
 	focus = {
 		id = USA_reorganize_war_department
-		icon = USA_placeholder
+		icon = GFX_usa_focus_reorganize_war_department
 		x = 20
 		y = 1
 		
@@ -3225,4 +3229,9 @@ focus_tree = {
 		}
 	}
 
+	#################################
+	####### PRESIDENT FOCUSES #######
+	#################################
+
+	shared_focus = USA_president_mckinley
 }

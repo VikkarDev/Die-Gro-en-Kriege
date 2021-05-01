@@ -1,0 +1,164 @@
+shared_focus = {
+	id = USA_president_mckinley
+	icon = GFX_usa_president_mckinley
+	x = 40
+	y = 12
+
+	cost = 10
+
+	available = {
+		country_exists = USA
+		has_country_leader = {
+			name = "William McKinley"
+			ruling_only = yes
+		}
+	}
+
+	completion_reward = {
+		add_political_power = 50
+	}
+}
+
+shared_focus = {
+	id = USA_mckinleys_inauguration
+	icon = GFX_usa_mckinleys_inauguration
+	x = 40
+	y = 13
+
+	cost = 10
+	prerequisite = { focus = USA_president_mckinley }
+	available = {
+		has_country_leader = {
+			name = "William McKinley"
+			ruling_only = yes
+		}
+	}
+
+	completion_reward = {
+		country_event = { id = USA.4 }
+	}
+}
+
+shared_focus = {
+	id = USA_the_civil_rights_issue
+	icon = GFX_usa_the_civil_rights_issue
+	x = 37
+	y = 14
+
+	cost = 10
+	prerequisite = { focus = USA_mckinleys_inauguration }
+	available = {
+		has_country_leader = {
+			name = "William McKinley"
+			ruling_only = yes
+		}
+	}
+
+	completion_reward = {
+		country_event = { id = USA.5 }
+	}
+}
+
+shared_focus = {
+	id = USA_token_appointment
+	icon = GFX_usa_token_appointment
+	x = 37
+	y = 15
+
+	cost = 10
+	prerequisite = { focus = USA_the_civil_rights_issue }
+	available = {
+		has_country_leader = {
+			name = "William McKinley"
+			ruling_only = yes
+		}
+	}
+
+	completion_reward = {
+		add_political_power = 15
+	}
+}
+
+shared_focus = {
+	id = USA_focus_on_sectionalism
+	icon = GFX_usa_focus_on_sectionalism
+	x = 36
+	y = 16
+
+	cost = 10
+	prerequisite = { focus = USA_token_appointment }
+	mutually_exclusive = { focus = USA_focus_on_civil_rights }
+
+	available = {
+		has_country_leader = {
+			name = "William McKinley"
+			ruling_only = yes
+		}
+	}
+
+	completion_reward = {
+		add_political_power = 15
+	}
+}
+
+shared_focus = {
+	id = USA_focus_on_civil_rights
+	icon = GFX_usa_focus_on_civil_rights
+	x = 38
+	y = 16
+
+	cost = 10
+	prerequisite = { focus = USA_token_appointment }
+	mutually_exclusive = { focus = USA_focus_on_sectionalism }
+
+	available = {
+		has_country_leader = {
+			name = "William McKinley"
+			ruling_only = yes
+		}
+	}
+
+	completion_reward = {
+		add_political_power = 15
+	}
+}
+
+shared_focus = {
+	id = USA_trouble_in_cuba
+	icon = GFX_usa_trouble_in_cuba
+	x = 40
+	y = 14
+
+	cost = 10
+	prerequisite = { focus = USA_mckinleys_inauguration }
+	available = {
+		has_country_leader = {
+			name = "William McKinley"
+			ruling_only = yes
+		}
+	}
+
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = USA_republican_economics
+	icon = GFX_usa_republican_economics
+	x = 43
+	y = 14
+
+	cost = 10
+	prerequisite = { focus = USA_mckinleys_inauguration }
+	available = {
+		has_country_leader = {
+			name = "William McKinley"
+			ruling_only = yes
+		}
+	}
+
+	completion_reward = {
+		
+	}
+}
