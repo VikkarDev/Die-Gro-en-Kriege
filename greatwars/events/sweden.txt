@@ -79,10 +79,10 @@ country_event = {
 		ai_chance = {
 			factor = 100
 		}
-		set_politics = { ruling_party = democratic_socialism  }
+		set_politics = { ruling_party = social_egalitarianism  }
 		hidden_effect = {
-			add_popularity = { ideology = democratic_socialism popularity = 0.13 }
-			add_popularity = { ideology = social_egalitarianism popularity = 0.07 }
+			add_popularity = { ideology = democratic_socialism popularity = 0.06 }
+			add_popularity = { ideology = social_egalitarianism popularity = 0.14 }
 		}
 	}
 }
