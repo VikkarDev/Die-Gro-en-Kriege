@@ -168,16 +168,31 @@ bookmarks = {
 		"SWE"={
 			minor = yes
 			history = "SWE_SILENT_NIGHT_DESC"
-			ideology = centrism
+			ideology = social_liberalism
 			ideas = {
 				SWE_Swedish_neutrality
 				SWE_Undeveloped_North_Region
 				SWE_swed_nor_union
 			}
 			focuses = {
-				SWE_bostrom_cabinet
-				SWE_expand_civilian_work
 				SWE_break_neutrality
+				SWE_expand_civilian_work
+				SWE_steel_foc
+			}
+		}
+		
+		"RAJ"={
+			minor = yes
+			history = "RAJ_SILENT_NIGHT_DESC"
+			ideology = traditional_conservatism
+			ideas = {
+				RAJ_heavy_british_garrison
+				RAJ_failing_economy
+			}
+			focuses = {
+				RAJ_indian_national_congress_elections
+				RAJ_import_british_guns
+				RAJ_challenge_the_muslim_league
 			}
 		}
 
