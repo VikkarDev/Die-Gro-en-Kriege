@@ -186,7 +186,7 @@ ideas = {
 			}
 			modifier = {
 				attrition = -0.05
-				no_supply_grace = 0.05
+				out_of_supply_factor = 0.1
 				training_time_army_factor = -0.1
 			}
 		}
