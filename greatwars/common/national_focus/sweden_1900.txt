@@ -350,7 +350,9 @@ continuous_focus_position = {
 			}
 			
 		}
-			
+			completion_reward = {
+				add_political_power = 75
+			}
 	}
 	focus = {
 		id = SWE_fortress_question
@@ -363,6 +365,9 @@ continuous_focus_position = {
 		}
 		prerequisite = {
 			focus = SWE_bostrom_cabinet
+		}
+		completion_reward = {
+			
 		}
 		
 	}
@@ -378,7 +383,29 @@ continuous_focus_position = {
 		prerequisite = {
 			focus = SWE_bostrom_cabinet
 		}
-		
+		completion_reward = {
+			38 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+			 		instant_build = yes
+				}
+			}
+			958 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			925 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
 	}
 	focus = {
 		id = SWE_raise_wage
@@ -392,7 +419,9 @@ continuous_focus_position = {
 		prerequisite = {
 			focus = SWE_bostrom_cabinet
 		}
-		
+		completion_reward = {
+			country_event = no
+		}
 	}
 	focus = {
 		id = SWE_otter_cabinet
@@ -412,7 +441,10 @@ continuous_focus_position = {
 		prerequisite = {
 			focus = SWE_raise_wage
 		}
-		
+		completion_reward = {
+			add_political_power = 100
+			add_stability = 0.05
+		}
 	}
 	focus = {
 		id = SWE_kiruna_mine
@@ -440,7 +472,9 @@ continuous_focus_position = {
 		prerequisite = {
 			focus = SWE_otter_cabinet
 		}
-		
+		completion_reward = {
+			add_ideas = WIP
+		}
 	}
 	focus = {
 		id = SWE_department_agriculture
@@ -454,7 +488,9 @@ continuous_focus_position = {
 		prerequisite = {
 			focus = SWE_otter_cabinet
 		}
-		
+		completion_reward = {
+			add_ideas = WIP
+		}
 	}
 	focus = {
 		id = SWE_farm_fields
@@ -468,7 +504,14 @@ continuous_focus_position = {
 		prerequisite = {
 			focus = SWE_department_agriculture
 		}
-		
+		completion_reward = {
+			random_owned_controlled_state = {
+				add_resource = {
+				type = steel
+				amount = 12
+			}
+		 }
+	 	}
 	}
 	focus = {
 		id = SWE_build_farms
@@ -524,7 +567,15 @@ continuous_focus_position = {
 		prerequisite = {
 			focus = SWE_industrial_workers
 		}
-		
+		completion_reward = {
+			add_tech_bonus = {
+				name = assembly_bonus
+				bonus = 1
+				uses = 1
+				technology = construction1	
+				technology = construction2
+			}	
+		}
 	}
 	focus = {
 		id = SWE_Otters_civil_rights 
@@ -540,7 +591,9 @@ continuous_focus_position = {
 			focus = SWE_better_mining_equipment
 			focus = SWE_build_farms
 		}
-		
+		completion_reward = {
+			country_event = WIP
+		}
 	}
 	
 	focus = {
@@ -552,7 +605,9 @@ continuous_focus_position = {
 		prerequisite = {
 			focus = SWE_Otters_civil_rights
 		}
-		
+		completion_reward = {
+			country_event = WIP
+		}
 	}
 	focus = {
 		id = SWE_second_bostrom_cabinet
@@ -563,7 +618,11 @@ continuous_focus_position = {
 		prerequisite = {
 			focus = SWE_reisgnation_of_Otter
 		}
-		
+		completion_reward = {
+			add_political_power = 50
+			country_event = WIP
+			
+		}
 	}
 	focus = {
 		id = SWE_Improve_literacy
@@ -574,7 +633,9 @@ continuous_focus_position = {
 		prerequisite = {
 			focus = SWE_second_bostrom_cabinet
 		}
-		
+		completion_reward = {
+			add_ideas = WIP
+		}
 	}
 	focus = {
 		id = SWE_Union_commitee
@@ -585,7 +646,9 @@ continuous_focus_position = {
 		prerequisite = {
 			focus = SWE_second_bostrom_cabinet
 		}
-		
+		completion_reward = {
+			#WIP
+		}
 	}
 	focus = {
 		id = SWE_solution 
@@ -597,7 +660,9 @@ continuous_focus_position = {
 		prerequisite = {
 			focus = SWE_Union_commitee
 		}
-		
+		completion_reward = {
+			country_event = WIP
+		}
 	}
 	focus = {
 		id = SWE_Increase_relations_nor
@@ -702,13 +767,6 @@ continuous_focus_position = {
 		prerequisite = {
 			focus = SWE_Present_chambers
 		}
-		prerequisite = {
-			focus = SWE_Union_crisis
-		}
-		prerequisite = {
-			focus = SWE_Introduce_education
-		}
-		
 	}
 	focus = {
 		id = SWE_resignation_Bostrom
