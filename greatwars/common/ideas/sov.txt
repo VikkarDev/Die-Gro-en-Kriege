@@ -34,6 +34,32 @@ ideas = {
             }
         }
 
+        SOV_fear_of_revolution2 = {
+            picture = sov_fear_of_revolution
+
+            allowed = {
+                tag = SOV
+            }
+
+            modifier = {
+                stability_factor = -0.10
+                occupation_cost = 0.10
+                compliance_growth_on_our_occupied_states = 0.05
+            }
+        }
+
+        SOV_fear_of_revolution3 = {
+            picture = sov_fear_of_revolution
+
+            allowed = {
+                tag = SOV
+            }
+
+            modifier = {
+                stability_factor = -0.05
+                occupation_cost = 0.05
+            }
+        }
 
         SOV_long_live_the_tsar = {
             picture = generic_victors_of_ww1
@@ -47,5 +73,241 @@ ideas = {
                 war_support_factor = 0.15
             }
         }
+
+        SOV_high_iliteracy3 = {
+            picture = generic_illiteracy
+
+            allowed = {
+                tag = SOV
+            }
+
+            modifier = {
+                stability_factor = -0.10
+                research_speed_factor = -0.20
+            }
+        }
+
+        SOV_high_iliteracy2 = {
+            picture = generic_illiteracy
+
+            allowed = {
+                tag = SOV
+            }
+
+            modifier = {
+                stability_factor = -0.05
+                research_speed_factor = -0.10
+            }
+        }
+
+        SOV_crowd = {
+            picture = crowded3
+
+            allowed = {
+                tag = sov
+                      }
+
+            modifier = {
+
+                stability_factor = -0.15
+                industrial_capacity_factory = -0.15
+                conscription = -0.10    
+                consumer_goods_factor = 0.15
+                
+                        }
+
+
+                 } 
+
+        SOV_crowd2 = {
+            picture = crowded2
+
+            allowed = {
+                tag = sov
+                      }
+
+            modifier = {
+
+                stability_factor = -0.10
+                industrial_capacity_factory = -0.10
+                conscription = -0.05
+                consumer_goods_factor = 0.10
+                
+                        }
+
+
+                 } 
+
+        SOV_crowd3 = {
+            picture = crowded1
+
+            allowed = {
+                tag = sov
+                      }
+
+            modifier = {
+
+                stability_factor = -0.05
+                industrial_capacity_factory = -0.05
+                consumer_goods_factor = 0.5
+
+                        }
+
+
+                 } 
+
+                SOV_literate = {
+            picture = literate
+
+            allowed = {
+                tag = SOV
+            }
+
+            modifier = {
+                stability_factor = +0.10
+                research_speed_factor = +0.10
+            }
+        }   
+            SOV_french_dependancy1 = {
+            picture = sov_french_dependancy
+
+            allowed = {
+                tag = SOV
+            }
+
+            modifier = {
+                trade_opinion_factor = 0.15
+                min_export = 0.3
+            }
+        }   
+
+            SOV_smartworkers = {
+            picture = generic_production_bonus
+
+            allowed = {
+                tag = SOV
+            }
+
+            modifier = {
+                research_speed_factor = 0.05
+                industrial_capacity_factory = 0.10
+            }
+        }  
+
+                    SOV_edu = {
+            picture = jap_duplicate_research
+
+            allowed = {
+                tag = SOV
+            }
+
+            modifier = {
+                research_speed_factor = 0.10
+                stability_factor = 0.1
+            }
+        }  
+                    SOV_indu = {
+            picture = man_five_year_plan_industry
+
+            allowed = {
+                tag = SOV
+            }
+
+            modifier = {
+                stability_factor = 0.1
+                production_speed_buildings_factor = 0.10
+                industrial_capacity_factory = 0.10
+            }
+        }  
+                  SOV_indu1 = {
+            picture = man_five_year_plan_industry
+
+            allowed = {
+                tag = SOV
+            }
+
+            modifier = {
+                stability_factor = 0.15
+                production_speed_buildings_factor = 0.15
+                industrial_capacity_factory = 0.15
+            }
+        } 
+                  SOV_army_moral = {
+            picture = tur_arctic_wolves
+
+            allowed = {
+                tag = SOV
+            }
+
+            modifier = {
+                army_speed_factor = 0.05
+                army_attack_factor = 0.05
+                army_org = 0.05
+            }
+        } 
+
+                  SOV_china_rep = {
+            picture = china_rep
+
+            allowed = {
+                tag = SOV
+            }
+
+            modifier = {
+                consumer_goods_factor = -0.10
+            }
+        } 
+
+                  SOV_mandatory = {
+            picture = generic_manpower_bonus
+
+            allowed = {
+                tag = SOV
+            }
+
+            modifier = {
+                conscription = 0.05
+            }
+        } 
+
+                  SOV_smart_army = {
+            picture = generic_army_war_college
+
+            allowed = {
+                tag = SOV
+            }
+
+            modifier = {
+                research_speed_factor = 0.02
+            }
+        }
+
+                  SOV_modern_army = {
+            picture = generic_intel_bonus
+
+            allowed = {
+                tag = SOV
+            }
+
+            modifier = {
+                army_attack_factor	= 0.05
+                army_defence_factor = 0.05
+            }
+        }
+
+                  SOV_disorg_army = {
+            picture = chi_army_corruption3
+
+            allowed = {
+                tag = SOV
+            }
+
+            modifier = {
+                army_attack_factor	= -0.15
+                army_defence_factor = -0.10
+                army_org = -5
+            }
+        }
+
     }
 }
