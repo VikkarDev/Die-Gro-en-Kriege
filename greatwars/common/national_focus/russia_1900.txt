@@ -2055,7 +2055,11 @@
     focus = {
     id = RUS_new_modern_arm
 	icon = GFX_SOV_focus_first_russian_election
+<<<<<<< Updated upstream
 	x = 41
+=======
+	x = 42
+>>>>>>> Stashed changes
 	y = 6
 	cost = 1
 
@@ -2193,7 +2197,11 @@ prerequisite = {focus = RUS_new_art_eq2}
     focus = {
     id = RUS_new_modern_nav
 	icon = GFX_SOV_focus_first_russian_election
+<<<<<<< Updated upstream
 	x = 49
+=======
+	x = 48
+>>>>>>> Stashed changes
 	y = 6
 	cost = 1
 
@@ -2201,7 +2209,11 @@ prerequisite = {focus = RUS_new_art_eq2}
 
 	}
 
+<<<<<<< Updated upstream
 	 prerequisite = {focus = RUS_new_battl}
+=======
+	 prerequisite = {focus = RUS_new_more_doc}
+>>>>>>> Stashed changes
 
 	completion_reward ={ }
          }
