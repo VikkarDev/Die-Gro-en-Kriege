@@ -447,12 +447,12 @@ defined_text = {
 	text = {
 		trigger = {
 			tag = SPR
-			has_country_flag = francisco_silvela_vp
+			has_country_flag = alfonso_leader_vp
 			OR = {
 				has_government = radical_democracy
 			}
 		}
-		localization_key = SPR_FRANCISCO_NAME
+		localization_key = SPR_ALFONSO_NAME
 	}
     
     text = {
@@ -641,12 +641,12 @@ defined_text = {
 	text = {
 		trigger = {
 			tag = SPR
-			has_country_flag = francisco_silvela_vp
+			has_country_flag = alfonso_leader_vp
 			OR = {
 				has_government = radical_democracy
 			}
 		}
-		localization_key = "GFX_SPR_Francisco_Silvela"
+		localization_key = "GFX_SPR_Young_Alfonso_XIII"
 	}
     
     text = {
@@ -749,9 +749,9 @@ defined_text = {
 	text = {
 		trigger = {
 			original_tag = SPR
-			has_country_flag = alfonso_leader
+			has_country_flag = francisco_silvela
 		}
-		localization_key = ALFONSO_LEADER_DESCRIPTION
+		localization_key = FRANCISCO_SILVELA_LEADER_DESCRIPTION
 	}
     
     text = {
@@ -857,9 +857,9 @@ defined_text = {
 	text = {
 		trigger = {
 			original_tag = SPR
-			has_country_flag = francisco_silvela_vp
+			has_country_flag = alfonso_leader_vp
 		}
-		localization_key = FRANCISCO_SILVELA_LEADER_DESCRIPTION
+		localization_key = ALFONSO_LEADER_DESCRIPTION
 	}
     text = {
 		trigger = {
