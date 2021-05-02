@@ -191,6 +191,10 @@ dgk_usa_campaign_decisions_category_desc:0 "A description is needed for the 1900
 USA_campaign_runs:0 "Election Day"
 USA_open_campaign_rally:0 "Open Electoral Map"
 
+USA_support_republicans: "Support the Republicans"
+USA_support_democrats:0 "Support the Democrats"
+USA_support_socialists:0 "Support the Socialists"
+
 USA_republican_campaign_in_texas:0 "Republican Campaign in Texas"
 USA_republican_campaign_in_new_england:0 "Republican Campaign in New England"
 USA_democratic_campaign_in_texas:0 "Democratic Campaign in Texas"
