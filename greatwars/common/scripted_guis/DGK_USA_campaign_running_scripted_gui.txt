@@ -31,6 +31,48 @@ scripted_gui = {
 
 		triggers = {
 
+			ohio_democratic_visible = {
+				261 = { is_democratic_state = yes }
+			}
+			ohio_republican_visible = {
+				261 = { is_republican_state = yes }
+			}
+
+			massachusetts_democratic_visible = {
+				357 = { is_democratic_state = yes }
+			}
+			massachusetts_republican_visible = {
+				357 = { is_republican_state = yes }
+			}
+
+			new_york_democratic_visible = {
+				358 = { is_democratic_state = yes }
+			}
+			new_york_republican_visible = {
+				358 = { is_republican_state = yes }
+			}
+
+			new_jersey_democratic_visible = {
+				359 = { is_democratic_state = yes }
+			}
+			new_jersey_republican_visible = {
+				359 = { is_republican_state = yes }
+			}
+
+			pennsylvania_democratic_visible = {
+				360 = { is_democratic_state = yes }
+			}
+			pennsylvania_republican_visible = {
+				360 = { is_republican_state = yes }
+			}
+
+			maryland_democratic_visible = {
+				361 = { is_democratic_state = yes }
+			}
+			maryland_republican_visible = {
+				361 = { is_republican_state = yes }
+			}
+
 			virginia_democratic_visible = {
 				362 = { is_democratic_state = yes }
 			}
@@ -257,9 +299,86 @@ scripted_gui = {
 			indiana_republican_visible = {
 				396 = { is_republican_state = yes }
 			}
+			
+			maine_democratic_visible = {
+				878 = { is_democratic_state = yes }
+			}
+			maine_republican_visible = {
+				878 = { is_republican_state = yes }
+			}
+
+			new_hampshire_democratic_visible = {
+				879 = { is_democratic_state = yes }
+			}
+			new_hampshire_republican_visible = {
+				879 = { is_republican_state = yes }
+			}
+
+			vermont_democratic_visible = {
+				880 = { is_democratic_state = yes }
+			}
+			vermont_republican_visible = {
+				880 = { is_republican_state = yes }
+			}
+
+			connecticut_democratic_visible = {
+				881 = { is_democratic_state = yes }
+			}
+			connecticut_republican_visible = {
+				881 = { is_republican_state = yes }
+			}
+
+			west_virginia_democratic_visible = {
+				882 = { is_democratic_state = yes }
+			}
+			west_virginia_republican_visible = {
+				882 = { is_republican_state = yes }
+			}
+
+			rhode_island_democratic_visible = {
+				883 = { is_democratic_state = yes }
+			}
+			rhode_island_republican_visible = {
+				883 = { is_republican_state = yes }
+			}
 		}
 
 		effects = {
+
+			ohio_democratic_click = {
+				261 = { save_global_event_target_as = USA_targeted_campaign_running_state }
+			}
+			ohio_republican_click = {
+				261 = { save_global_event_target_as = USA_targeted_campaign_running_state }
+			}
+
+			massachusetts_democratic_click = {
+				357 = { save_global_event_target_as = USA_targeted_campaign_running_state }
+			}
+			massachusetts_republican_click = {
+				357 = { save_global_event_target_as = USA_targeted_campaign_running_state }
+			}
+
+			new_york_democratic_click = {
+				358 = { save_global_event_target_as = USA_targeted_campaign_running_state }
+			}
+			new_york_republican_click = {
+				358 = { save_global_event_target_as = USA_targeted_campaign_running_state }
+			}
+
+			new_jersey_democratic_click = {
+				359 = { save_global_event_target_as = USA_targeted_campaign_running_state }
+			}
+			new_jersey_republican_click = {
+				359 = { save_global_event_target_as = USA_targeted_campaign_running_state }
+			}
+
+			maryland_democratic_click = {
+				361 = { save_global_event_target_as = USA_targeted_campaign_running_state }
+			}
+			maryland_republican_click = {
+				361 = { save_global_event_target_as = USA_targeted_campaign_running_state }
+			}
 
 			virginia_democratic_click = {
 				362 = { save_global_event_target_as = USA_targeted_campaign_running_state }
@@ -483,6 +602,48 @@ scripted_gui = {
 			}
 			indiana_republican_click = {
 				396 = { save_global_event_target_as = USA_targeted_campaign_running_state }
+			}
+
+			maine_democratic_click = {
+				878 = { save_global_event_target_as = USA_targeted_campaign_running_state }
+			}
+			maine_republican_click = {
+				878 = { save_global_event_target_as = USA_targeted_campaign_running_state }
+			}
+
+			new_hampshire_democratic_click = {
+				879 = { save_global_event_target_as = USA_targeted_campaign_running_state }
+			}
+			new_hampshire_republican_click = {
+				879 = { save_global_event_target_as = USA_targeted_campaign_running_state }
+			}
+
+			vermont_democratic_click = {
+				880 = { save_global_event_target_as = USA_targeted_campaign_running_state }
+			}
+			vermont_republican_click = {
+				880 = { save_global_event_target_as = USA_targeted_campaign_running_state }
+			}
+
+			connecticut_democratic_click = {
+				881 = { save_global_event_target_as = USA_targeted_campaign_running_state }
+			}
+			connecticut_republican_click = {
+				881 = { save_global_event_target_as = USA_targeted_campaign_running_state }
+			}
+
+			west_virginia_democratic_click = {
+				882 = { save_global_event_target_as = USA_targeted_campaign_running_state }
+			}
+			west_virginia_republican_click = {
+				882 = { save_global_event_target_as = USA_targeted_campaign_running_state }
+			}
+
+			rhode_island_democratic_click = {
+				883 = { save_global_event_target_as = USA_targeted_campaign_running_state }
+			}
+			rhode_island_republican_click = {
+				883 = { save_global_event_target_as = USA_targeted_campaign_running_state }
 			}
 		}
 	}

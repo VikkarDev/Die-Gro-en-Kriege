@@ -321,4 +321,121 @@ spriteTypes = {
 		name = "GFX_USA_michigan_democratic"
 		texturefile = "gfx/interface/usa_voting_gfx/michigan_democratic.dds"
 	}
+
+	spriteType = {
+		name = "GFX_USA_ohio_republican"
+		texturefile = "gfx/interface/usa_voting_gfx/ohio_republican.dds"
+	}
+	spriteType = {
+		name = "GFX_USA_ohio_democratic"
+		texturefile = "gfx/interface/usa_voting_gfx/ohio_democratic.dds"
+	}
+
+	spriteType = {
+		name = "GFX_USA_west_virginia_republican"
+		texturefile = "gfx/interface/usa_voting_gfx/west_virginia_republican.dds"
+	}
+	spriteType = {
+		name = "GFX_USA_west_virginia_democratic"
+		texturefile = "gfx/interface/usa_voting_gfx/west_virginia_democratic.dds"
+	}
+
+	spriteType = {
+		name = "GFX_USA_maryland_republican"
+		texturefile = "gfx/interface/usa_voting_gfx/maryland_republican.dds"
+	}
+	spriteType = {
+		name = "GFX_USA_maryland_democratic"
+		texturefile = "gfx/interface/usa_voting_gfx/maryland_democratic.dds"
+	}
+
+	spriteType = {
+		name = "GFX_USA_pennsylvania_republican"
+		texturefile = "gfx/interface/usa_voting_gfx/pennsylvania_republican.dds"
+	}
+	spriteType = {
+		name = "GFX_USA_pennsylvania_democratic"
+		texturefile = "gfx/interface/usa_voting_gfx/pennsylvania_democratic.dds"
+	}
+
+	spriteType = {
+		name = "GFX_USA_new_jersey_republican"
+		texturefile = "gfx/interface/usa_voting_gfx/new_jersey_republican.dds"
+	}
+	spriteType = {
+		name = "GFX_USA_new_jersey_democratic"
+		texturefile = "gfx/interface/usa_voting_gfx/new_jersey_democratic.dds"
+	}
+
+	spriteType = {
+		name = "GFX_USA_new_york_republican"
+		texturefile = "gfx/interface/usa_voting_gfx/new_york_republican.dds"
+	}
+	spriteType = {
+		name = "GFX_USA_new_york_democratic"
+		texturefile = "gfx/interface/usa_voting_gfx/new_york_democratic.dds"
+	}
+
+	spriteType = {
+		name = "GFX_USA_connecticut_republican"
+		texturefile = "gfx/interface/usa_voting_gfx/connecticut_republican.dds"
+	}
+	spriteType = {
+		name = "GFX_USA_connecticut_democratic"
+		texturefile = "gfx/interface/usa_voting_gfx/connecticut_democratic.dds"
+	}
+
+	spriteType = {
+		name = "GFX_USA_delaware_republican"
+		texturefile = "gfx/interface/usa_voting_gfx/delaware_republican.dds"
+	}
+	spriteType = {
+		name = "GFX_USA_delaware_democratic"
+		texturefile = "gfx/interface/usa_voting_gfx/delaware_democratic.dds"
+	}
+
+	spriteType = {
+		name = "GFX_USA_rhode_island_republican"
+		texturefile = "gfx/interface/usa_voting_gfx/rhode_island_republican.dds"
+	}
+	spriteType = {
+		name = "GFX_USA_rhode_island_democratic"
+		texturefile = "gfx/interface/usa_voting_gfx/rhode_island_democratic.dds"
+	}
+
+	spriteType = {
+		name = "GFX_USA_massachusetts_republican"
+		texturefile = "gfx/interface/usa_voting_gfx/massachusetts_republican.dds"
+	}
+	spriteType = {
+		name = "GFX_USA_massachusetts_democratic"
+		texturefile = "gfx/interface/usa_voting_gfx/massachusetts_democratic.dds"
+	}
+
+	spriteType = {
+		name = "GFX_USA_vermont_republican"
+		texturefile = "gfx/interface/usa_voting_gfx/vermont_republican.dds"
+	}
+	spriteType = {
+		name = "GFX_USA_vermont_democratic"
+		texturefile = "gfx/interface/usa_voting_gfx/vermont_democratic.dds"
+	}
+
+	spriteType = {
+		name = "GFX_USA_new_hampshire_republican"
+		texturefile = "gfx/interface/usa_voting_gfx/new_hampshire_republican.dds"
+	}
+	spriteType = {
+		name = "GFX_USA_new_hampshire_democratic"
+		texturefile = "gfx/interface/usa_voting_gfx/new_hampshire_democratic.dds"
+	}
+
+	spriteType = {
+		name = "GFX_USA_maine_republican"
+		texturefile = "gfx/interface/usa_voting_gfx/maine_republican.dds"
+	}
+	spriteType = {
+		name = "GFX_USA_maine_democratic"
+		texturefile = "gfx/interface/usa_voting_gfx/maine_democratic.dds"
+	}
 }

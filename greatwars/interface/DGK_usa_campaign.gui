@@ -591,6 +591,175 @@ guiTypes = {
 				spriteType = "GFX_USA_michigan_democratic"
 				position = { x = 382 y = 59 }
 			}
+
+			iconType = {
+				name = "ohio_republican"
+				pdx_tooltip = "USA_ohio_campaign_tt"
+				spriteType = "GFX_USA_ohio_republican"
+				position = { x = 449 y = 130 }
+			}
+			iconType = {
+				name = "ohio_democratic"
+				pdx_tooltip = "USA_ohio_campaign_tt"
+				spriteType = "GFX_USA_ohio_democratic"
+				position = { x = 449 y = 130 }
+			}
+
+			iconType = {
+				name = "west_virginia_republican"
+				pdx_tooltip = "USA_west_virginia_campaign_tt"
+				spriteType = "GFX_USA_west_virginia_republican"
+				position = { x = 482 y = 159 }
+			}
+			iconType = {
+				name = "west_virginia_democratic"
+				pdx_tooltip = "USA_west_virginia_campaign_tt"
+				spriteType = "GFX_USA_west_virginia_democratic"
+				position = { x = 482 y = 159 }
+			}
+
+			iconType = {
+				name = "maryland_republican"
+				pdx_tooltip = "USA_maryland_campaign_tt"
+				spriteType = "GFX_USA_maryland_republican"
+				position = { x = 514 y = 153 }
+			}
+			iconType = {
+				name = "maryland_democratic"
+				pdx_tooltip = "USA_maryland_campaign_tt"
+				spriteType = "GFX_USA_maryland_democratic"
+				position = { x = 514 y = 153 }
+			}
+
+			iconType = {
+				name = "pennsylvania_republican"
+				pdx_tooltip = "USA_pennsylvania_campaign_tt"
+				spriteType = "GFX_USA_pennsylvania_republican"
+				position = { x = 496 y = 118 }
+			}
+			iconType = {
+				name = "pennsylvania_democratic"
+				pdx_tooltip = "USA_pennsylvania_campaign_tt"
+				spriteType = "GFX_USA_pennsylvania_democratic"
+				position = { x = 496 y = 118 }
+			}
+
+			iconType = {
+				name = "new_jersey_republican"
+				pdx_tooltip = "USA_new_jersey_campaign_tt"
+				spriteType = "GFX_USA_new_jersey_republican"
+				position = { x = 555 y = 126 }
+			}
+			iconType = {
+				name = "new_jersey_democratic"
+				pdx_tooltip = "USA_new_jersey_campaign_tt"
+				spriteType = "GFX_USA_new_jersey_democratic"
+				position = { x = 555 y = 126 }
+			}
+
+			iconType = {
+				name = "new_york_republican"
+				pdx_tooltip = "USA_new_york_campaign_tt"
+				spriteType = "GFX_USA_new_york_republican"
+				position = { x = 503 y = 68 }
+			}
+			iconType = {
+				name = "new_york_democratic"
+				pdx_tooltip = "USA_new_york_campaign_tt"
+				spriteType = "GFX_USA_new_york_democratic"
+				position = { x = 503 y = 68 }
+			}
+
+			iconType = {
+				name = "connecticut_republican"
+				pdx_tooltip = "USA_connecticut_campaign_tt"
+				spriteType = "GFX_USA_connecticut_republican"
+				position = { x = 573 y = 108 }
+			}
+			iconType = {
+				name = "connecticut_democratic"
+				pdx_tooltip = "USA_connecticut_campaign_tt"
+				spriteType = "GFX_USA_connecticut_democratic"
+				position = { x = 573 y = 108 }
+			}
+
+			#iconType = {
+			#	name = "delaware_republican"
+			#	pdx_tooltip = "USA_delaware_campaign_tt"
+			#	spriteType = "GFX_USA_delaware_republican"
+			#	position = { x = 554 y = 154 }
+			#}
+			#iconType = {
+			#	name = "delaware_democratic"
+			#	pdx_tooltip = "USA_delaware_campaign_tt"
+			#	spriteType = "GFX_USA_delaware_democratic"
+			#	position = { x = 554 y = 154 }
+			#}
+
+			iconType = {
+				name = "rhode_island_republican"
+				pdx_tooltip = "USA_rhode_island_campaign_tt"
+				spriteType = "GFX_USA_rhode_island_republican"
+				position = { x = 590 y = 106 }
+			}
+			iconType = {
+				name = "rhode_island_democratic"
+				pdx_tooltip = "USA_rhode_island_campaign_tt"
+				spriteType = "GFX_USA_rhode_island_democratic"
+				position = { x = 590 y = 106 }
+			}
+
+			iconType = {
+				name = "massachusetts_republican"
+				pdx_tooltip = "USA_massachusetts_campaign_tt"
+				spriteType = "GFX_USA_massachusetts_republican"
+				position = { x = 572 y = 93 }
+			}
+			iconType = {
+				name = "massachusetts_democratic"
+				pdx_tooltip = "USA_massachusetts_campaign_tt"
+				spriteType = "GFX_USA_massachusetts_democratic"
+				position = { x = 572 y = 93 }
+			}
+
+			iconType = {
+				name = "vermont_republican"
+				pdx_tooltip = "USA_vermont_campaign_tt"
+				spriteType = "GFX_USA_vermont_republican"
+				position = { x = 563 y = 61 }
+			}
+			iconType = {
+				name = "vermont_democratic"
+				pdx_tooltip = "USA_vermont_campaign_tt"
+				spriteType = "GFX_USA_vermont_democratic"
+				position = { x = 563 y = 61 }
+			}
+
+			iconType = {
+				name = "new_hampshire_republican"
+				pdx_tooltip = "USA_new_hampshire_campaign_tt"
+				spriteType = "GFX_USA_new_hampshire_republican"
+				position = { x = 579 y = 59 }
+			}
+			iconType = {
+				name = "new_hampshire_democratic"
+				pdx_tooltip = "USA_new_hampshire_campaign_tt"
+				spriteType = "GFX_USA_new_hampshire_democratic"
+				position = { x = 579 y = 59 }
+			}
+
+			iconType = {
+				name = "maine_republican"
+				pdx_tooltip = "USA_maine_campaign_tt"
+				spriteType = "GFX_USA_maine_republican"
+				position = { x = 585 y = 18 }
+			}
+			iconType = {
+				name = "maine_democratic"
+				pdx_tooltip = "USA_maine_campaign_tt"
+				spriteType = "GFX_USA_maine_democratic"
+				position = { x = 585 y = 18 }
+			}
 		}
 	}
 }

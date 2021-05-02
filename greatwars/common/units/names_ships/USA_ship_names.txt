@@ -480,10 +480,10 @@ USA_FISH = {
 CSA_DD_CONFEDERATE = {
 	name = NAME_THEME_CONFEDERATE_DESTROYERS
 
-	for_countries = { CSA USA }
+	for_countries = { USA }
 	can_use = {
 		OR = {
-			tag = CSA
+			#tag = CSA
 			has_completed_focus = USA_honor_the_confederacy
 		}
 	}
@@ -514,10 +514,10 @@ CSA_DD_CONFEDERATE = {
 CSA_CL_CONFEDERATE = {
 	name = NAME_THEME_CONFEDERATE_CL
 
-	for_countries = { CSA USA }
+	for_countries = { USA }
 	can_use = {
 		OR = {
-			tag = CSA
+			#tag = CSA
 			has_completed_focus = USA_honor_the_confederacy
 		}
 	}
@@ -545,10 +545,10 @@ CSA_CL_CONFEDERATE = {
 CSA_CA_CONFEDERATE = {
 	name = NAME_THEME_CONFEDERATE_CA
 
-	for_countries = { CSA USA }
+	for_countries = { USA }
 	can_use = {
 		OR = {
-			tag = CSA
+			#tag = CSA
 			has_completed_focus = USA_honor_the_confederacy
 		}
 	}
@@ -572,10 +572,10 @@ CSA_CA_CONFEDERATE = {
 USA_BB_CONFEDERATE = {
 	name = NAME_THEME_CONFEDERATE_BB
 
-	for_countries = { CSA USA }
+	for_countries = { USA }
 	can_use = {
 		OR = {
-			tag = CSA
+			#tag = CSA
 			has_completed_focus = USA_honor_the_confederacy
 		}
 	}
@@ -595,10 +595,10 @@ USA_BB_CONFEDERATE = {
 USA_BC_CONFEDERATE = {
 	name = NAME_THEME_CONFEDERATE_BC
 
-	for_countries = { CSA USA }
+	for_countries = { USA }
 	can_use = {
 		OR = {
-			tag = CSA
+			#tag = CSA
 			has_completed_focus = USA_honor_the_confederacy
 		}
 	}
@@ -618,10 +618,10 @@ USA_BC_CONFEDERATE = {
 USA_CV_CONFEDERATE = {
 	name = NAME_THEME_CONFEDERATE_CARRIERS
 
-	for_countries = { CSA USA }
+	for_countries = { USA }
 	can_use = {
 		OR = {
-			tag = CSA
+			#tag = CSA
 			has_completed_focus = USA_honor_the_confederacy
 		}
 	}
@@ -642,10 +642,10 @@ USA_CV_CONFEDERATE = {
 CSA_SS_CONFEDERATE = {
 	name = NAME_THEME_CONFEDERATE_SUBMARINES
 
-	for_countries = { CSA USA }
+	for_countries = { USA }
 	can_use = {
 		OR = {
-			tag = CSA
+			#tag = CSA
 			has_completed_focus = USA_honor_the_confederacy
 		}
 	}
