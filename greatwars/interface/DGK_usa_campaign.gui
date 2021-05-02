@@ -385,16 +385,16 @@ guiTypes = {
 			}
 
 			iconType = {
-				name = "wisconsin_republican"
-				pdx_tooltip = "USA_wisconsin_campaign_tt"
-				spriteType = "GFX_USA_wisconsin_republican"
+				name = "minnesota_republican"
+				pdx_tooltip = "USA_minnesota_campaign_tt"
+				spriteType = "GFX_USA_minnesota_republican"
 				position = { x = 309 y = 33 }
 			}
 			iconType = {
-				name = "wisconsin_democratic"
-				pdx_tooltip = "USA_wisconsin_campaign_tt"
-				spriteType = "GFX_USA_wisconsin_democratic"
-				position = { x = 252 y = 174 }
+				name = "minnesota_democratic"
+				pdx_tooltip = "USA_minnesota_campaign_tt"
+				spriteType = "GFX_USA_minnesota_democratic"
+				position = { x = 309 y = 33 }
 			}
 
 			iconType = {
@@ -525,6 +525,71 @@ guiTypes = {
 				pdx_tooltip = "USA_kentucky_campaign_tt"
 				spriteType = "GFX_USA_kentucky_democratic"
 				position = { x = 406 y = 180 }
+			}
+
+			iconType = {
+				name = "virginia_republican"
+				pdx_tooltip = "USA_virginia_campaign_tt"
+				spriteType = "GFX_USA_virginia_republican"
+				position = { x = 477 y = 163 }
+			}
+			iconType = {
+				name = "virginia_democratic"
+				pdx_tooltip = "USA_virginia_campaign_tt"
+				spriteType = "GFX_USA_virginia_democratic"
+				position = { x = 477 y = 163 }
+			}
+
+			iconType = {
+				name = "illinois_republican"
+				pdx_tooltip = "USA_illinois_campaign_tt"
+				spriteType = "GFX_USA_illinois_republican"
+				position = { x = 375 y = 133 }
+			}
+			iconType = {
+				name = "illinois_democratic"
+				pdx_tooltip = "USA_illinois_campaign_tt"
+				spriteType = "GFX_USA_illinois_democratic"
+				position = { x = 375 y = 133 }
+			}
+
+			iconType = {
+				name = "wisconsin_republican"
+				pdx_tooltip = "USA_wisconsin_campaign_tt"
+				spriteType = "GFX_USA_wisconsin_republican"
+				position = { x = 355 y = 68 }
+			}
+			iconType = {
+				name = "wisconsin_democratic"
+				pdx_tooltip = "USA_wisconsin_campaign_tt"
+				spriteType = "GFX_USA_wisconsin_democratic"
+				position = { x = 355 y = 68 }
+			}
+
+			iconType = {
+				name = "indiana_republican"
+				pdx_tooltip = "USA_indiana_campaign_tt"
+				spriteType = "GFX_USA_indiana_republican"
+				position = { x = 418 y = 140 }
+			}
+			iconType = {
+				name = "indiana_democratic"
+				pdx_tooltip = "USA_indiana_campaign_tt"
+				spriteType = "GFX_USA_indiana_democratic"
+				position = { x = 418 y = 140 }
+			}
+
+			iconType = {
+				name = "michigan_republican"
+				pdx_tooltip = "USA_michigan_campaign_tt"
+				spriteType = "GFX_USA_michigan_republican"
+				position = { x = 382 y = 59 }
+			}
+			iconType = {
+				name = "michigan_democratic"
+				pdx_tooltip = "USA_michigan_campaign_tt"
+				spriteType = "GFX_USA_michigan_democratic"
+				position = { x = 382 y = 59 }
 			}
 		}
 	}

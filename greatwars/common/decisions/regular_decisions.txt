@@ -109,7 +109,7 @@ dgk_britain_naval_race_category = {
 	scrap_obsolete_models = {
 		icon = "gfx/interface/decision_generic_naval.dds"
 
-		allowed = { 
+		available = { 
 			tag = ENG
 			check_variable = {
 				var = ENG_first_sea_lord
@@ -131,7 +131,7 @@ dgk_britain_naval_race_category = {
 	new_submarine_models = {
 		icon = "gfx/interface/decision_generic_naval.dds"
 
-		allowed = { 
+		available = { 
 			tag = ENG
 			check_variable = {
 				var = ENG_first_sea_lord
@@ -152,7 +152,7 @@ dgk_britain_naval_race_category = {
 	new_destroyer_models = {
 		icon = "gfx/interface/decision_generic_naval.dds"
 
-		allowed = { 
+		available = { 
 			tag = ENG
 			check_variable = {
 				var = ENG_first_sea_lord
@@ -173,7 +173,7 @@ dgk_britain_naval_race_category = {
 	new_light_cruiser_models = {
 		icon = "gfx/interface/decision_generic_naval.dds"
 
-		allowed = { 
+		available = { 
 			tag = ENG
 			check_variable = {
 				var = ENG_first_sea_lord
@@ -194,7 +194,7 @@ dgk_britain_naval_race_category = {
 	new_battlecruiser_models = {
 		icon = "gfx/interface/decision_generic_naval.dds"
 
-		allowed = { 
+		available = { 
 			tag = ENG
 			check_variable = {
 				var = ENG_first_sea_lord
@@ -215,7 +215,7 @@ dgk_britain_naval_race_category = {
 	five_strategic_keys = {
 		icon = "gfx/interface/decision_generic_naval.dds"
 
-		allowed = { 
+		available = { 
 			tag = ENG
 			check_variable = {
 				var = ENG_first_sea_lord
@@ -240,7 +240,7 @@ dgk_britain_naval_race_category = {
 	dreadnought_development = {
 		icon = "gfx/interface/decision_generic_naval.dds"
 
-		allowed = { 
+		available = { 
 			tag = ENG
 			check_variable = {
 				var = ENG_first_sea_lord

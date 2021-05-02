@@ -179,12 +179,12 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_USA_wisconsin_republican"
-		texturefile = "gfx/interface/usa_voting_gfx/wisconsin_republican.dds"
+		name = "GFX_USA_minnesota_republican"
+		texturefile = "gfx/interface/usa_voting_gfx/minnesota_republican.dds"
 	}
 	spriteType = {
-		name = "GFX_USA_wisconsin_democratic"
-		texturefile = "gfx/interface/usa_voting_gfx/wisconsin_democratic.dds"
+		name = "GFX_USA_minnesota_democratic"
+		texturefile = "gfx/interface/usa_voting_gfx/minnesota_democratic.dds"
 	}
 
 	spriteType = {
@@ -275,5 +275,50 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_USA_kentucky_democratic"
 		texturefile = "gfx/interface/usa_voting_gfx/kentucky_democratic.dds"
+	}
+
+	spriteType = {
+		name = "GFX_USA_virginia_republican"
+		texturefile = "gfx/interface/usa_voting_gfx/virginia_republican.dds"
+	}
+	spriteType = {
+		name = "GFX_USA_virginia_democratic"
+		texturefile = "gfx/interface/usa_voting_gfx/virginia_democratic.dds"
+	}
+
+	spriteType = {
+		name = "GFX_USA_illinois_republican"
+		texturefile = "gfx/interface/usa_voting_gfx/illinois_republican.dds"
+	}
+	spriteType = {
+		name = "GFX_USA_illinois_democratic"
+		texturefile = "gfx/interface/usa_voting_gfx/illinois_democratic.dds"
+	}
+
+	spriteType = {
+		name = "GFX_USA_wisconsin_republican"
+		texturefile = "gfx/interface/usa_voting_gfx/wisconsin_republican.dds"
+	}
+	spriteType = {
+		name = "GFX_USA_wisconsin_democratic"
+		texturefile = "gfx/interface/usa_voting_gfx/wisconsin_democratic.dds"
+	}
+
+	spriteType = {
+		name = "GFX_USA_indiana_republican"
+		texturefile = "gfx/interface/usa_voting_gfx/indiana_republican.dds"
+	}
+	spriteType = {
+		name = "GFX_USA_indiana_democratic"
+		texturefile = "gfx/interface/usa_voting_gfx/indiana_democratic.dds"
+	}
+
+	spriteType = {
+		name = "GFX_USA_michigan_republican"
+		texturefile = "gfx/interface/usa_voting_gfx/michigan_republican.dds"
+	}
+	spriteType = {
+		name = "GFX_USA_michigan_democratic"
+		texturefile = "gfx/interface/usa_voting_gfx/michigan_democratic.dds"
 	}
 }
