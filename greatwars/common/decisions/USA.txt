@@ -312,7 +312,7 @@ dgk_usa_statehood_policies_category = {
 			state = 877
 		}
 
-		allowed = {
+		available = {
 			tag = USA
 			country_exists = OKL
 			country_exists = USA
@@ -366,7 +366,7 @@ dgk_usa_statehood_policies_category = {
 			state = 376
 		}
 
-		allowed = {
+		available = {
 			tag = USA
 			country_exists = NMX
 			country_exists = USA
@@ -401,7 +401,7 @@ dgk_usa_statehood_policies_category = {
 			state = 377
 		}
 
-		allowed = {
+		available = {
 			tag = USA
 			country_exists = ARZ
 			country_exists = USA
@@ -436,7 +436,7 @@ dgk_usa_statehood_policies_category = {
 			state = 463
 		}
 
-		allowed = {
+		available = {
 			tag = USA
 			country_exists = ALK
 			country_exists = USA
@@ -471,7 +471,7 @@ dgk_usa_statehood_policies_category = {
 			state = 629
 		}
 
-		allowed = {
+		available = {
 			tag = USA
 			country_exists = HAW
 			country_exists = USA
