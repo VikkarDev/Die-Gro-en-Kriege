@@ -2,6 +2,18 @@ spriteTypes = {
 
 	#### Mod goal icons
 	SpriteType = {
+		name = "GFX_JAP_focus_the_manchurian_crisis"
+		texturefile = "gfx/interface/goals/jap/JAP_focus_the_manchurian_crisis.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_focus_the_manchurian_question"
+		texturefile = "gfx/interface/goals/jap/JAP_focus_the_manchurian_question.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_focus_genjo"
+		texturefile = "gfx/interface/goals/jap/JAP_focus_genjo.dds"
+	}
+	SpriteType = {
 		name = "GFX_ENG_focus_irish_question"
 		texturefile = "gfx/interface/goals/eng/ENG_focus_irish_question.dds"
 	}

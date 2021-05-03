@@ -2891,4 +2891,9 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/report_event_tur_upheaval_celebration.dds"
 	}
 	
+	spriteType = { 
+		name = "GFX_event_rus_prop"
+		texturefile = "gfx/event_pictures/event_rus_prop.dds"
+	}
+
 }

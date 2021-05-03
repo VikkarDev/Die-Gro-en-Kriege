@@ -1,0 +1,43 @@
+add_namespace = russia
+
+# Succesful Propaganda
+country_event = {
+	id = russia.1
+	title = russia.1.t
+	desc = russia1.d
+	picture = GFX_event_rus_prop
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	trigger = {
+        tag = SOV
+	}
+
+	option = {
+		name = russia.1.a
+		ai_chance = { factor = 100 }
+        add_political_power = 50
+	}
+}
+
+#Dynamic Stuff
+
+country_event = {
+	id = russia.2
+	title = russia.2.t
+	desc = russia.2.d
+	picture = GFX_event_rus_prop
+    hidden = yes
+
+	fire_only_once = no
+	is_triggered_only = yes
+
+	trigger = {
+        tag = SOV
+	}
+        immediate = { mark_focus_tree_layout_dirty = yes
+		              set_country_flag = boxer_reb_over
+					  set_country_flag = rus_japwar_over }
+
+}

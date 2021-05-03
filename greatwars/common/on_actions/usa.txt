@@ -15,11 +15,23 @@ on_actions = {
 				}
 			}
 
-			375 = {
-				set_variable = { republican_support = 3 }
-				set_variable = { democratic_support = 5 }
+			366 = {
+				set_variable = { republican_support = 0 }
+				set_variable = { democratic_support = 2 }
+				set_variable = { socialist_support = 0 }
+				set_variable = { vote_value = 6 }
+			}
+			367 = {
+				set_variable = { republican_support = 1 }
+				set_variable = { democratic_support = 3 }
 				set_variable = { socialist_support = 1 }
-				set_variable = { vote_value = 15 }
+				set_variable = { vote_value = 11 }
+			}
+			370 = {
+				set_variable = { republican_support = 0 }
+				set_variable = { democratic_support = 1 }
+				set_variable = { socialist_support = 0 }
+				set_variable = { vote_value = 9 }
 			}
 			371 = {
 				set_variable = { republican_support = 1 }
@@ -27,11 +39,23 @@ on_actions = {
 				set_variable = { socialist_support = 0 }
 				set_variable = { vote_value = 8 }
 			}
-			366 = {
-				set_variable = { republican_support = 0 }
+			372 = {
+				set_variable = { republican_support = 1 }
 				set_variable = { democratic_support = 2 }
 				set_variable = { socialist_support = 0 }
-				set_variable = { vote_value = 6 }
+				set_variable = { vote_value = 8 }
+			}
+			373 = {
+				set_variable = { republican_support = 1 }
+				set_variable = { democratic_support = 2 }
+				set_variable = { socialist_support = 1 }
+				set_variable = { vote_value = 17 }
+			}
+			375 = {
+				set_variable = { republican_support = 3 }
+				set_variable = { democratic_support = 5 }
+				set_variable = { socialist_support = 1 }
+				set_variable = { vote_value = 15 }
 			}
 			378 = {
 				set_variable = { republican_support = 2 }
@@ -110,6 +134,18 @@ on_actions = {
 				set_variable = { democratic_support = 0 }
 				set_variable = { socialist_support = 0 }
 				set_variable = { vote_value = 4 }
+			}
+			391 = {
+				set_variable = { republican_support = 2 }
+				set_variable = { democratic_support = 1 }
+				set_variable = { socialist_support = 0 }
+				set_variable = { vote_value = 9 }
+			}
+			392 = {
+				set_variable = { republican_support = 3 }
+				set_variable = { democratic_support = 2 }
+				set_variable = { socialist_support = 1 }
+				set_variable = { vote_value = 13 }
 			}
 		}
 	}

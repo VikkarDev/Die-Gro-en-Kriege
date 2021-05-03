@@ -18,6 +18,7 @@ capital = 41
 		SPR_rigged_elections_idea
 		SPR_an_empire_in_decline_idea
 		SPR_agarian_economy_idea
+		SPR_underage_monarch_idea
 
 		# Government / Laws
 		limited_conscription
@@ -51,12 +52,11 @@ capital = 41
 	}
 
 	create_country_leader = {
-		name = "Alfonso XIII"
-		desc = ALFONSO_LEADER_DESCRIPTION
-		picture = "Alfonso_XIII.tga"
+		name = "Francisco Silvela"
+		desc = FRANCISCO_SILVELA_LEADER_DESCRIPTION
+		picture = "Francisco_Silvela.tga"
 		ideology = reactionary
 		traits = {
-			underage_monarch_trait
 		}
 	}
 }

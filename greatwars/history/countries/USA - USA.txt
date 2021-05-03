@@ -32,7 +32,6 @@ capital = 361
 	give_guarantee = PAR
 	give_guarantee = ARG
 	give_guarantee = URG
-	puppet = NEG
 
     # US protection of Liberia from colonial powers
 	give_guarantee = LIB
@@ -84,6 +83,11 @@ capital = 361
 			target = CSW
 			autonomy_state = autonomy_integrated_puppet
 		}
+		set_autonomy = {
+			target = NEG
+			autonomy_state = autonomy_protectorate
+		}
+		
 		if = {
 			limit = {
 				has_start_date < 1900.1.2
@@ -107,11 +111,15 @@ capital = 361
 			}
 		}
 	}
-	
-	#focus teases, get trolled nerds
-	complete_national_focus = USA_gilded_age
-	complete_national_focus = USA_corporate_primacy
-	complete_national_focus = USA_continue_protectionism
+
+	# Started Completed Focuses #
+	complete_national_focus = USA_president_mckinley
+	complete_national_focus = USA_mckinleys_inauguration
+	complete_national_focus = USA_the_civil_rights_issue
+	complete_national_focus = USA_token_appointment
+	complete_national_focus = USA_focus_on_sectionalism
+	complete_national_focus = USA_trouble_in_cuba
+	complete_national_focus = USA_republican_economics
 
 	set_country_flag = USA_gold_standard
 
@@ -162,6 +170,10 @@ capital = 361
 		desc = WILLIAM_LEADER_DESCRIPTION
 		picture = "William_McKinley.tga"
 		ideology = con_liberal
+
+		traits = {
+			popular_incumbent
+		}
 	}
 
 	create_country_leader = {

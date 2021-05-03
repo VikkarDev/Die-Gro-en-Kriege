@@ -101,5 +101,32 @@ ideas = {
 			consumer_goods_factor = -0.02
 		}
 	  }
+	  USA_jeffersons_vision_idea = {
+		picture = usa_jeffersons_vision_idea
+		removal_cost = -1
+	  
+		allowed = {
+			tag = USA
+		}
+	  
+		modifier = {
+			production_speed_infrastructure_factor = -0.015
+			production_speed_industrial_complex_factor = -0.025
+			production_speed_arms_factory_factor = -0.025
+		}
+	  }
+	  USA_corporate_primacy_idea = {
+		picture = usa_corporate_primacy_idea
+		removal_cost = -1
+	  
+		allowed = {
+			tag = USA
+		}
+	  
+		modifier = {
+			industrial_capacity_factory = 0.05
+			consumer_goods_factor = -0.03
+		}
+	  }
 	}
 }
