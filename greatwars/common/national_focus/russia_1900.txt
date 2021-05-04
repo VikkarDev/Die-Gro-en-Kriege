@@ -1627,7 +1627,7 @@
             prerequisite = {}
 
              allow_branch = {
-				has_country_flag = russia.ott.sit
+				
 			 }
 
 			completion_reward = { 
@@ -1644,16 +1644,41 @@
 			cost = 5
 
 			available = {
-			
+			      controls_state = 942
 			}
 
 			prerequisite = {
 				focus = RUS_new_ott
                             }
 
+	        bypass = {
+	                	NOT = {controls_state = 942}
+	                 }
+
 			completion_reward = {
-				add_state_claim = 354
-				add_state_claim = 800
+			942 = {
+				add_building_construction = {
+				type = bunker
+				level = 1
+				province = 7454
+				instant_build = yes
+				}
+
+				add_building_construction = {
+				type = bunker
+				level = 1
+				province = 6991
+				instant_build = yes
+				}
+
+				add_building_construction = {
+				type = bunker
+				level = 1
+				province = 4583
+				instant_build = yes
+				}
+			}
+			add_political_power =  -100	
 			 }
 		}
 
@@ -1674,7 +1699,7 @@
                             }
 
 			completion_reward = { 
-			add_political_power	= 50
+			add_manpower = 10000
 			}
 		}
 
@@ -1696,13 +1721,11 @@
 			prerequisite = {
 				focus = RUS_new_our_ott
                             }
-			completion_reward = { 
-			declare_war_on = {
-                 target = TUR
-                 type = annex_everything
-                              }
+			completion_reward = {
+				 hidden_effect = { SOV = { country_event = { id = russia.4 } } }
+				 custom_effect_tooltip = rus_ott_rei
+				                }
 			}
-		}
 
         		focus = {
 			id = RUS_new_strong

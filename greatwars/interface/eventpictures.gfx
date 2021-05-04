@@ -2896,4 +2896,9 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/event_rus_prop.dds"
 	}
 
+	spriteType = { 
+		name = "GFX_event_ott_no"
+		texturefile = "gfx/event_pictures/report_event_tur_sultan_and_pashas.dds"
+	}
+
 }

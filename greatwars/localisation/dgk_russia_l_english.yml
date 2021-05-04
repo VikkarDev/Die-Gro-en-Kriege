@@ -66,10 +66,11 @@ RUS_new_prep_navy:0 "Prepare the navy"
 RUS_new_boost_army:0 "Boost the Army's Morale"
 RUS_new_negojap:0 "The Chineese Situation"
 RUS_new_strong:0 "Nicholas The Great"
-RUS_back_christmas:0 "Home By Christmas"
-RUS_new_our_ott:0 "Our Rightful Lands"
-RUS_new_prep_ott:0 "Prepare For a Quick War"
-RUS_new_ott:0 "The Sick Man of Europe's Last Days"
+RUS_back_christmas:0 "More Reinforcements"
+RUS_new_our_ott:0 "Emergency Fortifications"
+RUS_new_prep_ott:0 "First Wave of Reinforcements"
+RUS_new_ott:0 "The Ottoman Agreession"
+rus_ott_rei:0 "§GLocal Militia Will Rise Up To fight The Threath of The Ottomans§W"!
 sov_fear_desc:0 "Faith in the Russian Monarcy is at an all time low, We must launch some propaganda campaigns to ensure the loyalty of the Russian people to their one and only, tsar Nicholas."
 sov_fear:0 "Propaganda Campaign"
 SOV_fear_of_revolution2:0 "Uneasy Citizens"
@@ -104,6 +105,9 @@ russia.1.t:0 "Succesful Propaganda Campaigns"
 russia1.d:0 "After the massive propaganda campaigns across the country, Polls show people have now more trust and faith the tsar Nicholas than ever before, We must celebrate this great victory!"
 russia.1.a:0 "Long Live the Tsar"
 russia.ott.sit:0 "§R The Ottomans Have refused our Demands!§W"!
+russia.2.t:0 "The Ottomans Stand Defient"
+russia.2.d:0 "The Ottoman Empire Has Refused Our Rightful Demands, With Demplomatic Relations Cut Between Our Two Countries, We Must Move Quickly to Secure Our Lands."
+russia.2.a:0 "For The Tsar!"
 # NATIONAL SPIRITS
 ########### Russia National Spirits Localisation ###########
 SOV_french_dependancy_desc:0 "While this National Spirit is active, we will have improved relations with  [FRA.GetFlag]  §BFrance§!\n\nRussia has a large military, but its arms are obsolete and some troops even lack equipment. We cannot hope to make progress against German and Austrian forces without French help."
@@ -121,7 +125,7 @@ SOV_disorg_army:0 "Disorganized Army"
 SOV_mandatory:0 "Mandatory Service"
 SOV_navy:0 "Naval Enthusiasm"
 SOV_navy_mod:0 "Modern Navy"
-strong_leader:0 "§GStrong Leader§"!
+strong_leader:0 "§GStrong Leader§W"!
 
 # PARTY NAMES
 ########### Russia Party Names Localisation ###########
