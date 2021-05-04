@@ -1597,64 +1597,80 @@
 	completion_reward ={  }
                  }
 
+    focus = {
+    id = RUS_new_china_won
+	icon = GFX_SOV_focus_first_russian_election
+	x = 32
+	y = 9
+	cost = 30
+
+	available = {
+
+	}
+
+			prerequisite = {focus = RUS_new_negojap}
+	completion_reward ={ add_ideas = SOV_china_rep }
+                 }
+
 		focus = {
-			id = RUS_new_after_box
+			id = RUS_new_ott
 			icon = GFX_SOV_focus_first_russian_election
-			x = 32
+			x = 38
 			y = 9
 
 			cost = 1
 
 			available = {
-			
+			      has_country_flag = russia.ott.sit
 			}
 
-            prerequisite = {focus = RUS_new_negojap}
+            prerequisite = {}
 
              allow_branch = {
-				has_country_flag = boxer_reb_over
+				has_country_flag = russia.ott.sit
 			 }
 
 			completion_reward = { 
-			add_war_support = 0.10
+			add_war_support = 0.05
 			}
 		}				 
 
 		focus = {
-			id = RUS_new_warrep
+			id = RUS_new_our_ott
 			icon = GFX_SOV_focus_first_russian_election
-			x = 31
+			x = 37
 			y = 10
 
-			cost = 1
+			cost = 5
 
 			available = {
 			
 			}
 
 			prerequisite = {
-				focus = RUS_new_after_box
+				focus = RUS_new_ott
                             }
 
-			completion_reward = { 
-			add_ideas = SOV_china_rep
-			}
+			completion_reward = {
+				add_state_claim = 354
+				add_state_claim = 800
+			 }
 		}
 
 		focus = {
-			id = RUS_new_develop
+			id = RUS_new_prep_ott
 			icon = GFX_SOV_focus_first_russian_election
-			x = 33
+			x = 39
 			y = 10
 
-			cost = 1
+			cost = 5
 
 			available = {
 			
 			}
 
 			prerequisite = {
-				focus = RUS_new_after_box
+				focus = RUS_new_ott
                             }
 
 			completion_reward = { 
@@ -1663,25 +1679,28 @@
 		}
 
         		focus = {
-			id = RUS_new_celeb
+			id = RUS_back_christmas
 			icon = GFX_SOV_focus_first_russian_election
-			x = 32
+			x = 38
 			y = 11
 
-			cost = 1
+			cost = 10
 
 			available = {
 			
 			}
 
 			prerequisite = {
-				focus = RUS_new_develop
+				focus = RUS_new_prep_ott
                             }
 			prerequisite = {
-				focus = RUS_new_warrep
+				focus = RUS_new_our_ott
                             }
 			completion_reward = { 
-			add_political_power	= 50
+			declare_war_on = {
+                 target = TUR
+                 type = annex_everything
+                              }
 			}
 		}
 
@@ -1708,8 +1727,7 @@
 			prerequisite = {focus = RUS_new_lead}
 			prerequisite = {focus = RUS_new_induru}
 
-			completion_reward = { 
-			add_country_leader_trait = strong_leader}
+			completion_reward = { add_country_leader_trait = strong_leader }
 		}
 
     focus = {
@@ -2259,7 +2277,7 @@ prerequisite = {focus = RUS_new_art_eq2}
 
 	completion_reward ={
 		add_tech_bonus = {
-             bonus = 1
+             bonus = 0.5
              uses = 1
              category = air_equipment
                                            }
