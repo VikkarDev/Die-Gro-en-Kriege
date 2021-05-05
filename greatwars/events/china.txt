@@ -47,4 +47,6 @@ country_event = {
 
 	option = {
         name = china.2.a
+    }
+}
         
