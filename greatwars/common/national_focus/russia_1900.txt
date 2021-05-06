@@ -1571,7 +1571,7 @@
 	cost = 5
 
 	available = {
-
+            NOT = {has_idea = SOV_disorg_army}
 	}
 
 			prerequisite = {focus = RUS_new_prep_infa}
@@ -1615,8 +1615,8 @@
 		focus = {
 			id = RUS_new_ott
 			icon = GFX_SOV_focus_first_russian_election
-			x = 38
-			y = 9
+			x = 22
+			y = 7
 
 			cost = 1
 
@@ -1624,10 +1624,10 @@
 			      has_country_flag = russia.ott.sit
 			}
 
-            prerequisite = {}
+            prerequisite = { }
 
              allow_branch = {
-				  has_country_flag = russia.ott.sit
+				  
 			 }
 
 			completion_reward = { 
@@ -1638,8 +1638,8 @@
 		focus = {
 			id = RUS_new_our_ott
 			icon = GFX_SOV_focus_first_russian_election
-			x = 37
-			y = 10
+			x = 21
+			y = 8
 
 			cost = 5
 
@@ -1685,8 +1685,8 @@
 		focus = {
 			id = RUS_new_prep_ott
 			icon = GFX_SOV_focus_first_russian_election
-			x = 39
-			y = 10
+			x = 23
+			y = 8
 
 			cost = 5
 
@@ -1706,8 +1706,8 @@
         		focus = {
 			id = RUS_back_christmas
 			icon = GFX_SOV_focus_first_russian_election
-			x = 38
-			y = 11
+			x = 22
+			y = 9
 
 			cost = 10
 
@@ -2108,12 +2108,7 @@ prerequisite = {focus = RUS_new_support_eq2}
 prerequisite = {focus = RUS_new_infantry_eq2}
 prerequisite = {focus = RUS_new_art_eq2}
 
-   completion_reward ={
-            swap_ideas = { 
-                 remove_idea = SOV_disorg_army
-                  add_idea = SOV_modern_army
-                           }
-        }		   
+   completion_reward ={remove_ideas = SOV_disorg_army }	   
  }
 
     focus = {

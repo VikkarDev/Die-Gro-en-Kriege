@@ -243,7 +243,6 @@ ideas = {
             modifier = {
                 army_speed_factor = 0.05
                 army_attack_factor = 0.05
-                army_org = 0.05
             }
         } 
 
@@ -283,19 +282,6 @@ ideas = {
             }
         }
 
-                  SOV_modern_army = {
-            picture = generic_intel_bonus
-
-            allowed = {
-                tag = SOV
-            }
-
-            modifier = {
-                army_attack_factor	= 0.05
-                army_defence_factor = 0.05
-            }
-        }
-
                   SOV_disorg_army = {
             picture = chi_army_corruption3
 
@@ -304,9 +290,9 @@ ideas = {
             }
 
             modifier = {
-                army_attack_factor	= -0.15
-                army_defence_factor = -0.10
-                army_org = -5
+                army_attack_factor	= -0.25
+                army_defence_factor = -0.15
+                army_org = -10
             }
         }
 
