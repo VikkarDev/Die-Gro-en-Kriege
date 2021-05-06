@@ -205,7 +205,8 @@ shared_focus = {
 	}
 
 	completion_reward = {
-		
+		remove_ideas = { USA_jim_crow_laws }
+		add_political_power = 50
 	}
 }
 
