@@ -2638,55 +2638,55 @@ spriteTypes = {
     ### KOR ###
     
     SpriteType = {
-		name = "GFX_focus_KOR_with_independence_club"
+		name = "GFX_KOR_with_independence_club"
 		texturefile = "gfx/interface/goals/KOR/KOR_with_independence_club.dds"
 	}
     SpriteType = {
-		name = "GFX_focus_KOR_return_of_seojaepil"
+		name = "GFX_KOR_return_of_seojaepil"
 		texturefile = "gfx/interface/goals/KOR/KOR_return_of_seojaepil.dds"
 	}
     SpriteType = {
-		name = "GFX_focus_KOR_accept_of_article_vi_act"
+		name = "GFX_KOR_accept_of_article_vi_act"
 		texturefile = "gfx/interface/goals/KOR/KOR_accept_of_article_vi_act.dds"
 	}
     SpriteType = {
-		name = "GFX_focus_KOR_real_democray"
+		name = "GFX_KOR_real_democray"
 		texturefile = "gfx/interface/goals/KOR/KOR_real_democray.dds"
 	}
     SpriteType = {
-		name = "GFX_focus_KOR_construction_of_Hansung_court_begins"
+		name = "GFX_KOR_construction_of_Hansung_court_begins"
 		texturefile = "gfx/interface/goals/KOR/KOR_construction_of_Hansung_court_begins.dds"
 	}
     SpriteType = {
-		name = "GFX_focus_KOR_conservative_reformed_mixed"
+		name = "GFX_KOR_conservative_reformed_mixed"
 		texturefile = "gfx/interface/goals/KOR/KOR_conservative_reformed_mixed.dds"
 	}
     SpriteType = {
-		name = "GFX_focus_KOR_destiny_of_badguys"
+		name = "GFX_KOR_destiny_of_badguys"
 		texturefile = "gfx/interface/goals/KOR/KOR_destiny_of_badguys.dds"
 	}
     SpriteType = {
-		name = "GFX_focus_KOR_set_eight_province"
+		name = "GFX_KOR_set_eight_province"
 		texturefile = "gfx/interface/goals/KOR/KOR_set_eight_province.dds"
 	}
     SpriteType = {
-		name = "GFX_focus_KOR_ministers_change"
+		name = "GFX_KOR_ministers_change"
 		texturefile = "gfx/interface/goals/KOR/KOR_ministers_change.dds"
 	}
     SpriteType = {
-		name = "GFX_focus_KOR_criminal_acts"
+		name = "GFX_KOR_criminal_acts"
 		texturefile = "gfx/interface/goals/KOR/KOR_criminal_acts.dds"
 	}
     SpriteType = {
-		name = "GFX_focus_KOR_land_reform_contiuned"
+		name = "GFX_KOR_land_reform_contiuned"
 		texturefile = "gfx/interface/goals/KOR/KOR_land_reform_contiuned.dds"
 	}
     SpriteType = {
-		name = "GFX_focus_KOR_constitution"
+		name = "GFX_KOR_constitution"
 		texturefile = "gfx/interface/goals/KOR/KOR_constitution.dds"
 	}
     SpriteType = {
-		name = "GFX_focus_KOR_second_elections"
+		name = "GFX_KOR_second_elections"
 		texturefile = "gfx/interface/goals/KOR/KOR_second_elections.dds"
 	}
 }
