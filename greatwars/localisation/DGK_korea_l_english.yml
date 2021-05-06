@@ -1,7 +1,6 @@
 ﻿ l_english:
 
 
-# Sweden #
  #localisation# 
  ##BY 100won##
  
@@ -18,6 +17,21 @@
  kor_gwangmu_reform:0 "Gwanmu Reform"
  kor_gwangmu_reform_desc:0 "Despite limited knowledge of this outside of Korea itself, the Korean imperial family has pursued independent reforms akin to that of the Meiji restoration to further strengthen the state. Government funded schools, banks and railroads have all been greenlit under the constitution, heavily influenced by Emperor Gojong’s visit to Russia in 1897 including all the rituals and circumstances held with it. The reforms, however optimistic they are, have been under threat lately due to Koreans' questionable independence and opposition from the likes of the Japanese and conservatives in the government. Not only that, but the budget is extremely inflated with the expansion of the military. Time will tell if Korea can continue its reforms, hoping to seat itself as a modern and functioning bureaucracy."
  #FOCUS
+ 
+ KOR_with_independence_club:0 "With Independence Club"
+ KOR_return_of_seojaepil:0 "The Return of Seo Jae-pil"
+ KOR_accept_of_article_vi_act:0 "Accept 6 Articles"
+ KOR_real_democray:0 "Enabling parliamentary functionality"
+ KOR_construction_of_Hansung_court_begins:0 "Construction of Hansung Court begins"
+ KOR_conservative_reformed_mixed:0 "Conservative Reformed Coordination"
+ KOR_destiny_of_badguys:0 "The Destiny of a corrupt official"
+ KOR_set_eight_province:0 "New Eight Provinces administrative district"
+ KOR_ministers_change:0 "the rearrangement of ministers"
+ KOR_criminal_acts:0 "All production of Criminal Law"
+ KOR_land_reform_contiuned:0 "Continuing the issuance of land documents"
+ KOR_constitution:0 "Declaration of the Constitution"
+ KOR_second_election:0 "Second congress election"
+ 
  #### POLITICALS
 
 
