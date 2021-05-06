@@ -1627,7 +1627,7 @@
             prerequisite = {}
 
              allow_branch = {
-				
+				  has_country_flag = russia.ott.sit
 			 }
 
 			completion_reward = { 
@@ -1712,7 +1712,7 @@
 			cost = 10
 
 			available = {
-			
+			     
 			}
 
 			prerequisite = {
@@ -1761,7 +1761,7 @@
 	cost = 1
 
     allow_branch = {
-		
+		has_country_flag = russia.jap.sit
 	}
 
 	available = {

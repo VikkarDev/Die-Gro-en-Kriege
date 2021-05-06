@@ -69,6 +69,11 @@ news_event = {
 
 	is_triggered_only = yes
 
+    immediate = { 
+            set_country_flag = russia.jap.sit
+			mark_focus_tree_layout_dirty = yes
+    }
+
 	option = {
 		name = dgk_news.3.a
 
@@ -90,4 +95,29 @@ news_event = {
 		}
 		#ai_chance = { factor = 100 }
 	}
+}
+news_event = {
+	id = dgk_news.4
+	title = "Ottoman Empire Declares War On Russia"
+	desc = russia_war_ott
+	picture = GFX_event_ott_war_rus
+
+    major = yes
+
+	is_triggered_only = yes
+
+	trigger = {
+		tag = SOV
+	}
+
+    immediate = { 
+            set_country_flag = russia.ott.sit
+			mark_focus_tree_layout_dirty = yes
+
+    }
+
+	option = {
+	    name = "The Sick Man Of Europe's Last Days?"
+    }
+
 }

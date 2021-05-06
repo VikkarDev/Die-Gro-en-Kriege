@@ -104,10 +104,11 @@ SOV_marxist_leninism_ADJ:0 "Soviet"
 russia.1.t:0 "Succesful Propaganda Campaigns"
 russia1.d:0 "After the massive propaganda campaigns across the country, Polls show people have now more trust and faith the tsar Nicholas than ever before, We must celebrate this great victory!"
 russia.1.a:0 "Long Live the Tsar"
-russia.ott.sit:0 "§R The Ottomans Have refused our Demands!§W"!
+russia.ott.sit:0 "§RThe Ottomans Have Declared War On Us.§W"!
 russia.2.t:0 "The Ottomans Stand Defient"
 russia.2.d:0 "The Ottoman Empire Has Refused Our Rightful Demands, With Demplomatic Relations Cut Between Our Two Countries, We Must Move Quickly to Secure Our Lands."
 russia.2.a:0 "For The Tsar!"
+russia_war_ott:0 "After The Failed Expedition by Russian Forces Into Ottoman Armenia, The Political Crisis Has Developped into Full On War, It is Unkown if The Ottoman Empire or As Many Know It "The Sick Man Of Europe" Will Pull A Stunning Victory Or Will Be humiliated Under The Russian Boot.\n\nReports of Fighting on the Russo-Ottoman Border Show That There is No Clear Winnder Yet, We may only Wait and See."
 # NATIONAL SPIRITS
 ########### Russia National Spirits Localisation ###########
 SOV_french_dependancy_desc:0 "While this National Spirit is active, we will have improved relations with  [FRA.GetFlag]  §BFrance§!\n\nRussia has a large military, but its arms are obsolete and some troops even lack equipment. We cannot hope to make progress against German and Austrian forces without French help."
