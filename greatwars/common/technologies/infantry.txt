@@ -1133,7 +1133,7 @@ technologies = {
 		start_year = 1946
 		folder = {
 			name = infantry_folder
-			position = { x = 0 y = @1946 }
+			position = { x = 0 y = @1945 }
 		}
 		
 		categories = {
