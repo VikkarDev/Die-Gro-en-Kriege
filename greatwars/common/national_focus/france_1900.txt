@@ -568,6 +568,72 @@ focus_tree = {
 	}
 
 	focus = {
+		id = FRA_the_seperation_is_complete
+		icon = GFX_fra_focus_the_seperation_is_complete
+		x = 2
+		y = 18
+
+		cost = 10
+		prerequisite = { focus = FRA_continue_previous_policies }
+
+		available = {
+			
+		}
+
+		bypass = {
+			
+		}
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = FRA_fiscal_reform2
+		icon = GFX_fra_focus_fiscal_reform2
+		x = 4
+		y = 18
+
+		cost = 10
+		prerequisite = { focus = FRA_continue_previous_policies }
+
+		available = {
+			
+		}
+
+		bypass = {
+			
+		}
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = FRA_negotiate_morocco
+		icon = GFX_fra_focus_negotiate_morocco
+		x = 6
+		y = 18
+
+		cost = 10
+		prerequisite = { focus = FRA_continue_previous_policies }
+
+		available = {
+			
+		}
+
+		bypass = {
+			
+		}
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
 		id = FRA_victory_of_the_parliamentary_right
 		icon = GFX_fra_focus_victory_of_the_parliamentary_right
 		x = 10
@@ -621,6 +687,287 @@ focus_tree = {
 		cost = 10
 		prerequisite = { focus = FRA_a_rightist_cabinet }
 
+		available = {
+			
+		}
+
+		bypass = {
+			
+		}
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = FRA_fiscal_reform
+		icon = GFX_fra_fiscal_reform
+		x = 9
+		y = 10
+
+		cost = 10
+		prerequisite = { focus = FRA_gain_support_from_the_church }
+
+		available = {
+			
+		}
+
+		bypass = {
+			
+		}
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = FRA_catholic_schools
+		icon = GFX_fra_catholic_schools
+		x = 11
+		y = 10
+
+		cost = 10
+		prerequisite = { focus = FRA_gain_support_from_the_church }
+
+		available = {
+			
+		}
+
+		bypass = {
+			
+		}
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = FRA_church_subsidy
+		icon = GFX_fra_church_subsidy
+		x = 11
+		y = 11
+
+		cost = 10
+		prerequisite = { focus = FRA_catholic_schools }
+
+		available = {
+			
+		}
+
+		bypass = {
+			
+		}
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = FRA_send_missionaries_to_the_colonies
+		icon = GFX_fra_send_missionaries_to_the_colonies
+		x = 10
+		y = 12
+
+		cost = 10
+		prerequisite = { focus = FRA_fiscal_reform }
+		prerequisite = { focus = FRA_church_subsidy }
+
+		available = {
+			
+		}
+
+		bypass = {
+			
+		}
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = FRA_a_conservative_france
+		icon = GFX_fra_a_conservative_france
+		x = 10
+		y = 13
+
+		cost = 10
+		prerequisite = { focus = FRA_send_missionaries_to_the_colonies }
+		available = {
+			
+		}
+
+		bypass = {
+			
+		}
+
+		completion_reward = {
+
+		}
+	}
+
+
+	######### COLONIAL BRANCH #########
+
+	focus = {
+		id = FRA_finish_colonization_of_chad
+		icon = GFX_fra_finish_colonization_of_chad
+		x = 16
+		y = 0
+
+		cost = 10
+		#prerequisite = { focus = FRA_send_missionaries_to_the_colonies }
+		available = {
+			
+		}
+
+		bypass = {
+			
+		}
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = FRA_treaty_of_paris
+		icon = GFX_fra_treaty_of_paris
+		x = 16
+		y = 1
+
+		cost = 10
+		prerequisite = { focus = FRA_finish_colonization_of_chad }
+		available = {
+			
+		}
+
+		bypass = {
+			
+		}
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = FRA_develop_the_colonies
+		icon = GFX_fra_develop_the_colonies
+		x = 16
+		y = 2
+
+		cost = 10
+		prerequisite = { focus = FRA_treaty_of_paris }
+		available = {
+			
+		}
+
+		bypass = {
+			
+		}
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = FRA_develop_indochina
+		icon = GFX_fra_develop_indochina
+		x = 13
+		y = 3
+
+		cost = 10
+		prerequisite = { focus = FRA_develop_the_colonies }
+		available = {
+			
+		}
+
+		bypass = {
+			
+		}
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = FRA_develop_west_africa
+		icon = GFX_fra_develop_west_africa
+		x = 15
+		y = 3
+
+		cost = 10
+		prerequisite = { focus = FRA_develop_the_colonies }
+		available = {
+			
+		}
+
+		bypass = {
+			
+		}
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = FRA_develop_north_africa
+		icon = GFX_fra_develop_north_africa
+		x = 17
+		y = 3
+
+		cost = 10
+		prerequisite = { focus = FRA_develop_the_colonies }
+		available = {
+			
+		}
+
+		bypass = {
+			
+		}
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = FRA_increase_immigration_to_algeria
+		icon = GFX_fra_increase_immigration_to_algeria
+		x = 17
+		y = 4
+
+		cost = 10
+		prerequisite = { focus = FRA_develop_the_colonies }
+		available = {
+			
+		}
+
+		bypass = {
+			
+		}
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = FRA_develop_french_equatorial_africa
+		icon = GFX_fra_develop_french_equatorial_africa
+		x = 19
+		y = 3
+
+		cost = 10
+		prerequisite = { focus = FRA_develop_the_colonies }
 		available = {
 			
 		}
