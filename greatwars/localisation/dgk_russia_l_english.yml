@@ -108,7 +108,11 @@ russia.ott.sit:0 "§RThe Ottomans Have Declared War On Us.§W"!
 russia.2.t:0 "The Ottomans Stand Defient"
 russia.2.d:0 "The Ottoman Empire Has Refused Our Rightful Demands, With Demplomatic Relations Cut Between Our Two Countries, We Must Move Quickly to Secure Our Lands."
 russia.2.a:0 "For The Tsar!"
-russia_war_ott:0 "After The Failed Expedition by Russian Forces Into Ottoman Armenia, The Political Crisis Has Developped into Full On War, It is Unkown if The Ottoman Empire or As Many Know It "The Sick Man Of Europe" Will Pull A Stunning Victory Or Will Be humiliated Under The Russian Boot.\n\nReports of Fighting on the Russo-Ottoman Border Show That There is No Clear Winnder Yet, We may only Wait and See."
+russia.5.t:0 "The Chinese Question"
+russia.5.d:0 "With our armed forces ready for battle, and with China busy with it's internal problems, perhaps we should take advantage of this situation to expand our influence in Asia."
+russia.5.a:0 "To Peking!"
+russia.5.b:0 "No, we still need to prepare."
+rus_quick_chi:0 "The Chinese Threat Is Dealt With"
 # NATIONAL SPIRITS
 ########### Russia National Spirits Localisation ###########
 SOV_french_dependancy_desc:0 "While this National Spirit is active, we will have improved relations with  [FRA.GetFlag]  §BFrance§!\n\nRussia has a large military, but its arms are obsolete and some troops even lack equipment. We cannot hope to make progress against German and Austrian forces without French help."

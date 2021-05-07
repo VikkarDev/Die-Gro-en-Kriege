@@ -1570,9 +1570,7 @@
 	y = 7
 	cost = 5
 
-	available = {
-            NOT = {has_idea = SOV_disorg_army}
-	}
+	available = {	}
 
 			prerequisite = {focus = RUS_new_prep_infa}
 			prerequisite = {focus = RUS_new_prep_navy}
@@ -1591,10 +1589,14 @@
 	available = {
 
 	}
-
 			prerequisite = {focus = RUS_new_boost_army}
-            prerequisite = {focus = RUS_new_ally}
-	completion_reward ={  }
+			prerequisite = {focus = RUS_new_ally}
+
+        bypass = {has_country_flag = rus_quick_chi}
+
+
+
+	completion_reward ={ SOV = { country_event = { id = russia.5 } } }
                  }
 
     focus = {
@@ -1607,6 +1609,8 @@
 	available = {
 
 	}
+
+	allow_branch = { has_country_flag = rus_box_done }
 
 			prerequisite = {focus = RUS_new_negojap}
 	completion_reward ={ add_ideas = SOV_china_rep }

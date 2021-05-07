@@ -2911,4 +2911,9 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/event_russo_jap_war.dds"
 	}
 
+	spriteType = { 
+		name = "GFX_event_chi_quest"
+		texturefile = "gfx/event_pictures/event_rus_chi.dds"
+	}
+
 }
