@@ -1,10 +1,10 @@
 add_namespace = russia
 
-# Succesful Propaganda
+# main
 country_event = {
 	id = russia.1
 	title = russia.1.t
-	desc = russia1.d
+	desc = russia.1.d
 	picture = GFX_event_rus_prop
 
 	fire_only_once = yes
@@ -19,6 +19,36 @@ country_event = {
 		ai_chance = { factor = 100 }
         add_political_power = 50
 	}
+}
+
+country_event = {
+	id = russia.5
+	title = russia.5.t
+	desc = russia.5.d
+	picture = GFX_event_chi_quest
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	trigger = {
+        tag = SOV
+	}
+
+	option = {
+		name = russia.5.a
+		ai_chance = { factor = 20 }
+        declare_war_on = {
+            target = CHI
+            type = annex_everything
+                           }
+		set_country_flag = rus_quick_chi
+	}
+	option = {
+		name = russia.5.b
+		ai_chance = { factor = 80 }
+        add_political_power = 150
+		add_war_support = -0.05
+	}		
 }
 
 # Ottoman stuff
@@ -84,3 +114,4 @@ country_event = {
         immediate = { load_oob = SOV_1900_OTT }
 
 }
+
