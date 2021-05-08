@@ -16,7 +16,7 @@
 
 		focus = {
 			id = RUS_new_industry0
-			icon = GFX_SOV_focus_first_russian_election
+			icon = GFX_focus_generic_self_management
 			x = 12
 			y = 1
 
@@ -1631,7 +1631,7 @@
             prerequisite = { }
 
              allow_branch = {
-				  
+				  has_country_flag = russia.ott.sit
 			 }
 
 			completion_reward = { 
@@ -1758,37 +1758,21 @@
 		}
 
     focus = {
-    id = RUS_new_japwar
-	icon = GFX_SOV_focus_first_russian_election
-	x = 57
-	y = 1
-	cost = 1
-
-    allow_branch = {
-		has_country_flag = russia.jap.sit
-	}
-
-	available = {
-
-	}
-
-	completion_reward ={ add_political_power = 50 }
-                 }
-
-    focus = {
     id = RUS_new_vic
 	icon = GFX_SOV_focus_first_russian_election
 	x = 56
 	y = 2
-	cost = 1
+	cost = 0
 
 	available = {
-
+         
 	}
 
-    prerequisite = {focus = RUS_new_japwar}
+	allow_branch = {has_country_flag = russia.jap.won}
 
-    mutually_exclusive = { focus = RUS_new_def}
+	bypass = {has_country_flag = russia.jap.won}
+
+    prerequisite = {focus = RUS_new_japwar}
 
 	completion_reward ={ add_political_power = 50 }
                  }
@@ -1812,7 +1796,7 @@
      focus = {
     id = RUS_new_develop2
 	icon = GFX_SOV_focus_first_russian_election
-	x = 56
+	x = 57
 	y = 4
 	cost = 1
 
@@ -1820,7 +1804,7 @@
 
 	}
 
-     prerequisite = {focus = RUS_new_vic}
+     prerequisite = {focus = RUS_new_national_holiday}
 
 	completion_reward ={ add_political_power = 50 }
                  }
@@ -1828,7 +1812,7 @@
      focus = {
     id = RUS_new_expand_navy
 	icon = GFX_SOV_focus_first_russian_election
-	x = 54
+	x = 55
 	y = 4
 	cost = 1
 
@@ -1861,17 +1845,19 @@
 	 focus = {
     id = RUS_new_def
 	icon = GFX_SOV_focus_first_russian_election
-	x = 58
+	x = 62
 	y = 2
-	cost = 1
+	cost = 0
 
 	available = {
 
 	}
 
-     prerequisite = {focus = RUS_new_japwar}
+	bypass = {has_country_flag = russia.jap.lost}
 
-     mutually_exclusive = { focus = RUS_new_vic}
+	allow_branch = {has_country_flag = russia.jap.lost}
+
+     prerequisite = {focus = RUS_new_japwar}
 
 	completion_reward ={ add_political_power = 50 }
                  }
@@ -1879,7 +1865,7 @@
      focus = {
     id = RUS_new_statement
 	icon = GFX_SOV_focus_first_russian_election
-	x = 58
+	x = 62
 	y = 3
 	cost = 1
 
@@ -1895,7 +1881,7 @@
      focus = {
     id = RUS_new_negociate
 	icon = GFX_SOV_focus_first_russian_election
-	x = 60
+	x = 63
 	y = 4
 	cost = 1
 
@@ -1911,7 +1897,7 @@
      focus = {
     id = RUS_new_intinal_army
 	icon = GFX_SOV_focus_first_russian_election
-	x = 58
+	x = 61
 	y = 4
 	cost = 1
 
@@ -1925,9 +1911,9 @@
                  }
 
      focus = {
-    id = RUS_new_duma
+    id = RUS_new_prom_el
 	icon = GFX_SOV_focus_first_russian_election
-	x = 58
+	x = 62
 	y = 5
 	cost = 1
 

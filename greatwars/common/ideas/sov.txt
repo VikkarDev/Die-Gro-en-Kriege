@@ -283,7 +283,7 @@ ideas = {
         }
 
                   SOV_disorg_army = {
-            picture = chi_army_corruption3
+            picture = chi_army_corruption2
 
             allowed = {
                 tag = SOV
@@ -292,7 +292,7 @@ ideas = {
             modifier = {
                 army_attack_factor	= -0.25
                 army_defence_factor = -0.15
-                army_org = -10
+                army_org_factor = -0.1
             }
         }
 
@@ -319,6 +319,39 @@ ideas = {
                 navy_capital_ship_attack_factor	= 0.05
                 naval_morale = 5
                 naval_accidents_chance = -0.05
+            }
+        }
+
+                  SOV_mass_prot = {
+            picture = sov_fear_of_revolution
+
+            allowed = {
+                tag = SOV
+            }
+
+            modifier = {
+                stability_factor = -0.25
+                war_support_factor = -0.25
+                consumer_goods_factor = 0.25
+                production_factory_max_efficiency_factor = -0.20
+                production_speed_buildings_factor = -0.40
+                production_factory_efficiency_gain_factor = -0.30
+            }
+        }
+
+                  SOV_shat_army = {
+            picture = chi_army_corruption3
+
+            allowed = {
+                tag = SOV
+            }
+
+            modifier = {
+                army_speed_factor = -0.30
+                army_attack_factor = -0.25
+                army_defence_factor = -0.25
+                army_org_factor = -0.40  
+
             }
         }
 

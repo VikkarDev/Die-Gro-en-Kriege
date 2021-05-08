@@ -53,26 +53,22 @@ country_event = {
 
 # Ottoman stuff
 country_event = {
-	id = russia.2
-	title = russia.2.t
-	desc = russia.2.d
-	picture = GFX_event_ott_no
+	id = russia.4
+	title = russia.4.t
+	desc = russia.4.d
+	picture = GFX_event_rus_prop
+    hidden = yes
 
-	fire_only_once = yes
+	fire_only_once = no
 	is_triggered_only = yes
-	
+
 	trigger = {
         tag = SOV
 	}
+        immediate = { load_oob = SOV_1900_OTT }
 
-	option = {
-		name = russia.2.a
-		ai_chance = { factor = 100 }
-        add_war_support = 0.05
-	}
-     immediate = { mark_focus_tree_layout_dirty = yes
-		           set_country_flag = russia.ott.sit }
 }
+
 
 #Dynamic Stuff
 
@@ -99,19 +95,73 @@ country_event = {
 
 #hidden stuff
 country_event = {
-	id = russia.4
-	title = russia.4.t
-	desc = russia.4.d
-	picture = GFX_event_rus_prop
-    hidden = yes
+	id = russia.2
+	title = russia.2.t
+	desc = russia.2.d
+	picture = GFX_event_ott_no
 
-	fire_only_once = no
+	fire_only_once = yes
 	is_triggered_only = yes
-
+	
 	trigger = {
         tag = SOV
 	}
-        immediate = { load_oob = SOV_1900_OTT }
 
+	option = {
+		name = russia.2.a
+		ai_chance = { factor = 100 }
+        add_war_support = 0.05
+	}
+     immediate = { mark_focus_tree_layout_dirty = yes
+		           set_country_flag = russia.ott.sit }
 }
 
+country_event = {
+	id = russia.6
+	title = russia.6.t
+	desc = russia.6.d
+	picture = GFX_event_rus_prop
+	hidden = yes
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	trigger = {
+        tag = SOV
+	}
+
+	option = {
+		name = russia.6.a
+		ai_chance = { factor = 100 }
+        add_political_power = 50
+	}
+    immediate = { mark_focus_tree_layout_dirty = yes
+                  set_country_flag = russia.jap
+				  set_country_flag = russia.jap.won}
+}
+country_event = {
+	id = russia.7
+	title = russia.7.t
+	desc = russia.7.d
+	picture = GFX_event_rus_prop
+	hidden = yes
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	trigger = {
+        tag = SOV
+	}
+
+	option = {
+		name = russia.7.a
+		ai_chance = { factor = 100 }
+        add_political_power = -200
+		add_ideas = SOV_mass_prot
+		add_ideas = SOV_shat_army
+	}
+    immediate = { mark_focus_tree_layout_dirty = yes
+                  set_country_flag = russia.jap
+				  set_country_flag = russia.jap.lost
+				  }
+}
