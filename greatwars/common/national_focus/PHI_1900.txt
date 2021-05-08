@@ -345,7 +345,7 @@ focus_tree = {
             }
         }
         focus = {
-			id = PHI_1900_claims_on_borneo
+			id = PHI_1900_claim_guam
 			icon = GFX_SOV_focus_state_duma
 			x = 10
 			y = 3
@@ -357,6 +357,13 @@ focus_tree = {
             }
 
 			available = {
+                NOT  = {
+                    is_subject = yes
+                    has_war = yes
+                }
+                USA  = {
+                    
+                }
             }
             completion_reward = {
 
@@ -377,12 +384,77 @@ focus_tree = {
 			available = {
                 NOT  = {
                     is_subject = yes
+                    has_war = yes
                 }
                 has_stability = 60
             }
             completion_reward = {
                 add_stability = 0.1
                 add_political_power = 100
+                
+
+            }
+        }
+        focus = {
+			id = PHI_1900_german_guarantees
+			icon = GFX_SOV_focus_state_duma
+			x = 5
+			y = 3
+
+			cost = 6
+
+            mutually_exclusive = {
+                focus = PHI_1900_Japanese_alliance
+            }
+
+            prerequisite = {
+                focus = PHI_1900_get_foreign_recognition
+            }
+
+			available = {
+                NOT  = {
+                    is_subject = yes
+                    has_war = yes
+                }
+                has_stability = 60
+            }
+
+            completion_reward = {
+                add_political_power = -0.25
+                GER = {
+                    country_event = germany.14
+                }
+            }
+        }
+        focus = {
+			id = PHI_1900_japanese_alliance
+			icon = GFX_SOV_focus_state_duma
+			x = 7
+			y = 3
+
+			cost = 6
+
+            mutually_exclusive = {
+                focus = PHI_1900_german_guarantees
+            }
+
+            prerequisite = {
+                focus = PHI_1900_get_foreign_recognition
+            }
+
+			available = {
+                NOT  = {
+                    is_subject = yes
+                    has_war = yes
+                }
+                has_stability = 60
+            }
+
+            completion_reward = {
+                add_stability = -0.05
+                JAP  = {
+                    country_event = japan.9
+                }
                 
 
             }
