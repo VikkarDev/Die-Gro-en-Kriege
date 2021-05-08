@@ -102,6 +102,48 @@ shared_focus = {
 }
 
 shared_focus = {
+	id = USA_promote_american_national_identity
+	icon = GFX_usa_promote_american_national_identity
+	x = 36
+	y = 17
+
+	cost = 10
+	prerequisite = { focus = USA_focus_on_sectionalism }
+
+	available = {
+		has_country_leader = {
+			name = "William McKinley"
+			ruling_only = yes
+		}
+	}
+
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = USA_suppress_regional_sentiments
+	icon = GFX_usa_suppress_regional_sentiments
+	x = 36
+	y = 18
+
+	cost = 10
+	prerequisite = { focus = USA_promote_american_national_identity }
+
+	available = {
+		has_country_leader = {
+			name = "William McKinley"
+			ruling_only = yes
+		}
+	}
+
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
 	id = USA_focus_on_civil_rights
 	icon = GFX_usa_focus_on_civil_rights
 	x = 38
@@ -120,6 +162,73 @@ shared_focus = {
 
 	completion_reward = {
 		add_political_power = 15
+	}
+}
+
+shared_focus = {
+	id = USA_enforce_the_14th_amendment
+	icon = GFX_usa_focus_enforce_the_14th_amendment
+	x = 38
+	y = 17
+
+	cost = 10
+	prerequisite = { focus = USA_focus_on_civil_rights }
+	mutually_exclusive = { focus = USA_focus_on_sectionalism }
+
+	available = {
+		has_country_leader = {
+			name = "William McKinley"
+			ruling_only = yes
+		}
+	}
+
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = USA_attack_jim_crow_laws
+	icon = GFX_usa_focus_attack_jim_crow_laws
+	x = 38
+	y = 18
+
+	cost = 10
+	prerequisite = { focus = USA_enforce_the_14th_amendment }
+	mutually_exclusive = { focus = USA_focus_on_sectionalism }
+
+	available = {
+		has_country_leader = {
+			name = "William McKinley"
+			ruling_only = yes
+		}
+	}
+
+	completion_reward = {
+		remove_ideas = { USA_jim_crow_laws }
+		add_political_power = 50
+	}
+}
+
+shared_focus = {
+	id = USA_outlaw_the_kkk
+	icon = GFX_usa_focus_outlaw_the_kkk
+	x = 38
+	y = 19
+
+	cost = 10
+	prerequisite = { focus = USA_attack_jim_crow_laws }
+	mutually_exclusive = { focus = USA_focus_on_sectionalism }
+
+	available = {
+		has_country_leader = {
+			name = "William McKinley"
+			ruling_only = yes
+		}
+	}
+
+	completion_reward = {
+		
 	}
 }
 
@@ -144,6 +253,206 @@ shared_focus = {
 }
 
 shared_focus = {
+	id = USA_aid_cuban_rebels
+	icon = GFX_usa_aid_cuban_rebels
+	x = 40
+	y = 15
+
+	cost = 10
+	prerequisite = { focus = USA_trouble_in_cuba }
+	available = {
+		has_country_leader = {
+			name = "William McKinley"
+			ruling_only = yes
+		}
+	}
+
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = USA_anti_imperialist_propaganda
+	icon = GFX_usa_anti_imperialist_propaganda
+	x = 40
+	y = 16
+
+	cost = 10
+	prerequisite = { focus = USA_aid_cuban_rebels }
+	available = {
+		has_country_leader = {
+			name = "William McKinley"
+			ruling_only = yes
+		}
+	}
+
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = USA_liberation_of_cuba
+	icon = GFX_usa_liberation_of_cuba
+	x = 40
+	y = 17
+
+	cost = 10
+	prerequisite = { focus = USA_anti_imperialist_propaganda }
+	available = {
+		has_country_leader = {
+			name = "William McKinley"
+			ruling_only = yes
+		}
+	}
+
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = USA_strengthen_presence_in_the_philippines
+	icon = GFX_usa_strengthen_presence_in_the_philippines
+	x = 40
+	y = 18
+
+	cost = 10
+	prerequisite = { focus = USA_liberation_of_cuba }
+	available = {
+		has_country_leader = {
+			name = "William McKinley"
+			ruling_only = yes
+		}
+	}
+
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = USA_self_governance
+	icon = GFX_usa_self_governance
+	x = 40
+	y = 19
+
+	cost = 10
+	prerequisite = { focus = USA_strengthen_presence_in_the_philippines }
+	available = {
+		has_country_leader = {
+			name = "William McKinley"
+			ruling_only = yes
+		}
+	}
+
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = USA_support_a_civilian_administration
+	icon = GFX_usa_support_a_civilian_administration
+	x = 41
+	y = 20
+
+	cost = 10
+	prerequisite = { focus = USA_self_governance }
+	available = {
+		has_country_leader = {
+			name = "William McKinley"
+			ruling_only = yes
+		}
+	}
+
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = USA_their_own_fate
+	icon = GFX_usa_their_own_fate
+	x = 41
+	y = 21
+
+	cost = 10
+	prerequisite = { focus = USA_support_a_civilian_administration }
+	available = {
+		has_country_leader = {
+			name = "William McKinley"
+			ruling_only = yes
+		}
+	}
+
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = USA_continue_the_occupation
+	icon = GFX_usa_continue_the_occupation
+	x = 39
+	y = 20
+
+	cost = 10
+	prerequisite = { focus = USA_self_governance }
+	available = {
+		has_country_leader = {
+			name = "William McKinley"
+			ruling_only = yes
+		}
+	}
+
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = USA_exploit_natural_resources
+	icon = GFX_usa_exploit_natural_resources
+	x = 39
+	y = 21
+
+	cost = 10
+	prerequisite = { focus = USA_continue_the_occupation }
+	available = {
+		has_country_leader = {
+			name = "William McKinley"
+			ruling_only = yes
+		}
+	}
+
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = USA_economic_imperialism
+	icon = GFX_usa_economic_imperialism
+	x = 39
+	y = 22
+
+	cost = 10
+	prerequisite = { focus = USA_exploit_natural_resources }
+	available = {
+		has_country_leader = {
+			name = "William McKinley"
+			ruling_only = yes
+		}
+	}
+
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
 	id = USA_republican_economics
 	icon = GFX_usa_republican_economics
 	x = 43
@@ -151,6 +460,348 @@ shared_focus = {
 
 	cost = 10
 	prerequisite = { focus = USA_mckinleys_inauguration }
+	available = {
+		has_country_leader = {
+			name = "William McKinley"
+			ruling_only = yes
+		}
+	}
+
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = USA_the_dingley_act
+	icon = GFX_usa_the_dingley_act
+	x = 43
+	y = 15
+
+	cost = 10
+	prerequisite = { focus = USA_republican_economics }
+	available = {
+		has_country_leader = {
+			name = "William McKinley"
+			ruling_only = yes
+		}
+	}
+
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = USA_continue_tariff_policy
+	icon = GFX_usa_continue_tariff_policy
+	x = 43
+	y = 16
+
+	cost = 10
+	prerequisite = { focus = USA_the_dingley_act }
+	available = {
+		has_country_leader = {
+			name = "William McKinley"
+			ruling_only = yes
+		}
+	}
+
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = USA_american_industrial_might
+	icon = GFX_usa_american_industrial_might
+	x = 43
+	y = 17
+
+	cost = 10
+	prerequisite = { focus = USA_continue_tariff_policy }
+	available = {
+		has_country_leader = {
+			name = "William McKinley"
+			ruling_only = yes
+		}
+	}
+
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = USA_center_of_global_manufacturing
+	icon = GFX_usa_center_of_global_manufacturing
+	x = 42
+	y = 18
+
+	cost = 10
+	prerequisite = { focus = USA_american_industrial_might }
+	available = {
+		has_country_leader = {
+			name = "William McKinley"
+			ruling_only = yes
+		}
+	}
+
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = USA_made_in_america
+	icon = GFX_usa_made_in_america
+	x = 44
+	y = 18
+
+	cost = 10
+	prerequisite = { focus = USA_american_industrial_might }
+	available = {
+		has_country_leader = {
+			name = "William McKinley"
+			ruling_only = yes
+		}
+	}
+
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = USA_on_the_issue_of_currency
+	icon = GFX_usa_on_the_issue_of_currency
+	x = 46
+	y = 15
+
+	cost = 10
+	prerequisite = { focus = USA_republican_economics }
+	available = {
+		has_country_leader = {
+			name = "William McKinley"
+			ruling_only = yes
+		}
+	}
+
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = USA_continue_with_gold
+	icon = GFX_usa_continue_with_gold
+	x = 45
+	y = 16
+
+	cost = 10
+	prerequisite = { focus = USA_on_the_issue_of_currency }
+	mutually_exclusive = { focus = USA_advocate_bimetallism }
+	available = {
+		has_country_leader = {
+			name = "William McKinley"
+			ruling_only = yes
+		}
+	}
+
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = USA_support_gold_standard_act
+	icon = GFX_usa_support_gold_standard_act
+	x = 45
+	y = 17
+
+	cost = 10
+	prerequisite = { focus = USA_continue_with_gold }
+	available = {
+		has_country_leader = {
+			name = "William McKinley"
+			ruling_only = yes
+		}
+	}
+
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = USA_advocate_bimetallism
+	icon = GFX_usa_advocate_bimetallism
+	x = 47
+	y = 16
+
+	cost = 10
+	prerequisite = { focus = USA_on_the_issue_of_currency }
+	mutually_exclusive = { focus = USA_continue_with_gold }
+	available = {
+		has_country_leader = {
+			name = "William McKinley"
+			ruling_only = yes
+		}
+	}
+
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = USA_reapproachment_with_silver
+	icon = GFX_usa_reapproachment_with_silver
+	x = 47
+	y = 17
+
+	cost = 10
+	prerequisite = { focus = USA_advocate_bimetallism }
+	available = {
+		has_country_leader = {
+			name = "William McKinley"
+			ruling_only = yes
+		}
+	}
+
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = USA_approach_britain_about_silver_mints
+	icon = GFX_usa_approach_britain_about_silver_mints
+	x = 47
+	y = 18
+
+	cost = 10
+	prerequisite = { focus = USA_reapproachment_with_silver }
+	available = {
+		has_country_leader = {
+			name = "William McKinley"
+			ruling_only = yes
+		}
+	}
+
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = USA_they_reject_the_proposal
+	icon = GFX_usa_they_reject_the_proposal
+	x = 49
+	y = 19
+
+	cost = 10
+	prerequisite = { focus = USA_approach_britain_about_silver_mints }
+	available = {
+		has_country_leader = {
+			name = "William McKinley"
+			ruling_only = yes
+		}
+	}
+
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = USA_stick_to_gold
+	icon = GFX_usa_stick_to_gold
+	x = 49
+	y = 20
+
+	cost = 10
+	prerequisite = { focus = USA_they_reject_the_proposal }
+	available = {
+		has_country_leader = {
+			name = "William McKinley"
+			ruling_only = yes
+		}
+	}
+
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = USA_continue_with_our_own_silver
+	icon = GFX_usa_continue_with_our_own_silver
+	x = 51
+	y = 20
+
+	cost = 10
+	prerequisite = { focus = USA_they_reject_the_proposal }
+	available = {
+		has_country_leader = {
+			name = "William McKinley"
+			ruling_only = yes
+		}
+	}
+
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = USA_a_stable_currency
+	icon = GFX_usa_a_stable_currency
+	x = 50
+	y = 21
+
+	cost = 10
+	prerequisite = { focus = USA_stick_to_gold focus = USA_continue_with_our_own_silver }
+	available = {
+		has_country_leader = {
+			name = "William McKinley"
+			ruling_only = yes
+		}
+	}
+
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = USA_they_accept_the_proposal
+	icon = GFX_usa_they_accept_the_proposal
+	x = 47
+	y = 19
+
+	cost = 10
+	prerequisite = { focus = USA_approach_britain_about_silver_mints }
+	available = {
+		has_country_leader = {
+			name = "William McKinley"
+			ruling_only = yes
+		}
+	}
+
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = USA_international_bimentallism
+	icon = GFX_usa_international_bimentallism
+	x = 47
+	y = 20
+
+	cost = 10
+	prerequisite = { focus = USA_they_accept_the_proposal }
 	available = {
 		has_country_leader = {
 			name = "William McKinley"

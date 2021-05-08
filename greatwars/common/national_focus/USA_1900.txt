@@ -921,12 +921,11 @@ focus_tree = {
 		icon = USA_placeholder
 		x = 20
 		y = 9
+
 		cost = 5
 
-		
-		
 		completion_reward = {
-			
+			add_political_power = 72
 		}
 	}
 	focus = {
@@ -934,8 +933,8 @@ focus_tree = {
 		icon = USA_placeholder
 		x = 20
 		y = 10
+		
 		cost = 2
-
 		
 		prerequisite = {
 			focus = USA_american_politics
@@ -2356,14 +2355,17 @@ focus_tree = {
 		
 		cost = 10
 
-		
-
 		prerequisite = {
 			focus = USA_armed_forces
 		}
 		
 		completion_reward = { 
-			
+			add_tech_bonus = {
+				name = "USA_reorganize_war_department"
+				bonus = 1.0
+				uses = 2
+				category = land_doctrine
+			}
 		}
 	}
 
@@ -2375,14 +2377,12 @@ focus_tree = {
 		
 		cost = 10
 
-		
-
 		prerequisite = {
 			focus = USA_reorganize_war_department
 		}
 		
 		completion_reward = { 
-			
+			army_experience = 5
 		}
 	}
 
@@ -2413,14 +2413,17 @@ focus_tree = {
 		
 		cost = 5
 
-		
-
 		prerequisite = {
 			focus = USA_overseas_army
 		}
 		
 		completion_reward = { 
-			
+			add_tech_bonus = {
+				name = "USA_overseas_engineers"
+				bonus = 1.0
+				uses = 1
+				category = engineers_tech
+			}
 		}
 	}
 
@@ -2470,8 +2473,6 @@ focus_tree = {
 		
 		cost = 10
 
-		
-
 		prerequisite = {
 			focus = USA_occupation_force
 		}
@@ -2493,14 +2494,17 @@ focus_tree = {
 		
 		cost = 6
 
-		
-
 		prerequisite = {
 			focus = USA_reorganize_war_department
 		}
 		
 		completion_reward = { 
-			
+			add_tech_bonus = {
+				name = "USA_expand_our_army"
+				bonus = 1.0
+				uses = 1
+				category = infantry_tech
+			}
 		}
 	}
 
@@ -2512,14 +2516,13 @@ focus_tree = {
 		
 		cost = 6
 
-		
-
 		prerequisite = {
 			focus = USA_expand_our_army
 		}
 		
 		completion_reward = { 
-			
+			remove_ideas = { USA_scars_of_1865 }
+			army_experience = 15
 		}
 	}
 
@@ -2636,14 +2639,12 @@ focus_tree = {
 		
 		cost = 6
 
-		
-
 		prerequisite = {
 			focus = USA_armed_forces
 		}
 		
 		completion_reward = { 
-			
+			add_research_slot = 1
 		}
 	}
 
@@ -2654,8 +2655,6 @@ focus_tree = {
 		y = 2
 		
 		cost = 6
-
-		
 
 		prerequisite = {
 			focus = USA_fund_academies
@@ -2723,7 +2722,12 @@ focus_tree = {
 		}
 		
 		completion_reward = { 
-			
+			add_tech_bonus = {
+				name = "USA_state_of_the_navy"
+				bonus = 1
+				uses = 1
+				category = naval_equipment
+			}
 		}
 	}
 
@@ -2742,7 +2746,12 @@ focus_tree = {
 		}
 		
 		completion_reward = { 
-			
+			add_tech_bonus = {
+				name = "USA_continued_dreadnought_investment"
+				uses = 1
+				bonus = 1
+				technology = basic_destroyer # when dreadnoughts are later added, add that here
+			}
 		}
 	}
 
@@ -2780,7 +2789,12 @@ focus_tree = {
 		}
 		
 		completion_reward = { 
-			
+			add_tech_bonus = {
+				name = "USA_submarine_development"
+				bonus = 1
+				uses = 1
+				technology = basic_submarine
+			}
 		}
 	}
 
@@ -2837,7 +2851,12 @@ focus_tree = {
 		}
 		
 		completion_reward = { 
-			
+			add_tech_bonus = {
+				name = "USA_commission_destroyers"
+				uses = 1
+				bonus = 1
+				technology = basic_destroyer
+			}
 		}
 	}
 
