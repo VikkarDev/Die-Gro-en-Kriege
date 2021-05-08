@@ -108,7 +108,7 @@ guiTypes = {
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
-					text = "1900"
+					text = "1898"
 					maxWidth = 170
 					maxHeight = 32
 					format = left
@@ -117,11 +117,11 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "infantry_year3"
-					position = { x = 350 y = 50 }
+					position = { x = 300 y = 50 }
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
-					text = "1902"
+					text = "1900"
 					maxWidth = 170
 					maxHeight = 32
 					format = left
@@ -133,7 +133,7 @@ guiTypes = {
 					position = { x = 410 y = 50 }
 					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
-					text = "1904"
+					text = "1902"
 					maxWidth = 170
 					maxHeight = 32
 					format = left
@@ -145,7 +145,7 @@ guiTypes = {
 					position = { x = 550 y = 50 }
 					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
-					text = "1905"
+					text = "1904"
 					maxWidth = 170
 					maxHeight = 32
 					format = left
@@ -157,7 +157,7 @@ guiTypes = {
 					position = { x = 690 y = 50 }
 					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
-					text = "1908"
+					text = "1905"
 					maxWidth = 170
 					maxHeight = 32
 					format = left
