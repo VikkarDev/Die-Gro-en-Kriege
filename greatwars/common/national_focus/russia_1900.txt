@@ -16,7 +16,7 @@
 
 		focus = {
 			id = RUS_new_industry0
-			icon = GFX_SOV_focus_first_russian_election
+			icon = GFX_focus_generic_self_management
 			x = 12
 			y = 1
 
@@ -1570,9 +1570,7 @@
 	y = 7
 	cost = 5
 
-	available = {
-
-	}
+	available = {	}
 
 			prerequisite = {focus = RUS_new_prep_infa}
 			prerequisite = {focus = RUS_new_prep_navy}
@@ -1591,99 +1589,147 @@
 	available = {
 
 	}
-
 			prerequisite = {focus = RUS_new_boost_army}
-            prerequisite = {focus = RUS_new_ally}
-	completion_reward ={  }
+			prerequisite = {focus = RUS_new_ally}
+
+        bypass = {has_country_flag = rus_quick_chi}
+
+
+
+	completion_reward ={ SOV = { country_event = { id = russia.5 } } }
+                 }
+
+    focus = {
+    id = RUS_new_china_won
+	icon = GFX_SOV_focus_first_russian_election
+	x = 32
+	y = 9
+	cost = 30
+
+	available = {
+
+	}
+
+	allow_branch = { has_country_flag = rus_box_done }
+
+			prerequisite = {focus = RUS_new_negojap}
+	completion_reward ={ add_ideas = SOV_china_rep }
                  }
 
 		focus = {
-			id = RUS_new_after_box
+			id = RUS_new_ott
 			icon = GFX_SOV_focus_first_russian_election
-			x = 32
-			y = 9
+			x = 22
+			y = 7
 
 			cost = 1
 
 			available = {
-			
+			      has_country_flag = russia.ott.sit
 			}
 
-            prerequisite = {focus = RUS_new_negojap}
+            prerequisite = { }
 
              allow_branch = {
-				has_country_flag = boxer_reb_over
+				  has_country_flag = russia.ott.sit
 			 }
 
 			completion_reward = { 
-			add_war_support = 0.10
+			add_war_support = 0.05
 			}
 		}				 
 
 		focus = {
-			id = RUS_new_warrep
+			id = RUS_new_our_ott
 			icon = GFX_SOV_focus_first_russian_election
-			x = 31
-			y = 10
+			x = 21
+			y = 8
 
-			cost = 1
+			cost = 5
 
 			available = {
-			
+			      controls_state = 942
 			}
 
 			prerequisite = {
-				focus = RUS_new_after_box
+				focus = RUS_new_ott
                             }
 
-			completion_reward = { 
-			add_ideas = SOV_china_rep
+	        bypass = {
+	                	NOT = {controls_state = 942}
+	                 }
+
+			completion_reward = {
+			942 = {
+				add_building_construction = {
+				type = bunker
+				level = 1
+				province = 7454
+				instant_build = yes
+				}
+
+				add_building_construction = {
+				type = bunker
+				level = 1
+				province = 6991
+				instant_build = yes
+				}
+
+				add_building_construction = {
+				type = bunker
+				level = 1
+				province = 4583
+				instant_build = yes
+				}
 			}
+			add_political_power =  -100	
+			 }
 		}
 
 		focus = {
-			id = RUS_new_develop
+			id = RUS_new_prep_ott
 			icon = GFX_SOV_focus_first_russian_election
-			x = 33
-			y = 10
+			x = 23
+			y = 8
 
-			cost = 1
+			cost = 5
 
 			available = {
 			
 			}
 
 			prerequisite = {
-				focus = RUS_new_after_box
+				focus = RUS_new_ott
                             }
 
 			completion_reward = { 
-			add_political_power	= 50
+			add_manpower = 10000
 			}
 		}
 
         		focus = {
-			id = RUS_new_celeb
+			id = RUS_back_christmas
 			icon = GFX_SOV_focus_first_russian_election
-			x = 32
-			y = 11
+			x = 22
+			y = 9
 
-			cost = 1
+			cost = 10
 
 			available = {
-			
+			     
 			}
 
 			prerequisite = {
-				focus = RUS_new_develop
+				focus = RUS_new_prep_ott
                             }
 			prerequisite = {
-				focus = RUS_new_warrep
+				focus = RUS_new_our_ott
                             }
-			completion_reward = { 
-			add_political_power	= 50
+			completion_reward = {
+				 hidden_effect = { SOV = { country_event = { id = russia.4 } } }
+				 custom_effect_tooltip = rus_ott_rei
+				                }
 			}
-		}
 
         		focus = {
 			id = RUS_new_strong
@@ -1708,42 +1754,25 @@
 			prerequisite = {focus = RUS_new_lead}
 			prerequisite = {focus = RUS_new_induru}
 
-			completion_reward = { 
-			add_country_leader_trait = strong_leader}
+			completion_reward = { add_country_leader_trait = strong_leader }
 		}
-
-    focus = {
-    id = RUS_new_japwar
-	icon = GFX_SOV_focus_first_russian_election
-	x = 57
-	y = 1
-	cost = 1
-
-    allow_branch = {
-		
-	}
-
-	available = {
-
-	}
-
-	completion_reward ={ add_political_power = 50 }
-                 }
 
     focus = {
     id = RUS_new_vic
 	icon = GFX_SOV_focus_first_russian_election
 	x = 56
 	y = 2
-	cost = 1
+	cost = 0
 
 	available = {
-
+         
 	}
 
-    prerequisite = {focus = RUS_new_japwar}
+	allow_branch = {has_country_flag = russia.jap.won}
 
-    mutually_exclusive = { focus = RUS_new_def}
+	bypass = {has_country_flag = russia.jap.won}
+
+    prerequisite = {focus = RUS_new_japwar}
 
 	completion_reward ={ add_political_power = 50 }
                  }
@@ -1767,7 +1796,7 @@
      focus = {
     id = RUS_new_develop2
 	icon = GFX_SOV_focus_first_russian_election
-	x = 56
+	x = 57
 	y = 4
 	cost = 1
 
@@ -1775,7 +1804,7 @@
 
 	}
 
-     prerequisite = {focus = RUS_new_vic}
+     prerequisite = {focus = RUS_new_national_holiday}
 
 	completion_reward ={ add_political_power = 50 }
                  }
@@ -1783,7 +1812,7 @@
      focus = {
     id = RUS_new_expand_navy
 	icon = GFX_SOV_focus_first_russian_election
-	x = 54
+	x = 55
 	y = 4
 	cost = 1
 
@@ -1816,17 +1845,19 @@
 	 focus = {
     id = RUS_new_def
 	icon = GFX_SOV_focus_first_russian_election
-	x = 58
+	x = 62
 	y = 2
-	cost = 1
+	cost = 0
 
 	available = {
 
 	}
 
-     prerequisite = {focus = RUS_new_japwar}
+	bypass = {has_country_flag = russia.jap.lost}
 
-     mutually_exclusive = { focus = RUS_new_vic}
+	allow_branch = {has_country_flag = russia.jap.lost}
+
+     prerequisite = {focus = RUS_new_japwar}
 
 	completion_reward ={ add_political_power = 50 }
                  }
@@ -1834,7 +1865,7 @@
      focus = {
     id = RUS_new_statement
 	icon = GFX_SOV_focus_first_russian_election
-	x = 58
+	x = 62
 	y = 3
 	cost = 1
 
@@ -1850,7 +1881,7 @@
      focus = {
     id = RUS_new_negociate
 	icon = GFX_SOV_focus_first_russian_election
-	x = 60
+	x = 63
 	y = 4
 	cost = 1
 
@@ -1866,7 +1897,7 @@
      focus = {
     id = RUS_new_intinal_army
 	icon = GFX_SOV_focus_first_russian_election
-	x = 58
+	x = 61
 	y = 4
 	cost = 1
 
@@ -1880,9 +1911,9 @@
                  }
 
      focus = {
-    id = RUS_new_duma
+    id = RUS_new_prom_el
 	icon = GFX_SOV_focus_first_russian_election
-	x = 58
+	x = 62
 	y = 5
 	cost = 1
 
@@ -2055,7 +2086,7 @@
     focus = {
     id = RUS_new_modern_arm
 	icon = GFX_SOV_focus_first_russian_election
-	x = 41
+	x = 42
 	y = 6
 	cost = 1
 
@@ -2067,12 +2098,7 @@ prerequisite = {focus = RUS_new_support_eq2}
 prerequisite = {focus = RUS_new_infantry_eq2}
 prerequisite = {focus = RUS_new_art_eq2}
 
-   completion_reward ={
-            swap_ideas = { 
-                 remove_idea = SOV_disorg_army
-                  add_idea = SOV_modern_army
-                           }
-        }		   
+   completion_reward ={remove_ideas = SOV_disorg_army }	   
  }
 
     focus = {
@@ -2088,7 +2114,7 @@ prerequisite = {focus = RUS_new_art_eq2}
 
 	 prerequisite = {focus = RUS_new_army_sit}
 
-	completion_reward ={ }
+	completion_reward ={ add_ideas = SOV_navy }
          }
 
     focus = {
@@ -2104,7 +2130,16 @@ prerequisite = {focus = RUS_new_art_eq2}
 
 	 prerequisite = {focus = RUS_new_army_sit}
 
-	completion_reward ={ }
+	completion_reward ={ 
+				  			262 = {
+                   add_extra_state_shared_building_slots = 2
+				   add_building_construction = { type = dockyard level = 2 instant_build = yes }	
+			                  }
+				  			214 = {
+                   add_extra_state_shared_building_slots = 2
+				   add_building_construction = { type = dockyard level = 2 instant_build = yes }	
+			                  } 
+				}
          }
 
     focus = {
@@ -2121,7 +2156,12 @@ prerequisite = {focus = RUS_new_art_eq2}
 	 prerequisite = {focus = RUS_new_arctic}
 	 prerequisite = {focus = RUS_new_navy}
 
-	completion_reward ={ }
+	completion_reward ={
+							408 = {
+                   add_extra_state_shared_building_slots = 2
+				   add_building_construction = { type = dockyard level = 2 instant_build = yes }	
+			                  }
+	 }
          }
 
     focus = {
@@ -2137,7 +2177,13 @@ prerequisite = {focus = RUS_new_art_eq2}
 
 	 prerequisite = {focus = RUS_new_pacific}
 
-	completion_reward ={ }
+	completion_reward ={
+		add_tech_bonus = {
+             bonus = 0.5
+             uses = 2
+             category = naval_doctrine
+                                           }
+	 }
          }
 
     focus = {
@@ -2153,7 +2199,13 @@ prerequisite = {focus = RUS_new_art_eq2}
 
 	 prerequisite = {focus = RUS_new_pacific}
 
-	completion_reward ={ }
+	completion_reward ={
+		add_tech_bonus = {
+             bonus = 1
+             uses = 1
+             category = bb_tech
+                                           }
+	 }
          }
 
     focus = {
@@ -2169,7 +2221,13 @@ prerequisite = {focus = RUS_new_art_eq2}
 
 	 prerequisite = {focus = RUS_new_pacific}
 
-	completion_reward ={ }
+	completion_reward ={
+		add_tech_bonus = {
+             bonus = 0.5
+             uses = 2
+             category = ca_tech
+                                           }
+	 }
          }
 
     focus = {
@@ -2187,13 +2245,18 @@ prerequisite = {focus = RUS_new_art_eq2}
 	 prerequisite = {focus = RUS_new_cru}
 	 prerequisite = {focus = RUS_new_doctr}
 
-	completion_reward ={ }
-         }
+	completion_reward ={
+							137 = {
+                   add_extra_state_shared_building_slots = 2
+				   add_building_construction = { type = dockyard level = 2 instant_build = yes }	
+			                  }
+	 }
+  }
 
     focus = {
     id = RUS_new_modern_nav
 	icon = GFX_SOV_focus_first_russian_election
-	x = 49
+	x = 48
 	y = 6
 	cost = 1
 
@@ -2201,9 +2264,9 @@ prerequisite = {focus = RUS_new_art_eq2}
 
 	}
 
-	 prerequisite = {focus = RUS_new_battl}
+	 prerequisite = {focus = RUS_new_more_doc}
 
-	completion_reward ={ }
+	completion_reward ={ add_ideas = SOV_navy_mod}
          }
 
     focus = {
@@ -2220,7 +2283,15 @@ prerequisite = {focus = RUS_new_art_eq2}
      prerequisite = {focus = RUS_new_modern_arm}
      prerequisite = {focus = RUS_new_modern_nav}
 
-	completion_reward ={ add_political_power = 50 }
-                 }
+	completion_reward ={
+		add_tech_bonus = {
+             bonus = 0.5
+             uses = 1
+             category = air_equipment
+                                           }
+		     add_war_support = 0.10
+	  }
+
+  }
 
 }

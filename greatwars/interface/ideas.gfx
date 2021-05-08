@@ -5839,4 +5839,14 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/idea_chi_army_corruption3.dds"
 	}
 
+			spriteType = {
+		name = "GFX_idea_generic_sea_focused_navy"
+		texturefile = "gfx/interface/ideas/idea_generic_sea_focused_navy.dds"
+	}
+
+			spriteType = {
+		name = "GFX_idea_generic_navy_bonus"
+		texturefile = "gfx/interface/ideas/generic_navy_bonus.dds"
+	}
+
 }
