@@ -34,7 +34,7 @@ RUS_new_coopwest:0 "Co-operation with the West"
 RUS_new_buytools:0 "Purchase More Tools"
 RUS_new_westtech:0 "French Technologies"
 RUS_new_beginrel:0 "Build up civilian industry"
-RUS_new_moreex:0 "More Russian Exports"
+RUS_new_moreex:0 "Benefits of the French relationship"
 RUS_new_noagri:0 "Move Away from Agricultre"
 RUS_new_massind:0 "Continue Mass Industrializing"
 RUS_new_focwes:0 "Focus on Western Russia"
@@ -167,6 +167,9 @@ SOV_fear_of_revolution2:0 "Uneasy Citizens"
 SOV_fear_of_revolution3:0 "Almost normal life"
 SOV_mass_prot:0 "Mass Protests"
 SOV_shat_army:0 "Shattered Army"
+SOV_french_dependancy1:0 "Relying on France"
+SOV_french_dependancy2:0 "Fruits of the relationship with France"
+SOV_shat_navy:0 "Shattered Navy"
 
 # PARTY NAMES
 ########### Russia Party Names Localisation ###########

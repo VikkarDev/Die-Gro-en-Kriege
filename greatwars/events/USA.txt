@@ -31,6 +31,111 @@ country_event = {
     }
 }
 
+# The Gold Question
+country_event = {
+    id = USA.2
+    title = USA.2.t
+    desc = USA.2.d 
+    #picture = victory_american_philippine_war
+
+    fire_only_once = yes 
+    is_triggered_only = yes
+
+    trigger = {
+        has_completed_focus = USA_gold_question
+    }
+
+    option = {
+        name = USA.2.a 
+        ai_chance = { factor = 100 }
+    }
+}
+
+# The Gold Standard Act
+country_event = {
+    id = USA.3
+    title = USA.3.t
+    desc = USA.3.d 
+    #picture = victory_american_philippine_war
+
+    fire_only_once = yes 
+    is_triggered_only = yes
+
+    trigger = {
+        has_completed_focus = USA_gold_standard_act
+    }
+
+    option = {
+        name = USA.3.a 
+        ai_chance = { factor = 100 }
+    }
+
+    option = {
+        name = USA.3.b 
+        ai_chance = { factor = 100 }
+    }
+}
+
+# McKinley Inaguration
+country_event = {
+    id = USA.4
+    title = USA.4.t
+    desc = USA.4.d 
+    #picture = victory_american_philippine_war
+
+    fire_only_once = yes 
+    is_triggered_only = yes
+
+    trigger = {
+        has_completed_focus = USA_mckinleys_inauguration
+    }
+
+    option = {
+        name = USA.4.a 
+        ai_chance = { factor = 100 }
+    }
+}
+
+# Civil Rights Issue
+country_event = {
+    id = USA.5
+    title = USA.5.t
+    desc = USA.5.d 
+    #picture = victory_american_philippine_war
+
+    fire_only_once = yes 
+    is_triggered_only = yes
+
+    trigger = {
+        has_completed_focus = USA_the_civil_rights_issue
+    }
+
+    option = {
+        name = USA.5.a 
+        ai_chance = { factor = 100 }
+    }
+}
+
+# Dingley Act
+country_event = {
+    id = USA.5
+    title = USA.5.t
+    desc = USA.5.d 
+    #picture = victory_american_philippine_war
+
+    fire_only_once = yes 
+    is_triggered_only = yes
+
+    trigger = {
+        #has_completed_focus = USA_the_dingley_act
+    }
+
+    option = {
+        name = USA.5.a 
+        ai_chance = { factor = 100 }
+    }
+}
+
 add_namespace = USA_VP
 
 # Teddy Roosevelt or John D. Long Becomes VP

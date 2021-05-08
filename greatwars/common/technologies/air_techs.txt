@@ -20,7 +20,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1933
+		start_year = 1900
 		folder = {
 			name = air_techs_folder
 			position = { x = 0 y = 2 }
@@ -92,7 +92,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1936
+		start_year = 1904
 
 		folder = {
 			name = air_techs_folder
@@ -198,7 +198,7 @@ technologies = {
 				
 
 		research_cost = 2
-		start_year = 1940
+		start_year = 1906
 		folder = {
 			name = air_techs_folder
 			position = { x = 0 y = 6 }
@@ -323,7 +323,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1944
+		start_year = 1908
 
 		folder = {
 			name = air_techs_folder
@@ -489,7 +489,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1936
+		start_year = 1904
 
 		folder = {
 			name = air_techs_folder
@@ -587,7 +587,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1940
+		start_year = 1906
 
 		folder = {
 			name = air_techs_folder
@@ -694,7 +694,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1944
+		start_year = 1908
 		folder = {
 			name = air_techs_folder
 			position = { x = -4 y = 8 }
@@ -791,7 +791,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1936
+		start_year = 1904
 		folder = {
 			name = air_techs_folder
 			position = { x = 4 y = 4 }
@@ -890,7 +890,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1940
+		start_year = 1906
 		folder = {
 			name = air_techs_folder
 			position = { x = 4 y = 6 }
@@ -997,7 +997,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1944
+		start_year = 1908
 		folder = {
 			name = air_techs_folder
 			position = { x = 4 y = 8 }
@@ -1104,7 +1104,7 @@ technologies = {
 		#}
 		
 		research_cost = 2
-		start_year = 1933
+		start_year = 1904
 		folder = {
 			name = air_techs_folder
 			position = { x = 2 y = 2 }
@@ -1133,7 +1133,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1936
+		start_year = 1906
 		folder = {
 			name = air_techs_folder
 			position = { x = -2 y = 4 }
@@ -1162,7 +1162,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1940
+		start_year = 1908
 		folder = {
 			name = air_techs_folder
 			position = { x = -2 y = 6 }
@@ -1191,7 +1191,7 @@ technologies = {
 		#}
 
 		research_cost = 2
-		start_year = 1944
+		start_year = 1910
 		folder = {
 			name = air_techs_folder
 			position = { x = -2 y = 8 }
@@ -1220,7 +1220,7 @@ technologies = {
 		}
 		allow_branch = { has_dlc = "La Resistance" }
 		research_cost = 2
-		start_year = 1936
+		start_year = 1904
 		folder = {
 			name = air_techs_folder
 			position = { x = 10 y = 4 }
@@ -1262,7 +1262,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1940
+		start_year = 19408
 		folder = {
 			name = air_techs_folder
 			position = { x = 10 y = 6 }
@@ -1305,7 +1305,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1936
+		start_year = 1906
 
 		folder = {
 			name = air_techs_folder
@@ -1359,7 +1359,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1940
+		start_year = 1908
 		folder = {
 			name = air_techs_folder
 			position = { x = 2 y = 6 }
@@ -1412,7 +1412,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1944
+		start_year = 1910
 		folder = {
 			name = air_techs_folder
 			position = { x = 2 y = 8 }
@@ -1522,7 +1522,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1936
+		start_year = 1906
 		folder = {
 			name = air_techs_folder
 			position = { x = 0 y = 4 }
@@ -1561,7 +1561,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1940
+		start_year = 1908
 		folder = {
 			name = air_techs_folder
 			position = { x = 0 y = 6 }
@@ -1600,7 +1600,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1944
+		start_year = 1910
 		folder = {
 			name = air_techs_folder
 			position = { x = 0 y = 8 }

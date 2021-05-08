@@ -234,7 +234,7 @@ USA_congress_get_quorum = {
 	round_variable = quorum_low 
 	round_variable = quorum_medium 
 	round_variable = quorum_high
-	USA_recalc_congress_icon_frames = yes
+	#USA_recalc_congress_icon_frames = yes
 }
 
 USA_congress_small_opposition = {
@@ -253,7 +253,7 @@ USA_senate_small_opposition = {
 	add_to_variable = { senators_support = temp_factor }
 	round_variable = senators_support
 	clamp_variable = { var = senators_support max = senators_total min = 0 }
-	USA_recalc_congress_icon_frames = yes
+	#USA_recalc_congress_icon_frames = yes
 }
 
 USA_house_small_opposition = {
@@ -263,7 +263,7 @@ USA_house_small_opposition = {
 	add_to_variable = { representatives_support = temp_factor }
 	round_variable = representatives_support
 	clamp_variable = { var = representatives_support max = representatives_total min = 0 }
-	USA_recalc_congress_icon_frames = yes
+	#USA_recalc_congress_icon_frames = yes
 }
 USA_senate_small_support = {
 	custom_effect_tooltip = mtg_usa_senate_small_support_tt
@@ -272,7 +272,7 @@ USA_senate_small_support = {
 	add_to_variable = { senators_support = temp_factor }
 	round_variable = senators_support
 	clamp_variable = { var = senators_support max = senators_total min = 0 }
-	USA_recalc_congress_icon_frames = yes
+	#USA_recalc_congress_icon_frames = yes
 }
 
 USA_house_small_support = {
@@ -283,7 +283,7 @@ USA_house_small_support = {
 	add_to_variable = { representatives_support = temp_factor }
 	round_variable = representatives_support
 	clamp_variable = { var = representatives_support max = representatives_total min = 0 }
-	USA_recalc_congress_icon_frames = yes
+	#USA_recalc_congress_icon_frames = yes
 }
 
 USA_senate_medium_opposition = {
@@ -294,7 +294,7 @@ USA_senate_medium_opposition = {
 	add_to_variable = { senators_support = temp_factor }
 	round_variable = senators_support
 	clamp_variable = { var = senators_support max = senators_total min = 0 }
-	USA_recalc_congress_icon_frames = yes
+	#USA_recalc_congress_icon_frames = yes
 }
 
 USA_house_medium_opposition = {
@@ -305,7 +305,7 @@ USA_house_medium_opposition = {
 	add_to_variable = { representatives_support = temp_factor }
 	round_variable = representatives_support
 	clamp_variable = { var = representatives_support max = representatives_total min = 0 }
-	USA_recalc_congress_icon_frames = yes
+	#USA_recalc_congress_icon_frames = yes
 }
 USA_senate_medium_support = {
 	custom_effect_tooltip = mtg_usa_senate_medium_support_tt
@@ -315,7 +315,7 @@ USA_senate_medium_support = {
 	add_to_variable = { senators_support = temp_factor }
 	round_variable = senators_support
 	clamp_variable = { var = senators_support max = senators_total min = 0 }
-	USA_recalc_congress_icon_frames = yes
+	#USA_recalc_congress_icon_frames = yes
 }
 
 USA_house_medium_support = {
@@ -326,7 +326,7 @@ USA_house_medium_support = {
 	add_to_variable = { representatives_support = temp_factor }
 	round_variable = representatives_support
 	clamp_variable = { var = representatives_support max = representatives_total min = 0 }
-	USA_recalc_congress_icon_frames = yes
+	#USA_recalc_congress_icon_frames = yes
 }
 USA_senate_large_opposition = {
 	custom_effect_tooltip = mtg_usa_senate_large_opposition_tt
@@ -336,7 +336,7 @@ USA_senate_large_opposition = {
 	add_to_variable = { senators_support = temp_factor }
 	round_variable = senators_support
 	clamp_variable = { var = senators_support max = senators_total min = 0 }
-	USA_recalc_congress_icon_frames = yes
+	#USA_recalc_congress_icon_frames = yes
 }
 
 USA_house_large_opposition = {
@@ -347,7 +347,7 @@ USA_house_large_opposition = {
 	add_to_variable = { representatives_support = temp_factor }
 	round_variable = representatives_support
 	clamp_variable = { var = representatives_support max = representatives_total min = 0 }
-	USA_recalc_congress_icon_frames = yes
+	#USA_recalc_congress_icon_frames = yes
 }
 USA_senate_large_support = {
 	custom_effect_tooltip = mtg_usa_senate_large_support_tt
@@ -357,7 +357,7 @@ USA_senate_large_support = {
 	add_to_variable = { senators_support = temp_factor }
 	round_variable = senators_support
 	clamp_variable = { var = senators_support max = senators_total min = 0 }
-	USA_recalc_congress_icon_frames = yes
+	#USA_recalc_congress_icon_frames = yes
 }
 
 USA_house_large_support = {
@@ -368,7 +368,7 @@ USA_house_large_support = {
 	add_to_variable = { representatives_support = temp_factor }
 	round_variable = representatives_support
 	clamp_variable = { var = representatives_support max = representatives_total min = 0 }
-	USA_recalc_congress_icon_frames = yes
+	#USA_recalc_congress_icon_frames = yes
 }
 USA_congress_medium_opposition = {
 	custom_effect_tooltip = mtg_usa_congress_medium_opposition_tt

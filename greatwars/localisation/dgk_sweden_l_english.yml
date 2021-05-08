@@ -36,7 +36,6 @@
  SWE_swed_nor_union:0 "Two Nations as One"
  SWE_swed_nor_union_desc:0 ""
  SWE_Undeveloped_North_Region:0 "Undeveloped North Industrial Region"
- SWE_memories_of_the_war:0 "Memories of the northern war"
  SWE_tree_Industrial:0 "Träindustrin"
 
  #FOCUS
@@ -59,18 +58,46 @@
  SWE_swe_nor_army:0 "Svensk-Norska armén"
  SWE_aggressive_approach:0 "Aggressive Approach"
  SWE_stor_vernplikt:0 "Stor Värnplikt"
- SWE_Stabilize_Country:0 "Stabilize The Country"
  SWE_break_neutrality:0 "Open up our foreign policy"
+ SWE_bostrom_cabinet:0 "The Boström Cabinet"
+ SWE_fortress_question:0 "The Boden Fortress question"
+ SWE_norrland_railway:0 "Build the Norrland Railway"
+ SWE_raise_wage:0 "Raise the Minimal Wage"
+ SWE_otter_cabinet:0 "The Otter Cabinet"
+ SWE_department_agriculture:0 "Create the Department of Agriculture"
+ SWE_industrial_workers:0 "Industrial Maternity Leave"
+ SWE_kiruna_mine:0 "Expand the Kiruna mine"
+ SWE_new_resourcs:0 "Search for new Resourcs"
+ SWE_better_mining_equipment:0 "Invest in Better Mining Equipment"
+ SWE_expand_maternity:0 "Expand Maternity leave"
+ SWE_farm_fields:0 "Increase Farm fields"
+ SWE_build_farms:0 "Build More Farms"
+ SWE_Otters_civil_rights:0 "Otters civil rights motion"
+ SWE_second_bostrom_cabinet:0 "The second Boström cabinet"
+ SWE_reisgnation_of_Otter:0 "The reisgnation of Otter"
+ SWE_Voting_rights:0 "The Voring rights question"
+ SWE_Draft_proposal:0 "Draft Boströms proposal"
+ SWE_Present_chambers:0 "Present it to the chambers"
+ SWE_motion_fails:0 "The motion fails"
+ SWE_resignation_Bostrom:0 "The resignation of Boström"
+ SWE_Union_commitee:0 "Announcge the Union commitee"
+ SWE_solution:0 "Come up with a solution"
+ SWE_Increase_relations_nor:0 "Increase relations between union partners"
+ SWE_Union_crisis:0 "The Union crisis"
+ SWE_Improve_literacy:0 "Improve literacy rate"
+ SWE_Build_schools_rural:0 "Build schools in rural parts"
+ SWE_teacher_wages:0 "Raise the teacher wages"
+ SWE_Introduce_education:0 "Introduce co-education"
 
 
 #partys 
- SWE_social_liberalism_party_long:0 "Liberalerna"
- SWE_democratic_socialism_party_long:0 "Sveriges Socialdemokratiska arbetarparti"
- SWE_social_egalitarianism_party_long:0 "Vänsterpartiet"
- SWE_centrism_party:0 "Centerpartiet" 
- SWE_democratic_socialism_party:0 "S"
- SWE_social_liberalism_party:0 "L"
- SWE_social_egalitarianism_party:0 "V"
+ SWE_social_liberalism_party:0 "Liberalerna"
+ SWE_social_egalitarianism_party:0 "Socialdemokraterna" 
+ SWE_democratic_socialism_party:0 "Vänsterpartiet" 
+ SWE_centrism_party:0 "Lantmannapartiet" 
+ SWE_vanguard_communism_party:0 "Svergies Kommunistiska Parti"
+ SWE_traditional_conservatism_party:0 "Allmänna Valförbundet"
+ SWE_autocracy_party:0 "House of Bernadotte"
 
 
 
@@ -78,12 +105,11 @@
  NOR_SWE_union_social_liberalism:0 "United Kingdoms of Sweden and Norway"
  NOR_SWE_union_social_liberalism_DEF:0 "United Kingdoms of Sweden and Norway"
  NOR_SWE_union_centrism:0 "United Kingdoms of Sweden and Norway"
- NOR_SWE_union_centrism_DEF:0 "The United Kingdoms of Sweden and Norway"
+ NOR_SWE_union_centrism_DEF:0 "United Kingdoms of Sweden and Norway"
  NOR_SWE_union_traditional_conservatism:0 "United Kingdoms of Sweden and Norway"
- NOR_SWE_union_traditional_conservatism_DEF:0 "The United Kingdoms of Sweden and Norway"
- NOR_SWE_union_social_liberalism_ADJ:0 "Sweden-Norways"
- NOR_SWE_union_democratic_socialism:0 "The United Kingdoms of Sweden and Norway"
-NOR_SWE_union_democratic_socialism_DEF:0 "The United Kingdoms of Sweden and Norway"
+ NOR_SWE_union_traditional_conservatism_DEF:0 "United Kingdoms of Sweden and Norway"
+ NOR_SWE_union_democratic_socialism:0 "United Kingdoms of Sweden and Norway"
+ NOR_SWE_union_democratic_socialism_DEF:0 "United Kingdoms of Sweden and Norway"
  
 
 #leader localization
@@ -95,3 +121,6 @@ NOR_SWE_union_democratic_socialism_DEF:0 "The United Kingdoms of Sweden and Norw
  SWE_Erik_Gustaf_Bostrom_NAME:0 "Erik Gustaf Boström"
  OSCAR_II_LEADER_DESCRIPTION:0 "Description needed."
  BOSTROM_LEADER_DESCRIPTION:0 "Description needed."
+
+# BOOKMARK
+SWE_SILENT_NIGHT_DESC:0 "The United kingdoms of Sweden and Norway stands at a crossroad,with the union being less stable for every day that goes,will The union be saveable? Or will Norway for once gain their independence? Only time will tell"

@@ -159,7 +159,9 @@ country_event = {
         add_political_power = -200
 		add_ideas = SOV_mass_prot
 		add_ideas = SOV_shat_army
+		add_ideas = SOV_shat_navy
 	}
+
     immediate = { mark_focus_tree_layout_dirty = yes
                   set_country_flag = russia.jap
 				  set_country_flag = russia.jap.lost

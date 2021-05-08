@@ -971,7 +971,10 @@
 			}
 
 			completion_reward = { 
-		       add_ideas = free_trade
+		       		swap_ideas = { 
+              remove_idea = SOV_french_dependancy1
+              add_idea = SOV_french_dependancy2
+			             }
 			}
 		}
 

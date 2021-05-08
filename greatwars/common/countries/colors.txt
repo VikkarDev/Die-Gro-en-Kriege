@@ -8,8 +8,8 @@ GLD = {
 	color_ui = rgb { 19 59 27 }
 }
 GER = {
-	color = rgb { 101 102 99 }
-	color_ui = rgb { 101 102 99 }
+	color = rgb { 100 100 100 }
+	color_ui = rgb { 100 100 100 }
 }
 SOV = {
 	color = rgb { 50 173 97 }

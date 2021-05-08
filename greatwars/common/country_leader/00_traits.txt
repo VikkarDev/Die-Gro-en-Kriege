@@ -1,6 +1,17 @@
 leader_traits = {
 	
 	# MOD
+
+	staunch_protectionist = {
+		random = no
+		min_export = -0.1
+	}
+
+	popular_incumbent = {
+		random = no
+		stability_factor = 0.05
+	}
+
 	head_veal_trait = {
 		random = no
 		political_power_gain = -0.10

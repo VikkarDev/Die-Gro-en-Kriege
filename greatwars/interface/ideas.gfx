@@ -5849,4 +5849,9 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/generic_navy_bonus.dds"
 	}
 
+			spriteType = {
+		name = "GFX_idea_sov_fra_rely"
+		texturefile = "gfx/interface/ideas/sov/idea_rus_french_rely.dds"
+	}
+
 }
