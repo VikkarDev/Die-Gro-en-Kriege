@@ -6,7 +6,7 @@ capital = 608
 
 	set_convoys = 165
 
-	set_stability = 0.2
+	set_stability = 0.3
 	set_war_support = 0.5
 	set_research_slots = 3
 
@@ -14,28 +14,28 @@ capital = 608
 		CHI_legacy_sino_japanese_war
 		CHI_low_legitimacy
 		CHI_minority_revolts
-		CHI_boxer_rebellion
 		CHI_agrarian_society
 		CHI_outdated_army
 		CHI_foreign_concessions
-		CHI_heavenly_emperor
+		CHI_manchu_support
+		CHI_mongol_support
 	}
 
 	set_politics = {
 		ruling_party = autocracy
 		#last_election = "1895.6.25"
 		#election_frequency = 85
-		#elections_allowed = yes
+		#elections_allowed = no
 	}
 
 	set_popularities = {
 		vanguard_communism = 0
 		social_egalitarianism = 1
-		centrism = 0
-		traditional_conservatism = 4
-		radical_democracy = 0
+		centrism = 4
+		traditional_conservatism = 9
+		radical_democracy = 2
 		chauvinist_populism = 0
-		autocracy = 95
+		autocracy = 84
 		democratic_socialism = 0
 	}
 
@@ -114,6 +114,17 @@ create_corps_commander = {
 		planning_skill = 2
 		logistics_skill = 2
 		id = 68549
+	}
+	create_field_marshal = {
+		name = "Li Hongzhang"
+		portrait_path = "gfx/leaders/CHI/base_qing.tga"
+		traits = { logistics_wizard ambusher infantry_expert guerilla_fighter }
+		skill = 5
+		attack_skill = 7
+		defense_skill = 4
+		planning_skill = 3
+		logistics_skill = 1
+		id = 68550
 	}
 
 	if = {

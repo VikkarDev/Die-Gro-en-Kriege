@@ -19,7 +19,7 @@ focus_tree = {
 			x = 1
 			y = 0
 
-			cost = 10
+			cost = 6
 
 			available = {
 				
@@ -36,7 +36,7 @@ focus_tree = {
 			x = 1
 			y = 1
 
-			cost = 10
+			cost = 7
 
             prerequisite = {
                 focus = PHI_1900_asian_republic
@@ -59,7 +59,7 @@ focus_tree = {
 			x = 2
 			y = 2
 
-			cost = 5
+			cost = 6
 
             prerequisite = {
                 focus = PHI_1900_the_power_question
@@ -122,7 +122,7 @@ focus_tree = {
 			x = 0
 			y = 3
 
-			cost = 10
+			cost = 7
 
             prerequisite = {
                 focus = PHI_1900_aguinaldos_republic
@@ -154,7 +154,7 @@ focus_tree = {
 			x = 0
 			y = 4
 
-			cost = 10
+			cost = 7
 
             prerequisite = {
                 focus = PHI_1900_edit_constitution
@@ -177,6 +177,12 @@ focus_tree = {
                     ideology = traditional_conservatism
                     popularity = 0.30
                 }
+                set_politics = {
+	                ruling_party = traditional_conservatism
+                    elections_allowed = no
+                    last_election = "1900.1.1"
+                    election_frequency = 1000
+                    }
 			}
 
     }
@@ -186,7 +192,7 @@ focus_tree = {
 			x = 2
 			y = 3
 
-			cost = 10
+			cost = 7
 
             prerequisite = {
                 focus = PHI_1900_the_cabinet_holds
@@ -202,7 +208,13 @@ focus_tree = {
                 }
 			}
 
-			completion_reward = { 
+			completion_reward = {
+                add_popularity = {
+                    ideology = centrism
+                    popularity = 0.2
+                }
+                add_political_power = -30
+                add_stability = 0.1
         }
     }
     focus = {
@@ -211,7 +223,7 @@ focus_tree = {
 			x = 2
 			y = 4
 
-			cost = 10
+			cost = 7
 
             prerequisite = {
                 focus = PHI_1900_constitution_remains
@@ -241,12 +253,10 @@ focus_tree = {
 			x = 1
 			y = 5
 
-			cost = 10
+			cost = 5
 
             prerequisite = {
                 focus = PHI_1900_a_balanced_government
-            }
-            prerequisite = {
                 focus = PHI_1900_a_conservative_government
             }
 
@@ -274,6 +284,7 @@ focus_tree = {
 			available = {
             NOT = {
                 is_subject = yes
+                has_war = yes
                 }
 				
 			}
@@ -452,6 +463,95 @@ focus_tree = {
                 }
                 
 
+            }
+        }
+        focus = {
+			id = PHI_1900_the_guerilla_war
+			icon = GFX_SOV_focus_state_duma
+			x = 13
+			y = 0
+
+			cost = 5
+
+            available = {
+                has_war_with = USA
+                NOT = {
+                    is_subject = yes
+                }
+            }
+
+            completion_reward = {
+                add_manpower = 5000
+                add_political_power = 40
+                add_stability = 0.05
+                add_equipment_to_stockpile = {
+                    type = infantry_equipment
+                    amount = 500
+                    producer = USA
+                            }
+                add_war_support = 0.1
+            }
+        }
+        focus = {
+			id = PHI_1900_seize_american_guns
+			icon = GFX_SOV_focus_state_duma
+			x = 13
+			y = 1
+
+			cost = 7
+
+            prerequisite = {
+                focus = PHI_1900_the_guerilla_war
+            }
+
+            available = {
+                has_war_with = USA
+                NOT = {
+                    is_subject = yes
+                }
+            }
+
+            completion_reward = {
+                add_manpower = 5000
+                add_political_power = 40
+                add_stability = 0.05
+                add_equipment_to_stockpile = {
+                    type = infantry_equipment
+                    amount = 1200
+                    producer = USA
+                            }
+                add_war_support = 0.1
+            }
+        }
+        focus = {
+			id = PHI_1900_arms_factories
+			icon = GFX_SOV_focus_state_duma
+			x = 13
+			y = 2
+
+			cost = 7
+
+            prerequisite = {
+                focus = PHI_1900_the_guerilla_war
+            }
+
+            available = {
+                has_war_with = USA
+                NOT = {
+                    is_subject = yes
+                }
+            }
+
+            completion_reward = {
+                random_owned_state = {
+                    add_building_construction = { type = infrastructure level = 2 instant_build = yes }
+                    add_building_construction = {
+                        type = arms_factory
+                        level = 5
+                        instant_build = yes
+                    }
+                }
+                
             }
         }
 }
