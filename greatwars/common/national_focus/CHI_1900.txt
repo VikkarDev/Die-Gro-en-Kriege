@@ -1030,24 +1030,485 @@ focus_tree = {
 		# END OF REFORMIST PATH
 
 		focus = {
-			id = CHI_1900_continue_modernization_program
+			id = CHI_1900_protecting_our_empire
 			icon = GFX_SOV_focus_state_duma
-			x = 38
-			y = 16
-			prerequisite = {
-				focus = CHI_1900_foreign_recognition
-			}
+			x = 50
+			y = 1
 
-			cost = 7
+			cost = 10
 
 			available = {
-				
+				has_army_manpower = {
+    				size > 10000
+				}
 			}
 
 			completion_reward = { 
             
 			}
 		}
+		focus = {
+			id = CHI_1900_westernization_movement
+			icon = GFX_SOV_focus_state_duma
+			x = 50
+			y = 2
+
+			cost = 10
+
+			prerequisite = {
+				focus = CHI_1900_protecting_our_empire
+			}
+
+			available = {
+				has_army_manpower = {
+    				size > 10000
+				}
+			}
+
+			completion_reward = { 
+            
+			}
+		}
+		focus = {
+			id = CHI_1900_qing_army
+			icon = GFX_SOV_focus_state_duma
+			x = 47
+			y = 3
+
+			cost = 10
+
+			prerequisite = {
+				focus = CHI_1900_westernization_movement
+			}
+
+			available = {
+				has_army_manpower = {
+    				size > 10000
+				}
+			}
+
+			completion_reward = { 
+            
+			}
+		}
+		focus = {
+			id = CHI_1900_power_of_the_army
+			icon = GFX_SOV_focus_state_duma
+			x = 47
+			y = 4
+
+			cost = 10
+
+			prerequisite = {
+				focus = CHI_1900_qing_army
+			}
+
+			available = {
+				has_army_manpower = {
+    				size > 10000
+				}
+			}
+
+			completion_reward = { 
+				#event about power the army holds and the situation, adds pp
+				add_stability = 0.05
+				add_political_power = 30
+            
+			}
+		}
+		focus = {
+			id = CHI_1900_boxer_rebels
+			icon = GFX_SOV_focus_state_duma
+			x = 45
+			y = 5
+
+			cost = 10
+
+			prerequisite = {
+				focus = CHI_1900_power_of_the_army
+			}
+
+			available = {
+				has_army_manpower = {
+    				size > 10000
+				}
+				has_war_with = BOX
+				OR = {
+					NOT = {
+						BOX = {
+							exists = yes
+						}
+					}
+				}
+			}
+
+			completion_reward = { 
+            
+			}
+		}
+
+		focus = {
+			id = CHI_1900_gansu_braves
+			icon = GFX_SOV_focus_state_duma
+			x = 44
+			y = 6
+
+			cost = 10
+
+			prerequisite = {
+				focus = CHI_1900_boxer_rebels
+			}
+
+			available = {
+			}
+			completion_reward = {}
+		}
+		focus = {
+			id = CHI_1900_arsenals
+			icon = GFX_SOV_focus_state_duma
+			x = 46
+			y = 6
+
+			cost = 10
+
+			prerequisite = {
+				focus = CHI_1900_boxer_rebels
+			}
+
+			available = {
+			}
+			completion_reward = {}
+		}
+
+		focus = {
+			id = CHI_1900_military_situation
+			icon = GFX_SOV_focus_state_duma
+			x = 47
+			y = 8
+
+			cost = 10
+
+			prerequisite = {
+				focus = CHI_1900_arsenals
+				focus = CHI_1900_gansu_braves
+				focus = CHI_1900_appoint_yuan_governer_of_peking
+			}
+
+			available = {
+			}
+			completion_reward = {}
+		}
+		focus = {
+			id = CHI_1900_yuan_become_beiyang_leader
+			icon = GFX_SOV_focus_state_duma
+			x = 49
+			y = 5
+
+			cost = 2
+
+			prerequisite = {
+				focus = CHI_1900_power_of_the_army
+			}
+
+			available = {
+				has_country_flag = CHI_1900_yuan_in_charge
+			}
+			completion_reward = {
+
+			}
+		}
+		focus = {
+			id = CHI_1900_appoint_yuan_governer_of_peking
+			icon = GFX_SOV_focus_state_duma
+			x = 49
+			y = 6
+
+			cost = 10
+
+			prerequisite = {
+				focus = CHI_1900_yuan_become_beiyang_leader
+			}
+
+			available = {
+			}
+			completion_reward = {
+
+			}
+		}
+		focus = {
+			id = CHI_1900_smaller_regional_armies
+			icon = GFX_SOV_focus_state_duma
+			x = 47
+			y = 10
+
+			cost = 10
+
+			prerequisite = {
+				focus = CHI_1900_military_situation
+			}
+
+			available = {
+
+			}
+			completion_reward = {
+
+			}
+		}
+		focus = {
+			id = CHI_1900_put_out_boxers
+			icon = GFX_SOV_focus_state_duma
+			x = 44
+			y = 10
+
+			cost = 10
+
+			prerequisite = {
+				focus = CHI_1900_military_situation
+#After boxer protocols happen, Qing will have events about Boxer resistance that damage buildings, to combat this, Qing have to do focuses to fight them
+			}
+
+			available = {
+				
+			}
+			completion_reward = {
+
+			}
+		}
+		focus = {
+			id = CHI_1900_continue_8_banners_system
+			icon = GFX_SOV_focus_state_duma
+			x = 46
+			y = 11
+
+			cost = 10
+
+			prerequisite = {
+				focus = CHI_1900_smaller_regional_armies
+			}
+
+			available = {
+				
+			}
+			completion_reward = {
+
+			}
+		}
+		focus = {
+			id = CHI_1900_get_foriegn_training
+			icon = GFX_SOV_focus_state_duma
+			x = 48
+			y = 11
+
+			cost = 10
+
+			prerequisite = {
+				focus = CHI_1900_smaller_regional_armies
+			}
+
+			mutually_exclusive = {
+				focus = CHI_1900_continue_8_banners_system
+			}
+
+			available = {
+				
+			}
+			completion_reward = {
+
+			}
+		}
+		focus = {
+			id = CHI_1900_replace_spears_with_rifles
+			icon = GFX_SOV_focus_state_duma
+			x = 48
+			y = 12
+
+			cost = 10
+
+			prerequisite = {
+				focus = CHI_1900_get_foriegn_training
+			}
+
+			available = {
+				
+			}
+			completion_reward = {
+
+			}
+		}
+		focus = {
+			id = CHI_1900_develop_own_tactics
+			icon = GFX_SOV_focus_state_duma
+			x = 46
+			y = 12
+
+			cost = 10
+
+			prerequisite = {
+				focus = CHI_1900_continue_8_banners_system
+			}
+
+			available = {
+				
+			}
+			completion_reward = {
+
+			}
+		}
+		focus = {
+			id = CHI_1900_each_serves_purpose
+			icon = GFX_SOV_focus_state_duma
+			x = 47
+			y = 13
+
+			cost = 10
+
+			prerequisite = {
+				focus = CHI_1900_replace_spears_with_rifles
+				focus = CHI_1900_develop_own_tactics
+			}
+
+			available = {
+				
+			}
+			completion_reward = {
+
+			}
+		}
+		focus = {
+			id = CHI_1900_modernizing_the_beiyang_army
+			icon = GFX_SOV_focus_state_duma
+			x = 51
+			y = 10
+
+			cost = 10
+
+			prerequisite = {
+				focus = CHI_1900_military_situation
+			}
+
+			available = {
+				
+			}
+			completion_reward = {
+
+			}
+		}
+		focus = {
+			id = CHI_1900_appoint_german_and_japanese_officers
+			icon = GFX_SOV_focus_state_duma
+			x = 51
+			y = 11
+
+			cost = 10
+
+			prerequisite = {
+				focus = CHI_1900_modernizing_the_beiyang_army
+			}
+
+			available = {
+				
+			}
+			completion_reward = {
+
+			}
+		}
+		focus = {
+			id = CHI_1900_found_baoding_military_academy
+			icon = GFX_SOV_focus_state_duma
+			x = 51
+			y = 12
+
+			cost = 10
+
+			prerequisite = {
+				focus = CHI_1900_appoint_german_and_japanese_officers
+			}
+
+			available = {
+				
+			}
+			completion_reward = {
+
+			}
+		}
+		focus = {
+			id = CHI_1900_continue_army_expansion_beiyang
+			icon = GFX_SOV_focus_state_duma
+			x = 51
+			y = 13
+
+			cost = 10
+
+			prerequisite = {
+				focus = CHI_1900_found_baoding_military_academy
+			}
+
+			available = {
+				
+			}
+			completion_reward = {
+
+			}
+		}
+		focus = {
+			id = CHI_1900_engineers
+			icon = GFX_SOV_focus_state_duma
+			x = 50
+			y = 14
+
+			cost = 10
+
+			prerequisite = {
+				focus = CHI_1900_continue_army_expansion_beiyang
+			}
+
+			available = {
+				
+			}
+			completion_reward = {
+
+			}
+		}
+		focus = {
+			id = CHI_1900_lay_telegraph_lines
+			icon = GFX_SOV_focus_state_duma
+			x = 52
+			y = 14
+
+			cost = 10
+
+			prerequisite = {
+				focus = CHI_1900_continue_army_expansion_beiyang
+			}
+
+			available = {
+				
+			}
+			completion_reward = {
+
+			}
+		}
+		focus = {
+			id = CHI_1900_most_modern_army_china_beiyang_army
+			icon = GFX_SOV_focus_state_duma
+			x = 51
+			y = 15
+
+			cost = 10
+
+			prerequisite = {
+				focus = CHI_1900_engineers
+				focus = CHI_1900_lay_telegraph_lines
+			}
+
+			available = {
+				
+			}
+			completion_reward = {
+
+			}
+		}
+		
 		 
 
 }

@@ -15,7 +15,7 @@ focus_tree = {
 
     focus = {
 			id = PHI_1900_asian_republic
-			icon = GFX_SOV_focus_state_duma
+			icon = GFX_PHI_asian_republic
 			x = 1
 			y = 0
 
@@ -265,7 +265,7 @@ focus_tree = {
     }
     focus = {
 			id = PHI_1900_our_victory_against_america
-			icon = GFX_SOV_focus_state_duma
+			icon = GFX_PHI_asian_republic
 			x = 8
 			y = 0
 
@@ -275,12 +275,6 @@ focus_tree = {
             NOT = {
                 is_subject = yes
                 }
-            has_government = {
-                ideology = centrism
-            }
-            OR = { has_government = {
-                ideology = traditional_conservatism
-            }
 				
 			}
 
@@ -289,7 +283,6 @@ focus_tree = {
                 add_stability = 0.05
 			}
 		}
-    }
     focus = {
 			id = PHI_1900_determine_foreign_policy
 			icon = GFX_SOV_focus_state_duma
@@ -366,6 +359,8 @@ focus_tree = {
                 }
             }
             completion_reward = {
+                add_war_support = 0.1
+                add_state_claim = 638
 
             }
         }
@@ -375,7 +370,7 @@ focus_tree = {
 			x = 6
 			y = 2
 
-			cost = 6
+			cost = 10
 
             prerequisite = {
                 focus = PHI_1900_determine_foreign_policy
@@ -386,7 +381,7 @@ focus_tree = {
                     is_subject = yes
                     has_war = yes
                 }
-                has_stability = 60
+                has_stability = 0.7
             }
             completion_reward = {
                 add_stability = 0.1
@@ -416,11 +411,11 @@ focus_tree = {
                     is_subject = yes
                     has_war = yes
                 }
-                has_stability = 60
+                has_stability = 0.7
             }
 
             completion_reward = {
-                add_political_power = -0.25
+                add_political_power = -30
                 GER = {
                     country_event = germany.14
                 }
@@ -447,7 +442,7 @@ focus_tree = {
                     is_subject = yes
                     has_war = yes
                 }
-                has_stability = 60
+                has_stability = 0.7
             }
 
             completion_reward = {
