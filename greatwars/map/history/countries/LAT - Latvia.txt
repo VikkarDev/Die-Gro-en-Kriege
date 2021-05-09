@@ -1,0 +1,46 @@
+﻿capital = 12
+
+1900.1.1 = {
+
+	oob = "LAT_1900"
+
+	set_convoys = 100
+
+	set_research_slots = 2
+
+	add_ideas = {
+		# Government / Laws
+		volunteer_only
+		limited_exports
+		civilian_economy
+	}
+
+	set_politics = {
+		ruling_party = social_liberalism
+		#last_election = "1838.12.30"
+		#election_frequency = 48
+		elections_allowed = no
+	}
+
+	set_popularities = {
+		vanguard_communism = 0
+		social_egalitarianism = 0
+		social_liberalism = 100
+		centrism = 0
+		traditional_conservatism = 0
+		radical_democracy = 0
+		chauvinist_populism = 0
+		autocracy = 0
+		democratic_socialism = 0
+	}
+
+	create_country_leader = {
+		name = "Unknown"
+		desc = ""
+		picture = "Unknown.dds"
+		ideology = social_liberal
+		traits = {
+			
+		}
+	}
+}

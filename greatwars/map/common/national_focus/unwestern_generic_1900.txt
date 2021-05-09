@@ -1,0 +1,1502 @@
+focus_tree = {
+	id = unwesternized_generic_1900_focus
+
+	country = {
+		factor = 0
+
+		modifier = {
+			add = 11
+		}
+	}
+
+	default = yes
+
+	continuous_focus_position = { x = 50 y = 2000 }
+
+	focus = {
+        id = UNW_the_path_to_a_modern_economy
+        icon = GFX_UNW_the_path_to_a_modern_economy
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        x = 8
+        y = 0
+
+        cost = 10
+
+        available = {
+            
+        }
+
+        bypass = {
+            
+        }
+
+		completion_reward = {
+			
+		}
+    }
+
+	focus = {
+        id = UNW_conduct_a_new_census
+        icon = GFX_UNW_conduct_a_new_census
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        x = 4
+        y = 1
+
+        cost = 10
+		prerequisite = { focus = UNW_the_path_to_a_modern_economy }
+
+        available = {
+            
+        }
+
+        bypass = {
+            
+        }
+
+		completion_reward = {
+			
+		}
+    }
+
+	focus = {
+        id = UNW_raise_taxes
+        icon = GFX_UNW_raise_taxes
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        x = 4
+        y = 2
+
+        cost = 10
+		prerequisite = { focus = UNW_conduct_a_new_census }
+
+        available = {
+            
+        }
+
+        bypass = {
+            
+        }
+
+		completion_reward = {
+			
+		}
+    }
+
+	focus = {
+        id = UNW_enforce_public_order
+        icon = GFX_UNW_enforce_public_order
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        x = 4
+        y = 3
+
+        cost = 10
+		prerequisite = { focus = UNW_raise_taxes }
+
+        available = {
+            
+        }
+
+        bypass = {
+            
+        }
+
+		completion_reward = {
+			
+		}
+    }
+
+	focus = {
+        id = UNW_kickstart_industry
+        icon = GFX_UNW_kickstart_industry
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        x = 4
+        y = 5
+
+        cost = 10
+		prerequisite = { focus = UNW_enforce_public_order }
+
+        available = {
+            
+        }
+
+        bypass = {
+            
+        }
+
+		completion_reward = {
+			
+		}
+    }
+
+	focus = {
+        id = UNW_administrative_reform
+        icon = GFX_UNW_administrative_reform
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        x = 8
+        y = 1
+
+        cost = 10
+		prerequisite = { focus = UNW_the_path_to_a_modern_economy }
+
+        available = {
+            
+        }
+
+        bypass = {
+            
+        }
+
+		completion_reward = {
+			
+		}
+    }
+
+	focus = {
+        id = UNW_the_railroad_project
+        icon = GFX_UNW_the_railroad_project
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        x = 7
+        y = 2
+
+        cost = 10
+		prerequisite = { focus = UNW_administrative_reform }
+
+        available = {
+            
+        }
+
+        bypass = {
+            
+        }
+
+		completion_reward = {
+			
+		}
+    }
+
+	focus = {
+        id = UNW_promote_settlements
+        icon = GFX_UNW_promote_settlements
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        x = 9
+        y = 2
+
+        cost = 10
+		prerequisite = { focus = UNW_administrative_reform }
+
+        available = {
+            
+        }
+
+        bypass = {
+            
+        }
+
+		completion_reward = {
+			
+		}
+    }
+
+	focus = {
+        id = UNW_new_railways
+        icon = GFX_UNW_new_railways
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        x = 7
+        y = 3
+
+        cost = 10
+		prerequisite = { focus = UNW_the_railroad_project }
+
+        available = {
+            
+        }
+
+        bypass = {
+            
+        }
+
+		completion_reward = {
+			
+		}
+    }
+
+	focus = {
+        id = UNW_improve_access_to_water
+        icon = GFX_UNW_improve_access_to_water
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        x = 9
+        y = 3
+
+        cost = 10
+		prerequisite = { focus = UNW_promote_settlements }
+
+        available = {
+            
+        }
+
+        bypass = {
+            
+        }
+
+		completion_reward = {
+			
+		}
+    }
+
+	focus = {
+        id = UNW_prevent_famine
+        icon = GFX_UNW_prevent_famine
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        x = 9
+        y = 4
+
+        cost = 10
+		prerequisite = { focus = UNW_improve_access_to_water }
+
+        available = {
+            
+        }
+
+        bypass = {
+            
+        }
+
+		completion_reward = {
+			
+		}
+    }
+
+	focus = {
+        id = UNW_electrification_efforts
+        icon = GFX_UNW_electrification_efforts
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        x = 9
+        y = 5
+
+        cost = 10
+		prerequisite = { focus = UNW_prevent_famine }
+
+        available = {
+            
+        }
+
+        bypass = {
+            
+        }
+
+		completion_reward = {
+			
+		}
+    }
+
+	focus = {
+        id = UNW_modernize_the_economy
+        icon = GFX_UNW_modernize_the_economy
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        x = 12
+        y = 1
+
+        cost = 10
+		prerequisite = { focus = UNW_the_path_to_a_modern_economy }
+		mutually_exclusive = { focus = UNW_economic_traditionalism }
+
+        available = {
+            
+        }
+
+        bypass = {
+            
+        }
+
+		completion_reward = {
+			
+		}
+    }
+
+	focus = {
+        id = UNW_guide_economic_growth
+        icon = GFX_UNW_guide_economic_growth
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        x = 11
+        y = 2
+
+        cost = 10
+		prerequisite = { focus = UNW_modernize_the_economy }
+		mutually_exclusive = { focus = UNW_the_free_market }
+
+        available = {
+            
+        }
+
+        bypass = {
+            
+        }
+
+		completion_reward = {
+			
+		}
+    }
+
+	focus = {
+        id = UNW_protect_emerging_factories
+        icon = GFX_UNW_protect_emerging_factories
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        x = 11
+        y = 3
+
+        cost = 10
+		prerequisite = { focus = UNW_guide_economic_growth }
+		#mutually_exclusive = { focus = UNW_the_free_market }
+
+        available = {
+            
+        }
+
+        bypass = {
+            
+        }
+
+		completion_reward = {
+			
+		}
+    }
+
+	focus = {
+        id = UNW_the_free_market
+        icon = GFX_UNW_the_free_market
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        x = 13
+        y = 2
+
+        cost = 10
+		prerequisite = { focus = UNW_modernize_the_economy }
+		mutually_exclusive = { focus = UNW_guide_economic_growth }
+
+        available = {
+            
+        }
+
+        bypass = {
+            
+        }
+
+		completion_reward = {
+			
+		}
+    }
+
+	focus = {
+        id = UNW_lower_trade_barriers
+        icon = GFX_UNW_lower_trade_barriers
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        x = 13
+        y = 3
+
+        cost = 10
+		prerequisite = { focus = UNW_the_free_market }
+		#mutually_exclusive = { focus = UNW_guide_economic_growth }
+
+        available = {
+            
+        }
+
+        bypass = {
+            
+        }
+
+		completion_reward = {
+			
+		}
+    }
+
+	focus = {
+        id = UNW_improve_access_to_education
+        icon = GFX_UNW_improve_access_to_education
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        x = 12
+        y = 4
+
+        cost = 10
+		prerequisite = { focus = UNW_protect_emerging_factories focus = UNW_lower_trade_barriers }
+		#mutually_exclusive = { focus = UNW_guide_economic_growth }
+
+        available = {
+            
+        }
+
+        bypass = {
+            
+        }
+
+		completion_reward = {
+			
+		}
+    }
+
+	focus = {
+        id = UNW_economic_traditionalism
+        icon = GFX_UNW_economic_traditionalism
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        x = 16
+        y = 1
+
+        cost = 10
+		prerequisite = { focus = UNW_the_path_to_a_modern_economy }
+		mutually_exclusive = { focus = UNW_modernize_the_economy }
+
+        available = {
+            
+        }
+
+        bypass = {
+            
+        }
+
+		completion_reward = {
+			
+		}
+    }
+
+	focus = {
+        id = UNW_maintain_feudalist_structure
+        icon = GFX_UNW_maintain_feudalist_structure
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        x = 16
+        y = 2
+
+        cost = 10
+		prerequisite = { focus = UNW_economic_traditionalism }
+		#mutually_exclusive = { focus = UNW_modernize_the_economy }
+
+        available = {
+            
+        }
+
+        bypass = {
+            
+        }
+
+		completion_reward = {
+			
+		}
+    }
+
+	focus = {
+        id = UNW_import_western_weapons
+        icon = GFX_UNW_import_western_weapons
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        x = 16
+        y = 3
+
+        cost = 10
+		prerequisite = { focus = UNW_maintain_feudalist_structure }
+		#mutually_exclusive = { focus = UNW_modernize_the_economy }
+
+        available = {
+            
+        }
+
+        bypass = {
+            
+        }
+
+		completion_reward = {
+			
+		}
+    }
+
+	focus = {
+        id = UNW_continue_agrarianism
+        icon = GFX_UNW_continue_agrarianism
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        x = 16
+        y = 4
+
+        cost = 10
+		prerequisite = { focus = UNW_import_western_weapons }
+		#mutually_exclusive = { focus = UNW_modernize_the_economy }
+
+        available = {
+            
+        }
+
+        bypass = {
+            
+        }
+
+		completion_reward = {
+			
+		}
+    }
+
+	focus = {
+        id = UNW_a_central_bank
+        icon = GFX_UNW_a_central_bank
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        x = 14
+        y = 5
+
+        cost = 10
+		prerequisite = { focus = UNW_continue_agrarianism focus = UNW_improve_access_to_education }
+		#mutually_exclusive = { focus = UNW_modernize_the_economy }
+
+        available = {
+            
+        }
+
+        bypass = {
+            
+        }
+
+		completion_reward = {
+			
+		}
+    }
+
+	focus = {
+        id = UNW_a_new_economy
+        icon = GFX_UNW_a_new_economy
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        x = 9
+        y = 7
+
+        cost = 10
+		prerequisite = { focus = UNW_a_central_bank }
+		prerequisite = { focus = UNW_electrification_efforts }
+		prerequisite = { focus = UNW_kickstart_industry }
+		#mutually_exclusive = { focus = UNW_modernize_the_economy }
+
+        available = {
+            
+        }
+
+        bypass = {
+            
+        }
+
+		completion_reward = {
+			
+		}
+    }
+
+	focus = {
+        id = UNW_agricultural_reforms
+        icon = GFX_UNW_agricultural_reforms
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        x = 5
+        y = 8
+
+        cost = 10
+		prerequisite = { focus = UNW_a_new_economy }
+
+        available = {
+            
+        }
+
+        bypass = {
+            
+        }
+
+		completion_reward = {
+			
+		}
+    }
+
+	focus = {
+        id = UNW_new_tractors
+        icon = GFX_UNW_new_tractors
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        x = 4
+        y = 9
+
+        cost = 10
+		prerequisite = { focus = UNW_agricultural_reforms }
+
+        available = {
+            
+        }
+
+        bypass = {
+            
+        }
+
+		completion_reward = {
+			
+		}
+    }
+
+	focus = {
+        id = UNW_improve_communication
+        icon = GFX_UNW_improve_communication
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        x = 6
+        y = 9
+
+        cost = 10
+		prerequisite = { focus = UNW_agricultural_reforms }
+
+        available = {
+            
+        }
+
+        bypass = {
+            
+        }
+
+		completion_reward = {
+			
+		}
+    }
+
+	focus = {
+        id = UNW_rural_schools
+        icon = GFX_UNW_rural_schools
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        x = 5
+        y = 10
+
+        cost = 10
+		prerequisite = { focus = UNW_new_tractors }
+		prerequisite = { focus = UNW_improve_communication }
+
+        available = {
+            
+        }
+
+        bypass = {
+            
+        }
+
+		completion_reward = {
+			
+		}
+    }
+
+	focus = {
+        id = UNW_foriegn_exports
+        icon = GFX_UNW_foriegn_exports
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        x = 9
+        y = 8
+
+        cost = 10
+		prerequisite = { focus = UNW_a_new_economy }
+
+        available = {
+            
+        }
+
+        bypass = {
+            
+        }
+
+		completion_reward = {
+			
+		}
+    }
+
+	focus = {
+        id = UNW_lower_traffics
+        icon = GFX_UNW_lower_traffics
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        x = 9
+        y = 9
+
+        cost = 10
+		prerequisite = { focus = UNW_foriegn_exports }
+
+        available = {
+            
+        }
+
+        bypass = {
+            
+        }
+
+		completion_reward = {
+			
+		}
+    }
+
+	focus = {
+        id = UNW_finish_road_paving
+        icon = GFX_UNW_foriegn_exports
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        x = 13
+        y = 8
+
+        cost = 10
+		prerequisite = { focus = UNW_a_new_economy }
+
+        available = {
+            
+        }
+
+        bypass = {
+            
+        }
+
+		completion_reward = {
+			
+		}
+    }
+
+	focus = {
+        id = UNW_promote_urbanization
+        icon = GFX_UNW_promote_urbanization
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        x = 12
+        y = 9
+
+        cost = 10
+		prerequisite = { focus = UNW_finish_road_paving }
+
+        available = {
+            
+        }
+
+        bypass = {
+            
+        }
+
+		completion_reward = {
+			
+		}
+    }
+
+	focus = {
+        id = UNW_reform_the_arm_sector
+        icon = GFX_UNW_reform_the_arm_sector
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        x = 14
+        y = 9
+
+        cost = 10
+		prerequisite = { focus = UNW_finish_road_paving }
+
+        available = {
+            
+        }
+
+        bypass = {
+            
+        }
+
+		completion_reward = {
+			
+		}
+    }
+
+	focus = {
+        id = UNW_found_industrial_companies
+        icon = GFX_UNW_found_industrial_companies
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        x = 13
+        y = 10
+
+        cost = 10
+		prerequisite = { focus = UNW_promote_urbanization }
+		prerequisite = { focus = UNW_reform_the_arm_sector }
+
+        available = {
+            
+        }
+
+        bypass = {
+            
+        }
+
+		completion_reward = {
+			
+		}
+    }
+
+	focus = {
+        id = UNW_industrial_programs
+        icon = GFX_UNW_industrial_programs
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        x = 9
+        y = 11
+
+        cost = 10
+		prerequisite = { focus = UNW_found_industrial_companies }
+		prerequisite = { focus = UNW_lower_traffics }
+		prerequisite = { focus = UNW_rural_schools }
+
+        available = {
+            
+        }
+
+        bypass = {
+            
+        }
+
+		completion_reward = {
+			
+		}
+    }
+
+	focus = {
+        id = UNW_faculty_of_science
+        icon = GFX_UNW_faculty_of_science
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        x = 6
+        y = 12
+
+        cost = 10
+		prerequisite = { focus = UNW_industrial_programs }
+
+        available = {
+            
+        }
+
+        bypass = {
+            
+        }
+
+		completion_reward = {
+			
+		}
+    }
+
+	focus = {
+        id = UNW_expand_the_ports
+        icon = GFX_UNW_expand_the_ports
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        x = 8
+        y = 12
+
+        cost = 10
+		prerequisite = { focus = UNW_industrial_programs }
+
+        available = {
+            
+        }
+
+        bypass = {
+            
+        }
+
+		completion_reward = {
+			
+		}
+    }
+
+	focus = {
+        id = UNW_exploit_natural_wealth
+        icon = GFX_UNW_exploit_natural_wealth
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        x = 10
+        y = 12
+
+        cost = 10
+		prerequisite = { focus = UNW_industrial_programs }
+
+        available = {
+            
+        }
+
+        bypass = {
+            
+        }
+
+		completion_reward = {
+			
+		}
+    }
+
+	focus = {
+        id = UNW_ambitious_military_program
+        icon = GFX_UNW_ambitious_military_program
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        x = 12
+        y = 12
+
+        cost = 10
+		prerequisite = { focus = UNW_industrial_programs }
+
+        available = {
+            
+        }
+
+        bypass = {
+            
+        }
+
+		completion_reward = {
+			
+		}
+    }
+
+	focus = {
+        id = UNW_old_system_new_times
+        icon = GFX_UNW_old_system_new_times
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        x = 25
+        y = 0
+
+        cost = 10
+
+        available = {
+            
+        }
+
+        bypass = {
+            
+        }
+
+		completion_reward = {
+			
+		}
+    }
+
+	focus = {
+        id = UNW_align_the_bureaucracy
+        icon = GFX_UNW_align_the_bureaucracy
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        x = 19
+        y = 1
+
+        cost = 10
+		prerequisite = { focus = UNW_old_system_new_times }
+
+        available = {
+            
+        }
+
+        bypass = {
+            
+        }
+
+		completion_reward = {
+			
+		}
+    }
+
+	focus = {
+        id = UNW_a_western_bureaucracy
+        icon = GFX_UNW_a_western_bureaucracy
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        x = 18
+        y = 2
+
+        cost = 10
+		prerequisite = { focus = UNW_align_the_bureaucracy }
+		mutually_exclusive = { focus = UNW_a_local_bureaucracy }
+
+        available = {
+            
+        }
+
+        bypass = {
+            
+        }
+
+		completion_reward = {
+			
+		}
+    }
+
+	focus = {
+        id = UNW_a_local_bureaucracy
+        icon = GFX_UNW_a_local_bureaucracy
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        x = 20
+        y = 2
+
+        cost = 10
+		prerequisite = { focus = UNW_align_the_bureaucracy }
+		mutually_exclusive = { focus = UNW_a_western_bureaucracy }
+
+        available = {
+            
+        }
+
+        bypass = {
+            
+        }
+
+		completion_reward = {
+			
+		}
+    }
+
+	focus = {
+        id = UNW_encource_meritocracy
+        icon = GFX_UNW_encource_meritocracy
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        x = 18
+        y = 3
+
+        cost = 10
+		prerequisite = { focus = UNW_a_western_bureaucracy focus = UNW_a_local_bureaucracy }
+		mutually_exclusive = { focus = UNW_prevailed_bureaucracy }
+
+        available = {
+            
+        }
+
+        bypass = {
+            
+        }
+
+		completion_reward = {
+			
+		}
+    }
+
+	focus = {
+        id = UNW_prevailed_bureaucracy
+        icon = GFX_UNW_prevailed_bureaucracy
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        x = 20
+        y = 3
+
+        cost = 10
+		prerequisite = { focus = UNW_a_western_bureaucracy focus = UNW_a_local_bureaucracy }
+		mutually_exclusive = { focus = UNW_encource_meritocracy }
+
+        available = {
+            
+        }
+
+        bypass = {
+            
+        }
+
+		completion_reward = {
+			
+		}
+    }
+
+	focus = {
+        id = UNW_expand_the_police_force
+        icon = GFX_UNW_expand_the_police_force
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        x = 19
+        y = 4
+
+        cost = 10
+		prerequisite = { focus = UNW_encource_meritocracy focus = UNW_prevailed_bureaucracy }
+		#mutually_exclusive = { focus = UNW_encource_meritocracy }
+
+        available = {
+            
+        }
+
+        bypass = {
+            
+        }
+
+		completion_reward = {
+			
+		}
+    }
+
+	focus = {
+        id = UNW_a_place_for_the_military
+        icon = GFX_UNW_a_place_for_the_military
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        x = 18
+        y = 5
+
+        cost = 10
+		prerequisite = { focus = UNW_expand_the_police_force }
+		#mutually_exclusive = { focus = UNW_encource_meritocracy }
+
+        available = {
+            
+        }
+
+        bypass = {
+            
+        }
+
+		completion_reward = {
+			
+		}
+    }
+
+	focus = {
+        id = UNW_align_the_judiciary
+        icon = GFX_UNW_align_the_judiciary
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        x = 20
+        y = 5
+
+        cost = 10
+		prerequisite = { focus = UNW_expand_the_police_force }
+		#mutually_exclusive = { focus = UNW_encource_meritocracy }
+
+        available = {
+            
+        }
+
+        bypass = {
+            
+        }
+
+		completion_reward = {
+			
+		}
+    }
+
+	focus = {
+        id = UNW_into_the_new_era
+        icon = GFX_UNW_into_the_new_era
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        x = 19
+        y = 6
+
+        cost = 10
+		prerequisite = { focus = UNW_a_place_for_the_military }
+		prerequisite = { focus = UNW_align_the_judiciary }
+		#mutually_exclusive = { focus = UNW_encource_meritocracy }
+
+        available = {
+            
+        }
+
+        bypass = {
+            
+        }
+
+		completion_reward = {
+			
+		}
+    }
+
+	focus = {
+        id = UNW_purge_socialists
+        icon = GFX_UNW_purge_socialists
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        x = 25
+        y = 1
+
+        cost = 10
+		prerequisite = { focus = UNW_old_system_new_times }
+
+        available = {
+            
+        }
+
+        bypass = {
+            
+        }
+
+		completion_reward = {
+			
+		}
+    }
+
+	focus = {
+        id = UNW_slow_liberal_reform
+        icon = GFX_UNW_slow_liberal_reform
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        x = 24
+        y = 2
+
+        cost = 10
+		prerequisite = { focus = UNW_purge_socialists }
+		mutually_exclusive = { focus = UNW_purge_the_liberals }
+
+        available = {
+            
+        }
+
+        bypass = {
+            
+        }
+
+		completion_reward = {
+			
+		}
+    }
+
+	focus = {
+        id = UNW_purge_the_liberals
+        icon = GFX_UNW_purge_the_liberals
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        x = 26
+        y = 2
+
+        cost = 10
+		prerequisite = { focus = UNW_purge_socialists }
+		mutually_exclusive = { focus = UNW_slow_liberal_reform }
+
+        available = {
+            
+        }
+
+        bypass = {
+            
+        }
+
+		completion_reward = {
+			
+		}
+    }
+
+	focus = {
+        id = UNW_curtail_the_nobility
+        icon = GFX_UNW_curtail_the_nobility
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        x = 24
+        y = 3
+
+        cost = 10
+		prerequisite = { focus = UNW_slow_liberal_reform }
+		#mutually_exclusive = { focus = UNW_slow_liberal_reform }
+
+        available = {
+            
+        }
+
+        bypass = {
+            
+        }
+
+		completion_reward = {
+			
+		}
+    }
+
+	focus = {
+        id = UNW_empower_the_nobility
+        icon = GFX_UNW_empower_the_nobility
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        x = 26
+        y = 3
+
+        cost = 10
+		prerequisite = { focus = UNW_purge_the_liberals }
+		#mutually_exclusive = { focus = UNW_slow_liberal_reform }
+
+        available = {
+            
+        }
+
+        bypass = {
+            
+        }
+
+		completion_reward = {
+			
+		}
+    }
+
+	focus = {
+        id = UNW_glory_to_the_king_and_monarchy
+        icon = GFX_UNW_glory_to_the_king_and_monarchy
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        x = 25
+        y = 4
+
+        cost = 10
+		prerequisite = { focus = UNW_empower_the_nobility focus = UNW_curtail_the_nobility }
+		#mutually_exclusive = { focus = UNW_slow_liberal_reform }
+
+        available = {
+            
+        }
+
+        bypass = {
+            
+        }
+
+		completion_reward = {
+			
+		}
+    }
+
+	focus = {
+        id = UNW_empower_the_clergy
+        icon = GFX_UNW_empower_the_clergy
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        x = 29
+        y = 4
+
+        cost = 10
+		prerequisite = { focus = UNW_purge_the_liberals }
+		#mutually_exclusive = { focus = UNW_slow_liberal_reform }
+
+        available = {
+            
+        }
+
+        bypass = {
+            
+        }
+
+		completion_reward = {
+			
+		}
+    }
+
+	focus = {
+        id = UNW_censorship
+        icon = GFX_UNW_censorship
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        x = 27
+        y = 5
+
+        cost = 10
+		prerequisite = { focus = UNW_glory_to_the_king_and_monarchy }
+		prerequisite = { focus = UNW_empower_the_clergy }
+		#mutually_exclusive = { focus = UNW_slow_liberal_reform }
+
+        available = {
+            
+        }
+
+        bypass = {
+            
+        }
+
+		completion_reward = {
+			
+		}
+    }
+
+	focus = {
+        id = UNW_protect_the_social_order
+        icon = GFX_UNW_protect_the_social_order
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        x = 27
+        y = 6
+
+        cost = 10
+		prerequisite = { focus = UNW_censorship }
+
+        available = {
+            
+        }
+
+        bypass = {
+            
+        }
+
+		completion_reward = {
+			
+		}
+    }
+
+	focus = {
+        id = UNW_a_reactionary_monarchy
+        icon = GFX_UNW_a_reactionary_monarchy
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        x = 27
+        y = 7
+
+        cost = 10
+		prerequisite = { focus = UNW_protect_the_social_order }
+
+        available = {
+            
+        }
+
+        bypass = {
+            
+        }
+
+		completion_reward = {
+			
+		}
+    }
+
+	focus = {
+        id = UNW_limit_the_clergy
+        icon = GFX_UNW_limit_the_clergy
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        x = 21
+        y = 4
+
+        cost = 10
+		prerequisite = { focus = UNW_slow_liberal_reform }
+		#mutually_exclusive = { focus = UNW_slow_liberal_reform }
+
+        available = {
+            
+        }
+
+        bypass = {
+            
+        }
+
+		completion_reward = {
+			
+		}
+    }
+
+	focus = {
+        id = UNW_limit_freedom_of_speech
+        icon = GFX_UNW_empower_the_clergy
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        x = 23
+        y = 5
+
+        cost = 10
+		prerequisite = { focus = UNW_glory_to_the_king_and_monarchy }
+		prerequisite = { focus = UNW_limit_the_clergy }
+		#mutually_exclusive = { focus = UNW_slow_liberal_reform }
+
+        available = {
+            
+        }
+
+        bypass = {
+            
+        }
+
+		completion_reward = {
+			
+		}
+    }
+
+	focus = {
+        id = UNW_liberalize_society
+        icon = GFX_UNW_liberalize_society
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        x = 23
+        y = 6
+
+        cost = 10
+		prerequisite = { focus = UNW_limit_freedom_of_speech }
+		#mutually_exclusive = { focus = UNW_slow_liberal_reform }
+
+        available = {
+            
+        }
+
+        bypass = {
+            
+        }
+
+		completion_reward = {
+			
+		}
+    }
+
+	focus = {
+        id = UNW_a_reformist_monarchy
+        icon = GFX_UNW_a_reformist_monarchy
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        x = 23
+        y = 7
+
+        cost = 10
+		prerequisite = { focus = UNW_liberalize_society }
+		#mutually_exclusive = { focus = UNW_slow_liberal_reform }
+
+        available = {
+            
+        }
+
+        bypass = {
+            
+        }
+
+		completion_reward = {
+			
+		}
+    }
+}

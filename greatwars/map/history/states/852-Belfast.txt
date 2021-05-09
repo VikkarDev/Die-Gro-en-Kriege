@@ -1,0 +1,29 @@
+state={
+	id=852
+	name="STATE_852"
+	state_category=city
+
+	history={
+		owner = ENG
+		victory_points = {
+			3379 5 
+		}
+		buildings = {
+			infrastructure = 6
+			arms_factory = 1
+			industrial_complex = 2
+			dockyard = 2
+
+		}
+		add_core_of = ENG
+		add_core_of = IRE
+		add_core_of = NIR
+
+	}
+
+	provinces={
+		3217 3242 3379 
+	}
+	manpower=1198537
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,88 @@
+add_namespace = sweden
+
+country_event = {
+	id = sweden.1
+	title = sweden.1.t
+	desc = sweden.1.d
+	picture = GFX 
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	trigger = {
+		tag = SWE
+	}
+
+
+	option = {
+		name = "Our union is collapsing..."
+		ai_chance = {
+			factor = 100
+		}
+		release = NOR
+		drop_cosmetic_tag = yes
+	}
+}
+country_event = {
+	id = sweden.2
+	title = sweden.2.t
+	desc = sweden.2.d
+	picture = GFX 
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	trigger = {
+		tag = SWE
+	}
+
+
+	option = {
+		name = "Boströms Plan "
+		ai_chance = {
+			factor = 100
+		}
+		add_political_power = -10
+		remove_ideas = {
+			SWE_Undeveloped_North_Region
+		}
+	}
+	option = {
+		name = "Statens Plan "
+		ai_chance = {
+			factor = 0
+		}
+		add_political_power = -20
+		random_owned_controlled_state = {
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = industrial_complex
+			level = 1
+			instant_build = yes
+			}
+		}
+	}
+}
+country_event = {
+	id = sweden.3
+	title = "The election is around the corner..."
+	desc = sweden.3.d
+	picture = GFX 
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	trigger = {
+		tag = SWE
+	}
+
+
+	option = {
+		name = "The democratic socialism "
+		ai_chance = {
+			factor = 100
+		}
+		set_politics = { ruling_party = democratic_socialism  }
+		hidden_effect = {
+			add_popularity = { ideology = democratic_socialism popularity = 0.13 }
+			add_popularity = { ideology = social_egalitarianism popularity = 0.07 }
+		}
+	}
+}

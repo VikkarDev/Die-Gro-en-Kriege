@@ -1,0 +1,24 @@
+
+state={
+	id=947
+	name="STATE_947"
+
+	history={
+		owner = JSH
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+
+		}
+		add_core_of = OMA
+		add_core_of = JSH
+
+	}
+
+	provinces={
+		2018 2059 
+	}
+	manpower=18000
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

@@ -1,0 +1,23 @@
+state={
+	id=831
+	name="STATE_831"
+	state_category = small_island
+
+	provinces={
+		13239 
+	}
+	history={
+		owner = POS
+		add_core_of = POS
+		add_core_of = GRE
+		buildings = {
+			infrastructure = 3
+		}
+
+		victory_points = {
+			13239 10
+		}
+	}
+	manpower=32977
+	buildings_max_level_factor=1.000
+}

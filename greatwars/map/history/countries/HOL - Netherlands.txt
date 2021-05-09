@@ -1,0 +1,48 @@
+﻿capital = 7
+
+1900.1.1 = {
+
+	oob = "HOL_1900"
+
+	set_convoys = 100
+
+	set_research_slots = 2
+
+	set_cosmetic_tag = HOL_KINGDOM
+
+	add_ideas = {
+		# Government / Laws
+		volunteer_only
+		limited_exports
+		civilian_economy
+	}
+	puppet = INS
+	set_politics = {
+		ruling_party = centrism
+		#last_election = "1838.12.30"
+		#election_frequency = 48
+		elections_allowed = no
+	}
+
+	set_popularities = {
+		vanguard_communism = 0
+		social_egalitarianism = 5.3
+		social_liberalism = 12.3
+		centrism = 54.3
+		traditional_conservatism = 21.4
+		radical_democracy = 1.1
+		chauvinist_populism = 0
+		autocracy = 2.7
+		democratic_socialism = 2.9
+	}
+
+	create_country_leader = {
+		name = "Wilhelmina"
+		desc = ""
+		picture = "Wilhelmina.tga"
+		ideology = con_liberal
+		traits = {
+			queen_of_the_people
+		}
+	}
+}

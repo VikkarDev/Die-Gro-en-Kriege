@@ -1,0 +1,24 @@
+
+state={
+	id=920
+	name="STATE_920"
+
+	history={
+		owner = GLD
+		victory_points = {
+			12991 3 
+		}
+		buildings = {
+			infrastructure = 3
+
+		}
+
+	}
+
+	provinces={
+		2020 2063 8164 10928 
+	}
+	manpower=27695
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,44 @@
+ai_historical_focus_list_GER = {
+	ai_national_focuses = {
+		GER_weltpolitik
+		GER_state_of_the_triple_alliance
+		GER_kaiser_wilhelm_II
+		GER_imperial_german_economy
+		GER_foriegn_direct_investments
+		GER_german_textiles
+		GER_krupp_steel
+		GER_militarist_state_schools
+		GER_southern_cottage_industry
+		GER_industrialization
+		GER_northern_coal_plants
+		GER_welfare_for_all
+		GER_imperial_german_army
+		GER_loyalty_to_the_kaiser
+		GER_the_new_course
+		GER_kultur_problem
+		GER_german_railroads
+		GER_immigrant_workers
+		GER_heavy_industry
+		GER_prioritize_military
+		GER_worlds_third_best_economy
+		GER_imperial_german_navy
+		GER_ensure_german_dominance
+		GER_tarrif_on_imported_grain
+		GER_baden_aniline_and_soda_factory
+		GER_the_cartel_system
+		GER_support_the_annexation_of_bosnia
+		GER_continue_the_german_reserve_system
+		GER_worlds_largest_army
+		GER_deutchland_class
+		GER_pass_the_naval_bills
+		GER_rival_royal_navy
+		GER_artillery
+		GER_increase_military_budget
+		GER_support_equipment
+		GER_deutsches_kolonialreich
+		GER_subsidis_colonial_manufacturing
+		GER_joint_military_training
+		GER_bulwark_against_socialism
+		GER_political_visit_to_ottomans
+	}
+}

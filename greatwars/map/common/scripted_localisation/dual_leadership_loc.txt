@@ -1,0 +1,879 @@
+# Custom leader stuff used from Coop. Edited by the DGK Team.
+
+defined_text = {
+	name = GetFirstTitle
+
+	text = {
+		trigger = {
+			tag = GER
+			OR = {
+				has_government = centrism
+				has_government = traditional_conservatism
+				has_government = social_liberalism
+				has_government = social_egalitarianism
+			}
+		}
+		localization_key = GER_HOG_TITLE
+	}
+
+	text = {
+		trigger = {
+			tag = GER
+			OR = {
+				has_government = autocracy
+			}
+		}
+		localization_key = GER_HOS_TITLE
+	}
+
+	text = {
+		trigger = {
+			tag = ENG
+			OR = {
+				has_government = centrism
+				has_government = traditional_conservatism
+				has_government = social_liberalism
+				has_government = social_egalitarianism
+			}
+		}
+		localization_key = ENG_HOG_TITLE
+	}
+
+	text = {
+		trigger = {
+			tag = FRA
+			OR = {
+				has_government = centrism
+				has_government = traditional_conservatism
+				has_government = social_liberalism
+				has_government = social_egalitarianism
+			}
+		}
+		localization_key = FRA_HOS_TITLE
+	}
+
+	text = {
+		trigger = {
+			tag = USA
+			OR = {
+				has_government = centrism
+				has_government = traditional_conservatism
+				has_government = social_liberalism
+				has_government = social_egalitarianism
+			}
+		}
+		localization_key = USA_HOS_TITLE
+	}
+
+	text = {
+		trigger = {
+			tag = ITA
+			OR = {
+				has_government = centrism
+				has_government = traditional_conservatism
+				has_government = social_liberalism
+				has_government = social_egalitarianism
+				has_government = radical_democracy
+			}
+		}
+		localization_key = ITA_HOG_TITLE
+	}
+
+	text = {
+		trigger = {
+			tag = AUS
+			OR = {
+				has_government = centrism
+				has_government = traditional_conservatism
+				has_government = social_liberalism
+				has_government = social_egalitarianism
+				has_government = radical_democracy
+			}
+		}
+		localization_key = AUS_HOG_TITLE
+	}
+
+	text = {
+		trigger = {
+			tag = JAP
+			OR = {
+				has_government = centrism
+				has_government = traditional_conservatism
+				has_government = social_liberalism
+				has_government = social_egalitarianism
+			}
+		}
+		localization_key = JAP_HOG_TITLE
+	}
+
+	text = {
+		trigger = {
+			tag = SOV
+			OR = {
+				has_government = centrism
+				has_government = traditional_conservatism
+				has_government = social_liberalism
+				has_government = social_egalitarianism
+				has_government = autocracy
+			}
+		}
+		localization_key = SOV_HOS_TITLE
+	}
+
+	text = {
+		trigger = {
+			tag = SPR
+			OR = {
+				has_government = centrism
+				has_government = traditional_conservatism
+				has_government = social_liberalism
+				has_government = social_egalitarianism
+				has_government = radical_democracy
+			}
+		}
+		localization_key = SPR_HOS_TITLE
+	}
+    
+    text = {
+		trigger = {
+			tag = KOR
+		}
+		localization_key = KOR_HOS_TITLE
+	}
+    
+    text = {
+		trigger = {
+			tag = SAF
+		}
+		localization_key = SAF_HOS_TITLE
+	}
+
+	text = {
+		trigger = {
+			tag = SWE
+		}
+		localization_key = SWE_HOG_TITLE
+	}
+
+	text = {
+		localization_key = DEFAULT_HOS_TITLE
+	}
+}
+
+defined_text = {
+	name = GetSecondTitle
+	
+	text = {
+		trigger = {
+			tag = GER
+			OR = {
+				has_government = centrism
+				has_government = traditional_conservatism
+				has_government = social_liberalism
+				has_government = social_egalitarianism
+			}
+		}
+		localization_key = GER_HOS_TITLE
+	}
+
+	text = {
+		trigger = {
+			tag = GER
+			OR = {
+				has_government = autocracy
+			}
+		}
+		localization_key = GER_HOG_TITLE
+	}
+
+	text = {
+		trigger = {
+			tag = ENG
+			OR = {
+				has_government = centrism
+				has_government = traditional_conservatism
+				has_government = social_liberalism
+				has_government = social_egalitarianism
+			}
+		}
+		localization_key = ENG_HOS_TITLE
+	}
+
+	text = {
+		trigger = {
+			tag = FRA
+			OR = {
+				has_government = centrism
+				has_government = traditional_conservatism
+				has_government = social_liberalism
+				has_government = social_egalitarianism
+			}
+		}
+		localization_key = FRA_HOG_TITLE
+	}
+
+	text = {
+		trigger = {
+			tag = USA
+			OR = {
+				has_government = centrism
+				has_government = traditional_conservatism
+				has_government = social_liberalism
+				has_government = social_egalitarianism
+			}
+		}
+		localization_key = USA_HOG_TITLE
+	}
+
+	text = {
+		trigger = {
+			tag = ITA
+			OR = {
+				has_government = centrism
+				has_government = traditional_conservatism
+				has_government = social_liberalism
+				has_government = social_egalitarianism
+			}
+		}
+		localization_key = ITA_HOS_TITLE
+	}
+
+	text = {
+		trigger = {
+			tag = AUS
+			OR = {
+				has_government = centrism
+				has_government = traditional_conservatism
+				has_government = social_liberalism
+				has_government = social_egalitarianism
+			}
+		}
+		localization_key = AUS_HOS_TITLE
+	}
+
+	text = {
+		trigger = {
+			tag = JAP
+			OR = {
+				has_government = centrism
+				has_government = traditional_conservatism
+				has_government = social_liberalism
+				has_government = social_egalitarianism
+			}
+		}
+		localization_key = JAP_HOS_TITLE
+	}
+
+	text = {
+		trigger = {
+			tag = SOV
+			OR = {
+				has_government = centrism
+				has_government = traditional_conservatism
+				has_government = social_liberalism
+				has_government = social_egalitarianism
+				has_government = autocracy
+			}
+		}
+		localization_key = SOV_HOG_TITLE
+	}
+
+	text = {
+		trigger = {
+			tag = SPR
+			OR = {
+				has_government = centrism
+				has_government = traditional_conservatism
+				has_government = social_liberalism
+				has_government = social_egalitarianism
+				has_government = radical_democracy
+			}
+		}
+		localization_key = SPR_HOG_TITLE
+	}
+    
+    text = {
+		trigger = {
+			tag = KOR
+		}
+		localization_key = KOR_HOG_TITLE
+	}
+    
+    text = {
+		trigger = {
+			tag = SAF
+		}
+		localization_key = SAF_HOG_TITLE
+	}
+
+	text = {
+		trigger = {
+			tag = SWE
+		}
+		localization_key = SWE_HOS_TITLE
+	}
+
+	text = {
+		localization_key = DEFAULT_HOG_TITLE
+	}
+}
+
+defined_text = {
+	name = GetDualLeaderName
+
+	text = {
+		trigger = {
+			tag = GER
+			has_country_flag = wilhelm_leader
+			OR = {
+				has_government = centrism
+				has_government = traditional_conservatism
+				has_government = social_liberalism
+				has_government = social_egalitarianism
+			}
+		}
+		localization_key = GER_WILHELM_II_NAME
+	}
+
+	text = {
+		trigger = {
+			tag = ENG
+			has_country_flag = victoria_leader
+			OR = {
+				has_government = centrism
+				has_government = traditional_conservatism
+				has_government = social_liberalism
+				has_government = social_egalitarianism
+			}
+		}
+		localization_key = ENG_VICTORIA_NAME
+	}
+
+	text = {
+		trigger = {
+			tag = FRA
+			has_country_flag = pierre_rousseau_vp
+			OR = {
+				has_government = centrism
+				has_government = traditional_conservatism
+				has_government = social_liberalism
+				has_government = social_egalitarianism
+			}
+		}
+		localization_key = FRA_PIERRE_NAME
+	}
+
+	text = {
+		trigger = {
+			tag = USA
+			has_country_flag = undecided_vp
+			OR = {
+				has_government = centrism
+				has_government = traditional_conservatism
+				has_government = social_liberalism
+				has_government = social_egalitarianism
+			}
+		}
+		localization_key = USA_UNKNOWN_NAME
+	}
+
+	text = {
+		trigger = {
+			tag = USA
+			has_country_flag = theodore_roosevelt_becomes_vp
+			OR = {
+				has_government = centrism
+				has_government = traditional_conservatism
+				has_government = social_liberalism
+				has_government = social_egalitarianism
+			}
+		}
+		localization_key = USA_THEODORE_NAME
+	}
+
+	text = {
+		trigger = {
+			tag = ITA
+			has_country_flag = umberto_i_leader
+			OR = {
+				has_government = centrism
+				has_government = traditional_conservatism
+				has_government = social_liberalism
+				has_government = social_egalitarianism
+			}
+		}
+		localization_key = ITA_UMBERTO_I_NAME
+	}
+
+	text = {
+		trigger = {
+			tag = AUS
+			has_country_flag = franz_joseph_leader
+			OR = {
+				has_government = centrism
+				has_government = traditional_conservatism
+				has_government = social_liberalism
+				has_government = social_egalitarianism
+			}
+		}
+		localization_key = AUS_FRANZ_JOSEPH_NAME
+	}
+
+	text = {
+		trigger = {
+			tag = JAP
+			has_country_flag = meiji_leader
+			OR = {
+				has_government = centrism
+				has_government = traditional_conservatism
+				has_government = social_liberalism
+				has_government = social_egalitarianism
+			}
+		}
+		localization_key = JAP_MUTSUHITO_NAME
+	}
+
+	text = {
+		trigger = {
+			tag = SOV
+			has_country_flag = ivan_durnovo_vp
+			OR = {
+				has_government = autocracy
+			}
+		}
+		localization_key = SOV_DURNOVO_NAME
+	}
+
+	text = {
+		trigger = {
+			tag = SPR
+			has_country_flag = alfonso_leader_vp
+			OR = {
+				has_government = radical_democracy
+			}
+		}
+		localization_key = SPR_ALFONSO_NAME
+	}
+    
+    text = {
+		trigger = {
+			tag = KOR
+			has_country_flag = yoon_yong_sun_vp
+		}
+		localization_key = KOR_YYS_NAME
+	}
+    
+    text = {
+		trigger = {
+			tag = SAF
+			has_country_flag = william_philip_schreiner_vp
+		}
+		localization_key = SAF_William_Philip_Schreiner_NAME
+	}
+
+	text = {
+		trigger = {
+			tag = SWE
+			has_country_flag = oscar_ii_leader
+		}
+		localization_key = SWE_OSCAR_II_NAME
+	}
+
+	text = {
+		localization_key = DEFAULT_TITLE
+	}
+}
+
+defined_text = {
+	name = GetDualLeaderPortrait
+
+	text = {
+		trigger = {
+			tag = GER
+			has_country_flag = wilhelm_leader
+			OR = {
+				has_government = centrism
+				has_government = traditional_conservatism
+				has_government = social_liberalism
+				has_government = social_egalitarianism
+			}
+		}
+		localization_key = "GFX_GER_Wilhelm_II"
+	}
+
+	text = {
+		trigger = {
+			tag = ENG
+			has_country_flag = victoria_leader
+			OR = {
+				has_government = centrism
+				has_government = traditional_conservatism
+				has_government = social_liberalism
+				has_government = social_egalitarianism
+			}
+		}
+		localization_key = "GFX_ENG_Victoria"
+	}
+
+	text = {
+		trigger = {
+			tag = FRA
+			has_country_flag = pierre_rousseau_vp
+			OR = {
+				has_government = centrism
+				has_government = traditional_conservatism
+				has_government = social_liberalism
+				has_government = social_egalitarianism
+			}
+		}
+		localization_key = "GFX_FRA_Pierre_Rousseau"
+	}
+
+	text = {
+		trigger = {
+			tag = USA
+			has_country_flag = undecided_vp
+			OR = {
+				has_government = centrism
+				has_government = traditional_conservatism
+				has_government = social_liberalism
+				has_government = social_egalitarianism
+			}
+		}
+		localization_key = "GFX_USA_UNKOWN"
+	}
+
+	text = {
+		trigger = {
+			tag = USA
+			has_country_flag = theodore_roosevelt_becomes_vp
+			OR = {
+				has_government = centrism
+				has_government = traditional_conservatism
+				has_government = social_liberalism
+				has_government = social_egalitarianism
+			}
+		}
+		localization_key = "GFX_USA_Theodore_Roosevelt"
+	}
+
+	text = {
+		trigger = {
+			tag = USA
+			has_country_flag = john_long_becomes_vp
+			OR = {
+				has_government = centrism
+				has_government = traditional_conservatism
+				has_government = social_liberalism
+				has_government = social_egalitarianism
+			}
+		}
+		localization_key = "GFX_USA_John_Long"
+	}
+
+	text = {
+		trigger = {
+			tag = USA
+			has_country_flag = undecided_vp
+			OR = {
+				has_government = centrism
+				has_government = traditional_conservatism
+				has_government = social_liberalism
+				has_government = social_egalitarianism
+			}
+		}
+		localization_key = "GFX_USA_Vacant_Office"
+	}
+
+	text = {
+		trigger = {
+			tag = ITA
+			has_country_flag = umberto_i_leader
+			OR = {
+				has_government = centrism
+				has_government = traditional_conservatism
+				has_government = social_liberalism
+				has_government = social_egalitarianism
+			}
+		}
+		localization_key = "GFX_ITA_Umberto_I"
+	}
+
+	text = {
+		trigger = {
+			tag = AUS
+			has_country_flag = franz_joseph_leader
+			OR = {
+				has_government = centrism
+				has_government = traditional_conservatism
+				has_government = social_liberalism
+				has_government = social_egalitarianism
+			}
+		}
+		localization_key = "GFX_AUS_Franz_Joseph"
+	}
+
+	text = {
+		trigger = {
+			tag = JAP
+			has_country_flag = meiji_leader
+			OR = {
+				has_government = centrism
+				has_government = traditional_conservatism
+				has_government = social_liberalism
+				has_government = social_egalitarianism
+			}
+		}
+		localization_key = "GFX_JAP_Mutsuhito"
+	}
+
+	text = {
+		trigger = {
+			tag = SOV
+			has_country_flag = ivan_durnovo_vp
+			OR = {
+				has_government = autocracy
+			}
+		}
+		localization_key = "GFX_SOV_Ivan_Durnovo"
+	}
+
+	text = {
+		trigger = {
+			tag = SPR
+			has_country_flag = alfonso_leader_vp
+			OR = {
+				has_government = radical_democracy
+			}
+		}
+		localization_key = "GFX_SPR_Young_Alfonso_XIII"
+	}
+    
+    text = {
+		trigger = {
+			tag = KOR
+			has_country_flag = yoon_yong_sun_vp
+		}
+		localization_key = "GFX_KOR_Yoon_Yong_sun"
+	}
+    
+    text = {
+		trigger = {
+			tag = SAF
+			has_country_flag = william_philip_schreiner_vp
+		}
+		localization_key = "GFX_SAF_William_Philip_Schreiner"
+	}
+
+	text = {
+		trigger = {
+			tag = SWE
+			has_country_flag = oscar_ii_leader
+		}
+		localization_key = "GFX_SWE_Oscar_II"
+	}
+
+	text = {
+		localization_key = "GFX_portrait_bg_blank"
+	}
+}
+
+
+defined_text = {
+	name = GetFirstLeaderDesc
+
+	text = {
+		trigger = {
+			original_tag = GER
+			has_country_flag = carl_viktor_vp
+		}
+		localization_key = VIKTOR_LEADER_DESCRIPTION
+	}
+
+	text = {
+		trigger = {
+			original_tag = ENG
+			has_country_flag = robert_cecil_vp
+		}
+		localization_key = ROBERT_CECIL_LEADER_DESCRIPTION
+	}
+
+	text = {
+		trigger = {
+			original_tag = FRA
+			has_country_flag = emile_leader
+		}
+		localization_key = EMILE_LEADER_DESCRIPTION
+	}
+
+	text = {
+		trigger = {
+			original_tag = USA
+			has_country_flag = william_mckinley_president
+		}
+		localization_key = WILLIAM_LEADER_DESCRIPTION
+	}
+
+	text = {
+		trigger = {
+			original_tag = ITA
+			has_country_flag = luigi_pelloux_vp
+		}
+		localization_key = LUIGI_PELLOUX_LEADER_DESCRIPTION
+	}
+
+	text = {
+		trigger = {
+			original_tag = AUS
+			has_country_flag = heinrich_ritter_von_wittek_vp
+		}
+		localization_key = HEINRICH_RITTER_VON_WITTEK_LEADER_DESCRIPTION
+	}
+
+	text = {
+		trigger = {
+			original_tag = JAP
+			has_country_flag = yamagata_vp
+		}
+		localization_key = YAMAGATA_ARITOMO_LEADER_DESCRIPTION
+	}
+
+	text = {
+		trigger = {
+			original_tag = SOV
+			has_country_flag = nicholas_ii_leader
+		}
+		localization_key = NICHOLAS_II_LEADER_DESCRIPTION
+	}
+
+	text = {
+		trigger = {
+			original_tag = SPR
+			has_country_flag = francisco_silvela
+		}
+		localization_key = FRANCISCO_SILVELA_LEADER_DESCRIPTION
+	}
+    
+    text = {
+		trigger = {
+			original_tag = KOR
+			has_country_flag = gojong_leader
+		}
+		localization_key = GOJONG_LEADER_DESCRIPTION
+	}
+
+	text = {
+		trigger = {
+			original_tag = SWE
+			has_country_flag = erik_gustaf_bostrom_vp
+		}
+		localization_key = BOSTROM_LEADER_DESCRIPTION
+	}
+}
+
+defined_text = {
+	name = GetDualLeaderDesc
+
+	text = {
+		trigger = {
+			original_tag = GER
+			has_country_flag = wilhelm_leader
+		}
+		localization_key = WILHELM_LEADER_DESCRIPTION
+	}
+
+	text = {
+		trigger = {
+			original_tag = ENG
+			has_country_flag = victoria_leader
+		}
+		localization_key = VICTORIA_LEADER_DESCRIPTION
+	}
+
+	text = {
+		trigger = {
+			original_tag = FRA
+			has_country_flag = pierre_rousseau_vp
+		}
+		localization_key = PIERRE_LEADER_DESCRIPTION
+	}
+
+	text = {
+		trigger = {
+			original_tag = USA
+			has_country_flag = undecided_vp
+		}
+		localization_key = UNKNOWN_LEADER_DESCRIPTION
+	}
+
+	text = {
+		trigger = {
+			original_tag = USA
+			has_country_flag = theodore_roosevelt_becomes_vp
+		}
+		localization_key = THEODORE_LEADER_DESCRIPTION
+	}
+
+	text = {
+		trigger = {
+			original_tag = JAP
+			has_country_flag = meiji_leader
+		}
+		localization_key = MEIJI_LEADER_DESCRIPTION
+	}
+
+	text = {
+		trigger = {
+			original_tag = ITA
+			has_country_flag = umberto_i_leader
+		}
+		localization_key = UMBERTO_I_LEADER_DESCRIPTION
+	}
+
+	text = {
+		trigger = {
+			original_tag = AUS
+			has_country_flag = franz_joseph_leader
+		}
+		localization_key = FRANZ_JOSEPH_LEADER_DESCRIPTION
+	}
+
+	text = {
+		trigger = {
+			original_tag = JAP
+			has_country_flag = meiji_leader
+		}
+		localization_key = MEIJI_LEADER_DESCRIPTION
+	}
+
+	text = {
+		trigger = {
+			original_tag = SOV
+			has_country_flag = ivan_durnovo_vp
+		}
+		localization_key = DURNOVO_LEADER_DESCRIPTION
+	}
+
+	text = {
+		trigger = {
+			original_tag = SPR
+			has_country_flag = alfonso_leader_vp
+		}
+		localization_key = ALFONSO_LEADER_DESCRIPTION
+	}
+    text = {
+		trigger = {
+			original_tag = KOR
+			has_country_flag = yoon_yong_sun_vp
+		}
+		localization_key = YYS_LEADER_DESCRIPTION
+	}
+
+	text = {
+		trigger = {
+			original_tag = SWE
+			has_country_flag = oscar_ii_leader
+		}
+		localization_key = OSCAR_II_LEADER_DESCRIPTION
+	}
+}

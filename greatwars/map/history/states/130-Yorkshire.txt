@@ -1,0 +1,31 @@
+
+state={
+	id=130
+	name="STATE_130"
+	resources={
+		steel=71.000
+	}
+
+	history={
+		owner = ENG
+		victory_points = {
+			9379 15 
+		}
+		victory_points = {
+			9315 3 
+		}
+		buildings = {
+			infrastructure = 7
+			arms_factory = 2
+			industrial_complex = 3
+		}
+		add_core_of = ENG
+	}
+
+	provinces={
+		6268 9315 9332 9379 9397 11382 
+	}
+	manpower=4762495
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+}

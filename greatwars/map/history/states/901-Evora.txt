@@ -1,0 +1,26 @@
+state={
+	id=901
+	name="STATE_901"
+	state_category = town
+
+	history={
+		owner = POR
+		
+		victory_points = {
+			9869 1 
+		}
+
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 2
+		}
+		add_core_of = POR
+	}
+
+	provinces={
+		3846 3886 6986 9869 
+	}
+	manpower=231042
+	buildings_max_level_factor=1.000
+}
