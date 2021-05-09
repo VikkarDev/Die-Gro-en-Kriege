@@ -12,12 +12,6 @@ division_template = {
             artillery = { x = 0 y = 0 } 
                   }        
 	}
-<<<<<<< Updated upstream
-
-	priority = 0 # garrison
-}
-=======
->>>>>>> Stashed changes
 division_template = {
 	name = "Sanjiao Jun"			# Represents three-division infantry corps (generally poorly-equipped militias)
 	division_names_group = CHI_INF_01
@@ -605,9 +599,6 @@ units = {
 		start_equipment_factor = 0.7
 
 	}
-}
-
-units = {
 	##### Eighth Route Army (CO: Mao Zedong, Zhu De) #####
 	division = {
 		name = "115 Bubing Shi"

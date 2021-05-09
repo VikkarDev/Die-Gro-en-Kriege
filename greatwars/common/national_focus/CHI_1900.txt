@@ -1028,6 +1028,26 @@ focus_tree = {
 		}
 
 		# END OF REFORMIST PATH
+
+		focus = {
+			id = CHI_1900_continue_modernization_program
+			icon = GFX_SOV_focus_state_duma
+			x = 38
+			y = 16
+			prerequisite = {
+				focus = CHI_1900_foreign_recognition
+			}
+
+			cost = 7
+
+			available = {
+				
+			}
+
+			completion_reward = { 
+            
+			}
+		}
 		 
 
 }
