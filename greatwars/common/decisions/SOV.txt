@@ -240,4 +240,44 @@ sov_fear = {
 			          }  
 	             }
         }
+
+#INVASION MANCHURIA BRUH
+
+sov_man = {
+    sov_inv_man = {
+         icon = GFX_decision_icon_default
+		 days_mission_timeout = 120
+		 is_good = no
+
+         activation = {
+            has_country_flag = rus_man_inv
+                      }
+ 
+		 available = {
+		         SOV = {controls_state = 328} 
+				 SOV = {controls_state = 717} 
+				 SOV = {controls_state = 714}
+				 SOV = {controls_state = 715}
+				 SOV = {controls_state = 716}
+				 SOV = {controls_state = 761}  
+			 		 }
+
+         fire_only_once = yes 
+
+		 visible = {
+			 tag = SOV
+		 }
+
+         timeout_effect = {
+			 add_war_support = -0.5
+		 }
+	     
+		 complete_effect = {
+			 add_war_support = 0.1
+			 SOV = { country_event = russia.8 }
+		 }
+
+	}	
+
+}
 		

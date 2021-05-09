@@ -34,3 +34,15 @@ sov_fear = {
 	           }
 
 }
+
+sov_man = {
+	icon = border_conflicts
+	picture = GFX_sov_man
+	priority = 10
+  
+      visible = {
+	    has_completed_focus = RUS_new_prop
+	           }
+
+ }
+
