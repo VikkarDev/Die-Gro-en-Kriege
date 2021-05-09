@@ -93,5 +93,59 @@ units  = {
 		division_template = "Boxer Militia"
 		start_experience_factor = 0.2
 	}
+	division = {
+		name = "8th Boxers Militia"
+		location = 7109
+		division_template = "Boxer Militia"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "9th Boxers Militia"
+		location = 7109
+		division_template = "Boxer Militia"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "2nd Boxers Calvalry"
+		location = 1169
+		division_template = "Boxer Calvalry"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "3rd Boxers Calvalry"
+		location = 4058
+		division_template = "Boxer Calvalry"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "4th Boxers Calvalry"
+		location = 4058
+		division_template = "Boxer Calvalry"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "5th Boxers Calvalry"
+		location = 4208
+		division_template = "Boxer Calvalry"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "10th Boxers Militia"
+		location = 4208
+		division_template = "Boxer Militia"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "11th Boxers Militia"
+		location = 4208
+		division_template = "Boxer Militia"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "12th Boxers Militia"
+		location = 4093
+		division_template = "Boxer Militia"
+		start_experience_factor = 0.2
+	}
     
 }

@@ -1,0 +1,12 @@
+box_boxer_war = {
+	icon = gre_paying_ifc_debt
+	picture = GFX_sov_liteacypic
+	priority = 10
+
+    visible = {
+		has_war = yes
+	}
+
+	allowed = {
+	}
+}

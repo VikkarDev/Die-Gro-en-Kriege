@@ -1,0 +1,28 @@
+box_boxer_war = {
+    box_buy_weapons = {
+		icon = generic_political_actions
+
+		available = {
+			has_war =yes
+            
+		}
+
+		days_re_enable = 30
+        days_remove = 100
+
+		visible = {
+		
+		}
+        cost = 60
+        remove_effect = {
+            add_equipment_to_stockpile = {
+                type = infantry_equipment_1
+                amount = 300
+                producer = ENG
+            }
+        }
+        ai_will_do = {
+			factor = 50
+		}
+    }
+}
