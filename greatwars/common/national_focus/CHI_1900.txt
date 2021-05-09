@@ -308,7 +308,7 @@ focus_tree = {
 		 focus = {
 			id = CHI_1900_new_age_for_china
 			icon = GFX_SOV_focus_the_safe_option
-			x = 3
+			x = 4
 			y = 8
             prerequisite = {
 				focus = CHI_1900_stunning_victory
@@ -328,10 +328,10 @@ focus_tree = {
 		 focus = {
 			id = CHI_1900_boxer_experience
 			icon = GFX_SOV_focus_the_safe_option
-			x = 3
-			y = 9
+			x = 2
+			y = 8
             prerequisite = {
-				focus = CHI_1900_new_age_for_china
+				focus = CHI_1900_stunning_victory
 			}
             cost = 7
 
@@ -348,7 +348,7 @@ focus_tree = {
 		 focus = {
 			id = CHI_1900_begin_reintegration
 			icon = GFX_SOV_focus_the_safe_option
-			x = 7
+			x = 6
 			y = 8
             prerequisite = {
 				focus = CHI_1900_horrific_loss
@@ -368,10 +368,10 @@ focus_tree = {
 		  focus = {
 			id = CHI_1900_power_to_governers
 			icon = GFX_SOV_focus_the_safe_option
-			x = 7
-			y = 9
+			x = 8
+			y = 8
             prerequisite = {
-				focus = CHI_1900_begin_reintegration
+				focus = CHI_1900_horrific_loss
 			}
             cost = 7
 
@@ -388,7 +388,7 @@ focus_tree = {
 		  focus = {
 			id = CHI_1900_foreign_aid
 			icon = GFX_SOV_focus_the_safe_option
-			x = 11
+			x = 12
 			y = 3
             prerequisite = {
 				focus = CHI_1900_against_boxers
@@ -408,10 +408,10 @@ focus_tree = {
 		 focus = {
 			id = CHI_1900_protect_christians
 			icon = GFX_SOV_focus_the_safe_option
-			x = 11
-			y = 4
+			x = 10
+			y = 3
             prerequisite = {
-				focus = CHI_1900_foreign_aid
+				focus = CHI_1900_against_boxers
 			}
             cost = 7
 
@@ -429,9 +429,12 @@ focus_tree = {
 			id = CHI_1900_change_foreign_policy
 			icon = GFX_SOV_focus_the_safe_option
 			x = 11
-			y = 5
+			y = 4
             prerequisite = {
 				focus = CHI_1900_protect_christians
+			}
+			 prerequisite = {
+				focus = CHI_1900_foreign_aid
 			}
             cost = 7
 
@@ -449,7 +452,7 @@ focus_tree = {
 			id = CHI_1900_boxer_defeated
 			icon = GFX_SOV_focus_the_safe_option
 			x = 11
-			y = 6
+			y = 5
             prerequisite = {
 				focus = CHI_1900_change_foreign_policy
 			}
@@ -460,7 +463,7 @@ focus_tree = {
                 has_war = yes
 				BOX = {
 					exists = yes
-				}
+					}
 				}
             }
             completion_reward = { 
@@ -471,8 +474,8 @@ focus_tree = {
 		 focus = {
 			id = CHI_1900_open_up_to_foreigners
 			icon = GFX_SOV_focus_the_safe_option
-			x = 11
-			y = 7
+			x = 10
+			y = 6
             prerequisite = {
 				focus = CHI_1900_boxer_defeated
 			}
@@ -494,10 +497,10 @@ focus_tree = {
 		 focus = {
 			id = CHI_1900_military_mission
 			icon = GFX_SOV_focus_the_safe_option
-			x = 11
-			y = 8
+			x = 12
+			y = 6
             prerequisite = {
-				focus = CHI_1900_open_up_to_foreigners
+				focus = CHI_1900_boxer_defeated
 			}
             cost = 7
 

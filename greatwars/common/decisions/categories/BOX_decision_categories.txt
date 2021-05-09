@@ -4,6 +4,7 @@ box_boxer_war = {
 	priority = 10
 
     visible = {
+		tag = BOX
 		has_war = yes
 	}
 

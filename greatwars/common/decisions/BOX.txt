@@ -1,24 +1,26 @@
 box_boxer_war = {
-    box_buy_weapons = {
+    box_smuggle_weapons = {
 		icon = generic_political_actions
 
 		available = {
-			has_war =yes
+			has_war = yes
+            tag = BOX
             
 		}
 
-		days_re_enable = 30
-        days_remove = 100
+		days_re_enable = 20 
 
 		visible = {
+            has_war = yes
+            tag = BOX
 		
 		}
-        cost = 60
-        remove_effect = {
+        cost = 25
+        complete_effect = {
             add_equipment_to_stockpile = {
-                type = infantry_equipment_1
-                amount = 300
-                producer = ENG
+                type = infantry_equipment
+                amount = 200
+                producer = CHI
             }
         }
         ai_will_do = {

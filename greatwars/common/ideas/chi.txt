@@ -20,19 +20,19 @@ ideas ={
                 naval_retreat_speed = -0.3
                 naval_morale_factor = -0.15
                 experience_gain_heavy_cruiser_combat_factor = -0.3
-                command_power_gain = -0.1
+                command_power_gain = -0.5
             }
         }
         
-        CHI_low_legitimacy = {
+        CHI_low_integrity = {
             picture = generic_victors_of_ww1
 
             allowed ={
                 tag = CHI
             }
             modifier = {
-                stability_factor = -0.4
-                war_support_factor = -0.3
+                stability_factor = -0.2
+                war_support_factor = -0.2
                 resistance_growth_on_our_occupied_states = 0.2
                 army_org = -10
 
@@ -45,24 +45,13 @@ ideas ={
             tag = CHI
             }
         modifier = {
-            stability_factor = -0.1
-            war_support_factor = -0.1
+            stability_factor = -0.25
+            war_support_factor = -0.20
             army_org_regain = -0.1
             army_org = -0.1
             occupation_cost = 0.15
-            compliance_growth_on_our_occupied_states = 0.05
+            political_power_factor = -0.2
              
-        }
-    }
-    CHI_boxer_rebellion = {
-        picture = generic_victors_of_ww1
-
-        allowed ={
-        tag = CHI
-            }
-        modifier = {
-            stability_factor = -0.15
-            political_power_gain = -0.01
         }
     }
     CHI_agrarian_society = {
@@ -71,20 +60,21 @@ ideas ={
             tag = CHI
         }
         modifier = {
-            industrial_capacity_factory = -0.4
+            industrial_capacity_factory = -0.15
             industrial_capacity_dockyard = -0.3
-            production_speed_buildings_factor = -0.3
-            production_factory_efficiency_gain_factor = -0.5 
-            production_factory_max_efficiency_factor = -0.5 
-            production_oil_factor = -0.5
+            production_speed_buildings_factor = -0.15
+            production_factory_efficiency_gain_factor = -0.2 
+            production_factory_max_efficiency_factor = -0.2
+            production_oil_factor = -0.15
             production_lack_of_resource_penalty_factor = 0.3
-            research_speed_factor = -0.35 
+            research_speed_factor = -0.15 
             consumer_goods_factor = 0.2
+            political_power_factor = -0.15
             }
 
         }
     CHI_outdated_army = {
-        picture = generic_victors_of_ww1
+        picture = chi_army_corruption2
         allowed = {
             tag = CHI
         }
@@ -106,6 +96,7 @@ ideas ={
             org_loss_when_moving = 0.2
             planning_speed = -0.4
             training_time_factor = 0.3
+            political_power_factor = -0.15
 
             }
         }
@@ -117,21 +108,36 @@ ideas ={
         modifier = {
             consumer_goods_factor = 0.05
             stability_factor = -0.05
-            production_speed_buildings_factor = 0.1
+            production_speed_buildings_factor = 0.25
             war_support_factor = -0.05
 
             }
         }
-        CHI_heavenly_emperor = {
+        CHI_manchu_support = {
         picture = generic_victors_of_ww1
         allowed = {
             tag = CHI
         }
         modifier = {
-            stability_factor = 0.2
-            war_support_factor = 0.3
-            army_attack_factor = 0.15
-            army_morale = 10
+            stability_factor = 0.1
+            war_support_factor = 0.1
+            army_attack_factor = 0.05
+            army_morale = 5
+            political_power_factor = 0.15
+
+            }
+        }
+        CHI_mongol_support = {
+        picture = generic_victors_of_ww1
+        allowed = {
+            tag = CHI
+        }
+        modifier = {
+            stability_factor = 0.1
+            war_support_factor = 0.1
+            army_attack_factor = 0.05
+            army_morale = 5
+            political_power_factor = 0.15
 
             }
         }

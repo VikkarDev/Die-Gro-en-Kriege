@@ -147,5 +147,6 @@ units  = {
 		division_template = "Boxer Militia"
 		start_experience_factor = 0.2
 	}
+
     
 }
