@@ -275,3 +275,31 @@ country_event = {
 
 	}
 }
+country_event = {
+	id = germany.15
+	title = germany.15.t
+	desc = germany.15.d
+	picture = GFX_report_event_german_speech
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	trigger = {
+		CHI ={
+		has_completed_focus = CHI_1900_purchase_krupp_guns
+		}
+	}
+	option = {
+		name = germany.15.a
+		ai_chance = { factor = 100 }
+		send_equipment = {
+    		equipment = artillery_equipment
+    		amount = 30
+    		target = CHI
+			}
+	}
+	option = {
+		name = germany.15.b
+		ai_chance = { factor = 0 }
+		add_political_power = -10
+}

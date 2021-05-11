@@ -79,4 +79,19 @@ country_event = {
         add_war_support = -0.05
     }
 }
+country_event = {
+	id = china.4 #political situation
+	title = china.4.t
+	desc = china.4.d
+	picture = GFX_report_event_imperial_conference
+
+	is_triggered_only = yes
+    fire_only_once = yes
+
+    trigger = {
+    }
+
+    option = {
+        name = china.4.a
+    }
         
