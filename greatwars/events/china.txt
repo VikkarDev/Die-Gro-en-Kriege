@@ -49,4 +49,34 @@ country_event = {
         name = china.2.a
     }
 }
+country_event = {
+	id = china.3 #death of Li Hongzhang
+	title = china.3.t
+	desc = china.3.d
+	picture = GFX_report_event_imperial_conference
+
+	is_triggered_only = yes
+    fire_only_once = yes
+
+    trigger = {
+        original_tag = CHI
+        date > 1901.10.7
+        has_unit_leader = 68550
+    }
+
+    immediate = {
+        hidden_effect = {
+            remove_unit_leader = 68550
+            set_country_flag = CHI_1900_yuan_in_charge
+        }
+    }
+
+	option = {
+        name = china.3.a
+        effect_tooltip = {
+			remove_unit_leader = 68550
+		}
+        add_war_support = -0.05
+    }
+}
         

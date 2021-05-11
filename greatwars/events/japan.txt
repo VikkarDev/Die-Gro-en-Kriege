@@ -281,15 +281,9 @@ country_event = {
 				popularity = 0.05
 			}
 		}
-		diplomatic_relation = {
-    		country = PHI
-    		relation = guarantee
-   			active = no
-		}
-		diplomatic_relation = {
-    		country = PHI
-    		relation = military_access
-   			active = no
+		JAP = {
+        	give_guarantee = PHI
+        	give_military_access = PHI
 		}
 
 	}
