@@ -27,7 +27,7 @@ country_event = {
 	desc = russia.5.d
 	picture = GFX_event_chi_quest
 
-	fire_only_once = yes
+	fire_only_once = no
 	is_triggered_only = yes
 	
 	trigger = {
@@ -40,7 +40,8 @@ country_event = {
         declare_war_on = {
             target = CHI
             type = annex_everything
-                           }
+                         }
+		custom_effect_tooltip = blitz_man			 
 		set_country_flag = rus_man_inv
 	}
 	option = {
@@ -73,13 +74,15 @@ country_event = {
                        }
 
 		set_country_flag = rus_chi_won
+		clr_country_flag = rus_man_inv
 
-		  SOV = {transfer_state = 328
-				 transfer_state = 717  
-				 transfer_state = 714
-				 transfer_state = 715
-			     transfer_state = 716
-				 transfer_state = 761}
+		     SOV = {transfer_state = 328
+				    transfer_state = 717  
+				    transfer_state = 714
+				    transfer_state = 715
+			        transfer_state = 716
+				    transfer_state = 761}
+					                              
 	}
 }	
 
@@ -179,7 +182,7 @@ country_event = {
 	hidden = yes
 
 	fire_only_once = yes
-	is_triggered_only = yes
+	is_triggered_only = no
 	
 	trigger = {
         tag = SOV
@@ -192,7 +195,7 @@ country_event = {
 		add_ideas = SOV_mass_prot
 		add_ideas = SOV_shat_army
 		add_ideas = SOV_shat_navy
-	}
+	         }
 
     immediate = { mark_focus_tree_layout_dirty = yes
                   set_country_flag = russia.jap

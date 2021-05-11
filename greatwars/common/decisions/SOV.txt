@@ -260,7 +260,7 @@ sov_man = {
 				 SOV = {controls_state = 715}
 				 SOV = {controls_state = 716}
 				 SOV = {controls_state = 761}  
-			 		 }
+					 }
 
          fire_only_once = yes 
 

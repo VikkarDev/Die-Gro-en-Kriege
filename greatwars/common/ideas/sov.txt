@@ -354,6 +354,20 @@ ideas = {
 
             }
         }
+                  SOV_shat_navy = {
+            picture = generic_navy_bonus
+
+            allowed = {
+                tag = SOV
+            }
+
+            modifier = {
+                navy_capital_ship_attack_factor	= -0.10
+                naval_morale = -10
+                naval_accidents_chance = 0.15
+                industrial_capacity_dockyard = -0.20
+            }
+        }
 
     }
 }

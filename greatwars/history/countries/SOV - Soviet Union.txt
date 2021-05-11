@@ -24,10 +24,10 @@ capital = 219
         SOV_high_iliteracy3
 		SOV_crowd
 		SOV_disorg_army
-		# government
+		#goverment
 		extensive_conscription
 		export_focus
-		partial_economic_mobilisation
+		partial_economic_mobilisation		
 	}
 
 	set_politics = {

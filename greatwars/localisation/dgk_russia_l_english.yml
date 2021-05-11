@@ -131,7 +131,7 @@ russia.2.d:0 "The Ottoman Empire Has Refused Our Rightful Demands, With Demploma
 russia.2.a:0 "For The Tsar!"
 russia.5.t:0 "The Chinese Question"
 russia.5.d:0 "With our armed forces ready for battle, and with China busy with it's internal problems, perhaps we should take advantage of this situation to expand our influence in Asia."
-russia.5.a:0 "To Peking!"
+russia.5.a:0 "§YTo Peking!§W"!
 russia.5.b:0 "No, we still need to prepare."
 rus_quick_chi:0 "The Chinese Threat Is Dealt With"
 sov_brob1:0 "First Propaganda Wave"
@@ -143,6 +143,11 @@ russia.6.a:0 "The army has proved it self"
 russia.7.t:0 "A terrible defeat!"
 russia.7.d:0 "Japanese ground forces have pushed us too far, we had to sue for peace to not risk Vladivostok getting in the battle zone. Protests have errupted across our country, we must act quickly before this turns into some kind of a revolution."
 russia.7.a:0 "Oh dear!"
+russia.8.t:0 "Occupation of Manchuria"
+russia.8.d:0 "An official cease fire request has arrived from diplomats in Peking, they are looking to finish this costly war. We have demanded our rightful terratories in manchuria, as expected, they have accepted as they have no choise but to!"
+russia.8.a:0 "Long live the tsar!"
+rus_occ_man:0 "The Russian occupation of Manchuria."
+blitz_man:0 " We §Rmust§W occupy manchuria by a time limit or we will face §Rsevere§W consequences!"!
 # NATIONAL SPIRITS
 ########### Russia National Spirits Localisation ###########
 SOV_french_dependancy_desc:0 "While this National Spirit is active, we will have improved relations with  [FRA.GetFlag]  §BFrance§!\n\nRussia has a large military, but its arms are obsolete and some troops even lack equipment. We cannot hope to make progress against German and Austrian forces without French help."
