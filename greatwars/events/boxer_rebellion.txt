@@ -38,20 +38,13 @@ country_event = {
 	hidden = yes
 	is_triggered_only = yes
 
-	#trigger = {
-	#	#date = 1900.6.21
-	#	NOT = {
-	#		has_global_flag = is_dgk_scripted_false
-	#	}
-  	#}
+	trigger = {
+		CHI = {
+			has_completed_focus = CHI_1900_taku_forts
+		}
+	}
 
 	immediate = {
-		CHI = {
-			annex_country = {
-    		target = BOX
-    		transfer_troops = yes
-				}
-		}
 
 		CHI = {
 			declare_war_on = {
@@ -86,14 +79,32 @@ country_event = {
 				target = USA
 				type = take_state
 			}
+			declare_war_on = {
+				target = SPR
+				type = take_state
+			}
+			declare_war_on = {
+				target = BEL
+				type = take_state
+			}
+			declare_war_on = {
+				target = HOL
+				type = take_state
+			}
+			set_country_flag = CHI_boxer_war_eight_nation
 		}
 	}
 }
 	country_event = {
-			id = boxer_rebellion.25
-			title = boxer_rebellion.25.t
-			desc = boxer_rebellion.25.d
+			id = boxer_rebellion.3
+			title = boxer_rebellion.3.t
+			desc = boxer_rebellion.3.d
 			picture = GFX_report_event_soldiers_marching
+
+			trigger = {
+				has_country_flag = CHI_boxer_war_eight_nation
+
+			}
 
 			fire_only_once = yes
 			hidden = yes
@@ -148,7 +159,7 @@ country_event = {
 
 # PEACE DEAL
 country_event = {
-	id = boxer_rebellion.3
+	id = boxer_rebellion.4
 
 	fire_only_once = yes
 	hidden = yes

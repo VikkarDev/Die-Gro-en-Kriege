@@ -302,4 +302,33 @@ country_event = {
 		name = germany.15.b
 		ai_chance = { factor = 0 }
 		add_political_power = -10
+	}
 }
+country_event = {
+	id = germany.16
+	title = germany.16.t
+	desc = germany.16.d
+	picture = GFX_report_event_german_speech
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	trigger = {
+		CHI ={
+		has_completed_focus = CHI_1900_qingdao_jinan_railway
+		}
+	}
+	option = {
+		name = germany.16.a
+		ai_chance = { factor = 100 }
+		add_political_power = 15
+		743 ={
+			set_building_level = {
+   				type = infrastructure
+    			level = 4
+    			instant_build = yes
+				}
+		}
+	}
+}
+

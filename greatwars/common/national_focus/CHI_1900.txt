@@ -26,7 +26,7 @@ focus_tree = {
 			}
 
 			completion_reward = { 
-                add_political_power = 100
+                add_political_power = 30
                 add_stability = 0.05
 			}
 		}
@@ -396,9 +396,7 @@ focus_tree = {
             cost = 7
 
             available = {
-                NOT = {
-                has_war = yes
-				}
+                has_war_with = BOX
             }
             completion_reward = { 
 
@@ -407,7 +405,7 @@ focus_tree = {
          }
 		 focus = {
 			id = CHI_1900_protect_christians
-			icon = GFX_SOV_focus_the_safe_option
+			icon = GFX_focus_por_concordat
 			x = 10
 			y = 3
             prerequisite = {
@@ -416,9 +414,7 @@ focus_tree = {
             cost = 7
 
             available = {
-                NOT = {
-                has_war = yes
-				}
+                has_war_with = BOX
             }
             completion_reward = { 
 
@@ -523,7 +519,7 @@ focus_tree = {
 			x = 25
 			y = 0
 
-			cost = 7
+			cost = 5
 
 			available = {
 				NOT = {
@@ -551,9 +547,12 @@ focus_tree = {
 				focus = CHI_1900_end_imperial_rule
 			}
 
-			cost = 7
+			cost = 10
 
 			available = {
+				NOT ={
+					has_country_flag = CHI_boxer_war_eight_nation
+				}
 				
 			}
 
@@ -573,9 +572,14 @@ focus_tree = {
 				focus = CHI_1900_continue_imperial_china
 			}
 
-			cost = 7
+			cost = 10
 
 			available = {
+				NOT = {
+					BOX = {
+						exists = yes
+					}
+				}
 				
 			}
 
@@ -595,7 +599,7 @@ focus_tree = {
 				focus = CHI_1900_sun_yat_sen
 			}
 
-			cost = 7
+			cost = 10
 
 			available = {
 				
@@ -617,7 +621,7 @@ focus_tree = {
 				focus = CHI_1900_legacy_1898_coup
 			}
 
-			cost = 7
+			cost = 10
 
 			available = {
 				
@@ -636,7 +640,7 @@ focus_tree = {
 				focus = CHI_1900_legacy_1898_coup
 			}
 
-			cost = 7
+			cost = 10
 
 			available = {
 				
@@ -1128,7 +1132,7 @@ focus_tree = {
 			}
 		}
 		focus = {
-			id = CHI_1900_boxer_rebels
+			id = CHI_1900_boxer_war_xp
 			icon = GFX_CHI_focus_boxer_war_victory
 			x = 49
 			y = 5
@@ -1262,7 +1266,7 @@ focus_tree = {
 		}
 
 		focus = {
-			id = CHI_1900_gansu_braves
+			id = CHI_1900_rebuild_armies
 			icon = GFX_SOV_focus_state_duma
 			x = 48
 			y = 6
@@ -1270,7 +1274,7 @@ focus_tree = {
 			cost = 10
 
 			prerequisite = {
-				focus = CHI_1900_boxer_rebels
+				focus = CHI_1900_boxer_war_xp
 			}
 
 			available = {
@@ -1278,7 +1282,7 @@ focus_tree = {
 			completion_reward = {}
 		}
 		focus = {
-			id = CHI_1900_arsenals
+			id = CHI_1900_resupply_arsenals
 			icon = GFX_SOV_focus_state_duma
 			x = 50
 			y = 6
@@ -1286,7 +1290,7 @@ focus_tree = {
 			cost = 10
 
 			prerequisite = {
-				focus = CHI_1900_boxer_rebels
+				focus = CHI_1900_boxer_war_xp
 			}
 
 			available = {
@@ -1864,7 +1868,7 @@ focus_tree = {
 		}
 		focus = {
 			id = CHI_1900_power_in_cruisers
-			icon = GFX_SOV_focus_state_duma
+			icon = GFX_GER_focus_new_cruisers
 			x = 62
 			y = 8
 
@@ -1908,12 +1912,13 @@ focus_tree = {
 			}
 
 			available = {
+				owns_state = 609
 
 			}
 
 			completion_reward = { 
 
-				random_owned_state  ={
+				609  ={
 					add_extra_state_shared_building_slots = 3
 				    add_building_construction = { type = dockyard level = 3 instant_build = yes }
 
@@ -1943,6 +1948,382 @@ focus_tree = {
 				
 				navy_experience = 10
 
+			}
+		}
+
+		#INDUSTRY TREE
+
+		focus = {
+			id = CHI_1900_the_chinese_industry
+			icon = GFX_SOV_focus_state_duma
+			x = 78
+			y = 0
+
+			cost = 10
+
+			available = {
+				
+			}
+
+			completion_reward = { 
+            
+			}
+		}
+
+		focus = {
+			id = CHI_1900_the_industrial_north
+			icon = GFX_SOV_focus_state_duma
+			x = 72
+			y = 1
+
+			prerequisite = {
+				focus = CHI_1900_the_chinese_industry
+			}
+
+			cost = 10
+
+			available = {
+				
+			}
+
+			completion_reward = { 
+            
+			}
+		}
+
+		focus = {
+			id = CHI_1900_the_agricultural_south
+			icon = GFX_SOV_focus_state_duma
+			x = 84
+			y = 1
+
+			prerequisite = {
+				focus = CHI_1900_the_chinese_industry
+			}
+
+			cost = 10
+
+			available = {
+				
+			}
+
+			completion_reward = { 
+            
+			}
+		}
+
+		focus = {
+			id = CHI_1900_zhili_railway
+			icon = GFX_SOV_focus_state_duma
+			x = 69
+			y = 2
+
+			prerequisite = {
+				focus = CHI_1900_the_industrial_north
+			}
+
+			cost = 10
+
+			available = {
+				
+			}
+
+			completion_reward = { 
+            
+			}
+		}
+		focus = {
+			id = CHI_1900_kaiping_railway_maintain
+			icon = GFX_SOV_focus_state_duma
+			x = 70
+			y = 3
+
+			prerequisite = {
+				focus = CHI_1900_zhili_railway
+			}
+
+			cost = 7
+
+			available = {
+				
+			}
+
+			completion_reward = { 
+            
+			}
+		}
+		focus = {
+			id = CHI_1900_kaiping_railway_expand
+			icon = GFX_SOV_focus_state_duma
+			x = 68
+			y = 3
+
+			prerequisite = {
+				focus = CHI_1900_zhili_railway
+			}
+
+			cost = 10
+
+			available = {
+				
+			}
+
+			completion_reward = { 
+            
+			}
+		}
+		focus = {
+			id = CHI_1900_get_engineers
+			icon = GFX_SOV_focus_state_duma
+			x = 68
+			y = 4
+
+			prerequisite = {
+				focus = CHI_1900_kaiping_railway_expand
+			}
+
+			cost = 10
+
+			available = {
+				
+			}
+
+			completion_reward = { 
+            
+			}
+		}
+		focus = {
+			id = CHI_1900_employ_zhan_tianyu
+			icon = GFX_SOV_focus_state_duma
+			x = 70
+			y = 4
+
+			prerequisite = {
+				focus = CHI_1900_kaiping_railway_maintain
+			}
+
+			cost = 10
+
+			available = {
+				
+			}
+
+			completion_reward = { 
+            
+			}
+		}
+		focus = {
+			id = CHI_1900_begin_jingzhang_railway
+			icon = GFX_SOV_focus_state_duma
+			x = 69
+			y = 5
+
+			prerequisite = {
+				focus = CHI_1900_employ_zhan_tianyu
+			}
+
+			cost = 10
+
+			available = {
+				
+			}
+
+			completion_reward = { 
+            
+			}
+		}
+		focus = {
+			id = CHI_1900_standard_gauge
+			icon = GFX_SOV_focus_state_duma
+			x = 68
+			y = 6
+
+			prerequisite = {
+				focus = CHI_1900_begin_jingzhang_railway
+			}
+
+			cost = 7
+
+			available = {
+				
+			}
+
+			completion_reward = { 
+            
+			}
+		}
+		focus = {
+			id = CHI_1900_construct_fengtai
+			icon = GFX_SOV_focus_state_duma
+			x = 70
+			y = 6
+
+			prerequisite = {
+				focus = CHI_1900_begin_jingzhang_railway
+			}
+
+			cost = 7
+
+			available = {
+				
+			}
+
+			completion_reward = { 
+            
+			}
+		}
+		focus = {
+			id = CHI_1900_chinas_first_nationalized_railway
+			icon = GFX_GER_focus_develop_colonies
+			x = 69
+			y = 7
+
+			prerequisite = {
+				focus = CHI_1900_standard_gauge
+			}
+			prerequisite = {
+				focus = CHI_1900_construct_fengtai
+			}
+
+			cost = 7
+
+			available = {
+				
+			}
+
+			completion_reward = { 
+            
+			}
+		}
+		focus = {
+			id = CHI_1900_foreign_owned_railways
+			icon = GFX_SOV_focus_state_duma
+			x = 75
+			y = 2
+
+			prerequisite = {
+				focus = CHI_1900_the_industrial_north
+			}
+
+			cost = 10
+
+			available = {
+				
+			}
+
+			completion_reward = { 
+            
+			}
+		}
+		focus = {
+			id = CHI_1900_opening_east_china_railway
+			icon = GFX_SOV_focus_state_duma
+			x = 77
+			y = 3
+
+			prerequisite = {
+				focus = CHI_1900_foreign_owned_railways
+			}
+
+			cost = 3
+
+			available = {
+				
+			}
+
+			completion_reward = { 
+            
+			}
+		}
+		focus = {
+			id = CHI_1900_allow_anglo_german_companies
+			icon = GFX_GER_focus_european_investment
+			x = 73
+			y = 3
+
+			prerequisite = {
+				focus = CHI_1900_foreign_owned_railways
+			}
+
+			cost = 8
+
+			available = {
+				
+			}
+
+			completion_reward = { 
+            	add_political_power = -20
+				add_stability = -0.05
+				613 = {
+				add_building_construction = {
+                        type = industrial_complex
+                        level = 3
+                        instant_build = yes
+                    }
+				add_tech_bonus = {
+            		bonus = 0.20
+             		uses = 2
+            		category = ca_tech
+                                           }
+
+			}
+		}
+	}
+		focus = {
+			id = CHI_1900_canton_railway
+			icon = GFX_goal_generic_construct_infrastructure
+			x = 72
+			y = 4
+
+			prerequisite = {
+				focus = CHI_1900_allow_anglo_german_companies
+			}
+
+			cost = 10
+
+			available = {
+				
+			}
+
+			completion_reward = { 
+				593 ={
+					set_building_level = {
+    					type = infrastructure
+    					level = 4
+    					instant_build = yes
+					}
+				}
+            
+			}
+		}
+		focus = {
+			id = CHI_1900_qingdao_jinan_railway
+			icon = GFX_goal_generic_construct_infrastructure
+			x = 74
+			y = 4
+
+			prerequisite = {
+				focus = CHI_1900_allow_anglo_german_companies
+			}
+
+			cost = 10
+
+			available = {
+				
+			}
+
+			completion_reward = { 
+				GER = {
+					country_event = germany.16
+				}
+				597 ={
+					set_building_level = {
+    					type = infrastructure
+    					level = 5
+    					instant_build = yes
+					}
+				}
+            
 			}
 		}
 

@@ -9,8 +9,21 @@ country_event = {
 	is_triggered_only = yes
     fire_only_once = yes
 
-	option = {
+
+    option = {
         name = china.1.a
+
+        ROOT = {
+            add_political_power = -100
+            add_stability = 0.2
+            add_manpower = 3000
+        }
+        hidden_effect = {
+            set_country_flag = CHI_anti_boxers
+        }
+    }
+    option = {
+        name = china.1.b
 
         ROOT = {
             add_stability = -0.1
@@ -20,19 +33,6 @@ country_event = {
         }
     hidden_effect = {
         set_country_flag = CHI_pro_boxers
-        }
-    }
-
-    option = {
-        name = china.1.b
-
-        ROOT = {
-            add_political_power = -100
-            add_stability = 0.2
-            add_manpower = 3000
-        }
-        hidden_effect = {
-            set_country_flag = CHI_anti_boxers
         }
     }
 }
@@ -93,5 +93,23 @@ country_event = {
 
     option = {
         name = china.4.a
+        add_political_power = 5
     }
+}
+country_event = {
+	id = china.5 #industry sit
+	title = china.5.t
+	desc = china.5.d
+	picture = GFX_report_event_imperial_conference
+
+	is_triggered_only = yes
+    fire_only_once = yes
+
+    trigger = {
+    }
+
+    option = {
+        name = china.5.a
+    }
+}
         

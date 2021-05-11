@@ -147,6 +147,30 @@ units  = {
 		division_template = "Boxer Militia"
 		start_experience_factor = 0.2
 	}
+	division = {
+		name = "13th Boxers Militia"
+		location = 11996
+		division_template = "Boxer Militia"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "14th Boxers Militia"
+		location = 11996
+		division_template = "Boxer Militia"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "15th Boxers Militia"
+		location = 11996
+		division_template = "Boxer Militia"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "16th Boxers Militia"
+		location = 4208
+		division_template = "Boxer Militia"
+		start_experience_factor = 0.3
+	}
 
     
 }
