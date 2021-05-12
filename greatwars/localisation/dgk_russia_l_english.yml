@@ -148,6 +148,11 @@ russia.8.d:0 "An official cease fire request has arrived from diplomats in Pekin
 russia.8.a:0 "Long live the tsar!"
 rus_occ_man:0 "The Russian occupation of Manchuria."
 blitz_man:0 " We §Rmust§W occupy manchuria by a time limit or we will face §Rsevere§W consequences!"!
+russia.9.t:0 "A costly war"
+russia.9.d:0 "With the war raging on for almost 5 months now, and with popular support declining. People are now protesting the war and demanding peace with the Qing empire. The army morale is already low but with a series of defeats we have decided that we will pull out once and for all!"
+russia.9.a:0 "For the people"
+russia.9.b:0 "No! We are on the brink of victory"
+rus_fail_man:0 "Russia's hulilating defeat against the §YQing empire§W"!
 # NATIONAL SPIRITS
 ########### Russia National Spirits Localisation ###########
 SOV_french_dependancy_desc:0 "While this National Spirit is active, we will have improved relations with  [FRA.GetFlag]  §BFrance§!\n\nRussia has a large military, but its arms are obsolete and some troops even lack equipment. We cannot hope to make progress against German and Austrian forces without French help."
@@ -172,6 +177,8 @@ SOV_fear_of_revolution2:0 "Uneasy Citizens"
 SOV_fear_of_revolution3:0 "Almost normal life"
 SOV_mass_prot:0 "Mass Protests"
 SOV_shat_army:0 "Shattered Army"
+SOV_shat_navy:0 "Shattered Navy"
+SOV_army_demoral:0 "Demoralized Army"
 
 # PARTY NAMES
 ########### Russia Party Names Localisation ###########
@@ -209,3 +216,4 @@ DURNOVO_LEADER_DESCRIPTION:0 "Ivan Nikolayevich Durnovo, the 16th Chairman of th
  allied_partners:0 "Allied"
  prop:0 "This focus will unlock decisions to start propaganda waves to increase support for the royal familly."
 russia.jap.lost:0 "We have lost the Russo-Japanese war."
+fra_gar:0 "[FRA.GetFlag]France will §GGuarantee§W us!"

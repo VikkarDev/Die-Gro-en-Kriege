@@ -43,6 +43,7 @@ country_event = {
                          }
 		custom_effect_tooltip = blitz_man			 
 		set_country_flag = rus_man_inv
+		SOV = { country_event = { id = dgk_news.4 days = 2} }
 	}
 	option = {
 		name = russia.5.b
@@ -201,4 +202,32 @@ country_event = {
                   set_country_flag = russia.jap
 				  set_country_flag = russia.jap.lost
 				  }
+}
+country_event = {
+	id = russia.9
+	title = russia.9.t
+	desc = russia.9.d
+	picture = GFX_event_rus_prop
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	trigger = {
+        tag = SOV
+	}
+
+	option = {
+		name = russia.9.a
+		ai_chance = { factor = 100 }
+        add_political_power = -50
+         white_peace = {
+             tag = CHI
+             message = rus_fail_man
+                       }
+}
+	option = {
+		name = russia.9.b
+		ai_chance = { factor = 100 }
+        add_political_power = -200
+		add_ideas = SOV_army_demoral
 }

@@ -180,7 +180,22 @@ ideas = {
                 trade_opinion_factor = 0.15
                 min_export = 0.3
             }
-        }   
+        }  
+
+            SOV_french_dependancy2 = {
+            picture = sov_french_dependancy
+
+            allowed = {
+                tag = SOV
+            }
+
+            modifier = {
+                trade_opinion_factor = 0.20
+                min_export = 0.05
+                consumer_goods_factor = -0.05
+            }
+        }         
+
 
             SOV_smartworkers = {
             picture = generic_production_bonus
@@ -245,6 +260,21 @@ ideas = {
                 army_attack_factor = 0.05
             }
         } 
+
+                 SOV_army_demoral = {
+            picture = tur_arctic_wolves
+
+            allowed = {
+                tag = SOV
+            }
+
+            modifier = {
+                army_speed_factor = -0.05
+                army_attack_factor = -0.05
+                army_defence_factor = -0.10
+            }
+        } 
+
 
                   SOV_china_rep = {
             picture = china_rep

@@ -1365,8 +1365,8 @@
 			prerequisite = {focus = RUS_new_faith}
 
 	completion_reward ={ give_guarantee = FRA 
-	                    FRA = { country_event = { id = france.1 } }
-	                             }
+	                    hidden = {FRA = { country_event = { id = france.1 } } }
+						custom_effect_tooltip = fra_gar }
 	        }
     focus = {
     id = RUS_new_def_cau

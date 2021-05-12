@@ -269,7 +269,8 @@ sov_man = {
 		 }
 
          timeout_effect = {
-			 add_war_support = -0.5
+			  SOV = { country_event = russia.9 }
+			  add_stability = -0.1
 		 }
 	     
 		 complete_effect = {
