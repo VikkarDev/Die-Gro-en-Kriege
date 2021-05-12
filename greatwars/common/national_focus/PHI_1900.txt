@@ -22,6 +22,10 @@ focus_tree = {
 			cost = 6
 
 			available = {
+                is_subject = no
+                PHI = {
+                    has_government = centrism
+                }
 				
 			}
 
@@ -410,7 +414,7 @@ focus_tree = {
 			cost = 6
 
             mutually_exclusive = {
-                focus = PHI_1900_Japanese_alliance
+                focus = PHI_1900_japanese_alliance
             }
 
             prerequisite = {

@@ -550,8 +550,10 @@ focus_tree = {
 			cost = 10
 
 			available = {
-				NOT ={
-					has_country_flag = CHI_boxer_war_eight_nation
+				NOT = {
+					BOX = {
+						exists = yes
+					}
 				}
 				
 			}
@@ -1307,8 +1309,8 @@ focus_tree = {
 			cost = 10
 
 			prerequisite = {
-				focus = CHI_1900_arsenals
-				focus = CHI_1900_gansu_braves
+				focus = CHI_1900_rebuild_armies
+				focus = CHI_1900_resupply_arsenals
 				focus = CHI_1900_appoint_yuan_governer_of_peking
 			}
 
@@ -1400,6 +1402,10 @@ focus_tree = {
 
 			cost = 10
 
+			mutually_exclusive = {
+				focus = CHI_1900_get_foriegn_training
+			}
+
 			prerequisite = {
 				focus = CHI_1900_smaller_regional_armies
 			}
@@ -1419,12 +1425,12 @@ focus_tree = {
 
 			cost = 10
 
-			prerequisite = {
-				focus = CHI_1900_smaller_regional_armies
-			}
-
 			mutually_exclusive = {
 				focus = CHI_1900_continue_8_banners_system
+			}
+
+			prerequisite = {
+				focus = CHI_1900_smaller_regional_armies
 			}
 
 			available = {
@@ -1874,6 +1880,10 @@ focus_tree = {
 
 			cost = 8
 
+			mutually_exclusive = {
+				focus = CHI_1900_a_smaller_fleet
+			}
+
 			prerequisite = {
 				focus = CHI_1900_shipbuilding_policy
 			}
@@ -2121,6 +2131,9 @@ focus_tree = {
 			prerequisite = {
 				focus = CHI_1900_employ_zhan_tianyu
 			}
+			prerequisite = {
+				focus = CHI_1900_get_engineers
+			}
 
 			cost = 10
 
@@ -2129,6 +2142,7 @@ focus_tree = {
 			}
 
 			completion_reward = { 
+				activate_decision = CHI_building_jingzhang_railway
             
 			}
 		}
@@ -2260,11 +2274,6 @@ focus_tree = {
                         level = 3
                         instant_build = yes
                     }
-				add_tech_bonus = {
-            		bonus = 0.20
-             		uses = 2
-            		category = ca_tech
-                                           }
 
 			}
 		}
@@ -2323,6 +2332,307 @@ focus_tree = {
     					instant_build = yes
 					}
 				}
+            
+			}
+		}
+
+		focus = {
+			id = CHI_1900_protest_russian_deployment
+			icon = GFX_goal_generic_construct_infrastructure
+			search_filters = { FOCUS_FILTER_POLITICAL }
+			x = 76
+			y = 5
+
+			mutually_exclusive = {
+				focus = CHI_1900_support_russia
+			}
+
+			prerequisite = {
+				focus = CHI_1900_manchuria_crisis
+			}
+
+			cost = 7
+
+			available = {
+				
+			}
+
+			completion_reward = { 
+            
+			}
+		}
+		focus = {
+			id = CHI_1900_support_russia
+			icon = GFX_goal_generic_construct_infrastructure
+			search_filters = { FOCUS_FILTER_POLITICAL }
+			x = 78
+			y = 5
+
+			mutually_exclusive = {
+				focus = CHI_1900_protest_russian_deployment
+			}
+
+			prerequisite = {
+				focus = CHI_1900_manchuria_crisis
+			}
+
+			cost = 7
+
+			available = {
+				
+			}
+
+			completion_reward = { 
+            
+			}
+		}
+
+		focus = {
+			id = CHI_1900_manchuria_crisis
+			icon = GFX_JAP_focus_the_manchurian_crisis
+			search_filters = { FOCUS_FILTER_POLITICAL }
+			x = 77
+			y = 4
+
+			prerequisite = {
+				focus = CHI_1900_opening_east_china_railway
+			}
+
+			cost = 7
+
+			available = {
+				
+			}
+
+			completion_reward = { 
+            
+			}
+		}
+		focus = {
+			id = CHI_1900_russo_japanese_war
+			icon = GFX_JAP_focus_the_manchurian_crisis
+			search_filters = { FOCUS_FILTER_POLITICAL }
+			x = 77
+			y = 6
+
+			prerequisite = {
+				focus = CHI_1900_support_russia
+				focus = CHI_1900_protest_russian_deployment
+			}
+
+			cost = 7
+
+			available = {
+				
+			}
+
+			completion_reward = { 
+            
+			}
+		}
+		focus = {
+			id = CHI_1900_russian_victory
+			icon = GFX_JAP_focus_the_manchurian_crisis
+			search_filters = { FOCUS_FILTER_POLITICAL }
+			x = 76
+			y = 7
+
+			mutually_exclusive = {
+				focus = CHI_1900_manchuria_gains_japan_influence
+			}
+
+			prerequisite = {
+				focus = CHI_1900_russo_japanese_war
+			}
+
+			cost = 7
+
+			available = {
+				
+			}
+
+			completion_reward = { 
+            
+			}
+		}
+		focus = {
+			id = CHI_1900_manchuria_gains_japan_influence
+			icon = GFX_JAP_focus_the_manchurian_question
+			search_filters = { FOCUS_FILTER_POLITICAL }
+			x = 78
+			y = 7
+
+			mutually_exclusive = {
+				focus = CHI_1900_russian_victory
+			}
+
+			prerequisite = {
+				focus = CHI_1900_russo_japanese_war
+			}
+
+			cost = 7
+
+			available = {
+				
+			}
+
+			completion_reward = { 
+				add_war_support = 0.15
+            
+			}
+		}
+
+		focus = {
+			id = CHI_1900_limited_industrialization_south_china
+			icon = GFX_SOV_focus_state_duma
+			x = 81
+			y = 2
+
+			mutually_exclusive = {
+				focus = CHI_1900_edit_agricultural_system
+			}
+
+			prerequisite = {
+				focus = CHI_1900_the_agricultural_south
+			}
+
+			cost = 10
+
+			available = {
+				
+			}
+
+			completion_reward = { 
+            
+			}
+		}
+		focus = {
+			id = CHI_1900_edit_agricultural_system
+			icon = GFX_SOV_focus_state_duma
+			x = 87
+			y = 2
+
+			mutually_exclusive = {
+				focus = CHI_1900_limited_industrialization_south_china
+			}
+
+			prerequisite = {
+				focus = CHI_1900_the_agricultural_south
+			}
+
+			cost = 10
+
+			available = {
+				
+			}
+
+			completion_reward = { 
+            
+			}
+		}
+		focus = {
+			id = CHI_1900_allow_french_and_british_companies
+			icon = GFX_SOV_focus_state_duma
+			x = 81
+			y = 3
+
+			prerequisite = {
+				focus = CHI_1900_limited_industrialization_south_china
+			}
+
+			cost = 8
+
+			available = {
+				
+			}
+
+			completion_reward = { 
+            
+			}
+		}
+		focus = {
+			id = CHI_1900_begin_mining_sichuan
+			icon = GFX_SOV_focus_state_duma
+			x = 80
+			y = 4
+
+			prerequisite = {
+				focus = CHI_1900_allow_french_and_british_companies
+			}
+
+			cost = 8
+
+			available = {
+				
+			}
+
+			completion_reward = { 
+            
+			}
+		}
+		focus = {
+			id = CHI_1900_standard_gauge_south_china
+			icon = GFX_SOV_focus_state_duma
+			x = 82
+			y = 4
+
+			prerequisite = {
+				focus = CHI_1900_allow_french_and_british_companies
+			}
+
+			cost = 8
+
+			available = {
+				
+			}
+
+			completion_reward = { 
+            
+			}
+		}
+		focus = {
+			id = CHI_1900_chao_shan_railway
+			icon = GFX_SOV_focus_state_duma
+			x = 80
+			y = 5
+
+			prerequisite = {
+				focus = CHI_1900_begin_mining_sichuan
+			}
+			prerequisite = {
+				focus = CHI_1900_standard_gauge_south_china
+			}
+
+			cost = 10
+
+			available = {
+				
+			}
+
+			completion_reward = { 
+            
+			}
+		}
+		focus = {
+			id = CHI_1900_kunming_haiphong_railway
+			icon = GFX_SOV_focus_state_duma
+			x = 82
+			y = 5
+
+			prerequisite = {
+				focus = CHI_1900_begin_mining_sichuan
+			}
+			prerequisite = {
+				focus = CHI_1900_standard_gauge_south_china
+			}
+
+			cost = 10
+
+			available = {
+				
+			}
+
+			completion_reward = { 
             
 			}
 		}

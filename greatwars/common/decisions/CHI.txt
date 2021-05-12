@@ -1,0 +1,23 @@
+CHI_building_jingzhang_railway = {
+    CHI_build_railway_mission = {
+        allowed = { tag = CHI }
+        activation = {
+            CHI = {
+            has_completed_focus = CHI_1900_begin_jingzhang_railway
+        }
+        }
+        is_good = yes                           # This mission is color coded to be a positive thing (not a crisis)
+        selectable_mission = yes                # This mission will complete when the player selects the mission rather than completing automatically
+        days_mission_timeout = 30              # How many days before the mission fails?
+        timeout_effect = {                      # What happens when we fail the mission?
+            add_political_power = -100
+            add_stability = -0.1
+        }
+        complete_effect = {                    # What happens when we activate the mission i.e. mission success?
+               add_political_power = 150
+               add_stability = 0.1
+               add_war_support = 0.05
+               
+          }
+    }
+}

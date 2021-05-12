@@ -274,6 +274,10 @@ germany.15.d:0 "China has sent us a request to but Krupp Artillery guns for thei
 germany.15.a:0 "Accept their request"
 germany.15.b:0 "Deny their request"
 
+germany.16.t:0 "The Qingdao-Jinan Railway"
+germany.16.d:0 "German aristocrats with Chinese permission have finished building a railway from our Qingdao concession to the city of Jinan."
+germany.16.a:0 "Our influence grows stronger"
+
 # NATIONAL SPIRITS
 ########### Germany National Spirits Localisation ###########
 GER_wilhelm_ii:0 "Wilhelm II"
