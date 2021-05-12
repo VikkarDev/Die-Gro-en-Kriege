@@ -43,7 +43,7 @@ capital = 439
 	}
 	
 	create_corps_commander = {
-		name = "Arthur Barrett"
+		name = "Sir Arthur Barrett"
 		picture = "Arthurbarret.dds"
 		traits = { desert_fox }
 		skill = 3
