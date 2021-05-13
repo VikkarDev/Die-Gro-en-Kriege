@@ -123,7 +123,7 @@ SOV_marxist_leninism_ADJ:0 "Soviet"
 # EVENTS
 ########### Russia Events Localisation ###########
 russia.1.t:0 "Succesful Propaganda Campaigns"
-russia1.d:0 "After the massive propaganda campaigns across the country, Polls show people have now more trust and faith the tsar Nicholas than ever before, We must celebrate this great victory!"
+russia.1.d:0 "After the massive propaganda campaigns across the country, Polls show people have now more trust and faith the tsar Nicholas than ever before, We must celebrate this great victory!"
 russia.1.a:0 "Long Live the Tsar"
 russia.ott.sit:0 "§RThe Ottomans Have Declared War On Us.§W"!
 russia.2.t:0 "The Ottomans Stand Defient"
@@ -217,3 +217,9 @@ DURNOVO_LEADER_DESCRIPTION:0 "Ivan Nikolayevich Durnovo, the 16th Chairman of th
  prop:0 "This focus will unlock decisions to start propaganda waves to increase support for the royal familly."
 russia.jap.lost:0 "We have lost the Russo-Japanese war."
 fra_gar:0 "[FRA.GetFlag]France will §GGuarantee§W us!"
+rus_faith_tsar:0 "Has completed the propaganda campaigns and §Grestored faith§W in the tsar!\n "
+brob1:0 "Increase popularity of the tsar between the people!"
+brob2:0 "Increases Patriotism among the people!\n "
+brob3:0 "The People §Glove§W the tsar!\n "
+sov_prop1_done:0 "Has completed §Ythe first wave of propaganda§W"
+sov_prop2_done:0 "Has completed §Ythe second wave of propaganda§W"

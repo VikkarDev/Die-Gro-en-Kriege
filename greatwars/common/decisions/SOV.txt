@@ -191,16 +191,22 @@ sov_fear = {
 	cost = 100
 
 	remove_effect = {
+		      custom_effect_tooltip = brob1
+	 hidden_effect = {		  
 			  swap_ideas = { 
               remove_idea = SOV_fear_of_revolution
               add_idea = SOV_fear_of_revolution2
 			               }
-	                }
-                }
+			  set_country_flag = sov_prop1_done
+	                 }
+	           }
+         }
 	
+
+
 	sov_brob2 = {
         	 available = {
-			     has_idea = SOV_fear_of_revolution2
+			     has_country_flag = sov_prop1_done
 		                 }
 	   fire_only_once = yes
 	   days_re_enable = 0
@@ -213,16 +219,22 @@ sov_fear = {
 	cost = 100
 
 	remove_effect = {
+		      custom_effect_tooltip = brob2
+		hidden_effect = {	  
 			  swap_ideas = { 
               remove_idea = SOV_fear_of_revolution2
               add_idea = SOV_fear_of_revolution3
 			               }
-			          }  
+		      set_country_flag = sov_prop2_done
+		               }
+			        }  
 	             }
+
+
 
 	sov_brob3 = {
         	 available = {
-			     has_idea = SOV_fear_of_revolution3
+			     has_country_flag = sov_prop2_done
 		                 }
 	   fire_only_once = yes
 	   days_re_enable = 0
@@ -235,11 +247,15 @@ sov_fear = {
 	cost = 100
 
 	remove_effect = {
+		      custom_effect_tooltip = brob3
+			 hidden_effect = {
               remove_ideas = SOV_fear_of_revolution3
 			  country_event = { id = russia.1 days = 0}
-			          }  
+			  set_country_flag = rus_faith_tsar
+					   }
+			        }  
 	             }
-        }
+}
 
 #INVASION MANCHURIA BRUH
 
