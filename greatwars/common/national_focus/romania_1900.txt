@@ -1,0 +1,886 @@
+focus_tree = {
+	id = rom_1900_focus
+	country = {
+		factor = 0
+		modifier = {
+			add = 11
+			tag = ROM
+		}
+	}
+
+	continuous_focus_position = { 
+		x = 50
+		y = 1700
+	}
+	
+	focus = {
+		id = ROM_the_status_of_the_economy
+		icon = GFX_goal_unknown
+		x = 2
+		y = 0
+		cost = 10
+		
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	focus = {
+		id = ROM_choose_our_approach
+		icon = GFX_goal_unknown
+		x = 2
+		y = 1
+		cost = 0
+		prerequisite = {
+			focus = ROM_the_status_of_the_economy
+		}
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	focus = {
+		id = ROM_a_new_approach
+		icon = GFX_goal_unknown
+		x = 0
+		y = 2
+		cost = 5
+		prerequisite = {
+			focus = ROM_choose_our_approach
+		}
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	focus = {
+		id = ROM_mixed_approach
+		icon = GFX_goal_unknown
+		x = 2
+		y = 2
+		cost = 5
+		prerequisite = {
+			focus = ROM_choose_our_approach
+		}
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	focus = {
+		id = ROM_the_old_approach
+		icon = GFX_goal_unknown
+		x = 4
+		y = 2
+		cost = 5
+		prerequisite = {
+			focus = ROM_choose_our_approach
+		}
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	focus = {
+		id = ROM_invest_in_oltenia
+		icon = GFX_goal_unknown
+		x = 0
+		y = 3
+		cost = 10
+		prerequisite = {
+			focus = ROM_a_new_approach
+		}
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	focus = {
+		id = ROM_focus_on_light_and_heavy_industry
+		icon = GFX_goal_unknown
+		x = 2
+		y = 3
+		cost = 10
+		prerequisite = {
+			focus = ROM_mixed_approach
+		}
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	focus = {
+		id = ROM_invest_in_mutenia
+		icon = GFX_goal_unknown
+		x = 4
+		y = 3
+		cost = 10
+		prerequisite = {
+			focus = ROM_the_old_approach
+		}
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	focus = {
+		id = ROM_expand_the_anina_mine
+		icon = GFX_goal_unknown
+		x = 1
+		y = 4
+		cost = 10
+		prerequisite = {
+			focus = ROM_invest_in_oltenia
+			focus = ROM_focus_on_light_and_heavy_industry
+		}
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	focus = {
+		id = ROM_increase_the_nera_wood_production
+		icon = GFX_goal_unknown
+		x = 3
+		y = 4
+		cost = 10
+		prerequisite = {
+			focus = ROM_focus_on_light_and_heavy_industry
+			focus = ROM_invest_in_mutenia
+		}
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	focus = {
+		id = ROM_a_fine_tuned_economy
+		icon = GFX_goal_unknown
+		x = 2
+		y = 5
+		cost = 10
+		prerequisite = {
+			focus = ROM_expand_the_anina_mine
+			focus = ROM_increase_the_nera_wood_production
+		}
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	focus = {
+		id = ROM_the_reign_of_carol_i
+		icon = GFX_goal_unknown
+		x = 11
+		y = 0
+		cost = 10
+		search_filters = { FOCUS_FILTER_POLITICAL} 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	focus = {
+		id = ROM_meet_with_the_pnl_leaders
+		icon = GFX_goal_unknown
+		x = 7
+		y = 1
+		cost = 10
+		prerequisite = {
+			focus = ROM_the_reign_of_carol_i
+		}
+		mutually_exclusive = {
+			focus = ROM_meet_with_the_conservative_leaders
+			focus = ROM_meet_with_the_social_democrat_leaders
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	focus = {
+		id = ROM_placate_the_rich
+		icon = GFX_goal_unknown
+		x = 6
+		y = 2
+		cost = 5
+		prerequisite = {
+			focus = ROM_meet_with_the_pnl_leaders
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	focus = {
+		id = ROM_talk_to_the_landowners
+		icon = GFX_goal_unknown
+		x = 6
+		y = 3
+		cost = 10
+		prerequisite = {
+			focus = ROM_placate_the_rich
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	focus = {
+		id = ROM_unofficially_endorse_the_pnl
+		icon = GFX_goal_unknown
+		x = 8
+		y = 2
+		cost = 10
+		prerequisite = {
+			focus = ROM_meet_with_the_pnl_leaders
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	focus = {
+		id = ROM_campaign_for_the_pnl
+		icon = GFX_goal_unknown
+		x = 8
+		y = 3
+		cost = 10
+		prerequisite = {
+			focus = ROM_unofficially_endorse_the_pnl
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	focus = {
+		id = ROM_our_next_leader
+		icon = GFX_goal_unknown
+		x = 7
+		y = 4
+		cost = 5
+		prerequisite = {
+			focus = ROM_talk_to_the_landowners
+		}
+		prerequisite = {
+			focus = ROM_campaign_for_the_pnl
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	focus = {
+		id = ROM_meet_with_the_conservative_leaders
+		icon = GFX_goal_unknown
+		x = 11
+		y = 1
+		cost = 10
+		prerequisite = {
+			focus = ROM_the_reign_of_carol_i
+		}
+		mutually_exclusive = {
+			focus = ROM_meet_with_the_pnl_leaders
+			focus = ROM_meet_with_the_social_democrat_leaders
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	focus = {
+		id = ROM_support_the_peasants_cause
+		icon = GFX_goal_unknown
+		x = 10
+		y = 2
+		cost = 10
+		prerequisite = {
+			focus = ROM_meet_with_the_conservative_leaders
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	focus = {
+		id = ROM_promise_conservative_reforms
+		icon = GFX_goal_unknown
+		x = 10
+		y = 3
+		cost = 10
+		prerequisite = {
+			focus = ROM_support_the_peasants_cause
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	focus = {
+		id = ROM_unofficially_endorse_the_conservatives
+		icon = GFX_goal_unknown
+		x = 12
+		y = 2
+		cost = 10
+		prerequisite = {
+			focus = ROM_meet_with_the_conservative_leaders
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	focus = {
+		id = ROM_support_the_conservatives
+		icon = GFX_goal_unknown
+		x = 12
+		y = 3
+		cost = 10
+		prerequisite = {
+			focus = ROM_unofficially_endorse_the_conservatives
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	focus = {
+		id = ROM_a_conservative_romania
+		icon = GFX_goal_unknown
+		x = 11
+		y = 4
+		cost = 10
+		prerequisite = {
+			focus = ROM_promise_conservative_reforms
+		}
+		prerequisite = {
+			focus = ROM_support_the_conservatives
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	focus = {
+		id = ROM_meet_with_the_social_democrat_leaders
+		icon = GFX_goal_unknown
+		x = 15
+		y = 1
+		cost = 10
+		prerequisite = {
+			focus = ROM_the_reign_of_carol_i
+		}
+		mutually_exclusive = {
+			focus = ROM_meet_with_the_conservative_leaders
+			focus = ROM_meet_with_the_pnl_leaders
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	focus = {
+		id = ROM_campaign_against_the_monarchy
+		icon = GFX_goal_unknown
+		x = 14
+		y = 2
+		cost = 10
+		prerequisite = {
+			focus = ROM_meet_with_the_social_democrat_leaders
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	focus = {
+		id = ROM_promise_a_romanian_republic
+		icon = GFX_goal_unknown
+		x = 14
+		y = 3
+		cost = 10
+		prerequisite = {
+			focus = ROM_campaign_against_the_monarchy
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	focus = {
+		id = ROM_meet_with_the_underground_leaders
+		icon = GFX_goal_unknown
+		x = 16
+		y = 2
+		cost = 10
+		prerequisite = {
+			focus = ROM_meet_with_the_social_democrat_leaders
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	focus = {
+		id = ROM_placate_the_poor_class
+		icon = GFX_goal_unknown
+		x = 16
+		y = 3
+		cost = 10
+		prerequisite = {
+			focus = ROM_meet_with_the_underground_leaders
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	focus = {
+		id = ROM_a_bright_future
+		icon = GFX_goal_unknown
+		x = 15
+		y = 4
+		cost = 10
+		prerequisite = {
+			focus = ROM_promise_a_romanian_republic
+		}
+		prerequisite = {
+			focus = ROM_placate_the_poor_class
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	focus = {
+		id = ROM_prepare_for_the_next_election
+		icon = GFX_goal_unknown
+		x = 11
+		y = 5
+		cost = 5
+		prerequisite = {
+			focus = ROM_our_next_leader
+			focus = ROM_a_conservative_romania
+			focus = ROM_a_bright_future
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	focus = {
+		id = ROM_control_the_election
+		icon = GFX_goal_unknown
+		x = 11
+		y = 6
+		cost = 5
+		prerequisite = {
+			focus = ROM_prepare_for_the_next_election
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	focus = {
+		id = ROM_rig_the_election
+		icon = GFX_goal_unknown
+		x = 10
+		y = 7
+		cost = 0
+		prerequisite = {
+			focus = ROM_control_the_election
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	focus = {
+		id = ROM_a_fair_election
+		icon = GFX_goal_unknown
+		x = 12
+		y = 7
+		cost = 0
+		prerequisite = {
+			focus = ROM_control_the_election
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	focus = {
+		id = ROM_the_1901_election
+		icon = GFX_goal_unknown
+		x = 11
+		y = 8
+		cost = 0
+		prerequisite = {
+			focus = ROM_rig_the_election
+			focus = ROM_a_fair_election
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	focus = {
+		id = ROM_pnl_victory
+		icon = GFX_goal_unknown
+		x = 5
+		y = 9
+		cost = 5
+		prerequisite = {
+			focus = ROM_the_1901_election
+		}
+		available = {
+			has_completed_focus = ROM_our_next_leader
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	focus = {
+		id = ROM_protect_the_forests
+		icon = GFX_goal_unknown
+		x = 3
+		y = 10
+		cost = 10
+		prerequisite = {
+			focus = ROM_pnl_victory
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	focus = {
+		id = ROM_reinforce_the_kings_power
+		icon = GFX_goal_unknown
+		x = 5
+		y = 10
+		cost = 10
+		prerequisite = {
+			focus = ROM_pnl_victory
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+
+	focus = {
+		id = ROM_decrease_tax_rates_for_the_rich
+		icon = GFX_goal_unknown
+		x = 7
+		y = 10
+		cost = 10
+		prerequisite = {
+			focus = ROM_pnl_victory
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	focus = {
+		id = ROM_focus_on_agricultural_developments
+		icon = GFX_goal_unknown
+		x = 4
+		y = 11
+		cost = 10
+		prerequisite = {
+			focus = ROM_protect_the_forests
+		}
+		prerequisite = {
+			focus = ROM_reinforce_the_kings_power
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	focus = {
+		id = ROM_focus_on_forestery_developments
+		icon = GFX_goal_unknown
+		x = 6
+		y = 11
+		cost = 10
+		prerequisite = {
+			focus = ROM_reinforce_the_kings_power
+		}
+		prerequisite = {
+			focus = ROM_decrease_tax_rates_for_the_rich
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	focus = {
+		id = ROM_conservative_victory
+		icon = GFX_goal_unknown
+		x = 11
+		y = 9
+		cost = 5
+		prerequisite = {
+			focus = ROM_the_1901_election
+		}
+		available = {
+			has_completed_focus = ROM_a_conservative_romania
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	focus = {
+		id = ROM_lower_peasent_taxes
+		icon = GFX_goal_unknown
+		x = 9
+		y = 10
+		cost = 10
+		prerequisite = {
+			focus = ROM_conservative_victory
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	focus = {
+		id = ROM_electoral_reform
+		icon = GFX_goal_unknown
+		x = 11
+		y = 10
+		cost = 10
+		prerequisite = {
+			focus = ROM_conservative_victory
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+
+	focus = {
+		id = ROM_increase_civil_rights
+		icon = GFX_goal_unknown
+		x = 13
+		y = 10
+		cost = 10
+		prerequisite = {
+			focus = ROM_conservative_victory
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	focus = {
+		id = ROM_universal_male_suffragate
+		icon = GFX_goal_unknown
+		x = 10
+		y = 11
+		cost = 10
+		prerequisite = {
+			focus = ROM_lower_peasent_taxes
+		}
+		prerequisite = {
+			focus = ROM_electoral_reform
+		}
+		mutually_exclusive = {
+			focus = ROM_partial_male_suffragate
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	focus = {
+		id = ROM_partial_male_suffragate
+		icon = GFX_goal_unknown
+		x = 12
+		y = 11
+		cost = 10
+		prerequisite = {
+			focus = ROM_increase_civil_rights
+		}
+		prerequisite = {
+			focus = ROM_electoral_reform
+		}
+		mutually_exclusive = {
+			focus = ROM_universal_male_suffragate
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	focus = {
+		id = ROM_socialist_victory
+		icon = GFX_goal_unknown
+		x = 17
+		y = 9
+		cost = 5
+		prerequisite = {
+			focus = ROM_the_1901_election
+		}
+		available = {
+			has_completed_focus = ROM_a_bright_future
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	focus = {
+		id = ROM_abolish_the_nobility
+		icon = GFX_goal_unknown
+		x = 15
+		y = 10
+		cost = 10
+		prerequisite = {
+			focus = ROM_socialist_victory
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	focus = {
+		id = ROM_equal_rights_for_all_males
+		icon = GFX_goal_unknown
+		x = 17
+		y = 10
+		cost = 10
+		prerequisite = {
+			focus = ROM_socialist_victory
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+
+	focus = {
+		id = ROM_abandon_claims_on_transylvania
+		icon = GFX_goal_unknown
+		x = 19
+		y = 10
+		cost = 10
+		prerequisite = {
+			focus = ROM_socialist_victory
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	focus = {
+		id = ROM_abolish_the_monarchy
+		icon = GFX_goal_unknown
+		x = 16
+		y = 11
+		cost = 10
+		prerequisite = {
+			focus = ROM_abolish_the_nobility
+		}
+		prerequisite = {
+			focus = ROM_equal_rights_for_all_males
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	focus = {
+		id = ROM_our_first_president
+		icon = GFX_goal_unknown
+		x = 18
+		y = 11
+		cost = 10
+		prerequisite = {
+			focus = ROM_equal_rights_for_all_males
+		}
+		prerequisite = {
+			focus = ROM_abandon_claims_on_transylvania
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	focus = {
+		id = ROM_tax_the_wealthy_give_to_the_poor
+		icon = GFX_goal_unknown
+		x = 17
+		y = 12
+		cost = 10
+		prerequisite = {
+			focus = ROM_abolish_the_monarchy
+		}
+		prerequisite = {
+			focus = ROM_our_first_president
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}
