@@ -142,3 +142,10 @@ CHI_boxer_war_eight_nation:0 "At war with the Eight Nation Alliance"
 
 CHI_social_liberalism_party:0 "HCH"
 CHI_social_liberalism_party_long:0 "Hsing Chung Hui"
+
+#LEADER INFO
+CHI_HOS_TITLE:0 "Huángdì"
+CHI_HOG_TITLE:0 "Huánghòu"
+CHI_GUANGXU_NAME:0 "Guangxu"
+GUANGXU_LEADER_DESCRIPTION:0 "Description needed."
+CIXI_LEADER_DESCRIPTION:0 "Description needed."

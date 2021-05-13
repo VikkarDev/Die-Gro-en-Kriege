@@ -48,9 +48,9 @@ capital = 608
 	}
 
 	create_country_leader = {
-		name = "Guangxu Emperor"
+		name = "Dowager Cixi"
 		desc = ""
-		picture = "Guangxu_Emperor.tga"
+		picture = "Cixi.tga"
 		ideology = despotism
 		traits = {
 			
@@ -76,7 +76,7 @@ create_corps_commander = {
 		defense_skill = 1
 		planning_skill = 1
 		logistics_skill = 3
-		traits = {  politically_connected old_guard cavalry_leader engineer trickster commando bearer_of_artillery	}
+		traits = {  politically_connected old_guard cavalry_leader trait_engineer trickster commando bearer_of_artillery	}
 		id = 8889
 	}
 	create_corps_commander = {
