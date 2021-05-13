@@ -2689,4 +2689,57 @@ spriteTypes = {
 		name = "GFX_KOR_second_elections"
 		texturefile = "gfx/interface/goals/KOR/KOR_second_elections.dds"
 	}
+	#CHINA
+
+	SpriteType = {
+		name = "GFX_CHI_focus_boxer_agreement"
+		texturefile = "gfx/interface/goals/CHI/CHI_focus_boxer_agreement.dds"
+	}
+	SpriteType = {
+		name = "GFX_CHI_focus_boxer_war"
+		texturefile = "gfx/interface/goals/CHI/CHI_focus_boxer_war.dds"
+	}
+	SpriteType = {
+		name = "GFX_CHI_focus_boxer_war_victory"
+		texturefile = "gfx/interface/goals/CHI/CHI_focus_boxer_war_victory.dds"
+	}
+	SpriteType = {
+		name = "GFX_CHI_focus_chinese_politics"
+		texturefile = "gfx/interface/goals/CHI/CHI_focus_chinese_politics.dds"
+	}
+	SpriteType = {
+		name = "GFX_CHI_focus_continue_imperial_rule"
+		texturefile = "gfx/interface/goals/CHI/CHI_focus_continue_imperial_rule.dds"
+	}
+	SpriteType = {
+		name = "GFX_CHI_focus_end_imperial_rule"
+		texturefile = "gfx/interface/goals/CHI/CHI_focus_end_imperial_rule.dds"
+	}
+	SpriteType = {
+		name = "GFX_CHI_focus_japanese_agreement"
+		texturefile = "gfx/interface/goals/CHI/CHI_focus_japanese_agreement.dds"
+	}
+	SpriteType = {
+		name = "GFX_CHI_focus_go_with_sun_yat_sen"
+		texturefile = "gfx/interface/goals/CHI/CHI_focus_go_with_sun_yat_sen.dds"
+	}
+	SpriteType = {
+		name = "GFX_CHI_focus_spear_warrior"
+		texturefile = "gfx/interface/goals/CHI/CHI_focus_spear_warrior.dds"
+	}
+
+	#GENERIC CAPTAIN LUCK
+
+	SpriteType = {
+		name = "GFX_generic_cl_focus_soldiers_burn"
+		texturefile = "gfx/interface/goals/generic_cl/generic_cl_focus_soldiers_burn.dds"
+	}
+	SpriteType = {
+		name = "GFX_generic_cl_focus_burn_mosques"
+		texturefile = "gfx/interface/goals/generic_cl/generic_cl_focus_burn_mosques.dds"
+	}
+	SpriteType = {
+		name = "GFX_generic_cl_focus_gun_license"
+		texturefile = "gfx/interface/goals/generic_cl/generic_cl_focus_gun_license.dds"
+	}
 }

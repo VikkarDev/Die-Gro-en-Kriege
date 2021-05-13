@@ -16,6 +16,7 @@ focus_tree = {
     focus = {
 			id = CHI_1900_boxers
 			icon = GFX_CHI_focus_boxer_war_victory
+			search_filters = { FOCUS_FILTER_POLITICAL }
 			x = 7
 			y = 0
 
@@ -190,7 +191,7 @@ focus_tree = {
          }
 		 focus = {
 			id = CHI_1900_seize_weapons
-			icon = GFX_SOV_focus_the_safe_option
+			icon = GFX_generic_focus_seize_arsenal
 			x = 7
 			y = 5
             prerequisite = {
@@ -516,6 +517,7 @@ focus_tree = {
 		 focus = {
 			id = CHI_1900_chinese_politics
 			icon = GFX_CHI_focus_chinese_politics
+			search_filters = { FOCUS_FILTER_POLITICAL }
 			x = 25
 			y = 0
 
@@ -529,7 +531,7 @@ focus_tree = {
 
 			completion_reward = { 
                 add_political_power = 25
-                add_stability = 0.05
+                add_stability = 0.01
 				country_event = china.4
 				#event about political situation
 			}
@@ -1050,7 +1052,7 @@ focus_tree = {
 			id = CHI_1900_protecting_our_empire
 			icon = GFX_SOV_focus_state_duma
 			x = 57
-			y = 1
+			y = 0
 
 			cost = 10
 
@@ -1068,7 +1070,7 @@ focus_tree = {
 			id = CHI_1900_westernization_movement
 			icon = GFX_SOV_focus_state_duma
 			x = 57
-			y = 2
+			y = 1
 
 			cost = 10
 
@@ -1090,7 +1092,7 @@ focus_tree = {
 			id = CHI_1900_qing_army
 			icon = GFX_SOV_focus_state_duma
 			x = 51
-			y = 3
+			y = 2
 
 			cost = 10
 
@@ -1112,7 +1114,7 @@ focus_tree = {
 			id = CHI_1900_power_of_the_army
 			icon = GFX_SOV_focus_state_duma
 			x = 51
-			y = 4
+			y = 3
 
 			cost = 10
 
@@ -1137,7 +1139,7 @@ focus_tree = {
 			id = CHI_1900_boxer_war_xp
 			icon = GFX_CHI_focus_boxer_war_victory
 			x = 49
-			y = 5
+			y = 4
 
 			cost = 10
 
@@ -1167,7 +1169,7 @@ focus_tree = {
 			id = CHI_1900_our_soldiers_and_tactics
 			icon = GFX_SOV_focus_state_duma
 			x = 45
-			y = 5
+			y = 4
 
 			cost = 10
 
@@ -1186,7 +1188,7 @@ focus_tree = {
 			id = CHI_1900_mass_conscription
 			icon = GFX_GER_focus_mass_conscription
 			x = 44
-			y = 6
+			y = 5
 
 			cost = 10
 
@@ -1209,7 +1211,7 @@ focus_tree = {
 			id = CHI_1900_mass_infantry_attacks
 			icon = GFX_GER_focus_mass_conscription
 			x = 44
-			y = 7
+			y = 6
 
 			cost = 10
 
@@ -1228,7 +1230,7 @@ focus_tree = {
 			id = CHI_1900_german_style_units
 			icon = GFX_SOV_focus_state_duma
 			x = 46
-			y = 6
+			y = 5
 
 			cost = 10
 
@@ -1251,7 +1253,7 @@ focus_tree = {
 			id = CHI_1900_light_unit_tactics
 			icon = GFX_SOV_focus_state_duma
 			x = 46
-			y = 7
+			y = 6
 
 			cost = 10
 
@@ -1271,7 +1273,7 @@ focus_tree = {
 			id = CHI_1900_rebuild_armies
 			icon = GFX_SOV_focus_state_duma
 			x = 48
-			y = 6
+			y = 5
 
 			cost = 10
 
@@ -1285,9 +1287,9 @@ focus_tree = {
 		}
 		focus = {
 			id = CHI_1900_resupply_arsenals
-			icon = GFX_SOV_focus_state_duma
+			icon = GFX_generic_focus_seize_arsenal
 			x = 50
-			y = 6
+			y = 5
 
 			cost = 10
 
@@ -1304,7 +1306,7 @@ focus_tree = {
 			id = CHI_1900_military_situation
 			icon = GFX_SOV_focus_state_duma
 			x = 51
-			y = 7
+			y = 6
 
 			cost = 10
 
@@ -1322,7 +1324,7 @@ focus_tree = {
 			id = CHI_1900_yuan_become_beiyang_leader
 			icon = GFX_SOV_focus_state_duma
 			x = 53
-			y = 5
+			y = 4
 
 			cost = 2
 
@@ -1339,9 +1341,10 @@ focus_tree = {
 		}
 		focus = {
 			id = CHI_1900_appoint_yuan_governer_of_peking
-			icon = GFX_SOV_focus_state_duma
+			icon = GFX_generic_focus_treaty_sign
+			search_filters = { FOCUS_FILTER_POLITICAL }
 			x = 53
-			y = 6
+			y = 5
 
 			cost = 10
 
@@ -1359,7 +1362,7 @@ focus_tree = {
 			id = CHI_1900_smaller_regional_armies
 			icon = GFX_SOV_focus_state_duma
 			x = 51
-			y = 8
+			y = 7
 
 			cost = 10
 
@@ -1378,7 +1381,7 @@ focus_tree = {
 			id = CHI_1900_put_out_boxers
 			icon = GFX_SOV_focus_state_duma
 			x = 49
-			y = 8
+			y = 7
 
 			cost = 10
 
@@ -1396,9 +1399,9 @@ focus_tree = {
 		}
 		focus = {
 			id = CHI_1900_continue_8_banners_system
-			icon = GFX_SOV_focus_state_duma
+			icon = GFX_CHI_focus_spear_warrior
 			x = 50
-			y = 9
+			y = 8
 
 			cost = 10
 
@@ -1421,7 +1424,7 @@ focus_tree = {
 			id = CHI_1900_get_foriegn_training
 			icon = GFX_SOV_focus_state_duma
 			x = 52
-			y = 9
+			y = 8
 
 			cost = 10
 
@@ -1444,7 +1447,7 @@ focus_tree = {
 			id = CHI_1900_replace_spears_with_rifles
 			icon = GFX_SOV_focus_state_duma
 			x = 52
-			y = 10
+			y = 9
 
 			cost = 10
 
@@ -1463,7 +1466,7 @@ focus_tree = {
 			id = CHI_1900_develop_own_tactics
 			icon = GFX_SOV_focus_state_duma
 			x = 50
-			y = 10
+			y = 9
 
 			cost = 10
 
@@ -1482,7 +1485,7 @@ focus_tree = {
 			id = CHI_1900_each_serves_purpose
 			icon = GFX_SOV_focus_state_duma
 			x = 51
-			y = 11
+			y = 10
 
 			cost = 10
 
@@ -1502,7 +1505,7 @@ focus_tree = {
 			id = CHI_1900_modernizing_the_beiyang_army
 			icon = GFX_SOV_focus_state_duma
 			x = 55
-			y = 8
+			y = 7
 
 			cost = 10
 
@@ -1522,7 +1525,7 @@ focus_tree = {
 			id = CHI_1900_modernize_qing_equipment
 			icon = GFX_SOV_focus_state_duma
 			x = 59
-			y = 8
+			y = 7
 
 			cost = 10
 
@@ -1541,7 +1544,7 @@ focus_tree = {
 			id = CHI_1900_purchase_krupp_guns
 			icon = GFX_GER_focus_artillery
 			x = 58
-			y = 9
+			y = 8
 
 			cost = 10
 
@@ -1564,9 +1567,9 @@ focus_tree = {
 		}
 		focus = {
 			id = CHI_1900_buy_modern_carbines
-			icon = GFX_GER_focus_artillery
+			icon = GFX_generic_focus_gun_license
 			x = 60
-			y = 9
+			y = 8
 
 			cost = 10
 
@@ -1585,7 +1588,7 @@ focus_tree = {
 			id = CHI_1900_construct_military_factories_modernize
 			icon = GFX_GER_focus_artillery
 			x = 59
-			y = 10
+			y = 9
 
 			cost = 7
 
@@ -1612,7 +1615,7 @@ focus_tree = {
 			id = CHI_1900_appoint_german_and_japanese_officers
 			icon = GFX_SOV_focus_state_duma
 			x = 54
-			y = 9
+			y = 8
 
 			cost = 10
 
@@ -1631,7 +1634,7 @@ focus_tree = {
 			id = CHI_1900_found_baoding_military_academy
 			icon = GFX_SOV_focus_state_duma
 			x = 56
-			y = 9
+			y = 8
 
 			cost = 10
 
@@ -1650,7 +1653,7 @@ focus_tree = {
 			id = CHI_1900_continue_army_expansion_beiyang
 			icon = GFX_SOV_focus_state_duma
 			x = 55
-			y = 10
+			y = 9
 
 			cost = 10
 
@@ -1672,7 +1675,7 @@ focus_tree = {
 			id = CHI_1900_engineers
 			icon = GFX_SOV_focus_state_duma
 			x = 54
-			y = 11
+			y = 10
 
 			cost = 10
 
@@ -1691,7 +1694,7 @@ focus_tree = {
 			id = CHI_1900_lay_telegraph_lines
 			icon = GFX_SOV_focus_state_duma
 			x = 56
-			y = 11
+			y = 10
 
 			cost = 10
 
@@ -1715,7 +1718,7 @@ focus_tree = {
 			id = CHI_1900_most_modern_army_china_beiyang_army
 			icon = GFX_SOV_focus_state_duma
 			x = 55
-			y = 12
+			y = 11
 
 			cost = 10
 
@@ -1731,6 +1734,108 @@ focus_tree = {
 
 			}
 		}
+		focus = {
+			id = CHI_1900_arming_soldiers
+			icon = GFX_SOV_focus_state_duma
+			x = 57
+			y = 2
+
+			cost = 10
+
+			prerequisite = {
+				focus = CHI_1900_westernization_movement
+			}
+
+			available = {
+				has_army_manpower = {
+    				size > 10000
+				}
+			}
+
+			completion_reward = { 
+				random_owned_state  ={
+					add_building_construction = {
+                        type = arms_factory
+                        level = 2
+                        instant_build = yes
+                    }
+				add_extra_state_shared_building_slots = 2
+				}
+            
+			}
+		}
+		focus = {
+			id = CHI_1900_arms_factories_shanghai
+			icon = GFX_SOV_focus_state_duma
+			x = 56
+			y = 3
+
+			cost = 10
+
+			prerequisite = {
+				focus = CHI_1900_arming_soldiers
+			}
+
+			available = {
+			}
+
+			completion_reward = { 
+				613 = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+                        type = arms_factory
+                        level = 3
+                        instant_build = yes
+                    }
+
+			}
+            
+			}
+		}
+		focus = {
+			id = CHI_1900_use_arsenals
+			icon = GFX_SOV_focus_state_duma
+			x = 58
+			y = 3
+
+			cost = 10
+
+			prerequisite = {
+				focus = CHI_1900_arming_soldiers
+			}
+
+			available = {
+			}
+
+			completion_reward = { 
+            
+			}
+		}
+		focus = {
+			id = CHI_1900_peking_factories
+			icon = GFX_SOV_focus_state_duma
+			x = 57
+			y = 4
+
+			cost = 10
+
+			prerequisite = {
+				focus = CHI_1900_arms_factories_shanghai
+			}
+			prerequisite = {
+				focus = CHI_1900_use_arsenals
+			}
+
+			available = {
+				has_army_manpower = {
+    				size > 10000
+				}
+			}
+
+			completion_reward = { 
+            
+			}
+		}
 
 		#END OF ARMY TREE
 
@@ -1738,7 +1843,7 @@ focus_tree = {
 			id = CHI_1900_qing_navy
 			icon = GFX_SOV_focus_state_duma
 			x = 63
-			y = 3
+			y = 2
 
 			cost = 10
 
@@ -1762,7 +1867,7 @@ focus_tree = {
 			id = CHI_1900_regional_navies
 			icon = GFX_SOV_focus_state_duma
 			x = 63
-			y = 4
+			y = 3
 
 			cost = 10
 
@@ -1785,7 +1890,7 @@ focus_tree = {
 			id = CHI_1900_navies_condition
 			icon = GFX_SOV_focus_state_duma
 			x = 63
-			y = 5
+			y = 4
 
 			cost = 7
 
@@ -1807,7 +1912,7 @@ focus_tree = {
 			id = CHI_1900_root_out_corruption
 			icon = GFX_SOV_focus_state_duma
 			x = 62
-			y = 6
+			y = 5
 
 			cost = 10
 
@@ -1829,7 +1934,7 @@ focus_tree = {
 			id = CHI_1900_train_commanders
 			icon = GFX_SOV_focus_state_duma
 			x = 64
-			y = 6
+			y = 5
 
 			cost = 7
 
@@ -1851,7 +1956,7 @@ focus_tree = {
 			id = CHI_1900_shipbuilding_policy
 			icon = GFX_SOV_focus_state_duma
 			x = 63
-			y = 7
+			y = 6
 
 			cost = 6
 
@@ -1876,7 +1981,7 @@ focus_tree = {
 			id = CHI_1900_power_in_cruisers
 			icon = GFX_GER_focus_new_cruisers
 			x = 62
-			y = 8
+			y = 7
 
 			cost = 8
 
@@ -1909,7 +2014,7 @@ focus_tree = {
 			id = CHI_1900_a_smaller_fleet
 			icon = GFX_SOV_focus_state_duma
 			x = 64
-			y = 8
+			y = 7
 
 			cost = 8
 
@@ -1942,7 +2047,7 @@ focus_tree = {
 			id = CHI_1900_unify_the_fleets
 			icon = GFX_SOV_focus_state_duma
 			x = 63
-			y = 9
+			y = 8
 
 			cost = 6
 
@@ -2262,6 +2367,7 @@ focus_tree = {
 			cost = 8
 
 			available = {
+				owns_state = 613
 				
 			}
 
@@ -2521,6 +2627,92 @@ focus_tree = {
 			}
 
 			cost = 10
+
+			available = {
+				
+			}
+
+			completion_reward = { 
+            
+			}
+		}
+		focus = {
+			id = CHI_1900_introduce_farming_equipment
+			icon = GFX_SOV_focus_state_duma
+			x = 85
+			y = 3
+
+			prerequisite = {
+				focus = CHI_1900_edit_agricultural_system
+			}
+
+			cost = 8
+
+			available = {
+				
+			}
+
+			completion_reward = { 
+            
+			}
+		}
+		focus = {
+			id = CHI_1900_guarantee_farmers
+			icon = GFX_SOV_focus_state_duma
+			x = 87
+			y = 3
+
+			prerequisite = {
+				focus = CHI_1900_edit_agricultural_system
+			}
+
+			cost = 7
+
+			available = {
+				
+			}
+
+			completion_reward = { 
+            
+			}
+		}
+		focus = {
+			id = CHI_1900_larger_farms
+			icon = GFX_SOV_focus_state_duma
+			x = 89
+			y = 3
+
+			prerequisite = {
+				focus = CHI_1900_edit_agricultural_system
+			}
+
+			cost = 10
+
+			available = {
+				
+			}
+
+			completion_reward = { 
+            
+			}
+		}
+		focus = {
+			id = CHI_1900_maintain_society
+			icon = GFX_SOV_focus_state_duma
+			x = 87
+			y = 4
+
+			prerequisite = {
+				focus = CHI_1900_introduce_farming_equipment
+			}
+			prerequisite = {
+				focus = CHI_1900_guarantee_farmers
+			}
+			prerequisite = {
+				focus = CHI_1900_larger_farms
+			}
+
+			cost = 7
 
 			available = {
 				

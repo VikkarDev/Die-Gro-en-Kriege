@@ -102,8 +102,10 @@ country_event = {
 			picture = GFX_report_event_soldiers_marching
 
 			trigger = {
+				CHI = {
 				has_country_flag = CHI_boxer_war_eight_nation
 
+				}
 			}
 
 			fire_only_once = yes
