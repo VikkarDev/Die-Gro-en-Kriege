@@ -2635,6 +2635,21 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/focus_TUR_loosen_the_laws_on_secularism.dds"
 	}
     
+	SpriteType = {
+		name = "GFX_focus_SOV_continue_ind"
+		texturefile = "gfx/interface/goals/sov/Continued_industrialization.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_focus_SOV_fra_imp"
+		texturefile = "gfx/interface/goals/sov/Import_of_French_technologies.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_focus_SOV_rus_eco"
+		texturefile = "gfx/interface/goals/sov/Russian_economy.dds"
+	}
+
     ### KOR ###
     
     SpriteType = {

@@ -106,6 +106,9 @@ SOV_french_dependancy_desc:0 "Our economy is Greatly dependent on our French all
 SOV_high_iliteracy3_desc:0 "The dducation situation in our empire is not the best. With a sizable number of our population living in rural areas, and  with  he  lack  of  schools. This has left us with crippling levels of iliteracy."
 SOV_SILENT_NIGHT_DESC:0 "The Russian Empire at the dawn of the 20th Century is facing a lot of problems. Limited, but not including illiteracy, civil unrest and crowded cities, and with the situation in Asia about to explode, will Russia take advantage of the situation and expand their sphere of influence or will the empire focus on its internal problems and face the greater threats?"
 RUS_new_def_desc:0 "With the war looking more and more dire, we have decided to pull out of the war at the cost of our prestige. Safe to say, the people are §Rnot happy§W."!
+RUS_new_industry0_desc:0 "The Russian economy has been failing recently due to our agarian society, we must look to industrilize as quickly as possible to not be left behind by the great powers of Europe."
+RUS_new_limex_desc:0 "If we want to keep up with the other great powers, we must keep our recources to our selfves. We will lower the number of exports to allies and enemies alike!"
+RUS_new_orth_desc:0 "Many Russians are christians, more specifically orthodox, yet many of them dont know their religion. We can fight this problem by building more orthodox schools around the empire, this may also help the iliteracy rate in our country."
 ########### Russia Country Names & Cosmetic Localisation ###########0
 SOV_chauvinist_populism:0 "Russian Empire"
 SOV_chauvinist_populism_DEF:0 "The Russian Empire"
