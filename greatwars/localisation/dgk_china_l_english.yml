@@ -138,11 +138,6 @@ CHI_anti_boxers:0 "The Empress went against the Boxers"
 CHI_pro_boxers:0 "The Empress chose to ally with the Boxers"
 CHI_boxer_war_eight_nation:0 "At war with the Eight Nation Alliance"
 
-#PARTY NAMES
-
-CHI_social_liberalism_party:0 "HCH"
-CHI_social_liberalism_party_long:0 "Hsing Chung Hui"
-
 #LEADER INFO
 CHI_HOS_TITLE:0 "Huángdì"
 CHI_HOG_TITLE:0 "Huánghòu"

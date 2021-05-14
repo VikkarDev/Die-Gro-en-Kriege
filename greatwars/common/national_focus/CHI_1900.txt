@@ -132,6 +132,9 @@ focus_tree = {
 					country_event = boxer_rebellion.1
 				}
 				news_event = { id = dgk_news.1 }
+				hidden_effect = {
+					country_event = boxer_rebellion.3
+				}
                 
 
 			}
@@ -1379,7 +1382,7 @@ focus_tree = {
 		}
 		focus = {
 			id = CHI_1900_put_out_boxers
-			icon = GFX_SOV_focus_state_duma
+			icon = GFX_CHI_end_imperial_rule
 			x = 49
 			y = 7
 
@@ -1399,7 +1402,7 @@ focus_tree = {
 		}
 		focus = {
 			id = CHI_1900_continue_8_banners_system
-			icon = GFX_CHI_focus_spear_warrior
+			icon = GFX_CHI_focus_end_imperial_rule
 			x = 50
 			y = 8
 
@@ -2822,6 +2825,567 @@ focus_tree = {
 
 			available = {
 				
+			}
+
+			completion_reward = { 
+            
+			}
+		}
+
+		#PAN-ASIANIST
+
+
+	focus = {
+			id = CHI_1900_contact_asian_minorities
+			icon = GFX_SOV_focus_state_duma
+			x = 12
+			y = 11
+
+			cost = 10
+
+			available = {
+				has_government = social_egalitarianism
+				has_stability > 0.5
+				has_country_leader = {
+    				name = "Sun Yat Sen"
+    				ruling_only = yes
+					}
+			}
+
+			completion_reward = { 
+            
+			}
+		}
+	focus = {
+			id = CHI_1900_ally_japanese
+			icon = GFX_CHI_focus_japanese_agreement
+			x = 7
+			y = 12
+
+			cost = 10
+
+			mutually_exclusive = {
+				focus = CHI_1900_chinese_pan_asianism
+			}
+
+			prerequisite = {
+				focus = CHI_1900_contact_asian_minorities
+			}
+
+			available = {
+				has_government = social_egalitarianism
+				has_stability > 0.5
+				has_country_leader = {
+    				name = "Sun Yat Sen"
+    				ruling_only = yes
+					}
+				NOT = {
+					has_war_with = JAP
+				}
+			}
+
+			completion_reward = { 
+            
+			}
+		}
+		focus = {
+			id = CHI_1900_chinese_pan_asianism
+			icon = GFX_SOV_focus_state_duma
+			x = 17
+			y = 12
+
+			cost = 10
+
+			mutually_exclusive = {
+				focus = CHI_1900_ally_japanese
+			}
+
+			prerequisite = {
+				focus = CHI_1900_contact_asian_minorities
+			}
+
+			available = {
+				has_government = social_egalitarianism
+				has_stability > 0.5
+				has_country_leader = {
+    				name = "Sun Yat Sen"
+    				ruling_only = yes
+					}
+			}
+
+			completion_reward = { 
+            
+			}
+		}
+
+		focus = {
+			id = CHI_1900_ethnic_groups_of_china
+			icon = GFX_SOV_focus_state_duma
+			x = 17
+			y = 13
+
+			cost = 10
+
+			prerequisite = {
+				focus = CHI_1900_chinese_pan_asianism
+			}
+
+			available = {
+				has_government = social_egalitarianism
+				has_stability > 0.5
+				has_country_leader = {
+    				name = "Sun Yat Sen"
+    				ruling_only = yes
+					}
+			}
+
+			completion_reward = { 
+            
+			}
+		}
+		focus = {
+			id = CHI_1900_support_chinese_nationalists_taiwan
+			icon = GFX_SOV_focus_state_duma
+			x = 15
+			y = 13
+
+			cost = 7
+
+			prerequisite = {
+				focus = CHI_1900_chinese_pan_asianism
+			}
+
+			available = {
+				has_government = social_egalitarianism
+				has_stability > 0.5
+				has_country_leader = {
+    				name = "Sun Yat Sen"
+    				ruling_only = yes
+					}
+				JAP = {
+					owns_state = 524
+				}
+				NOT = {
+					has_war_with = JAP
+				}
+			}
+
+			completion_reward = { 
+            
+			}
+		}
+		focus = {
+			id = CHI_1900_5_races_one_flag_pan_asianist
+			icon = GFX_SOV_focus_state_duma
+			x = 14
+			y = 14
+
+			cost = 10
+
+			mutually_exclusive = {
+				focus = CHI_1900_suppress_chinese_minorities_pan_asianist
+			}
+
+			prerequisite = {
+				focus = CHI_1900_ethnic_groups_of_china
+			}
+
+			available = {
+				has_government = social_egalitarianism
+				has_stability > 0.5
+				has_country_leader = {
+    				name = "Sun Yat Sen"
+    				ruling_only = yes
+					}
+			}
+
+			completion_reward = { 
+            
+			}
+		}
+		focus = {
+			id = CHI_1900_suppress_chinese_minorities_pan_asianist
+			icon = GFX_SOV_focus_state_duma
+			x = 20
+			y = 14
+
+			cost = 10
+
+			mutually_exclusive = {
+				focus = CHI_1900_5_races_one_flag_pan_asianist
+			}
+
+			prerequisite = {
+				focus = CHI_1900_ethnic_groups_of_china
+			}
+
+			available = {
+				has_government = chauvinist_populism
+				NOT = {
+				has_government = social_egalitarianism
+				has_country_leader = {
+    				name = "Sun Yat Sen"
+    				ruling_only = yes
+					}
+				}
+			}
+
+			completion_reward = { 
+            
+			}
+		}
+	focus = {
+			id = CHI_1900_unity_through_diversity
+			icon = GFX_SOV_focus_state_duma
+			x = 14
+			y = 15
+
+			cost = 10
+
+
+			prerequisite = {
+				focus = CHI_1900_5_races_one_flag_pan_asianist
+			}
+
+			available = {
+				has_government = social_egalitarianism
+				has_stability > 0.5
+				has_country_leader = {
+    				name = "Sun Yat Sen"
+    				ruling_only = yes
+					}
+			}
+
+			completion_reward = { 
+            
+			}
+		}
+	focus = {
+			id = CHI_1900_government_representation_minorities
+			icon = GFX_SOV_focus_state_duma
+			x = 14
+			y = 16
+
+			cost = 10
+
+
+			prerequisite = {
+				focus = CHI_1900_unity_through_diversity
+			}
+
+			available = {
+				has_government = social_egalitarianism
+				has_stability > 0.5
+				has_country_leader = {
+    				name = "Sun Yat Sen"
+    				ruling_only = yes
+					}
+			}
+
+			completion_reward = { 
+            
+			}
+		}
+	focus = {
+			id = CHI_1900_autonomy_mongols
+			icon = GFX_SOV_focus_state_duma
+			x = 12
+			y = 17
+
+			cost = 10
+
+
+			prerequisite = {
+				focus = CHI_1900_government_representation_minorities
+			}
+
+			available = {
+				has_government = social_egalitarianism
+				has_stability > 0.5
+				has_country_leader = {
+    				name = "Sun Yat Sen"
+    				ruling_only = yes
+					}
+			}
+
+			completion_reward = { 
+            
+			}
+		}
+	focus = {
+			id = CHI_1900_dalai_lama_agreement
+			icon = GFX_SOV_focus_state_duma
+			x = 14
+			y = 17
+
+			cost = 10
+
+
+			prerequisite = {
+				focus = CHI_1900_government_representation_minorities
+			}
+
+			available = {
+				has_government = social_egalitarianism
+				has_stability > 0.5
+				has_country_leader = {
+    				name = "Sun Yat Sen"
+    				ruling_only = yes
+					}
+			}
+
+			completion_reward = { 
+            
+			}
+		}
+		
+	focus = {
+			id = CHI_1900_autonomy_xinjiang_huis
+			icon = GFX_SOV_focus_state_duma
+			x = 16
+			y = 17
+
+			cost = 10
+
+
+			prerequisite = {
+				focus = CHI_1900_government_representation_minorities
+			}
+
+			available = {
+				has_government = social_egalitarianism
+				has_stability > 0.5
+				has_country_leader = {
+    				name = "Sun Yat Sen"
+    				ruling_only = yes
+					}
+			}
+
+			completion_reward = { 
+            
+			}
+		}
+	
+	focus = {
+			id = CHI_1900_talks_with_manchus
+			icon = GFX_SOV_focus_state_duma
+			x = 14
+			y = 18
+
+			cost = 10
+
+
+			prerequisite = {
+				focus = CHI_1900_autonomy_mongols
+			}
+			prerequisite = {
+				focus = CHI_1900_autonomy_xinjiang_huis
+			}
+			prerequisite = {
+				focus = CHI_1900_dalai_lama_agreement
+			}
+
+			available = {
+				has_government = social_egalitarianism
+				has_stability > 0.5
+				has_country_leader = {
+    				name = "Sun Yat Sen"
+    				ruling_only = yes
+					}
+			}
+
+			completion_reward = { 
+            
+			}
+		}
+	focus = {
+			id = CHI_1900_unified_china_5_races_one_flag
+			icon = GFX_SOV_focus_state_duma
+			x = 14
+			y = 19
+
+			cost = 10
+
+
+			prerequisite = {
+				focus = CHI_1900_talks_with_manchus
+			}
+
+			available = {
+				has_government = social_egalitarianism
+				has_stability > 0.5
+				has_country_leader = {
+    				name = "Sun Yat Sen"
+    				ruling_only = yes
+					}
+			}
+
+			completion_reward = { 
+            
+			}
+		}
+	focus = {
+			id = CHI_1900_burn_down_muslim_mosques
+			icon = GFX_SOV_focus_state_duma
+			x = 20
+			y = 15
+
+			cost = 8
+
+			prerequisite = {
+				focus = CHI_1900_suppress_chinese_minorities_pan_asianist
+			}
+
+			available = {
+				has_government = chauvinist_populism
+				NOT = {
+				has_government = social_egalitarianism
+				has_country_leader = {
+    				name = "Sun Yat Sen"
+    				ruling_only = yes
+					}
+				}
+			}
+
+			completion_reward = { 
+            
+			}
+		}
+	focus = {
+			id = CHI_1900_expel_missionaries
+			icon = GFX_SOV_focus_state_duma
+			x = 18
+			y = 15
+
+			cost = 8
+
+			prerequisite = {
+				focus = CHI_1900_suppress_chinese_minorities_pan_asianist
+			}
+
+			available = {
+				has_government = chauvinist_populism
+				NOT = {
+				has_government = social_egalitarianism
+				has_country_leader = {
+    				name = "Sun Yat Sen"
+    				ruling_only = yes
+					}
+				}
+			}
+
+			completion_reward = { 
+            
+			}
+		}
+		focus = {
+			id = CHI_1900_remove_tibetan_mongol_autonomy
+			icon = GFX_SOV_focus_state_duma
+			x = 22
+			y = 15
+
+			cost = 8
+
+			prerequisite = {
+				focus = CHI_1900_suppress_chinese_minorities_pan_asianist
+			}
+
+			available = {
+				has_government = chauvinist_populism
+				NOT = {
+				has_government = social_egalitarianism
+				has_country_leader = {
+    				name = "Sun Yat Sen"
+    				ruling_only = yes
+					}
+				}
+			}
+
+			completion_reward = { 
+            
+			}
+		}
+		focus = {
+			id = CHI_1900_put_bannermen_in_power
+			icon = GFX_SOV_focus_state_duma
+			x = 20
+			y = 16
+
+			cost = 8
+
+			prerequisite = {
+				focus = CHI_1900_burn_down_muslim_mosques
+			}
+			prerequisite = {
+				focus = CHI_1900_expel_missionaries
+			}
+			prerequisite = {
+				focus = CHI_1900_remove_tibetan_mongol_autonomy
+			}
+
+			available = {
+				has_government = chauvinist_populism
+				NOT = {
+				has_government = social_egalitarianism
+				has_country_leader = {
+    				name = "Sun Yat Sen"
+    				ruling_only = yes
+					}
+				}
+			}
+
+			completion_reward = { 
+            
+			}
+		}
+	focus = {
+			id = CHI_1900_populate_china_manchus
+			icon = GFX_SOV_focus_state_duma
+			x = 20
+			y = 17
+
+			cost = 8
+
+			prerequisite = {
+				focus = CHI_1900_put_bannermen_in_power
+			}
+
+			available = {
+				has_government = chauvinist_populism
+				NOT = {
+				has_government = social_egalitarianism
+				has_country_leader = {
+    				name = "Sun Yat Sen"
+    				ruling_only = yes
+					}
+				}
+			}
+
+			completion_reward = { 
+            
+			}
+		}
+	focus = {
+			id = CHI_1900_8_banners_control_china
+			icon = GFX_SOV_focus_state_duma
+			x = 20
+			y = 18
+
+			cost = 8
+
+			prerequisite = {
+				focus = CHI_1900_populate_china_manchus
+			}
+
+			available = {
+				has_government = chauvinist_populism
+				NOT = {
+				has_government = social_egalitarianism
+				has_country_leader = {
+    				name = "Sun Yat Sen"
+    				ruling_only = yes
+					}
+				}
 			}
 
 			completion_reward = { 

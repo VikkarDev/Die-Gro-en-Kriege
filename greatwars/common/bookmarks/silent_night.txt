@@ -201,8 +201,9 @@ bookmarks = {
 			history = "CHI_SILENT_NIGHT_DESC"
 			ideology = Autocracy
 			ideas = {
-				CHI_heavenly_emperor
-				CHI_boxer_rebellion
+				CHI_outdated_army
+				CHI_legacy_sino_japanese_war
+				CHI_low_legitimacy
 			}
 			focuses = {
 				CHI_1900_chinese_politics

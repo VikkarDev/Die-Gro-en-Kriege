@@ -15,7 +15,7 @@ focus_tree = {
 
     focus = {
 			id = PHI_1900_asian_republic
-			icon = GFX_PHI_asian_republic
+			icon = GFX_PHI_focus_asian_republic
 			x = 1
 			y = 0
 

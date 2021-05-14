@@ -93,6 +93,52 @@ country_event = {
 			}
 			set_country_flag = CHI_boxer_war_eight_nation
 		}
+		BOX = {
+			declare_war_on = {
+				target = SOV
+				type = take_state
+			}
+			declare_war_on = {
+				target = ENG
+				type = take_state
+			}
+			declare_war_on = {
+				target = GER
+				type = take_state
+			}
+			declare_war_on = {
+				target = AUS
+				type = take_state
+			}
+			declare_war_on = {
+				target = ITA
+				type = take_state
+			}
+			declare_war_on = {
+				target = JAP
+				type = take_state
+			}
+			declare_war_on = {
+				target = FRA
+				type = take_state
+			}
+			declare_war_on = {
+				target = USA
+				type = take_state
+			}
+			declare_war_on = {
+				target = SPR
+				type = take_state
+			}
+			declare_war_on = {
+				target = BEL
+				type = take_state
+			}
+			declare_war_on = {
+				target = HOL
+				type = take_state
+			}
+		}
 	}
 }
 	country_event = {
@@ -103,7 +149,7 @@ country_event = {
 
 			trigger = {
 				CHI = {
-				has_country_flag = CHI_boxer_war_eight_nation
+				has_completed_focus = CHI_1900_taku_forts
 
 				}
 			}

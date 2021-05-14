@@ -69,12 +69,15 @@ TUR_centrism_party:0 "Jön Türkler"
 TUR_traditional_conservatism_party:0 "Babıali"
 
 #china
-CHI_autocracy_party:0 "House of Àixīn Juélu"
+CHI_autocracy_party:0 "House of Àixin Juélu"
 CHI_social_egalitarianism_party:0 "XZH"
 CHI_social_egalitarianism_party_long:0 "Xīngzhōnghuì"
-CHI_social_democracy_party:0 "XZH"
-CHI_social_democracy_party_long:0 "Xīngzhōnghuì"
-CHI_chauvinist_populism_party:0 "Běiyáng Jūn"
+CHI_social_liberalism_party:0 "XZH"
+CHI_social_liberalism_party_long:0 "Xīngzhōnghuì"
+CHI_chauvinist_populism_party:0 "Baqí"
+CHI_chauvinist_populism_party_long:0 "Bāqí"
+CHI_traditional_conservatism_party:0 "BHH"
+CHI_traditional_conservatism_party_long:0 "Baohuang Hui"
 
 
 

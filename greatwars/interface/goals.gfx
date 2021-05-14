@@ -2731,12 +2731,12 @@ spriteTypes = {
 	#GENERIC CAPTAIN LUCK
 
 	SpriteType = {
-		name = "GFX_generic_cl_focus_soldiers_burn"
-		texturefile = "gfx/interface/goals/generic_cl/generic_cl_focus_soldiers_burn.dds"
-	}
-	SpriteType = {
 		name = "GFX_generic_cl_focus_burn_mosques"
 		texturefile = "gfx/interface/goals/generic_cl/generic_cl_focus_burn_mosques.dds"
+	}
+	SpriteType = {
+		name = "GFX_generic_cl_focus_soldiers_burn"
+		texturefile = "gfx/interface/goals/generic_cl/generic_cl_focus_soldiers_burn.dds"
 	}
 	SpriteType = {
 		name = "GFX_generic_cl_focus_gun_license"
