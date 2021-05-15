@@ -76,6 +76,19 @@ buildings = {
 		value = 1
 	}
 
+	trench = {
+		show_on_map = 1
+		has_destroyed_mesh = yes
+		base_cost = 1400
+		per_level_extra_cost = 1000
+		provincial = yes
+		disabled_in_dmz = yes
+		icon_frame = 15
+		land_fort = 1
+		max_level = 15
+		value = 5
+	}
+
 	coastal_bunker = {
 		show_on_map = 1
 		has_destroyed_mesh = yes

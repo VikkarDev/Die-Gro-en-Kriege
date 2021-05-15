@@ -2650,6 +2650,21 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/sov/Russian_economy.dds"
 	}
 
+	SpriteType = {
+		name = "GFX_focus_SOV_dep_fra"
+		texturefile = "gfx/interface/goals/sov/Continue_depending_on_france.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_focus_SOV_house_cris"
+		texturefile = "gfx/interface/goals/sov/fix_the_housing_crisis.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_focus_SOV_imp_tools"
+		texturefile = "gfx/interface/goals/sov/Importing_machine_tools.dds"
+	}
+
     ### KOR ###
     
     SpriteType = {

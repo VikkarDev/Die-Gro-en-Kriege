@@ -193,7 +193,7 @@
 
 		focus = {
 			id = RUS_new_imptool
-			icon = GFX_goal_generic_production
+			icon = GFX_focus_SOV_imp_tools
 			x = 11
 			y = 3
 
@@ -651,8 +651,8 @@
 
 
 		focus = {
-			id = RUS_new_morefac
-			icon = GFX_GER_focus_colonial_industry
+			id = RUS_new_hous
+			icon = GFX_focus_SOV_house_cris
 			x = 10
 			y = 4
 
@@ -678,7 +678,7 @@
 			y = 5
 
 			prerequisite = {
-				focus = RUS_new_morefac
+				focus = RUS_new_hous
 			}
 
         mutually_exclusive = { focus = RUS_new_dep }
@@ -820,12 +820,12 @@
 
 		focus = {
 			id = RUS_new_dep
-			icon = GFX_GER_focus_help_from_private
+			icon = GFX_focus_SOV_dep_fra
 			x = 7
 			y = 5
 
 			prerequisite = {
-				focus = RUS_new_morefac
+				focus = RUS_new_hous
 			}
 
             mutually_exclusive = { focus = RUS_new_indep }
