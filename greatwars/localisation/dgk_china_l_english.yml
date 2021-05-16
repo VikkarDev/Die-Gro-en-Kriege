@@ -27,7 +27,7 @@ CHI_1900_ally_with_boxers:0 "Ally with the Boxers"
 CHI_1900_against_boxers:0 "Battle the Boxers"
 CHI_1900_taku_forts:0 "The Battle of Taku Forts"
 CHI_1900_seymour_expedition:0 "The Seymour Expedition"
-CHI_1900_supply_arms:0 "Supply Arms to the Boxers"
+CHI_1900_supply_arms:0 "Use Civilian Guns"
 CHI_1900_seize_weapons:0 "Seize Western Arms"
 CHI_1900_mobilize_the_bannermen:0 "Mobilize the Bannermen"
 CHI_1900_stunning_victory:0 "A Stunning Victory"
@@ -39,7 +39,7 @@ CHI_1900_power_to_governers:0 "More Power to the Governers"
 CHI_1900_foreign_aid:0 "Get Foreign Aid"
 CHI_1900_protect_christians:0 "Protect Christian Missionaries"
 CHI_1900_change_foreign_policy:0 "Change our Foreign Policy"
-CHI_1900_boxer_defeated:0 "The Boxers Defeated"
+CHI_1900_ally_japanese:0 "Japanese Alliance"
 CHI_1900_open_up_to_foreigners:0 "Open up to Foreigners"
 CHI_1900_military_mission:0 "Get a Military Mission"
 CHI_1900_chinese_politics:0 "Chinese Politics"
@@ -123,13 +123,23 @@ CHI_1900_manchuria_crisis:0 "The Manchuria Crisis"
 china.4.t:0 "Our Political Situation"
 china.4.d:0 "Since our contact with the Western Powers and events like the Unequal Treaties, our 3 century-old empire has been in decline. Other events like the Taping Rebellion and more recently the Boxer Rebellion have seriously reduced our hold over the country and bled our coffers dry. The 1898 Coup by the Empress Dowager against the Emperor and liberal leaders of the Hundred Days Reform deposed the Guangxu Emperor and repealed the Hundred Days Reform, a reform set to make the Qing Empire into a constitutional monarchy. During this chaos, parties like the Revive China Society led by Republican Sun Yat Sen and small groups on Anarchists and Communists such as Chen Duxui have gained increasing support and have launched revolts in the path against the Qing government in the hopes of creating a republic. Because of this increasing decline, military leaders and local governers have started acting indpeendently, using their own private armies effectively dividing China between warlords."
 china.4.a:0 "Can China recover?"
+
 china.1.t:0 "Empress' Policy on the Boxers"
 china.1.d:0 "After the Boxer Rebellion started, an internal political crisis started in the Qing government over whether to join the Boxers against the foreigners or repair relations with the west. To make any actions, the Empress has to make a decision on whether to join the Boxers or attack them."
 china.1.a:0 "We will remain at war with the Boxers"
 china.1.b:0 "Join them against the west! Kick the foreigners out of China!"
+
 china.3.t:0 "Death of Li Hongzhang"
 china.3.d:0 "Our field marshal and governer of Peking and the Zhili region has died of a heart attack today. With the death of the marshal, his apprentice, Yuan Shikai is destined to take his former position. This will have huge political and military effects."
 china.3.a:0 "Memori memori"
+
+china.7.t:0 "Provincial Governers Declare Neutrality"
+china.7.a:0 "Our empire is crumbling..." 
+
+china.6.t:0 "War with the Western Powers"
+china.6.d:0 "After we decided to ally with the Boxers, war with the western powers was inevitable. The rebellion's goal was to force the western powers out of China, and we must join their cause."
+
+
 
 #COUNTRY FLAGS
 
@@ -144,3 +154,7 @@ CHI_HOG_TITLE:0 "Huánghòu"
 CHI_GUANGXU_NAME:0 "Guangxu"
 GUANGXU_LEADER_DESCRIPTION:0 "Description needed."
 CIXI_LEADER_DESCRIPTION:0 "Description needed."
+
+#BOOKMARKS
+
+CHI_SILENT_NIGHT_DESC:0 "The Qing Dynasty has been in decline for over 6 decades since the Opium Wars and the Taiping Rebellion, and growing resentment towards the Qing Emperor and the Manchu population have caused the political and economic stability of the empire to crumble. One of the leading figures against the Qing, Republican leader Sun Yat Sen has been getting support from many of China's inhabitants and the Republicans are set to overthrow the Qing. Can the Qing survive? Can China become a republic?"

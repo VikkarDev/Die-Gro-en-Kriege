@@ -61,6 +61,7 @@ focus_tree = {
         focus = {
 			id = CHI_1900_ally_with_boxers
 			icon = GFX_CHI_focus_boxer_agreement
+			search_filters = { FOCUS_FILTER_POLITICAL }
 			x = 5
 			y = 2
 
@@ -88,6 +89,7 @@ focus_tree = {
         focus = {
 			id = CHI_1900_against_boxers
 			icon = GFX_CHI_focus_boxer_war
+			search_filters = { FOCUS_FILTER_POLITICAL }
 			x = 11
 			y = 2
 
@@ -110,7 +112,8 @@ focus_tree = {
 		}
          focus = {
 			id = CHI_1900_taku_forts
-			icon = GFX_SOV_focus_the_safe_option
+			icon = GFX_CHI_focus_8_nation_war
+			search_filters = { FOCUS_FILTER_POLITICAL }
 			x = 5
 			y = 3
             prerequisite = {
@@ -127,13 +130,9 @@ focus_tree = {
                 add_manpower = 5000
                 add_war_support = 0.2
 				add_stability = 0.2
-				country_event = boxer_rebellion.2
-				GER = {
-					country_event = boxer_rebellion.1
-				}
-				news_event = { id = dgk_news.1 }
+				country_event = china.6
 				hidden_effect = {
-					country_event = boxer_rebellion.3
+					country_event = china.7
 				}
                 
 
@@ -189,6 +188,11 @@ focus_tree = {
 				has_war_with = FRA
             }
             completion_reward = { 
+				add_equipment_to_stockpile = {
+    				type = infantry_equipment
+    				amount = 100
+    				producer = BOX
+					}
             
 			}
          }
@@ -215,6 +219,13 @@ focus_tree = {
 				has_war_with = FRA
             }
             completion_reward = { 
+				ENG = {
+					send_equipment = {
+    					equipment = infantry_equipment
+    					amount = 500
+    					target = CHI
+					}
+				}
             
 			}
          }
@@ -248,6 +259,7 @@ focus_tree = {
 		 focus = {
 			id = CHI_1900_stunning_victory
 			icon = GFX_SOV_focus_the_safe_option
+			search_filters = { FOCUS_FILTER_POLITICAL }
 			x = 3
 			y = 7
             cost = 10
@@ -280,6 +292,7 @@ focus_tree = {
 		 focus = {
 			id = CHI_1900_horrific_loss
 			icon = GFX_SOV_focus_the_safe_option
+			search_filters = { FOCUS_FILTER_POLITICAL }
 			x = 7
 			y = 7
             cost = 2
@@ -312,6 +325,7 @@ focus_tree = {
 		 focus = {
 			id = CHI_1900_new_age_for_china
 			icon = GFX_SOV_focus_the_safe_option
+			search_filters = { FOCUS_FILTER_POLITICAL }
 			x = 4
 			y = 8
             prerequisite = {
@@ -401,10 +415,23 @@ focus_tree = {
 
             available = {
                 has_war_with = BOX
+				NOT = {
+					has_war_with = ENG
+					has_war_with = SOV
+				}
             }
             completion_reward = { 
 
-            
+            add_equipment_to_stockpile = {
+    			type = infantry_equipment
+    			amount = 150
+    			producer = ENG
+				}
+			add_equipment_to_stockpile = {
+    			type = infantry_equipment
+    			amount = 150
+    			producer = SOV
+				}
 			}
          }
 		 focus = {
@@ -421,13 +448,19 @@ focus_tree = {
                 has_war_with = BOX
             }
             completion_reward = { 
-
-            
+			add_stability = 0.05
+			add_political_power = -20
+			add_opinion_modifier = { target = ENG modifier = allied_partners }
+			add_opinion_modifier = { target = GER modifier = allied_partners }
+            add_opinion_modifier = { target = SOV modifier = allied_partners }
+			add_opinion_modifier = { target = FRA modifier = allied_partners }
+			add_opinion_modifier = { target = ITA modifier = allied_partners }
 			}
          }
 		 focus = {
 			id = CHI_1900_change_foreign_policy
 			icon = GFX_SOV_focus_the_safe_option
+			search_filters = { FOCUS_FILTER_POLITICAL }
 			x = 11
 			y = 4
             prerequisite = {
@@ -444,29 +477,13 @@ focus_tree = {
 				}
             }
             completion_reward = { 
-
-            
-			}
-         }
-		 focus = {
-			id = CHI_1900_boxer_defeated
-			icon = GFX_SOV_focus_the_safe_option
-			x = 11
-			y = 5
-            prerequisite = {
-				focus = CHI_1900_change_foreign_policy
-			}
-            cost = 7
-
-            available = {
-                NOT = {
-                has_war = yes
-				BOX = {
-					exists = yes
-					}
-				}
-            }
-            completion_reward = { 
+			add_political_power = 25
+			add_opinion_modifier = { target = ENG modifier = large_increase }
+			add_opinion_modifier = { target = RUS modifier = large_increase }
+            add_opinion_modifier = { target = FRA modifier = large_increase }
+		    add_opinion_modifier = { target = GER modifier = large_increase }
+			add_opinion_modifier = { target = ITA modifier = large_increase }
+			add_opinion_modifier = { target = JAP modifier = large_increase }
 
             
 			}
@@ -474,10 +491,11 @@ focus_tree = {
 		 focus = {
 			id = CHI_1900_open_up_to_foreigners
 			icon = GFX_SOV_focus_the_safe_option
+			search_filters = { FOCUS_FILTER_POLITICAL }
 			x = 10
-			y = 6
+			y = 5
             prerequisite = {
-				focus = CHI_1900_boxer_defeated
+				focus = CHI_1900_change_foreign_policy
 			}
             cost = 7
 
@@ -497,10 +515,11 @@ focus_tree = {
 		 focus = {
 			id = CHI_1900_military_mission
 			icon = GFX_SOV_focus_the_safe_option
+			search_filters = { FOCUS_FILTER_POLITICAL }
 			x = 12
-			y = 6
+			y = 5
             prerequisite = {
-				focus = CHI_1900_boxer_defeated
+				focus = CHI_1900_change_foreign_policy
 			}
             cost = 7
 
@@ -509,7 +528,7 @@ focus_tree = {
                 has_war = yes
 				BOX = {
 					exists = yes
-				}
+					}
 				}
             }
             completion_reward = { 
@@ -543,6 +562,7 @@ focus_tree = {
 		focus = {
 			id = CHI_1900_continue_imperial_china
 			icon = GFX_CHI_focus_continue_imperial_rule
+			search_filters = { FOCUS_FILTER_POLITICAL }
 			x = 18
 			y = 2
 			prerequisite = {
@@ -570,6 +590,7 @@ focus_tree = {
 		focus = {
 			id = CHI_1900_end_imperial_rule
 			icon = GFX_CHI_focus_end_imperial_rule
+			search_filters = { FOCUS_FILTER_POLITICAL }
 			x = 32
 			y = 2
 			prerequisite = {
@@ -596,7 +617,8 @@ focus_tree = {
 		}
 		focus = {
 			id = CHI_1900_legacy_1898_coup
-			icon = GFX_SOV_focus_state_duma
+			icon = GFX_CHI_focus_1898_coup
+			search_filters = { FOCUS_FILTER_POLITICAL }
 			x = 38
 			y = 3
 			prerequisite = {
@@ -619,6 +641,7 @@ focus_tree = {
 		focus = {
 			id = CHI_1900_sun_yat_sen
 			icon = GFX_CHI_focus_go_with_sun_yat_sen
+			search_filters = { FOCUS_FILTER_POLITICAL }
 			x = 26
 			y = 3
 			prerequisite = {
@@ -641,6 +664,7 @@ focus_tree = {
 		focus = {
 			id = CHI_1900_remember_hundred_days_reform
 			icon = GFX_SOV_focus_state_duma
+			search_filters = { FOCUS_FILTER_POLITICAL }
 			x = 38
 			y = 4
 			prerequisite = {
@@ -660,6 +684,7 @@ focus_tree = {
 		focus = {
 			id = CHI_1900_the_position_of_the_party
 			icon = GFX_SOV_focus_state_duma
+			search_filters = { FOCUS_FILTER_POLITICAL }
 			x = 38
 			y = 5
 			prerequisite = {
@@ -1093,7 +1118,7 @@ focus_tree = {
 		}
 		focus = {
 			id = CHI_1900_qing_army
-			icon = GFX_SOV_focus_state_duma
+			icon = GFX_CHI_focus_Qing_Army
 			x = 51
 			y = 2
 
@@ -1307,7 +1332,7 @@ focus_tree = {
 
 		focus = {
 			id = CHI_1900_military_situation
-			icon = GFX_SOV_focus_state_duma
+			icon = GFX_CHI_focus_Qing_Army
 			x = 51
 			y = 6
 
@@ -1562,6 +1587,7 @@ focus_tree = {
 			}
 
 			completion_reward  ={
+				add_political_power = -10
 				GER ={
 					country_event = germany.15
 				}
@@ -1844,7 +1870,7 @@ focus_tree = {
 
 		focus = {
 			id = CHI_1900_qing_navy
-			icon = GFX_SOV_focus_state_duma
+			icon = GFX_CHI_focus_qing_navy
 			x = 63
 			y = 2
 
@@ -2119,13 +2145,20 @@ focus_tree = {
 				focus = CHI_1900_the_chinese_industry
 			}
 
-			cost = 10
+			cost = 7
 
 			available = {
+				owns_state = 605
+				owns_state = 325
+				owns_state = 747
+				owns_state = 603
+				owns_state = 591
+				owns_state = 751
 				
 			}
 
 			completion_reward = { 
+				add_political_power = 25
             
 			}
 		}
@@ -2405,10 +2438,9 @@ focus_tree = {
 
 			completion_reward = { 
 				593 ={
-					set_building_level = {
-    					type = infrastructure
-    					level = 4
-    					instant_build = yes
+					add_building_construction = {
+						type = infrastructure
+						level = 5
 					}
 				}
             
@@ -2435,10 +2467,9 @@ focus_tree = {
 					country_event = germany.16
 				}
 				597 ={
-					set_building_level = {
-    					type = infrastructure
-    					level = 5
-    					instant_build = yes
+					add_building_construction = {
+						type = infrastructure
+						level = 5
 					}
 				}
             
@@ -2608,10 +2639,27 @@ focus_tree = {
 			cost = 10
 
 			available = {
+				owns_state = 605
+				owns_state = 325
+				owns_state = 747
+				owns_state = 603
+				owns_state = 591
 				
 			}
 
 			completion_reward = { 
+				add_stability = -0.05
+				add_political_power = -15
+				591 = {
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+                        type = infrastructure
+                        level = 2
+                        instant_build = yes
+                    	}
+
+				}
+				
             
 			}
 		}
@@ -2632,16 +2680,31 @@ focus_tree = {
 			cost = 10
 
 			available = {
+				owns_state = 605
+				owns_state = 325
+				owns_state = 747
+				owns_state = 603
+				owns_state = 591
 				
 			}
 
 			completion_reward = { 
+				add_stability = 0.05
+				591 = {
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+                        type = industrial_complex
+                        level = 1
+                        instant_build = yes
+                    	}
+
+				}
             
 			}
 		}
 		focus = {
 			id = CHI_1900_introduce_farming_equipment
-			icon = GFX_SOV_focus_state_duma
+			icon = GFX_GER_focus_agriculture_innovation
 			x = 85
 			y = 3
 
@@ -2656,6 +2719,11 @@ focus_tree = {
 			}
 
 			completion_reward = { 
+				add_tech_bonus = {
+    				bonus = 0.5
+   					uses = 1
+    				category = industry
+					}
             
 			}
 		}
@@ -2676,7 +2744,10 @@ focus_tree = {
 			}
 
 			completion_reward = { 
-            
+				add_stability = 0.05
+				add_political_power = 25
+				add_war_support = 0.05
+        
 			}
 		}
 		focus = {
@@ -2692,13 +2763,22 @@ focus_tree = {
 			cost = 10
 
 			available = {
+				owns_state = 751
 				
 			}
 
 			completion_reward = { 
+				751 = {
+					add_extra_state_shared_building_slots = 3
+					add_building_construction = {
+                        type = industrial_complex
+                        level = 3
+                        instant_build = yes
+                    	}
+					}
+				}
             
 			}
-		}
 		focus = {
 			id = CHI_1900_maintain_society
 			icon = GFX_SOV_focus_state_duma
@@ -2722,6 +2802,8 @@ focus_tree = {
 			}
 
 			completion_reward = { 
+				add_stability = 0.1
+				add_political_power = 25
             
 			}
 		}
@@ -2738,16 +2820,29 @@ focus_tree = {
 			cost = 8
 
 			available = {
+				owns_state = 605
+				owns_state = 750
+				owns_state = 593
 				
 			}
 
 			completion_reward = { 
+				add_stability = -0.05
+				add_political_power = -30
+				750 = {
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = {
+                        type = industrial_complex
+                        level = 2
+                        instant_build = yes
+                    }
+				}
             
 			}
 		}
 		focus = {
 			id = CHI_1900_begin_mining_sichuan
-			icon = GFX_SOV_focus_state_duma
+			icon = GFX_goal_generic_construction2
 			x = 80
 			y = 4
 
@@ -2758,11 +2853,21 @@ focus_tree = {
 			cost = 8
 
 			available = {
+				owns_state = 605
 				
 			}
 
 			completion_reward = { 
-            
+				605 = {
+					add_resource = {
+    					type = steel
+    					amount = 10
+						}
+					add_resource = {
+    					type = oil
+    					amount = 5
+					}
+				}
 			}
 		}
 		focus = {
@@ -2778,16 +2883,46 @@ focus_tree = {
 			cost = 8
 
 			available = {
+				owns_state = 605
+				owns_state = 325
+				owns_state = 747
+				owns_state = 603
 				
 			}
 
 			completion_reward = { 
+				605 = {
+					add_building_construction = {
+						type = infrastructure
+						level = 1
+					}
+				}
+				603 = {
+					add_building_construction = {
+						type = infrastructure
+						level = 1
+					}
+				}
+				
+				325 = {
+					add_building_construction = {
+						type = infrastructure
+						level = 1
+					}
+				}
+				747 = {
+					add_building_construction = {
+						type = infrastructure
+						level = 1
+					}
+				}
+				
             
 			}
 		}
 		focus = {
 			id = CHI_1900_chao_shan_railway
-			icon = GFX_SOV_focus_state_duma
+			icon = GFX_goal_generic_construct_infrastructure
 			x = 80
 			y = 5
 
@@ -2801,16 +2936,27 @@ focus_tree = {
 			cost = 10
 
 			available = {
+				owns_state = 593
 				
 			}
 
 			completion_reward = { 
+				593 = {
+					add_building_construction = {
+						type = infrastructure
+						level = 5
+					}
+					add_resource = {
+    					type = tungsten
+    					amount = 8
+						}
+				}
             
 			}
 		}
 		focus = {
 			id = CHI_1900_kunming_haiphong_railway
-			icon = GFX_SOV_focus_state_duma
+			icon = GFX_goal_generic_construct_infrastructure
 			x = 82
 			y = 5
 
@@ -2824,10 +2970,22 @@ focus_tree = {
 			cost = 10
 
 			available = {
+				owns_state = 325
 				
 			}
 
 			completion_reward = { 
+				325 = {
+					add_building_construction = {
+						type = infrastructure
+						level = 5
+					}
+					add_resource = {
+    					type = steel
+    					amount = 8
+						}
+					
+				}
             
 			}
 		}
@@ -2971,13 +3129,32 @@ focus_tree = {
 			}
 
 			completion_reward = { 
+				add_manpower = -150
+				add_political_power = 40
+				add_war_support = 0.05
+
+				524 = {
+					add_resistance = 35
+					add_compliance = -30
+					damage_building = {
+    					type = infrastructure
+    					damage = 3
+						}
+					damage_building = {
+    					type = arms_factory
+    					damage = 3
+						}
+				}
+				JAP = {
+					country_event = japan.10
+				}
             
 			}
 		}
 		focus = {
 			id = CHI_1900_5_races_one_flag_pan_asianist
 			icon = GFX_SOV_focus_state_duma
-			x = 14
+			x = 17
 			y = 14
 
 			cost = 10
@@ -3003,41 +3180,10 @@ focus_tree = {
             
 			}
 		}
-		focus = {
-			id = CHI_1900_suppress_chinese_minorities_pan_asianist
-			icon = GFX_SOV_focus_state_duma
-			x = 20
-			y = 14
-
-			cost = 10
-
-			mutually_exclusive = {
-				focus = CHI_1900_5_races_one_flag_pan_asianist
-			}
-
-			prerequisite = {
-				focus = CHI_1900_ethnic_groups_of_china
-			}
-
-			available = {
-				has_government = chauvinist_populism
-				NOT = {
-				has_government = social_egalitarianism
-				has_country_leader = {
-    				name = "Sun Yat Sen"
-    				ruling_only = yes
-					}
-				}
-			}
-
-			completion_reward = { 
-            
-			}
-		}
 	focus = {
 			id = CHI_1900_unity_through_diversity
 			icon = GFX_SOV_focus_state_duma
-			x = 14
+			x = 17
 			y = 15
 
 			cost = 10
@@ -3063,7 +3209,7 @@ focus_tree = {
 	focus = {
 			id = CHI_1900_government_representation_minorities
 			icon = GFX_SOV_focus_state_duma
-			x = 14
+			x = 17
 			y = 16
 
 			cost = 10
@@ -3089,7 +3235,7 @@ focus_tree = {
 	focus = {
 			id = CHI_1900_autonomy_mongols
 			icon = GFX_SOV_focus_state_duma
-			x = 12
+			x = 15
 			y = 17
 
 			cost = 10
@@ -3115,7 +3261,7 @@ focus_tree = {
 	focus = {
 			id = CHI_1900_dalai_lama_agreement
 			icon = GFX_SOV_focus_state_duma
-			x = 14
+			x = 17
 			y = 17
 
 			cost = 10
@@ -3142,7 +3288,7 @@ focus_tree = {
 	focus = {
 			id = CHI_1900_autonomy_xinjiang_huis
 			icon = GFX_SOV_focus_state_duma
-			x = 16
+			x = 19
 			y = 17
 
 			cost = 10
@@ -3169,7 +3315,7 @@ focus_tree = {
 	focus = {
 			id = CHI_1900_talks_with_manchus
 			icon = GFX_SOV_focus_state_duma
-			x = 14
+			x = 17
 			y = 18
 
 			cost = 10
@@ -3201,7 +3347,7 @@ focus_tree = {
 	focus = {
 			id = CHI_1900_unified_china_5_races_one_flag
 			icon = GFX_SOV_focus_state_duma
-			x = 14
+			x = 17
 			y = 19
 
 			cost = 10
@@ -3221,178 +3367,12 @@ focus_tree = {
 			}
 
 			completion_reward = { 
+				add_stability = 0.3
+				add_war_support = 0.3
+				add_political_power = 100
             
 			}
 		}
-	focus = {
-			id = CHI_1900_burn_down_muslim_mosques
-			icon = GFX_SOV_focus_state_duma
-			x = 20
-			y = 15
-
-			cost = 8
-
-			prerequisite = {
-				focus = CHI_1900_suppress_chinese_minorities_pan_asianist
-			}
-
-			available = {
-				has_government = chauvinist_populism
-				NOT = {
-				has_government = social_egalitarianism
-				has_country_leader = {
-    				name = "Sun Yat Sen"
-    				ruling_only = yes
-					}
-				}
-			}
-
-			completion_reward = { 
-            
-			}
-		}
-	focus = {
-			id = CHI_1900_expel_missionaries
-			icon = GFX_SOV_focus_state_duma
-			x = 18
-			y = 15
-
-			cost = 8
-
-			prerequisite = {
-				focus = CHI_1900_suppress_chinese_minorities_pan_asianist
-			}
-
-			available = {
-				has_government = chauvinist_populism
-				NOT = {
-				has_government = social_egalitarianism
-				has_country_leader = {
-    				name = "Sun Yat Sen"
-    				ruling_only = yes
-					}
-				}
-			}
-
-			completion_reward = { 
-            
-			}
-		}
-		focus = {
-			id = CHI_1900_remove_tibetan_mongol_autonomy
-			icon = GFX_SOV_focus_state_duma
-			x = 22
-			y = 15
-
-			cost = 8
-
-			prerequisite = {
-				focus = CHI_1900_suppress_chinese_minorities_pan_asianist
-			}
-
-			available = {
-				has_government = chauvinist_populism
-				NOT = {
-				has_government = social_egalitarianism
-				has_country_leader = {
-    				name = "Sun Yat Sen"
-    				ruling_only = yes
-					}
-				}
-			}
-
-			completion_reward = { 
-            
-			}
-		}
-		focus = {
-			id = CHI_1900_put_bannermen_in_power
-			icon = GFX_SOV_focus_state_duma
-			x = 20
-			y = 16
-
-			cost = 8
-
-			prerequisite = {
-				focus = CHI_1900_burn_down_muslim_mosques
-			}
-			prerequisite = {
-				focus = CHI_1900_expel_missionaries
-			}
-			prerequisite = {
-				focus = CHI_1900_remove_tibetan_mongol_autonomy
-			}
-
-			available = {
-				has_government = chauvinist_populism
-				NOT = {
-				has_government = social_egalitarianism
-				has_country_leader = {
-    				name = "Sun Yat Sen"
-    				ruling_only = yes
-					}
-				}
-			}
-
-			completion_reward = { 
-            
-			}
-		}
-	focus = {
-			id = CHI_1900_populate_china_manchus
-			icon = GFX_SOV_focus_state_duma
-			x = 20
-			y = 17
-
-			cost = 8
-
-			prerequisite = {
-				focus = CHI_1900_put_bannermen_in_power
-			}
-
-			available = {
-				has_government = chauvinist_populism
-				NOT = {
-				has_government = social_egalitarianism
-				has_country_leader = {
-    				name = "Sun Yat Sen"
-    				ruling_only = yes
-					}
-				}
-			}
-
-			completion_reward = { 
-            
-			}
-		}
-	focus = {
-			id = CHI_1900_8_banners_control_china
-			icon = GFX_SOV_focus_state_duma
-			x = 20
-			y = 18
-
-			cost = 8
-
-			prerequisite = {
-				focus = CHI_1900_populate_china_manchus
-			}
-
-			available = {
-				has_government = chauvinist_populism
-				NOT = {
-				has_government = social_egalitarianism
-				has_country_leader = {
-    				name = "Sun Yat Sen"
-    				ruling_only = yes
-					}
-				}
-			}
-
-			completion_reward = { 
-            
-			}
-		}
-
 
 		
 		 

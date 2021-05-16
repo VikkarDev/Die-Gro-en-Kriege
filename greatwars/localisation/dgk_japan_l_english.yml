@@ -98,9 +98,16 @@ japan.7.c:0 "Annex the whole region."
 
 japan.8.t:0 "Japan Wishes for Non-Aggression Pact"
 japan.8.d:0 "It seems the Japanese nation in light of recent defeats are seeking for a safeguarded peace withour nation, citing a "dangerous and costly development in China" Japan has also taken the opportunity to build up its military presence in Korea as well as develop their military industry, so it might be wise to go along with their plan."
+japan.8.a:0 "We do not seek further war with Japan."
+japan.8.b:0 "A non agression pact is not within our best interest at the moment."
 
-japan.9.a:0 "We do not seek further war with Japan."
-japan.9.b:0 "A non agression pact is not within our best interest at the moment."
+japan.9.t:0 "The Philippines Seek Protection"
+japan.9.d:0 "With the victory of the Philippines against the Americans, the Filipino government has sought protection from foreign powers and has come to us asking for guarantees and allowing us to station troops in Filipino tarritory."
+japan.9.a:0 "Our Ally in the Philippines"
+
+japan.10.t:0 "Resistance attacks in Taiwan"
+japan.10.d:0 "In our colony in Taiwan, Chinese and Taiwanese terrorists and nationalists have attacked garrisons and destroyed infastructure. It is possible that the Chinese government backed the terrorists with equipment and manpower."
+japan.10.a:0 "Send soldiers to the island"
 
 # NATIONAL SPIRITS
 ########### Japan National Spirits Localisation ###########

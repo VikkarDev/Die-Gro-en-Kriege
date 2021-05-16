@@ -203,7 +203,7 @@ bookmarks = {
 			ideas = {
 				CHI_outdated_army
 				CHI_legacy_sino_japanese_war
-				CHI_low_legitimacy
+				CHI_foreign_concessions
 			}
 			focuses = {
 				CHI_1900_chinese_politics

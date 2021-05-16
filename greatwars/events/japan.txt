@@ -269,8 +269,9 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		tag = PHI
+		PHI = {
 		has_completed_focus = PHI_1900_japanese_alliance
+		}
 	}
 	option = {
 		name = japan.9.a
@@ -286,5 +287,31 @@ country_event = {
         	give_military_access = PHI
 		}
 
+	}
+}
+country_event = {
+	id = japan.10
+	title = japan.10.t
+	desc = japan.10.d
+	picture = GFX_report_event_german_speech
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	trigger = {
+		CHI = {
+			has_completed_focus = PHI_1900_japanese_alliance
+		}
+	}
+	option = {
+		name = japan.10.a
+		ai_chance = { factor = 100 }
+		524 = {
+			damage_building = {
+    					type = infrastructure
+    					damage = 3
+						}
+		}
+		add_manpower = -500
 	}
 }

@@ -2724,8 +2724,20 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/CHI/CHI_focus_go_with_sun_yat_sen.dds"
 	}
 	SpriteType = {
-		name = "GFX_CHI_focus_spear_warrior"
-		texturefile = "gfx/interface/goals/CHI/CHI_focus_spear_warrior.dds"
+		name = "GFX_CHI_focus_Qing_Army"
+		texturefile = "gfx/interface/goals/CHI/CHI_focus_Qing_Army.dds"
+	}
+	SpriteType = {
+		name = "GFX_CHI_focus_qing_navy"
+		texturefile = "gfx/interface/goals/CHI/CHI_focus_qing_navy.dds"
+	}
+	SpriteType = {
+		name = "GFX_CHI_focus_8_nation_war"
+		texturefile = "gfx/interface/goals/CHI/CHI_focus_8_nation_war.dds"
+	}
+	SpriteType = {
+		name = "GFX_CHI_focus_1898_coup"
+		texturefile = "gfx/interface/goals/CHI/CHI_focus_1898_coup.dds"
 	}
 
 	#GENERIC CAPTAIN LUCK

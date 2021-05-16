@@ -25,7 +25,6 @@ ideas ={
         
         CHI_low_integrity = {
             picture = generic_victors_of_ww1
-
             allowed ={
                 tag = CHI
             }
@@ -46,8 +45,8 @@ ideas ={
             stability_factor = -0.25
             war_support_factor = -0.20
             army_org_regain = -0.1
-            army_org = -0.1
-            occupation_cost = 0.15
+            army_org = -5
+            occupation_cost = 0.50
             political_power_factor = -0.2
              
         }
@@ -110,7 +109,7 @@ ideas ={
 
             }
         }
-        CHI_manchu_support = {
+    CHI_manchu_support = {
         picture = generic_victors_of_ww1
         allowed = {
             tag = CHI
@@ -120,11 +119,11 @@ ideas ={
             war_support_factor = 0.1
             army_attack_factor = 0.05
             army_morale = 5
-            political_power_factor = 0.15
+            political_power_factor = 0.10
 
             }
         }
-        CHI_mongol_support = {
+    CHI_mongol_support = {
         picture = generic_victors_of_ww1
         allowed = {
             tag = CHI
@@ -134,7 +133,7 @@ ideas ={
             war_support_factor = 0.1
             army_attack_factor = 0.05
             army_morale = 5
-            political_power_factor = 0.15
+            political_power_factor = 0.10
 
             }
         }

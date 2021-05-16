@@ -37,26 +37,45 @@ capital = 608
 	}
 
 	set_popularities = {
-		vanguard_communism = 0
-		social_egalitarianism = 1
-		centrism = 4
-		traditional_conservatism = 9
-		radical_democracy = 2
-		chauvinist_populism = 0
-		autocracy = 84
-		democratic_socialism = 0
+		vanguard_communism = 2
+		social_egalitarianism = 20
+		centrism = 10
+		traditional_conservatism = 17
+		radical_democracy = 10
+		chauvinist_populism = 11
+		autocracy = 30
 	}
 
 	create_country_leader = {
 		name = "Dowager Cixi"
-		desc = ""
+		desc = "Born in 1835 to a duke of the Bordered Blue Banner, a banner of the Eight Banners of Manchuria in Peking, Cixi was destined to live a life in luxury in politics. She was well educated, and later an advisor to deceased emperor Xianfeng after becoming his 2nd wife in 1854. During her marriage to Xianfeng, she became well-informed about country affairs and made enemies and friends in the government. During the Opium Wars, the Xianfeng Emperor died of illness and disease and left the son of his first wife, Yi, as next emperor of the Great Qing. Later Cixi's adopted son would take the throne, the Guangxu Emperor, in 1895 after the First Sino-Japanese War. By this time, Cixi had an iron grip on the Chinese government and after liberal reforms of the 1898 Hundred Days Reform. This led to Cixi couping the emperor and taking power as de-facto ruler of the Great Qing and put the emperor under house arrest."
 		picture = "Cixi.tga"
 		ideology = despotism
 		traits = {
 			
 		}
 	}
+	create_country_leader = {
+		name = "Sun Yat Sen"
+		desc = ""
+		picture = "Sun_Yat_Sen.tga"
+		ideology = social_dem
+		traits = {
+			
+		}
+	}
 }
+create_corps_commander = {
+		name = "Yuan Shikai"
+		portrait_path = "gfx/leaders/CHI/Generals/Yuan_Shikai.tga"
+		skill = 3
+		attack_skill = 7
+		defense_skill = 4
+		planning_skill = 5
+		logistics_skill = 4
+		traits = {  politically_connected old_guard hill_fighter commando cavalry_leader trickster }
+		id = 9
+	}
 create_corps_commander = {
 		name = "Nie Shicheng"
 		portrait_path = "gfx/leaders/CHI/base_qing.tga"
