@@ -6,6 +6,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/jap/JAP_focus_the_manchurian_crisis.dds"
 	}
 	SpriteType = {
+		name = "GFX_JAP_focus_samurai_sun"
+		texturefile = "gfx/interface/goals/jap/JAP_focus_samurai_sun.dds"
+	}
+	SpriteType = {
 		name = "GFX_JAP_focus_the_manchurian_question"
 		texturefile = "gfx/interface/goals/jap/JAP_focus_the_manchurian_question.dds"
 	}
@@ -2739,6 +2743,14 @@ spriteTypes = {
 		name = "GFX_CHI_focus_1898_coup"
 		texturefile = "gfx/interface/goals/CHI/CHI_focus_1898_coup.dds"
 	}
+	SpriteType = {
+		name = "GFX_CHI_focus_5_races_one_flag"
+		texturefile = "gfx/interface/goals/CHI/CHI_focus_5_races_one_flag.dds"
+	}
+	SpriteType = {
+		name = "GFX_CHI_focus_pan_asianism"
+		texturefile = "gfx/interface/goals/CHI/CHI_focus_pan_asianism.dds"
+	}
 
 	#GENERIC CAPTAIN LUCK
 
@@ -2760,5 +2772,16 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_PHI_focus_asian_republic"
 		texturefile = "gfx/interface/goals/PHI/PHI_focus_asian_republic.dds"
+	}
+
+	#AUSTRIA
+
+	SpriteType = {
+		name = "GFX_AUS_focus_hungary_crown"
+		texturefile = "gfx/interface/goals/AUS/AUS_focus_hungary_crown.dds"
+	}
+	SpriteType = {
+		name = "GFX_AUS_focus_agreement"
+		texturefile = "gfx/interface/goals/AUS/AUS_focus_agreement.dds"
 	}
 }

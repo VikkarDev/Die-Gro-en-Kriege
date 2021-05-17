@@ -1209,6 +1209,10 @@ focus_tree = {
 			}
 
 			completion_reward  ={
+				name = land_doc_bonus
+				bonus = 0.5
+				uses = 2
+				category = land_doctrine
 
 			}
 		}
@@ -1785,10 +1789,10 @@ focus_tree = {
 				random_owned_state  ={
 					add_building_construction = {
                         type = arms_factory
-                        level = 2
+                        level = 1
                         instant_build = yes
                     }
-				add_extra_state_shared_building_slots = 2
+				add_extra_state_shared_building_slots = 1
 				}
             
 			}
@@ -1810,10 +1814,10 @@ focus_tree = {
 
 			completion_reward = { 
 				613 = {
-				add_extra_state_shared_building_slots = 3
+				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
                         type = arms_factory
-                        level = 3
+                        level = 2
                         instant_build = yes
                     }
 
@@ -1862,6 +1866,15 @@ focus_tree = {
 			}
 
 			completion_reward = { 
+				608 = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+                        type = arms_factory
+                        level = 3
+                        instant_build = yes
+                    }
+
+			}
             
 			}
 		}
@@ -2995,7 +3008,7 @@ focus_tree = {
 
 	focus = {
 			id = CHI_1900_contact_asian_minorities
-			icon = GFX_SOV_focus_state_duma
+			icon = GFX_CHI_focus_pan_asianism
 			x = 12
 			y = 11
 
@@ -3048,7 +3061,7 @@ focus_tree = {
 		}
 		focus = {
 			id = CHI_1900_chinese_pan_asianism
-			icon = GFX_SOV_focus_state_duma
+			icon = GFX_CHI_focus_5_races_one_flag
 			x = 17
 			y = 12
 
@@ -3153,7 +3166,7 @@ focus_tree = {
 		}
 		focus = {
 			id = CHI_1900_5_races_one_flag_pan_asianist
-			icon = GFX_SOV_focus_state_duma
+			icon = GFX_CHI_focus_5_races_one_flag
 			x = 17
 			y = 14
 
@@ -3346,7 +3359,7 @@ focus_tree = {
 		}
 	focus = {
 			id = CHI_1900_unified_china_5_races_one_flag
-			icon = GFX_SOV_focus_state_duma
+			icon = GFX_CHI_focus_5_races_one_flag
 			x = 17
 			y = 19
 

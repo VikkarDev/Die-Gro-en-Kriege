@@ -23,7 +23,7 @@ ideas ={
             }
         }
         
-        CHI_low_integrity = {
+        CHI_low_legitimacy = {
             picture = generic_victors_of_ww1
             allowed ={
                 tag = CHI

@@ -16,7 +16,7 @@ focus_tree = {
 
 	focus = {
 		id = AUSHUN_revenge_for_koniggratz
-		icon = GFX_aushun_revenge_for_koniggratz
+		icon = GFX_AUS_focus_hungary_crown
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		x = 4
 		y = 0
@@ -54,7 +54,7 @@ focus_tree = {
 
 	focus = {
 		id = AUSHUN_unity_through_diversity
-		icon = GFX_aushun_unity_through_diversity
+		icon = GFX_AUS_focus_agreement
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		x = 5
 		y = 1
@@ -509,7 +509,7 @@ focus_tree = {
 
 	focus = {
 		id = AUSHUN_make_franz_ferdinand_heir_to_franz_joseph
-		icon = GFX_aushun_make_franz_ferdinand_heir_to_franz_joseph
+		icon = GFX_AUS_focus_hungary_crown
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		x = 18
 		y = 0

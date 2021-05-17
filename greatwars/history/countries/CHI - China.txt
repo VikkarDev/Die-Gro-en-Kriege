@@ -48,7 +48,7 @@ capital = 608
 
 	create_country_leader = {
 		name = "Dowager Cixi"
-		desc = "Born in 1835 to a duke of the Bordered Blue Banner, a banner of the Eight Banners of Manchuria in Peking, Cixi was destined to live a life in luxury in politics. She was well educated, and later an advisor to deceased emperor Xianfeng after becoming his 2nd wife in 1854. During her marriage to Xianfeng, she became well-informed about country affairs and made enemies and friends in the government. During the Opium Wars, the Xianfeng Emperor died of illness and disease and left the son of his first wife, Yi, as next emperor of the Great Qing. Later Cixi's adopted son would take the throne, the Guangxu Emperor, in 1895 after the First Sino-Japanese War. By this time, Cixi had an iron grip on the Chinese government and after liberal reforms of the 1898 Hundred Days Reform. This led to Cixi couping the emperor and taking power as de-facto ruler of the Great Qing and put the emperor under house arrest."
+		desc = CIXI_LEADER_DESCRIPTION
 		picture = "Cixi.tga"
 		ideology = despotism
 		traits = {
