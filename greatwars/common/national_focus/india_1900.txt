@@ -11,7 +11,7 @@ focus_tree = {
 	#Focus for Invite British Investors
 	focus = {
 		id = RAJ_invite_british_investors
-		icon = GFX_goal_unknown
+		icon = GFX_focus_chi_british_cooperation
 		x = 8
 		y = 2
 		cost = 10
@@ -598,7 +598,7 @@ focus_tree = {
 	focus = {
 		id = RAJ_import_british_artillery
 		icon = GFX_goal_unknown
-		x = 7
+		x = 6
 		y = 4
 		cost = 10
 		 
@@ -696,7 +696,7 @@ focus_tree = {
 	focus = {
 		id = RAJ_import_british_fighters
 		icon = GFX_goal_unknown
-		x = 9
+		x = 8
 		y = 4
 		cost = 10
 		 
@@ -1515,7 +1515,7 @@ focus_tree = {
 
 	focus = {
 		id = RAJ_import_from_america
-		icon = GFX_goal_unknown
+		icon = GFX_focus_chi_mission_to_the_us
 		x = 30
 		y = 2
 		cost = 10
