@@ -96,6 +96,20 @@ ideas ={
 
             }
         }
+    CHI_opium_addictions = {
+        picture = idea_CHI_opium
+        allowed = {
+            tag = CHI
+        }
+        modifier = {
+            stability_factor = -0.05
+            war_support_factor = -0.1
+            army_org_regain = -0.3
+            research_speed_factor = -0.4
+            political_power_factor = -0.10
+
+            }
+        }
     CHI_foreign_concessions = {
         picture = generic_victors_of_ww1
         allowed = {
@@ -134,6 +148,40 @@ ideas ={
             army_attack_factor = 0.05
             army_morale = 5
             political_power_factor = 0.10
+
+            }
+        }
+    CHI_outdated_army_2 = {
+        picture = chi_army_corruption2
+        allowed = {
+            CHI = {
+                has_completed_focus = CHI_1900_continue_8_banners_system
+            }
+        }
+        modifier = {
+            experience_loss_factor = 0.15
+            experience_gain_army = -1
+            command_power_gain = -1
+            land_reinforce_rate = -0.7
+            military_leader_cost_factor = 0.5 
+            army_attack_factor = -0.3
+            army_speed_factor = -0.15
+            army_morale = 10
+            army_org = -10
+            army_org_regain = -0.3
+            breakthrough_factor = -0.3
+            dig_in_speed = -0.5
+            experience_gain_army = -0.5
+            org_loss_when_moving = 0.2
+            planning_speed = -0.4
+            training_time_factor = 0.3
+            political_power_factor = 0.2
+            research_speed_factor = -0.3
+            surrender_limit = 0.2
+            conscription_factor = 0.2
+            land_equipment_upgrade_xp_cost = 0.3
+            max_command_power = -20
+            ai_focus_military_advancements_factor = -0.5
 
             }
         }

@@ -1,0 +1,23 @@
+capital = 4572
+
+OOB = "MAN_1900"
+
+set_convoys = 10
+
+set_research_slots = 3
+
+set_politics = {
+	ruling_party = chauvinist_populism
+	elections_allowed = no
+}
+
+set_popularities = {
+	reactionary = 100
+}
+
+create_country_leader = {
+	name = "Zhao Erxun"
+	desc = ""
+	picture = "Zhao Erxun"
+	ideology = chauvinist_populism
+}

@@ -16,8 +16,8 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Unknown"
+	name = "Yuan Shikai"
 	desc = ""
-	picture = ""
+	portrait_path = "Yuan_Shikai.tga"
 	ideology = despotism
 }

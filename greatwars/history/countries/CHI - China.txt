@@ -4,7 +4,7 @@ capital = 608
 
 	oob = "CHI_1900"
 
-	set_convoys = 165
+	set_convoys = 60
 
 	set_stability = 0.3
 	set_war_support = 0.5

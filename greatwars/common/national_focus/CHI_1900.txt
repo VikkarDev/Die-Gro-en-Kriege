@@ -222,7 +222,7 @@ focus_tree = {
 				ENG = {
 					send_equipment = {
     					equipment = infantry_equipment
-    					amount = 500
+    					amount = 700
     					target = CHI
 					}
 				}
@@ -1449,6 +1449,15 @@ focus_tree = {
 				
 			}
 			completion_reward = {
+				add_stability = 0.1
+				add_war_support = 0.15
+				add_political_power = 30
+				add_manpower = 5000
+				army_experience = -50
+				swap_ideas = {
+    				remove_idea = CHI_outdated_army
+    				add_idea = CHI_outdated_army_2
+				}
 
 			}
 		}
@@ -1495,7 +1504,7 @@ focus_tree = {
 			}
 		}
 		focus = {
-			id = CHI_1900_develop_own_tactics
+			id = CHI_1900_traditional_sytems
 			icon = GFX_SOV_focus_state_duma
 			x = 50
 			y = 9
@@ -1523,7 +1532,7 @@ focus_tree = {
 
 			prerequisite = {
 				focus = CHI_1900_replace_spears_with_rifles
-				focus = CHI_1900_develop_own_tactics
+				focus = CHI_1900_traditional_sytems
 			}
 
 			available = {
@@ -2385,7 +2394,7 @@ focus_tree = {
 		}
 		focus = {
 			id = CHI_1900_opening_east_china_railway
-			icon = GFX_SOV_focus_state_duma
+			icon = GFX_CHI_focus_russian_manchuria
 			x = 77
 			y = 3
 
@@ -2563,7 +2572,7 @@ focus_tree = {
 		}
 		focus = {
 			id = CHI_1900_russo_japanese_war
-			icon = GFX_JAP_focus_the_manchurian_crisis
+			icon = GFX_CHI_focus_russo_japanese_war
 			search_filters = { FOCUS_FILTER_POLITICAL }
 			x = 77
 			y = 6
@@ -2585,7 +2594,7 @@ focus_tree = {
 		}
 		focus = {
 			id = CHI_1900_russian_victory
-			icon = GFX_JAP_focus_the_manchurian_crisis
+			icon = GFX_CHI_focus_russian_manchuria
 			search_filters = { FOCUS_FILTER_POLITICAL }
 			x = 76
 			y = 7
@@ -3090,31 +3099,6 @@ focus_tree = {
 		}
 
 		focus = {
-			id = CHI_1900_ethnic_groups_of_china
-			icon = GFX_SOV_focus_state_duma
-			x = 17
-			y = 13
-
-			cost = 10
-
-			prerequisite = {
-				focus = CHI_1900_chinese_pan_asianism
-			}
-
-			available = {
-				has_government = social_egalitarianism
-				has_stability > 0.5
-				has_country_leader = {
-    				name = "Sun Yat Sen"
-    				ruling_only = yes
-					}
-			}
-
-			completion_reward = { 
-            
-			}
-		}
-		focus = {
 			id = CHI_1900_support_chinese_nationalists_taiwan
 			icon = GFX_SOV_focus_state_duma
 			x = 15
@@ -3168,7 +3152,7 @@ focus_tree = {
 			id = CHI_1900_5_races_one_flag_pan_asianist
 			icon = GFX_CHI_focus_5_races_one_flag
 			x = 17
-			y = 14
+			y = 13
 
 			cost = 10
 
@@ -3177,7 +3161,7 @@ focus_tree = {
 			}
 
 			prerequisite = {
-				focus = CHI_1900_ethnic_groups_of_china
+				focus = CHI_1900_chinese_pan_asianism
 			}
 
 			available = {
@@ -3197,7 +3181,7 @@ focus_tree = {
 			id = CHI_1900_unity_through_diversity
 			icon = GFX_SOV_focus_state_duma
 			x = 17
-			y = 15
+			y = 14
 
 			cost = 10
 
@@ -3223,7 +3207,7 @@ focus_tree = {
 			id = CHI_1900_government_representation_minorities
 			icon = GFX_SOV_focus_state_duma
 			x = 17
-			y = 16
+			y = 15
 
 			cost = 10
 
@@ -3249,7 +3233,7 @@ focus_tree = {
 			id = CHI_1900_autonomy_mongols
 			icon = GFX_SOV_focus_state_duma
 			x = 15
-			y = 17
+			y = 16
 
 			cost = 10
 
@@ -3275,7 +3259,7 @@ focus_tree = {
 			id = CHI_1900_dalai_lama_agreement
 			icon = GFX_SOV_focus_state_duma
 			x = 17
-			y = 17
+			y = 16
 
 			cost = 10
 
@@ -3302,7 +3286,7 @@ focus_tree = {
 			id = CHI_1900_autonomy_xinjiang_huis
 			icon = GFX_SOV_focus_state_duma
 			x = 19
-			y = 17
+			y = 16
 
 			cost = 10
 
@@ -3329,7 +3313,7 @@ focus_tree = {
 			id = CHI_1900_talks_with_manchus
 			icon = GFX_SOV_focus_state_duma
 			x = 17
-			y = 18
+			y = 17
 
 			cost = 10
 
@@ -3361,7 +3345,7 @@ focus_tree = {
 			id = CHI_1900_unified_china_5_races_one_flag
 			icon = GFX_CHI_focus_5_races_one_flag
 			x = 17
-			y = 19
+			y = 18
 
 			cost = 10
 

@@ -18,6 +18,8 @@ CHI_minority_revolts:0 "Minority Revolts"
 CHI_minority_revolts_desc:0 "Many minorities in the empire have gone against our Manchu monarch and have started conducting sabatoge and spreading nationalist propoganda."
 CHI_agrarian_society:0 "Agrarian Society"
 CHI_agrarian_society_desc:0 "Although small amounts of industrialization have occured in the northern provinces of Peking and Shanghai, much of China still remains an almost feudal society with small farms and no industrialization."
+CHI_army_corruption_2:0 "Outdated Army"
+CHI_army_corruption_2_desc:0 "Despite our recent "Westernization" movement, most of our army and its tactics remain outdated. Many units still use spears, shields, and wooden boats against rifles, cannons, and ironclads."
 
 #NATIONAL FOCUSES
 
@@ -80,7 +82,7 @@ CHI_1900_put_out_boxers:0 "Put out the Boxers"
 CHI_1900_continue_8_banners_system:0 "Continue the 8 Banners System"
 CHI_1900_get_foriegn_training:0 "Get Foreign Training"
 CHI_1900_replace_spears_with_rifles:0 "Replace Spears with Rifles"
-CHI_1900_develop_own_tactics:0 "Develop our own Tactics"
+CHI_1900_traditional_systems:0 "Traditional Systems Remain"
 CHI_1900_each_serves_purpose:0 "Each Army Serves a Purpose"
 CHI_1900_modernizing_the_beiyang_army:0 "Modernizing the Beiyang Army"
 CHI_1900_arsenals:0 "Utilize the Arsenals"
@@ -136,11 +138,16 @@ china.3.d:0 "Our field marshal and governer of Peking and the Zhili region has d
 china.3.a:0 "Memori memori"
 
 china.7.t:0 "Provincial Governers Declare Neutrality"
+china.7.d:0 "Provincial warlords wanting to stay out of the Boxer Rebellion have declared neutrality and stated that they will form the 'Mutual Protection of Southern China', a group of provinces that will remain neutral during the war until its end and will give back their sovereignty to the Qing once the war is over. This has exposed the corruption and regionalism of the empire to the public and has had a huge effect on morale"
 china.7.a:0 "Our empire is crumbling..." 
 
 china.6.t:0 "War with the Western Powers"
-china.6.d:0 "After we decided to ally with the Boxers, war with the western powers was inevitable. The rebellion's goal was to force the western powers out of China, and we must join their cause."
+china.6.d:0 "After we decided to ally with the Boxers, war with the western powers was inevitable. The rebellion's goal was to force the western powers out of China, and we must join their cause with a declaration of war on the main foriegn powers that have stolen our country, culture, and people and force them out of China."
+china.6.a:0 "A war we can win"
 
+china.8.t:0 "An Anarchist Speech"
+china.8.d:0 "Anarcho-Communist Chen Duxui held a speech in Nanjing where he spoke out against the Qing government, calling it an outdated imperialist empire and that an anarchist society is the way China should go. A few people supported his cause and dissent against the Qing has grown even further among the people."
+china.8.a:0 "More unrest?!"
 
 
 #COUNTRY FLAGS

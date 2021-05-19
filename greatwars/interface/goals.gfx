@@ -2751,6 +2751,14 @@ spriteTypes = {
 		name = "GFX_CHI_focus_pan_asianism"
 		texturefile = "gfx/interface/goals/CHI/CHI_focus_pan_asianism.dds"
 	}
+	SpriteType = {
+		name = "GFX_CHI_focus_russian_manchuria"
+		texturefile = "gfx/interface/goals/CHI/CHI_focus_russian_manchuria.dds"
+	}
+	SpriteType = {
+		name = "GFX_CHI_focus_russo_japanese_war"
+		texturefile = "gfx/interface/goals/CHI/CHI_focus_russo_japanese_war.dds"
+	}
 
 	#GENERIC CAPTAIN LUCK
 

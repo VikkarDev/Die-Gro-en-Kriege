@@ -201,7 +201,7 @@ GXC = "countries/Guangxi.txt"
 #SHX = "countries/Shanxi.txt"
 #XSM = "countries/Xibei San Ma.txt"
 #ICE = "countries/Iceland.txt"
-#MAN = "countries/Manchukou.txt"
+MAN = "countries/Manchuria.txt"
 
 MLI = "countries/Mali.txt"
 SIE = "countries/Sierra Leone.txt"

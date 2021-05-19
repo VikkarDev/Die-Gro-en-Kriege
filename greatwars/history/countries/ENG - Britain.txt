@@ -74,12 +74,24 @@ capital = 126
 			autonomous_state = autonomy_dominion
 			freedom_level = 0.35
 		}
+		set_autonomy = {
+			target = NEP
+			autonomous_state = autonomy_protectorate
+			freedom_level = 0.3
+		}
+		set_autonomy = {
+			target = BHU
+			autonomous_state = autonomy_protectorate
+			freedom_level = 0.3
+		}
 		else = {
 			puppet = MAL
 			puppet = RAJ
 			puppet = SAF
 			puppet = NAT
 			puppet = EGY
+			puppet = NEP
+			puppet = BHU
 		}
 	}
 
