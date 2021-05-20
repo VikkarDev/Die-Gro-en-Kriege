@@ -1598,7 +1598,7 @@
 
 	completion_reward ={ SOV = { country_event = { id = russia.5 } } }
                  }
-
+				 
     focus = {
     id = RUS_new_china_won
 	icon = GFX_SOV_focus_first_russian_election

@@ -37,13 +37,15 @@ country_event = {
 	option = {
 		name = russia.5.a
 		ai_chance = { factor = 20 }
-        declare_war_on = {
+        hidden_effect = {   declare_war_on = {
             target = CHI
             type = annex_everything
-                         }
+                         } 
+						                             }
+
 		custom_effect_tooltip = blitz_man			 
 		set_country_flag = rus_man_inv
-		SOV = { country_event = { id = dgk_news.4 days = 2} }
+	     hidden_effect = { SOV = { country_event = { id = dgk_news.4 days = 2} } }
 	}
 	option = {
 		name = russia.5.b
@@ -76,14 +78,16 @@ country_event = {
 
 		set_country_flag = rus_chi_won
 		clr_country_flag = rus_man_inv
-
+        hidden_effect = {
 		     SOV = {transfer_state = 328
 				    transfer_state = 717  
 				    transfer_state = 714
 				    transfer_state = 715
 			        transfer_state = 716
 				    transfer_state = 761}
-					                              
+			release = MAN
+			puppet =  MAN
+		                                   }
 	}
 }	
 

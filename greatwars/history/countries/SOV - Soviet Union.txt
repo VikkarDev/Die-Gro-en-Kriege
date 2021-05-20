@@ -58,4 +58,60 @@ capital = 219
 			poor_leader
 		}
 	}
+
+	create_corps_commander = {
+        name = "Fyodor Chernozubov"
+        picture = gfx/leaders/GER/Generals/Felix_Graf_von_Bothmer.tga
+        skill = 2
+        attack_skill = 2
+        defense_skill = 3
+        planning_skill = 1
+        logistics_skill = 3
+        traits = {  cavalry_officer  }
+        id = 52
+    }
+	create_corps_commander = {
+        name = "Vladimir Dragomirov"
+        picture = gfx/leaders/GER/Generals/Felix_Graf_von_Bothmer.tga
+        skill = 3
+        attack_skill = 3
+        defense_skill = 1
+        planning_skill = 1
+        logistics_skill = 2
+        traits = {  old_guard  }
+        id = 53
+    }
+	create_corps_commander = {
+        name = "Giorgi Kazbegi"
+        picture = gfx/leaders/GER/Generals/Felix_Graf_von_Bothmer.tga
+        skill = 3
+        attack_skill = 2
+        defense_skill = 4
+        planning_skill = 2
+        logistics_skill = 3
+        traits = {  brilliant_strategist infantry_officer trait_reckless  }
+        id = 54
+    }
+	create_corps_commander = {
+        name = "Nikolai Bobyr"
+        picture = gfx/leaders/GER/Generals/Felix_Graf_von_Bothmer.tga
+        skill = 4
+        attack_skill = 2
+        defense_skill = 1
+        planning_skill = 4
+        logistics_skill = 4
+        traits = {  infantry_officer trait_reckless  }
+        id = 55
+    }
+    create_field_marshal = {
+	name = "Dmitry Milyutin"
+	picture = gfx/leaders/GER/Generals/Felix_Graf_von_Bothmer.tga
+	traits = { defensive_doctrine urban_assault_specialist old_guard }
+	skill = 3
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 5
+	id = 71
+    }
 }

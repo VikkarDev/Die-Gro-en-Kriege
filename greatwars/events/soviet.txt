@@ -10,7 +10,7 @@ country_event = {
 	
 	trigger = {
         tag = SOV
-        date > 26.01.1924
+        date > 1924.01.26
 	}
 
 	option = { #a great idea!
@@ -35,7 +35,7 @@ country_event = {
 	
 	trigger = {
         tag = SOV
-        date > 10.04.1925
+        date > 1925.04.10
 	}
 
 	option = { #a great idea!
