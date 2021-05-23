@@ -69,6 +69,10 @@ SAF_COLONY_DEF:0 "Cape Colony"
 NAT_UK:0 "Colony of Natal"
 NAT_UK_DEF:0 "Colony of Natal"
 
+MAN_FENGTIAN_CLIQUE:0 "Fengtian Clique"
+MAN_FENGTIAN_CLIQUE_DEF:0 "the Fengtian Clique"
+MAN_FENGTIAN_CLIQUE_ADJ:0 "Fengtian"
+
 
  INS_HOL_democratic:0 "Dutch East Indies"
  INS_HOL_democratic_DEF:0 "the Dutch East Indies"

@@ -174,3 +174,16 @@ CIXI_LEADER_DESCRIPTION:0 "Born in 1835 to a duke of the Bordered Blue Banner, a
 #BOOKMARKS
 
 CHI_SILENT_NIGHT_DESC:0 "The Qing Dynasty has been in decline for over 6 decades since the Opium Wars and the Taiping Rebellion, and growing resentment towards the Qing Emperor and the Manchu population have caused the political and economic stability of the empire to crumble. One of the leading figures against the Qing, Republican leader Sun Yat Sen has been getting support from many of China's inhabitants and the Republicans are set to overthrow the Qing. Can the Qing survive? Will China become a republic?"
+
+#PARTIES
+CHI_autocracy_party:0 "House of Àixin Juélu"
+CHI_social_egalitarianism_party:0 "XZH"
+CHI_social_egalitarianism_party_long:0 "Xīngzhōnghuì"
+CHI_social_liberalism_party:0 "XZH"
+CHI_social_liberalism_party_long:0 "Xīngzhōnghuì"
+CHI_chauvinist_populism_party:0 "Baqí"
+CHI_chauvinist_populism_party_long:0 "Bāqí"
+CHI_traditional_conservatism_party:0 "BHH"
+CHI_traditional_conservatism_party_long:0 "Baohuang Hui"
+CHI_vanguard_communism_party:0 "Various Groups"
+CHI_vanguard_communism_party:0 "Various Anarchist Groups in Southern China"
