@@ -1138,7 +1138,8 @@ MAN_FENGTIAN_CLIQUE_ADJ:0 "Fengtian"
  NEG_radical_democracy:0 "Republic of Negros"
  NEG_radical_democracy_DEF:0 "The Republic of Negros"
 
- MAN_reactionary:0 "Fengtian Clique"
- MAN_radical_democracy:0 "Manchu Republic"
- MAN_SOV_subject:0 "Russian Manchuria"
+MAN_FENGTIAN_CLIQUE:0 "Fengtian Clique"
+MAN_FENGTIAN_CLIQUE_DEF:0 "the Fengtian Clique"
+MAN_FENGTIAN_CLIQUE_ADJ:0 "Fengtian"
+
  

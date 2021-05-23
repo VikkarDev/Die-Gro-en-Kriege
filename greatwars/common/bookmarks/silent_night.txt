@@ -166,7 +166,9 @@ bookmarks = {
 				SER_legacy_of_serbo_bulgarian_war
 			}
 			focuses = {
-				
+				SER_down_with_the_obrenovic
+				SER_support_the_obrevonic
+				SER_first_serbian_republic
 			}
 		}
 
@@ -227,6 +229,18 @@ bookmarks = {
 				ROM_the_reign_of_carol_i
 				ROM_the_romanian_armed_forces
 				ROM_the_1901_election
+			}
+		}
+
+		"BUL"={
+			minor = yes
+			history = "BUL_SILENT_NIGHT_DESC"
+			ideology = radical_democracy
+			ideas = {
+
+			}
+			focuses = {
+				
 			}
 		}
 
