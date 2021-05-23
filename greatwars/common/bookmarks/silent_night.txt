@@ -108,7 +108,9 @@ bookmarks = {
 				JAP_developed_rail_network
 			}
 			focuses = {
-
+				JAP_genjo
+				JAP_the_manchurian_crisis
+				JAP_the_unthinkable_victory
 			}
 		}
 		"SPR"={
@@ -123,6 +125,21 @@ bookmarks = {
 			focuses = {
 				SPR_continue_election_rigging_focus
 				SPR_propose_free_elections_focus
+			}
+		}
+		"CHI"={
+			minor = yes
+			history = "CHI_SILENT_NIGHT_DESC"
+			ideology = autocracy
+			ideas = {
+				CHI_outdated_army
+				CHI_legacy_sino_japanese_war
+				CHI_foreign_concessions
+			}
+			focuses = {
+				CHI_1900_chinese_politics
+				CHI_1900_end_imperial_rule
+				CHI_1900_continue_imperial_china
 			}
 		}
 		"POR"={
@@ -158,10 +175,13 @@ bookmarks = {
 			history = "KOR_SILENT_NIGHT_DESC"
 			ideology = autocracy
 			ideas = {
-				
+				kor_gwangmu_reform
+				kor_great_game
 			}
 			focuses = {
-				
+				KOR_with_independence_club
+				KOR_accept_of_article_vi_act
+				KOR_constitution
 			}
 		}
 
@@ -196,19 +216,17 @@ bookmarks = {
 			}
 		}
 
-		"CHI"={
+		"ROM"={
 			minor = yes
-			history = "CHI_SILENT_NIGHT_DESC"
-			ideology = Autocracy
+			history = "ROM_SILENT_NIGHT_DESC"
+			ideology = traditional_conservatism
 			ideas = {
-				CHI_outdated_army
-				CHI_legacy_sino_japanese_war
-				CHI_foreign_concessions
+
 			}
 			focuses = {
-				CHI_1900_chinese_politics
-				CHI_1900_end_imperial_rule
-				CHI_1900_continue_imperial_china
+				ROM_the_reign_of_carol_i
+				ROM_the_romanian_armed_forces
+				ROM_the_1901_election
 			}
 		}
 

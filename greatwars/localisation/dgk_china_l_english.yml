@@ -18,8 +18,8 @@ CHI_minority_revolts:0 "Minority Revolts"
 CHI_minority_revolts_desc:0 "Many minorities in the empire have gone against our Manchu monarch and have started conducting sabatoge and spreading nationalist propoganda."
 CHI_agrarian_society:0 "Agrarian Society"
 CHI_agrarian_society_desc:0 "Although small amounts of industrialization have occured in the northern provinces of Peking and Shanghai, much of China still remains an almost feudal society with small farms and no industrialization."
-CHI_army_corruption_2:0 "Outdated Army"
-CHI_army_corruption_2_desc:0 "Despite our recent "Westernization" movement, most of our army and its tactics remain outdated. Many units still use spears, shields, and wooden boats against rifles, cannons, and ironclads."
+CHI_outdated_army_2:0 "Outdated Army"
+CHI_outdated_army_2_2_desc:0 "Despite our recent "Westernization" movement, most of our army and its tactics remain outdated. Many units still use spears, shields, and wooden boats against rifles, cannons, and ironclads."
 
 #NATIONAL FOCUSES
 
@@ -121,6 +121,9 @@ CHI_1900_russo_japanese_war:0 "The Russo-Japanese War Begins"
 CHI_1900_manchuria_crisis:0 "The Manchuria Crisis"
 CHI_1900_contact_asian_minorities:0 "Contact Asian Nationalists"
 CHI_1900_5_races_one_flag_pan_asianist:0 "5 Races Under One Union"
+CHI_1900_support_russia:0 "Support Russia against Japan"
+CHI_1900_protest_russian_deployment:0 "Protest Russian Deployment"
+CHI_1900_support_chinese_nationalists_taiwan:0 "Support the Taiwan Resistance Movement"
 
 #COUNTRY EVENTS
 
@@ -148,6 +151,10 @@ china.6.a:0 "A war we can win"
 china.8.t:0 "An Anarchist Speech"
 china.8.d:0 "Anarcho-Communist Chen Duxui held a speech in Nanjing where he spoke out against the Qing government, calling it an outdated imperialist empire and that an anarchist society is the way China should go. A few people supported his cause and dissent against the Qing has grown even further among the people."
 china.8.a:0 "More unrest?!"
+
+china.9.t:0 "The Eight-Nation Alliance has been Defeated!"
+china.9.d:0 "After our troops marched into the foreign concessions and the defeat of the foreigners at Tianjin, the Eight Nation Alliance sued for peace, with the British stating that 'After taking heavy casualties at the Battle of Hong Kong and the failed Russian Invasion of Manchuria, the war was lost and we began to withdraw our soldiers from China.' This is a huge victory for our empire and the start of a better Self-Strengthening movement for our empire."
+china.9.a:0 "Victory at Last!"
 
 
 #COUNTRY FLAGS

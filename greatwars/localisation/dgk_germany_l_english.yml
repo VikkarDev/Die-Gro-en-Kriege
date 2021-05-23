@@ -106,28 +106,6 @@ GER_the_new_course:0 "The New Course"
 GER_the_new_course_desc:0 ""
 GER_kaiser_wilhelm_society:0 "Kaiser Wilhelm Society"
 GER_kaiser_wlhelm_sciety_desc:0 ""
-GER_deutsches_kolonialreich:0 "Deutsches Kolonialreich"
-GER_deutsches_kolonialreich_desc:0 ""
-GER_concessions_to_native_people:0 "Concessions to the Natives"
-GER_concessions_to_native_people_desc:0 ""
-GER_sieze_native_assests:0 "Seize Native Assets"
-GER_sieze_native_assests_desc:0 ""
-GER_subsidis_colonial_manufacturing:0 "Subsidize Colonial Manufacturing"
-GER_subsidis_colonial_manufacturing_desc:0 ""
-GER_build_colonial_schools:0 "Build Colonial Schools"
-GER_build_colonial_schools_desc:0 ""
-GER_develop_asian_colonies:0 "Develop the Pacific Colonies"
-GER_develop_asian_colonies_desc:0 ""
-GER_offload_naval_cost_to_colonies:0 "Offload Naval Cost to Colonies"
-GER_offload_naval_cost_to_colonies_desc:0 ""
-GER_a_profitable_empire:0 "A Profitable Empire"
-GER_a_profitable_empire_desc:0 ""
-GER_offshore_cost_to_colonies:0 "Offshore the Naval Burden to the Colonies"
-GER_offshore_cost_to_colonies_desc:0 ""
-GER_native_uprising_in_colonies:0 "Native Uprisings"
-GER_native_uprising_in_colonies_desc:0 ""
-GER_destroy_the_uprising:0 "Destroy the Uprisings"
-GER_destroy_the_uprising_desc:0 ""
 GER_imperial_german_navy:0 "German Imperial Navy"
 GER_imperial_german_navy_desc:0 ""
 GER_stop_the_arms_race:0 "Stop The Arms Race"
@@ -174,6 +152,17 @@ GER_support_the_annexation_of_bosnia:0 "Support The Annexation of Bosnia"
 GER_support_the_annexation_of_bosnia_desc:0 ""
 GER_joint_military_training:0 "Joint Military Training"
 GER_joint_military_training_desc:0 ""
+
+#COLONIAL TREE LOC
+
+GER_deutsches_kolonialreich:0 "Deutsches Kolonialreich"
+GER_deutsches_kolonialreich_desc:0 ""
+GER_native_uprising_in_colonies:0 "Native Uprisings"
+GER_native_uprising_in_colonies_desc:0 ""
+GER_destroy_the_uprising:0 "Destroy the Uprisings"
+GER_destroy_the_uprising_desc:0 ""
+GER_expand_kamerun:0 "Expand Kamerun"
+
 
 ########### Germany Country Names & Cosmetic Localisation ###########
 GER_EMPIRE_centrism:0 "German Empire"
@@ -277,6 +266,15 @@ germany.15.b:0 "Deny their request"
 germany.16.t:0 "The Qingdao-Jinan Railway"
 germany.16.d:0 "German aristocrats with Chinese permission have finished building a railway from our Qingdao concession to the city of Jinan."
 germany.16.a:0 "Our influence grows stronger"
+
+#COLONIAL EVENTS
+
+germany_colonial.1.t:0 "A Border Raid in Kamerun"
+
+germany_colonial.8.t:0 "Battles with the Fulbe"
+
+germany_colonial.9.t:0 "A Victory in Fulbe"
+germany_colonial.9.d:0 "During our engagement with the Fulbe tribes of Sokoto, our colonial forces attacked the much more numerous Fulbe soldiers. We utilized our superiror techonolgical advantage to completely destroy the Fulbe front line and we seized territory for Kamerun."
 
 # NATIONAL SPIRITS
 ########### Germany National Spirits Localisation ###########

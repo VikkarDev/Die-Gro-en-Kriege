@@ -12,12 +12,12 @@ set_politics = {
 }
 
 set_popularities = {
-	reactionary = 100
+	chauvinist_populism = 100
 }
 
 create_country_leader = {
 	name = "Zhao Erxun"
 	desc = ""
-	picture = "Zhao Erxun"
+	picture = "Cixi.tga"
 	ideology = chauvinist_populism
 }

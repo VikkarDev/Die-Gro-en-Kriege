@@ -2759,20 +2759,44 @@ spriteTypes = {
 		name = "GFX_CHI_focus_russo_japanese_war"
 		texturefile = "gfx/interface/goals/CHI/CHI_focus_russo_japanese_war.dds"
 	}
+	SpriteType = {
+		name = "GFX_CHI_focus_russian_agreement"
+		texturefile = "gfx/interface/goals/CHI/CHI_focus_russian_agreement.dds"
+	}
+	SpriteType = {
+		name = "GFX_CHI_focus_russian_war"
+		texturefile = "gfx/interface/goals/CHI/CHI_focus_russian_war.dds"
+	}
+	SpriteType = {
+		name = "GFX_CHI_focus_support_taiwan_resistance"
+		texturefile = "gfx/interface/goals/CHI/CHI_focus_support_taiwan_resistance.dds"
+	}
+	SpriteType = {
+		name = "GFX_CHI_focus_yuan_beiyang_army_leader"
+		texturefile = "gfx/interface/goals/CHI/CHI_focus_yuan_beiyang_army_leader.dds"
+	}
+	SpriteType = {
+		name = "GFX_CHI_focus_yuan_governer"
+		texturefile = "gfx/interface/goals/CHI/CHI_focus_yuan_governer.dds"
+	}
+	SpriteType = {
+		name = "GFX_CHI_focus_modern_beiyang_army"
+		texturefile = "gfx/interface/goals/CHI/CHI_focus_modern_beiyang_army.dds"
+	}
+	SpriteType = {
+		name = "GFX_CHI_focus_protecting_empire"
+		texturefile = "gfx/interface/goals/CHI/CHI_focus_protecting_empire.dds"
+	}
 
 	#GENERIC CAPTAIN LUCK
 
 	SpriteType = {
-		name = "GFX_generic_cl_focus_burn_mosques"
-		texturefile = "gfx/interface/goals/generic_cl/generic_cl_focus_burn_mosques.dds"
+		name = "GFX_generic_focus_seize_arsenal"
+		texturefile = "gfx/interface/goals/generic_cl/generic_focus_seize_arsenal.dds"
 	}
 	SpriteType = {
-		name = "GFX_generic_cl_focus_soldiers_burn"
-		texturefile = "gfx/interface/goals/generic_cl/generic_cl_focus_soldiers_burn.dds"
-	}
-	SpriteType = {
-		name = "GFX_generic_cl_focus_gun_license"
-		texturefile = "gfx/interface/goals/generic_cl/generic_cl_focus_gun_license.dds"
+		name = "GFX_generic_focus_better_officers"
+		texturefile = "gfx/interface/goals/generic_cl/generic_focus_better_officers.dds"
 	}
 
 	#PHI

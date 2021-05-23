@@ -256,8 +256,10 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		tag = PHI
+		tag = GER
+		PHI = {
 		has_completed_focus = PHI_1900_german_guarantees
+		}
 	}
 	option = {
 		name = germany.14.a
@@ -285,6 +287,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
+		tag = GER
 		CHI ={
 		has_completed_focus = CHI_1900_purchase_krupp_guns
 		}
@@ -314,6 +317,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
+		tag = GER
 		CHI ={
 		has_completed_focus = CHI_1900_qingdao_jinan_railway
 		}
@@ -331,4 +335,5 @@ country_event = {
 		}
 	}
 }
+
 

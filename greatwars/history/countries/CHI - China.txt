@@ -27,6 +27,7 @@ capital = 608
 		CHI_foreign_concessions
 		CHI_manchu_support
 		CHI_mongol_support
+		CHI_opium_addictions
 	}
 
 	set_politics = {
