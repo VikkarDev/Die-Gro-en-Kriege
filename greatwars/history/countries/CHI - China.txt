@@ -11,7 +11,15 @@ capital = 608
 	set_research_slots = 2
 
 	add_ideas = {
-		
+		CHI_legacy_sino_japanese_war
+		CHI_low_legitimacy
+		CHI_minority_revolts
+		CHI_agrarian_society
+		CHI_outdated_army
+		CHI_foreign_concessions
+		CHI_manchu_support
+		CHI_mongol_support
+		CHI_opium_addictions
 	}
 
 	set_politics = {

@@ -177,7 +177,7 @@ technologies = {
 						
 			modifier = {
 				factor = 10
-				date > "1939.1.1"
+				date > "1905.1.1"
 			}
 			modifier = {
 				num_of_military_factories < 50
@@ -187,9 +187,9 @@ technologies = {
 				factor = 0
 				tag = SOV
 				OR = {
-					date < "1944.1.1" # stock up on lots of rifles, we got the manpower
+					date < "1905.1.1" # stock up on lots of rifles, we got the manpower
 					AND = {
-						date > "1943.1.1"
+						date > "1905.1.1"
 						surrender_progress < 0.1 # if we arent losing badly its ok
 					}
 				}				
