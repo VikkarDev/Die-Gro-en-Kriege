@@ -9,6 +9,8 @@ state={
 			infrastructure = 1
 
 		}
+		add_claim_by = CHI
+		add_core_of = TIB
 
 	}
 

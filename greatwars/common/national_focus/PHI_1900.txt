@@ -15,13 +15,17 @@ focus_tree = {
 
     focus = {
 			id = PHI_1900_asian_republic
-			icon = GFX_SOV_focus_state_duma
+			icon = GFX_PHI_focus_asian_republic
 			x = 1
 			y = 0
 
-			cost = 10
+			cost = 6
 
 			available = {
+                is_subject = no
+                PHI = {
+                    has_government = centrism
+                }
 				
 			}
 
@@ -36,7 +40,7 @@ focus_tree = {
 			x = 1
 			y = 1
 
-			cost = 10
+			cost = 7
 
             prerequisite = {
                 focus = PHI_1900_asian_republic
@@ -59,7 +63,7 @@ focus_tree = {
 			x = 2
 			y = 2
 
-			cost = 5
+			cost = 6
 
             prerequisite = {
                 focus = PHI_1900_the_power_question
@@ -122,7 +126,7 @@ focus_tree = {
 			x = 0
 			y = 3
 
-			cost = 10
+			cost = 7
 
             prerequisite = {
                 focus = PHI_1900_aguinaldos_republic
@@ -154,7 +158,7 @@ focus_tree = {
 			x = 0
 			y = 4
 
-			cost = 10
+			cost = 7
 
             prerequisite = {
                 focus = PHI_1900_edit_constitution
@@ -177,6 +181,12 @@ focus_tree = {
                     ideology = traditional_conservatism
                     popularity = 0.30
                 }
+                set_politics = {
+	                ruling_party = traditional_conservatism
+                    elections_allowed = no
+                    last_election = "1900.1.1"
+                    election_frequency = 1000
+                    }
 			}
 
     }
@@ -186,7 +196,7 @@ focus_tree = {
 			x = 2
 			y = 3
 
-			cost = 10
+			cost = 7
 
             prerequisite = {
                 focus = PHI_1900_the_cabinet_holds
@@ -202,7 +212,13 @@ focus_tree = {
                 }
 			}
 
-			completion_reward = { 
+			completion_reward = {
+                add_popularity = {
+                    ideology = centrism
+                    popularity = 0.2
+                }
+                add_political_power = -30
+                add_stability = 0.1
         }
     }
     focus = {
@@ -211,7 +227,7 @@ focus_tree = {
 			x = 2
 			y = 4
 
-			cost = 10
+			cost = 7
 
             prerequisite = {
                 focus = PHI_1900_constitution_remains
@@ -241,12 +257,10 @@ focus_tree = {
 			x = 1
 			y = 5
 
-			cost = 10
+			cost = 5
 
             prerequisite = {
                 focus = PHI_1900_a_balanced_government
-            }
-            prerequisite = {
                 focus = PHI_1900_a_conservative_government
             }
 
@@ -265,8 +279,8 @@ focus_tree = {
     }
     focus = {
 			id = PHI_1900_our_victory_against_america
-			icon = GFX_SOV_focus_state_duma
-			x = 6
+			icon = GFX_PHI_asian_republic
+			x = 8
 			y = 0
 
 			cost = 6
@@ -274,13 +288,8 @@ focus_tree = {
 			available = {
             NOT = {
                 is_subject = yes
+                has_war = yes
                 }
-            has_government = {
-                ideology = centrism
-            }
-            OR = { has_government = {
-                ideology = traditional_conservatism
-            }
 				
 			}
 
@@ -289,14 +298,13 @@ focus_tree = {
                 add_stability = 0.05
 			}
 		}
-    }
     focus = {
 			id = PHI_1900_determine_foreign_policy
 			icon = GFX_SOV_focus_state_duma
-			x = 6
+			x = 8
 			y = 1
 
-			cost = 6
+			cost = 10
 
             prerequisite = {
                 focus = PHI_1900_our_victory_against_america
@@ -311,10 +319,10 @@ focus_tree = {
     focus = {
 			id = PHI_1900_unite_the_islands
 			icon = GFX_SOV_focus_state_duma
-			x = 8
+			x = 10
 			y = 2
 
-			cost = 6
+			cost = 10
 
             prerequisite = {
                 focus = PHI_1900_determine_foreign_policy
@@ -333,13 +341,220 @@ focus_tree = {
                 }
             }
             completion_reward = {
+                add_political_power = 50
+                add_war_support = 0.1
                 declare_war_on = {
                     target = SUL
                     type = annex_everything
-                    }
                     target = NEG
                     type = annex_everything
 
                 }
             }
         }
+        focus = {
+			id = PHI_1900_claim_guam
+			icon = GFX_SOV_focus_state_duma
+			x = 10
+			y = 3
+
+			cost = 10
+
+            prerequisite = {
+                focus = PHI_1900_unite_the_islands
+            }
+
+			available = {
+                NOT  = {
+                    is_subject = yes
+                    has_war = yes
+                }
+                USA  = {
+                    
+                }
+            }
+            completion_reward = {
+                add_war_support = 0.1
+                add_state_claim = 638
+
+            }
+        }
+        focus = {
+			id = PHI_1900_get_foreign_recognition
+			icon = GFX_SOV_focus_state_duma
+			x = 6
+			y = 2
+
+			cost = 10
+
+            prerequisite = {
+                focus = PHI_1900_determine_foreign_policy
+            }
+
+			available = {
+                NOT  = {
+                    is_subject = yes
+                    has_war = yes
+                }
+                has_stability = 0.7
+            }
+            completion_reward = {
+                add_stability = 0.1
+                add_political_power = 100
+                
+
+            }
+        }
+        focus = {
+			id = PHI_1900_german_guarantees
+			icon = GFX_SOV_focus_state_duma
+			x = 5
+			y = 3
+
+			cost = 6
+
+            mutually_exclusive = {
+                focus = PHI_1900_japanese_alliance
+            }
+
+            prerequisite = {
+                focus = PHI_1900_get_foreign_recognition
+            }
+
+			available = {
+                NOT  = {
+                    is_subject = yes
+                    has_war = yes
+                }
+                has_stability = 0.7
+            }
+
+            completion_reward = {
+                add_political_power = -30
+                GER = {
+                    country_event = germany.14
+                }
+            }
+        }
+        focus = {
+			id = PHI_1900_japanese_alliance
+			icon = GFX_CHI_focus_japanese_agreement
+			x = 7
+			y = 3
+
+			cost = 6
+
+            mutually_exclusive = {
+                focus = PHI_1900_german_guarantees
+            }
+
+            prerequisite = {
+                focus = PHI_1900_get_foreign_recognition
+            }
+
+			available = {
+                NOT  = {
+                    is_subject = yes
+                    has_war = yes
+                }
+                has_stability = 0.7
+            }
+
+            completion_reward = {
+                add_stability = -0.05
+                JAP  = {
+                    country_event = japan.9
+                }
+                
+
+            }
+        }
+        focus = {
+			id = PHI_1900_the_guerilla_war
+			icon = GFX_SOV_focus_state_duma
+			x = 13
+			y = 0
+
+			cost = 5
+
+            available = {
+                has_war_with = USA
+                NOT = {
+                    is_subject = yes
+                }
+            }
+
+            completion_reward = {
+                add_manpower = 5000
+                add_political_power = 40
+                add_stability = 0.05
+                add_equipment_to_stockpile = {
+                    type = infantry_equipment
+                    amount = 500
+                    producer = USA
+                            }
+                add_war_support = 0.1
+            }
+        }
+        focus = {
+			id = PHI_1900_seize_american_guns
+			icon = GFX_SOV_focus_state_duma
+			x = 13
+			y = 1
+
+			cost = 7
+
+            prerequisite = {
+                focus = PHI_1900_the_guerilla_war
+            }
+
+            available = {
+                has_war_with = USA
+                NOT = {
+                    is_subject = yes
+                }
+            }
+
+            completion_reward = {
+                add_manpower = 5000
+                add_political_power = 40
+                add_stability = 0.05
+                add_equipment_to_stockpile = {
+                    type = infantry_equipment
+                    amount = 1200
+                    producer = USA
+                            }
+                add_war_support = 0.1
+            }
+        }
+        focus = {
+			id = PHI_1900_arms_factories
+			icon = GFX_SOV_focus_state_duma
+			x = 13
+			y = 2
+
+			cost = 7
+
+            prerequisite = {
+                focus = PHI_1900_the_guerilla_war
+            }
+
+            available = {
+                has_war_with = USA
+                NOT = {
+                    is_subject = yes
+                }
+            }
+
+            completion_reward = {
+                random_owned_state = {
+                    add_building_construction = {
+                        type = arms_factory
+                        level = 3
+                        instant_build = yes
+                    }
+                }
+                
+            }
+        }
+}

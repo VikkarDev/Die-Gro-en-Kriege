@@ -87,15 +87,9 @@ bookmarks = {
 				SOV_long_live_the_tsar
 			}
 			focuses = {
-<<<<<<< Updated upstream
-				RUS_1900_state_duma_elections
-				RUS_1900_russian_foreign_policy
-				RUS_1900_the_revolution
-=======
 				RUS_new_noagri
 				RUS_new_orth
 				RUS_new_limex
->>>>>>> Stashed changes
 			}
 		}
 
@@ -201,16 +195,15 @@ bookmarks = {
 				RAJ_challenge_the_muslim_league
 			}
 		}
-<<<<<<< Updated upstream
-=======
 
 		"CHI"={
 			minor = yes
 			history = "CHI_SILENT_NIGHT_DESC"
 			ideology = Autocracy
 			ideas = {
-				CHI_heavenly_emperor
-				CHI_boxer_rebellion
+				CHI_outdated_army
+				CHI_legacy_sino_japanese_war
+				CHI_foreign_concessions
 			}
 			focuses = {
 				CHI_1900_chinese_politics
@@ -218,7 +211,6 @@ bookmarks = {
 				CHI_1900_continue_imperial_china
 			}
 		}
->>>>>>> Stashed changes
 
 		effect = {
 			randomize_weather = 12345 # <- Obligatory in every bookmark !

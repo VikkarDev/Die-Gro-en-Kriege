@@ -17,6 +17,7 @@ country_event = {
 		add_ideas= RAJ_the_muslim_league
 	}
 }
+
 ##Event: Protests Against the British
 country_event = {
 	id = india.2
@@ -28,9 +29,93 @@ country_event = {
 	option = {
 		name = india.2.a
 		ai_chance = { factor = 1}
-		hidden_effect = {
-        country_event = { 
-                days = 35
-                id = india.3
-        }
+	}
+}
+
+##Event: India wants to Purchase Guns
+country_event = {
+	id = india.3
+	title = india.3.title
+	desc = india.3.desc
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = india.3.a
+		ai_chance = { factor = 1}
+	}
+	option = {
+		name = india.3.b
+		ai_chance = { factor = 1}
+	}
+}
+
+##Event: Britain Agrees to Sell Guns
+country_event = {
+	id = india.4
+	title = india.4.title
+	desc = india.4.desc
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = india.4.a
+		ai_chance = { factor = 1}
+	}
+}
+
+
+##Event: Britain Refuses to Sell Guns
+country_event = {
+	id = india.5
+	title = india.5.title
+	desc = india.5.desc
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = india.5.a
+		ai_chance = { factor = 1}
+	}
+}
+
+##Event: India wants to Purchase Artillery
+country_event = {
+	id = india.6
+	title = india.6.title
+	desc = india.6.desc
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = india.6.a
+		ai_chance = { factor = 1}
+	}
+	option = {
+		name = india.6.b
+		ai_chance = { factor = 1}
+	}
+}
+
+##Event: Britain Agrees to Sell Artillery
+country_event = {
+	id = india.7
+	title = india.7.title
+	desc = india.7.desc
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = india.7.a
+		ai_chance = { factor = 1}
+	}
+}
+
+
+##Event: Britain Refuses to Sell Artillery
+country_event = {
+	id = india.8
+	title = india.8.title
+	desc = india.8.desc
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = india.8.a
+		ai_chance = { factor = 1}
+	}
 }

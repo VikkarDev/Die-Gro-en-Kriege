@@ -4,7 +4,7 @@ capital = 608
 
 	oob = "CHI_1900"
 
-	set_convoys = 165
+	set_convoys = 60
 
 	set_stability = 0.3
 	set_war_support = 0.5
@@ -37,26 +37,45 @@ capital = 608
 	}
 
 	set_popularities = {
-		vanguard_communism = 0
-		social_egalitarianism = 1
-		centrism = 4
-		traditional_conservatism = 9
-		radical_democracy = 2
-		chauvinist_populism = 0
-		autocracy = 84
-		democratic_socialism = 0
+		vanguard_communism = 2
+		social_egalitarianism = 20
+		centrism = 10
+		traditional_conservatism = 17
+		radical_democracy = 10
+		chauvinist_populism = 11
+		autocracy = 30
 	}
 
 	create_country_leader = {
 		name = "Dowager Cixi"
-		desc = ""
+		desc = CIXI_LEADER_DESCRIPTION
 		picture = "Cixi.tga"
 		ideology = despotism
 		traits = {
 			
 		}
 	}
+	create_country_leader = {
+		name = "Sun Yat Sen"
+		desc = ""
+		picture = "Sun_Yat_Sen.tga"
+		ideology = social_dem
+		traits = {
+			
+		}
+	}
 }
+create_corps_commander = {
+		name = "Yuan Shikai"
+		portrait_path = "gfx/leaders/CHI/Generals/Yuan_Shikai.tga"
+		skill = 3
+		attack_skill = 7
+		defense_skill = 4
+		planning_skill = 5
+		logistics_skill = 4
+		traits = {  politically_connected old_guard hill_fighter commando cavalry_leader trickster }
+		id = 9
+	}
 create_corps_commander = {
 		name = "Nie Shicheng"
 		portrait_path = "gfx/leaders/CHI/base_qing.tga"

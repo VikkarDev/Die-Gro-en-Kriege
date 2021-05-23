@@ -26,7 +26,6 @@ continuous_focus_position = {
 				uses = 1
 				category = industry
 				}
-	
 		}
 
 		
@@ -250,7 +249,7 @@ continuous_focus_position = {
 
 	
 	focus = {
-		id = SWE_swe_nor_army
+		id = SWE_army
 		icon = GFX_GER_focus_mass_conscription
 		x = 10
 		y = 0
@@ -260,58 +259,195 @@ continuous_focus_position = {
 		
 		}
 	}
-	
 	focus = {
-		id = SWE_balanced_approach
+		id = SWE_patrioism
 		icon = GFX_GER_focus_mass_conscription
 		x = 10
 		y = 2
-		cost = 8
-		mutually_exclusive = {
-			focus = SWE_defensive_approach
-			focus = SWE_aggressive_approach
+		cost = 10
+		prerequisite = {
+			focus = SWE_army
 		}
-		prerequisite = { focus = SWE_swe_nor_army  }
+		prerequisite = {
+			focus = SWE_soldiers
+		}
+		prerequisite = {
+			focus = SWE_next_clonflict
+		}
+		completion_reward = {
+		army_experience = 10
+		
+		}
 	}
-    
+	# generation of soldiers
 	focus = {
-		id = SWE_aggressive_approach
+		id = SWE_soldiers
 		icon = GFX_GER_focus_mass_conscription
 		x = 12
-		y = 2
-		cost = 8
-		mutually_exclusive = {
-			focus = SWE_balanced_approach
-			focus = SWE_defensive_approach
+		y = 1
+		cost = 10
+		prerequisite = {
+			focus = SWE_army
+		
 		}
-		prerequisite = { focus = SWE_swe_nor_army}
+		completion_reward = {
+		army_experience = 10
+		
+		}
 	}
-    
+	# Prepare for the next clonflict
 	focus = {
-		id = SWE_defensive_approach
+		id = SWE_next_clonflict
 		icon = GFX_GER_focus_mass_conscription
 		x = 8
-		y = 2
-		cost = 8
-		mutually_exclusive = {
-			focus = SWE_balanced_approach
-			focus = SWE_aggressive_approach
+		y = 1
+		cost = 10
+		prerequisite = {
+			focus = SWE_army
+		
 		}
-		prerequisite = { focus = SWE_swe_nor_army}
+		completion_reward = {
+		army_experience = 10
+		
+		}
 	}
-	
+	# Open up the Stockholm military academy
 	focus = {
-		id = SWE_stor_vernplikt
+		id = SWE_Stockholm_military_academy
+		icon = GFX_GER_focus_mass_conscription
+		x = 11
+		y = 3
+		cost = 0
+		prerequisite = {
+			focus = SWE_patrioism
+		
+		}
+		completion_reward = {
+		army_experience = 10
+		
+		}
+	}
+	# Open up new munitions factories
+	focus = {
+		id = SWE_munitions_factories
+		icon = GFX_GER_focus_mass_conscription
+		x = 9
+		y = 3
+		cost = 10
+		prerequisite = {
+			focus = SWE_patrioism
+		
+		}
+		completion_reward = {
+		army_experience = 10
+		
+		}
+	}
+	# Promote promising commanders
+	focus = {
+		id = SWE_promising_commanders
 		icon = GFX_GER_focus_mass_conscription
 		x = 10
 		y = 4
 		cost = 10
 		prerequisite = {
-			focus = SWE_defensive_approach
-			focus = SWE_aggressive_approach
-			focus = SWE_balanced_approach
+			focus = SWE_munitions_factories
+			focus = SWE_Stockholm_military_academy
+		
+		}
+		completion_reward = {
+		army_experience = 10
+		
 		}
 	}
+	#Improve the Swedish Mauser gun
+	focus = {
+		id = SWE_Improve_Mauser_gun
+		icon = GFX_GER_focus_mass_conscription
+		x = 12
+		y = 4
+		cost = 10
+		prerequisite = {
+			focus = SWE_munitions_factories
+			focus = SWE_Stockholm_military_academy
+		
+		}
+		completion_reward = {
+		army_experience = 10
+		
+		}
+	}
+	# Open up army workshops
+	focus = {
+		id = SWE_army_workshops
+		icon = GFX_GER_focus_mass_conscription
+		x = 8
+		y = 4
+		cost = 10
+		prerequisite = {
+			focus = SWE_munitions_factories
+			focus = SWE_Stockholm_military_academy
+		
+		}
+		completion_reward = {
+		army_experience = 10
+		
+		}
+	}
+	# Build the Kalix Line
+	focus = {
+		id = SWE_Kalix_Line
+		icon = GFX_GER_focus_mass_conscription
+		x = 9
+		y = 5
+		cost = 10
+		prerequisite = {
+			focus = SWE_promising_commanders
+			focus = SWE_army_workshops
+			focus = SWE_Improve_Mauser_gun
+		
+		}
+		completion_reward = {
+		army_experience = 10
+		
+		}
+	}
+	# Improve naval defenses
+	focus = {
+		id = SWE_naval_defenses
+		icon = GFX_GER_focus_mass_conscription
+		x = 11
+		y = 5
+		cost = 10
+		prerequisite = {
+			focus = SWE_promising_commanders
+			focus = SWE_army_workshops
+			focus = SWE_Improve_Mauser_gun
+		
+		}
+		completion_reward = {
+		army_experience = 10
+		
+		}
+	}
+	# A modern army
+	focus = {
+		id = SWE_modern_army
+		icon = GFX_GER_focus_mass_conscription
+		x = 10
+		y = 6
+		cost = 10
+		prerequisite = {
+			focus = SWE_Kalix_Line
+			focus = SWE_naval_defenses
+		
+		}
+		completion_reward = {
+		army_experience = 10
+		
+		}
+	}
+
     focus = {
 		id = SWE_SCHOOL
 		icon = GFX_focus_research

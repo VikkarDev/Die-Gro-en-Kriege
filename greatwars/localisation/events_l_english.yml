@@ -49,7 +49,9 @@ dgk_news.3.t:0 "Russo-Japanese War"
 dgk_news.3.d:0 "War! The most powerful option in international politics. And it has been used again - this time by the growing “rising sun” of the east, Japan, to declare war on the Russian Empire. While the move may surprise those who have not been following the events in the Far East, many experts on geopolitics say that the war was made inevitable by Russian imperial ambitions in Manchuria and conflicts of interest following the defeat of the Boxer Rebellion.\n\n They have also argued that it was not truly an act of Japanese aggression, but a preemptive strike by Japan intended to use the element of surprise to their advantage. And the start of the war was indeed surprising for the Russians, who were attacked by the Japanese navy before the declaration of war had even been received."
 dgk_news.3.a:0 "Okay."
 dgk_news.3.b:0 "We will fight!"
-
+dgk_news.4.t:0 "Russian invasion of manchuria!"
+dgk_news.4.d:0 "With negociations breaking down between the Russians and the imperial goverment in Peking. Tsar Nicholas has announced that they will seize manchuria, no matter the cost. The qing army already dealing with the boxer rebelion will have to stretch thinner to protect their motherland. We may only wait and see if the influence of the Russian bear grows stronger in the Asian continent."
+dkg_news.4.a:0 "An act of agression!"
 # GENERIC
 dgk_generic.7.t:0 "Native Uprising"
 dgk_generic.7.d:0 "A native uprising has happened in a colony! Rumors spread that a group of people were going to uprise against the overlord. Following this, the uprising plans to have their own soveriegn state, but have to fight for it."

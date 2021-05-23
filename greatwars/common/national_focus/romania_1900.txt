@@ -19,10 +19,8 @@ focus_tree = {
 		x = 2
 		y = 0
 		cost = 10
-		search_filters = { FOCUS_FILTER_POLITICAL } 
-		completion_reward = {
-			add_political_power = 100
-		}
+		
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
 		ai_will_do = {
 			factor = 1
 		}
@@ -85,9 +83,6 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_INDUSTRY } 
 		ai_will_do = {
 			factor = 1
-		}
-		completion_reward = {
-			add_extra_state_shared_building_slots = 2
 		}
 	}
 
@@ -901,9 +896,6 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
-		completion_reward = {
-			army_experience = 25
-		}
 	}
 
 	focus = {
@@ -1642,7 +1634,7 @@ focus_tree = {
 		id = ROM_the_government_resigns
 		icon = GFX_goal_unknown
 		x = 23
-		y = 15
+		y = 14
 		cost = 0
 		search_filters = { FOCUS_FILTER_POLITICAL } 
 		prerequisite = {
@@ -1656,13 +1648,12 @@ focus_tree = {
 	focus = {
 		id = ROM_the_pnl_government
 		icon = GFX_goal_unknown
-		x = 24
-		y = 16
+		x = 22
+		y = 15
 		cost = 10
 		search_filters = { FOCUS_FILTER_POLITICAL } 
 		prerequisite = {
 			focus = ROM_the_government_resigns
-			focus = ROM_allow_free_elections
 		}
 		ai_will_do = {
 			factor = 1
@@ -1672,13 +1663,12 @@ focus_tree = {
 	focus = {
 		id = ROM_the_conservative_government
 		icon = GFX_goal_unknown
-		x = 26
-		y = 16
+		x = 24
+		y = 15
 		cost = 10
 		search_filters = { FOCUS_FILTER_POLITICAL } 
 		prerequisite = {
 			focus = ROM_the_government_resigns
-			focus = ROM_allow_free_elections
 		}
 		ai_will_do = {
 			factor = 1
@@ -1697,99 +1687,6 @@ focus_tree = {
 		}
 		mutually_exclusive = {
 			focus = ROM_aggresive_approach
-		}
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	focus = {
-		id = ROM_the_military_intervenes
-		icon = GFX_goal_unknown
-		x = 27
-		y = 12
-		cost = 0
-		search_filters = { FOCUS_FILTER_POLITICAL } 
-		prerequisite = {
-			focus = ROM_peacefull_approach
-		}
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	focus = {
-		id = ROM_invite_the_former_king
-		icon = GFX_goal_unknown
-		x = 26
-		y = 13
-		cost = 5
-		search_filters = { FOCUS_FILTER_POLITICAL } 
-		prerequisite = {
-			focus = ROM_the_military_intervenes
-		}
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	focus = {
-		id = ROM_reestablish_the_nobility
-		icon = GFX_goal_unknown
-		x = 28
-		y = 13
-		cost = 5
-		search_filters = { FOCUS_FILTER_POLITICAL } 
-		prerequisite = {
-			focus = ROM_the_military_intervenes
-		}
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	focus = {
-		id = ROM_reestablish_the_monarchy
-		icon = GFX_goal_unknown
-		x = 27
-		y = 14
-		cost = 70
-		search_filters = { FOCUS_FILTER_POLITICAL } 
-		prerequisite = {
-			focus = ROM_invite_the_former_king
-		}
-		prerequisite = {
-			focus = ROM_reestablish_the_nobility
-		}
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	focus = {
-		id = ROM_allow_free_elections
-		icon = GFX_goal_unknown
-		x = 27
-		y = 15
-		cost = 0
-		search_filters = { FOCUS_FILTER_POLITICAL } 
-		prerequisite = {
-			focus = ROM_reestablish_the_monarchy
-		}
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	focus = {
-		id = ROM_keep_the_royal_dictatorship
-		icon = GFX_goal_unknown
-		x = 25
-		y = 15
-		cost = 0
-		search_filters = { FOCUS_FILTER_POLITICAL } 
-		prerequisite = {
-			focus = ROM_reestablish_the_monarchy
 		}
 		ai_will_do = {
 			factor = 1

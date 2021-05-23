@@ -16,7 +16,7 @@ focus_tree = {
 
 	focus = {
 		id = JAP_intervention_in_china
-		icon = GFX_jap_intervention_in_china
+		icon = GFX_CHI_focus_boxer_war_victory
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		x = 6
 		y = 0
@@ -24,8 +24,13 @@ focus_tree = {
 		cost = 5
 
 		available = {
+			OR= {
+				BOX = {
+					exists = yes
+				}
 			CHI = {
-				has_war = yes
+				has_war_with = BOX
+				}
 			}
 		}
 		
@@ -210,7 +215,7 @@ focus_tree = {
 
 	focus = {
 		id = JAP_support_the_rebellion
-		icon = GFX_jap_support_the_rebellion
+		icon = GFX_CHI_focus_boxer_agreement
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		x = 9
 		y = 1
@@ -727,7 +732,7 @@ focus_tree = {
 
 	focus = {
 		id = JAP_military_intervention
-		icon = GFX_jap_military_intervention
+		icon = GFX_CHI_focus_russo_japanese_war
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		x = 14
 		y = 4
@@ -1130,7 +1135,7 @@ focus_tree = {
 
 	focus = {
 		id = JAP_japanese_superiority
-		icon = GFX_jap_japanese_superiority
+		icon = GFX_JAP_focus_samurai_sun
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		x = 31
 		y = 1
@@ -1970,7 +1975,7 @@ focus_tree = {
 
 	focus = {
 		id = JAP_the_will_of_the_samurai
-		icon = GFX_jap_the_will_of_the_samurai
+		icon = GFX_JAP_focus_samurai_sun
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		x = 30
 		y = 11
