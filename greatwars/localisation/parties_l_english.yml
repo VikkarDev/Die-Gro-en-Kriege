@@ -68,21 +68,6 @@ TUR_fundamentalism_party:0 "Seriat Hükümeti"
 TUR_centrism_party:0 "Jön Türkler"
 TUR_traditional_conservatism_party:0 "Babıali"
 
-#china
-CHI_autocracy_party:0 "House of Àixin Juélu"
-CHI_social_egalitarianism_party:0 "XZH"
-CHI_social_egalitarianism_party_long:0 "Xīngzhōnghuì"
-CHI_social_liberalism_party:0 "XZH"
-CHI_social_liberalism_party_long:0 "Xīngzhōnghuì"
-CHI_chauvinist_populism_party:0 "Baqí"
-CHI_chauvinist_populism_party_long:0 "Bāqí"
-CHI_traditional_conservatism_party:0 "BHH"
-CHI_traditional_conservatism_party_long:0 "Baohuang Hui"
-CHI_vanguard_communism_party:0 "Various Groups"
-CHI_vanguard_communism_party:0 "Various Anarchist Groups in Southern China"
-
-
-
 #switzerland (the most importatnt country here)
 SWI_vanguard_communism_party:0 "Partei der Arbeit der Schweiz"
 SWI_democratic_socialism_party:0 "Arbeiterpartei"
