@@ -16,7 +16,7 @@
 
 		focus = {
 			id = RUS_new_industry0
-			icon = GFX_focus_generic_self_management
+			icon = GFX_focus_SOV_rus_eco
 			x = 12
 			y = 1
 
@@ -54,7 +54,7 @@
 
 		focus = {
 			id = RUS_new_industry01
-			icon = GFX_focus_generic_industry_2
+			icon = GFX_focus_SOV_continue_ind
 			x = 10
 			y = 2
 
@@ -168,7 +168,7 @@
 
 		focus = {
 			id = RUS_new_excity
-			icon = GFX_focus_generic_treaty
+			icon = GFX_focus_SOV_fra_imp
 			x = 9
 			y = 3
 
@@ -193,7 +193,7 @@
 
 		focus = {
 			id = RUS_new_imptool
-			icon = GFX_goal_generic_production
+			icon = GFX_focus_SOV_imp_tools
 			x = 11
 			y = 3
 
@@ -651,8 +651,8 @@
 
 
 		focus = {
-			id = RUS_new_morefac
-			icon = GFX_GER_focus_colonial_industry
+			id = RUS_new_hous
+			icon = GFX_focus_SOV_house_cris
 			x = 10
 			y = 4
 
@@ -678,7 +678,7 @@
 			y = 5
 
 			prerequisite = {
-				focus = RUS_new_morefac
+				focus = RUS_new_hous
 			}
 
         mutually_exclusive = { focus = RUS_new_dep }
@@ -820,12 +820,12 @@
 
 		focus = {
 			id = RUS_new_dep
-			icon = GFX_GER_focus_help_from_private
+			icon = GFX_focus_SOV_dep_fra
 			x = 7
 			y = 5
 
 			prerequisite = {
-				focus = RUS_new_morefac
+				focus = RUS_new_hous
 			}
 
             mutually_exclusive = { focus = RUS_new_indep }
@@ -971,7 +971,10 @@
 			}
 
 			completion_reward = { 
-		       add_ideas = free_trade
+		       		swap_ideas = { 
+              remove_idea = SOV_french_dependancy1
+              add_idea = SOV_french_dependancy2
+			             }
 			}
 		}
 
@@ -1337,12 +1340,9 @@
 	y = 4
 	cost = 10
 
-	available = {
-                            NOT = {has_idea = SOV_fear_of_revolution }
-			                NOT = {has_idea = SOV_fear_of_revolution2} 
-							NOT = {has_idea = SOV_fear_of_revolution3}
-	}
-			prerequisite = {focus = RUS_new_prop}
+	available = { has_country_flag = rus_faith_tsar	}
+
+	prerequisite = {focus = RUS_new_prop}
 			                
 	completion_reward ={ remove_country_leader_trait = poor_leader
 	                      add_political_power = 50 }
@@ -1362,8 +1362,8 @@
 			prerequisite = {focus = RUS_new_faith}
 
 	completion_reward ={ give_guarantee = FRA 
-	                    FRA = { country_event = { id = france.1 } }
-	                             }
+	                    hidden = {FRA = { country_event = { id = france.1 } } }
+						custom_effect_tooltip = fra_gar }
 	        }
     focus = {
     id = RUS_new_def_cau
@@ -1598,7 +1598,7 @@
 
 	completion_reward ={ SOV = { country_event = { id = russia.5 } } }
                  }
-
+				 
     focus = {
     id = RUS_new_china_won
 	icon = GFX_SOV_focus_first_russian_election
@@ -1853,9 +1853,7 @@
 
 	}
 
-	bypass = {has_country_flag = russia.jap.lost}
-
-	allow_branch = {has_country_flag = russia.jap.lost}
+	allow_branch = {always = no}
 
      prerequisite = {focus = RUS_new_japwar}
 

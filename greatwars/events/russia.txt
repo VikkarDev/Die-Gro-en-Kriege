@@ -27,7 +27,7 @@ country_event = {
 	desc = russia.5.d
 	picture = GFX_event_chi_quest
 
-	fire_only_once = yes
+	fire_only_once = no
 	is_triggered_only = yes
 	
 	trigger = {
@@ -37,11 +37,15 @@ country_event = {
 	option = {
 		name = russia.5.a
 		ai_chance = { factor = 20 }
-        declare_war_on = {
+        hidden_effect = {   declare_war_on = {
             target = CHI
             type = annex_everything
-                           }
-		set_country_flag = rus_quick_chi
+                         } 
+						                             }
+
+		custom_effect_tooltip = blitz_man			 
+		set_country_flag = rus_man_inv
+	     hidden_effect = { SOV = { country_event = { id = dgk_news.4 days = 2} } }
 	}
 	option = {
 		name = russia.5.b
@@ -50,6 +54,42 @@ country_event = {
 		add_war_support = -0.05
 	}		
 }
+
+country_event = {
+	id = russia.8
+	title = russia.8.t
+	desc = russia.8.d
+	picture = GFX_event_rus_prop
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	trigger = {
+        tag = SOV
+	}
+
+	option = {
+		name = russia.8.a
+		ai_chance = { factor = 20 }
+        white_peace = {
+             tag = CHI
+             message = rus_occ_man
+                       }
+
+		set_country_flag = rus_chi_won
+		clr_country_flag = rus_man_inv
+        hidden_effect = {
+		     SOV = {transfer_state = 328
+				    transfer_state = 717  
+				    transfer_state = 714
+				    transfer_state = 715
+			        transfer_state = 716
+				    transfer_state = 761}
+			release = MAN
+			puppet =  MAN
+		                                   }
+	}
+}	
 
 # Ottoman stuff
 country_event = {
@@ -147,7 +187,7 @@ country_event = {
 	hidden = yes
 
 	fire_only_once = yes
-	is_triggered_only = yes
+	is_triggered_only = no
 	
 	trigger = {
         tag = SOV
@@ -159,9 +199,39 @@ country_event = {
         add_political_power = -200
 		add_ideas = SOV_mass_prot
 		add_ideas = SOV_shat_army
-	}
+		add_ideas = SOV_shat_navy
+	         }
+
     immediate = { mark_focus_tree_layout_dirty = yes
                   set_country_flag = russia.jap
 				  set_country_flag = russia.jap.lost
 				  }
+}
+country_event = {
+	id = russia.9
+	title = russia.9.t
+	desc = russia.9.d
+	picture = GFX_event_rus_prop
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	trigger = {
+        tag = SOV
+	}
+
+	option = {
+		name = russia.9.a
+		ai_chance = { factor = 100 }
+        add_political_power = -50
+         white_peace = {
+             tag = CHI
+             message = rus_fail_man
+                       }
+}
+	option = {
+		name = russia.9.b
+		ai_chance = { factor = 100 }
+        add_political_power = -200
+		add_ideas = SOV_army_demoral
 }

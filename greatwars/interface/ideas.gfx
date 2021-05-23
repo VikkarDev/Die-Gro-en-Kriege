@@ -5849,4 +5849,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/generic_navy_bonus.dds"
 	}
 
+	#CHINA
+	SpriteType = {
+		name = "GFX_idea_CHI_opium"
+		texturefile = "gfx/interface/ideas/CHI/ideas_CHI_opium.dds"
+	}
+
 }

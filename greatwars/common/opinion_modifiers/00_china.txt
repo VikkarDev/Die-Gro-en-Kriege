@@ -1,0 +1,10 @@
+opinion_modifiers = {
+
+    military_mission = {
+        value = 30
+    }
+
+    christian_protection = {
+        value = 10
+    }
+}

@@ -88,7 +88,18 @@
  SWE_Build_schools_rural:0 "Build schools in rural parts"
  SWE_teacher_wages:0 "Raise the teacher wages"
  SWE_Introduce_education:0 "Introduce co-education"
-
+ SWE_army:0 "Den Kungliga Armén"
+ SWE_patrioism:0 "Promote Patrioism"
+ SWE_soldiers:0 "Train the next generation of soldiers"
+ SWE_Stockholm_military_academy:0 "Open up the Stockholm military academy"
+ SWE_munitions_factories:0 "Open up new munitions factories"
+ SWE_promising_commanders:0 "Promote promising commanders"
+ SWE_Improve_Mauser_gun:0 "Improve the Swedish Mauser gun"
+ SWE_army_workshops:0 "Open up army workshops"
+ SWE_Kalix_Line:0 "Build the Kalix Line"
+ SWE_naval_defenses:0 "Improve naval defenses"
+ SWE_modern_army:0 "A modern army"
+ SWE_next_clonflict:0 "Prepare for the next clonflict"
 
 #partys 
  SWE_social_liberalism_party:0 "Liberalerna"

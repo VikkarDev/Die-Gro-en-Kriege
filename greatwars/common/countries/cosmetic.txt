@@ -3,6 +3,11 @@ BOS_OCU = {
 	color_ui = rgb { 255 255 255 }
 }
 
+MAN_FENGTIAN_CLIQUE = {
+	color = rgb { 227 40 23 }
+	color_ui = rgb { 227 40 23 }
+}
+
 POR_KINGDOM = {
 	color = rgb { 0 80 152 }
 	color_ui = rgb { 0 80 152 }

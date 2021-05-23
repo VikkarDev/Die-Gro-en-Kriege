@@ -23,5 +23,34 @@ on_actions = {
 				}
 			}
 		}
+    on_capitulation = {
+				if = {
+					limit = {
+						FROM = {
+							original_tag = YEM
+						}
+						ROOT = {
+							original_tag = NYM
+						}
+					}
+
+					FROM = {
+						white_peace = ROOT
+						annex_country = {
+							target = ROOT
+							transfer_troops = no
+						}
+						SAU = {
+							country_event = { id = YEM.55 days = 3 }
+						}
+					}
+					set_global_flag = skip_default_capitulation
+				}          
+
+
+
+
 	}
+
+	
 }

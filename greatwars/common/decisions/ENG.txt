@@ -21,10 +21,7 @@ ENG_seymour_expedition = {
                add_political_power = -50               # Lose 50 PP
             }
             complete_effect = {                    # What happens when we activate the mission i.e. mission success?
-               add_political_power = 50
-               CHI = {
-                   country_event = china.2
-               }    
+               add_political_power = 50 
           }
     }
 }
