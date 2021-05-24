@@ -2,6 +2,68 @@ spriteTypes = {
 
 	#### Mod goal icons
 	SpriteType = {
+		name = "GFX_CHI_focus_russian_manchuria_shine"
+		texturefile = "gfx/interface/goals/CHI/CHI_focus_russian_manchuria.dds"
+				effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/CHI/CHI_focus_russian_manchuria.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no ;)
+			animationtime = 0.75				# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 2.0 y = 1.0 }
+		}
+
+		animation = {
+			animationmaskfile = "gfx/interface/goals/CHI/CHI_focus_russian_manchuria.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no ;)
+			animationtime = 0.75				# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_CHI_focus_russo_japanese_war_shine"
+		texturefile = "gfx/interface/goals/CHI/CHI_focus_russo_japanese_war.dds"
+				effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/CHI/CHI_focus_russo_japanese_war.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no ;)
+			animationtime = 0.75				# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 2.0 y = 1.0 }
+		}
+
+		animation = {
+			animationmaskfile = "gfx/interface/goals/CHI/CHI_focus_russo_japanese_war.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no ;)
+			animationtime = 0.75				# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		legacy_lazy_load = no
+	}
+	SpriteType = {
 		name = "GFX_JAP_focus_the_manchurian_crisis_shine"
 		texturefile = "gfx/interface/goals/jap/JAP_focus_the_manchurian_crisis.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -17454,68 +17516,7 @@ spriteTypes = {
 		}
 		legacy_lazy_load = no
 	}
-	SpriteType = {
-		name = "GFX_CHI_focus_russian_manchuria_shine"
-		texturefile = "gfx/interface/goals/CHI/CHI_focus_russian_manchuria.dds"
-				effectFile = "gfx/FX/buttonstate.lua"
-		animation = {
-			animationmaskfile = "gfx/interface/goals/CHI/CHI_focus_russian_manchuria.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
-			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
-			animationlooping = no			# yes or no ;)
-			animationtime = 0.75				# in seconds
-			animationdelay = 0			# in seconds
-			animationblendmode = "add"       #add, multiply, overlay
-			animationtype = "scrolling"      #scrolling, rotating, pulsing
-			animationrotationoffset = { x = 0.0 y = 0.0 }
-			animationtexturescale = { x = 2.0 y = 1.0 }
-		}
 
-		animation = {
-			animationmaskfile = "gfx/interface/goals/CHI/CHI_focus_russian_manchuria.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
-			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
-			animationlooping = no			# yes or no ;)
-			animationtime = 0.75				# in seconds
-			animationdelay = 0			# in seconds
-			animationblendmode = "add"       #add, multiply, overlay
-			animationtype = "scrolling"      #scrolling, rotating, pulsing
-			animationrotationoffset = { x = 0.0 y = 0.0 }
-			animationtexturescale = { x = 1.0 y = 1.0 }
-		}
-		legacy_lazy_load = no
-	}
-	SpriteType = {
-		name = "GFX_CHI_focus_russo_japanese_war_shine"
-		texturefile = "gfx/interface/goals/CHI/CHI_focus_russo_japanese_war.dds"
-				effectFile = "gfx/FX/buttonstate.lua"
-		animation = {
-			animationmaskfile = "gfx/interface/goals/CHI/CHI_focus_russo_japanese_war.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
-			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
-			animationlooping = no			# yes or no ;)
-			animationtime = 0.75				# in seconds
-			animationdelay = 0			# in seconds
-			animationblendmode = "add"       #add, multiply, overlay
-			animationtype = "scrolling"      #scrolling, rotating, pulsing
-			animationrotationoffset = { x = 0.0 y = 0.0 }
-			animationtexturescale = { x = 2.0 y = 1.0 }
-		}
-
-		animation = {
-			animationmaskfile = "gfx/interface/goals/CHI/CHI_focus_russo_japanese_war.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
-			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
-			animationlooping = no			# yes or no ;)
-			animationtime = 0.75				# in seconds
-			animationdelay = 0			# in seconds
-			animationblendmode = "add"       #add, multiply, overlay
-			animationtype = "scrolling"      #scrolling, rotating, pulsing
-			animationrotationoffset = { x = 0.0 y = 0.0 }
-			animationtexturescale = { x = 1.0 y = 1.0 }
-		}
-		legacy_lazy_load = no
-	}
 	SpriteType = {
 		name = "GFX_CHI_focus_russian_war_shine"
 		texturefile = "gfx/interface/goals/CHI/CHI_focus_russian_war.dds"
@@ -17702,6 +17703,8 @@ spriteTypes = {
 		}
 		legacy_lazy_load = no
 	}
+
+	#PHI
 	SpriteType = {
 		name = "GFX_CHI_focus_protecting_empire_shine"
 		texturefile = "gfx/interface/goals/CHI/CHI_focus_protecting_empire.dds"
@@ -17770,6 +17773,37 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	SpriteType = {
+		name = "GFX_generic_focus_treaty_sign_shine"
+		texturefile = "gfx/interface/goals/generic_cl/generic_focus_treaty_sign.dds"
+				effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/generic_cl/generic_focus_treaty_sign.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no ;)
+			animationtime = 0.75				# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 2.0 y = 1.0 }
+		}
+
+		animation = {
+			animationmaskfile = "gfx/interface/goals/generic_cl/generic_focus_treaty_sign.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no ;)
+			animationtime = 0.75				# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		legacy_lazy_load = no
+	}
+	SpriteType = {
 		name = "GFX_generic_focus_better_officers_shine"
 		texturefile = "gfx/interface/goals/generic_cl/generic_focus_better_officers.dds"
 				effectFile = "gfx/FX/buttonstate.lua"
@@ -17801,13 +17835,12 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 
-	#PHI
 	SpriteType = {
-		name = "GFX_PHI_focus_asian_republic_shine"
-		texturefile = "gfx/interface/goals/PHI/PHI_focus_asian_republic_shine.dds"
+		name = "GFX_focus_SOV_dep_fra_shine"
+		texturefile = "gfx/interface/goals/sov/Continue_depending_on_france.dds"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/PHI/PHI_focus_asian_republic_shine.dds"
+			animationmaskfile = "gfx/interface/goals/sov/Continue_depending_on_france.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -17820,7 +17853,7 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/PHI/PHI_focus_asian_republic_shine.dds"
+			animationmaskfile = "gfx/interface/goals/sov/Continue_depending_on_france.dds
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -17834,14 +17867,12 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 
-	#AUSTRIA
-
-	SpriteType = {
-		name = "GFX_AUS_focus_hungary_crown"
-		texturefile = "gfx/interface/goals/AUS/AUS_focus_hungary_crown.dds"
+    SpriteType = {
+		name = "GFX_focus_SOV_house_cris_shine"
+		texturefile = "gfx/interface/goals/sov/fix_the_housing_crisis.dds"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/AUS/AUS_focus_hungary_crown.dds"
+			animationmaskfile = "gfx/interface/goals/sov/fix_the_housing_crisis.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -17854,7 +17885,7 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/AUS/AUS_focus_hungary_crown.dds"
+			animationmaskfile = "gfx/interface/goals/sov/fix_the_housing_crisis.dds
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -17867,12 +17898,13 @@ spriteTypes = {
 		}
 		legacy_lazy_load = no
 	}
-	SpriteType = {
-		name = "GFX_AUS_focus_agreement_shine"
-		texturefile = "gfx/interface/goals/AUS/AUS_focus_agreement.dds"
+
+    SpriteType = {
+		name = "GFX_focus_SOV_imp_tools_shine"
+		texturefile = "gfx/interface/goals/sov/Importing_machine_tools.dds"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/AUS/AUS_focus_agreement.dds"
+			animationmaskfile = "gfx/interface/goals/sov/Importing_machine_tools.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -17885,7 +17917,7 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/AUS/AUS_focus_agreement.dds"
+			animationmaskfile = "gfx/interface/goals/sov/Importing_machine_tools.dds
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
