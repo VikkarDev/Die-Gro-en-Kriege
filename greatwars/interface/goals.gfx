@@ -2836,6 +2836,10 @@ spriteTypes = {
 		name = "GFX_generic_focus_better_officers"
 		texturefile = "gfx/interface/goals/generic_cl/generic_focus_better_officers.dds"
 	}
+	SpriteType = {
+		name = "GFX_generic_focus_treaty_sign"
+		texturefile = "gfx/interface/goals/generic_cl/generic_focus_treaty_sign.dds"
+	}
 
 	#PHI
 

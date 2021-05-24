@@ -1138,6 +1138,10 @@ focus_tree = {
 			country_exists = GER
 			GER = {
 				owns_state = 773
+				owns_state = 898
+			}
+			FRA = {
+				owns_state = 938
 			}
 		}
 		bypass = {
@@ -1145,6 +1149,12 @@ focus_tree = {
 		}
 
 		completion_reward = { 
+			GER = {
+				add_state_claim = 938
+			}
+			FRA = {
+				country_event = germany_colonial.15
+			}
 			
 		}				
 	}

@@ -459,7 +459,7 @@ focus_tree = {
          }
 		 focus = {
 			id = CHI_1900_change_foreign_policy
-			icon = GFX_SOV_focus_the_safe_option
+			icon = GFX_generic_focus_treaty_sign
 			search_filters = { FOCUS_FILTER_POLITICAL }
 			x = 11
 			y = 4
@@ -490,7 +490,7 @@ focus_tree = {
          }
 		 focus = {
 			id = CHI_1900_open_up_to_foreigners
-			icon = GFX_SOV_focus_the_safe_option
+			icon = GFX_generic_focus_treaty_sign
 			search_filters = { FOCUS_FILTER_POLITICAL }
 			x = 10
 			y = 5
