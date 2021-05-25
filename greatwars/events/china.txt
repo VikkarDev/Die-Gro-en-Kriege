@@ -313,17 +313,6 @@ country_event = {
 	fire_only_once = yes
 	is_triggered_only = yes
 
-	trigger = {
-		CHI = {
-			controls_state = 326
-			controls_state = 745
-			controls_state = 743
-			controls_state = 811
-			controls_state = 728
-
-		}
-	}
-
 	option = {
         name = china.9.a
 		CHI = {
@@ -404,46 +393,63 @@ country_event = {
     desc = china.11.d
     picture = GFX_report_event_imperial_conference
 	fire_only_once = yes
-	trigger = {
-		OR = {
-		ENG = {
-			controls_state = 608
-		}
-		GER = {
-			controls_state = 608
-		}
-		RUS = {
-			controls_state = 608
-		}
-		FRA = {
-			controls_state = 608
-		}
-		ITA = {
-			controls_state = 608
-		}
-		AUS = {
-			controls_state = 608
-		}
-		USA = {
-			controls_state = 608
-		}
-		FRA = {
-			controls_state = 608
-		}
-		JAP = {
-			controls_state = 608
-		}
-		SPR = {
-			controls_state = 608
-		}
-		HOL = {
-			controls_state = 608
-			}
-		}
-	}
+	
 	option = {
 		name = china.11.a
-		add_ideas = CHI_boxer_protocols
+		CHI = {
+			add_ideas = CHI_boxer_protocols
+		}
+		MAN = {
+			transfer_state = 716
+			transfer_state = 328
+			transfer_state = 717
+			transfer_state = 714
+			transfer_state = 761
+		}
+			white_peace = {
+    			tag = GER
+    			message = "The Qing & the Boxers have lost to the 8 Nation Alliance."
+			}
+			white_peace = {
+    			tag = ENG
+    			message = "The Qing & the Boxers have lost to the 8 Nation Alliance."
+			}
+			white_peace = {
+    			tag = SOV
+    			message = "The Qing & the Boxers have lost to the 8 Nation Alliance."
+			}
+			white_peace = {
+    			tag = USA
+    			message = "The Qing & the Boxers have lost to the 8 Nation Alliance."
+			}
+			white_peace = {
+    			tag = JAP
+    			message = "The Qing & the Boxers have lost to the 8 Nation Alliance."
+			}
+			white_peace = {
+    			tag = FRA
+    			message = "The Qing & the Boxers have lost to the 8 Nation Alliance."
+			}
+			white_peace = {
+    			tag = BEL
+    			message = "The Qing & the Boxers have lost to the 8 Nation Alliance."
+			}
+			white_peace = {
+    			tag = HOL
+    			message = "The Qing & the Boxers have lost to the 8 Nation Alliance."
+			}
+			white_peace = {
+    			tag = SPR
+    			message = "The Qing & the Boxers have lost to the 8 Nation Alliance."
+			}
+			white_peace = {
+    			tag = ITA
+    			message = "The Qing & the Boxers have lost to the 8 Nation Alliance."
+			}
+			white_peace = {
+    			tag = AUS
+    			message = "The Qing & the Boxers have lost to the 8 Nation Alliance."
+			}
 	}
 }
 country_event = {

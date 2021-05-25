@@ -4,7 +4,7 @@ country_event = {
 	id = germany_colonial.1
 	title = germany_colonial.1.t
 	desc = germany_colonial.1.d
-	picture = GFX_report_event_german_speech
+	picture = GFX_report_event_german_colonial
 
 	fire_only_once = yes
 	is_triggered_only = yes
@@ -42,7 +42,7 @@ country_event = {
 	id = germany_colonial.2
 	title = germany_colonial.2.t
 	desc = germany_colonial.2.d
-	picture = GFX_report_event_german_speech
+	picture = GFX_report_event_german_colonial
 
 	fire_only_once = yes
 	is_triggered_only = yes
@@ -63,7 +63,7 @@ country_event = {
 	id = germany_colonial.3
 	title = germany_colonial.3.t
 	desc = germany_colonial.3.d
-	picture = GFX_report_event_german_speech
+	picture = GFX_report_event_german_colonial
 
 	fire_only_once = yes
 	is_triggered_only = yes
@@ -86,7 +86,7 @@ country_event = {
 	id = germany_colonial.4
 	title = germany_colonial.4.t
 	desc = germany_colonial.4.d
-	picture = GFX_report_event_german_speech
+	picture = GFX_report_event_german_colonial
 
 	fire_only_once = yes
 	is_triggered_only = yes
@@ -103,7 +103,7 @@ country_event = {
 	id = germany_colonial.5
 	title = germany_colonial.5.t
 	desc = germany_colonial.5.d
-	picture = GFX_report_event_german_speech
+	picture = GFX_report_event_german_colonial
 
 	fire_only_once = yes
 	is_triggered_only = yes
@@ -123,7 +123,7 @@ country_event = {
 	id = germany_colonial.6
 	title = germany_colonial.6.t
 	desc = germany_colonial.6.d
-	picture = GFX_report_event_german_speech
+	picture = GFX_report_event_german_colonial
 
 	fire_only_once = yes
 	is_triggered_only = yes
@@ -144,7 +144,7 @@ country_event = {
 	id = germany_colonial.7
 	title = germany_colonial.7.t
 	desc = germany_colonial.7.d
-	picture = GFX_report_event_german_speech
+	picture = GFX_report_event_german_colonial
 
 	fire_only_once = yes
 	is_triggered_only = yes
@@ -162,7 +162,7 @@ country_event = {
 	id = germany_colonial.8
 	title = germany_colonial.8.t
 	desc = germany_colonial.8.d
-	picture = GFX_report_event_german_speech
+	picture = GFX_report_event_german_colonial
 
 	fire_only_once = yes
 	is_triggered_only = yes
@@ -206,7 +206,7 @@ country_event = {
 	id = germany_colonial.9
 	title = germany_colonial.9.t
 	desc = germany_colonial.9.d
-	picture = GFX_report_event_german_speech
+	picture = GFX_report_event_german_colonial
 
 	fire_only_once = yes
 	is_triggered_only = yes
@@ -227,7 +227,7 @@ country_event = {
 	id = germany_colonial.10
 	title = germany_colonial.10.t
 	desc = germany_colonial.10.d
-	picture = GFX_report_event_german_speech
+	picture = GFX_report_event_german_colonial
 
 	fire_only_once = yes
 	is_triggered_only = yes
@@ -250,7 +250,7 @@ country_event = {
 	id = germany_colonial.11
 	title = germany_colonial.11.t
 	desc = germany_colonial.11.d
-	picture = GFX_report_event_german_speech
+	picture = GFX_report_event_german_colonial
 
 	fire_only_once = yes
 	is_triggered_only = yes
@@ -267,7 +267,7 @@ country_event = {
 	id = germany_colonial.12
 	title = germany_colonial.12.t
 	desc = germany_colonial.12.d
-	picture = GFX_report_event_german_speech
+	picture = GFX_report_event_german_colonial
 
 	fire_only_once = yes
 	is_triggered_only = yes
@@ -287,7 +287,7 @@ country_event = {
 	id = germany_colonial.13
 	title = germany_colonial.13.t
 	desc = germany_colonial.13.d
-	picture = GFX_report_event_german_speech
+	picture = GFX_report_event_german_colonial
 
 	fire_only_once = yes
 	is_triggered_only = yes
@@ -308,7 +308,7 @@ country_event = {
 	id = germany_colonial.14
 	title = germany_colonial.14.t
 	desc = germany_colonial.14.d
-	picture = GFX_report_event_german_speech
+	picture = GFX_report_event_german_colonial
 
 	fire_only_once = yes
 	is_triggered_only = yes
@@ -326,7 +326,7 @@ country_event = {
 	id = germany_colonial.15
 	title = germany_colonial.15.t
 	desc = germany_colonial.15.d
-	picture = GFX_report_event_german_speech
+	picture = GFX_report_event_german_colonial
 
 	fire_only_once = yes
 	is_triggered_only = yes
