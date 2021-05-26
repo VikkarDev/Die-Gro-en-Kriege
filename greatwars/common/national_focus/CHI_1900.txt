@@ -477,7 +477,7 @@ focus_tree = {
 				}
             }
             completion_reward = { 
-			add_political_power = 25
+			add_political_power = -25
 			add_opinion_modifier = { target = ENG modifier = large_increase }
 			add_opinion_modifier = { target = RUS modifier = large_increase }
             add_opinion_modifier = { target = FRA modifier = large_increase }
