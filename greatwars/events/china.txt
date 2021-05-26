@@ -311,11 +311,12 @@ country_event = {
     desc = china.9.d
     picture = GFX_report_event_imperial_conference
 	fire_only_once = yes
-	is_triggered_only = yes
 
 	option = {
         name = china.9.a
+		country_event = china.10
 		CHI = {
+			remove_ideas = CHI_foreign_concessions
 			transfer_state = 326
 			transfer_state = 745
 			transfer_state = 743
@@ -370,23 +371,6 @@ country_event = {
 		}
 	}
 }
-country_event = {
-	id = china.10
-    title = china.10.t
-    desc = china.10.d
-    picture = GFX_report_event_imperial_conference
-	fire_only_once = yes
-
-	trigger = {
-		CHI = {
-			has_country_flag = CHI_1900_boxers_won
-		}
-	}
-	option = {
-		name = china.10.a
-		remove_ideas = CHI_foreign_concessions
-	}
-} 
 country_event = {
 	id = china.11
     title = china.11.t
@@ -458,11 +442,9 @@ country_event = {
     desc = china.12.d
     picture = GFX_report_event_imperial_conference
 	fire_only_once = yes
-	trigger = {
-		CHI = {
-			has_completed_focus = CHI_1900_root_out_corruption
-		}
-	}
+	is_triggered_only = yes
+
+
 	option = {
 		name = china.12.a
 		

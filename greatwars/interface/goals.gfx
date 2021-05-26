@@ -301,6 +301,13 @@ spriteTypes = {
 	}
 
 	SpriteType = {
+		name = "GFX_GER_focus_bismarck"
+		texturefile = "gfx/interface/goals/ger/other/GER_focus_bismarck.dds"
+	}
+
+	#PORTUGAL
+
+	SpriteType = {
 		name = "GFX_por_focus_a_republican_portugal"
 		texturefile = "gfx/interface/goals/por/POR_focus_a_republican_portugal.dds"
 	}
