@@ -2915,9 +2915,10 @@ spriteTypes = {
 		name = "GFX_event_chi_quest"
 		texturefile = "gfx/event_pictures/event_rus_chi.dds"
 	}
+
 	spriteType = { 
-		name = "GFX_event_german_colonial"
-		texturefile = "gfx/event_pictures/event_german_colonial.dds"
+		name = "GFX_event_rus_man"
+		texturefile = "gfx/event_pictures/news_russia_inv_man.dds.dds"
 	}
 
 }

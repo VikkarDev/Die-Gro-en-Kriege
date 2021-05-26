@@ -92,7 +92,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1910
+		start_year = 1904
 
 		folder = {
 			name = air_techs_folder

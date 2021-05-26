@@ -1440,4 +1440,9 @@ spriteTypes = {
 		texturefile = "gfx/interface/decisions/sov/sov_tsar.dds"
 	}
 
+	spriteType = {
+		name = "GFX_sov_man"
+		texturefile = "gfx/interface/decisions/sov/sov_man.dds"
+	}
+
 }
