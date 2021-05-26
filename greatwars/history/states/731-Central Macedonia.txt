@@ -2,9 +2,7 @@
 state={
 	id=731
 	name="STATE_731"
-	resources={
-		steel=5.000
-	}
+
 	history={
 		owner = TUR
 		victory_points = {
