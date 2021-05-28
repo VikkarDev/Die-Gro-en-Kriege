@@ -915,6 +915,48 @@ continuous_focus_position = {
 			focus = SWE_motion_fails
 		}
 	}
+	focus = {
+		id = SWE_royal_navy 
+
+		icon = GFX_
+		x = 35
+		y = 0
+		cost = 5
+		
+	}
+	focus = {
+		id = SWE_focus_norway_navy
+		icon = GFX_
+		cost = 5
+		x = 32
+		y = 1
+		prerequisite = {
+			focus = SWE_royal_navy
+		}
+		completion_reward = { }
+	}
+	focus = {
+		id = SWE_expand_naval_base_norway
+		icon = GFX_
+		cost = 10
+		x = 33
+		y = 2
+		prerequisite = {
+			focus = SWE_focus_norway_navy
+		}
+	#	completion_reward = { give naval bases }
+	}
+	focus = {
+		id = SWE_Karljohansvern_naval_base
+		icon = GFX_
+		cost = 10
+		x = 31
+		y = 2
+		prerequisite = {
+			focus = SWE_focus_norway_navy
+		}
+		#completion_reward = { #gives dockyard.: }
+	}
 }
 
 

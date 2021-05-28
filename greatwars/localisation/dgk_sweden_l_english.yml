@@ -100,6 +100,10 @@
  SWE_naval_defenses:0 "Improve naval defenses"
  SWE_modern_army:0 "A modern army"
  SWE_next_clonflict:0 "Prepare for the next clonflict"
+ SWE_royal_navy:0 "The Royal Union Navy"
+ SWE_focus_norway_navy:0 "Focus on Norway"
+ SWE_expand_naval_base_norway:0 "Reopen Fredriksvern Naval Base"
+ SWE_Karljohansvern_naval_base:0 "Expand Karljohansvern naval Base"
 
 #partys 
  SWE_social_liberalism_party:0 "Liberalerna"
