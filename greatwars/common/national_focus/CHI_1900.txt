@@ -1139,31 +1139,6 @@ focus_tree = {
 			}
 		}
 		focus = {
-			id = CHI_1900_power_of_the_army
-			icon = GFX_SOV_focus_state_duma
-			x = 51
-			y = 3
-
-			cost = 10
-
-			prerequisite = {
-				focus = CHI_1900_qing_army
-			}
-
-			available = {
-				has_army_manpower = {
-    				size > 10000
-				}
-			}
-
-			completion_reward = { 
-				#event about power the army holds and the situation, adds pp
-				add_stability = 0.05
-				add_political_power = 30
-            
-			}
-		}
-		focus = {
 			id = CHI_1900_boxer_war_xp
 			icon = GFX_CHI_focus_boxer_war_victory
 			x = 49
@@ -1172,7 +1147,7 @@ focus_tree = {
 			cost = 10
 
 			prerequisite = {
-				focus = CHI_1900_power_of_the_army
+				focus = CHI_1900_qing_army
 			}
 
 			available = {
@@ -1202,7 +1177,7 @@ focus_tree = {
 			cost = 10
 
 			prerequisite = {
-				focus = CHI_1900_power_of_the_army
+				focus = CHI_1900_qing_army
 			}
 			available = {
 
@@ -1338,13 +1313,21 @@ focus_tree = {
 			id = CHI_1900_military_situation
 			icon = GFX_CHI_focus_Qing_Army
 			x = 51
-			y = 6
+			y = 7
 
 			cost = 10
 
 			prerequisite = {
-				focus = CHI_1900_rebuild_armies
+				focus = CHI_1900_light_unit_tactics
+				focus = CHI_1900_mass_infantry_attacks
+			}
+			prerequisite = {
 				focus = CHI_1900_resupply_arsenals
+			}
+			prerequisite = {
+				focus = CHI_1900_rebuild_armies
+			}
+			prerequisite = {
 				focus = CHI_1900_appoint_yuan_governer_of_peking
 			}
 
@@ -1361,7 +1344,7 @@ focus_tree = {
 			cost = 2
 
 			prerequisite = {
-				focus = CHI_1900_power_of_the_army
+				focus = CHI_1900_qing_army
 			}
 
 			available = {
@@ -1394,7 +1377,7 @@ focus_tree = {
 			id = CHI_1900_smaller_regional_armies
 			icon = GFX_SOV_focus_state_duma
 			x = 51
-			y = 7
+			y = 8
 
 			cost = 10
 
@@ -1413,7 +1396,7 @@ focus_tree = {
 			id = CHI_1900_put_out_boxers
 			icon = GFX_CHI_end_imperial_rule
 			x = 49
-			y = 7
+			y = 8
 
 			cost = 10
 
@@ -1433,7 +1416,7 @@ focus_tree = {
 			id = CHI_1900_continue_8_banners_system
 			icon = GFX_CHI_focus_end_imperial_rule
 			x = 50
-			y = 8
+			y = 9
 
 			cost = 10
 
@@ -1465,7 +1448,7 @@ focus_tree = {
 			id = CHI_1900_get_foriegn_training
 			icon = GFX_SOV_focus_state_duma
 			x = 52
-			y = 8
+			y = 9
 
 			cost = 10
 
@@ -1488,7 +1471,7 @@ focus_tree = {
 			id = CHI_1900_replace_spears_with_rifles
 			icon = GFX_SOV_focus_state_duma
 			x = 52
-			y = 9
+			y = 10
 
 			cost = 10
 
@@ -1507,7 +1490,7 @@ focus_tree = {
 			id = CHI_1900_traditional_sytems
 			icon = GFX_SOV_focus_state_duma
 			x = 50
-			y = 9
+			y = 10
 
 			cost = 10
 
@@ -1526,7 +1509,7 @@ focus_tree = {
 			id = CHI_1900_each_serves_purpose
 			icon = GFX_SOV_focus_state_duma
 			x = 51
-			y = 10
+			y = 11
 
 			cost = 10
 
@@ -1546,7 +1529,7 @@ focus_tree = {
 			id = CHI_1900_modernizing_the_beiyang_army
 			icon = GFX_CHI_focus_modern_beiyang_army
 			x = 55
-			y = 7
+			y = 8
 
 			cost = 10
 
@@ -1567,7 +1550,7 @@ focus_tree = {
 			id = CHI_1900_modernize_qing_equipment
 			icon = GFX_SOV_focus_state_duma
 			x = 59
-			y = 7
+			y = 8
 
 			cost = 10
 
@@ -1586,7 +1569,7 @@ focus_tree = {
 			id = CHI_1900_purchase_krupp_guns
 			icon = GFX_GER_focus_artillery
 			x = 58
-			y = 8
+			y = 9
 
 			cost = 10
 
@@ -1612,7 +1595,7 @@ focus_tree = {
 			id = CHI_1900_buy_modern_carbines
 			icon = GFX_generic_focus_gun_license
 			x = 60
-			y = 8
+			y = 9
 
 			cost = 10
 
@@ -1631,7 +1614,7 @@ focus_tree = {
 			id = CHI_1900_construct_military_factories_modernize
 			icon = GFX_GER_focus_artillery
 			x = 59
-			y = 9
+			y = 10
 
 			cost = 7
 
@@ -1658,7 +1641,7 @@ focus_tree = {
 			id = CHI_1900_appoint_german_and_japanese_officers
 			icon = GFX_generic_focus_better_officers
 			x = 54
-			y = 8
+			y = 9
 
 			cost = 10
 
@@ -1677,7 +1660,7 @@ focus_tree = {
 			id = CHI_1900_found_baoding_military_academy
 			icon = GFX_SOV_focus_state_duma
 			x = 56
-			y = 8
+			y = 9
 
 			cost = 10
 
@@ -1696,7 +1679,7 @@ focus_tree = {
 			id = CHI_1900_continue_army_expansion_beiyang
 			icon = GFX_SOV_focus_state_duma
 			x = 55
-			y = 9
+			y = 10
 
 			cost = 10
 
@@ -1718,7 +1701,7 @@ focus_tree = {
 			id = CHI_1900_engineers
 			icon = GFX_SOV_focus_state_duma
 			x = 54
-			y = 10
+			y = 11
 
 			cost = 10
 
@@ -1737,7 +1720,7 @@ focus_tree = {
 			id = CHI_1900_lay_telegraph_lines
 			icon = GFX_SOV_focus_state_duma
 			x = 56
-			y = 10
+			y = 11
 
 			cost = 10
 
@@ -1761,7 +1744,7 @@ focus_tree = {
 			id = CHI_1900_most_modern_army_china_beiyang_army
 			icon = GFX_CHI_focus_modern_beiyang_army
 			x = 55
-			y = 11
+			y = 12
 
 			cost = 10
 

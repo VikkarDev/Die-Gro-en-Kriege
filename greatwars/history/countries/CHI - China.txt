@@ -113,6 +113,33 @@ if = {
 			
 		}
 	}
+	create_country_leader = {
+		name = "Yuan Shikai"
+		desc = ""
+		picture = "Yuan_Shikai.tga"
+		ideology = military_junta
+		traits = {
+			
+		}
+	}
+	create_country_leader = {
+		name = "Yuan Shikai"
+		desc = ""
+		picture = "Yuan_Shikai.tga"
+		ideology = military_government
+		traits = {
+			
+		}
+	}
+	create_country_leader = {
+		name = "Yuan Shikai"
+		desc = ""
+		picture = "Yuan_Shikai.tga"
+		ideology = reactionary
+		traits = {
+			
+		}
+	}
 }
 create_corps_commander = {
 		name = "Yuan Shikai"
@@ -179,6 +206,17 @@ create_corps_commander = {
 		logistics_skill = 3
 		traits = {  politically_connected old_guard	commando }
 		id = 8812
+	}
+	create_corps_commander = {
+		name = "Zhao_Erfeng"
+		portrait_path = "gfx/leaders/CHI/generals/Zhao_Erfeng.tga"
+		skill = 1
+		attack_skill = 1
+		defense_skill = 3
+		planning_skill = 1
+		logistics_skill = 1
+		traits = {  politically_connected old_guard }
+		id = 8813
 	}
 	create_field_marshal = {
 		name = "Song Qing"

@@ -1141,6 +1141,12 @@ MAN_FENGTIAN_CLIQUE_ADJ:0 "Fengtian"
 MAN_FENGTIAN_CLIQUE:0 "Fengtian Clique"
 MAN_FENGTIAN_CLIQUE_DEF:0 "the Fengtian Clique"
 MAN_FENGTIAN_CLIQUE_ADJ:0 "Fengtian"
-MAN_SOV_autonomy_puppet:0 "Russian Manchuria"
+
+MAN_RUS_autocracy:0 "Russian Manchuria"
+MAN_RUS_autocracy_DEF:0 "Russian Manchuria"
+MAN_RUS_autocracy_ADJ:0 "Russian"
+MAN_RUS_social_egalitarianism:0 "Russian Republic of Manchuria"
+MAN_RUS_social_egalitarianism_DEF:0 "Russian Manchuria"
+MAN_RUS_social_egalitarianism_ADJ "Russian"
 
  

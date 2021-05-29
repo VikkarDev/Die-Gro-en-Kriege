@@ -5852,12 +5852,21 @@ spriteTypes = {
 	#CHINA
 	SpriteType = {
 		name = "GFX_idea_beiyang_modern"
-		texturefile = "gfx/interface/ideas/CHI/idea_beiyang_modern.dds"
+		texturefile = "gfx/interface/ideas/CHI/CHI_idea_beiyang_modern.dds"
 	}
 	SpriteType = {
 		name = "GFX_idea_china_opium_trade"
 		texturefile = "gfx/interface/ideas/CHI/idea_china_opium_trade.dds"
 	}
+	SpriteType = {
+		name = "GFX_idea_chi_agrarian"
+		texturefile = "gfx/interface/ideas/CHI/CHI_idea_agrarian.dds"
+	}
+	SpriteType = {
+		name = "GFX_CHI_idea_sino_jap_war"
+		texturefile = "gfx/interface/ideas/CHI/CHI_idea_sino_jap_war.dds"
+	}
+	
 	
 
 }

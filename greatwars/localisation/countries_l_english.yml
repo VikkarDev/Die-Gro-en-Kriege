@@ -738,6 +738,9 @@
  CHI_centrism_ADJ:0 "Chinese"
  CHI_autocracy_ADJ:0 "Chinese"
  CHI_marxist_leninism_ADJ:0 "Chinese"
+ CHI_social_egalitarianism:0 "Republic of China"
+ CHI_social_egalitarianism_DEF:0 "The Republic of China"
+ CHI_social_egalitarianism_ADJ:0 "Chinese"
 
  PRC_chauvinist_populism:0 "Chinese Empire"
  PRC_chauvinist_populism_DEF:0 "The Chinese Empire"

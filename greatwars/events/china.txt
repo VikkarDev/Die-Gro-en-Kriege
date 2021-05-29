@@ -384,6 +384,7 @@ country_event = {
 			add_ideas = CHI_boxer_protocols
 		}
 		MAN = {
+			set_cosmetic_tag = MAN_RUS_autocracy
 			transfer_state = 716
 			transfer_state = 328
 			transfer_state = 717
@@ -434,6 +435,7 @@ country_event = {
     			tag = AUS
     			message = "The Qing & the Boxers have lost to the 8 Nation Alliance."
 			}
+		country_event = china.13
 	}
 }
 country_event = {
@@ -450,4 +452,24 @@ country_event = {
 		
 	}
 }
+
+country_event = {
+	id = china.13
+    title = china.13.t
+    desc = china.13.d
+    picture = GFX_report_event_imperial_conference
+	fire_only_once = yes
+	is_triggered_only = yes
+
+
+	option = {
+		name = china.13.a
+
+		SOV = {
+			puppet = MAN
+		}
+		
+	}
+}
+
 
