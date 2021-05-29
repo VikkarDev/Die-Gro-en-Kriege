@@ -453,5 +453,23 @@ country_event = {
 	}
 }
 
+country_event = {
+	id = china.13
+    title = china.13.t
+    desc = china.13.d
+    picture = GFX_report_event_imperial_conference
+	fire_only_once = yes
+	is_triggered_only = yes
+
+
+	option = {
+		name = china.13.a
+
+		SOV = {
+			puppet = MAN
+		}
+		
+	}
+}
 
 

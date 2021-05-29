@@ -700,3 +700,8 @@ TBE_third_bulgarian_empire_neutrality = {
 	color = rgb { 138 249 195 }
 	color_ui = rgb { 138 249 195 }
 }
+
+MAN_RUS_autocracy = {
+	color = rgb { 50 173 97 }
+	color_ui = rgb { 50 173 97 }
+}

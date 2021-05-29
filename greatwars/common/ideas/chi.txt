@@ -1,7 +1,7 @@
 ideas ={
     country = {
         CHI_legacy_sino_japanese_war = {
-            picture = generic_victors_of_ww1
+            picture = CHI_idea_sino_jap_war
 
             allowed ={
                 tag = CHI
@@ -52,7 +52,7 @@ ideas ={
         }
     }
     CHI_agrarian_society = {
-        picture = generic_victors_of_ww1
+        picture = idea_chi_agrarian
         allowed = {
             tag = CHI
         }

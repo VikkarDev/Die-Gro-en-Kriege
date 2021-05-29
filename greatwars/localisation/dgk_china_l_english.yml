@@ -3,7 +3,7 @@
 #NATIONAL SPIRITS
 
 CHI_legacy_sino_japanese_war:0 "Legacy of the Sino-Japanese War"
-CHI_legacy_sino_japanese_war_desc:0 "Since our defeat in 1895 against the Japanese and the loss of our tributary in Korea, the large amount of corruption and incapability in our naval and land forces has been put on display."
+CHI_legacy_sino_japanese_war_desc:0 "During the 1870s to 1890s, the Qing tried to westernize, buying modern ironclads and recruiting western soldiers. Despite our best efforts, we still lost a war against the Japanese in 1895 and that shattered our own naval and military capabilities, but also the end of the 'Westernization Movement'."
 CHI_manchu_support:0 "Manchu Support"
 CHI_manchu_support_desc:0 "Despite our hostility with most ethnic groups, most of the Manchu population stills supports our monarch and our government."
 CHI_mongol_support:0 "Mongol Support"
@@ -18,8 +18,10 @@ CHI_minority_revolts:0 "Minority Revolts"
 CHI_minority_revolts_desc:0 "Many minorities in the empire have gone against our Manchu monarch and have started conducting sabatoge and spreading nationalist propoganda."
 CHI_agrarian_society:0 "Agrarian Society"
 CHI_agrarian_society_desc:0 "Although small amounts of industrialization have occured in the northern provinces of Peking and Shanghai, much of China still remains an almost feudal society with small farms and no industrialization."
-CHI_army_corruption_2:0 "Outdated Army"
-CHI_army_corruption_2_desc:0 "Despite our recent "Westernization" movement, most of our army and its tactics remain outdated. Many units still use spears, shields, and wooden boats against rifles, cannons, and ironclads."
+CHI_outdated_army_2:0 "Outdated Army"
+CHI_outdated_army_2_2_desc:0 "Despite our recent "Westernization" movement, most of our army and its tactics remain outdated. Many units still use spears, shields, and wooden boats against rifles, cannons, and ironclads."
+CHI_opium_addictions:0 "Opium Addictions"
+CHI_opium_addictions_desc:0 "After the 2 Opium Wars, the Qing government was forced to allow opium selling in the empire. This has caused widespread addiction, and people who could've helped out government have become addicts."
 
 #NATIONAL FOCUSES
 
@@ -149,6 +151,13 @@ china.8.t:0 "An Anarchist Speech"
 china.8.d:0 "Anarcho-Communist Chen Duxui held a speech in Nanjing where he spoke out against the Qing government, calling it an outdated imperialist empire and that an anarchist society is the way China should go. A few people supported his cause and dissent against the Qing has grown even further among the people."
 china.8.a:0 "More unrest?!"
 
+china.9.t:0 "The Eight-Nation Alliance has been Defeated!"
+china.9.d:0 "After our troops marched into the foreign concessions and the defeat of the foreigners at Tianjin, the Eight Nation Alliance sued for peace, with the British stating that 'After taking heavy casualties at the Battle of Hong Kong and the failed Russian Invasion of Manchuria, the war was lost and we began to withdraw our soldiers from China.' This is a huge victory for our empire and the start of a better Self-Strengthening movement for our empire."
+china.9.a:0 "Victory at Last!"
+
+china.11.t:0 "Our Defeat in War"
+china.11.a:0 "Can we recover? Will the next few years be the end?"
+
 
 #COUNTRY FLAGS
 
@@ -180,3 +189,5 @@ CHI_traditional_conservatism_party:0 "BHH"
 CHI_traditional_conservatism_party_long:0 "Baohuang Hui"
 CHI_vanguard_communism_party:0 "Various Groups"
 CHI_vanguard_communism_party:0 "Various Anarchist Groups in Southern China"
+CHI_centrism_party:0 "BHH"
+CHI_centrism_party_long:0 "Baohuang Hui"

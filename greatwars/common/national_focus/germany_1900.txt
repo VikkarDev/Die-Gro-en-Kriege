@@ -690,7 +690,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_deutsches_kolonialreich
-		icon = GFX_goal_generic_territory_or_war
+		icon = GFX_GER_focus_german_colonial
 		search_filters = { FOCUS_FILTER_MANPOWER }
 		x = 90
 		y = 0
@@ -734,7 +734,19 @@ focus_tree = {
 			}
 		}
 
-		bypass = {
+		completion_reward = { 
+			546 = {
+				add_building_construction = {
+						type = infrastructure
+						level = 2
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+                        type = industrial_complex
+                        level = 1
+                        instant_build = yes
+                    }
+			}
 			
 		}
 
@@ -762,8 +774,36 @@ focus_tree = {
 	}
 
 	focus = {
-		id = GER_lead_the_colonies
-		icon = GFX_ger_lead_the_colonies
+		id = GER_mobilize_askari_and_colonists
+		icon = GFX_GER_focus_colonial_fire
+		search_filters = { FOCUS_FILTER_MANPOWER }
+		x = 96
+		y = 4
+
+		cost = 8
+	
+		prerequisite = {
+			focus = GER_maji_maji_rebellion
+		}
+
+		available = {
+			country_exists = GER
+			GER = {
+				owns_state = 546
+			}
+		}
+		bypass = {
+			
+		}
+
+		completion_reward = { 
+			
+			
+		}				
+	}
+	focus = {
+		id = GER_launch_offensive_maji_maji
+		icon = GFX_goal_generic_territory_or_war
 		search_filters = { FOCUS_FILTER_MANPOWER }
 		x = 94
 		y = 1
@@ -781,6 +821,27 @@ focus_tree = {
 					is_subject_of = GER
 				}
 			}
+		}
+		bypass = {
+			
+		}
+
+		completion_reward = { 
+			
+			
+		}				
+	}
+	focus = {
+		id = GER_use_mgs_maji
+		icon = GFX_GER_focus_support_equip
+		search_filters = { FOCUS_FILTER_MANPOWER }
+		x = 92
+		y = 4
+
+		cost = 6
+	
+		prerequisite = {
+			focus = GER_maji_maji_rebellion
 		}
 
 		bypass = {
@@ -806,6 +867,17 @@ focus_tree = {
 				GNG = { add_autonomy_score = { value = -100 } }
 			}
 		}
+		bypass = {
+			
+		}
+
+		completion_reward = { 
+			546 = {
+				add_compliance = 0.15
+			}
+			
+			
+		}				
 	}
 
 	focus = {

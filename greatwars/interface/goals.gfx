@@ -301,6 +301,22 @@ spriteTypes = {
 	}
 
 	SpriteType = {
+		name = "GFX_GER_focus_bismarck"
+		texturefile = "gfx/interface/goals/ger/other/GER_focus_bismarck.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_GER_focus_german_colonial"
+		texturefile = "gfx/interface/goals/ger/GER_focus_german_colonial.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_focus_colonial_fire"
+		texturefile = "gfx/interface/goals/ger/GER_focus_colonial_fire.dds"
+	}
+
+	#PORTUGAL
+
+	SpriteType = {
 		name = "GFX_por_focus_a_republican_portugal"
 		texturefile = "gfx/interface/goals/por/POR_focus_a_republican_portugal.dds"
 	}
@@ -2821,5 +2837,12 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_AUS_focus_agreement"
 		texturefile = "gfx/interface/goals/AUS/AUS_focus_agreement.dds"
+	}
+
+	#GENERIC DGK
+
+	SpriteType = {
+		name = "GFX_generic_focus_ger_agreement"
+		texturefile = "gfx/interface/goals/generic/generic_focus_ger_agreement.dds"
 	}
 }
