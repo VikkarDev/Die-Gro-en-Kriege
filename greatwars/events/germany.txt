@@ -295,6 +295,7 @@ country_event = {
 	option = {
 		name = germany.15.a
 		ai_chance = { factor = 100 }
+		add_political_power = 15
 		send_equipment = {
     		equipment = artillery_equipment
     		amount = 30
@@ -333,6 +334,37 @@ country_event = {
     			instant_build = yes
 				}
 		}
+	}
+}
+country_event = {
+	id = germany.17
+	title = germany.17.t
+	desc = germany.17.d
+	picture = GFX_report_event_german_speech
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	trigger = {
+		tag = GER
+		CHI ={
+		has_completed_focus = CHI_1900_purchase_krupp_guns
+		}
+	}
+	option = {
+		name = germany.17.a
+		ai_chance = { factor = 100 }
+		add_political_power = 15
+		send_equipment = {
+    		equipment = infantry_equipment
+    		amount = 300
+    		target = CHI
+			}
+	}
+	option = {
+		name = germany.17.b
+		ai_chance = { factor = 0 }
+		add_political_power = -10
 	}
 }
 

@@ -27,7 +27,7 @@ focus_tree = {
 			}
 
 			completion_reward = { 
-                add_political_power = 30
+                add_political_power = 5
                 add_stability = 0.05
 			}
 		}
@@ -54,7 +54,7 @@ focus_tree = {
 
 			completion_reward = { 
                 country_event = china.1
-                add_political_power = 60
+                add_political_power = 15
                 
 			}
 		}
@@ -81,7 +81,7 @@ focus_tree = {
 			completion_reward = { 
 				white_peace = BOX
             	add_stability = 0.3
-            	add_manpower = 5000
+            	add_manpower = 50000
             	add_political_power = 100
             	add_war_support = 0.1
 			}
@@ -479,7 +479,7 @@ focus_tree = {
             completion_reward = { 
 			add_political_power = -25
 			add_opinion_modifier = { target = ENG modifier = large_increase }
-			add_opinion_modifier = { target = RUS modifier = large_increase }
+			add_opinion_modifier = { target = SOV modifier = large_increase }
             add_opinion_modifier = { target = FRA modifier = large_increase }
 		    add_opinion_modifier = { target = GER modifier = large_increase }
 			add_opinion_modifier = { target = ITA modifier = large_increase }
@@ -1165,6 +1165,7 @@ focus_tree = {
 			}
 
 			completion_reward = { 
+				army_experience = 25
             
 			}
 		}
@@ -1290,7 +1291,10 @@ focus_tree = {
 
 			available = {
 			}
-			completion_reward = {}
+			completion_reward = {
+				add_manpower = 10000
+				add_war_support = 0.15
+			}
 		}
 		focus = {
 			id = CHI_1900_resupply_arsenals
@@ -1370,7 +1374,10 @@ focus_tree = {
 			available = {
 			}
 			completion_reward = {
-
+				add_war_support = 0.05
+				add_stability = 0.05
+				army_experience = 30
+				add_political_power = -25
 			}
 		}
 		focus = {
@@ -1432,11 +1439,11 @@ focus_tree = {
 				
 			}
 			completion_reward = {
-				add_stability = 0.1
+				add_stability = 0.05
 				add_war_support = 0.15
 				add_political_power = 30
 				add_manpower = 5000
-				army_experience = -50
+				army_experience = -70
 				swap_ideas = {
     				remove_idea = CHI_outdated_army
     				add_idea = CHI_outdated_army_2
@@ -1483,6 +1490,34 @@ focus_tree = {
 				
 			}
 			completion_reward = {
+				add_political_power = -15
+				add_war_support = 0.05
+				add_equipment_to_stockpile = {
+    				type = infantry_equipment
+    				amount = 100
+    				producer = GER
+					}
+				add_equipment_to_stockpile = {
+    				type = infantry_equipment
+    				amount = 100
+    				producer = SOV
+				}
+				add_equipment_to_stockpile = {
+    				type = infantry_equipment
+    				amount = 100
+    				producer = ENG
+					}
+				hidden_effect = {
+					GER = {
+						add_political_power = 5
+					}
+					SOV = {
+						add_political_power = 5
+					}
+					ENG = {
+						add_political_power = 5
+					}
+				}
 
 			}
 		}
@@ -1603,6 +1638,9 @@ focus_tree = {
 				focus = CHI_1900_modernize_qing_equipment
 			}
 			available = {
+				NOT = {
+					has_war_with = GER
+				}
 
 			}
 
@@ -1630,8 +1668,8 @@ focus_tree = {
 
 			completion_reward  ={
 				random_owned_state  ={
-					add_extra_state_shared_building_slots = 3
-				    add_building_construction = { type = arms_factory level = 3 instant_build = yes }
+					add_extra_state_shared_building_slots = 2
+				    add_building_construction = { type = arms_factory level = 2 instant_build = yes }
 
 				}
 
@@ -3139,10 +3177,6 @@ focus_tree = {
 			y = 13
 
 			cost = 10
-
-			mutually_exclusive = {
-				focus = CHI_1900_suppress_chinese_minorities_pan_asianist
-			}
 
 			prerequisite = {
 				focus = CHI_1900_chinese_pan_asianism
