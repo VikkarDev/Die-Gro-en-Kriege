@@ -158,6 +158,17 @@ capital = 361
 		#elections_allowed = yes
 	}
 
+	set_technology = {
+		infantry_weapons = 1
+		infantry_weapons1 = 1
+		tech_support = 1		
+		tech_recon = 1
+		tech_engineers = 1
+		gw_artillery = 1
+		tech_support = 1
+		tech_logistics_company = 1
+	}
+
 	set_popularities = {
 		vanguard_communism = 0
 		social_egalitarianism = 2
