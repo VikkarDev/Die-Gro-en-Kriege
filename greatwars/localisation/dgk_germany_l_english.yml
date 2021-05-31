@@ -269,6 +269,33 @@ germany.13.t:0 "A New Course"
 germany.13.d:0 "Since Wilhelm II became the Kaiser, he has assumed direct control over Germany's policies. With this, he has embarked on a bellicose "New Course" to cement Germany's status as a world power.\n\nSubsequently, with him currently leading, Germany acquired territories in the Far East and made Germany become Europes largest manufacturer."
 germany.13.a:0 "Interesting."
 
+germany.15.t:0 "China wants to buy Krupp Guns"
+germany.15.d:0 "China has sent us a request to but Krupp Artillery guns for their modernization program."
+germany.15.a:0 "Accept their request"
+germany.15.b:0 "Deny their request"
+
+germany.16.t:0 "The Qingdao-Jinan Railway"
+germany.16.d:0 "German aristocrats with Chinese permission have finished building a railway from our Qingdao concession to the city of Jinan."
+germany.16.a:0 "Our influence grows stronger"
+
+germany.17.t:0 "China wants to buy Carbine rifles"
+germany.17.d:0 "China has sent us a request to but Carbines for their modernization program."
+germany.17.a:0 "We have guns to spare"
+germany.17.b:0 "We need the weapons"
+
+#COLONIAL EVENTS
+
+germany_colonial.1.t:0 "A Border Raid in Kamerun"
+
+germany_colonial.8.t:0 "Battles with the Fulbe"
+
+germany_colonial.9.t:0 "A Victory in Fulbe"
+germany_colonial.9.d:0 "During our engagement with the Fulbe tribes of Sokoto, our colonial forces attacked the much more numerous Fulbe soldiers. We utilized our superiror techonolgical advantage to completely destroy the Fulbe front line and we seized territory for Kamerun."
+
+germany_colonial.15.t:0 "Germany Enforces Border Agreement"
+germany_colonial.15.d:0 "With the German colonization of Cameroon and the British colonization of Nigeria, and our colonies in the French Congo, several border agreements were made. Because the Germans are expanding their empire into Sokoto's territory and taking the regions promised to them, we have been forced to give up some occupied territory to them that was promised."
+germany_colonial.15.a:0 "There wasn't much in the land anyway."
+
 # NATIONAL SPIRITS
 ########### Germany National Spirits Localisation ###########
 GER_wilhelm_ii:0 "Wilhelm II"

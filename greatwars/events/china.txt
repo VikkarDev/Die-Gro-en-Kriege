@@ -305,4 +305,153 @@ country_event = {
 		}
 	}
 }
-        
+country_event = {
+	id = china.9
+    title = china.9.t
+    desc = china.9.d
+    picture = GFX_report_event_imperial_conference
+	fire_only_once = yes
+
+	option = {
+        name = china.9.a
+		country_event = china.10
+		CHI = {
+			remove_ideas = CHI_foreign_concessions
+			transfer_state = 326
+			transfer_state = 745
+			transfer_state = 743
+			transfer_state = 811
+			transfer_state = 728
+			white_peace = {
+    			tag = GER
+    			message = "The Qing & the Boxers have defeated the 8 Nation Alliance."
+			}
+			white_peace = {
+    			tag = ENG
+    			message = "The Qing & the Boxers have defeated the 8 Nation Alliance."
+			}
+			white_peace = {
+    			tag = SOV
+    			message = "The Qing & the Boxers have defeated the 8 Nation Alliance."
+			}
+			white_peace = {
+    			tag = USA
+    			message = "The Qing & the Boxers have defeated the 8 Nation Alliance."
+			}
+			white_peace = {
+    			tag = JAP
+    			message = "The Qing & the Boxers have defeated the 8 Nation Alliance."
+			}
+			white_peace = {
+    			tag = FRA
+    			message = "The Qing & the Boxers have defeated the 8 Nation Alliance."
+			}
+			white_peace = {
+    			tag = BEL
+    			message = "The Qing & the Boxers have defeated the 8 Nation Alliance."
+			}
+			white_peace = {
+    			tag = HOL
+    			message = "The Qing & the Boxers have defeated the 8 Nation Alliance."
+			}
+			white_peace = {
+    			tag = SPR
+    			message = "The Qing & the Boxers have defeated the 8 Nation Alliance."
+			}
+			white_peace = {
+    			tag = ITA
+    			message = "The Qing & the Boxers have defeated the 8 Nation Alliance."
+			}
+			white_peace = {
+    			tag = AUS
+    			message = "The Qing & the Boxers have defeated the 8 Nation Alliance."
+			}
+			set_country_flag = CHI_1900_boxers_won
+			
+		}
+	}
+}
+country_event = {
+	id = china.11
+    title = china.11.t
+    desc = china.11.d
+    picture = GFX_report_event_imperial_conference
+	fire_only_once = yes
+	
+	option = {
+		name = china.11.a
+		CHI = {
+			add_ideas = CHI_boxer_protocols
+		}
+		MAN = {
+			set_cosmetic_tag = MAN_RUS_autocracy
+			transfer_state = 716
+			transfer_state = 328
+			transfer_state = 717
+			transfer_state = 714
+			transfer_state = 761
+		}
+			white_peace = {
+    			tag = GER
+    			message = "The Qing & the Boxers have lost to the 8 Nation Alliance."
+			}
+			white_peace = {
+    			tag = ENG
+    			message = "The Qing & the Boxers have lost to the 8 Nation Alliance."
+			}
+			white_peace = {
+    			tag = SOV
+    			message = "The Qing & the Boxers have lost to the 8 Nation Alliance."
+			}
+			white_peace = {
+    			tag = USA
+    			message = "The Qing & the Boxers have lost to the 8 Nation Alliance."
+			}
+			white_peace = {
+    			tag = JAP
+    			message = "The Qing & the Boxers have lost to the 8 Nation Alliance."
+			}
+			white_peace = {
+    			tag = FRA
+    			message = "The Qing & the Boxers have lost to the 8 Nation Alliance."
+			}
+			white_peace = {
+    			tag = BEL
+    			message = "The Qing & the Boxers have lost to the 8 Nation Alliance."
+			}
+			white_peace = {
+    			tag = HOL
+    			message = "The Qing & the Boxers have lost to the 8 Nation Alliance."
+			}
+			white_peace = {
+    			tag = SPR
+    			message = "The Qing & the Boxers have lost to the 8 Nation Alliance."
+			}
+			white_peace = {
+    			tag = ITA
+    			message = "The Qing & the Boxers have lost to the 8 Nation Alliance."
+			}
+			white_peace = {
+    			tag = AUS
+    			message = "The Qing & the Boxers have lost to the 8 Nation Alliance."
+			}
+		country_event = china.13
+	}
+}
+country_event = {
+	id = china.12
+    title = china.12.t
+    desc = china.12.d
+    picture = GFX_report_event_imperial_conference
+	fire_only_once = yes
+	is_triggered_only = yes
+
+
+	option = {
+		name = china.12.a
+		
+	}
+}
+
+
+
