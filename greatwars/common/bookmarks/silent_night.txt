@@ -67,17 +67,6 @@ bookmarks = {
 				
 			}			
 		}
-		TUR = {
-			history = TUR_SILENT_NIGHT_DESC
-			ideology = autocracy
-			ideas = {
-				TUR_sickman_of_europe
-				TUR_outdated_military
-			}	
-			focuses = {
-				
-			}		
-		}
 		SOV = {
 			history = SOV_SILENT_NIGHT_DESC
 			ideology = autocracy
@@ -92,20 +81,33 @@ bookmarks = {
 				RUS_new_limex
 			}
 		}
+		JAP = {
+			history = JAP_SILENT_NIGHT_DESC
+			ideology = traditional_conservatism
+			ideas = {
+				JAP_meiji_restoration
+				JAP_bushido_code
+				JAP_developed_rail_network
+			}	
+			focuses = {
+				JAP_genjo
+				JAP_the_manchurian_crisis
+				JAP_the_unthinkable_victory
+			}		
+		}
 
 		"---"={
 			history = "OTHER_BLITZKRIEG_DESC"
 		}
 
 		# minors from DLC ####
-		"JAP"={
+		"TUR"={
 			minor = yes
-			history = "JAP_SILENT_NIGHT_DESC"
-			ideology = traditional_conservatism
+			history = "TUR_SILENT_NIGHT_DESC"
+			ideology = autocracy
 			ideas = {
-				JAP_meiji_restoration
-				JAP_bushido_code
-				JAP_developed_rail_network
+				TUR_sickman_of_europe
+				TUR_outdated_military
 			}
 			focuses = {
 
@@ -123,6 +125,21 @@ bookmarks = {
 			focuses = {
 				SPR_continue_election_rigging_focus
 				SPR_propose_free_elections_focus
+			}
+		}
+		"CHI"={
+			minor = yes
+			history = "CHI_SILENT_NIGHT_DESC"
+			ideology = autocracy
+			ideas = {
+				CHI_outdated_army
+				CHI_legacy_sino_japanese_war
+				CHI_foreign_concessions
+			}
+			focuses = {
+				CHI_1900_chinese_politics
+				CHI_1900_end_imperial_rule
+				CHI_1900_continue_imperial_china
 			}
 		}
 		"POR"={
@@ -149,7 +166,9 @@ bookmarks = {
 				SER_legacy_of_serbo_bulgarian_war
 			}
 			focuses = {
-				
+				SER_down_with_the_obrenovic
+				SER_support_the_obrevonic
+				SER_first_serbian_republic
 			}
 		}
 
@@ -158,10 +177,13 @@ bookmarks = {
 			history = "KOR_SILENT_NIGHT_DESC"
 			ideology = autocracy
 			ideas = {
-				
+				kor_gwangmu_reform
+				kor_great_game
 			}
 			focuses = {
-				
+				KOR_with_independence_club
+				KOR_accept_of_article_vi_act
+				KOR_constitution
 			}
 		}
 
@@ -196,19 +218,17 @@ bookmarks = {
 			}
 		}
 
-		"CHI"={
+		"ROM"={
 			minor = yes
-			history = "CHI_SILENT_NIGHT_DESC"
-			ideology = Autocracy
+			history = "ROM_SILENT_NIGHT_DESC"
+			ideology = traditional_conservatism
 			ideas = {
-				CHI_outdated_army
-				CHI_legacy_sino_japanese_war
-				CHI_foreign_concessions
+
 			}
 			focuses = {
-				CHI_1900_chinese_politics
-				CHI_1900_end_imperial_rule
-				CHI_1900_continue_imperial_china
+				ROM_the_reign_of_carol_i
+				ROM_the_romanian_armed_forces
+				ROM_the_1901_election
 			}
 		}
 

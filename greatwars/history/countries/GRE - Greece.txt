@@ -8,7 +8,7 @@ capital = 47
 
 	set_convoys = 91
 
-	set_research_slots = 1
+	set_research_slots = 2
 	
 	add_ideas = {
 		# Starting Ideas
@@ -40,9 +40,9 @@ capital = 47
 	}
 
 	create_country_leader = {
-		name = "George I"
-		desc = GEORGE_I_LEADER_DESCRIPTION
-		picture = "George_I.dds"
+		name = "Georgios Theotokis Gotowy"
+		desc = GEORGIOS_THEOTOKIS_LEADER_DESCRIPTION
+		picture = "Georgios_Theotokis_Gotowy.tga"
 		ideology = social_liberal
 	}
 }
