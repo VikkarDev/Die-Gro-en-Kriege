@@ -67,17 +67,6 @@ bookmarks = {
 				
 			}			
 		}
-		TUR = {
-			history = TUR_SILENT_NIGHT_DESC
-			ideology = autocracy
-			ideas = {
-				TUR_sickman_of_europe
-				TUR_outdated_military
-			}	
-			focuses = {
-				
-			}		
-		}
 		SOV = {
 			history = SOV_SILENT_NIGHT_DESC
 			ideology = autocracy
@@ -92,25 +81,36 @@ bookmarks = {
 				RUS_new_limex
 			}
 		}
+		JAP = {
+			history = JAP_SILENT_NIGHT_DESC
+			ideology = traditional_conservatism
+			ideas = {
+				JAP_meiji_restoration
+				JAP_bushido_code
+				JAP_developed_rail_network
+			}	
+			focuses = {
+				JAP_genjo
+				JAP_the_manchurian_crisis
+				JAP_the_unthinkable_victory
+			}		
+		}
 
 		"---"={
 			history = "OTHER_BLITZKRIEG_DESC"
 		}
 
 		# minors from DLC ####
-		"JAP"={
+		"TUR"={
 			minor = yes
-			history = "JAP_SILENT_NIGHT_DESC"
-			ideology = traditional_conservatism
+			history = "TUR_SILENT_NIGHT_DESC"
+			ideology = autocracy
 			ideas = {
-				JAP_meiji_restoration
-				JAP_bushido_code
-				JAP_developed_rail_network
+				TUR_sickman_of_europe
+				TUR_outdated_military
 			}
 			focuses = {
-				JAP_genjo
-				JAP_the_manchurian_crisis
-				JAP_the_unthinkable_victory
+
 			}
 		}
 		"SPR"={
@@ -229,18 +229,6 @@ bookmarks = {
 				ROM_the_reign_of_carol_i
 				ROM_the_romanian_armed_forces
 				ROM_the_1901_election
-			}
-		}
-
-		"BUL"={
-			minor = yes
-			history = "BUL_SILENT_NIGHT_DESC"
-			ideology = radical_democracy
-			ideas = {
-
-			}
-			focuses = {
-				
 			}
 		}
 

@@ -130,3 +130,10 @@ SPR_vanguard_communism_party:0 "Partido Comunista Español"
 SPR_libertarian_socialism_party:0 "FAI"
 SPR_libertarian_socialism_party_long:0 "Federación Anarquista Ibérica"
 SPR_chauvinist_populism_party:0 "Unión Nacional"
+
+#GREECE
+
+GRE_social_liberalism_party:0 "NK"
+GRE_social_liberalism_party_long:0 "Neoteristikon Komma"
+GRE_traditional_conservatism_party:0 "KE"
+GRE_traditional_conservatism_party_long:0 "Kómma Ethnikofrónōn"

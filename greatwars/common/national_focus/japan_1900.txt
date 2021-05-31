@@ -1080,7 +1080,8 @@ focus_tree = {
 			GER = { add_opinion_modifier = { target = JAP modifier = diplomatic_envoy } }
 			FRA = { add_opinion_modifier = { target = JAP modifier = diplomatic_envoy } }
 			ITA = { add_opinion_modifier = { target = JAP modifier = diplomatic_envoy } }
-			HUN = { add_opinion_modifier = { target = JAP modifier = diplomatic_envoy } }
+			AUS = { add_opinion_modifier = { target = JAP modifier = diplomatic_envoy } }
+			USA = { add_opinion_modifier = { target = JAP modifier = diplomatic_envoy } }
 			SOV = { add_opinion_modifier = { target = JAP modifier = large_decrease } }
 		}
 	}
