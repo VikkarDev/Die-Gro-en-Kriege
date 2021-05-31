@@ -1,0 +1,76 @@
+﻿l_english:
+
+# FOCUS TREE
+########### 1900-1914 Focus Tree Localisation ###########
+
+
+########### Austria Country Names & Cosmetic Localisation ###########
+AUS_HUN_dual_centrism:0 "Austro-Hungarian Empire"
+AUS_HUN_dual_traditional_conservatism:0 "Austro-Hungarian Empire"
+AUS_HUN_dual_social_egalitarianism:0 "Austro-Hungarian Empire"
+AUS_HUN_dual_collectivist_socialism:0 "Austro-Hungarian Empire"
+AUS_HUN_dual_vanguard_communism:0 "Austro-Hungarian Empire"
+AUS_HUN_dual_autocracy:0 "Austro-Hungarian Empire"
+AUS_HUN_dual_radical_democracy:0 "Austro-Hungarian Empire"
+AUS_HUN_dual_chauvinist_populism:0 "Austro-Hungarian Empire"
+AUS_HUN_dual_centrism_DEF:0 "Austro-Hungarian Empire"
+AUS_HUN_dual_traditional_conservatism_DEF:0 "Austro-Hungarian Empire"
+AUS_HUN_dual_social_egalitarianism_DEF:0 "Austro-Hungarian Empire"
+AUS_HUN_dual_collectivist_socialism_DEF:0 "Austro-Hungarian Empire"
+AUS_HUN_dual_vanguard_communism_DEF:0 "Austro-Hungarian Empire"
+AUS_HUN_dual_autocracy_DEF:0 "Austro-Hungarian Empire"
+AUS_HUN_dual_radical_democracy_DEF:0 "Austro-Hungarian Empire"
+AUS_HUN_dual_chauvinist_populism_DEF:0 "Austro-Hungarian Empire"
+AUS_HUN_dual_centrism_ADJ:0 "Austro-Hungarian"
+AUS_HUN_dual_traditional_conservatism_ADJ:0 "Austro-Hungarian"
+AUS_HUN_dual_social_egalitarianism_ADJ:0 "Austro-Hungarian"
+AUS_HUN_dual_collectivist_socialism_ADJ:0 "Austro-Hungarian"
+AUS_HUN_dual_vanguard_communism_ADJ:0 "Austro-Hungarian"
+AUS_HUN_dual_autocracy_ADJ:0 "Austro-Hungarian"
+AUS_HUN_dual_radical_democracy_ADJ:0 "Austro-Hungarian"
+AUS_HUN_dual_chauvinist_populism_ADJ:0 "Austro-Hungarian"
+
+AUS_traditional_conservatism:0 "Republic of Austria"
+AUS_traditional_conservatism_DEF:0 "The Republic of Austria"
+AUS_traditional_conservatism_ADJ:0 "Austrian"
+AUS_chauvinist_populism:0 "Deutschsozialen Austria"
+AUS_chauvinist_populism_DEF:0 "Deutschsozialen Austria"
+AUS_autocracy:0 "Austrian Empire"
+AUS_autocracy_DEF:0 "Austrian Empire"
+AUS_centrism:0 "Republic of Austria"
+AUS_centrism_DEF:0 "The Republic of Austria"
+AUS_marxist_leninism:0 "Austrian Soviet Republic"
+AUS_marxist_leninism_DEF:0 "The Austrian Soviet Republic"
+AUS_autocracy:0 "Austrian Empire"
+AUS_autocracy_DEF:0 "The Austrian Empire"
+AUS_chauvinist_populism_ADJ:0 "Austrian"
+AUS_autocracy_ADJ:0 "Austrian"
+AUS_centrism_ADJ:0 "Austrian"
+AUS_marxist_leninism_ADJ:0 "Austrian"
+
+# EVENTS
+########### Austria Events Localisation ###########
+
+
+# NATIONAL SPIRITS
+########### Austria National Spirits Localisation ###########
+
+
+# PARTY NAMES
+########### Austria Party Names Localisation ###########
+AUS_traditional_conservatism_party:0 "AS"
+AUS_traditional_conservatism_party_long:0 "Autonomaška stranka"
+AUS_centrism_party:0 "OA"
+AUS_centrism_party_long:0 "Országos Alkotmánypárt"
+
+# MINISTERS
+########### Austria Ministers Localisation ###########
+
+
+# LEADER INFO
+########### Austria Leader Info Localisation ###########
+AUS_HOG_TITLE:0 "Premierminister"
+AUS_HOS_TITLE:0 "Kaiser"
+AUS_FRANZ_JOSEPH_NAME:0 "Franz Joseph"
+HEINRICH_RITTER_VON_WITTEK_LEADER_DESCRIPTION:0 "Description needed.
+FRANZ_JOSEPH_LEADER_DESCRIPTION:0 "Description needed."

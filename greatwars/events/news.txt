@@ -91,3 +91,14 @@ news_event = {
 		#ai_chance = { factor = 100 }
 	}
 }
+#RUSSIA INVADES MANCHURIA
+news_event = {
+	id = dgk_news.4
+	title = dgk_news.4.t
+	desc = dgk_news.4.d
+	picture = GFX_event_rus_man
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = { name = dkg_news.4.a days = 2}

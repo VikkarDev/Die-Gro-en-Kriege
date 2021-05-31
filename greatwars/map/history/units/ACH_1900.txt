@@ -1,0 +1,33 @@
+division_template = {
+	name = "name here"			# Infantry Division
+	# Note: also Fortress divisions
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		
+		
+
+ }	
+}
+units = {
+	######## LAND UNITS ########
+	division = {
+		#name = ""
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 1648
+		division_template = "name here"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+
+	}
+}

@@ -1,0 +1,27 @@
+ENG_seymour_expedition = {
+    take_Peking = {                           # This is our mission id
+          allowed = { tag = ENG } 
+          available = {
+              controls_state = 608
+          }
+          activation = {
+              has_war_with = CHI
+              is_in_faction_with = RUS
+              is_in_faction_with = ITA
+              is_in_faction_with = FRA
+              is_in_faction_with = GER
+              is_in_faction_with = USA
+              is_in_faction_with = AUS
+              is_in_faction_with = JAP
+                  }   
+            is_good = yes                           # This mission is color coded to be a positive thing (not a crisis)
+            selectable_mission = yes                # This mission will complete when the player selects the mission rather than completing automatically
+            days_mission_timeout = 30              # How many days before the mission fails?
+            timeout_effect = {                      # What happens when we fail the mission?
+               add_political_power = -50               # Lose 50 PP
+            }
+            complete_effect = {                    # What happens when we activate the mission i.e. mission success?
+               add_political_power = 50 
+          }
+    }
+}

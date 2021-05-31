@@ -246,3 +246,94 @@ country_event = {
 		ai_chance = { factor = 100 }
 	}
 }
+country_event = {
+	id = germany.14
+	title = germany.14.t
+	desc = germany.14.d
+	picture = GFX_report_event_german_speech
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	trigger = {
+		tag = GER
+		PHI = {
+		has_completed_focus = PHI_1900_german_guarantees
+		}
+	}
+	option = {
+		name = germany.14.a
+		ai_chance = { factor = 100 }
+		PHI = {
+			add_popularity = {
+				ideology = traditional_conservatism
+				popularity = 0.05
+			}
+		}
+		GER = {
+        	give_guarantee = PHI
+        	give_military_access = PHI
+		}
+
+	}
+}
+country_event = {
+	id = germany.15
+	title = germany.15.t
+	desc = germany.15.d
+	picture = GFX_report_event_german_speech
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	trigger = {
+		tag = GER
+		CHI ={
+		has_completed_focus = CHI_1900_purchase_krupp_guns
+		}
+	}
+	option = {
+		name = germany.15.a
+		ai_chance = { factor = 100 }
+		send_equipment = {
+    		equipment = artillery_equipment
+    		amount = 30
+    		target = CHI
+			}
+	}
+	option = {
+		name = germany.15.b
+		ai_chance = { factor = 0 }
+		add_political_power = -10
+	}
+}
+country_event = {
+	id = germany.16
+	title = germany.16.t
+	desc = germany.16.d
+	picture = GFX_report_event_german_speech
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	trigger = {
+		tag = GER
+		CHI ={
+		has_completed_focus = CHI_1900_qingdao_jinan_railway
+		}
+	}
+	option = {
+		name = germany.16.a
+		ai_chance = { factor = 100 }
+		add_political_power = 15
+		743 ={
+			set_building_level = {
+   				type = infrastructure
+    			level = 4
+    			instant_build = yes
+				}
+		}
+	}
+}
+
+

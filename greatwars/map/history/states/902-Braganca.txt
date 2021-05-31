@@ -1,0 +1,20 @@
+state={
+	id=902
+	name="STATE_902"
+	state_category = rural
+
+	history={
+		owner = POR
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+		}
+		add_core_of = POR
+	}
+
+	provinces={
+		877 3892 6941 
+	}
+	manpower=75912
+	buildings_max_level_factor=1.000
+}

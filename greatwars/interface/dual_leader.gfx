@@ -112,4 +112,16 @@ spriteTypes = {
 		name = "GFX_AUS_Franz_Joseph"
 		texturefile = "gfx/leaders/AUS/Franz_Joseph.tga"
 	}
+	
+	# SPAIN
+	spriteType = {
+		name = "GFX_SPR_Young_Alfonso_XIII"
+		texturefile = "gfx/leaders/SPR/Young_Alfonso_XIII.tga"
+	}
+
+	# CHINA
+	spriteType = {
+		name = "GFX_CHI_Guangxu"
+		texturefile = "gfx/leaders/CHI/Guangxu_Emperor.tga"
+	}
 }

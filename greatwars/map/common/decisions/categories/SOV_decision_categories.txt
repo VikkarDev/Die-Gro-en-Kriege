@@ -1,0 +1,36 @@
+sov_literacydes = {
+	icon = gre_paying_ifc_debt
+	picture = GFX_sov_liteacypic
+	priority = 10
+
+    visible = {
+		has_completed_focus	= RUS_new_fight
+	}
+
+	allowed = {
+	}
+}
+
+sov_crowded = {
+	icon = generic_industry
+	picture = GFX_sov_crowd
+	priority = 5
+
+    visible = {
+		has_completed_focus = RUS_new_morefac
+	}
+
+	allowed = {
+	}
+}
+
+sov_fear = {
+	icon = generic_propaganda
+	picture = GFX_sov_tsar
+	priority = 5
+  
+    visible = {
+	    has_completed_focus = RUS_new_prop
+	           }
+
+}

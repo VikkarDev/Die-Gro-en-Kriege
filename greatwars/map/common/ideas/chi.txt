@@ -1,0 +1,141 @@
+ideas ={
+    country = {
+        CHI_legacy_sino_japanese_war = {
+            picture = generic_victors_of_ww1
+
+            allowed ={
+                tag = CHI
+            }
+            modifier = {
+                stability_factor = -0.05
+                war_support_factor = -0.1
+                experience_gain_navy = -0.05
+                naval_attrition = 0.3
+                naval_coordination = -0.3
+                naval_critical_score_chance_factor = -0.1
+                naval_damage_factor = -0.3
+                naval_damage_factor = -0.3
+                naval_hit_chance = -0.3
+                naval_speed_factor = -0.25
+                naval_retreat_speed = -0.3
+                naval_morale_factor = -0.15
+                experience_gain_heavy_cruiser_combat_factor = -0.3
+                command_power_gain = -0.1
+            }
+        }
+        
+        CHI_low_legitimacy = {
+            picture = generic_victors_of_ww1
+
+            allowed ={
+                tag = CHI
+            }
+            modifier = {
+                stability_factor = -0.4
+                war_support_factor = -0.3
+                resistance_growth_on_our_occupied_states = 0.2
+                army_org = -10
+
+        }
+    }
+    CHI_minority_revolts = {
+        picture = generic_victors_of_ww1
+
+        allowed ={
+            tag = CHI
+            }
+        modifier = {
+            stability_factor = -0.1
+            war_support_factor = -0.1
+            army_org_regain = -0.1
+            army_org = -0.1
+            occupation_cost = 0.15
+            compliance_growth_on_our_occupied_states = 0.05
+             
+        }
+    }
+    CHI_agrarian_society = {
+        picture = generic_victors_of_ww1
+        allowed = {
+            tag = CHI
+        }
+        modifier = {
+            industrial_capacity_factory = -0.4
+            industrial_capacity_dockyard = -0.3
+            production_speed_buildings_factor = -0.3
+            production_factory_efficiency_gain_factor = -0.5 
+            production_factory_max_efficiency_factor = -0.5 
+            production_oil_factor = -0.5
+            production_lack_of_resource_penalty_factor = 0.3
+            research_speed_factor = -0.35 
+            consumer_goods_factor = 0.2
+            }
+
+        }
+    CHI_outdated_army = {
+        picture = generic_victors_of_ww1
+        allowed = {
+            tag = CHI
+        }
+        modifier = {
+            experience_loss_factor = 0.15
+            command_power_gain = -0.1
+            war_support_factor = -0.1
+            land_reinforce_rate = -0.3
+            military_leader_cost_factor = 0.5 
+            army_attack_factor = -0.3
+            army_defense_factor = -0.15
+            army_speed_factor = -0.15
+            army_morale = -10
+            army_org = -20
+            army_org_regain = -0.3
+            breakthrough_factor = -0.3
+            dig_in_speed = -0.5
+            experience_gain_army = -0.5
+            org_loss_when_moving = 0.2
+            planning_speed = -0.4
+            training_time_factor = 0.3
+
+            }
+        }
+    CHI_foreign_concessions = {
+        picture = generic_victors_of_ww1
+        allowed = {
+            tag = CHI
+        }
+        modifier = {
+            consumer_goods_factor = 0.05
+            stability_factor = -0.05
+            production_speed_buildings_factor = 0.1
+            war_support_factor = -0.05
+
+            }
+        }
+        CHI_manchu_support = {
+        picture = generic_victors_of_ww1
+        allowed = {
+            tag = CHI
+        }
+        modifier = {
+            stability_factor = 0.1
+            war_support_factor = 0.1
+            army_attack_factor = 0.05
+            army_morale = 5
+
+            }
+        }
+        CHI_mongol_support = {
+        picture = generic_victors_of_ww1
+        allowed = {
+            tag = CHI
+        }
+        modifier = {
+            stability_factor = 0.1
+            war_support_factor = 0.1
+            army_attack_factor = 0.05
+            army_morale = 5
+
+            }
+        }
+    }
+}

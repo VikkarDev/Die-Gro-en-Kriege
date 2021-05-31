@@ -4,9 +4,8 @@ state={
 
 	history={
 		owner = CHI
-		add_core_of = XSM
+		add_claim_by = TIB
 		add_core_of = CHI
-		add_core_of = PRC
 		victory_points = {
 			7940 10 
 		}

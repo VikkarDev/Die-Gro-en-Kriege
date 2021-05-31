@@ -16,7 +16,7 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Unknown"
+	name = "Li Hongzhang"
 	desc = ""
 	picture = ""
 	ideology = despotism

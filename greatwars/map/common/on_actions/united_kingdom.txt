@@ -1,0 +1,25 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			if = {
+				limit = {
+					has_start_date < 1900.1.2
+					NOT = {
+						has_global_flag = is_dgk_scripted_false
+					}
+				}
+			}
+
+			if = {
+				limit = {
+					has_start_date < 1900.1.2
+				}
+
+				ENG = {
+					set_country_flag = robert_cecil_vp
+					set_country_flag = victoria_leader
+				}
+			}
+		}
+	}
+}
