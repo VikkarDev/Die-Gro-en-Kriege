@@ -1,3 +1,0 @@
-ENG_seymour_expedition = {
-	icon = generic_political_actions
-}
