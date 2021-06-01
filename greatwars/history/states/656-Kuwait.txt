@@ -1,17 +1,22 @@
 state={
 	id=656
 	name="STATE_656"
-	manpower = 80000
+	resources={
+		oil=15.000
+	}
+	manpower = 50000
 	
 	state_category = rural
 	
 	history={
 		add_core_of = KUW
+		add_core_of = TUR
 		owner = ENG
 		victory_points = {
 			8085 1 
 		}
 		buildings = {
+			industrial_complex = 1
 			infrastructure = 4
 			8085 = {
 				naval_base = 4
