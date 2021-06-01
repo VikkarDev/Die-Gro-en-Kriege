@@ -311,6 +311,7 @@ country_event = {
     desc = china.9.d
     picture = GFX_report_event_imperial_conference
 	fire_only_once = yes
+	is_triggered_only = yes
 
 	option = {
         name = china.9.a
@@ -377,6 +378,7 @@ country_event = {
     desc = china.11.d
     picture = GFX_report_event_imperial_conference
 	fire_only_once = yes
+	is_triggered_only = yes
 	
 	option = {
 		name = china.11.a
