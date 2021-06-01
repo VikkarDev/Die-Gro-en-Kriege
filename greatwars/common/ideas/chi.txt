@@ -24,7 +24,7 @@ ideas ={
         }
         
         CHI_low_legitimacy = {
-            picture = generic_victors_of_ww1
+            picture = man_low_legitimacy
             allowed ={
                 tag = CHI
             }
@@ -111,7 +111,7 @@ ideas ={
             }
         }
     CHI_foreign_concessions = {
-        picture = generic_victors_of_ww1
+        picture = chi_foreign_concessions
         allowed = {
             tag = CHI
         }
