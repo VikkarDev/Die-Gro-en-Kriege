@@ -10,7 +10,7 @@ state={
 	history={
 		owner = TUR
 		victory_points = {
-			11818 
+			11818 20
 		}
 		add_core_of = GRE
 		buildings = {

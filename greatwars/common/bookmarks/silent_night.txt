@@ -81,18 +81,13 @@ bookmarks = {
 				RUS_new_limex
 			}
 		}
-		JAP = {
-			history = JAP_SILENT_NIGHT_DESC
+		ITA = {
+			history = ITA_SILENT_NIGHT_DESC
 			ideology = traditional_conservatism
 			ideas = {
-				JAP_meiji_restoration
-				JAP_bushido_code
-				JAP_developed_rail_network
 			}	
 			focuses = {
-				JAP_genjo
-				JAP_the_manchurian_crisis
-				JAP_the_unthinkable_victory
+				ITA_placeholder
 			}		
 		}
 
@@ -101,6 +96,22 @@ bookmarks = {
 		}
 
 		# minors from DLC ####
+		"JAP"={
+			minor = yes
+			history = "JAP_SILENT_NIGHT_DESC"
+			ideology = autocracy
+			ideas = {
+				JAP_meiji_restoration
+				JAP_bushido_code
+				JAP_developed_rail_network
+			}
+			focuses = {
+				JAP_the_manchurian_crisis
+				JAP_genjo
+				JAP_the_unthinkable_victory
+
+			}
+		}
 		"TUR"={
 			minor = yes
 			history = "TUR_SILENT_NIGHT_DESC"
@@ -110,6 +121,7 @@ bookmarks = {
 				TUR_outdated_military
 			}
 			focuses = {
+				TUR_placeholder
 
 			}
 		}
@@ -200,35 +212,6 @@ bookmarks = {
 				SWE_break_neutrality
 				SWE_expand_civilian_work
 				SWE_steel_foc
-			}
-		}
-		
-		"RAJ"={
-			minor = yes
-			history = "RAJ_SILENT_NIGHT_DESC"
-			ideology = traditional_conservatism
-			ideas = {
-				RAJ_heavy_british_garrison
-				RAJ_failing_economy
-			}
-			focuses = {
-				RAJ_indian_national_congress_elections
-				RAJ_import_british_guns
-				RAJ_challenge_the_muslim_league
-			}
-		}
-
-		"ROM"={
-			minor = yes
-			history = "ROM_SILENT_NIGHT_DESC"
-			ideology = traditional_conservatism
-			ideas = {
-
-			}
-			focuses = {
-				ROM_the_reign_of_carol_i
-				ROM_the_romanian_armed_forces
-				ROM_the_1901_election
 			}
 		}
 

@@ -9,8 +9,8 @@ autonomy_state = {
 	manpower_influence = 0.7
 	
 	rule = {
-		can_not_declare_war = yes
-		can_decline_call_to_war = no
+		can_not_declare_war = no
+		can_decline_call_to_war = yes
 		can_be_spymaster = no
 		contributes_operatives = no
 		can_create_collaboration_government = no
@@ -20,11 +20,11 @@ autonomy_state = {
 		autonomy_manpower_share = 0.7
 		can_master_build_for_us = 1
 		conscription_factor = -0.25
-		extra_trade_to_overlord_factor = 0.6
-		overlord_trade_cost_factor = -0.6
+		extra_trade_to_overlord_factor = 0.3
+		overlord_trade_cost_factor = -0.3
 		cic_to_overlord_factor = 0.25
 		license_subject_master_purchase_cost = -1
-		autonomy_gain_global_factor = -0.3
+		autonomy_gain_global_factor = -0.1
 	}
 	
 	ai_subject_wants_higher = {
@@ -36,7 +36,7 @@ autonomy_state = {
 	}
 
 	ai_overlord_wants_garrison = {
-		always = no
+		always = yes
 	}
 
 	allowed = {
