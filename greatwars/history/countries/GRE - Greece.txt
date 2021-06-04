@@ -40,9 +40,9 @@ capital = 47
 	}
 
 	create_country_leader = {
-		name = "Georgios Theotokis Gotowy"
+		name = "Georgios Theotokis"
 		desc = GEORGIOS_THEOTOKIS_LEADER_DESCRIPTION
-		picture = "Georgios_Theotokis_Gotowy.tga"
+		picture = "Georgios_Theotokis.tga"
 		ideology = social_liberal
 	}
 }

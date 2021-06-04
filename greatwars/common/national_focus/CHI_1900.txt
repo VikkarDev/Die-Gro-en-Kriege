@@ -563,8 +563,8 @@ focus_tree = {
 			id = CHI_1900_continue_imperial_china
 			icon = GFX_CHI_focus_continue_imperial_rule
 			search_filters = { FOCUS_FILTER_POLITICAL }
-			x = 18
-			y = 2
+			x = 21
+			y = 1
 			prerequisite = {
 				focus = CHI_1900_chinese_politics
 			}
@@ -591,8 +591,8 @@ focus_tree = {
 			id = CHI_1900_end_imperial_rule
 			icon = GFX_CHI_focus_end_imperial_rule
 			search_filters = { FOCUS_FILTER_POLITICAL }
-			x = 32
-			y = 2
+			x = 30
+			y = 1
 			prerequisite = {
 				focus = CHI_1900_chinese_politics
 			}
@@ -619,7 +619,7 @@ focus_tree = {
 			id = CHI_1900_legacy_1898_coup
 			icon = GFX_CHI_focus_1898_coup
 			search_filters = { FOCUS_FILTER_POLITICAL }
-			x = 38
+			x = 35
 			y = 3
 			prerequisite = {
 				focus = CHI_1900_end_imperial_rule
@@ -642,7 +642,7 @@ focus_tree = {
 			id = CHI_1900_sun_yat_sen
 			icon = GFX_CHI_focus_go_with_sun_yat_sen
 			search_filters = { FOCUS_FILTER_POLITICAL }
-			x = 26
+			x = 25
 			y = 3
 			prerequisite = {
 				focus = CHI_1900_end_imperial_rule
@@ -1119,7 +1119,7 @@ focus_tree = {
 		focus = {
 			id = CHI_1900_qing_army
 			icon = GFX_CHI_focus_Qing_Army
-			x = 51
+			x = 50
 			y = 2
 
 			cost = 10
@@ -1171,7 +1171,7 @@ focus_tree = {
 		}
 		focus = {
 			id = CHI_1900_our_soldiers_and_tactics
-			icon = GFX_SOV_focus_state_duma
+			icon = GFX_ENG_focus_briish_ppl
 			x = 45
 			y = 4
 
@@ -1312,33 +1312,6 @@ focus_tree = {
 			}
 			completion_reward = {}
 		}
-
-		focus = {
-			id = CHI_1900_military_situation
-			icon = GFX_CHI_focus_Qing_Army
-			x = 51
-			y = 7
-
-			cost = 10
-
-			prerequisite = {
-				focus = CHI_1900_light_unit_tactics
-				focus = CHI_1900_mass_infantry_attacks
-			}
-			prerequisite = {
-				focus = CHI_1900_resupply_arsenals
-			}
-			prerequisite = {
-				focus = CHI_1900_rebuild_armies
-			}
-			prerequisite = {
-				focus = CHI_1900_appoint_yuan_governer_of_peking
-			}
-
-			available = {
-			}
-			completion_reward = {}
-		}
 		focus = {
 			id = CHI_1900_yuan_become_beiyang_leader
 			icon = GFX_CHI_focus_yuan_beiyang_army_leader
@@ -1383,13 +1356,17 @@ focus_tree = {
 		focus = {
 			id = CHI_1900_smaller_regional_armies
 			icon = GFX_SOV_focus_state_duma
-			x = 51
+			x = 47
 			y = 8
 
 			cost = 10
 
 			prerequisite = {
-				focus = CHI_1900_military_situation
+				focus = CHI_1900_put_out_boxers
+			}
+			prerequisite = {
+				focus = CHI_1900_light_unit_tactics
+				focus = CHI_1900_mass_infantry_attacks
 			}
 
 			available = {
@@ -1403,13 +1380,16 @@ focus_tree = {
 			id = CHI_1900_put_out_boxers
 			icon = GFX_CHI_end_imperial_rule
 			x = 49
-			y = 8
+			y = 6
 
 			cost = 10
 
 			prerequisite = {
-				focus = CHI_1900_military_situation
+				focus = CHI_1900_rebuild_armies
 #After boxer protocols happen, Qing will have events about Boxer resistance that damage buildings, to combat this, Qing have to do focuses to fight them
+			}
+			prerequisite = {
+				focus = CHI_1900_resupply_arsenals
 			}
 
 			available = {
@@ -1422,7 +1402,7 @@ focus_tree = {
 		focus = {
 			id = CHI_1900_continue_8_banners_system
 			icon = GFX_CHI_focus_end_imperial_rule
-			x = 50
+			x = 45
 			y = 9
 
 			cost = 10
@@ -1454,7 +1434,7 @@ focus_tree = {
 		focus = {
 			id = CHI_1900_get_foriegn_training
 			icon = GFX_SOV_focus_state_duma
-			x = 52
+			x = 49
 			y = 9
 
 			cost = 10
@@ -1477,7 +1457,7 @@ focus_tree = {
 		focus = {
 			id = CHI_1900_replace_spears_with_rifles
 			icon = GFX_SOV_focus_state_duma
-			x = 52
+			x = 49
 			y = 10
 
 			cost = 10
@@ -1524,7 +1504,7 @@ focus_tree = {
 		focus = {
 			id = CHI_1900_traditional_sytems
 			icon = GFX_SOV_focus_state_duma
-			x = 50
+			x = 45
 			y = 10
 
 			cost = 10
@@ -1543,7 +1523,7 @@ focus_tree = {
 		focus = {
 			id = CHI_1900_each_serves_purpose
 			icon = GFX_SOV_focus_state_duma
-			x = 51
+			x = 47
 			y = 11
 
 			cost = 10
@@ -1563,13 +1543,13 @@ focus_tree = {
 		focus = {
 			id = CHI_1900_modernizing_the_beiyang_army
 			icon = GFX_CHI_focus_modern_beiyang_army
-			x = 55
-			y = 8
+			x = 53
+			y = 6
 
 			cost = 10
 
 			prerequisite = {
-				focus = CHI_1900_military_situation
+				focus = CHI_1900_appoint_yuan_governer_of_peking
 			}
 
 			available = {
@@ -1584,8 +1564,8 @@ focus_tree = {
 		focus = {
 			id = CHI_1900_modernize_qing_equipment
 			icon = GFX_SOV_focus_state_duma
-			x = 59
-			y = 8
+			x = 57
+			y = 5
 
 			cost = 10
 
@@ -1603,8 +1583,8 @@ focus_tree = {
 		focus = {
 			id = CHI_1900_purchase_krupp_guns
 			icon = GFX_GER_focus_artillery
-			x = 58
-			y = 9
+			x = 56
+			y = 6
 
 			cost = 10
 
@@ -1629,8 +1609,8 @@ focus_tree = {
 		focus = {
 			id = CHI_1900_buy_modern_carbines
 			icon = GFX_generic_focus_gun_license
-			x = 60
-			y = 9
+			x = 58
+			y = 6
 
 			cost = 10
 
@@ -1651,8 +1631,8 @@ focus_tree = {
 		focus = {
 			id = CHI_1900_construct_military_factories_modernize
 			icon = GFX_GER_focus_artillery
-			x = 59
-			y = 10
+			x = 57
+			y = 7
 
 			cost = 7
 
@@ -1678,8 +1658,8 @@ focus_tree = {
 		focus = {
 			id = CHI_1900_appoint_german_and_japanese_officers
 			icon = GFX_generic_focus_better_officers
-			x = 54
-			y = 9
+			x = 52
+			y = 7
 
 			cost = 10
 
@@ -1696,9 +1676,9 @@ focus_tree = {
 		}
 		focus = {
 			id = CHI_1900_found_baoding_military_academy
-			icon = GFX_SOV_focus_state_duma
-			x = 56
-			y = 9
+			icon = GFX_generic_focus_academy_military
+			x = 54
+			y = 7
 
 			cost = 10
 
@@ -1716,8 +1696,8 @@ focus_tree = {
 		focus = {
 			id = CHI_1900_continue_army_expansion_beiyang
 			icon = GFX_SOV_focus_state_duma
-			x = 55
-			y = 10
+			x = 53
+			y = 8
 
 			cost = 10
 
@@ -1738,8 +1718,8 @@ focus_tree = {
 		focus = {
 			id = CHI_1900_engineers
 			icon = GFX_SOV_focus_state_duma
-			x = 54
-			y = 11
+			x = 51
+			y = 9
 
 			cost = 10
 
@@ -1757,8 +1737,8 @@ focus_tree = {
 		focus = {
 			id = CHI_1900_lay_telegraph_lines
 			icon = GFX_SOV_focus_state_duma
-			x = 56
-			y = 11
+			x = 55
+			y = 9
 
 			cost = 10
 
@@ -1781,8 +1761,8 @@ focus_tree = {
 		focus = {
 			id = CHI_1900_most_modern_army_china_beiyang_army
 			icon = GFX_CHI_focus_modern_beiyang_army
-			x = 55
-			y = 12
+			x = 53
+			y = 10
 
 			cost = 10
 
@@ -2748,7 +2728,7 @@ focus_tree = {
 		}
 		focus = {
 			id = CHI_1900_introduce_farming_equipment
-			icon = GFX_GER_focus_agriculture_innovation
+			icon = GFX_CHI_focus_tractor
 			x = 85
 			y = 3
 
@@ -2825,7 +2805,7 @@ focus_tree = {
 			}
 		focus = {
 			id = CHI_1900_maintain_society
-			icon = GFX_SOV_focus_state_duma
+			icon = GFX_CHI_focus_agriculture
 			x = 87
 			y = 4
 

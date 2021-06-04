@@ -112,7 +112,7 @@ technologies = {
 		}		
 
 		research_cost = 1.5
-		start_year = 1902
+		start_year = 1903
 		folder = {
 			name = infantry_folder
 			position = { x = 0 y = @1938 }

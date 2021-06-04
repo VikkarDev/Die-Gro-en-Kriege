@@ -344,7 +344,7 @@ focus_tree = {
 
 	focus = {
         id = SER_attempt_reconcilitation_with_bulgaria
-        icon = GFX_ser_attempt_reconcilitation_with_bulgaria
+        icon = GFX_SER_focus_bulgaria_agreement
         search_filters = { FOCUS_FILTER_POLITICAL }
         x = 4
         y = 9
