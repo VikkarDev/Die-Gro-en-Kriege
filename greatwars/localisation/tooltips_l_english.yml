@@ -1,7 +1,0 @@
-﻿l_english:
-
- allied_partner_opinions:0 "While this National Spirit is active, we will have improved relations with §BFrance§![FRA.GetFlag]"
- head_of_gov_available:0 "§RHeads of government can't be changed manually.§!"
- foreign_minister_available:0 "§RForeign ministers can't be changed manually.§!"
- economic_minister_available:0 "§REconomic ministers can't be changed manually.§!"
- interior_minister_available:0 "§REconomic ministers can't be changed manually.§!"
