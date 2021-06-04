@@ -1,0 +1,23 @@
+capital = 597
+
+OOB = "SHA_1900"
+
+set_convoys = 45
+
+set_research_slots = 2
+
+set_politics = {
+	ruling_party = autocracy
+	elections_allowed = no
+}
+
+set_popularities = {
+	autocracy = 100
+}
+
+create_country_leader = {
+	name = "Yuan Shikai"
+	desc = ""
+	portrait_path = "Yuan_Shikai.tga"
+	ideology = despotism
+}

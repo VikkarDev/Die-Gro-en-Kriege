@@ -1,0 +1,23 @@
+
+state={
+	id=937
+	name="STATE_937"
+
+	history={
+		owner = RAB
+		add_core_of = RAB
+		add_core_of = CHA
+		buildings = {
+			infrastructure = 2
+
+		}
+
+	}
+
+	provinces={
+		2081 3123 5136 13138 
+	}
+	manpower=21049
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

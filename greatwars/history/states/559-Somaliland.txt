@@ -1,0 +1,21 @@
+
+state={
+	id=559
+	name="STATE_559"
+
+	history={
+		owner = ITA
+		add_core_of = SOM
+		buildings = {
+			infrastructure = 3
+		}
+
+	}
+
+	provinces={
+		1964 1966 4909 5065 10818 10891 12840 12991 
+	}
+	manpower=728895
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,21 @@
+state={
+	id=939
+	name="STATE_939"
+	state_category = rural
+
+	history = {
+		owner = SEN
+		add_core_of = SEN
+		add_core_of = EGY
+
+		buildings = {
+			infrastructure = 2
+		}
+	}
+
+	provinces={
+		10907 12733 12764 
+	}
+	manpower=59103
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,16 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			if = {
+				limit = {
+					has_start_date < 1900.1.2
+				}
+
+				FRA = {
+					set_country_flag = pierre_rousseau_vp
+					set_country_flag = emile_leader
+				}
+			}
+		}
+	}
+}

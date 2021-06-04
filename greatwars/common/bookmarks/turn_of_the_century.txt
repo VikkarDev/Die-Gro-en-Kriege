@@ -1,0 +1,92 @@
+bookmarks = {
+	bookmark = {
+		name = "TURN_OF_THE_CENTURY_NAME"
+		desc = "TURN_OF_THE_CENTURY_DESC"
+		date = 1914.7.28.12
+		picture = "GFX_dgk_1914_bookmark"
+		default_country = "GER"
+	
+		FRA = {
+			history = FRA_BLITZKRIEG_DESC
+			ideology = centrism
+			ideas = {
+
+			}
+			focuses = {
+
+			}
+		}
+		USA = {
+			history = USA_BLITZKRIEG_DESC
+			ideology = traditional_conservatism
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		ENG = {
+			history = ENG_TURN_OF_THE_CENTURY_DESC
+			ideology = traditional_conservatism
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+			
+		}
+		GER = {
+			history = GER_TURN_OF_THE_CENTURY_DESC
+			ideology = autocracy
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		TUR = {
+			history = ITA_BLITZKRIEG_DESC
+			ideology = chauvinist_populism
+			ideas={
+				
+			}
+			focuses = {
+				
+			}			
+		}
+		HUN = {
+			history = HUN_TURN_OF_THE_CENTURY
+			ideology = chauvinist_populism
+			ideas = {
+				
+			}	
+			focuses = {
+				
+			}		
+		}
+		SOV = {
+			history = SOV_BLITZKRIEG_DESC
+			ideology = vanguard_communism
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+
+		"---"={
+			history = "OTHER_BLITZKRIEG_DESC"
+		}
+
+		# minors from DLC ####
+
+		effect = {
+			randomize_weather = 12345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

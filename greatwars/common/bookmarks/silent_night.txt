@@ -1,0 +1,240 @@
+bookmarks = {
+	bookmark = {
+		name = "SILENT_NIGHT_NAME"
+		desc = "SILENT_NIGHT_DESC"
+		date = 1900.1.1.12
+		picture = "GFX_dgk_1900_bookmark"
+		default_country = "GER"
+	
+		FRA = {
+			history = FRA_SILENT_NIGHT_DESC
+			ideology = centrism
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		AUS = {
+			history = AUSHUN_SILENT_NIGHT_DESC
+			ideology = centrism
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		ENG = {
+			history = ENG_SILENT_NIGHT_DESC
+			ideology = traditional_conservatism
+			ideas = {
+				ENG_overextended_empire
+				ENG_pax_britannica
+				ENG_victorian_era
+			}
+			focuses = {
+				ENG_continue_isolationism
+				ENG_irish_question
+				ENG_second_boer_war
+			}
+			
+		}
+		GER = {
+			history = GER_SILENT_NIGHT_DESC
+			ideology = social_liberalism
+			ideas = {
+				GER_german_army
+				GER_german_colonies
+				GER_naval_arms_race
+			}
+			focuses = {
+				GER_weltpolitik
+				GER_state_of_the_triple_alliance
+				GER_imperial_german_army
+			}
+		}
+		USA = {
+			history = USA_SILENT_NIGHT_DESC
+			ideology = traditional_conservatism
+			ideas = {
+				USA_jim_crow_laws
+				USA_the_two_party_system
+				USA_scars_of_1865
+			}
+			focuses = {
+				
+			}			
+		}
+		SOV = {
+			history = SOV_SILENT_NIGHT_DESC
+			ideology = autocracy
+			ideas = {
+				SOV_crowd
+				SOV_fear_of_revolution
+				SOV_long_live_the_tsar
+			}
+			focuses = {
+				RUS_new_noagri
+				RUS_new_orth
+				RUS_new_limex
+			}
+		}
+		JAP = {
+			history = JAP_SILENT_NIGHT_DESC
+			ideology = traditional_conservatism
+			ideas = {
+				JAP_meiji_restoration
+				JAP_bushido_code
+				JAP_developed_rail_network
+			}	
+			focuses = {
+				JAP_genjo
+				JAP_the_manchurian_crisis
+				JAP_the_unthinkable_victory
+			}		
+		}
+
+		"---"={
+			history = "OTHER_BLITZKRIEG_DESC"
+		}
+
+		# minors from DLC ####
+		"TUR"={
+			minor = yes
+			history = "TUR_SILENT_NIGHT_DESC"
+			ideology = autocracy
+			ideas = {
+				TUR_sickman_of_europe
+				TUR_outdated_military
+			}
+			focuses = {
+
+			}
+		}
+		"SPR"={
+			minor = yes
+			history = "SPR_SILENT_NIGHT_DESC"
+			ideology = radical_democracy
+			ideas = {
+				SPR_memories_of_the_spanish_american_war_idea
+				SPR_rigged_elections_idea
+				SPR_an_empire_in_decline_idea
+			}
+			focuses = {
+				SPR_continue_election_rigging_focus
+				SPR_propose_free_elections_focus
+			}
+		}
+		"CHI"={
+			minor = yes
+			history = "CHI_SILENT_NIGHT_DESC"
+			ideology = autocracy
+			ideas = {
+				CHI_outdated_army
+				CHI_legacy_sino_japanese_war
+				CHI_foreign_concessions
+			}
+			focuses = {
+				CHI_1900_chinese_politics
+				CHI_1900_end_imperial_rule
+				CHI_1900_continue_imperial_china
+			}
+		}
+		"POR"={
+			minor = yes
+			history = "POR_SILENT_NIGHT_DESC"
+			ideology = traditional_conservatism
+			ideas = {
+				POR_unstable_monarchy
+				POR_poor_economy
+				POR_overstreched_empire
+			}
+			focuses = {
+				POR_the_kings_portugal
+				POR_recovering_economy_focus
+				POR_appoint_ernesto_hintze_ribeiro
+			}
+		}
+		"SER"={
+			minor = yes
+			history = "SER_SILENT_NIGHT_DESC"
+			ideology = traditional_conservatism
+			ideas = {
+				SER_unpopular_monarchy
+				SER_legacy_of_serbo_bulgarian_war
+			}
+			focuses = {
+				SER_down_with_the_obrenovic
+				SER_support_the_obrevonic
+				SER_first_serbian_republic
+			}
+		}
+
+		"KOR"={
+			minor = yes
+			history = "KOR_SILENT_NIGHT_DESC"
+			ideology = autocracy
+			ideas = {
+				kor_gwangmu_reform
+				kor_great_game
+			}
+			focuses = {
+				KOR_with_independence_club
+				KOR_accept_of_article_vi_act
+				KOR_constitution
+			}
+		}
+
+		"SWE"={
+			minor = yes
+			history = "SWE_SILENT_NIGHT_DESC"
+			ideology = social_liberalism
+			ideas = {
+				SWE_Swedish_neutrality
+				SWE_Undeveloped_North_Region
+				SWE_swed_nor_union
+			}
+			focuses = {
+				SWE_break_neutrality
+				SWE_expand_civilian_work
+				SWE_steel_foc
+			}
+		}
+		
+		"RAJ"={
+			minor = yes
+			history = "RAJ_SILENT_NIGHT_DESC"
+			ideology = traditional_conservatism
+			ideas = {
+				RAJ_heavy_british_garrison
+				RAJ_failing_economy
+			}
+			focuses = {
+				RAJ_indian_national_congress_elections
+				RAJ_import_british_guns
+				RAJ_challenge_the_muslim_league
+			}
+		}
+
+		"ROM"={
+			minor = yes
+			history = "ROM_SILENT_NIGHT_DESC"
+			ideology = traditional_conservatism
+			ideas = {
+
+			}
+			focuses = {
+				ROM_the_reign_of_carol_i
+				ROM_the_romanian_armed_forces
+				ROM_the_1901_election
+			}
+		}
+
+		effect = {
+			randomize_weather = 12345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

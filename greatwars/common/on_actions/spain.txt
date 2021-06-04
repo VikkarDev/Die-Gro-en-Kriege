@@ -1,0 +1,16 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			if = {
+				limit = {
+					has_start_date < 1900.1.2
+				}
+
+				SPR = {
+					set_country_flag = alfonso_leader_vp
+					set_country_flag = francisco_silvela
+				}
+			}
+		}
+	}
+}

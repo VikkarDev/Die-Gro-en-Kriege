@@ -1,0 +1,104 @@
+add_namespace = dgk_news
+
+# EIGHT-NATION ALLIANCE FORMED
+news_event = {
+	id = dgk_news.1
+	title = dgk_news.1.t
+	desc = dgk_news.1.d
+	picture = GFX_news_event_057
+
+	is_triggered_only = yes
+
+	option = {
+		name = dgk_news.1.a
+
+		trigger = {
+			NOT = {
+				TAG = CHI
+			}
+		}
+		#ai_chance = { factor = 100 }
+	}
+
+	option = {
+		name = dgk_news.1.b
+
+		trigger = {
+			TAG = CHI
+		}
+		#ai_chance = { factor = 100 }
+	}
+}
+
+# PEACE BETWEEN 8 NATIONS AND QING
+news_event = {
+	id = dgk_news.2
+	title = dgk_news.2.t
+	desc = dgk_news.2.d
+	picture = GFX_news_event_generic_read_write
+
+	is_triggered_only = yes
+
+	option = {
+		name = dgk_news.2.a
+
+		trigger = {
+			NOT = {
+				TAG = CHI
+			}
+		}
+		#ai_chance = { factor = 100 }
+	}
+
+	option = {
+		name = dgk_news.2.b
+
+		trigger = {
+			TAG = CHI
+		}
+		#ai_chance = { factor = 100 }
+	}
+}
+
+# RUSSO-JAPANESE WAR
+news_event = {
+	id = dgk_news.3
+	title = dgk_news.3.t
+	desc = dgk_news.3.d
+	picture = GFX_news_russo-japanese_war
+
+	is_triggered_only = yes
+
+	option = {
+		name = dgk_news.3.a
+
+		trigger = {
+			NOT = {
+				TAG = SOV
+				TAG = JAP
+			}
+		}
+		#ai_chance = { factor = 100 }
+	}
+
+	option = {
+		name = dgk_news.3.b
+
+		trigger = {
+			TAG = JAP
+			TAG = SOV
+		}
+		#ai_chance = { factor = 100 }
+	}
+}
+#RUSSIA INVADES MANCHURIA
+news_event = {
+	id = dgk_news.4
+	title = dgk_news.4.t
+	desc = dgk_news.4.d
+	picture = GFX_event_rus_man
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = { name = dkg_news.4.a days = 2}

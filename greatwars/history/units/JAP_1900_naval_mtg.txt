@@ -1,0 +1,93 @@
+##### OOB #####
+units = {
+### IJN ###
+	#Yokosuka (Tokyo)
+	fleet = {
+		name = "Combined Fleet"			
+		naval_base = 9998  #Yokosuka
+		task_force = {
+			name = "IJN First Squadron"
+			location = 9998  #Yokosuka
+			ship = { name = "Mikasa"  pride_of_the_fleet = yes definition = battleship equipment = { ship_hull_heavy_3 = {amount = 1 owner = JAP version_name = "Mikasa Class" } } }
+			ship = { name = "Shikishima" definition = battleship equipment = { ship_hull_heavy_2 = {amount = 1 owner = JAP} version_name = "Shikishima Class"} }
+			ship = { name = "Fuji" definition = battleship equipment = { ship_hull_heavy_2 = {amount = 1 owner = JAP} } }
+			ship = { name = "Asahi" definition = battleship equipment = { ship_hull_heavy_2 = {amount = 1 owner = JAP} version_name = "Shikishima Class"} }
+			ship = { name = "Kasuga" definition = battleship equipment = { ship_hull_heavy_2 = {amount = 1 owner = JAP version_name = "Kasuga Class"} } }
+			ship = { name = "Nisshin" definition = battleship equipment = { ship_hull_heavy_2 = {amount = 1 owner = JAP version_name = "Kasuga Class"} } }
+            ship = { name = "Harusame" definition = destroyer equipment = { ship_hull_light_2 = {amount = 1 owner = JAP version_name = "Harusame Class"} } }
+            ship = { name = "Fubuki" definition = destroyer equipment = { ship_hull_light_2 = {amount = 1 owner = JAP version_name = "Harusame Class"} } }
+            ship = { name = "Ariake" definition = destroyer equipment = { ship_hull_light_2 = {amount = 1 owner = JAP version_name = "Harusame Class"} } }
+            ship = { name = "Inazuma" definition = destroyer equipment = { ship_hull_light_2 = {amount = 1 owner = JAP version_name = "Ikazuchi Class"} } }
+            ship = { name = "Ikazuchi" definition = destroyer equipment = { ship_hull_light_2 = {amount = 1 owner = JAP version_name = "Ikazuchi Class"} } }
+            ship = { name = "Akebono" definition = destroyer equipment = { ship_hull_light_2 = {amount = 1 owner = JAP version_name = "Ikazuchi Class"} } }
+            ship = { name = "Aotaka" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Hayabusa Class"} } }
+            ship = { name = "Kari" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Hayabusa Class"} } }
+            ship = { name = "Tsubame" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Hayabusa Class"} } }
+            ship = { name = "Hato" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Hayabusa Class"} } }
+            ship = { name = "Kasagi" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = {amount = 1 owner = JAP version_name = "Kasagi Class"} } }
+            ship = { name = "Chitose" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = {amount = 1 owner = JAP version_name = "Kasagi Class"} } }
+            ship = { name = "Niitaka" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = {amount = 1 owner = JAP version_name = "Niitaka Class"} } }
+            ship = { name = "Otowa" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = {amount = 1 owner = JAP version_name = "Niitaka Class"} } }
+            ship = { name = "Asagiri" definition = destroyer equipment = { ship_hull_light_2 = {amount = 1 owner = JAP version_name = "Harusame Class"} } }
+            ship = { name = "Murasame" definition = destroyer equipment = { ship_hull_light_2 = {amount = 1 owner = JAP version_name = "Harusame Class"} } }
+            ship = { name = "Shirakumo" definition = destroyer equipment = { ship_hull_light_2 = {amount = 1 owner = JAP version_name = "Harusame Class"} } }
+            ship = { name = "Asashio" definition = destroyer equipment = { ship_hull_light_2 = {amount = 1 owner = JAP version_name = "Harusame Class"} } }
+		}
+        task_force = {
+			name = "IJN 2nd Squadron"
+			location = 9998  #Yokosuka
+            ship = { name = "Izumo" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = {amount = 1 owner = JAP version_name = "Izumo Class"} } }
+            ship = { name = "Azuma" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = {amount = 1 owner = JAP version_name = "Izumo Class"} } }
+            ship = { name = "Tokiwa" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = {amount = 1 owner = JAP version_name = "Asama Class"} } }
+            ship = { name = "Yakumo" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = {amount = 1 owner = JAP version_name = "Asama Class"} } }
+            ship = { name = "Asama" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = {amount = 1 owner = JAP version_name = "Asama Class"} } }
+            ship = { name = "Iwate" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = {amount = 1 owner = JAP version_name = "Izumo Class"} } }
+            ship = { name = "Naniwa" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = {amount = 1 owner = JAP version_name = "Naniwa Class"} } }
+            ship = { name = "Takachiho" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = {amount = 1 owner = JAP version_name = "Naniwa Class"} } }
+            ship = { name = "Akashi" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = {amount = 1 owner = JAP version_name = "Naniwa Class"} } }
+            ship = { name = "Tsushima" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = {amount = 1 owner = JAP version_name = "Naniwa Class"} } }
+            ship = { name = "Shiranui" definition = destroyer equipment = { ship_hull_light_2 = {amount = 1 owner = JAP version_name = "Murakumo Class"} } }
+            ship = { name = "Murakumo" definition = destroyer equipment = { ship_hull_light_2 = {amount = 1 owner = JAP version_name = "Murakumo Class"} } }
+            ship = { name = "Yugiri" definition = destroyer equipment = { ship_hull_light_2 = {amount = 1 owner = JAP version_name = "Murakumo Class"} } }
+            ship = { name = "Kagero" definition = destroyer equipment = { ship_hull_light_2 = {amount = 1 owner = JAP version_name = "Murakumo Class"} } }
+            ship = { name = "Shinonome" definition = destroyer equipment = { ship_hull_light_2 = {amount = 1 owner = JAP version_name = "Murakumo Class"} } }
+            ship = { name = "Usugumo" definition = destroyer equipment = { ship_hull_light_2 = {amount = 1 owner = JAP version_name = "Murakumo Class"} } }
+            ship = { name = "Kasumi" definition = destroyer equipment = { ship_hull_light_2 = {amount = 1 owner = JAP version_name = "Murakumo Class"} } }
+            ship = { name = "Sazanami" definition = destroyer equipment = { ship_hull_light_2 = {amount = 1 owner = JAP version_name = "Murakumo Class"} } }
+        }
+        task_force = {
+			name = "IJN 3rd Squadron"
+			location = 9998  #Yokosuka
+            ship = { name = "Itsukushima" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = {amount = 1 owner = JAP version_name = "Matsushima Class"} } }
+            ship = { name = "Hashidate" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = {amount = 1 owner = JAP version_name = "Matsushima Class"} } }
+            ship = { name = "Matsushima" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = {amount = 1 owner = JAP version_name = "Matsushima Class"} } }
+            ship = { name = "Chin'en" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = {amount = 1 owner = JAP version_name = "Matsushima Class"} } }
+            ship = { name = "Itsukushima" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = {amount = 1 owner = JAP version_name = "Suma Class"} } }
+            ship = { name = "Chiyoda" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = {amount = 1 owner = JAP version_name = "Suma Class"} } }
+            ship = { name = "Akitsushima" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = {amount = 1 owner = JAP version_name = "Akitsushima Class"} } }
+            ship = { name = "Izumi" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = {amount = 1 owner = JAP version_name = "Akitsushima Class"} } }
+            ship = { name = "Hibari" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Hayabusa Class"} } }
+            ship = { name = "Sagi" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Hayabusa Class"} } }
+            ship = { name = "Hashitaki" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Hayabusa Class"} } }
+            ship = { name = "Uzura" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Hayabusa Class"} } }
+            ship = { name = "No.72" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Hayabusa Class"} } }
+            ship = { name = "No.73" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Hayabusa Class"} } }
+            ship = { name = "No.74" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Hayabusa Class"} } }
+            ship = { name = "No.75" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Hayabusa Class"} } }
+        }
+        task_force = {
+			name = "IJN Reserve Navy"
+			location = 9998  #Yokosuka
+            ship = { name = "Kongo" definition = battleship equipment = { ship_hull_heavy_1 = {amount = 1 owner = JAP version_name = "Kongo Class"} } }
+            ship = { name = "Hiei" definition = battleship equipment = { ship_hull_heavy_1 = {amount = 1 owner = JAP version_name = "Kongo Class"} } }
+            ship = { name = "Amagi" definition = battleship equipment = { ship_hull_heavy_1 = {amount = 1 owner = JAP version_name = "Kongo Class"} } }
+            ship = { name = "Maya" definition = battleship equipment = { ship_hull_heavy_1 = {amount = 1 owner = JAP version_name = "Maya Class"} } }
+            ship = { name = "Akagi" definition = battleship equipment = { ship_hull_heavy_1 = {amount = 1 owner = JAP version_name = "Maya Class"} } }
+            ship = { name = "Atago" definition = battleship equipment = { ship_hull_heavy_1 = {amount = 1 owner = JAP version_name = "Maya Class"} } }
+            ship = { name = "Chokai" definition = battleship equipment = { ship_hull_heavy_1 = {amount = 1 owner = JAP version_name = "Maya Class"} } }
+            ship = { name = "Fuso" definition = battleship equipment = { ship_hull_heavy_1 = {amount = 1 owner = JAP version_name = "Fuso Class"} } }
+            ship = { name = "Fuji" definition = battleship equipment = { ship_hull_heavy_1 = {amount = 1 owner = JAP version_name = "Fuji Class"} } }
+            ship = { name = "Yashima" definition = battleship equipment = { ship_hull_heavy_1 = {amount = 1 owner = JAP version_name = "Fuji Class"} } }
+        }
+    }
+}
