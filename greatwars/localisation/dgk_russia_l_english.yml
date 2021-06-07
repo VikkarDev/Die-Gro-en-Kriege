@@ -109,6 +109,15 @@ RUS_new_def_desc:0 "With the war looking more and more dire, we have decided to 
 RUS_new_industry0_desc:0 "The Russian economy has been failing recently due to our agarian society, we must look to industrilize as quickly as possible to not be left behind by the great powers of Europe."
 RUS_new_limex_desc:0 "If we want to keep up with the other great powers, we must keep our recources to our selfves. We will lower the number of exports to allies and enemies alike!"
 RUS_new_orth_desc:0 "Many Russians are christians, more specifically orthodox, yet many of them dont know their religion. We can fight this problem by building more orthodox schools around the empire, this may also help the iliteracy rate in our country."
+RUS_new_victory_chi:0 "Victory in China"
+RUS_new_best_army:0 "The best army"
+RUS_new_develop:0 "Develop our new lands"
+RUS_new_man_question:0 "The Manchurian question"
+RUS_new_man_fort:0 "Fortify the Chinese border"
+RUS_new_man_rail:0 "Build up Manchurian railways"
+RUS_new_man_fac:0 "Manchurian factories"
+RUS_new_man_brothers:0 "Our Manchurian brothers"
+
 ########### Russia Country Names & Cosmetic Localisation ###########0
 SOV_chauvinist_populism:0 "Russian Empire"
 SOV_chauvinist_populism_DEF:0 "The Russian Empire"
@@ -228,3 +237,6 @@ brob2:0 "Increases Patriotism among the people!\n "
 brob3:0 "The People §Glove§W the tsar!\n "
 sov_prop1_done:0 "Has completed §Ythe first wave of propaganda§W"
 sov_prop2_done:0 "Has completed §Ythe second wave of propaganda§W"
+
+#Stuff
+rus_chi_won:0 "We have §GSiezed§W Manchuria"

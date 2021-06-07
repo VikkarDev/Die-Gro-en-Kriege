@@ -5854,4 +5854,9 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/sov/idea_rus_french_rely.dds"
 	}
 
+			spriteType = {
+		name = "GFX_idea_adv_rasputin"
+		texturefile = "gfx/interface/ministers/sov/advisor_rasputin.tga"
+	}
+
 }
