@@ -487,7 +487,7 @@ continuous_focus_position = {
 			
 		}
 			completion_reward = {
-				add_political_power = 75
+				add_political_power = 100
 			}
 	}
 	focus = {
@@ -503,7 +503,7 @@ continuous_focus_position = {
 			focus = SWE_bostrom_cabinet
 		}
 		completion_reward = {
-			
+			country_event = no
 		}
 		
 	}
@@ -578,8 +578,9 @@ continuous_focus_position = {
 			focus = SWE_raise_wage
 		}
 		completion_reward = {
-			add_political_power = 100
+			add_political_power = 75
 			add_stability = 0.05
+			country_event = no
 		}
 	}
 	focus = {
@@ -625,7 +626,7 @@ continuous_focus_position = {
 			focus = SWE_otter_cabinet
 		}
 		completion_reward = {
-			add_ideas = WIP
+			country_event = WIP
 		}
 	}
 	focus = {
@@ -641,12 +642,7 @@ continuous_focus_position = {
 			focus = SWE_department_agriculture
 		}
 		completion_reward = {
-			random_owned_controlled_state = {
-				add_resource = {
-				type = steel
-				amount = 12
-			}
-		 }
+			add_ideas = WIP
 	 	}
 	}
 	focus = {
@@ -661,8 +657,19 @@ continuous_focus_position = {
 		prerequisite = {
 			focus = SWE_department_agriculture
 		}
+		completion_reward = {
+			138 = {
+				add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = industrial_complex
+				level = 2
+				instant_build = yes
+			}
+		}
 		
+	  }
 	}
+	
 	focus = {
 		id = SWE_new_resourcs
 		icon = GFX_
