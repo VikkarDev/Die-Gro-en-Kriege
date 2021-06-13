@@ -15,7 +15,7 @@ continuous_focus_position = {
 		icon = GFX_focus_usa_reestablish_the_gold_standard
 		x = 1
 		y = 0
-		cost = 5
+		cost = 2
 		available = {
 			country_exists = SWE
 		}
@@ -37,7 +37,7 @@ continuous_focus_position = {
 		icon = GFX_goal_generic_construct_infrastructure
 		x = 1
 		y = 1
-		cost = 8
+		cost = 5
 		available = {
 			country_exists = SWE
 		}
@@ -67,7 +67,7 @@ continuous_focus_position = {
 		icon = GFX_GER_focus_heavy_industry
 		x = 0
 		y = 2
-		cost = 10
+		cost = 7
 		available = {
 			country_exists = SWE
 		}
@@ -103,7 +103,7 @@ continuous_focus_position = {
 		icon = GFX_SWE_focus_steel_fc
 		x = 2
 		y = 2
-		cost = 10
+		cost = 7
 		#mutually_exclusive = {
 		#	focus = SWE_3
 		#}
@@ -135,7 +135,7 @@ continuous_focus_position = {
 		icon = GFX_focus_generic_industry_1
 		x = -1
 		y = 3
-		cost = 10
+		cost = 7
 		available = {
 			country_exists = SWE
 		}
@@ -165,7 +165,7 @@ continuous_focus_position = {
 		icon = GFX_focus_generic_industry_1
 		x = 0
 		y = 4
-		cost = 10
+		cost = 7
 		available = {
 			country_exists = SWE
 			OR = {
@@ -196,7 +196,7 @@ continuous_focus_position = {
 		icon = GFX_focus_generic_industry_1
 		x = 3
 		y = 3
-		cost = 10
+		cost = 7
 		available = {
 			country_exists = SWE
 		}
@@ -221,7 +221,7 @@ continuous_focus_position = {
 		icon = GFX_focus_generic_industry_1
 		x = 2
 		y = 4
-		cost = 10
+		cost = 7
 		available = {
 			country_exists = SWE
 		}
@@ -253,10 +253,10 @@ continuous_focus_position = {
 		icon = GFX_GER_focus_mass_conscription
 		x = 10
 		y = 0
-		cost = 10
+		cost = 1
 		completion_reward = {
 		army_experience = 10
-		
+	
 		}
 	}
 	focus = {
@@ -453,7 +453,7 @@ continuous_focus_position = {
 		icon = GFX_focus_research
 		x = 1
 		y = 3
-		cost = 10
+		cost = 6
 		available = {
 			country_exists = SWE
 		}
