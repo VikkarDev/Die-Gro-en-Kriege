@@ -2921,4 +2921,9 @@ spriteTypes = {
 		name = "GFX_generic_focus_academy_military"
 		texturefile = "gfx/interface/goals/generic/generic_focus_academy_military.dds"
 	}
+	SpriteType = {
+		name = "GFX_focus_RUS_internal_policy"
+		texturefile = "gfx/interface/goals/sov/internal_policy.dds"
+	}
+
 }
