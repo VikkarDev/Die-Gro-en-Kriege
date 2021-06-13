@@ -416,27 +416,4 @@ ideas = {
 			}
 		}
 	}
-
-#RUSSIA
-
-	interior_minister = {
-		rasputin = {
-            picture = adv_rasputin
-
-			allowed = {
-				original_tag = SOV
-			}
-			
-			available = {
-				
-			}
-
-			cost = 150
-			
-			traits = { 
-	           	interior_minister
-				conservative
-			}
-		} 
-     }
 }

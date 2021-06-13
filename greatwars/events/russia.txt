@@ -85,35 +85,11 @@ country_event = {
 				    transfer_state = 715
 			        transfer_state = 716
 				    transfer_state = 761}
-		                 }
+			release = MAN
+			puppet =  MAN
+		                                   }
 	}
 }	
-
-country_event = {
-	id = russia.10
-	title = russia.10.t
-	desc = russia.10.d
-	picture = GFX_event_rus_prop
-
-	fire_only_once = yes
-	is_triggered_only = yes
-
-	trigger = {
-        tag = SOV
-	}
-
-	option = {
-		name = russia.10.a
-		ai_chance = { factor = 80 }
-        hidden_effect = {  release = MAN  puppet = MAN }
-	}
-	option = {
-		name = russia.10.b
-		ai_chance = { factor = 20 }
-        add_political_power = -50
-		add_stability = -0.05
-	}
-}
 
 # Ottoman stuff
 country_event = {
