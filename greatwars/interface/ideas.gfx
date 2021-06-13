@@ -5871,4 +5871,9 @@ spriteTypes = {
 	
 	
 
+			spriteType = {
+		name = "GFX_idea_adv_rasputin"
+		texturefile = "gfx/interface/ministers/sov/advisor_rasputin.tga"
+	}
+
 }
