@@ -3,6 +3,7 @@
 #LEAD DEVELOPERS
 monke
 GoodGuyGuderian
+vikkar
 Nadeko
 Bleys
 
@@ -10,13 +11,11 @@ Bleys
 monke
 100won
 Berkeley
-Josua
 Burger King Hotline
-Apple
 Eoot17
 General Hubert Galeforce
 vikkar
-Josua5431
+Wang Ming
 
 # GFX TEAM
 monke
@@ -26,19 +25,18 @@ Berkeley
 captainluck
 Alfred
 General Hubert Galeforce
+Wang Ming
 
 # PLANNING TEAM
 monke
 GoodGuyGuderian
 Berkeley
 100won
-total-artical
 vikkar
 Gott Kroprinz
 Eoot17
 Bence Von Mauser
 Burger King Hotline
-Josua5431
 
 # RESEARCH TEAM
 monke
@@ -46,12 +44,8 @@ Nadeko
 Bleys
 100won
 Berkeley
-Josua5431
 A Happy Spain
-Apple
 Bence Von Mauser
-Gott Kroprinz
-total-article
 vikkar
 
 # WRITING TEAM
@@ -59,16 +53,21 @@ monke
 Bleys
 hapsburg_prince
 Eoot17
-Apple
 
 # MAPPING TEAM
 Nadeko
 monke
+vikkar
 GoodGuyGuderian
 
 # FORMER DEVELOPERS
 Freddy1284
 thing1
+Crax1e
+The Carlist Monke
+Adolf Goldberg
+Fufustheufus
+Le Tongo
 
 # HELPERS
 Dodolulupepe
