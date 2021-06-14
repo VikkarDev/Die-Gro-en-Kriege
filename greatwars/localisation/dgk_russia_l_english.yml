@@ -239,7 +239,7 @@ sov_prop1_done:0 "Has completed §Ythe first wave of propaganda§W"
 sov_prop2_done:0 "Has completed §Ythe second wave of propaganda§W"
 
 
-=======
+# =======
 
 #Stuff
 rus_chi_won:0 "We have §GSiezed§W Manchuria"
