@@ -24,10 +24,19 @@ capital = 219
         SOV_high_iliteracy3
 		SOV_crowd
 		SOV_disorg_army
+
 		#goverment
+
 		extensive_conscription
 		export_focus
-		partial_economic_mobilisation		
+		partial_economic_mobilisation
+
+		#ministers
+
+		SOV_dmitry_sipyagin
+		SOV_sergei_witte
+		SOV_mikhail_muravyov
+		SOV_ivan_durnovo
 	}
 
 	set_politics = {
