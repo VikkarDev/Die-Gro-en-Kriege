@@ -2845,4 +2845,8 @@ spriteTypes = {
 		name = "GFX_generic_focus_ger_agreement"
 		texturefile = "gfx/interface/goals/generic/generic_focus_ger_agreement.dds"
 	}
+	SpriteType = {
+		name = "GFX_generic_focus_democratic_election"
+		texturefile = "gfx/interface/goals/generic/generic_focus_democratic_election.dds"
+	}
 }

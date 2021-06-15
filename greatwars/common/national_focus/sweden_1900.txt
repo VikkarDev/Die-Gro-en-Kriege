@@ -474,6 +474,9 @@ continuous_focus_position = {
 		x = 20
 		y = 0
 		cost = 5
+		mutually_exclusive = {
+			focus = SWE_form_government
+		}
 		available = {
 			has_country_leader = {
 				name = "Erik Gustaf Boström"
@@ -921,6 +924,21 @@ continuous_focus_position = {
 		prerequisite = {
 			focus = SWE_motion_fails
 		}
+	}
+	focus = {
+		id = SWE_form_government
+		icon = GFX_generic_focus_democratic_election
+		x = 35
+		y = 0
+		cost = 10
+		mutually_exclusive = {
+			focus = SWE_bostrom_cabinet
+		}
+		available = {  }
+			completion_reward = {
+		
+				custom_effect_tooltip = HISTORICAL_BREAK
+			}
 	}
 }
 

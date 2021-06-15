@@ -100,6 +100,7 @@
  SWE_naval_defenses:0 "Improve naval defenses"
  SWE_modern_army:0 "A modern army"
  SWE_next_clonflict:0 "Prepare for the next clonflict"
+ SWE_form_government:0 "Form a new Government"
 
 #partys 
  SWE_social_liberalism_party:0 "Liberalerna"
