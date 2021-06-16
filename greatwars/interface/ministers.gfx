@@ -103,10 +103,4 @@ spriteTypes = {
 		name = "GFX_idea_JAP_saigo_judo_int"
 		texturefile = "gfx/interface/ministers/jap/JAP_saigo_judo.dds"
 	}
-
-	####### SOV #######
-	spriteType = {
-		name = "GFX_idea_adv_rasputin"
-		texturefile = "gfx/interface/ministers/sov/adv_rasputin.dds"
-	}	
 }
