@@ -5868,27 +5868,4 @@ spriteTypes = {
 		name = "GFX_idea_generic_navy_bonus"
 		texturefile = "gfx/interface/ideas/generic_navy_bonus.dds"
 	}
-	
-	
-
-			spriteType = {
-		name = "GFX_idea_adv_dimitry_sipyagin"
-		texturefile = "gfx/interface/ministers/sov/dimitry_sipyagin.tga"
-	}
-
-			spriteType = {
-		name = "GFX_idea_adv_sergei_witte"
-		texturefile = "gfx/interface/ministers/sov/sergei_witte.tga"
-	}
-
-			spriteType = {
-		name = "GFX_idea_adv_mikhail_muravyov"
-		texturefile = "gfx/interface/ministers/sov/mikhail_muravyov.tga"
-	}
-
-			spriteType = {
-		name = "GFX_idea_adv_ivan_durnovo"
-		texturefile = "gfx/interface/ministers/sov/ivan_durnovo.tga"
-	}
-
 }
