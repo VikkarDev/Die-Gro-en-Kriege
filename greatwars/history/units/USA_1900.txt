@@ -110,7 +110,7 @@ units = {
 	}
 	division = {
 		name = "Upper New England National Guard"
-		location = 878
+		location = 12459
 		division_template = "National Guard"
 		start_equipment_factor = 0.8
 	}

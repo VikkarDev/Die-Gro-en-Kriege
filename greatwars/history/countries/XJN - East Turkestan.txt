@@ -1,44 +1,19 @@
-﻿capital = 619
+capital = 619
 
-1900.1.1 = {
+OOB = "XJN_1900"
 
-	oob = "XJN_1900"
+set_convoys = 0
 
-	set_convoys = 0
+set_research_slots = 2
 
-	set_stability = 0.2
-	set_war_support = 0.5
-	set_research_slots = 2
+set_politics = {
+	ruling_party = traditional_conservatism
+	elections_allowed = no
+}
 
-	add_ideas = {
-		
-	}
-
-	set_politics = {
-		ruling_party = traditional_conservatism
-		#last_election = "1895.6.25"
-		#election_frequency = 85
-		#elections_allowed = yes
-	}
-
-	set_popularities = {
-		vanguard_communism = 0
-		social_egalitarianism = 0
-		centrism = 0
-		traditional_conservatism = 100
-		radical_democracy = 0
-		chauvinist_populism = 0
-		autocracy = 0
-		democratic_socialism = 0
-	}
-
-	create_country_leader = {
-		name = "Unknown"
-		desc = ""
-		picture = "Unknown.tga"
-		ideology = conserv
-		traits = {
-			
-		}
-	}
+set_popularities = {
+	social_egalitarianism = 10
+    traditional_conservatism = 50
+    autocracy = 30
+    chauvinist_populism = 10
 }

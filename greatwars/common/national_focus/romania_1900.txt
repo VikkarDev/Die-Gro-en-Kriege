@@ -15,7 +15,7 @@ focus_tree = {
 	
 	focus = {
 		id = ROM_the_status_of_the_economy
-		icon = GFX_goal_unknown
+		icon = GFX_GRE_megali
 		x = 2
 		y = 0
 		cost = 10

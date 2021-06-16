@@ -688,19 +688,20 @@ focus_tree = {
 			}
 		}				
 	}
+	#colonial tree
 	focus = {
 		id = GER_deutsches_kolonialreich
-		icon = GFX_GER_focus_german_colonial
+		icon = GFX_goal_generic_territory_or_war
 		search_filters = { FOCUS_FILTER_MANPOWER }
-		x = 90
+		x = 91
 		y = 0
 
 		cost = 10
-		#prerequisite = { focus = GER_global_endevours focus = GER_worlds_third_best_economy  focus = GER_the_cartel_system  }
+	
 		
 		available = {
 			country_exists = GER
-			#has_completed_focus = { focus = GER_weltpolitik }
+			has_completed_focus = GER_weltpolitik
 		}
 		bypass = {
 			
@@ -710,28 +711,54 @@ focus_tree = {
 			country_event = { id = germany.2 days = 10 }
 		}				
 	}
-
 	focus = {
-		id = GER_closer_colonial_ties
-		icon = GFX_ger_closer_colonial_ties
+		id = GER_a_new_governer_ostafrika
+		icon = GFX_goal_generic_territory_or_war
 		search_filters = { FOCUS_FILTER_MANPOWER }
-		x = 86
-		y = 1
+		x = 91
+		y = 2
 
 		cost = 10
-		prerequisite = { focus = GER_deutsches_kolonialreich }
-		mutually_exclusive = { focus = GER_lead_the_colonies }
-
+	
+		prerequisite = {
+			focus = GER_deutsches_kolonialreich
+		}
 
 		available = {
-			OR = {
-				GEA = {
-					is_subject_of = GER
-				}
-				GNG = {
-					is_subject_of = GER
-				}
+			country_exists = GER
+			GER = {
+				owns_state = 546
 			}
+		}
+		bypass = {
+			
+		}
+
+		completion_reward = { 
+			
+		}				
+	}
+	focus = {
+		id = GER_ostafrika_infastructure
+		icon = GFX_goal_generic_territory_or_war
+		search_filters = { FOCUS_FILTER_MANPOWER }
+		x = 89
+		y = 3
+
+		cost = 10
+	
+		prerequisite = {
+			focus = GER_a_new_governer_ostafrika
+		}
+
+		available = {
+			country_exists = GER
+			GER = {
+				owns_state = 546
+			}
+		}
+		bypass = {
+			
 		}
 
 		completion_reward = { 
@@ -740,42 +767,183 @@ focus_tree = {
 						type = infrastructure
 						level = 2
 					}
-					add_extra_state_shared_building_slots = 1
+					add_extra_state_shared_building_slots = 2
 					add_building_construction = {
                         type = industrial_complex
-                        level = 1
+                        level = 2
                         instant_build = yes
                     }
 			}
 			
-		}
-
-		completion_reward = {
-			if = {
-				limit = {
-					GEA = {
-						is_subject_of = GER
-					}
-				}
-				GEA = { add_autonomy_score = { value = 100 } }
-			}
-
-			if = {
-				limit = {
-					GNG = {
-						is_subject_of = GER
-					}
-				}
-				GNG = { add_autonomy_score = { value = 100 } }
-			}
-
-			add_political_power = 15
-		}
+		}				
 	}
+	focus = {
+		id = GER_increase_rubber_production
+		icon = GFX_goal_generic_territory_or_war
+		search_filters = { FOCUS_FILTER_MANPOWER }
+		x = 87
+		y = 4
 
+		cost = 7
+	
+		prerequisite = {
+			focus = GER_ostafrika_infastructure
+		}
+
+		available = {
+			country_exists = GER
+			GER = {
+				owns_state = 546
+			}
+		}
+
+		completion_reward = { 
+			546 = {
+			add_resource = {
+    			type = rubber
+    			amount = 8
+					}
+			}	
+		}			
+	}
+	focus = {
+		id = GER_found_ostafrika_plantation_society
+		icon = GFX_goal_generic_territory_or_war
+		search_filters = { FOCUS_FILTER_MANPOWER }
+		x = 87
+		y = 5
+
+		cost = 7
+	
+		prerequisite = {
+			focus = GER_increase_rubber_production
+		}
+
+		available = {
+			country_exists = GER
+			GER = {
+				owns_state = 546
+			}
+		}
+
+		completion_reward = { 
+			546 = {
+			add_resource = {
+    			type = rubber
+    			amount = 10
+					}
+			}	
+		}			
+	}
+	focus = {
+		id = GER_expand_dockyards_ostafrika
+		icon = GFX_goal_generic_territory_or_war
+		search_filters = { FOCUS_FILTER_MANPOWER }
+		x = 90
+		y = 4
+
+		cost = 7
+	
+		prerequisite = {
+			focus = GER_ostafrika_infastructure
+		}
+
+		available = {
+			country_exists = GER
+			GER = {
+				owns_state = 546
+			}
+		}
+
+		completion_reward = { 
+			546 = {
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+						type = dockyard
+						level = 2
+						instant_build = yes
+				}
+			}	
+		}			
+	}
+	focus = {
+		id = GER_construct_tanganjika_railway
+		icon = GFX_goal_generic_territory_or_war
+		search_filters = { FOCUS_FILTER_MANPOWER }
+		x = 91
+		y = 5
+
+		cost = 7
+	
+		prerequisite = {
+			focus = GER_expand_dockyards_ostafrika
+		}
+
+		available = {
+			country_exists = GER
+			GER = {
+				owns_state = 546
+			}
+		}
+
+		completion_reward = { 
+			
+		}			
+	}
+	focus = {
+		id = GER_open_amani_institute
+		icon = GFX_goal_generic_territory_or_war
+		search_filters = { FOCUS_FILTER_MANPOWER }
+		x = 89
+		y = 5
+
+		cost = 7
+	
+		prerequisite = {
+			focus = GER_expand_dockyards_ostafrika
+		}
+
+		available = {
+			country_exists = GER
+			GER = {
+				owns_state = 546
+			}
+		}
+
+		completion_reward = { 
+		}			
+	}
+	focus = {
+		id = GER_maji_maji_rebellion
+		icon = GFX_goal_generic_territory_or_war
+		search_filters = { FOCUS_FILTER_MANPOWER }
+		x = 94
+		y = 3
+
+		cost = 7
+	
+		prerequisite = {
+			focus = GER_a_new_governer_ostafrika
+		}
+
+		available = {
+			country_exists = GER
+			GER = {
+				owns_state = 546
+			}
+		}
+		bypass = {
+			
+		}
+
+		completion_reward = { 
+			
+			
+		}				
+	}
 	focus = {
 		id = GER_mobilize_askari_and_colonists
-		icon = GFX_GER_focus_colonial_fire
+		icon = GFX_goal_generic_territory_or_war
 		search_filters = { FOCUS_FILTER_MANPOWER }
 		x = 96
 		y = 4
@@ -806,20 +974,18 @@ focus_tree = {
 		icon = GFX_goal_generic_territory_or_war
 		search_filters = { FOCUS_FILTER_MANPOWER }
 		x = 94
-		y = 1
+		y = 4
 
-		cost = 10
-		prerequisite = { focus = GER_deutsches_kolonialreich }
-		mutually_exclusive = { focus = GER_closer_colonial_ties }
+		cost = 6
+	
+		prerequisite = {
+			focus = GER_maji_maji_rebellion
+		}
 
 		available = {
-			OR = {
-				GEA = {
-					is_subject_of = GER
-				}
-				GNG = {
-					is_subject_of = GER
-				}
+			country_exists = GER
+			GER = {
+				owns_state = 546
 			}
 		}
 		bypass = {
@@ -833,7 +999,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_use_mgs_maji
-		icon = GFX_GER_focus_support_equip
+		icon = GFX_goal_generic_territory_or_war
 		search_filters = { FOCUS_FILTER_MANPOWER }
 		x = 92
 		y = 4
@@ -844,170 +1010,213 @@ focus_tree = {
 			focus = GER_maji_maji_rebellion
 		}
 
-		bypass = {
-			
-		}
-
-		completion_reward = {
-			if = {
-				limit = {
-					GEA = {
-						is_subject_of = GER
-					}
-				}
-				GEA = { add_autonomy_score = { value = -100 } }
-			}
-
-			if = {
-				limit = {
-					GNG = {
-						is_subject_of = GER
-					}
-				}
-				GNG = { add_autonomy_score = { value = -100 } }
-			}
-		}
-		bypass = {
-			
-		}
-
-		completion_reward = { 
-			546 = {
-				add_compliance = 0.15
-			}
-			
-			
-		}				
-	}
-
-	focus = {
-		id = GER_sieze_native_assests
-		icon = GFX_GER_focus_sieze_native_assets
-		search_filters = { FOCUS_FILTER_MANPOWER }
-		x = 85
-		y = 3
-
-		cost = 10
-		prerequisite = { focus = GER_subsidis_colonial_manufacturing }
-	
-		
 		available = {
 			country_exists = GER
-			has_idea = GER_colony_cost3
+			GER = {
+				owns_state = 546
+			}
 		}
 		bypass = {
 			
 		}
 
 		completion_reward = { 
-			swap_ideas = {
-				remove_idea = GER_colony_cost3
-				add_idea = GER_colony_cost4
-			}
+			
+			
 		}				
 	}
 	focus = {
-		id = GER_subsidis_colonial_manufacturing
-		icon = GFX_GER_focus_colonial_industry
+		id = GER_gotzens_triumph
+		icon = GFX_goal_generic_territory_or_war
 		search_filters = { FOCUS_FILTER_MANPOWER }
-		x = 86
+		x = 94
+		y = 5
+
+		cost = 4
+	
+		prerequisite = {
+			focus = GER_launch_offensive_maji_maji
+		}
+		prerequisite = {
+			focus = GER_use_mgs_maji
+		}
+		prerequisite = {
+			focus = GER_mobilize_askari_and_colonists
+		}
+
+		available = {
+			country_exists = GER
+			GER = {
+				owns_state = 546
+			}
+		}
+		bypass = {
+			
+		}
+
+		completion_reward = { 
+			
+			
+		}				
+	}
+
+	focus = {
+		id = GER_expand_kamerun
+		icon = GFX_goal_generic_territory_or_war
+		search_filters = { FOCUS_FILTER_MANPOWER }
+		x = 83
 		y = 2
 
 		cost = 10
-		prerequisite = { focus = GER_closer_colonial_ties }
-		
+	
+		prerequisite = {
+			focus = GER_deutsches_kolonialreich
+		}
+
 		available = {
 			country_exists = GER
-			has_idea = GER_colony_cost1
+			GER = {
+				owns_state = 773
+			}
 		}
 		bypass = {
 			
 		}
 
 		completion_reward = { 
-			swap_ideas = {
-				remove_idea = GER_colony_cost1
-				add_idea = GER_colony_cost2
+			GER = {
+				country_event = germany_colonial.1
 			}
-		}				
-	}
-	focus = {
-		id = GER_build_colonial_schools
-		icon = GFX_goal_generic_construct_civilian
-		search_filters = { FOCUS_FILTER_MANPOWER }
-		x = 86
-		y = 4
-
-		cost = 10
-		prerequisite = { focus = GER_sieze_native_assests }
-		prerequisite = { focus = GER_develop_asian_colonies }
-		
-		available = {
-			country_exists = GER
-			has_idea = GER_colony_cost4
-		}
-		bypass = {
 			
-		}
-
-		completion_reward = { 
-			swap_ideas = {
-				remove_idea = GER_colony_cost4
-				add_idea = GER_colony_cost5
-			}
 		}				
 	}
+	
 	focus = {
-		id = GER_develop_asian_colonies
-		icon = GFX_GER_focus_develop_colonies
+		id = GER_the_fulbe_war_begins
+		icon = GFX_goal_generic_territory_or_war
 		search_filters = { FOCUS_FILTER_MANPOWER }
-		x = 87
+		x = 83
 		y = 3
 
 		cost = 10
-		prerequisite = { focus = GER_subsidis_colonial_manufacturing }
-		
+	
+		prerequisite = {
+			focus = GER_expand_kamerun
+		}
+
 		available = {
 			country_exists = GER
-			has_idea = GER_colony_cost2
+			GER = {
+				owns_state = 773
+			}
 		}
 		bypass = {
 			
 		}
 
 		completion_reward = { 
-			swap_ideas = {
-				remove_idea = GER_colony_cost2
-				add_idea = GER_colony_cost3
+			GER = {
+				country_event = germany_colonial.8
 			}
+			
 		}				
 	}
 	focus = {
-		id = GER_a_profitable_empire
-		icon = GFX_goal_tfv_strengthen_commonwealth_ties
+		id = GER_enforce_the_border_agreement
+		icon = GFX_goal_generic_territory_or_war
 		search_filters = { FOCUS_FILTER_MANPOWER }
-		x = 86
-		y = 6
-		
+		x = 82
+		y = 4
+
 		cost = 10
-		prerequisite = { focus = GER_offload_naval_cost_to_colonies }
-		
+	
+		prerequisite = {
+			focus = GER_the_fulbe_war_begins
+		}
+
 		available = {
 			country_exists = GER
-			has_idea = GER_colony_cost5
+			GER = {
+				owns_state = 773
+				owns_state = 898
+			}
+			FRA = {
+				owns_state = 938
+			}
 		}
 		bypass = {
 			
 		}
 
 		completion_reward = { 
-			add_political_power = 25
-			swap_ideas = {
-				remove_idea = GER_colony_cost5
-				add_idea = GER_colony_cost6
+			GER = {
+				add_state_claim = 938
 			}
+			FRA = {
+				country_event = germany_colonial.15
+			}
+			
 		}				
 	}
+	focus = {
+		id = GER_nordbhan_work_begins
+		icon = GFX_goal_generic_territory_or_war
+		search_filters = { FOCUS_FILTER_MANPOWER }
+		x = 84
+		y = 4
+
+		cost = 10
+	
+		prerequisite = {
+			focus = GER_the_fulbe_war_begins
+		}
+
+		available = {
+			country_exists = GER
+			GER = {
+				owns_state = 773
+			}
+		}
+		bypass = {
+			
+		}
+
+		completion_reward = { 
+			
+		}				
+	}
+	focus = {
+		id = GER_harvest_rubber_kamerun
+		icon = GFX_goal_generic_territory_or_war
+		search_filters = { FOCUS_FILTER_MANPOWER }
+		x = 83
+		y = 5
+
+		cost = 10
+	
+		prerequisite = {
+			focus = GER_enforce_the_border_agreement
+		}
+		prerequisite = {
+			focus = GER_nordbhan_work_begins
+		}
+
+		available = {
+			country_exists = GER
+			GER = {
+				owns_state = 546
+			}
+		}
+		bypass = {
+			
+		}
+
+		completion_reward = { 
+			
+		}				
+	}
+
+#END OF COLONIAL TREE
 	focus = {
 		id = GER_prioritize_military
 		icon = GFX_focus_chi_army_reform
@@ -1883,35 +2092,6 @@ focus_tree = {
 
 		completion_reward = { 
 			add_ideas = { GER_our_place_in_the_sun }
-		}				
-	}
-	focus = {
-		id = GER_offload_naval_cost_to_colonies
-		icon = GFX_goal_generic_navy_cruiser
-		search_filters = { FOCUS_FILTER_MANPOWER }
-		x = 86
-		y = 5
-
-		cost = 10
-		
-		#mutually_exclusive = { focus = GER_side_with_austria_hungry }
-		
-		prerequisite = { focus = GER_build_colonial_schools }
-		
-		available = {
-			country_exists = GER
-			has_completed_focus = GER_german_imperial_admirality_staff
-
-		}
-		bypass = {
-			
-		}
-
-		completion_reward = { 			
-			swap_ideas = {
-				remove_idea = GER_bloated_naval_budget3
-				add_idea = GER_bloated_naval_budget5
-			}
 		}				
 	}
 	focus = {

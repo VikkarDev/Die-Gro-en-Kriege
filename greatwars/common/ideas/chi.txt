@@ -1,7 +1,7 @@
 ideas ={
     country = {
         CHI_legacy_sino_japanese_war = {
-            picture = CHI_idea_sino_jap_war
+            picture = chi_legacy_sino_japanese_war
 
             allowed ={
                 tag = CHI
@@ -24,7 +24,7 @@ ideas ={
         }
         
         CHI_low_legitimacy = {
-            picture = generic_victors_of_ww1
+            picture = man_low_legitimacy
             allowed ={
                 tag = CHI
             }
@@ -36,7 +36,7 @@ ideas ={
         }
     }
     CHI_minority_revolts = {
-        picture = generic_victors_of_ww1
+        picture = raj_marginalized_muslim_community_angry
 
         allowed ={
             tag = CHI
@@ -52,7 +52,7 @@ ideas ={
         }
     }
     CHI_agrarian_society = {
-        picture = idea_chi_agrarian
+        picture = chi_agrarian_society
         allowed = {
             tag = CHI
         }
@@ -84,7 +84,7 @@ ideas ={
             army_attack_factor = -0.3
             army_speed_factor = -0.15
             army_morale = -10
-            army_org = -20
+            army_org = -0.5
             army_org_regain = -0.3
             breakthrough_factor = -0.3
             dig_in_speed = -0.5
@@ -97,21 +97,21 @@ ideas ={
             }
         }
     CHI_opium_addictions = {
-        picture = idea_CHI_opium
+        picture = chi_opium_trade
         allowed = {
             tag = CHI
         }
         modifier = {
             stability_factor = -0.05
             war_support_factor = -0.1
-            army_org_regain = -0.3
-            research_speed_factor = -0.4
-            political_power_factor = -0.10
+            army_org_regain = -0.1
+            research_speed_factor = -0.2
+            political_power_factor = -0.15
 
             }
         }
     CHI_foreign_concessions = {
-        picture = generic_victors_of_ww1
+        picture = chi_foreign_concessions
         allowed = {
             tag = CHI
         }
@@ -120,34 +120,7 @@ ideas ={
             stability_factor = -0.05
             production_speed_buildings_factor = 0.25
             war_support_factor = -0.05
-
-            }
-        }
-    CHI_manchu_support = {
-        picture = generic_victors_of_ww1
-        allowed = {
-            tag = CHI
-        }
-        modifier = {
-            stability_factor = 0.1
-            war_support_factor = 0.1
-            army_attack_factor = 0.05
-            army_morale = 5
-            political_power_factor = 0.10
-
-            }
-        }
-    CHI_mongol_support = {
-        picture = generic_victors_of_ww1
-        allowed = {
-            tag = CHI
-        }
-        modifier = {
-            stability_factor = 0.1
-            war_support_factor = 0.1
-            army_attack_factor = 0.05
-            army_morale = 5
-            political_power_factor = 0.10
+            army_speed_factor = -0.4
 
             }
         }
@@ -167,7 +140,7 @@ ideas ={
             army_attack_factor = -0.3
             army_speed_factor = -0.15
             army_morale = 10
-            army_org = -10
+            army_org = -0.5
             army_org_regain = -0.3
             breakthrough_factor = -0.3
             dig_in_speed = -0.5
@@ -183,6 +156,39 @@ ideas ={
             max_command_power = -20
             ai_focus_military_advancements_factor = -0.5
 
+            }
+        }
+    CHI_beiyang_army_modern = {
+        picture = CHI_beiyang_modernization
+        allowed = {
+            CHI = {
+                has_completed_focus = CHI_1900_modernizing_the_beiyang_army
+            }
+        }
+        modifier = {
+            stability_factor = 0.1
+            war_support_factor = 0.1
+            army_attack_factor = 0.05
+            army_morale = 5
+            political_power_factor = 0.10
+
+            }
+        }
+    CHI_boxer_protocols = {
+        picture = generic_victors_of_ww1
+        allowed = {
+            CHI = {
+               has_country_flag = CHI_1900_boxers_lost
+            }
+        }
+        modifier = {
+            consumer_goods_factor = 0.1
+            war_support_factor = -0.3
+            stability_factor = -0.2
+            production_factory_efficiency_gain_factor = -0.5
+            industrial_capacity_factory = -0.3
+            production_speed_arms_factory_factor = -0.5
+            
             }
         }
     }

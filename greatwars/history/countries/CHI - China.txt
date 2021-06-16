@@ -25,8 +25,7 @@ capital = 608
 		CHI_agrarian_society
 		CHI_outdated_army
 		CHI_foreign_concessions
-		CHI_manchu_support
-		CHI_mongol_support
+		CHI_opium_addictions
 	}
 
 	set_politics = {
@@ -34,6 +33,54 @@ capital = 608
 		#last_election = "1895.6.25"
 		#election_frequency = 85
 		#elections_allowed = no
+	}
+
+	set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_support = 1		
+	tech_recon = 1
+	tech_engineers = 1
+	}
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	set_technology = {
+		early_destroyer = 1
+		early_light_cruiser = 1
+		basic_light_cruiser = 1
+		early_heavy_cruiser = 1
+		basic_heavy_cruiser = 1
+		early_battleship = 1
+		basic_battleship = 1
+		early_battlecruiser = 1
+		transport = 1
+	}
+	set_naval_oob = "CHI_1900_naval_legacy"
+
+	### Ship Variants ###
+	create_equipment_variant = {
+		name = "Dingyuan Class"
+		type = heavy_cruiser_1
+		parent_version = 0
+	}
+	create_equipment_variant = {
+		name = "Ting Yuen Class"
+		type = heavy_cruiser_1
+		parent_version = 0
+		obsolete = yes
+	}
+	create_equipment_variant = {
+		name = "Nan Chen Class"
+		type = heavy_cruiser_1
+		parent_version = 0
+		obsolete = yes
+	}
+	create_equipment_variant = {
+		name = "Yixian Class"
+		type = light_ship_hull_1
+		parent_version = 0
+		obsolete = yes
+		}
 	}
 
 	set_popularities = {
@@ -94,12 +141,12 @@ capital = 608
 }
 create_corps_commander = {
 		name = "Yuan Shikai"
-		portrait_path = "gfx/leaders/CHI/Generals/Yuan_Shikai.tga"
+		portrait_path = "gfx/leaders/CHI/Yuan_Shikai.tga"
 		skill = 3
-		attack_skill = 7
-		defense_skill = 4
-		planning_skill = 5
-		logistics_skill = 4
+		attack_skill = 5
+		defense_skill = 2
+		planning_skill = 4
+		logistics_skill = 2
 		traits = {  politically_connected old_guard hill_fighter commando cavalry_leader trickster }
 		id = 9
 	}
@@ -140,8 +187,8 @@ create_corps_commander = {
 		name = "Ma Fuxing"
 		portrait_path = "gfx/leaders/CHI/base_qing.tga"
 		skill = 3
-		attack_skill = 2
-		defense_skill = 3
+		attack_skill = 3
+		defense_skill = 2
 		planning_skill = 2
 		logistics_skill = 2
 		traits = {  politically_connected old_guard	 }
@@ -182,11 +229,11 @@ create_corps_commander = {
 	}
 	create_field_marshal = {
 		name = "Li Hongzhang"
-		portrait_path = "gfx/leaders/CHI/base_qing.tga"
+		portrait_path = "gfx/leaders/CHI/generals/Li_Hongzhang.tga"
 		traits = { logistics_wizard ambusher infantry_expert guerilla_fighter }
 		skill = 5
-		attack_skill = 7
-		defense_skill = 4
+		attack_skill = 5
+		defense_skill = 2
 		planning_skill = 3
 		logistics_skill = 1
 		id = 68550

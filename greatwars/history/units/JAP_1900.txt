@@ -14,8 +14,7 @@ division_template = {
 	}
 	support = {
 		engineer = { x = 0 y = 0 }
-		logistics = { x = 0 y = 1 }
-		artillery = { x = 0 y = 2 }
+		artillery = { x = 0 y = 1 }
 	}
 }
 
@@ -64,7 +63,6 @@ units = {
 		start_experience_factor = 0.3
 	}
 
-	#Roppou Homengun - West Japan Army
 	division = { # "4 'Yodo' Konoe División"
 		name = "7th Division"
 		location = 10444

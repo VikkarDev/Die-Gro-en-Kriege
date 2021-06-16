@@ -1,5 +1,25 @@
 spriteTypes = {
 	SpriteType = {
+		name = "GFX_idea_chi_legacy_sino_japanese_war"
+		texturefile = "gfx/interface/ideas/CHI/CHI_idea_sino_jap_war.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_chi_agrarian_society"
+		texturefile = "gfx/interface/ideas/CHI/CHI_idea_agrarian.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_chi_beiyang_modern"
+		texturefile = "gfx/interface/ideas/CHI/CHI_idea_beiyang_modern.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_chi_opium_trade"
+		texturefile = "gfx/interface/ideas/CHI/CHI_idea_opium_trade.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_chi_foreign_concessions"
+		texturefile = "gfx/interface/ideas/CHI/CHI_idea_concession.dds"
+	}
+	SpriteType = {
 		name = "GFX_idea_kor_gwangmu_reform"
 		texturefile = "gfx/interface/ideas/KOR/kor_gwangmu_reform.dds"
 	}
@@ -5847,24 +5867,6 @@ spriteTypes = {
 			spriteType = {
 		name = "GFX_idea_generic_navy_bonus"
 		texturefile = "gfx/interface/ideas/generic_navy_bonus.dds"
-	}
-
-	#CHINA
-	SpriteType = {
-		name = "GFX_idea_beiyang_modern"
-		texturefile = "gfx/interface/ideas/CHI/CHI_idea_beiyang_modern.dds"
-	}
-	SpriteType = {
-		name = "GFX_idea_china_opium_trade"
-		texturefile = "gfx/interface/ideas/CHI/idea_china_opium_trade.dds"
-	}
-	SpriteType = {
-		name = "GFX_idea_chi_agrarian"
-		texturefile = "gfx/interface/ideas/CHI/CHI_idea_agrarian.dds"
-	}
-	SpriteType = {
-		name = "GFX_CHI_idea_sino_jap_war"
-		texturefile = "gfx/interface/ideas/CHI/CHI_idea_sino_jap_war.dds"
 	}
 	
 	

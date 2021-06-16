@@ -1,45 +1,16 @@
-﻿capital = 279
+capital = 328
 
-1900.1.1 = {
+OOB = "MAN_1900"
 
-	oob = "MAN_1900"
+set_convoys = 30
 
-	set_convoys = 165
+set_research_slots = 3
 
-	set_stability = 0.2
-	set_war_support = 0.5
-	set_research_slots = 2
-	set_cosmetic_tag = MAN_FENGTIAN_CLIQUE
+set_politics = {
+	ruling_party = reactionary
+	elections_allowed = no
+}
 
-	add_ideas = {
-		
-	}
-
-	set_politics = {
-		ruling_party = chauvinist_populism
-		#last_election = "1895.6.25"
-		#election_frequency = 85
-		#elections_allowed = yes
-	}
-
-	set_popularities = {
-		vanguard_communism = 0
-		social_egalitarianism = 0
-		centrism = 0
-		traditional_conservatism = 0
-		radical_democracy = 0
-		chauvinist_populism = 100
-		autocracy = 0
-		democratic_socialism = 0
-	}
-
-	create_country_leader = {
-		name = "Zhao Erxun"
-		desc = ""
-		picture = "Zhao_Erxun.tga"
-		ideology = national_populism
-		traits = {
-			
-		}
-	}
+set_popularities = {
+	 chauvinist_populism = 100
 }

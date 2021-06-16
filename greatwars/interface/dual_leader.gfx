@@ -124,4 +124,10 @@ spriteTypes = {
 		name = "GFX_CHI_Guangxu"
 		texturefile = "gfx/leaders/CHI/Guangxu_Emperor.tga"
 	}
+
+	#GREECE
+	spriteType = {
+		name = "GFX_GRE_George_I"
+		texturefile = "gfx/leaders/GRE/George_I.tga"
+	}
 }
