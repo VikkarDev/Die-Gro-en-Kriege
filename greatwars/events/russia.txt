@@ -115,7 +115,38 @@ country_event = {
 	}
 }
 
-# Ottoman stuff
+country_event = {
+	id = russia.9
+	title = russia.9.t
+	desc = russia.9.d
+	picture = GFX_event_rus_prop
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	trigger = {
+        tag = SOV
+	}
+
+	option = {
+		name = russia.9.a
+		ai_chance = { factor = 100 }
+        add_political_power = -50
+         white_peace = {
+             tag = CHI
+             message = rus_fail_man
+                       }
+}
+	option = {
+		name = russia.9.b
+		ai_chance = { factor = 100 }
+        add_political_power = -200
+		add_ideas = SOV_army_demoral
+    }
+}
+
+#ott 
+
 country_event = {
 	id = russia.4
 	title = russia.4.t
@@ -203,6 +234,7 @@ country_event = {
                   set_country_flag = russia.jap
 				  set_country_flag = russia.jap.won}
 }
+
 country_event = {
 	id = russia.7
 	title = russia.7.t
@@ -231,31 +263,25 @@ country_event = {
 				  set_country_flag = russia.jap.lost
 				  }
 }
+
+#STUFREIGPOREKG
+
 country_event = {
-	id = russia.9
-	title = russia.9.t
-	desc = russia.9.d
+	id = russia.998
+	title = russia.998.t
+	desc = russia.998.d
 	picture = GFX_event_rus_prop
 
-	fire_only_once = yes
-	is_triggered_only = yes
+	fire_only_once = no
+	is_triggered_only = no
 	
 	trigger = {
         tag = SOV
 	}
 
 	option = {
-		name = russia.9.a
+		name = russia.998.a
 		ai_chance = { factor = 100 }
-        add_political_power = -50
-         white_peace = {
-             tag = CHI
-             message = rus_fail_man
-                       }
-}
-	option = {
-		name = russia.9.b
-		ai_chance = { factor = 100 }
-        add_political_power = -200
-		add_ideas = SOV_army_demoral
+        add_stability = -0.02
+	         }
 }

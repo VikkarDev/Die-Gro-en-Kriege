@@ -78,7 +78,7 @@
 
 		focus = {
 			id = RUS_new_tsway
-			icon = GFX_goal_generic_construct_infrastructure
+			icon = GFX_focus_generic_railway
 			x = 18
 			y = 2
 
@@ -1284,7 +1284,7 @@
                  }
 	focus = {
     id = RUS_new_calm1
-	icon = GFX_SOV_focus_first_russian_election
+	icon = GFX_focus_RUS_calm_down
 	x = 31
 	y = 2
 	cost = 5
@@ -1301,7 +1301,7 @@
                        }
 	focus = {
     id = RUS_new_livstand
-	icon = GFX_SOV_focus_first_russian_election
+	icon = GFX_focus_RUS_living_standards
 	x = 33
 	y = 2
 	cost = 5
@@ -1319,7 +1319,7 @@
 
     focus = {
     id = RUS_new_prop
-	icon = GFX_SOV_focus_first_russian_election
+	icon = GFX_focus_RUS_propaganda
 	x = 32
 	y = 3
 	cost = 5
@@ -1350,7 +1350,7 @@
 	
     focus = {
     id = RUS_new_def_fra
-	icon = GFX_SOV_focus_first_russian_election
+	icon = GFX_focus_RUS_guar_fra
 	x = 34
 	y = 5
 	cost = 5
@@ -1497,7 +1497,7 @@
                  }	
     focus = {
     id = RUS_new_aisia
-	icon = GFX_SOV_focus_first_russian_election
+	icon = GFX_focus_RUS_asia_influance
 	x = 30
 	y = 5
 	cost = 5
