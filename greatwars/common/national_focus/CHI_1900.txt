@@ -3369,8 +3369,202 @@ focus_tree = {
 			}
 		}
 
-		
-		 
+	focus = {
+			id = CHI_1900_form_tongmenghui
+			icon = GFX_CHI_focus_5_races_one_flag
+			x = 23
+			y = 4
+
+			cost = 10
+
+
+			prerequisite = {
+				focus = CHI_1900_sun_yat_sen
+			}
+
+			available = {
+				date > 1905.20.8
+
+			}
+
+			completion_reward = { 
+				add_stability = -0.05
+				add_political_power = 25
+				add_popularity = {
+    				ideology = social_egalitarianism
+    				popularity = 0.1
+				}
+				add_popularity = {
+    				ideology = social_liberalism
+    				popularity = 0.1
+				}
+				#Social liberal party leader becomes Sun Yat Sen & both the social egalitarianism & liberal parties renamed 2 Tongmenghui
+				
+            
+			}
+		}
+		focus = {
+			id = CHI_1900_recruit_members_liberal_societies
+			icon = GFX_CHI_focus_5_races_one_flag
+			x = 27
+			y = 4
+
+			cost = 10
+
+
+			prerequisite = {
+				focus = CHI_1900_sun_yat_sen
+			}
+
+			available = {
+			
+
+			}
+
+			completion_reward = { 
+				add_stability = -0.05
+				add_political_power = -25
+				add_popularity = {
+    				ideology = social_egalitarianism
+    				popularity = 0.05
+				}
+				add_popularity = {
+    				ideology = social_liberalism
+    				popularity = -0.05
+				}
+				
+            
+			}
+		}
+
+		focus = {
+			id = CHI_1900_promote_unity_five_races
+			icon = GFX_CHI_focus_5_races_one_flag
+			x = 24
+			y = 5
+
+			cost = 10
+
+
+			prerequisite = {
+				focus = CHI_1900_form_tongmenghui
+			}
+
+			available = {
+			
+
+			}
+
+			completion_reward = { 
+			
+            
+			}
+		}
+		focus = {
+			id = CHI_1900_begin_operations_in_more_china
+			icon = GFX_CHI_focus_5_races_one_flag
+			x = 22
+			y = 5
+
+			cost = 10
+
+
+			prerequisite = {
+				focus = CHI_1900_form_tongmenghui
+			}
+
+			available = {
+			
+
+			}
+
+			completion_reward = { 
+			
+            
+			}
+		}
+		focus = {
+			id = CHI_1900_expand_rep_journalism
+			icon = GFX_CHI_focus_5_races_one_flag
+			x = 26
+			y = 5
+
+			cost = 10
+
+
+			prerequisite = {
+				focus = CHI_1900_recruit_members_liberal_societies
+			}
+
+			available = {
+			
+
+			}
+
+			completion_reward = { 
+			
+            
+			}
+		}
+		focus = {
+			id = CHI_1900_expand_rep_soldiers
+			icon = GFX_CHI_focus_5_races_one_flag
+			x = 28
+			y = 5
+
+			cost = 10
+
+
+			prerequisite = {
+				focus = CHI_1900_recruit_members_liberal_societies
+			}
+
+			available = {
+			
+
+			}
+
+			completion_reward = { 
+			
+            
+			}
+		}
+
+		focus = {
+			id = CHI_1900_international_support
+			icon = GFX_CHI_focus_5_races_one_flag
+			x = 25
+			y = 7
+
+			cost = 10
+
+
+			prerequisite = {
+				focus = CHI_1900_promote_unity_five_races
+			}
+			prerequisite = {
+				focus = CHI_1900_expand_rep_journalism
+			}
+			prerequisite = {
+				focus = CHI_1900_expand_rep_journalism
+			}
+			prerequisite = {
+				focus = CHI_1900_begin_operations_in_more_china
+			}
+
+			available = {
+			
+
+			}
+
+			completion_reward = { 
+			
+            
+			}
+		}
+	
+
+	
 
 }
     
