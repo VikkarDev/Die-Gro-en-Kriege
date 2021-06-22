@@ -2366,7 +2366,7 @@ prerequisite = {focus = RUS_new_art_eq2}
                  }
 
     focus = {
-    id = RUS_new_meeting_in_berlin
+    id = RUS_new_revive_three_emp
 	icon = GFX_SOV_focus_first_russian_election
 	x = 64
 	y = 2
@@ -2391,7 +2391,7 @@ prerequisite = {focus = RUS_new_art_eq2}
 	cost = 1
 
 	 
-    prerequisite = { focus = RUS_new_meeting_in_berlin}
+    prerequisite = { focus = RUS_new_revive_three_emp}
 
 	available = {
 
@@ -2408,7 +2408,7 @@ prerequisite = {focus = RUS_new_art_eq2}
 	cost = 1
 
 	 
-    prerequisite = { focus = RUS_new_meeting_in_berlin}
+    prerequisite = { focus = RUS_new_revive_three_emp}
 
 	available = {
 
@@ -2425,7 +2425,7 @@ prerequisite = {focus = RUS_new_art_eq2}
 	cost = 1
 
 	 
-    prerequisite = { focus = RUS_new_meeting_in_berlin}
+    prerequisite = { focus = RUS_new_revive_three_emp}
 
 	available = {
 
@@ -2477,7 +2477,7 @@ prerequisite = {focus = RUS_new_art_eq2}
 	y = 2
 	cost = 1
 
-    mutually_exclusive = { focus = RUS_new_meeting_in_berlin }
+    mutually_exclusive = { focus = RUS_new_revive_three_emp }
 	 
     prerequisite = { focus = RUS_new_foreign_policy }
 

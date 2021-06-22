@@ -217,7 +217,8 @@ SOV_chauvinist_populism_party:0 "Various Circles" #no party
 
 # MINISTERS
 ########### Russia Ministers Localisation ###########
-
+fyodor_geydenl:0 "Fyodor Geyden"
+nikolai_obruchev:0 "Nikolai Obruchev"
 
 # LEADER INFO
 ########### Russia Leader Info Localisation ###########

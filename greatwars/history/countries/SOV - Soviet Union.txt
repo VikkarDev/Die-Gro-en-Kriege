@@ -39,6 +39,9 @@ capital = 219
 		SOV_sergei_witte
 		SOV_mikhail_muravyov
 		SOV_ivan_durnovo
+
+		#army stuff
+		fyodor_geydenl
 	}
 
 	set_politics = {

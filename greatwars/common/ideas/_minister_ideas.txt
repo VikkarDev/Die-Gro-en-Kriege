@@ -515,4 +515,38 @@ ideas = {
 		} 
      }
 
+    army_chief = {
+
+		fyodor_geydenl = {
+			picture = mil_fyodor_geyden
+			
+			allowed = {
+				original_tag = SOV
+			}
+
+			available = { }
+			
+			traits = { army_infantry_2 }
+			
+			ai_will_do = {
+				factor = 10
+			}
+		}
+
+		nikolai_obruchev = {
+			picture = mil_nikolai_obruchev
+			
+			allowed = {
+				original_tag = SOV
+			}
+
+			available = { }
+			
+			traits = { army_infantry_1 }
+			
+			ai_will_do = {
+				factor = 10
+			}
+		}
+
 }
