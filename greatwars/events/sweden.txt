@@ -63,7 +63,7 @@ country_event = {
 }
 country_event = {
 	id = sweden.3
-	title = "The election is around the corner..."
+	title = "New Goverment formend"
 	desc = sweden.3.d
 	picture = GFX 
 	fire_only_once = yes
@@ -75,14 +75,14 @@ country_event = {
 
 
 	option = {
-		name = "The democratic socialism "
+		name = "Good!"
 		ai_chance = {
 			factor = 100
 		}
-		set_politics = { ruling_party = democratic_socialism  }
+		set_politics = { ruling_party = social_egalitarianism  }
 		hidden_effect = {
-			add_popularity = { ideology = democratic_socialism popularity = 0.13 }
-			add_popularity = { ideology = social_egalitarianism popularity = 0.07 }
+			add_popularity = { ideology = democratic_socialism popularity = 0.03 }
+			add_popularity = { ideology = social_egalitarianism popularity = 0.13 }
 		}
 	}
 }

@@ -934,9 +934,12 @@ continuous_focus_position = {
 		mutually_exclusive = {
 			focus = SWE_bostrom_cabinet
 		}
-		available = {  }
+			available = { 
+				has_war = no	
+			} 
+
 			completion_reward = {
-		
+				country_event = sweden.3
 				custom_effect_tooltip = HISTORICAL_BREAK
 			}
 	}
