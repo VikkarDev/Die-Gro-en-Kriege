@@ -420,23 +420,133 @@ ideas = {
 #RUSSIA
 
 	interior_minister = {
-		rasputin = {
-            picture = adv_rasputin
+		SOV_dmitry_sipyagin = {
+            picture = adv_dimitry_sipyagin
 
 			allowed = {
 				original_tag = SOV
 			}
 			
 			available = {
-				
+				custom_trigger_tooltip = {
+					tooltip = economic_minister_available
+					always = no
+				}
 			}
-
-			cost = 150
 			
+			cancel_if_invalid = no		
+
 			traits = { 
 	           	interior_minister
 				conservative
 			}
 		} 
      }
+
+	economic_minister = {
+		SOV_sergei_witte = {
+            picture = adv_sergei_witte
+
+			allowed = {
+				original_tag = SOV
+			}
+			
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = economic_minister_available
+					always = no
+				}
+			}
+			
+			cancel_if_invalid = no		
+
+			traits = { 
+	           	economic_minister
+				conservative
+			}
+		} 
+     }
+
+	foreign_minister = {
+		SOV_mikhail_muravyov  = {
+            picture = adv_mikhail_muravyov
+
+			allowed = {
+				original_tag = SOV
+			}
+			
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = economic_minister_available
+					always = no
+				}
+			}
+			
+			cancel_if_invalid = no		
+
+			traits = { 
+	           	foreign_minister
+				conservative
+			}
+		} 
+     }
+
+	head_of_government = {
+		SOV_ivan_durnovo = {
+            picture = adv_ivan_durnovo
+
+			allowed = {
+				original_tag = SOV
+			}
+			
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = economic_minister_available
+					always = no
+				}
+			}
+			
+			cancel_if_invalid = no		
+
+			traits = { 
+	           	head_of_government
+				conservative
+			}
+		} 
+     }
+
+    army_chief = {
+
+		fyodor_geydenl = {
+			picture = mil_fyodor_geyden
+			
+			allowed = {
+				original_tag = SOV
+			}
+
+			available = { }
+			
+			traits = { army_infantry_2 }
+			
+			ai_will_do = {
+				factor = 10
+			}
+		}
+
+		nikolai_obruchev = {
+			picture = mil_nikolai_obruchev
+			
+			allowed = {
+				original_tag = SOV
+			}
+
+			available = { }
+			
+			traits = { army_infantry_1 }
+			
+			ai_will_do = {
+				factor = 10
+			}
+		}
+
 }
