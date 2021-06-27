@@ -165,9 +165,6 @@ russia.9.d:0 "With the war raging on for almost 5 months now, and with popular s
 russia.9.a:0 "For the people"
 russia.9.b:0 "No! We are on the brink of victory"
 rus_fail_man:0 "Russia's hulilating defeat against the §YQing empire§W"!
-russia.998.t:0 "Formation of the Socialist Revolutionary Party"
-russia.998.d:0 "Earlier this month the Socialist Revolutionary Party has been officially founded. Altough they are peacefull for now, we must keep an eye on them."
-russia.998.a:0 "Oh dear."
 # NATIONAL SPIRITS
 ########### Russia National Spirits Localisation ###########
 SOV_french_dependancy_desc:0 "While this National Spirit is active, we will have improved relations with  [FRA.GetFlag]  §BFrance§!\n\nRussia has a large military, but its arms are obsolete and some troops even lack equipment. We cannot hope to make progress against German and Austrian forces without French help."
@@ -217,8 +214,7 @@ SOV_chauvinist_populism_party:0 "Various Circles" #no party
 
 # MINISTERS
 ########### Russia Ministers Localisation ###########
-fyodor_geydenl:0 "Fyodor Geyden"
-nikolai_obruchev:0 "Nikolai Obruchev"
+
 
 # LEADER INFO
 ########### Russia Leader Info Localisation ###########
@@ -243,7 +239,7 @@ sov_prop1_done:0 "Has completed §Ythe first wave of propaganda§W"
 sov_prop2_done:0 "Has completed §Ythe second wave of propaganda§W"
 
 
-# =======
+=======
 
 #Stuff
 rus_chi_won:0 "We have §GSiezed§W Manchuria"
