@@ -1695,7 +1695,7 @@ focus_tree = {
 		}
 		focus = {
 			id = CHI_1900_continue_army_expansion_beiyang
-			icon = GFX_SOV_focus_state_duma
+			icon = GFX_CHI_focus_beiyang_expand
 			x = 53
 			y = 8
 
@@ -1717,7 +1717,7 @@ focus_tree = {
 		}
 		focus = {
 			id = CHI_1900_engineers
-			icon = GFX_SOV_focus_state_duma
+			icon = GFX_CHI_focus_beiyang_engineer
 			x = 51
 			y = 9
 
@@ -1736,7 +1736,7 @@ focus_tree = {
 		}
 		focus = {
 			id = CHI_1900_lay_telegraph_lines
-			icon = GFX_SOV_focus_state_duma
+			icon = GFX_CHI_focus_beiyang_telegraph
 			x = 55
 			y = 9
 

@@ -10,12 +10,32 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/CHI/CHI_focus_russo_japanese_war.dds"
 	}
 	SpriteType = {
+		name = "GFX_CHI_focus_beiyang_telegraph"
+		texturefile = "gfx/interface/goals/CHI/CHI_focus_beiyang_telegraph.dds"
+	}
+	SpriteType = {
+		name = "GFX_CHI_focus_beiyang_expand"
+		texturefile = "gfx/interface/goals/CHI/CHI_focus_beiyang_expand.dds"
+	}
+	SpriteType = {
+		name = "GFX_CHI_focus_beiyang_engineer"
+		texturefile = "gfx/interface/goals/CHI/CHI_focus_beiyang_engineer.dds"
+	}
+	SpriteType = {
 		name = "GFX_JAP_focus_the_manchurian_crisis"
 		texturefile = "gfx/interface/goals/jap/JAP_focus_the_manchurian_crisis.dds"
 	}
 	SpriteType = {
 		name = "GFX_JAP_focus_samurai_sun"
 		texturefile = "gfx/interface/goals/jap/JAP_focus_samurai_sun.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_focus_tokugawa"
+		texturefile = "gfx/interface/goals/jap/JAP_focus_tokugawa.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_focus_anglo_jap_alliance"
+		texturefile = "gfx/interface/goals/jap/JAP_focus_anglo_jap_alliance.dds"
 	}
 	SpriteType = {
 		name = "GFX_JAP_focus_samurai_mask"
@@ -63,6 +83,11 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/sov/SOV_focus_state_duma_elections.dds"
 	}
 	
+	SpriteType = {
+		name = "GFX_SOV_focus_ott_agree"
+		texturefile = "gfx/interface/goals/sov/SOV_focus_ott_agree.dds"
+	}
+
 	SpriteType = {
 		name = "GFX_SOV_focus_first_russian_election"
 		texturefile = "gfx/interface/goals/sov/SOV_focus_russian_elections.dds"

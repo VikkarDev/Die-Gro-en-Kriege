@@ -16,6 +16,7 @@ capital = 2
 		volunteer_only
 		free_trade
 		civilian_economy
+		ITA_savoy
 	}
 
 	set_politics = {
