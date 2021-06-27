@@ -196,6 +196,14 @@ SOV_shat_navy:0 "Shattered Navy"
 SOV_army_demoral:0 "Demoralized Army"
 SOV_french_dependancy1:0 "French economics"
 SOV_french_dependancy2:0 "A reformed economy"
+SOV_french_dependancy_desc:0 "While this National Spirit is active, we will have improved relations with  [FRA.GetFlag]  §BFrance§!\n\nAcutal Description Goes Here"
+SOV_french_dependancy:0 "French Dependancy"
+SOV_fear_of_revolution:0 "Fear of Revolution"
+SOV_long_live_the_tsar:0 "Long Live the Tsar"
+SOV_crowd:0 "Crowded Cities"
+SOV_crowd2:0 "Crowded Cities (2)"
+SOV_crowd3:0 "Crowded Cities (3)"
+SOV_crowd_desc:0 "With the rapid industrilzation of our nations, Workers move to our biggest cities witch are already crowded enough."
 
 # PARTY NAMES
 ########### Russia Party Names Localisation ###########
@@ -243,8 +251,9 @@ sov_prop1_done:0 "Has completed §Ythe first wave of propaganda§W"
 sov_prop2_done:0 "Has completed §Ythe second wave of propaganda§W"
 
 
+
 # =======
 
 #Stuff
 rus_chi_won:0 "We have §GSiezed§W Manchuria"
-
+crowd_final:0 "The housing situation will §YSlowly§W emprove."

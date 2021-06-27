@@ -1293,4 +1293,14 @@ instant_effect = {
 		efficiency = 50
 	}
 
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment
+			creator = "SOV" 
+		}
+		requested_factories = 1
+		progress = 0.25
+		efficiency = 45
+	}
+	
   }   

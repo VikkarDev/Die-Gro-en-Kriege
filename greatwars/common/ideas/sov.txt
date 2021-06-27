@@ -112,7 +112,7 @@ ideas = {
                 stability_factor = -0.15
                 industrial_capacity_factory = -0.15
                 conscription = -0.03
-                consumer_goods_factor = 0.15
+                consumer_goods_factor = 0.20
                 
                         }
 
@@ -128,10 +128,10 @@ ideas = {
 
             modifier = {
 
-                stability_factor = -0.10
-                industrial_capacity_factory = -0.10
-                conscription = -0.02
-                consumer_goods_factor = 0.10
+                stability_factor = -0.12
+                industrial_capacity_factory = -0.13
+                conscription = -0.025
+                consumer_goods_factor = 0.15
                 
                         }
 
@@ -147,9 +147,9 @@ ideas = {
 
             modifier = {
 
-                stability_factor = -0.05
-                industrial_capacity_factory = -0.05
-                consumer_goods_factor = 0.5
+                stability_factor = -0.08
+                industrial_capacity_factory = -0.10
+                consumer_goods_factor = 0.10
                 conscription = -0.01
 
                         }
