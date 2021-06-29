@@ -91,6 +91,18 @@ capital = 819
 		id = 2
 	}
 
+	create_field_marshal = {
+		name = "Alfred von Schlieffen"
+		portrait_path = "gfx/leaders/GER/Field Marshals/Alfred_von_Schlieffen.tga"
+		skill = 2
+		attack_skill = 4
+		defense_skill = 3
+		planning_skill = 5
+		logistics_skill = 4
+		traits = { organizer thorough_planner expert_delegator }
+		id = 2
+	}
+
 	create_corps_commander = {
 		name = "Felix Graf von Bothmer"
 		portrait_path = "gfx/leaders/GER/Generals/Felix_Graf_von_Bothmer.tga"

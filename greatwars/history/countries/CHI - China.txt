@@ -148,7 +148,7 @@ create_corps_commander = {
 		planning_skill = 4
 		logistics_skill = 2
 		traits = {  politically_connected old_guard hill_fighter commando cavalry_leader trickster }
-		id = 9
+		
 	}
 create_corps_commander = {
 		name = "Nie Shicheng"
@@ -159,7 +159,7 @@ create_corps_commander = {
 		planning_skill = 3
 		logistics_skill = 2
 		traits = {  politically_connected old_guard hill_fighter }
-		id = 8
+		
 	}
 	create_corps_commander = {
 		name = "Dong Fuxiang"
@@ -170,7 +170,7 @@ create_corps_commander = {
 		planning_skill = 1
 		logistics_skill = 3
 		traits = {  politically_connected old_guard cavalry_leader trait_engineer trickster commando bearer_of_artillery	}
-		id = 8889
+		
 	}
 	create_corps_commander = {
 		name = "Ma Fulu"
@@ -181,7 +181,7 @@ create_corps_commander = {
 		planning_skill = 2
 		logistics_skill = 2
 		traits = {  politically_connected old_guard cavalry_leader	}
-		id = 8810
+		
 	}
 	create_corps_commander = {
 		name = "Ma Fuxing"
@@ -192,7 +192,7 @@ create_corps_commander = {
 		planning_skill = 2
 		logistics_skill = 2
 		traits = {  politically_connected old_guard	 }
-		id = 8811
+		
 	}
 	create_corps_commander = {
 		name = "Ma Fuxiang"
@@ -203,7 +203,7 @@ create_corps_commander = {
 		planning_skill = 3
 		logistics_skill = 3
 		traits = {  politically_connected old_guard	commando }
-		id = 8812
+		
 	}
 	create_corps_commander = {
 		name = "Zhao_Erfeng"
@@ -214,7 +214,7 @@ create_corps_commander = {
 		planning_skill = 1
 		logistics_skill = 1
 		traits = {  politically_connected old_guard }
-		id = 8813
+		
 	}
 	create_field_marshal = {
 		name = "Song Qing"
@@ -225,7 +225,7 @@ create_corps_commander = {
 		defense_skill = 2
 		planning_skill = 2
 		logistics_skill = 2
-		id = 68549
+		
 	}
 	create_field_marshal = {
 		name = "Li Hongzhang"
@@ -236,7 +236,7 @@ create_corps_commander = {
 		defense_skill = 2
 		planning_skill = 3
 		logistics_skill = 1
-		id = 68550
+		
 	}
 
 	if = {
