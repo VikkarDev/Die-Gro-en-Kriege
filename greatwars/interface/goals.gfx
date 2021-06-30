@@ -2823,6 +2823,14 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/CHI/CHI_focus_continue_imperial_rule.dds"
 	}
 	SpriteType = {
+		name = "GFX_CHI_focus_parliament_constitution"
+		texturefile = "gfx/interface/goals/CHI/CHI_focus_parliament_constitution.dds"
+	}
+	SpriteType = {
+		name = "GFX_CHI_focus_fire_revolution_burns"
+		texturefile = "gfx/interface/goals/CHI/CHI_focus_fire_revolution_burns.dds"
+	}
+	SpriteType = {
 		name = "GFX_CHI_focus_end_imperial_rule"
 		texturefile = "gfx/interface/goals/CHI/CHI_focus_end_imperial_rule.dds"
 	}
@@ -2902,6 +2910,14 @@ spriteTypes = {
 		name = "GFX_CHI_focus_tractor"
 		texturefile = "gfx/interface/goals/CHI/CHI_focus_tractor.dds"
 	}
+	SpriteType = {
+		name = "GFX_CHI_focus_press_democratic"
+		texturefile = "gfx/interface/goals/CHI/CHI_focus_press_democratic.dds"
+	}
+	SpriteType = {
+		name = "GFX_CHI_focus_foreign_railway_expand"
+		texturefile = "gfx/interface/goals/CHI/CHI_focus_foreign_railway_expand.dds"
+	}
 
 	#GENERIC CAPTAIN LUCK
 
@@ -2943,7 +2959,11 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/generic/generic_focus_ger_agreement.dds"
 	}
 	SpriteType = {
-		name = "GFX_generic_focus_academy_military"
-		texturefile = "gfx/interface/goals/generic/generic_focus_academy_military.dds"
+		name = "GFX_generic_focus_ger_agreement"
+		texturefile = "gfx/interface/goals/generic/generic_focus_ger_agreement.dds"
+	}
+	SpriteType = {
+		name = "GFX_generic_focus_rail_construction"
+		texturefile = "gfx/interface/goals/generic/generic_focus_rail_construction.dds"
 	}
 }

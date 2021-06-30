@@ -28,6 +28,27 @@ capital = 608
 		CHI_opium_addictions
 	}
 
+	if = {
+		limit = {
+			OR = {
+				has_dlc = "Together for Victory"
+				has_dlc = "Man the Guns"
+			}
+		}
+		set_autonomy = {
+			target = TIB
+			autonomous_state = autonomy_integrated_puppet
+		}
+		set_autonomy = {
+			target = MON
+			autonomous_state = autonomy_integrated_puppet
+		}
+	}
+	else = {
+		puppet = TIB
+		puppet = MON
+	}
+
 	set_politics = {
 		ruling_party = autocracy
 		#last_election = "1895.6.25"
@@ -173,28 +194,6 @@ create_corps_commander = {
 		
 	}
 	create_corps_commander = {
-		name = "Ma Fulu"
-		portrait_path = "gfx/leaders/CHI/base_qing.tga"
-		skill = 3
-		attack_skill = 3
-		defense_skill = 1
-		planning_skill = 2
-		logistics_skill = 2
-		traits = {  politically_connected old_guard cavalry_leader	}
-		
-	}
-	create_corps_commander = {
-		name = "Ma Fuxing"
-		portrait_path = "gfx/leaders/CHI/base_qing.tga"
-		skill = 3
-		attack_skill = 3
-		defense_skill = 2
-		planning_skill = 2
-		logistics_skill = 2
-		traits = {  politically_connected old_guard	 }
-		
-	}
-	create_corps_commander = {
 		name = "Ma Fuxiang"
 		portrait_path = "gfx/leaders/CHI/base_qing.tga"
 		skill = 3
@@ -206,7 +205,7 @@ create_corps_commander = {
 		
 	}
 	create_corps_commander = {
-		name = "Zhao_Erfeng"
+		name = "Zhao Erfeng"
 		portrait_path = "gfx/leaders/CHI/generals/Zhao_Erfeng.tga"
 		skill = 1
 		attack_skill = 1
@@ -255,6 +254,7 @@ create_corps_commander = {
 		basic_cruiser_armor_scheme = 1
 		basic_heavy_armor_scheme = 1
 		mtg_transport = 1
+	}
 	}
 
 	set_naval_oob = "CHI_1910_naval_mtg"
