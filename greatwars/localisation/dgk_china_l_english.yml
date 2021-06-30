@@ -192,3 +192,7 @@ CHI_centrism_party:0 "BHH"
 CHI_centrism_party_long:0 "Baohuang Hui"
 CHI_radical_democracy_party:0 "Bei Yáng Jun"
 CHI_radical_democracy_party_long:0 "Běi Yáng Jūn"
+
+#Tooltips
+
+CHI_ROC_REVOLUTION:0 "The revolution begins"

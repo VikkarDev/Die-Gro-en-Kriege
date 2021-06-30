@@ -745,139 +745,7 @@ focus_tree = {
             
 			}
 		}
-		focus = {
-			id = CHI_1900_message_overseas
-			icon = GFX_SOV_focus_state_duma
-			x = 41
-			y = 7
-			prerequisite = {
-				focus = CHI_1900_japanese_style
-				focus = CHI_1900_british_style
-				}
-			cost = 10
-
-			available = {
-				
-			}
-
-			completion_reward = { 
-            
-			}
-		}
-		focus = {
-			id = CHI_1900_kang_youwei
-			icon = GFX_SOV_focus_state_duma
-			x = 39
-			y = 8
-			prerequisite = {
-				focus = CHI_1900_message_overseas
-			}
-
-			cost = 7
-
-			available = {
-				
-			}
-
-			completion_reward = { 
-            
-			}
-		}
-		focus = {
-			id = CHI_1900_tom_leung
-			icon = GFX_SOV_focus_state_duma
-			x = 41
-			y = 8
-			prerequisite = {
-				focus = CHI_1900_message_overseas
-			}
-
-			cost = 7
-
-			available = {
-				
-			}
-
-			completion_reward = { 
-            
-			}
-		}
-		focus = {
-			id = CHI_1900_foreign_support_reformist
-			icon = GFX_SOV_focus_state_duma
-			x = 43
-			y = 8
-			prerequisite = {
-				focus = CHI_1900_message_overseas
-			}
-
-			cost = 7
-
-			available = {
-				
-			}
-
-			completion_reward = { 
-            
-			}
-		}
-		focus = {
-			id = CHI_1900_support_governers
-			icon = GFX_SOV_focus_state_duma
-			x = 39
-			y = 9
-			prerequisite = {
-				focus = CHI_1900_message_overseas
-			}
-
-			cost = 7
-
-			available = {
-				
-			}
-
-			completion_reward = { 
-            
-			}
-		}
-		focus = {
-			id = CHI_1900_minority_guarantees
-			icon = GFX_SOV_focus_state_duma
-			x = 41
-			y = 9
-			prerequisite = {
-				focus = CHI_1900_tom_leung
-			}
-
-			cost = 7
-
-			available = {
-				
-			}
-
-			completion_reward = { 
-            
-			}
-		}
-		focus = {
-			id = CHI_1900_make_army_reformist
-			icon = GFX_SOV_focus_state_duma
-			x = 43
-			y = 9
-			prerequisite = {
-				focus = CHI_1900_foreign_support_reformist
-			}
-
-			cost = 7
-
-			available = {
-				
-			}
-
-			completion_reward = { 
-            
-			}
-		}
+		
 		focus = {
 			id = CHI_1900_policy_other_parties_reformist
 			icon = GFX_SOV_focus_state_duma
@@ -1871,6 +1739,7 @@ focus_tree = {
 			}
 
 			available = {
+				owns_state = 613
 			}
 
 			completion_reward = { 
@@ -1902,6 +1771,7 @@ focus_tree = {
 			}
 
 			completion_reward = { 
+				add_political_power = -10
             
 			}
 		}
@@ -1921,9 +1791,7 @@ focus_tree = {
 			}
 
 			available = {
-				has_army_manpower = {
-    				size > 10000
-				}
+				owns_state = 608
 			}
 
 			completion_reward = { 
@@ -3561,9 +3429,16 @@ focus_tree = {
 
 			}
 
-			completion_reward = { 
+			completion_reward = {
 			
-            
+			custom_effect_tooltip = "CHI_ROC_REVOLUTION"
+			hidden_effect = {
+				set_global_flag = CHI_REVOLUTION
+				country_event = {
+    				id = my_event.1
+    				days = 10
+					}
+				}
 			}
 		}
 		focus = {
@@ -3731,6 +3606,34 @@ focus_tree = {
 			}
 
 			available = {
+				NOT = {
+					has_war_with = JAP
+				}
+			
+
+			}
+
+			completion_reward = { 
+			JAP = {
+				country_event = japan.11
+			}
+            
+			}
+		}
+		focus = {
+			id = CHI_1900_revolt_in_tianjin
+			icon = GFX_CHI_focus_5_races_one_flag
+			x = 25
+			y = 12
+
+			cost = 4
+
+
+			prerequisite = {
+				focus = CHI_1900_japanese_support
+			}
+
+			available = {
 			
 
 			}
@@ -3741,16 +3644,87 @@ focus_tree = {
 			}
 		}
 		focus = {
-			id = CHI_1900_revolt_in_tianjin
+			id = CHI_1900_dissolve_beiyang_army
 			icon = GFX_CHI_focus_5_races_one_flag
-			x = 25
-			y = 12
+			x = 20
+			y = 11
 
-			cost = 2
+			cost = 5
 
 
 			prerequisite = {
-				focus = CHI_1900_japanese_support
+				focus = CHI_1900_sun_stays_as_president
+			}
+
+			available = {
+			
+
+			}
+
+			completion_reward = { 
+			
+            
+			}
+		}
+		focus = {
+			id = CHI_1900_imprision_provincial_dictators
+			icon = GFX_CHI_focus_5_races_one_flag
+			x = 22
+			y = 11
+
+			cost = 5
+
+
+			prerequisite = {
+				focus = CHI_1900_sun_stays_as_president
+			}
+
+			available = {
+			
+
+			}
+
+			completion_reward = { 
+			
+            
+			}
+		}
+		focus = {
+			id = CHI_1900_implement_constitution_rep
+			icon = GFX_CHI_focus_5_races_one_flag
+			x = 21
+			y = 12
+
+			cost = 10
+
+			prerequisite = {
+				focus = CHI_1900_dissolve_beiyang_army
+			}
+			prerequisite = {
+				focus = CHI_1900_imprision_provincial_dictators
+			}
+
+			available = {
+			
+
+			}
+
+			completion_reward = { 
+			
+            
+			}
+		}
+		focus = {
+			id = CHI_1900_china_united_rep
+			icon = GFX_CHI_focus_5_races_one_flag
+			x = 21
+			y = 13
+
+			cost = 10
+
+
+			prerequisite = {
+				focus = CHI_1900_implement_constitution_rep
 			}
 
 			available = {

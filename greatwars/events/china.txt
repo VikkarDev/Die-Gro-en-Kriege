@@ -120,12 +120,6 @@ country_event = {
 	fire_only_once = yes
 	is_triggered_only = yes
 
-	trigger = {
-		CHI = {
-			has_completed_focus = CHI_1900_taku_forts
-		}
-	}
-
 	option = {
         name = china.6.a
 
@@ -232,11 +226,6 @@ country_event = {
         fire_only_once = yes
 		is_triggered_only = yes
 
-        trigger = {
-				CHI = {
-				    has_completed_focus = CHI_1900_taku_forts
-				}
-			}
 		option = {
 		name = china.7.a
 		add_stability = -0.1

@@ -2952,8 +2952,6 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/AUS/AUS_focus_agreement.dds"
 	}
 
-	#GENERIC DGK
-
 	SpriteType = {
 		name = "GFX_generic_focus_ger_agreement"
 		texturefile = "gfx/interface/goals/generic/generic_focus_ger_agreement.dds"
