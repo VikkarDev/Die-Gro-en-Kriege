@@ -12,58 +12,33 @@
 	
 	default = no
 	
-	continuous_focus_position = { x = 50 y = 1500 }
+	continuous_focus_position = { x = 5000 y = 4000 }
 
 		focus = {
-			id = RUS_1900_state_duma_elections
-			icon = GFX_SOV_focus_state_duma
-			x = 7
-			y = 0
-
-			cost = 10
-
-			available = {
-				has_country_flag = state_duma_allowed
-			}
-
-			completion_reward = { 
-			
-			}
-		}
-
-		focus = {
-			id = RUS_1900_first_election_in_russia
-			icon = GFX_SOV_focus_first_russian_election
-			x = 7
+			id = RUS_new_industry0
+			icon = GFX_focus_SOV_rus_eco
+			x = 12
 			y = 1
 
-			prerequisite = {
-				focus = RUS_1900_state_duma_elections
-			}
-
-			cost = 10
+			cost = 1
 
 			available = {
 			
 			}
 
 			completion_reward = { 
-			
+			add_political_power	= 50
 			}
 		}
 
 		focus = {
-			id = RUS_1900_the_safe_option
-			icon = GFX_SOV_focus_the_safe_option
-			x = 3
+			id = RUS_new_literacy
+			icon = GFX_focus_research
+			x =2
 			y = 2
 
 			prerequisite = {
-				focus = RUS_1900_first_election_in_russia
-			}
-			mutually_exclusive = {
-				focus = RUS_1900_what_the_people_want
-				focus = RUS_1900_the_anti_revolution
+				focus = RUS_new_industry0
 			}
 
 			cost = 10
@@ -73,152 +48,157 @@
 			}
 
 			completion_reward = { 
-			
+			   add_political_power = 50
 			}
 		}
 
 		focus = {
-			id = RUS_1900_what_the_people_want
-			icon = GFX_SOV_focus_what_the_people_want
-			x = 7
-			y = 2
-
-			prerequisite = {
-				focus = RUS_1900_first_election_in_russia
-			}
-			mutually_exclusive = {
-				focus = RUS_1900_the_safe_option
-				focus = RUS_1900_the_anti_revolution
-			}
-
-			cost = 10
-
-			available = {
-			
-			}
-
-			completion_reward = { 
-			
-			}
-		}
-
-		focus = {
-			id = RUS_1900_the_anti_revolution
-			icon = GFX_SOV_focus_the_anti_revolution
-			x = 11
-			y = 2
-
-			cost = 10
-
-			prerequisite = {
-				focus = RUS_1900_first_election_in_russia
-			}
-			mutually_exclusive = {
-				focus = RUS_1900_what_the_people_want
-				focus = RUS_1900_the_safe_option
-			}
-
-			available = {
-			
-			}
-
-			completion_reward = { 
-			
-			}
-		}
-
-		focus = {
-			id = RUS_1900_stabilize_the_people
-			icon = GFX_focus_generic_industry_1
-			x = 2
-			y = 3
-
-			cost = 10
-
-			prerequisite = {
-				focus = RUS_1900_the_safe_option
-			}
-
-			available = {
-			
-			}
-
-			completion_reward = { 
-			
-			}
-		}
-
-		focus = {
-			id = RUS_1900_anti_authoritarianism
-			icon = GFX_focus_generic_industry_1
-			x = 4
-			y = 3
-
-			cost = 10
-
-			prerequisite = {
-				focus = RUS_1900_the_safe_option
-			}
-
-			available = {
-			
-			}
-
-			completion_reward = { 
-			
-			}
-		}
-
-		focus = {
-			id = RUS_1900_workers_rights
-			icon = GFX_focus_generic_industry_1
-			x = 6
-			y = 3
-
-			cost = 10
-
-			prerequisite = {
-				focus = RUS_1900_what_the_people_want
-			}
-
-			available = {
-			
-			}
-
-			completion_reward = { 
-			
-			}
-		}
-
-		focus = {
-			id = RUS_1900_government_comprimise
-			icon = GFX_focus_generic_industry_1
-			x = 8
-			y = 3
-
-			prerequisite = {
-				focus = RUS_1900_what_the_people_want
-			}
-
-			cost = 10
-
-			available = {
-			
-			}
-
-			completion_reward = { 
-			
-			}
-		}
-
-		focus = {
-			id = RUS_1900_work_with_the_tsar
-			icon = GFX_focus_generic_industry_1
+			id = RUS_new_industry01
+			icon = GFX_focus_SOV_continue_ind
 			x = 10
+			y = 2
+
+			prerequisite = {
+				focus = RUS_new_industry0
+			}
+
+			cost = 5
+
+			available = {
+			
+			}
+
+			completion_reward = { 
+			219 = {
+                   add_extra_state_shared_building_slots = 2
+				   add_building_construction = { type = industrial_complex level = 2 instant_build = yes }	
+			      }
+			}
+		}
+
+		focus = {
+			id = RUS_new_tsway
+			icon = GFX_goal_generic_construct_infrastructure
+			x = 18
+			y = 2
+
+			cost = 10
+
+			prerequisite = {
+				focus = RUS_new_industry0
+			}
+
+			available = {
+			
+			}
+
+			completion_reward = { 
+			    577 = {
+              add_building_construction = {
+	          type = infrastructure
+	          level = 2
+	          instant_build = yes
+                                           }
+				      }
+
+				576 = {
+              add_building_construction = {
+	          type = infrastructure
+	          level = 2
+	          instant_build = yes
+			                               }
+				      }
+				
+				575 = {
+              add_building_construction = {
+	          type = infrastructure
+	          level = 2
+	          instant_build = yes
+			  }
+					
+				}
+
+			                    }
+		}
+
+		focus = {
+			id = RUS_new_orth
+			icon = GFX_focus_focus_fra_national_resistance_council
+			x = 1
+			y = 3
+
+			cost = 10
+
+			prerequisite = {
+				focus = RUS_new_literacy
+			}
+
+			available = {
+			
+			}
+
+			completion_reward = { 
+			     random_owned_state = {
+                    add_extra_state_shared_building_slots = 2
+                    add_building_construction = { type = industrial_complex level = 2 instant_build = yes }
+				                      }
+			}
+		}
+
+		focus = {
+			id = RUS_new_skool
+			icon = GFX_focus_generic_military_mission
+			x = 3
+			y = 3
+
+			cost = 10
+
+			prerequisite = {
+				focus = RUS_new_literacy
+			}
+
+			available = {
+			
+			}
+
+			completion_reward = { 
+                   add_stability = 0.05
+			}
+		}
+
+		focus = {
+			id = RUS_new_excity
+			icon = GFX_focus_SOV_fra_imp
+			x = 9
+			y = 3
+
+			cost = 10
+
+			prerequisite = {
+				focus = RUS_new_industry01
+			}
+
+			available = {
+			
+			}
+
+			completion_reward = { 
+			    add_tech_bonus = {
+                bonus = 1
+                uses = 1
+                category = electronics
+                                  }
+			}
+		}
+
+		focus = {
+			id = RUS_new_imptool
+			icon = GFX_focus_SOV_imp_tools
+			x = 11
 			y = 3
 
 			prerequisite = {
-				focus = RUS_1900_the_anti_revolution
+				focus = RUS_new_industry01
 			}
 
 			cost = 10
@@ -228,19 +208,26 @@
 			}
 
 			completion_reward = { 
-			
+		        add_tech_bonus = {
+                bonus = 1
+                uses = 2
+                category = industry
+                                  }
 			}
 		}
 
 		focus = {
-			id = RUS_1900_clash_with_revolutionaries
-			icon = GFX_focus_generic_industry_1
-			x = 12
+			id = RUS_new_civway
+			icon = GFX_SOV_focus_first_russian_election 
+			x = 17
 			y = 3
 
 			prerequisite = {
-				focus = RUS_1900_the_anti_revolution
+				focus = RUS_new_tsway
 			}
+
+            mutually_exclusive = { focus = RUS_new_milway }
+
 
 			cost = 10
 
@@ -249,302 +236,476 @@
 			}
 
 			completion_reward = { 
-			
+			565 = {
+              add_building_construction = {
+	          type = industrial_complex
+	          level = 2
+	          instant_build = yes
+                                           }
+			}
+
 			}
 		}
 
 		focus = {
-			id = RUS_1900_legislative_election_1907
-			icon = GFX_focus_generic_industry_1
-			x = 7
+			id = RUS_new_milway
+			icon = GFX_SOV_focus_first_russian_election
+			x = 19
+			y = 3
+
+			prerequisite = {
+				focus = RUS_new_tsway
+			}
+
+            mutually_exclusive = { focus = RUS_new_civway }
+
+
+			cost = 10
+
+			available = {
+			
+			}
+
+			completion_reward = { 
+
+				565 = {
+              add_building_construction = {
+	          type = arms_factory
+	          level = 2
+	          instant_build = yes
+                                           }
+				}			
+
+			}
+		}
+
+
+		focus = {
+			id = RUS_new_onetrack
+			icon = GFX_SOV_focus_first_russian_election 
+			x = 17
+			y = 4
+
+            mutually_exclusive = { focus = RUS_new_twotrack }
+
+			cost = 5
+
+			prerequisite = {
+				focus = RUS_new_civway
+				focus = RUS_new_milway
+			}
+
+
+			available = {
+			
+			}
+
+			completion_reward = { 
+				565 = {
+              add_building_construction = {
+	          type = infrastructure
+	          level = 2
+	          instant_build = yes
+                                           }				
+				      }
+
+         		562 ={
+              add_building_construction = {
+	          type = infrastructure
+	          level = 2
+	          instant_build = yes
+                                           }    
+				 }	
+
+				 574 = {
+              add_building_construction = {
+	          type = infrastructure
+	          level = 2
+	          instant_build = yes
+                                           }    
+				 }	   
+
+				 516 = {
+              add_building_construction = {
+	          type = infrastructure
+	          level = 2
+	          instant_build = yes
+                                           }    
+				 }	      
+
+			}
+		}
+
+
+		focus = {
+			id = RUS_new_twotrack
+			icon = GFX_SOV_focus_first_russian_election 
+			x = 19
+			y = 4
+
+            mutually_exclusive = { focus = RUS_new_onetrack }
+
+			cost = 10
+
+			prerequisite = {
+				focus = RUS_new_milway
+				focus = RUS_new_civway
+			}
+
+
+			available = {
+			
+			}
+
+			completion_reward = { 
+				565 = {
+              add_building_construction = {
+	          type = infrastructure
+	          level = 4
+	          instant_build = yes
+                                           }	
+				}
+				562 ={
+              add_building_construction = {
+	          type = infrastructure
+	          level = 4
+	          instant_build = yes
+                                           }
+				}						   					
+			}
+	}
+
+		focus = {
+			id = RUS_new_finway
+			icon = GFX_GER_focus_develop_colonies
+			x = 18
 			y = 5
 
-			prerequisite = {
-				focus = RUS_1900_work_with_the_tsar
-				focus = RUS_1900_clash_with_revolutionaries
-				focus = RUS_1900_workers_rights
-				focus = RUS_1900_government_comprimise
-				focus = RUS_1900_anti_authoritarianism
-				focus = RUS_1900_stabilize_the_people
-			}
-
-			cost = 10
-
-			available = {
-			
-			}
-
-			completion_reward = { 
-			
-			}
-		}
-
-		focus = {
-			id = RUS_1900_russian_foreign_policy 
-			icon = GFX_focus_generic_industry_1
-			x = 17
-			y = 0
-
-			cost = 10
-
-			available = {
-			
-			}
-
-			completion_reward = { 
-			
-			}
-		}
-
-		focus = {
-			id = RUS_1900_work_with_france
-			icon = GFX_focus_generic_industry_1
-			x = 15
-			y = 1
-
-			mutually_exclusive = {
-				focus = RUS_1900_russian_banks
-				focus = RUS_1900_steer_towards_germany
-			}
-
+			cost = 20
 
 			prerequisite = {
-				focus = RUS_1900_russian_foreign_policy
+				focus = RUS_new_onetrack
+				focus = RUS_new_twotrack
 			}
 
-			cost = 10
 
 			available = {
 			
 			}
 
 			completion_reward = { 
-			
+							657 = {
+              add_building_construction = {
+	          type = infrastructure
+	          level = 2
+	          instant_build = yes
+                                           }	
+				}
+
+							409 = {
+              add_building_construction = {
+	          type = infrastructure
+	          level = 2
+	          instant_build = yes
+                                           }	
+				}
+							563 = {
+              add_building_construction = {
+	          type = infrastructure
+	          level = 2
+	          instant_build = yes
+                                           }	
+				}
+							565 = {
+              add_building_construction = {
+	          type = infrastructure
+	          level = 2
+	          instant_build = yes
+                                           }	
+				}
+							40 = {
+              add_building_construction = {
+	          type = infrastructure
+	          level = 2
+	          instant_build = yes
+                                           }	
+				}
+							560 = {
+              add_building_construction = {
+	          type = infrastructure
+	          level = 2
+	          instant_build = yes
+                                           }	
+				}
+							561 = {
+              add_building_construction = {
+	          type = infrastructure
+	          level = 2
+	          instant_build = yes
+                                           }	
+				}
+							567 = {
+              add_building_construction = {
+	          type = infrastructure
+	          level = 2
+	          instant_build = yes
+                                           }	
+				}
+							568 = {
+              add_building_construction = {
+	          type = infrastructure
+	          level = 2
+	          instant_build = yes
+                                           }	
+				}
+							578 = {
+              add_building_construction = {
+	          type = infrastructure
+	          level = 2
+	          instant_build = yes
+                                           }
+							}	
+							569 = {
+              add_building_construction = {
+	          type = infrastructure
+	          level = 2
+	          instant_build = yes
+                                           }	
+			     	}						   
+				add_stability = 0.05
 			}
+			
 		}
 
 		focus = {
-			id = RUS_1900_russian_banks
-			icon = GFX_focus_generic_industry_1
-			x = 17
-			y = 1
-
-			mutually_exclusive = {
-				focus = RUS_1900_steer_towards_germany
-				focus = RUS_1900_work_with_france
-			}
-
-
-			prerequisite = {
-				focus = RUS_1900_russian_foreign_policy
-			}
-
-			cost = 10
-
-			available = {
-			
-			}
-
-			completion_reward = { 
-			
-			}
-		}
-
-		focus = {
-			id = RUS_1900_steer_towards_germany
-			icon = GFX_focus_generic_industry_1
-			x = 19
-			y = 1
-
-			prerequisite = {
-				focus = RUS_1900_russian_foreign_policy
-			}
-
-			mutually_exclusive = {
-				focus = RUS_1900_russian_banks
-				focus = RUS_1900_work_with_france
-			}
-
-			cost = 10
-
-			available = {
-			
-			}
-
-			completion_reward = { 
-			
-			}
-		}
-
-		focus = {
-			id = RUS_1900_anti_german_pact
-			icon = GFX_focus_generic_industry_1
-			x = 14
+			id = RUS_new_tcway
+			icon = GFX_goal_generic_construct_infrastructure
+			x = 23
 			y = 2
 
-			prerequisite = {
-				focus = RUS_1900_work_with_france
-			}
-
 			cost = 10
+
+			prerequisite = {
+				focus = RUS_new_industry0
+			}
 
 			available = {
 			
 			}
 
 			completion_reward = { 
-			
-			}
+			    237	 = {
+              add_building_construction = {
+	          type = infrastructure
+	          level = 2
+	          instant_build = yes
+                                           }
+				      }
+			    236 = {
+              add_building_construction = {
+	          type = infrastructure
+	          level = 2
+	          instant_build = yes
+                                           }
+				      }
+			}	  
 		}
 
 		focus = {
-			id = RUS_1900_our_people
-			icon = GFX_focus_generic_industry_1
-			x = 17
-			y = 2
-
-			prerequisite = {
-				focus = RUS_1900_russian_banks
-			}
+			id = RUS_new_tcway2
+			icon = GFX_SOV_focus_first_russian_election 
+			x = 23
+			y = 3
 
 			cost = 10
+
+			prerequisite = {
+				focus = RUS_new_tcway
+			}
 
 			available = {
 			
 			}
 
 			completion_reward = { 
-			
+					 233 = {
+              add_building_construction = {
+	          type = infrastructure
+	          level = 2
+	          instant_build = yes
+                                           }
+				      }
+	  			     231 = {
+              add_building_construction = {
+	          type = infrastructure
+	          level = 2
+	          instant_build = yes
+                                           }
+				      }
+				     232 = {
+              add_building_construction = {
+	          type = infrastructure
+	          level = 1
+	          instant_build = yes
+                                           }
+				      }
+
 			}
 		}
 
 		focus = {
-			id = RUS_1900_end_french_dependancy
-			icon = GFX_focus_generic_industry_1
-			x = 20
-			y = 2
-
-			prerequisite = {
-				focus = RUS_1900_steer_towards_germany
-			}
-
-
-			cost = 10
-
-			available = {
-			
-			}
-
-			completion_reward = { 
-			
-			}
-		}
-
-		focus = {
-			id = RUS_1900_the_revolution
-			icon = GFX_focus_generic_industry_1
-			x = 17
+			id = RUS_new_tcwayBase
+			icon = GFX_SOV_focus_first_russian_election 
+			x = 22
 			y = 4
 
 			cost = 10
 
+			prerequisite = {
+				focus = RUS_new_tcway2
+			}
+
+            mutually_exclusive = { focus = RUS_new_tcwayFriend }
+
+
 			available = {
-				has_country_flag = first_russian_revolution
+			
 			}
 
 			completion_reward = { 
-			
+			add_opinion_modifier = {
+            target = TUR
+            modifier = large_decrease	
+                                    }
 			}
 		}
 
+
 		focus = {
-			id = RUS_1900_for_the_tsar
-			icon = GFX_focus_generic_industry_1
+			id = RUS_new_tcwayFriend
+			icon = GFX_SOV_focus_first_russian_election 
+			x = 24
+			y = 4
+
+			cost = 10
+
+			prerequisite = {
+				focus = RUS_new_tcway2
+			}
+
+            mutually_exclusive = { focus = RUS_new_tcwayBase}
+
+
+			available = {
+			
+			}
+
+			completion_reward = { 
+			add_opinion_modifier = { target = TUR modifier = huge_increase }
+			}
+		}
+
+
+		focus = {
+			id = RUS_new_finway2
+			icon = GFX_GER_focus_develop_colonies
+			x = 23
+			y = 5
+
+			cost = 20
+
+			prerequisite = {focus = RUS_new_tcwayBase 
+			               focus = RUS_new_tcwayFriend}
+
+
+			available = {
+			
+			}
+
+			completion_reward = { 
+						    942 = {
+              add_building_construction = {
+	          type = infrastructure
+	          level = 2
+	          instant_build = yes
+                                           }
+				      }
+						    230 = {
+              add_building_construction = {
+	          type = infrastructure
+	          level = 2
+	          instant_build = yes
+                                           }
+				      }
+						    229 = {
+              add_building_construction = {
+	          type = infrastructure
+	          level = 2
+	          instant_build = yes
+                                           }
+				      }
+					  add_stability = 0.05
+
+			}
+		}
+
+
+		focus = {
+			id = RUS_new_hous
+			icon = GFX_focus_SOV_house_cris
+			x = 10
+			y = 4
+
+			prerequisite = {focus = RUS_new_excity}
+			prerequisite = {focus = RUS_new_imptool}
+
+			cost = 10
+
+			available = {
+			
+			}
+
+			completion_reward = { 
+			custom_effect_tooltip = fight_hos
+			    }
+		}
+
+
+		focus = {
+			id = RUS_new_indep
+			icon = GFX_GER_focus_factories_factories_factories
+			x = 13
+			y = 5
+
+			prerequisite = {
+				focus = RUS_new_hous
+			}
+
+        mutually_exclusive = { focus = RUS_new_dep }
+
+			cost = 1
+
+			available = {
+			
+			}
+
+			completion_reward = { 
+			    remove_ideas = SOV_french_dependancy 
+				add_stability = 0.05
+			}
+		}
+
+
+		focus = {
+			id = RUS_new_incpro
+			icon = GFX_goal_generic_construction2
 			x = 15
-			y = 5
-
-			mutually_exclusive = {
-				focus = RUS_1900_the_peaceful_way
-				focus = RUS_1900_for_the_revolution
-			}
-
-			prerequisite = {
-				focus = RUS_1900_the_revolution
-			}
-
-			cost = 10
-
-			available = {
-			
-			}
-
-			completion_reward = { 
-			
-			}
-		}
-
-		focus = {
-			id = RUS_1900_the_peaceful_way
-			icon = GFX_focus_generic_industry_1
-			x = 17
-			y = 5
-
-			mutually_exclusive = {
-				focus = RUS_1900_for_the_tsar
-				focus = RUS_1900_for_the_revolution
-			}
-
-			prerequisite = {
-				focus = RUS_1900_the_revolution
-			}
-
-
-			cost = 10
-
-			available = {
-			
-			}
-
-			completion_reward = { 
-			
-			}
-		}
-
-		focus = {
-			id = RUS_1900_for_the_revolution
-			icon = GFX_focus_generic_industry_1
-			x = 19
-			y = 5
-
-			mutually_exclusive = {
-				focus = RUS_1900_the_peaceful_way
-				focus = RUS_1900_for_the_tsar
-			}
-
-			prerequisite = {
-				focus = RUS_1900_the_revolution
-			}
-
-			cost = 10
-
-			available = {
-			
-			}
-
-			completion_reward = { 
-			
-			}
-		}
-
-		focus = {
-			id = RUS_1900_down_with_revolutionaries
-			icon = GFX_focus_generic_industry_1
-			x = 14
 			y = 6
 
 			prerequisite = {
-				focus = RUS_1900_for_the_tsar
+				focus = RUS_new_indep
 			}
+
 
 			cost = 10
 
@@ -553,18 +714,27 @@
 			}
 
 			completion_reward = { 
-			
+			add_resource = {
+              type = steel
+              amount = 25
+              state = 253
+                            }
+			add_resource = {
+              type = alluminuim
+              amount = 10
+              state = 248
+                            }							
 			}
 		}
 
 		focus = {
-			id = RUS_1900_open_discussion
-			icon = GFX_focus_generic_industry_1
-			x = 17
+			id = RUS_new_teachwork
+			icon = GFX_goal_generic_construct_civilian
+			x = 11
 			y = 6
 
 			prerequisite = {
-				focus = RUS_1900_the_peaceful_way
+				focus = RUS_new_indep
 			}
 
 
@@ -575,18 +745,18 @@
 			}
 
 			completion_reward = { 
-			
+			 add_stability = 0.10
 			}
 		}
 
 		focus = {
-			id = RUS_1900_people_in_power
-			icon = GFX_focus_generic_industry_1
-			x = 20
+			id = RUS_new_inccond
+			icon = GFX_goal_tripartite_pact
+			x = 13
 			y = 6
 
 			prerequisite = {
-				focus = RUS_1900_for_the_revolution
+				focus = RUS_new_indep
 			}
 
 
@@ -597,18 +767,43 @@
 			}
 
 			completion_reward = { 
-			
+			  add_ideas = SOV_smartworkers
 			}
 		}
 
 		focus = {
-			id = RUS_1900_officer_purge
-			icon = GFX_focus_generic_industry_1
-			x = 14
+			id = RUS_new_milind
+			icon = GFX_GER_focus_increase_mil_budget
+			x = 13
 			y = 7
 
+			prerequisite = {focus = RUS_new_indep}
+			prerequisite = {focus = RUS_new_incpro}
+			prerequisite = {focus = RUS_new_teachwork}
+
+
+			cost = 10
+
+			available = {
+			
+			}
+
+			completion_reward = { 
+			  			206 = {
+                   add_extra_state_shared_building_slots = 2
+				   add_building_construction = { type = arms_factory level = 2 instant_build = yes }	
+			                  }
+			}
+		}
+
+		focus = {
+			id = RUS_new_limex
+			icon = GFX_GER_focus_balance_spending
+			x = 13
+			y = 8
+
 			prerequisite = {
-				focus = RUS_1900_down_with_revolutionaries
+				focus = RUS_new_milind
 			}
 
 
@@ -619,18 +814,153 @@
 			}
 
 			completion_reward = { 
-			
+			 add_ideas = limited_exports
 			}
 		}
 
 		focus = {
-			id = RUS_1900_constitution_1906
-			icon = GFX_focus_generic_industry_1
-			x = 17
+			id = RUS_new_dep
+			icon = GFX_focus_SOV_dep_fra
+			x = 7
+			y = 5
+
+			prerequisite = {
+				focus = RUS_new_hous
+			}
+
+            mutually_exclusive = { focus = RUS_new_indep }
+
+			cost = 1
+
+			available = {
+			
+			}
+
+			completion_reward = { 
+			   add_stability = -0.05
+			   			swap_ideas = { 
+              remove_idea = SOV_french_dependancy
+              add_idea = SOV_french_dependancy1
+			             }
+			}
+		}
+
+		focus = {
+			id = RUS_new_coopwest
+			icon = GFX_goal_generic_intelligence_exchange
+			x = 9
+			y = 6
+
+			prerequisite = {
+				focus = RUS_new_dep
+			}
+
+
+			cost = 10
+
+			available = {
+			
+			}
+
+			completion_reward = { 
+			add_opinion_modifier = {
+            target = FRA
+            modifier = large_increase	
+                                    }
+			add_opinion_modifier = {
+            target = ENG
+            modifier = large_increase	
+                                    }
+			}
+		}
+
+		focus = {
+			id = RUS_new_buytools
+			icon = GFX_goal_generic_construct_civ_factory
+			x = 7
+			y = 6
+
+			prerequisite = {
+				focus = RUS_new_dep
+			}
+
+
+			cost = 10
+
+			available = {
+			
+			}
+
+			completion_reward = { 
+					195 = {
+                   add_extra_state_shared_building_slots = 2
+				   add_building_construction = { type = industrial_complex level = 2 instant_build = yes }	
+			      }
+			}
+		}
+
+		focus = {
+			id = RUS_new_westtech
+			icon = GFX_goal_generic_scientific_exchange
+			x = 5
+			y = 6
+
+			prerequisite = {
+				focus = RUS_new_dep
+			}
+
+
+			cost = 10
+
+			available = {
+			
+			}
+
+			completion_reward = { 
+		       add_tech_bonus = {
+                bonus = 1
+                uses = 2
+                category = industry
+                                  }
+			}
+		}
+	
+			focus = {
+			id = RUS_new_beginrel
+			icon = GFX_GER_focus_north_coalmines
+			x = 7
 			y = 7
 
+			prerequisite = {focus = RUS_new_buytools}
+            prerequisite = {focus = RUS_new_coopwest}
+			prerequisite = {focus = RUS_new_westtech}
+
+			cost = 10
+
+			available = {
+			
+			}
+
+			completion_reward = { 
+						  			206 = {
+                   add_extra_state_shared_building_slots = 2
+				   add_building_construction = { type = industrial_complex level = 2 instant_build = yes }	
+			      }
+				  		202 = {
+                   add_extra_state_shared_building_slots = 2
+				   add_building_construction = { type = industrial_complex level = 2 instant_build = yes }	
+			      }
+			}
+		}
+
+				focus = {
+			id = RUS_new_moreex
+			icon = GFX_GER_focus_european_investment
+			x = 7
+			y = 8
+
 			prerequisite = {
-				focus = RUS_1900_open_discussion
+				focus = RUS_new_beginrel
 			}
 
 
@@ -641,128 +971,1384 @@
 			}
 
 			completion_reward = { 
+		       		swap_ideas = { 
+              remove_idea = SOV_french_dependancy1
+              add_idea = SOV_french_dependancy2
+			             }
+			}
+		}
+
+				focus = {
+			id = RUS_new_noagri
+			icon = GFX_GER_focus_agriculture_innovation
+			x = 10
+			y = 9
+
+			prerequisite = {
+				focus = RUS_new_moreex
+				focus = RUS_new_limex
+			}
+
+
+			cost = 30
+
+			available = {
 			
+			}
+
+			completion_reward = { 
+			   add_ideas = SOV_indu
 			}
 		}
 
 		focus = {
-			id = RUS_1900_the_new_union
-			icon = GFX_focus_generic_industry_1
-			x = 20
+			id = RUS_new_massind
+			icon = GFX_goal_generic_construction
+			x = 13
+			y = 10
+
+			prerequisite = {
+				focus = RUS_new_noagri
+			}
+
+
+			cost = 10
+
+			available = {
+			
+			}
+
+			completion_reward = { 
+							217 = {
+                   add_extra_state_shared_building_slots = 2
+				   add_building_construction = { type = industrial_complex level = 2 instant_build = yes }
+			    }
+							12 = {
+                   add_extra_state_shared_building_slots = 2
+				   add_building_construction = { type = industrial_complex level = 2 instant_build = yes }
+			    }
+			}	
+		}
+
+		focus = {
+			id = RUS_new_focwes
+			icon = GFX_goal_generic_construct_infrastructure
+			x = 15
+			y = 11
+
+			prerequisite = {
+				focus = RUS_new_massind
+			}
+
+
+			cost = 10
+
+			available = {
+			
+			}
+
+			completion_reward = { 
+							242= {
+                   add_extra_state_shared_building_slots = 2
+				   add_building_construction = { type = industrial_complex level = 2 instant_build = yes }
+			    }
+							222 = {
+                   add_extra_state_shared_building_slots = 2
+				   add_building_construction = { type = industrial_complex level = 2 instant_build = yes }
+			    }
+			}
+		}
+
+		focus = {
+			id = RUS_new_focsib
+			icon = GFX_goal_generic_wolf_pack
+			x = 11
+			y = 11
+
+			prerequisite = {
+				focus = RUS_new_massind
+			}
+
+
+			cost = 10
+
+			available = {
+			
+			}
+
+			completion_reward = { 
+							575 = {
+                   add_extra_state_shared_building_slots = 2
+				   add_building_construction = { type = industrial_complex level = 2 instant_build = yes }
+			    }
+							408 = {
+                   add_extra_state_shared_building_slots = 2
+				   add_building_construction = { type = industrial_complex level = 2 instant_build = yes }
+			    }
+			}
+		}
+
+		focus = {
+			id = RUS_new_induru
+			icon = GFX_goal_generic_soviet_construction
+			x = 13
+			y = 12
+
+			prerequisite = {focus = RUS_new_focsib}
+			prerequisite = {focus = RUS_new_focwes}
+
+
+			cost = 20
+
+			available = {
+			
+			}
+
+			completion_reward = { 
+		      swap_ideas = { 
+              remove_idea = SOV_indu
+              add_idea = SOV_indu1
+                         }
+			}
+		}
+
+		focus = {
+			id = RUS_new_drilloil
+			icon = GFX_GER_focus_synthetic_rubber
+			x = 7
+			y = 10
+
+			prerequisite = {
+				focus = RUS_new_noagri
+			}
+
+
+			cost = 10
+
+			available = {
+			
+			}
+
+			completion_reward = { 
+			  231 = {
+				  	add_resource = {
+		            type = oil
+		            amount = 20
+	                                }
+			        }
+			}
+		}
+
+		focus = {
+			id = RUS_new_oilciv
+			icon = GFX_goal_generic_oil_refinery
+			x = 9
+			y = 11
+
+			prerequisite = {
+				focus = RUS_new_drilloil
+			}
+
+          mutually_exclusive = { focus = RUS_new_oilmil }
+
+			cost = 10
+
+			available = {
+			
+			}
+
+			completion_reward = { 
+										195 = {
+                   add_extra_state_shared_building_slots = 2
+				   add_building_construction = { type = industrial_complex level = 2 instant_build = yes }
+				                            } 
+				                        206 ={
+			       add_extra_state_shared_building_slots = 2
+				   add_building_construction = { type = industrial_complex level = 2 instant_build = yes }	
+										     }
+			    	
+			}
+		}
+
+		focus = {
+			id = RUS_new_oilmil
+			icon = GFX_focus_generic_tank_production
+			x = 5
+			y = 11
+
+			prerequisite = {
+				focus = RUS_new_drilloil
+			}
+
+            mutually_exclusive = { focus = RUS_new_oilciv }
+
+			cost = 10
+
+			available = {
+			
+			}
+
+			completion_reward = { 
+										195 = {
+                   add_extra_state_shared_building_slots = 2
+				   add_building_construction = { type = arms_factory level = 2 instant_build = yes }
+				                              } 
+				                        206 ={
+			       add_extra_state_shared_building_slots = 2
+				   add_building_construction = { type = arms_factory level = 2 instant_build = yes }	
+										     }
+			}
+		}
+
+				focus = {
+			id = RUS_new_lead
+			icon = GFX_GER_focus_new_research_techniques
+			x = 7
+			y = 12
+
+			prerequisite = {
+				focus = RUS_new_oilciv
+				focus = RUS_new_oilmil
+			}
+
+
+			cost = 10
+
+			available = {
+			  
+			}
+
+			completion_reward = { 
+			 add_research_slot = 1
+			 add_stability = 0.05
+			}
+		}
+
+		focus = {
+			id = RUS_new_fight
+			icon = GFX_focus_generic_diplomatic_treaty
+			x = 2
+			y = 4
+
+			prerequisite = {
+				focus = RUS_new_orth
+				focus = RUS_new_skool
+			}
+
+			cost = 10
+
+			available = {
+			
+			}
+
+			completion_reward = { 
+				custom_effect_tooltip = fight_lit
+			}
+		}
+
+
+		focus = {
+			id = RUS_new_universal
+			icon = GFX_focus_research2
+			x = 2
+			y = 5
+
+			prerequisite = {
+				focus = RUS_new_fight
+			}
+
+			cost = 20
+
+			available = 
+			{
+				            NOT = {has_idea = SOV_high_iliteracy3 }
+			                NOT = {has_idea = SOV_high_iliteracy2 } 
+			}
+
+			completion_reward = { 
+			     add_ideas = SOV_edu
+			}
+		}
+    focus = {
+    id = RUS_new_policy
+	icon = GFX_focus_RUS_internal_policy
+	x = 32
+	y = 1
+	cost = 1
+
+	available = {
+
+	}
+
+	completion_reward ={ add_political_power = 50 }
+                 }
+	focus = {
+    id = RUS_new_calm1
+	icon = GFX_SOV_focus_first_russian_election
+	x = 31
+	y = 2
+	cost = 5
+
+	available = {
+
+	}
+
+			prerequisite = {
+				focus = RUS_new_policy
+			}
+
+	completion_reward { add_stability = 0.05 } 
+                       }
+	focus = {
+    id = RUS_new_livstand
+	icon = GFX_SOV_focus_first_russian_election
+	x = 33
+	y = 2
+	cost = 5
+
+	available = {
+
+	}
+
+			prerequisite = {
+				focus = RUS_new_policy
+			}
+
+	completion_reward ={ add_stability = 0.05 	}
+           }	
+
+    focus = {
+    id = RUS_new_prop
+	icon = GFX_SOV_focus_first_russian_election
+	x = 32
+	y = 3
+	cost = 5
+
+	available = {
+
+	}
+
+			prerequisite = {focus = RUS_new_calm1 }
+			prerequisite = {focus = RUS_new_livstand}
+
+	completion_reward ={custom_effect_tooltip = prop }
+                 }	
+    focus = {
+    id = RUS_new_faith
+	icon = GFX_SOV_focus_first_russian_election
+	x = 32
+	y = 4
+	cost = 10
+
+	available = { has_country_flag = rus_faith_tsar	}
+
+	prerequisite = {focus = RUS_new_prop}
+			                
+	completion_reward ={ remove_country_leader_trait = poor_leader
+	                      add_political_power = 50 }
+                 }
+	
+    focus = {
+    id = RUS_new_def_fra
+	icon = GFX_SOV_focus_first_russian_election
+	x = 34
+	y = 5
+	cost = 5
+
+	available = {
+
+	}
+
+			prerequisite = {focus = RUS_new_faith}
+
+	completion_reward ={ give_guarantee = FRA 
+	                    hidden = {FRA = { country_event = { id = france.1 } } }
+						custom_effect_tooltip = fra_gar }
+	        }
+    focus = {
+    id = RUS_new_def_cau
+	icon = GFX_SOV_focus_first_russian_election
+	x = 35
+	y = 6
+	cost = 5
+
+	available = {
+
+	}
+
+			prerequisite = {focus = RUS_new_def_fra}
+
+	completion_reward ={
+			942 = {
+				add_building_construction = {
+				type = bunker
+				level = 2
+				province = 7454
+				instant_build = yes
+				}
+			}
+			942 = {
+				add_building_construction = {
+				type = bunker
+				level = 2
+				province = 6991
+				instant_build = yes
+				}
+			}	
+			942 = {
+				add_building_construction = {
+				type = bunker
+				level = 2
+				province = 4583
+				instant_build = yes
+				}
+			}		
+
+		 }
+                 }
+    focus = {
+    id = RUS_new_def_afg
+	icon = GFX_SOV_focus_first_russian_election
+	x = 33
+	y = 6
+	cost = 5
+
+	available = {
+
+	}
+
+			prerequisite = {focus = RUS_new_def_fra}
+
+	completion_reward ={ 
+			584 = {
+				add_building_construction = {
+				type = bunker
+				level = 1
+				province = 5003
+				instant_build = yes
+				}
+			}
+			584 = {
+				add_building_construction = {
+				type = bunker
+				level = 1
+				province = 4549
+				instant_build = yes
+				}
+			}	
+			584 = {
+				add_building_construction = {
+				type = bunker
+				level = 1
+				province = 756
+				instant_build = yes
+				}
+			}		
+			405 = {
+				add_building_construction = {
+				type = bunker
+				level = 1
+				province = 12239
+				instant_build = yes
+				}
+			}
+			742 = {
+				add_building_construction = {
+				type = bunker
+				level = 1
+				province = 12218
+				instant_build = yes
+				}
+			}	
+			742 = {
+				add_building_construction = {
+				type = bunker
+				level = 1
+				province = 7224
+				instant_build = yes
+				}
+			}		
+
+
+
+
+	}
+                 }	
+    focus = {
+    id = RUS_new_ally
+	icon = GFX_SOV_focus_first_russian_election
+	x = 34
+	y = 7
+	cost = 10
+
+	available = {
+
+	}
+
+			prerequisite = {focus = RUS_new_def_cau}
+			prerequisite = {focus = RUS_new_def_afg}
+
+	completion_reward ={ 
+            add_opinion_modifier = { target = ENG modifier = large_increase }
+            add_opinion_modifier = { target = FRA modifier = large_increase }
+		    add_opinion_modifier = { target = GER modifier = large_increase }
+			add_opinion_modifier = { target = ITA modifier = large_increase }
+	}
+                 }	
+    focus = {
+    id = RUS_new_aisia
+	icon = GFX_SOV_focus_first_russian_election
+	x = 30
+	y = 5
+	cost = 5
+
+	available = {
+
+	}
+
+			prerequisite = {focus = RUS_new_faith}
+
+	completion_reward ={add_war_support = 0.05}
+                 }	
+    focus = {
+    id = RUS_new_prep_infa
+	icon = GFX_SOV_focus_first_russian_election
+	x = 29
+	y = 6
+	cost = 5
+
+	available = {
+
+	}
+
+			prerequisite = {focus = RUS_new_aisia}
+
+	completion_reward ={
+		403 = {
+         add_building_construction = {
+	         type = infrastructure
+	         level = 2
+	         instant_build = yes
+                                      }
+		       }
+		575 = {
+         add_building_construction = {
+	         type = infrastructure
+	         level = 2
+	         instant_build = yes
+                                      }
+		       }
+	 }
+                 }
+    focus = {
+    id = RUS_new_prep_navy
+	icon = GFX_SOV_focus_first_russian_election
+	x = 31
+	y = 6
+	cost = 5
+
+	available = {
+
+	}
+
+			prerequisite = {focus = RUS_new_aisia}
+
+	completion_reward ={ 
+		509 = {
+         add_building_construction = {
+	         type = dockyard
+	         level = 2
+	         instant_build = yes
+                                      }
+		       }
+	}
+                 }
+    focus = {
+    id = RUS_new_boost_army
+	icon = GFX_SOV_focus_first_russian_election
+	x = 30
+	y = 7
+	cost = 5
+
+	available = {	}
+
+			prerequisite = {focus = RUS_new_prep_infa}
+			prerequisite = {focus = RUS_new_prep_navy}
+
+	completion_reward ={ 
+	        add_ideas = SOV_army_moral
+	}
+                 }
+    focus = {
+    id = RUS_new_negojap
+	icon = GFX_SOV_focus_first_russian_election
+	x = 32
+	y = 8
+	cost = 30
+
+	available = {
+
+	}
+			prerequisite = {focus = RUS_new_boost_army}
+			prerequisite = {focus = RUS_new_ally}
+
+        bypass = {has_country_flag = rus_quick_chi}
+
+
+
+	completion_reward ={ SOV = { country_event = { id = russia.5 } } }
+                 }
+				 
+    focus = {
+    id = RUS_new_victory_chi
+	icon = GFX_SOV_focus_first_russian_election
+	x = 38
+	y = 9
+	cost = 30
+
+	available = {
+        has_country_flag = rus_chi_won
+	}
+
+	allow_branch = {  }
+	
+	completion_reward ={ add_ideas = SOV_china_rep }
+                 }
+
+    focus = {
+    id = RUS_new_best_army
+	icon = GFX_SOV_focus_first_russian_election
+	x = 37
+	y = 10
+	cost = 1
+
+	available = {
+        
+	}
+
+    prerequisite = { focus = RUS_new_victory_chi}
+
+	allow_branch = {  }
+	
+	completion_reward ={ 
+				761 = {
+              add_building_construction = {
+	          type = arms_factory
+	          level = 2
+	          instant_build = yes
+                                           }
+				}
+	 }
+                 
+				 }
+
+    focus = {
+    id = RUS_new_man_question
+	icon = GFX_SOV_focus_first_russian_election
+	x = 38
+	y = 11
+	cost = 1
+
+	available = {
+        
+	}
+
+    prerequisite = { focus = RUS_new_develop}
+	prerequisite = { focus = RUS_new_best_army}
+
+	allow_branch = {  }
+	
+	completion_reward ={ SOV = { country_event = { id = russia.10 } } }
+                 }
+
+    focus = {
+    id = RUS_new_man_fac
+	icon = GFX_SOV_focus_first_russian_election
+	x = 36
+	y = 12
+	cost = 1
+
+	available = {
+        
+	}
+
+    prerequisite = { focus = RUS_new_man_question}
+
+	allow_branch = {  }
+	
+	completion_reward ={  }
+                 }
+
+    focus = {
+    id = RUS_new_man_fort
+	icon = GFX_SOV_focus_first_russian_election
+	x = 38
+	y = 12
+	cost = 1
+
+	available = {
+        
+	}
+
+    prerequisite = { focus = RUS_new_man_question}
+
+	allow_branch = {  }
+	
+	completion_reward ={  }
+                 }
+
+    focus = {
+    id = RUS_new_man_rail
+	icon = GFX_SOV_focus_first_russian_election
+	x = 40
+	y = 12
+	cost = 1
+
+	available = {
+        
+	}
+
+    prerequisite = { focus = RUS_new_man_question}
+
+	allow_branch = {  }
+	
+	completion_reward ={  }
+                 }
+
+    focus = {
+    id = RUS_new_man_brothers
+	icon = GFX_SOV_focus_first_russian_election
+	x = 38
+	y = 13
+	cost = 1
+
+	available = {
+        
+	}
+
+    prerequisite = { focus = RUS_new_man_rail}
+    prerequisite = { focus = RUS_new_man_fort}
+    prerequisite = { focus = RUS_new_man_fac}
+
+	allow_branch = {  }
+	
+	completion_reward ={  }
+                 }
+
+    focus = {
+    id = RUS_new_develop
+	icon = GFX_SOV_focus_first_russian_election
+	x = 39
+	y = 10
+	cost = 1
+
+	available = {
+        
+	}
+
+    prerequisite = { focus = RUS_new_victory_chi}
+
+	allow_branch = {  }
+	
+	completion_reward ={
+			717 = {
+				   add_building_construction = { type = industrial_complex level = 2 instant_build = yes }	
+			      }	
+			714 = {
+				   add_building_construction = { type = industrial_complex level = 2 instant_build = yes }	
+			      }			
+	  }
+                 }
+
+		focus = {
+			id = RUS_new_ott
+			icon = GFX_SOV_focus_first_russian_election
+			x = 22
 			y = 7
 
-			prerequisite = {
-				focus = RUS_1900_people_in_power
+			cost = 1
+
+			available = {
+			      has_country_flag = russia.ott.sit
 			}
 
+            prerequisite = { }
 
-			cost = 10
+             allow_branch = {
+				  has_country_flag = russia.ott.sit
+			 }
+
+			completion_reward = { 
+			add_war_support = 0.05
+			}
+		}				 
+
+		focus = {
+			id = RUS_new_our_ott
+			icon = GFX_SOV_focus_first_russian_election
+			x = 21
+			y = 8
+
+			cost = 5
+
+			available = {
+			      controls_state = 942
+			}
+
+			prerequisite = {
+				focus = RUS_new_ott
+                            }
+
+	        bypass = {
+	                	NOT = {controls_state = 942}
+	                 }
+
+			completion_reward = {
+			942 = {
+				add_building_construction = {
+				type = bunker
+				level = 1
+				province = 7454
+				instant_build = yes
+				}
+
+				add_building_construction = {
+				type = bunker
+				level = 1
+				province = 6991
+				instant_build = yes
+				}
+
+				add_building_construction = {
+				type = bunker
+				level = 1
+				province = 4583
+				instant_build = yes
+				}
+			}
+			add_political_power =  -100	
+			 }
+		}
+
+		focus = {
+			id = RUS_new_prep_ott
+			icon = GFX_SOV_focus_first_russian_election
+			x = 23
+			y = 8
+
+			cost = 5
 
 			available = {
 			
 			}
 
+			prerequisite = {
+				focus = RUS_new_ott
+                            }
+
 			completion_reward = { 
-			
+			add_manpower = 10000
 			}
 		}
 
-		focus = {
-			id = RUS_1900_european_tensions
-			icon = GFX_focus_generic_industry_1
-			x = 17
+        		focus = {
+			id = RUS_back_christmas
+			icon = GFX_SOV_focus_first_russian_election
+			x = 22
 			y = 9
 
 			cost = 10
 
 			available = {
-				has_country_flag = tensions_in_europe
+			     
 			}
 
-			completion_reward = { 
+			prerequisite = {
+				focus = RUS_new_prep_ott
+                            }
+			prerequisite = {
+				focus = RUS_new_our_ott
+                            }
+			completion_reward = {
+				 hidden_effect = { SOV = { country_event = { id = russia.4 } } }
+				 custom_effect_tooltip = rus_ott_rei
+				                }
+			}
+
+        		focus = {
+			id = RUS_new_strong
+			icon = GFX_SOV_focus_first_russian_election
+			x = 10
+			y = 13
+
+			cost = 1
+
+			available = {
+			                NOT = {has_idea = SOV_high_iliteracy2 } 			
+                            NOT = {has_idea = SOV_high_iliteracy3 } 
+							NOT = {has_idea = SOV_crowd } 
+							NOT = {has_idea = SOV_crowd2 } 
+							NOT = {has_idea = SOV_crowd3 } 
+							NOT = {has_idea = SOV_fear_of_revolution }
+							NOT = {has_idea = SOV_fear_of_revolution2 }
+							NOT = {has_idea = SOV_fear_of_revolution3 }
+
+			             }
+
+			prerequisite = {focus = RUS_new_lead}
+			prerequisite = {focus = RUS_new_induru}
+
+			completion_reward = { add_country_leader_trait = strong_leader }
+		}
+
+	 focus = {
+    id = RUS_new_def
+	icon = GFX_SOV_focus_first_russian_election
+	x = 62
+	y = 2
+	cost = 0
+
+	available = {
+
+	}
+
+	allow_branch = {always = no}
+
+     prerequisite = {focus = RUS_new_japwar}
+
+	completion_reward ={ add_political_power = 50 }
+                 }
+
+     focus = {
+    id = RUS_new_statement
+	icon = GFX_SOV_focus_first_russian_election
+	x = 62
+	y = 3
+	cost = 1
+
+	available = {
+
+	}
+
+     prerequisite = {focus = RUS_new_def}
+
+	completion_reward ={ add_political_power = 50 }
+                 }
+
+     focus = {
+    id = RUS_new_negociate
+	icon = GFX_SOV_focus_first_russian_election
+	x = 63
+	y = 4
+	cost = 1
+
+	available = {
+
+	}
+
+     prerequisite = {focus = RUS_new_statement}
+
+	completion_reward ={ add_political_power = 50 }
+                 }
+
+     focus = {
+    id = RUS_new_intinal_army
+	icon = GFX_SOV_focus_first_russian_election
+	x = 61
+	y = 4
+	cost = 1
+
+	available = {
+
+	}
+
+     prerequisite = {focus = RUS_new_statement}
+
+	completion_reward ={ add_political_power = 50 }
+                 }
+
+     focus = {
+    id = RUS_new_prom_el
+	icon = GFX_SOV_focus_first_russian_election
+	x = 62
+	y = 5
+	cost = 1
+
+	available = {
+
+	}
+
+     prerequisite = {focus = RUS_new_intinal_army}
+	 prerequisite = {focus = RUS_new_negociate}
+
+	completion_reward ={ add_political_power = 50 }
+                 }
+
+    focus = {
+    id = RUS_new_army_sit
+	icon = GFX_SOV_focus_first_russian_election
+	x = 45
+	y = 1
+	cost = 1
+
+	available = {
+
+	}
+
+	completion_reward ={ add_political_power = 50 }
+                 }
+
+    focus = {
+    id = RUS_new_no_child
+	icon = GFX_SOV_focus_first_russian_election
+	x = 40
+	y = 2
+	cost = 1
+
+	available = {
+
+	}
+
+	 prerequisite = {focus = RUS_new_army_sit}
+
+	completion_reward ={ add_war_support = 0.05 
+	                     add_political_power = 150}	
+                 }
+
+    focus = {
+    id = RUS_new_mandatory_ser
+	icon = GFX_SOV_focus_first_russian_election
+	x = 42
+	y = 2
+	cost = 1
+
+	available = {
+
+	}
+
+	 prerequisite = {focus = RUS_new_army_sit}
+
+	completion_reward ={ add_stability = -0.05 
+	                     add_ideas = SOV_mandatory}
+         }
 				
-			}
-		}
+    focus = {
+    id = RUS_new_basic_edu
+	icon = GFX_SOV_focus_first_russian_election
+	x = 41
+	y = 3
+	cost = 1
 
-		focus = {
-			id = RUS_1900_back_the_french
-			icon = GFX_focus_generic_industry_1
-			x = 15
-			y = 10
+	available = {
 
-			mutually_exclusive = {
-				focus = RUS_1900_not_our_war
-				focus = RUS_1900_back_the_germans
-			}
+	}	
 
-			prerequisite = {
-				focus = RUS_1900_european_tensions
-			}
+    prerequisite = {focus = RUS_new_no_child}
+	prerequisite = {focus = RUS_new_mandatory_ser}
 
-			cost = 10
+	completion_reward ={ add_political_power = 100
+	                     add_ideas = SOV_smart_army}
 
-			available = {
-			
-			}
+  }
 
-			completion_reward = { 
-			
-			}
-		}
+    focus = {
+    id = RUS_new_infantry_eq1
+	icon = GFX_SOV_focus_first_russian_election
+	x = 39
+	y = 4
+	cost = 1
 
-		focus = {
-			id = RUS_1900_not_our_war
-			icon = GFX_focus_generic_industry_1
-			x = 17
-			y = 10
+	available = {
 
-			
+	}	
 
-			prerequisite = {
-				focus = RUS_1900_european_tensions
-			}
+    prerequisite = {focus = RUS_new_basic_edu}
 
-			mutually_exclusive = {
-				focus = RUS_1900_back_the_french
-				focus = RUS_1900_back_the_germans
-			}
-
-			cost = 10
-
-			available = {
-			
-			}
-
-			completion_reward = { 
-			
-			}
-		}
-
-		focus = {
-			id = RUS_1900_back_the_germans
-			icon = GFX_focus_generic_industry_1
-			x = 19
-			y = 10
-
-			prerequisite = {
-				focus = RUS_1900_european_tensions
-			}
-
-			mutually_exclusive = {
-				focus = RUS_1900_not_our_war
-				focus = RUS_1900_back_the_french
-			}
-
-			cost = 10
-
-			available = {
-			
-			}
-
-			completion_reward = { 
-			
-			}
-		}
-
+	completion_reward ={ add_tech_bonus = {
+             bonus = 1
+             uses = 1
+             category = infantry_tech
+                                           }
 }
 
+  }
+
+    focus = {
+    id = RUS_new_support_eq1
+	icon = GFX_SOV_focus_first_russian_election
+	x = 41
+	y = 4
+	cost = 1
+
+	available = {
+
+	}	
+
+    prerequisite = {focus = RUS_new_basic_edu}
+
+	completion_reward ={ add_tech_bonus = {
+             bonus = 1
+             uses = 1
+             category = support_tech
+                                           }
+
+	}
+ }
+
+    focus = {
+    id = RUS_new_support_eq2
+	icon = GFX_SOV_focus_first_russian_election
+	x = 41
+	y = 5
+	cost = 1
+
+	available = {
+
+	}	
+
+    prerequisite = {focus = RUS_new_support_eq1}
+	 prerequisite = {focus = RUS_new_art_eq1}
+	 prerequisite = {focus = RUS_new_infantry_eq1}
+
+	completion_reward ={ add_tech_bonus = {
+             bonus = 1
+             uses = 2
+             category = land_doctrine
+                                           }
+    }
+}	
+
+    focus = {
+    id = RUS_new_art_eq1
+	icon = GFX_SOV_focus_first_russian_election
+	x = 43
+	y = 4
+	cost = 1
+
+	available = {
+
+	}	
+
+    prerequisite = {focus = RUS_new_basic_edu}
+
+	completion_reward ={ add_tech_bonus = {
+             bonus = 1
+             uses = 1
+             category = artillery
+                                           }
+	}
+
+  }
+
+    focus = {
+    id = RUS_new_modern_arm
+	icon = GFX_SOV_focus_first_russian_election
+	x = 42
+	y = 6
+	cost = 1
+
+	available = {
+
+	}	
+
+prerequisite = {focus = RUS_new_support_eq2}
+prerequisite = {focus = RUS_new_infantry_eq2}
+prerequisite = {focus = RUS_new_art_eq2}
+
+   completion_reward ={remove_ideas = SOV_disorg_army }	   
+ }
+
+    focus = {
+    id = RUS_new_navy
+	icon = GFX_SOV_focus_first_russian_election
+	x = 48
+	y = 2
+	cost = 1
+
+	available = {
+
+	}
+
+	 prerequisite = {focus = RUS_new_army_sit}
+
+	completion_reward ={ add_ideas = SOV_navy }
+         }
+
+    focus = {
+    id = RUS_new_arctic
+	icon = GFX_SOV_focus_first_russian_election
+	x = 50
+	y = 2
+	cost = 1
+
+	available = {
+
+	}
+
+	 prerequisite = {focus = RUS_new_army_sit}
+
+	completion_reward ={ 
+				  			262 = {
+                   add_extra_state_shared_building_slots = 2
+				   add_building_construction = { type = dockyard level = 2 instant_build = yes }	
+			                  }
+				  			214 = {
+                   add_extra_state_shared_building_slots = 2
+				   add_building_construction = { type = dockyard level = 2 instant_build = yes }	
+			                  } 
+				}
+         }
+
+    focus = {
+    id = RUS_new_pacific
+	icon = GFX_SOV_focus_first_russian_election
+	x = 49
+	y = 3
+	cost = 1
+
+	available = {
+
+	}
+
+	 prerequisite = {focus = RUS_new_arctic}
+	 prerequisite = {focus = RUS_new_navy}
+
+	completion_reward ={
+							408 = {
+                   add_extra_state_shared_building_slots = 2
+				   add_building_construction = { type = dockyard level = 2 instant_build = yes }	
+			                  }
+	 }
+         }
+
+    focus = {
+    id = RUS_new_doctr
+	icon = GFX_SOV_focus_first_russian_election
+	x = 51
+	y = 4
+	cost = 1
+
+	available = {
+
+	}
+
+	 prerequisite = {focus = RUS_new_pacific}
+
+	completion_reward ={
+		add_tech_bonus = {
+             bonus = 0.5
+             uses = 2
+             category = naval_doctrine
+                                           }
+	 }
+         }
+
+    focus = {
+    id = RUS_new_battl
+	icon = GFX_SOV_focus_first_russian_election
+	x = 49
+	y = 4
+	cost = 1
+
+	available = {
+
+	}
+
+	 prerequisite = {focus = RUS_new_pacific}
+
+	completion_reward ={
+		add_tech_bonus = {
+             bonus = 1
+             uses = 1
+             category = bb_tech
+                                           }
+	 }
+         }
+
+    focus = {
+    id = RUS_new_cru
+	icon = GFX_SOV_focus_first_russian_election
+	x = 47
+	y = 4
+	cost = 1
+
+	available = {
+
+	}
+
+	 prerequisite = {focus = RUS_new_pacific}
+
+	completion_reward ={
+		add_tech_bonus = {
+             bonus = 0.5
+             uses = 2
+             category = ca_tech
+                                           }
+	 }
+         }
+
+    focus = {
+    id = RUS_new_more_doc
+	icon = GFX_SOV_focus_first_russian_election
+	x = 49
+	y = 5
+	cost = 1
+
+	available = {
+
+	}
+
+	 prerequisite = {focus = RUS_new_battl}
+	 prerequisite = {focus = RUS_new_cru}
+	 prerequisite = {focus = RUS_new_doctr}
+
+	completion_reward ={
+							137 = {
+                   add_extra_state_shared_building_slots = 2
+				   add_building_construction = { type = dockyard level = 2 instant_build = yes }	
+			                  }
+	 }
+  }
+
+    focus = {
+    id = RUS_new_modern_nav
+	icon = GFX_SOV_focus_first_russian_election
+	x = 48
+	y = 6
+	cost = 1
+
+	available = {
+
+	}
+
+	 prerequisite = {focus = RUS_new_more_doc}
+
+	completion_reward ={ add_ideas = SOV_navy_mod}
+         }
+
+    focus = {
+    id = RUS_new_begin_air
+	icon = GFX_SOV_focus_first_russian_election
+	x = 45
+	y = 7
+	cost = 1
+
+	available = {
+
+	}
+
+     prerequisite = {focus = RUS_new_modern_arm}
+     prerequisite = {focus = RUS_new_modern_nav}
+
+	completion_reward ={
+		add_tech_bonus = {
+             bonus = 0.5
+             uses = 1
+             category = air_equipment
+                                           }
+		     add_war_support = 0.10
+	  }
+
+  }
+
+}

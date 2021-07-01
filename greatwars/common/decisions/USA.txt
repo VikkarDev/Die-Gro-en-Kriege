@@ -56,14 +56,104 @@ dgk_usa_campaign_decisions_category = {
 		}
 	}
 
-	USA_campaign_in_texas = {
+	USA_support_republicans = {
+		fire_only_once = yes
+
+		available = {
+			tag = USA
+		}
+
+		allowed = {
+			tag = USA
+		}
+
+		visible = {
+			NOT = { has_country_flag = USA_support_democrats has_country_flag = USA_support_socialists }
+		}
+
+		icon = eng_propaganda_campaigns
+		cost = 0
+		days_remove = 0
+
+		ai_will_do = {
+			factor = 80
+		}
+
+		complete_effect = {
+			set_country_flag = USA_support_republicans
+		}
+	}
+
+	USA_support_democrats = {
+		fire_only_once = yes
+
+		available = {
+			tag = USA
+		}
+
+		allowed = {
+			tag = USA
+		}
+
+		visible = {
+			NOT = { has_country_flag = USA_support_socialists has_country_flag = USA_support_republicans }
+		}
+
+		icon = eng_propaganda_campaigns
+		cost = 0
+		days_remove = 0
+
+		ai_will_do = {
+			factor = 80
+		}
+
+		complete_effect = {
+			set_country_flag = USA_support_democrats
+		}
+	}
+
+	USA_support_socialists = {
+		fire_only_once = yes
+
+		available = {
+			tag = USA
+		}
+
+		allowed = {
+			tag = USA
+		}
+
+		visible = {
+			NOT = { has_country_flag = USA_support_democrats has_country_flag = USA_support_republicans }
+		}
+
+		icon = eng_propaganda_campaigns
+		cost = 0
+		days_remove = 0
+
+		ai_will_do = {
+			factor = 80
+		}
+
+		complete_effect = {
+			set_country_flag = USA_support_socialists
+		}
+	}
+
+	USA_republican_campaign_in_west_south_central_states = {
 		highlight_states = {
 			state = 375
+			state = 371
+			state = 372
 		}
 
 		available = {
 			tag = USA
 			NOT = { has_country_flag = USA_already_campaigning_in_state }
+		}
+
+		visible = {
+			has_country_flag = USA_support_republicans
 		}
 
 		allowed = {
@@ -86,14 +176,14 @@ dgk_usa_campaign_decisions_category = {
 
 			hidden_effect = {
 				random_list = {
-					65 = { country_event = { id = USA_campaign_decisions.1 } }
-					35 = { country_event = { id = USA_campaign_decisions.2 } }
+					65 = { country_event = { id = USA_republican_campaign_decisions.1 } }
+					35 = { country_event = { id = USA_republican_campaign_decisions.2 } }
 				}
 			}
 		}
 	}
 
-	USA_campaign_in_new_england = {
+	USA_republican_campaign_in_new_england = {
 		highlight_states = {
 			state = 357
 			state = 878
@@ -106,6 +196,335 @@ dgk_usa_campaign_decisions_category = {
 		available = {
 			tag = USA
 			NOT = { has_country_flag = USA_already_campaigning_in_state }
+			
+		}
+
+		allowed = {
+			tag = USA
+		}
+
+		visible = {
+			has_country_flag = USA_support_republicans
+		}
+
+		icon = eng_propaganda_campaigns
+		cost = 10
+		days_remove = 15
+
+		ai_will_do = {
+			factor = 20
+		}
+
+		complete_effect = {
+			set_country_flag = USA_already_campaigning_in_state
+		}
+		remove_effect = {
+			clr_country_flag = USA_already_campaigning_in_state
+
+			hidden_effect = {
+				random_list = {
+					65 = { country_event = { id = USA_republican_campaign_decisions.3 } }
+					35 = { country_event = { id = USA_republican_campaign_decisions.4 } }
+				}
+			}
+		}
+	}
+
+	USA_republican_campaign_in_south_eastern_states = {
+		highlight_states = {
+			state = 361
+			state = 362
+			state = 363
+			state = 364
+			state = 365
+			state = 366
+			state = 367
+			state = 368
+			state = 369
+			state = 370
+			state = 882
+		}
+
+		available = {
+			tag = USA
+			NOT = { has_country_flag = USA_already_campaigning_in_state }
+			
+		}
+
+		allowed = {
+			tag = USA
+		}
+
+		visible = {
+			has_country_flag = USA_support_republicans
+		}
+
+		icon = eng_propaganda_campaigns
+		cost = 10
+		days_remove = 15
+
+		ai_will_do = {
+			factor = 20
+		}
+
+		complete_effect = {
+			set_country_flag = USA_already_campaigning_in_state
+		}
+		remove_effect = {
+			clr_country_flag = USA_already_campaigning_in_state
+
+			hidden_effect = {
+				random_list = {
+					65 = { country_event = { id = USA_republican_campaign_decisions.5 } }
+					35 = { country_event = { id = USA_republican_campaign_decisions.6 } }
+				}
+			}
+		}
+	}
+
+	USA_republican_campaign_in_mid_atlantic_states = {
+		highlight_states = {
+			state = 358
+			state = 359
+			state = 360
+		}
+
+		available = {
+			tag = USA
+			NOT = { has_country_flag = USA_already_campaigning_in_state }
+			
+		}
+
+		allowed = {
+			tag = USA
+		}
+
+		visible = {
+			has_country_flag = USA_support_republicans
+		}
+
+		icon = eng_propaganda_campaigns
+		cost = 10
+		days_remove = 15
+
+		ai_will_do = {
+			factor = 20
+		}
+
+		complete_effect = {
+			set_country_flag = USA_already_campaigning_in_state
+		}
+		remove_effect = {
+			clr_country_flag = USA_already_campaigning_in_state
+
+			hidden_effect = {
+				random_list = {
+					65 = { country_event = { id = USA_republican_campaign_decisions.7 } }
+					35 = { country_event = { id = USA_republican_campaign_decisions.8 } }
+				}
+			}
+		}
+	}
+
+	USA_republican_campaign_in_north_east_central_states = {
+		highlight_states = {
+			state = 261
+			state = 393
+			state = 394
+			state = 395
+			state = 396
+		}
+
+		available = {
+			tag = USA
+			NOT = { has_country_flag = USA_already_campaigning_in_state }
+			
+		}
+
+		allowed = {
+			tag = USA
+		}
+
+		visible = {
+			has_country_flag = USA_support_republicans
+		}
+
+		icon = eng_propaganda_campaigns
+		cost = 10
+		days_remove = 15
+
+		ai_will_do = {
+			factor = 20
+		}
+
+		complete_effect = {
+			set_country_flag = USA_already_campaigning_in_state
+		}
+		remove_effect = {
+			clr_country_flag = USA_already_campaigning_in_state
+
+			hidden_effect = {
+				random_list = {
+					65 = { country_event = { id = USA_republican_campaign_decisions.9 } }
+					35 = { country_event = { id = USA_republican_campaign_decisions.10 } }
+				}
+			}
+		}
+	}
+
+	USA_republican_campaign_in_north_west_central_states = {
+		highlight_states = {
+			state = 373
+			state = 383
+			state = 384
+			state = 389
+			state = 390
+			state = 391
+			state = 392
+
+		}
+
+		available = {
+			tag = USA
+			NOT = { has_country_flag = USA_already_campaigning_in_state }
+			
+		}
+
+		allowed = {
+			tag = USA
+		}
+
+		visible = {
+			has_country_flag = USA_support_republicans
+		}
+
+		icon = eng_propaganda_campaigns
+		cost = 10
+		days_remove = 15
+
+		ai_will_do = {
+			factor = 20
+		}
+
+		complete_effect = {
+			set_country_flag = USA_already_campaigning_in_state
+		}
+		remove_effect = {
+			clr_country_flag = USA_already_campaigning_in_state
+
+			hidden_effect = {
+				random_list = {
+					65 = { country_event = { id = USA_republican_campaign_decisions.11 } }
+					35 = { country_event = { id = USA_republican_campaign_decisions.12 } }
+				}
+			}
+		}
+	}
+
+	USA_republican_campaign_in_mountain_states = {
+		highlight_states = {
+			state = 379
+			state = 380
+			state = 381
+			state = 382
+			state = 387
+			state = 388
+		}
+
+		available = {
+			tag = USA
+			NOT = { has_country_flag = USA_already_campaigning_in_state }
+			
+		}
+
+		allowed = {
+			tag = USA
+		}
+
+		visible = {
+			has_country_flag = USA_support_republicans
+		}
+
+		icon = eng_propaganda_campaigns
+		cost = 10
+		days_remove = 15
+
+		ai_will_do = {
+			factor = 20
+		}
+
+		complete_effect = {
+			set_country_flag = USA_already_campaigning_in_state
+		}
+		remove_effect = {
+			clr_country_flag = USA_already_campaigning_in_state
+
+			hidden_effect = {
+				random_list = {
+					65 = { country_event = { id = USA_republican_campaign_decisions.13 } }
+					35 = { country_event = { id = USA_republican_campaign_decisions.14 } }
+				}
+			}
+		}
+	}
+
+	USA_republican_campaign_in_pacific_states = {
+		highlight_states = {
+			state = 378
+			state = 385
+			state = 386
+		}
+
+		available = {
+			tag = USA
+			NOT = { has_country_flag = USA_already_campaigning_in_state }
+			
+		}
+
+		allowed = {
+			tag = USA
+		}
+
+		visible = {
+			has_country_flag = USA_support_republicans
+		}
+
+		icon = eng_propaganda_campaigns
+		cost = 10
+		days_remove = 15
+
+		ai_will_do = {
+			factor = 20
+		}
+
+		complete_effect = {
+			set_country_flag = USA_already_campaigning_in_state
+		}
+		remove_effect = {
+			clr_country_flag = USA_already_campaigning_in_state
+
+			hidden_effect = {
+				random_list = {
+					65 = { country_event = { id = USA_republican_campaign_decisions.15 } }
+					35 = { country_event = { id = USA_republican_campaign_decisions.16 } }
+				}
+			}
+		}
+	}
+
+	USA_democratic_campaign_in_texas = {
+		highlight_states = {
+			state = 375
+		}
+
+		available = {
+			tag = USA
+			NOT = { has_country_flag = USA_already_campaigning_in_state }
+			
+		}
+
+		visible = {
+			has_country_flag = USA_support_democrats
 		}
 
 		allowed = {
@@ -128,8 +547,144 @@ dgk_usa_campaign_decisions_category = {
 
 			hidden_effect = {
 				random_list = {
-					65 = { country_event = { id = USA_campaign_decisions.3 } }
-					35 = { country_event = { id = USA_campaign_decisions.4 } }
+					65 = { country_event = { id = USA_democratic_campaign_decisions.1 } }
+					35 = { country_event = { id = USA_democratic_campaign_decisions.2 } }
+				}
+			}
+		}
+	}
+
+	USA_socialist_campaign_in_texas = {
+		highlight_states = {
+			state = 375
+		}
+
+		available = {
+			tag = USA
+			NOT = { has_country_flag = USA_already_campaigning_in_state }
+			
+		}
+
+		allowed = {
+			tag = USA
+		}
+
+		visible = {
+			has_country_flag = USA_support_socialists
+		}
+
+		icon = eng_propaganda_campaigns
+		cost = 10
+		days_remove = 15
+
+		ai_will_do = {
+			factor = 20
+		}
+
+		complete_effect = {
+			set_country_flag = USA_already_campaigning_in_state
+		}
+		remove_effect = {
+			clr_country_flag = USA_already_campaigning_in_state
+
+			hidden_effect = {
+				random_list = {
+					65 = { country_event = { id = USA_socialist_campaign_decisions.1 } }
+					35 = { country_event = { id = USA_socialist_campaign_decisions.2 } }
+				}
+			}
+		}
+	}
+
+	USA_democratic_campaign_in_new_england = {
+		highlight_states = {
+			state = 357
+			state = 878
+			state = 879
+			state = 880
+			state = 881
+			state = 883
+		}
+
+		available = {
+			tag = USA
+			NOT = { has_country_flag = USA_already_campaigning_in_state }
+			
+		}
+
+		allowed = {
+			tag = USA
+		}
+
+		visible = {
+			has_country_flag = USA_support_democrats
+		}
+
+		icon = eng_propaganda_campaigns
+		cost = 10
+		days_remove = 15
+
+		ai_will_do = {
+			factor = 20
+		}
+
+		complete_effect = {
+			set_country_flag = USA_already_campaigning_in_state
+		}
+		remove_effect = {
+			clr_country_flag = USA_already_campaigning_in_state
+
+			hidden_effect = {
+				random_list = {
+					65 = { country_event = { id = USA_democratic_campaign_decisions.3 } }
+					35 = { country_event = { id = USA_democratic_campaign_decisions.4 } }
+				}
+			}
+		}
+	}
+
+	USA_socialist_campaign_in_new_england = {
+		highlight_states = {
+			state = 357
+			state = 878
+			state = 879
+			state = 880
+			state = 881
+			state = 883
+		}
+
+		available = {
+			tag = USA
+			NOT = { has_country_flag = USA_already_campaigning_in_state }
+			
+		}
+
+		allowed = {
+			tag = USA
+		}
+
+		visible = {
+			has_country_flag = USA_support_socialists
+		}
+
+		icon = eng_propaganda_campaigns
+		cost = 10
+		days_remove = 15
+
+		ai_will_do = {
+			factor = 20
+		}
+
+		complete_effect = {
+			set_country_flag = USA_already_campaigning_in_state
+		}
+		remove_effect = {
+			clr_country_flag = USA_already_campaigning_in_state
+
+			hidden_effect = {
+				random_list = {
+					65 = { country_event = { id = USA_socialist_campaign_decisions.3 } }
+					35 = { country_event = { id = USA_socialist_campaign_decisions.4 } }
 				}
 			}
 		}
@@ -154,7 +709,7 @@ dgk_usa_statehood_policies_category = {
 			state = 877
 		}
 
-		allowed = {
+		available = {
 			tag = USA
 			country_exists = OKL
 			country_exists = USA
@@ -208,7 +763,7 @@ dgk_usa_statehood_policies_category = {
 			state = 376
 		}
 
-		allowed = {
+		available = {
 			tag = USA
 			country_exists = NMX
 			country_exists = USA
@@ -243,7 +798,7 @@ dgk_usa_statehood_policies_category = {
 			state = 377
 		}
 
-		allowed = {
+		available = {
 			tag = USA
 			country_exists = ARZ
 			country_exists = USA
@@ -278,7 +833,7 @@ dgk_usa_statehood_policies_category = {
 			state = 463
 		}
 
-		allowed = {
+		available = {
 			tag = USA
 			country_exists = ALK
 			country_exists = USA
@@ -313,7 +868,7 @@ dgk_usa_statehood_policies_category = {
 			state = 629
 		}
 
-		allowed = {
+		available = {
 			tag = USA
 			country_exists = HAW
 			country_exists = USA
@@ -337,24 +892,6 @@ dgk_usa_statehood_policies_category = {
 
 			custom_effect_tooltip = USA_HAWAII_STATEHOOD
 		}
-	}
-	rise_troops_in_panama_canal = {
-		icon = generic_political_actions
-
-		highlight_states = {
-			state = 685
-		}
-
-		cost = 25
-
-		ai_will_do = {
-			factor = 30
-		}
-		
-		complete_effect = {
-			load_oob = COL_panama_canal_tropps
-		}
-
 	}
 }
 

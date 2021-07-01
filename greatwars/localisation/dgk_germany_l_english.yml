@@ -106,28 +106,6 @@ GER_the_new_course:0 "The New Course"
 GER_the_new_course_desc:0 ""
 GER_kaiser_wilhelm_society:0 "Kaiser Wilhelm Society"
 GER_kaiser_wlhelm_sciety_desc:0 ""
-GER_deutsches_kolonialreich:0 "Deutsches Kolonialreich"
-GER_deutsches_kolonialreich_desc:0 ""
-GER_concessions_to_native_people:0 "Concessions to the Natives"
-GER_concessions_to_native_people_desc:0 ""
-GER_sieze_native_assests:0 "Seize Native Assets"
-GER_sieze_native_assests_desc:0 ""
-GER_subsidis_colonial_manufacturing:0 "Subsidize Colonial Manufacturing"
-GER_subsidis_colonial_manufacturing_desc:0 ""
-GER_build_colonial_schools:0 "Build Colonial Schools"
-GER_build_colonial_schools_desc:0 ""
-GER_develop_asian_colonies:0 "Develop the Pacific Colonies"
-GER_develop_asian_colonies_desc:0 ""
-GER_offload_naval_cost_to_colonies:0 "Offload Naval Cost to Colonies"
-GER_offload_naval_cost_to_colonies_desc:0 ""
-GER_a_profitable_empire:0 "A Profitable Empire"
-GER_a_profitable_empire_desc:0 ""
-GER_offshore_cost_to_colonies:0 "Offshore the Naval Burden to the Colonies"
-GER_offshore_cost_to_colonies_desc:0 ""
-GER_native_uprising_in_colonies:0 "Native Uprisings"
-GER_native_uprising_in_colonies_desc:0 ""
-GER_destroy_the_uprising:0 "Destroy the Uprisings"
-GER_destroy_the_uprising_desc:0 ""
 GER_imperial_german_navy:0 "German Imperial Navy"
 GER_imperial_german_navy_desc:0 ""
 GER_stop_the_arms_race:0 "Stop The Arms Race"
@@ -174,6 +152,19 @@ GER_support_the_annexation_of_bosnia:0 "Support The Annexation of Bosnia"
 GER_support_the_annexation_of_bosnia_desc:0 ""
 GER_joint_military_training:0 "Joint Military Training"
 GER_joint_military_training_desc:0 ""
+
+#COLONIAL TREE LOC
+
+GER_deutsches_kolonialreich:0 "Deutsches Kolonialreich"
+GER_deutsches_kolonialreich_desc:0 ""
+GER_native_uprising_in_colonies:0 "Native Uprisings"
+GER_native_uprising_in_colonies_desc:0 ""
+GER_destroy_the_uprising:0 "Destroy the Uprisings"
+GER_destroy_the_uprising_desc:0 ""
+GER_expand_kamerun:0 "Expand Kamerun"
+GER_a_new_governer_ostafrika:0 "A New Governer of Ostafrika"
+GER_maji_maji_rebellion:0 "The Maji Maji Rebellion"
+
 
 ########### Germany Country Names & Cosmetic Localisation ###########
 GER_EMPIRE_centrism:0 "German Empire"
@@ -268,6 +259,33 @@ germany.12.a:0 "Interesting."
 germany.13.t:0 "A New Course"
 germany.13.d:0 "Since Wilhelm II became the Kaiser, he has assumed direct control over Germany's policies. With this, he has embarked on a bellicose "New Course" to cement Germany's status as a world power.\n\nSubsequently, with him currently leading, Germany acquired territories in the Far East and made Germany become Europes largest manufacturer."
 germany.13.a:0 "Interesting."
+
+germany.15.t:0 "China wants to buy Krupp Guns"
+germany.15.d:0 "China has sent us a request to but Krupp Artillery guns for their modernization program."
+germany.15.a:0 "Accept their request"
+germany.15.b:0 "Deny their request"
+
+germany.16.t:0 "The Qingdao-Jinan Railway"
+germany.16.d:0 "German aristocrats with Chinese permission have finished building a railway from our Qingdao concession to the city of Jinan."
+germany.16.a:0 "Our influence grows stronger"
+
+germany.17.t:0 "China wants to buy Carbine rifles"
+germany.17.d:0 "China has sent us a request to but Carbines for their modernization program."
+germany.17.a:0 "We have guns to spare"
+germany.17.b:0 "We need the weapons"
+
+#COLONIAL EVENTS
+
+germany_colonial.1.t:0 "A Border Raid in Kamerun"
+
+germany_colonial.8.t:0 "Battles with the Fulbe"
+
+germany_colonial.9.t:0 "A Victory in Fulbe"
+germany_colonial.9.d:0 "During our engagement with the Fulbe tribes of Sokoto, our colonial forces attacked the much more numerous Fulbe soldiers. We utilized our superiror techonolgical advantage to completely destroy the Fulbe front line and we seized territory for Kamerun."
+
+germany_colonial.15.t:0 "Germany Enforces Border Agreement"
+germany_colonial.15.d:0 "With the German colonization of Cameroon and the British colonization of Nigeria, and our colonies in the French Congo, several border agreements were made. Because the Germans are expanding their empire into Sokoto's territory and taking the regions promised to them, we have been forced to give up some occupied territory to them that was promised."
+germany_colonial.15.a:0 "There wasn't much in the land anyway."
 
 # NATIONAL SPIRITS
 ########### Germany National Spirits Localisation ###########

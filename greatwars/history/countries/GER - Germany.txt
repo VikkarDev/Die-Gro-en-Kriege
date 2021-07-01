@@ -65,20 +65,112 @@ capital = 819
 		desc = VIKTOR_LEADER_DESCRIPTION
 		picture = "Carl_Viktor.tga"
 		ideology = social_liberal
-		traits = {
-			#kaiserin_of_the_people
-		}
+	}
+
+	create_field_marshal = {
+		name = "Paul von Hindenburg"
+		portrait_path = "gfx/leaders/GER/Field Marshals/Paul_von_Hindenburg.tga"
+		skill = 3
+		attack_skill = 2
+		defense_skill = 2
+		planning_skill = 2
+		logistics_skill = 2
+		traits = { infantry_expert }
+		id = 1
 	}
 
 	create_field_marshal = {
 		name = "Remus von Woyrsch"
 		portrait_path = "gfx/leaders/GER/Field Marshals/Remus_von_Woyrsch.tga"
-		skill = 3
+		skill = 2
 		attack_skill = 3
-		defense_skill = 3
+		defense_skill = 2
 		planning_skill = 2
 		logistics_skill = 1
-		traits = { infantry_leader }
-		id = 1
+		traits = { organizer }
+		id = 2
+	}
+
+	create_corps_commander = {
+		name = "Felix Graf von Bothmer"
+		portrait_path = "gfx/leaders/GER/Generals/Felix_Graf_von_Bothmer.tga"
+		skill = 2
+		attack_skill = 2
+		defense_skill = 3
+		planning_skill = 1
+		logistics_skill = 1
+		traits = { infantry_officer }
+		id = 3
+	}
+
+	create_corps_commander = {
+		name = "Paul von Lettow-Vorbeck"
+		portrait_path = "gfx/leaders/GER/Generals/Paul_von_Lettow-Vorbeck.tga"
+		skill = 2
+		attack_skill = 2
+		defense_skill = 1
+		planning_skill = 1
+		logistics_skill = 2
+		traits = {  }
+		id = 4
+	}
+
+	create_corps_commander = {
+		name = "Erwin Rommel"
+		portrait_path = "gfx/leaders/GER/Generals/Erwin_Rommel.tga"
+		skill = 1
+		attack_skill = 1
+		defense_skill = 2
+		planning_skill = 2
+		logistics_skill = 1
+		traits = {  }
+		id = 5
+	}
+
+	create_corps_commander = {
+		name = "Albrecht Eugen"
+		portrait_path = "gfx/leaders/GER/Generals/Albrecht_Eugene.tga"
+		skill = 2
+		attack_skill = 1
+		defense_skill = 2
+		planning_skill = 2
+		logistics_skill = 1
+		traits = { }
+		id = 6
+	}
+
+	create_corps_commander = {
+		name = "Erich Ludendorff"
+		portrait_path = "gfx/leaders/GER/Generals/Erich_Ludendorff.tga"
+		skill = 1
+		attack_skill = 2
+		defense_skill = 1
+		planning_skill = 1
+		logistics_skill = 2
+		traits = { }
+		id = 7
+	}
+
+	create_navy_leader = {
+		name = "Lothar von Arnauld de la Perière"
+		portrait_path = "gfx/leaders/GER/Naval/Lothar_von_Arnauld.tga"
+		skill = 2
+		attack_skill = 2
+		defense_skill = 2
+		maneuvering_skill = 2
+		coordination_skill = 2
+		traits = {  }
+		id = 8
+	}
+
+	create_navy_leader = {
+		name = "Reinhard Scheer"
+		portrait_path = "gfx/leaders/GER/Naval/Reinhard_Scheer.tga"
+		skill = 3
+		attack_skill = 3
+		defense_skill = 1
+		maneuvering_skill = 2
+		coordination_skill = 1
+		traits = { }
 	}
 }

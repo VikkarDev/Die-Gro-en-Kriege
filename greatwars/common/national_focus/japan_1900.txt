@@ -16,16 +16,21 @@ focus_tree = {
 
 	focus = {
 		id = JAP_intervention_in_china
-		icon = GFX_jap_intervention_in_china
+		icon = GFX_CHI_focus_boxer_war_victory
 		search_filters = { FOCUS_FILTER_POLITICAL }
-		x = 6
+		x = 5
 		y = 0
 
 		cost = 5
 
 		available = {
+			OR= {
+				BOX = {
+					exists = yes
+				}
 			CHI = {
-				has_war = yes
+				has_war_with = BOX
+				}
 			}
 		}
 		
@@ -115,7 +120,7 @@ focus_tree = {
 		id = JAP_limited_intervention
 		icon = GFX_jap_limited_intervention
 		search_filters = { FOCUS_FILTER_POLITICAL }
-		x = 6
+		x = 7
 		y = 1
 
 		cost = 10
@@ -135,7 +140,7 @@ focus_tree = {
 		id = JAP_supply_the_western_powers
 		icon = GFX_jap_supply_the_western_powers
 		search_filters = { FOCUS_FILTER_POLITICAL }
-		x = 6
+		x = 7
 		y = 2
 
 		cost = 5
@@ -168,7 +173,7 @@ focus_tree = {
 		id = JAP_japanese_ports_of_operations
 		icon = GFX_jap_japanese_ports_of_operations
 		search_filters = { FOCUS_FILTER_POLITICAL }
-		x = 6
+		x = 7
 		y = 3
 
 		cost = 10
@@ -207,101 +212,9 @@ focus_tree = {
 			}
 		}
 	}
-
-	focus = {
-		id = JAP_support_the_rebellion
-		icon = GFX_jap_support_the_rebellion
-		search_filters = { FOCUS_FILTER_POLITICAL }
-		x = 9
-		y = 1
-
-		cost = 10
-		prerequisite = { focus = JAP_intervention_in_china }
-		mutually_exclusive = { focus = JAP_limited_intervention focus = JAP_full_intervention }
-
-		available = {
-			
-		}
-		
-		completion_reward = { 
-			
-		}
-	}
-
-	focus = {
-		id = JAP_send_arms
-		icon = GFX_jap_send_arms
-		search_filters = { FOCUS_FILTER_POLITICAL }
-		x = 9
-		y = 2
-
-		cost = 10
-		prerequisite = { focus = JAP_support_the_rebellion }
-
-		available = {
-			if = {
-				limit = {
-					has_equipment = {
-						infantry_equipment_1 = 1
-					}
-				}
-				has_equipment = {
-					infantry_equipment_1 = 5000
-				}
-			}
-			else = {
-				has_equipment = {
-					infantry_equipment_0 = 5000
-				}
-			}
-		}
-		
-		completion_reward = { 
-			
-		}
-	}
-
-	focus = {
-		id = JAP_recognize_qing_independence
-		icon = GFX_jap_recognize_qing_independence
-		search_filters = { FOCUS_FILTER_POLITICAL }
-		x = 11
-		y = 3
-
-		cost = 5
-		prerequisite = { focus = JAP_send_arms }
-
-		available = {
-			
-		}
-		
-		completion_reward = { 
-			
-		}
-	}
-
-	focus = {
-		id = JAP_japanese_boxer_advisors
-		icon = GFX_jap_japanese_boxer_advisors
-		search_filters = { FOCUS_FILTER_POLITICAL }
-		x = 9
-		y = 3
-
-		cost = 10
-		prerequisite = { focus = JAP_send_arms }
-
-		available = {
-			
-		}
-		
-		completion_reward = { 
-			
-		}
-	}
-
 	focus = {
 		id = JAP_the_manchurian_crisis
-		icon = GFX_jap_the_manchurian_crisis
+		icon = GFX_JAP_focus_the_manchurian_crisis
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		x = 18
 		y = 0
@@ -727,7 +640,7 @@ focus_tree = {
 
 	focus = {
 		id = JAP_military_intervention
-		icon = GFX_jap_military_intervention
+		icon = GFX_CHI_focus_russo_japanese_war
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		x = 14
 		y = 4
@@ -1075,14 +988,15 @@ focus_tree = {
 			GER = { add_opinion_modifier = { target = JAP modifier = diplomatic_envoy } }
 			FRA = { add_opinion_modifier = { target = JAP modifier = diplomatic_envoy } }
 			ITA = { add_opinion_modifier = { target = JAP modifier = diplomatic_envoy } }
-			HUN = { add_opinion_modifier = { target = JAP modifier = diplomatic_envoy } }
+			AUS = { add_opinion_modifier = { target = JAP modifier = diplomatic_envoy } }
+			USA = { add_opinion_modifier = { target = JAP modifier = diplomatic_envoy } }
 			SOV = { add_opinion_modifier = { target = JAP modifier = large_decrease } }
 		}
 	}
 
 	focus = {
 		id = JAP_the_manchurian_question
-		icon = GFX_jap_the_manchurian_question
+		icon = GFX_JAP_focus_the_manchurian_question
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		x = 10
 		y = 9
@@ -1109,7 +1023,7 @@ focus_tree = {
 
 	focus = {
 		id = JAP_genjo
-		icon = GFX_jap_genjo
+		icon = GFX_JAP_focus_genjo
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		x = 31
 		y = 0
@@ -1130,7 +1044,7 @@ focus_tree = {
 
 	focus = {
 		id = JAP_japanese_superiority
-		icon = GFX_jap_japanese_superiority
+		icon = GFX_JAP_focus_samurai_sun
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		x = 31
 		y = 1
@@ -1168,7 +1082,7 @@ focus_tree = {
 
 	focus = {
 		id = JAP_annex_korea
-		icon = GFX_jap_annex_korea
+		icon = GFX_JAP_focus_annex_korea
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		x = 34
 		y = 4
@@ -1890,7 +1804,7 @@ focus_tree = {
 
 	focus = {
 		id = JAP_expand_the_tokyo_army_academy
-		icon = GFX_jap_expand_the_tokyo_army_academy
+		icon = GFX_JAP_focus_officer_train
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		x = 26
 		y = 10
@@ -1950,7 +1864,7 @@ focus_tree = {
 
 	focus = {
 		id = JAP_jungle_training
-		icon = GFX_jap_jungle_training
+		icon = GFX_JAP_focus_jungle_training
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		x = 30
 		y = 10
@@ -1970,7 +1884,7 @@ focus_tree = {
 
 	focus = {
 		id = JAP_the_will_of_the_samurai
-		icon = GFX_jap_the_will_of_the_samurai
+		icon = GFX_JAP_focus_samurai_mask
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		x = 30
 		y = 11

@@ -27,10 +27,6 @@ country_event = {
 		}
 
 		news_event = { id = dgk_news.1 }
-		
-		CHI = {
-			country_event = { id = boxer_rebellion.2 days = 11 }
-		}
 	}
 }
 
@@ -51,7 +47,10 @@ country_event = {
 
 	immediate = {
 		CHI = {
-			white_peace = BOX
+			annex_country = {
+    		target = BOX
+    		transfer_troops = yes
+				}
 		}
 
 		CHI = {
@@ -88,19 +87,23 @@ country_event = {
 				type = take_state
 			}
 		}
+	}
+}
+	country_event = {
+			id = boxer_rebellion.25
+			title = boxer_rebellion.25.t
+			desc = boxer_rebellion.25.d
+			picture = GFX_report_event_soldiers_marching
 
-		every_state = {
-			limit = {
-				is_owned_by = BOX
-				is_core_of = CHI
-			}
-			CHI = {
-				transfer_state = PREV
-			}
-		}
+			fire_only_once = yes
+			hidden = yes
+			is_triggered_only = yes
+			immediate = {
 		SHA = {
 			transfer_state = 597
 			transfer_state = 825
+			add_state_core = 597
+			add_state_core = 825
 		}
 		JIA = {
 			transfer_state = 598
@@ -108,6 +111,7 @@ country_event = {
 		}
 		ZHE = {
 			transfer_state = 596
+			add_state_core = 596
 		}
 		FUJ = {
 			transfer_state = 595
@@ -138,12 +142,9 @@ country_event = {
 		GXC = {
 			transfer_state = 599
 		}
-
-		GER = {
-			country_event = { id = boxer_rebellion.3 days = 443 }
-		}
 	}
-}
+	}
+
 
 # PEACE DEAL
 country_event = {

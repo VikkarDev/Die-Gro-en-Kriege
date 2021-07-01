@@ -9,9 +9,9 @@ state={
 			3522 5 
 		}
 		buildings = {
-			infrastructure = 8
-			arms_factory = 5
-			industrial_complex = 4
+			infrastructure = 5
+			arms_factory = 2
+			industrial_complex = 1
 
 		}
 		add_core_of = GER
@@ -19,9 +19,9 @@ state={
 	}
 
 	provinces={
-		375 478 3367 3499 3522 6487 9428 9456 9496 9560 11219 11359 11415 11444 11505 
+		3522 6487 9238 9375 9456 11359 11468 
 	}
-	manpower=7265029
+	manpower=2162016
 	buildings_max_level_factor=1.000
-	state_category=megalopolis
+	state_category=city
 }

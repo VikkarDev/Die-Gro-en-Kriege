@@ -2,31 +2,29 @@
 state={
 	id=65
 	name="STATE_65"
-	manpower = 5592576
 	resources={
-		steel=53 # was: 90
+		steel=11.000
 	}
-
-	state_category = metropolis
-
 
 	history={
 		owner = GER
 		buildings = {
-			infrastructure = 7
+			infrastructure = 5
 			arms_factory = 2
 			industrial_complex = 7
+
 		}
 		victory_points = {
 			514 5 
 		}
-		victory_points = {
-			3535 5 
-		}
 		add_core_of = GER
+
 	}
 
 	provinces={
-		514 573 3514 3535 6441 6559 9441 9471 9535 11481 11545 
+		514 573 3514 9535 
 	}
+	manpower=592576
+	buildings_max_level_factor=1.000
+	state_category=city
 }

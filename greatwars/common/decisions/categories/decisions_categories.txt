@@ -15,7 +15,7 @@ dgk_colonial_decisions_category = {
 dgk_usa_campaign_decisions_category = {
 	icon = generic_political_actions
 
-	scripted_gui = DGK_USA_electoral_vote_count_decision_container
+	#scripted_gui = DGK_USA_electoral_vote_count_decision_container
 
 	allowed = {
 		original_tag = USA
@@ -75,3 +75,4 @@ dgk_colombia_thousand_days_war = {
 		tag = COL
 	}
 }
+
