@@ -2380,11 +2380,13 @@ prerequisite = {focus = RUS_new_art_eq2}
 
 	}
 
-	completion_reward ={ add_political_power = 50 }
+	completion_reward ={ 
+		GER = { country_event = { id = germany.900 } }
+	}
                  }
 
     focus = {
-    id = RUS_new_guarentee_the_germans
+    id = RUS_new_focus_on_the_east
 	icon = GFX_SOV_focus_first_russian_election
 	x = 64
 	y = 3
@@ -2435,7 +2437,7 @@ prerequisite = {focus = RUS_new_art_eq2}
                  }
 
     focus = {
-    id = RUS_new_the_british_question
+    id = RUS_new_tech_sharing
 	icon = GFX_SOV_focus_first_russian_election
 	x = 66
 	y = 4
@@ -2444,7 +2446,7 @@ prerequisite = {focus = RUS_new_art_eq2}
 	 
     prerequisite = { focus = RUS_new_family_meeting }
 	prerequisite = { focus = RUS_new_against_the_french }
-    prerequisite = { focus = RUS_new_guarentee_the_germans }
+    prerequisite = { focus = RUS_new_focus_on_the_east }
 
 	available = {
 
@@ -2461,7 +2463,7 @@ prerequisite = {focus = RUS_new_art_eq2}
 	cost = 1
 
 	 
-    prerequisite = { focus = RUS_new_the_british_question }
+    prerequisite = { focus = RUS_new_tech_sharing }
 
 	available = {
 
@@ -2508,7 +2510,7 @@ prerequisite = {focus = RUS_new_art_eq2}
                  }
 
     focus = {
-    id = RUS_new_against_the_british
+    id = RUS_new_british_menace
 	icon = GFX_SOV_focus_first_russian_election
 	x = 58
 	y = 3
@@ -2550,7 +2552,7 @@ prerequisite = {focus = RUS_new_art_eq2}
 
 	 
     prerequisite = { focus = RUS_new_eastern_flank }
-	prerequisite = { focus = RUS_new_against_the_british }
+	prerequisite = { focus = RUS_new_british_menace }
 	prerequisite = { focus = RUS_new_guarentee_the_french }
 
 	available = {
@@ -2571,7 +2573,7 @@ prerequisite = {focus = RUS_new_art_eq2}
     prerequisite = { focus = RUS_new_german_question }
 
 	available = {
-
+        date > 1907.1.1
 	}
 
 	completion_reward ={ }

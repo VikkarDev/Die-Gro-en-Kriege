@@ -205,8 +205,8 @@ ideas = {
             }
 
             modifier = {
-                research_speed_factor = 0.05
-                industrial_capacity_factory = 0.10
+                research_speed_factor = 0.02
+                industrial_capacity_factory = 0.05
             }
         }  
 
@@ -230,9 +230,9 @@ ideas = {
             }
 
             modifier = {
-                stability_factor = 0.1
-                production_speed_buildings_factor = 0.10
-                industrial_capacity_factory = 0.10
+                stability_factor = 0.02
+                production_speed_buildings_factor = 0.05
+                industrial_capacity_factory = 0.05
             }
         }  
                   SOV_indu1 = {
@@ -243,9 +243,9 @@ ideas = {
             }
 
             modifier = {
-                stability_factor = 0.15
-                production_speed_buildings_factor = 0.15
-                industrial_capacity_factory = 0.15
+                stability_factor = 0.5
+                production_speed_buildings_factor = 0.10
+                industrial_capacity_factory = 0.10
             }
         } 
                   SOV_army_moral = {
