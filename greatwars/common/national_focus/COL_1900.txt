@@ -1,0 +1,76 @@
+focus_tree = {
+    id = COL_1900
+
+    country = {
+		factor = 0
+		
+		modifier = {
+			add = 11
+			tag = COL
+		}
+	}
+    default = no
+
+    continuous_focus_position = { x = 50 y = 15000 }
+
+
+    focus = {
+        id = COL_1900_panama_qustion
+		icon = GFX_CHI_focus_boxer_war_victory
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		x = -1
+		y = 0
+
+		cost = 3
+
+		available = {
+			PAN = { exists = no }
+		}
+
+		completion_reward = { 
+            add_political_power = 5
+             add_stability = 0.05
+		}
+	}
+
+    focus = {
+        id = COL_1900_give_independence
+        icon = GFX_CHI_focus_boxer_war_victory
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        x = -3
+        y = 1
+
+        cost = 5
+        
+        completion_reward = {
+            release = PAN
+            remove_ideas = COL_panama_terror
+        }
+
+        prerequisite = {
+            focus = COL_1900_panama_qustion
+        }
+    }
+
+    focus = {
+        id = COL_1900_anti_panama_independence
+        icon = GFX_CHI_focus_boxer_war_victory
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        x = 1
+        y = 1
+
+        cost = 5
+
+        completion_reward = {
+            add_stability = -0.05
+        }
+
+        prerequisite = {
+            focus = COL_1900_panama_qustion
+        }
+
+        mutually_exclusive = {
+            COL_1900_give_independence
+        }
+    }
+}
