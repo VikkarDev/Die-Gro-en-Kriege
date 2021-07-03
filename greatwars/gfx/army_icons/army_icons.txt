@@ -402,9 +402,7 @@
 		available = 
 		{
 			has_dlc = "Waking the Tiger"
-			has_government = centrism
-			has_government = social_liberalism
-			has_government = traditional_conservatism 
+			has_government = social_egalitarianism
 		}
 	}
 	icon = {
@@ -490,8 +488,6 @@
 		{
 			has_dlc = "Waking the Tiger"
 			has_government = vanguard_communism
-			has_government = libertarian_socialism
-			has_government = democratic_socialism
 		}
 	}
 	icon = {

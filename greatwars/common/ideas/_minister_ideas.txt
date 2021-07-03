@@ -542,11 +542,75 @@ ideas = {
 
 			available = { }
 			
-			traits = { army_infantry_1 }
+			traits = { army_cavalry_3 }
 			
 			ai_will_do = {
 				factor = 10
 			}
 		}
+	}
 
+	navy_chief = {
+
+		nikolai_tchikhatchev = {
+			ledger = navy
+
+			
+			allowed = {
+				original_tag = SOV
+			}
+			
+			traits = { navy_chief_decisive_battle_3 }
+			
+			ai_will_do = {
+				factor = 0
+			}
+		}
 }
+
+	high_command = {
+
+		alexey_manikovsky = {
+			ledger = army
+
+			
+			allowed = {
+				original_tag = SOV
+			}
+			
+			traits = { army_infantry_1 }
+			
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		nikolay_leontiev = {
+			ledger = army
+
+			
+			allowed = {
+				original_tag = SOV
+			}
+			
+			traits = { army_logistics_2 }
+			
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		aleksandr_krymov = {
+			ledger = army
+
+			
+			allowed = {
+				original_tag = SOV
+			}
+			
+			traits = { army_cavalry_1 }
+			
+			ai_will_do = {
+				factor = 0
+			}
+		}
+
+	}

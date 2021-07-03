@@ -2949,5 +2949,8 @@ spriteTypes = {
 		name = "GFX_focus_RUS_asia_influance"
 		texturefile = "gfx/interface/goals/sov/asian_influance.dds"
 	}
-
+	SpriteType = {
+		name = "GFX_focus_RUS_three_emperor_league"
+		texturefile = "gfx/interface/goals/sov/Three_emperor_league.dds"
+	}
 }

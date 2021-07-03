@@ -239,6 +239,10 @@ SOV_chauvinist_populism_party:0 "Various Circles" #no party
 ########### Russia Ministers Localisation ###########
 fyodor_geydenl:0 "Fyodor Geyden"
 nikolai_obruchev:0 "Nikolai Obruchev"
+alexey_manikovsky:0 "Alexey Manikovsky"
+nikolay_leontiev:0 "Nikolay Leontiev"
+aleksandr_krymov:0 "Aleksandr Krymov"
+nikolai_tchikhatchev:0 "Nikolai Tchikhatchev"
 
 # LEADER INFO
 ########### Russia Leader Info Localisation ###########
@@ -269,3 +273,4 @@ sov_prop2_done:0 "Has completed §Ythe second wave of propaganda§W"
 #Stuff
 rus_chi_won:0 "We have §GSiezed§W Manchuria"
 crowd_final:0 "The housing situation will §YSlowly§W emprove."
+GER_three_emperor_league_name:0 "Three Emperor Tech Sharing"
