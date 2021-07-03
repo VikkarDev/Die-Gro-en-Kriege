@@ -5785,6 +5785,11 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "GFX_idea_col_colombian_civil_war"
+		texturefile = "gfx/interface/ideas/COL/idea_col_colombian_civil_war.dds"
+	}
+
+	spriteType = {
 		name = "GFX_idea_bul_bulgarian_shipping_chamber"
 		texturefile = "gfx/interface/ideas/idea_bul_bulgarian_shipping_chamber.dds"
 	}
