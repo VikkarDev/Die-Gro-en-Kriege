@@ -2953,4 +2953,12 @@ spriteTypes = {
 		name = "GFX_focus_RUS_three_emperor_league"
 		texturefile = "gfx/interface/goals/sov/Three_emperor_league.dds"
 	}
+	SpriteType = {
+		name = "GFX_focus_RUS_meeting_paris"
+		texturefile = "gfx/interface/goals/sov/meeting_paris.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_RUS_foreign_policy"
+		texturefile = "gfx/interface/goals/sov/foreign_policy.dds"
+	}
 }
