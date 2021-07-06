@@ -1,7 +1,0 @@
-opinion_modifiers = {
-	
-	diplomatic_envoy = {
-		value = 30
-	}
-	
-}
