@@ -102,3 +102,35 @@ news_event = {
 	fire_only_once = yes
 
 	option = { name = dkg_news.4.a days = 2}
+}
+
+
+
+
+#1900 SUMMER olympics
+news_event = {
+	id = dgk_news.5
+	title = dgk_news.5.t
+	desc = dgk_news.5.d
+	picture = GFX_event_sum_olymp
+
+	option = {
+		name = dgk_news.5.a
+
+		trigger = {
+			NOT = {
+				TAG = FRA
+			}
+		}
+		#ai_chance = { factor = 100 }
+	}
+
+	option = {
+		name = dgk_news.5.b
+
+		trigger = {
+			TAG = FRA
+		}
+		#ai_chance = { factor = 100 }
+	}
+}

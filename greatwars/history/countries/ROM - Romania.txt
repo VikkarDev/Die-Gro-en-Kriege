@@ -41,10 +41,22 @@ capital = 46
 	create_country_leader = {
 		name = "Carol I"
 		desc = ""
-		picture = "Carol I.dds"
+		picture = "Carol_I.dds"
 		ideology = conserv
 		traits = {
 			
 		}
+	}
+
+	create_corps_commander = {
+		name = "Constantin Prezan"
+		portrait_path = "gfx/leaders/ROM/generals/Constantin_Prezan.tga"
+		skill = 3
+		attack_skill = 2
+		defense_skill = 4
+		planning_skill = 3
+		logistics_skill = 2
+		traits = { trait_engineer }
+		
 	}
 }

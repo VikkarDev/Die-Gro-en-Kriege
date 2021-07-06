@@ -21,20 +21,20 @@ RUS_new_universal:0 "Universal Education System"
 RUS_new_finway:0 "Finish The Trans-Siberian Railway"
 RUS_new_industry01:0 "Continue Industrializing"
 RUS_new_imptool:0 "Import Machine Tools"
-RUS_new_excity:0 "Import French Technologies"
-RUS_new_hous:0 "Fix the Housing Crisis"
-RUS_new_indep:0 "Russian Economic Independance"
+RUS_new_excity:0 "French Technologies"
+RUS_new_hous:0 "The Housing Crisis"
+RUS_new_indep:0 "Economic Independance"
 RUS_new_dep:0 "Continue Depending on France"
 RUS_new_incpro:0 "Increase Resource Production"
-RUS_new_inccond:0 "Teach The Russian Workers"
+RUS_new_inccond:0 "Teach The Workers"
 RUS_new_teachwork:0 "Improve Worker Conditons"
 RUS_new_milind:0 "Build Up Military Industry"
-RUS_new_limex:0 "Limit Russian Exports"
+RUS_new_limex:0 "Limit Exports"
 RUS_new_coopwest:0 "Co-operation with the West"
 RUS_new_buytools:0 "Purchase More Tools"
 RUS_new_westtech:0 "French Technologies"
 RUS_new_beginrel:0 "Build up civilian industry"
-RUS_new_moreex:0 "More Russian Exports"
+RUS_new_moreex:0 "More Exports"
 RUS_new_noagri:0 "Move Away from Agricultre"
 RUS_new_massind:0 "Continue Mass Industrializing"
 RUS_new_focwes:0 "Focus on Western Russia"
@@ -109,6 +109,27 @@ RUS_new_def_desc:0 "With the war looking more and more dire, we have decided to 
 RUS_new_industry0_desc:0 "The Russian economy has been failing recently due to our agarian society, we must look to industrilize as quickly as possible to not be left behind by the great powers of Europe."
 RUS_new_limex_desc:0 "If we want to keep up with the other great powers, we must keep our recources to our selfves. We will lower the number of exports to allies and enemies alike!"
 RUS_new_orth_desc:0 "Many Russians are christians, more specifically orthodox, yet many of them dont know their religion. We can fight this problem by building more orthodox schools around the empire, this may also help the iliteracy rate in our country."
+RUS_new_victory_chi:0 "Victory in China"
+RUS_new_best_army:0 "Build up the army"
+RUS_new_develop:0 "Develop our new lands"
+RUS_new_man_question:0 "The Manchurian question"
+RUS_new_man_fort:0 "Fortify the Chinese border"
+RUS_new_man_rail:0 "Build up Manchurian railways"
+RUS_new_man_fac:0 "Manchurian factories"
+RUS_new_man_brothers:0 "Our Manchurian brothers"
+RUS_new_revive_three_emp:0 "Revive the Three Emperors League"
+RUS_new_focus_on_the_east:0 "Focus on the east"
+RUS_new_against_the_french:0 "Against the French"
+RUS_new_family_meeting:0 "Family meeting"
+RUS_new_tech_sharing:0 "Tech sharing programs"
+RUS_new_balkan_question:0 "The Balkan question"
+RUS_new_foreign_policy:0 "Foreign policy"
+RUS_new_meeting_in_paris:0 "A Meeting in Paris"
+RUS_new_guarentee_the_french:0 "Guarentee the French"
+RUS_new_british_menace:0 "The British menace"
+RUS_new_ottoman_question:0 "The Ottoman Question"
+RUS_new_german_question:0 "The German Threat"
+RUS_new_join_the_entent:0 "Join the entent"
 ########### Russia Country Names & Cosmetic Localisation ###########0
 SOV_chauvinist_populism:0 "Russian Empire"
 SOV_chauvinist_populism_DEF:0 "The Russian Empire"
@@ -156,6 +177,9 @@ russia.9.d:0 "With the war raging on for almost 5 months now, and with popular s
 russia.9.a:0 "For the people"
 russia.9.b:0 "No! We are on the brink of victory"
 rus_fail_man:0 "Russia's hulilating defeat against the §YQing empire§W"!
+russia.998.t:0 "Formation of the Socialist Revolutionary Party"
+russia.998.d:0 "Earlier this month the Socialist Revolutionary Party has been officially founded. Altough they are peacefull for now, we must keep an eye on them."
+russia.998.a:0 "Oh dear."
 # NATIONAL SPIRITS
 ########### Russia National Spirits Localisation ###########
 SOV_french_dependancy_desc:0 "While this National Spirit is active, we will have improved relations with  [FRA.GetFlag]  §BFrance§!\n\nRussia has a large military, but its arms are obsolete and some troops even lack equipment. We cannot hope to make progress against German and Austrian forces without French help."
@@ -184,6 +208,14 @@ SOV_shat_navy:0 "Shattered Navy"
 SOV_army_demoral:0 "Demoralized Army"
 SOV_french_dependancy1:0 "French economics"
 SOV_french_dependancy2:0 "A reformed economy"
+SOV_french_dependancy_desc:0 "While this National Spirit is active, we will have improved relations with  [FRA.GetFlag]  §BFrance§!\n\nAcutal Description Goes Here"
+SOV_french_dependancy:0 "French Dependancy"
+SOV_fear_of_revolution:0 "Fear of Revolution"
+SOV_long_live_the_tsar:0 "Long Live the Tsar"
+SOV_crowd:0 "Crowded Cities"
+SOV_crowd2:0 "Crowded Cities (2)"
+SOV_crowd3:0 "Crowded Cities (3)"
+SOV_crowd_desc:0 "With the rapid industrilzation of our nations, Workers move to our biggest cities witch are already crowded enough."
 
 # PARTY NAMES
 ########### Russia Party Names Localisation ###########
@@ -205,7 +237,12 @@ SOV_chauvinist_populism_party:0 "Various Circles" #no party
 
 # MINISTERS
 ########### Russia Ministers Localisation ###########
-
+fyodor_geydenl:0 "Fyodor Geyden"
+nikolai_obruchev:0 "Nikolai Obruchev"
+alexey_manikovsky:0 "Alexey Manikovsky"
+nikolay_leontiev:0 "Nikolay Leontiev"
+aleksandr_krymov:0 "Aleksandr Krymov"
+nikolai_tchikhatchev:0 "Nikolai Tchikhatchev"
 
 # LEADER INFO
 ########### Russia Leader Info Localisation ###########
@@ -228,3 +265,12 @@ brob2:0 "Increases Patriotism among the people!\n "
 brob3:0 "The People §Glove§W the tsar!\n "
 sov_prop1_done:0 "Has completed §Ythe first wave of propaganda§W"
 sov_prop2_done:0 "Has completed §Ythe second wave of propaganda§W"
+
+
+
+# =======
+
+#Stuff
+rus_chi_won:0 "We have §GSiezed§W Manchuria"
+crowd_final:0 "The housing situation will §YSlowly§W emprove."
+GER_three_emperor_league_name:0 "Three Emperor Tech Sharing"

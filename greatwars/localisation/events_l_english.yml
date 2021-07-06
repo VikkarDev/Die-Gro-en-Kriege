@@ -52,6 +52,12 @@ dgk_news.3.b:0 "We will fight!"
 dgk_news.4.t:0 "Russian invasion of manchuria!"
 dgk_news.4.d:0 "With negociations breaking down between the Russians and the imperial goverment in Peking. Tsar Nicholas has announced that they will seize manchuria, no matter the cost. The qing army already dealing with the boxer rebelion will have to stretch thinner to protect their motherland. We may only wait and see if the influence of the Russian bear grows stronger in the Asian continent."
 dkg_news.4.a:0 "An act of agression!"
+dgk_news.5.t:0 "The Summer Olympics has Started!"
+dgk_news.5.d:0 "Today the Summer Olympics has started! The host is France and the city that they held it was in Paris!"
+dgk_news.5.a:0 "Cool."
+dgk_news.5.b:0 "Viva La France!"
+
+
 # GENERIC
 dgk_generic.7.t:0 "Native Uprising"
 dgk_generic.7.d:0 "A native uprising has happened in a colony! Rumors spread that a group of people were going to uprise against the overlord. Following this, the uprising plans to have their own soveriegn state, but have to fight for it."

@@ -934,4 +934,11 @@ defined_text = {
 		}
 		localization_key = GUANGXU_LEADER_DESCRIPTION
 	}
+	text = {
+		trigger = {
+			original_tag = GRE
+			has_country_flag = george_1_leader
+		}
+		localization_key = GEORGE_1_LEADER_DESCRIPTION
+	}
 }

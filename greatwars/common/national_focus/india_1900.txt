@@ -11,7 +11,7 @@ focus_tree = {
 	#Focus for Invite British Investors
 	focus = {
 		id = RAJ_invite_british_investors
-		icon = GFX_goal_unknown
+		icon = GFX_focus_chi_british_cooperation
 		x = 8
 		y = 2
 		cost = 10
@@ -217,7 +217,7 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-			add_ideas = RAJ_improve_the_trade_routes
+			add_ideas= RAJ_improve_the_trade_routes
 		}
 	}
 
@@ -392,7 +392,7 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-			remove_ideas = RAJ_unstable_economy
+			remove_ideas= RAJ_unstable_economy
 		}
 	}
 
@@ -537,20 +537,15 @@ focus_tree = {
 			is_puppet = no
 		}
 		completion_reward = {
-			random_owned_controlled_state = {
-				damage_building = { 
-					type = industrial_complex 
-					damage = 0.6 
-				}
+			damage_building= { 
+        		type = industrial_complex 
+        		damage = 0.6 
 			}
 
-			random_owned_controlled_state = {
-				damage_building= { 
-					type = arms_factory
-					damage = 0.6 
-				}
+			damage_building= { 
+        		type = arms_factory
+        		damage = 0.6 
 			}
-
 			add_ideas = RAJ_violent_protests
 		}
 	}
@@ -603,7 +598,7 @@ focus_tree = {
 	focus = {
 		id = RAJ_import_british_artillery
 		icon = GFX_goal_unknown
-		x = 7
+		x = 6
 		y = 4
 		cost = 10
 		 
@@ -701,7 +696,7 @@ focus_tree = {
 	focus = {
 		id = RAJ_import_british_fighters
 		icon = GFX_goal_unknown
-		x = 9
+		x = 8
 		y = 4
 		cost = 10
 		 
@@ -874,9 +869,6 @@ focus_tree = {
 		completion_reward = {
 			army_experience = 10
 			add_tech_bonus = {
-				name = "RAJ_mountain_training"
-				uses = 1
-				bonus = 1
 				technology = tech_mountaineers
 				technology = tech_mountaineers2
 			}
@@ -1204,7 +1196,7 @@ focus_tree = {
 			focus = RAJ_violent_protests
 		}
 
-		mutually_exclusive = { focus = RAJ_launch_a_far_left_revolution }
+		mutually_exclusive = { focus = RAJ_RAJ_launch_a_far_left_revolution }
 		
 		ai_will_do = {
 			factor = 1
@@ -1218,15 +1210,15 @@ focus_tree = {
 					RAJ = { set_capital = PREV }
 				}
 				start_civil_war = {
-					ruling_party = chauvinist_populism
-					ideology = fascism
+					ruling_party = fascism
+					ideology = neutrality
 					size = 70
 					capital = 439
 				}
 				random_other_country = {
 					limit = {
 						original_tag = RAJ
-						has_government = autocracy
+						has_government = neutrality
 					}
 					ENG = { add_to_faction = PREV }
 				}						
@@ -1259,15 +1251,15 @@ focus_tree = {
 					RAJ = { set_capital = PREV }
 				}
 				start_civil_war = {
-					ruling_party = vanguard_communism
-					ideology = marxism
+					ruling_party = communism
+					ideology = neutrality
 					size = 70
 					capital = 439
 				}
 				random_other_country = {
 					limit = {
 						original_tag = RAJ
-						has_government = autocracy
+						has_government = neutrality
 					}
 					ENG = { add_to_faction = PREV }
 				}						
@@ -1523,7 +1515,7 @@ focus_tree = {
 
 	focus = {
 		id = RAJ_import_from_america
-		icon = GFX_goal_unknown
+		icon = GFX_focus_chi_mission_to_the_us
 		x = 30
 		y = 2
 		cost = 10
@@ -1658,7 +1650,7 @@ focus_tree = {
 		}
 
 		available = {
-			has_idea = RAJ_the_muslim_league
+			has_ideas = RAJ_the_muslim_league
 		}
 	
 		ai_will_do = {
@@ -1833,7 +1825,9 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			add_ideas = { RAJ_national_congress_dissolved }
+			add_ideas = {
+    			add_idea = RAJ_national_congress_dissolved
+			}
 		}
 	}
 	

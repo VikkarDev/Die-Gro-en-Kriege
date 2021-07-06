@@ -249,6 +249,7 @@ focus_tree = {
                     popularity = 0.2
                 }
                 add_stability = 0.1
+                add_political_power = 15
         }
     }
     focus = {
