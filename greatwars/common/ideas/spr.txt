@@ -115,4 +115,26 @@ ideas = {
 		}
 	  }
 	}
+	country = {
+		SPR_underage_monarch_idea = {
+		picture = spr_underage_monarch_idea
+		removal_cost = -1
+	  
+		allowed = {
+			tag = SPR
+		}
+		available = {
+		}
+		cancel = {
+		}
+		allowed_civil_war = {
+			always = yes
+		}
+	  
+		modifier = {
+		stability_factor = -0.10
+		war_support_factor = -0.05
+		}
+	  }
+	}
 }

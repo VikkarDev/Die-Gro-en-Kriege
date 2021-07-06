@@ -1,20 +1,22 @@
+
 state={
 	id=913
 	name="STATE_913"
-	state_category = town
 
-	history = {
+	history={
 		owner = NAJ
 		add_core_of = NAJ
-
 		buildings = {
 			infrastructure = 2
+
 		}
+
 	}
 
 	provinces={
-		8030 
+		8030 10870 
 	}
 	manpower=75000
 	buildings_max_level_factor=1.000
+	state_category=town
 }

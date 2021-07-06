@@ -1,0 +1,30 @@
+ideas = {
+	country = {
+		kor_gwangmu_reform = {
+			
+			allowed = {
+				original_tag = KOR
+			}
+			
+			removal_cost = -1
+			picture = kor_gwangmu_reform
+			
+			modifier = {
+			}
+			
+		}
+		kor_great_game = {
+			
+			allowed = {
+				original_tag = KOR
+			}
+			
+			removal_cost = -1
+			picture = kor_great_game
+			
+			modifier = {
+			}
+			
+		}
+	}
+}

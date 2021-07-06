@@ -1,0 +1,1306 @@
+##### Division Templates #####
+division_template = {
+	name = "Preobrazhensky Lifeguard regiment"			# Rifle Division
+	division_names_group = SOV_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+    	support = {
+            artillery = { x = 0 y = 0 } 
+                  }
+}   
+division_template = {
+	name = "Izmailovsky Lifeguard regiment"			# infantry Division
+	division_names_group = SOV_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 0 y = 3 }   
+	}
+}       
+division_template = {
+	name = "Chevalier Guard Regiment"			# cavalry Division
+	division_names_group = SOV_CAV_01
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+		cavalry = { x = 2 y = 0 }   
+	}
+} 
+units = {
+	##### Severno-Zapadnoe TVD (North West Theatre) -- Archangelsk #####				
+	# 1ya Strelkoviy Korpus			
+	division= {	# "18ya Preobrazhensky Lifeguard regiment"		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 18
+		}
+		location = 9203
+		division_template = "Preobrazhensky Lifeguard regiment"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.85
+
+	}			
+	division= {	# "54ya Preobrazhensky Lifeguard regiment"		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 54
+		}
+		location = 142
+		division_template = "Preobrazhensky Lifeguard regiment"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.85
+
+	}			
+	division= {	# "16ya Chevalier Guard Regiment"		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 16
+		}
+		location = 11181
+		division_template = "Chevalier Guard Regiment"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.85
+
+	}
+
+	# Directly subordinate to TVD			
+	division= {	# "67ya Preobrazhensky Lifeguard regiment"		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 67
+		}
+		location = 3134
+		division_template = "Preobrazhensky Lifeguard regiment"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.85
+
+	}			
+
+
+	##### Zapadnye TVD (Western Theatre Military District) #####
+	#### Leningradskii Voennyii Okrug (Leningrad Military District) -- Leningrad ####
+	# 19ya Strelkoviy Korpus		
+	division= {	# "16ya 'Ul'yanovskaya' Strelk. Div."		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 16
+		}
+		location = 149
+		division_template = "Preobrazhensky Lifeguard regiment"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.85
+
+	}			
+	division= {	# "56ya 'Moskva' Strelk. Div."		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 56
+		}
+		location = 149
+		division_template = "Preobrazhensky Lifeguard regiment"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.85
+
+	}			
+	division= {	# "72ya 'Turkestan.' Gornostrelk. Div."		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 72
+		}
+		location = 3151
+		division_template = "Lifeguard regiment"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.85
+
+	}
+	### Leningraskaya Gruppa Armiya (Leningrad Army Group) -- Leningrad ###
+	#  NKVD Leningradksii Korpus -- NKVD Border Guard and RR units	
+	division= {	# "1ya Izmailovsky Lifeguard regiment"		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 6174
+		division_template = "Izmailovsky Lifeguard regiment"		# NKVD -- older equipment, training
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}			
+	division= {	# "4ya Izmailovsky Lifeguard regiment"		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 6174
+		division_template = "Izmailovsky Lifeguard regiment"		# NKVD -- older equipment, training
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}					
+	#### Belorusskii Voennyii Okrug (Belorussian Military District) -- Velikie Luki, Minsk ####			
+	# 4ya Strelkoviy Korpus
+	division= {	# "27ya 'Omskaya' Strelk. Div."		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 27
+		}
+		location = 104
+		division_template = "Preobrazhensky Lifeguard regiment"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.85
+
+	}			
+	division= {	# "29ya  'Vyatskaya' Strelk. Div."		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 29
+		}
+		location = 9408
+		division_template = "Preobrazhensky Lifeguard regiment"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.85
+
+	}			
+	division= {	# "33ya 'Belorusskaya' Strelk. Div."		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 33
+		}
+		location = 9120
+		division_template = "Preobrazhensky Lifeguard regiment"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.85
+
+	}			
+	# 5ya Strelkoviy Korpus
+	division= {	# "5ya 'Vitebskaya' Strelk. Div."		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 5
+		}
+		location = 415
+		division_template = "Preobrazhensky Lifeguard regiment"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.85
+
+	}			
+	division= {	# "48ya 'Kashino-Tver.' Strelk. Div."		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 48
+		}
+		location = 3310
+		division_template = "Preobrazhensky Lifeguard regiment"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.85
+
+	}			
+	division= {	# "64ya Preobrazhensky Lifeguard regiment"		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 64
+		}
+		location = 3333
+		division_template = "Preobrazhensky Lifeguard regiment"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.85
+
+	}			
+	# 6ya Kavaleriyskiy Korpus
+	division= {	# "6ya 'Chongarskaya' Kav. Div."		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 6
+		}
+		location = 6293
+		division_template = "Chevalier Guard Regiment"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.85
+
+	}
+	division= {	# "36ya 'Chongarskaya' Kav. Div."		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 36
+		}
+		location = 6293
+		division_template = "Chevalier Guard Regiment"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.85
+
+	}
+
+	# 11ya Strelkoviy Korpus
+	division= {	# "2ya 'Belorusskaya' Strelk. Div."		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 3219
+		division_template = "Preobrazhensky Lifeguard regiment"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.85
+
+	}			
+	division= {	# "8ya 'Minskaya' Strelk. Div."		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 8
+		}
+		location = 6371
+		division_template = "Preobrazhensky Lifeguard regiment"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.85
+
+	}			
+	division= {	# "37ya Preobrazhensky Lifeguard regiment"		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 37
+		}
+		location = 6220
+		division_template = "Preobrazhensky Lifeguard regiment"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.85
+
+	}			
+
+	# 3ya Kavaleriyskiy Korpus
+	division= {	# "7ya Chevalier Guard Regiment"		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 7
+		}
+		location = 3267
+		division_template = "Chevalier Guard Regiment"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.85
+
+	}
+	division= {	# "11ya Chevalier Guard Regiment"		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 11
+		}
+		location = 11216
+		division_template = "Chevalier Guard Regiment"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.85
+
+	}
+
+	# NKVD Belorusskiy Korpus -- NKVD Border Guard and RR units	
+	division= {	# "2ya Izmailovsky Lifeguard regiment"		
+			division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+	location = 11370
+		division_template = "Izmailovsky Lifeguard regiment"		# NKVD -- older equipment, training
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}			
+	division= {	# "3ya Izmailovsky Lifeguard regiment"		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 11202
+		division_template = "Izmailovsky Lifeguard regiment"		# NKVD -- older equipment, training
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}			
+	division= {	# "8ya Izmailovsky Lifeguard regiment"		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 8
+		}
+		location = 306
+		division_template = "Izmailovsky Lifeguard regiment"		# NKVD -- older equipment, training
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}			
+
+#BRUHHH
+	division= {	# "85ya 'Ul'yanovskaya' Strelk. Div."		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 16
+		}
+		location = 6702
+		division_template = "Preobrazhensky Lifeguard regiment"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.85
+
+	}			
+	division= {	# "53ya 'Moskva' Strelk. Div."		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 56
+		}
+		location = 7801	
+		division_template = "Preobrazhensky Lifeguard regiment"
+		start_experience_factor = 0.8
+		start_equipment_factor = 0.85
+
+	}			
+	division= {	# "78ya 'Turkestan.' Gornostrelk. Div."		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 72
+		}
+		location = 12622
+		division_template = "Preobrazhensky Lifeguard regiment"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.85
+
+	}
+	### Leningraskaya Gruppa Armiya (Leningrad Army Group) -- Leningrad ###
+	#  NKVD Leningradksii Korpus -- NKVD Border Guard and RR units	
+	division= {	# "74ya Izmailovsky Lifeguard regiment"		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 10549
+		division_template = "Izmailovsky Lifeguard regiment"		# NKVD -- older equipment, training
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+
+	}			
+	division= {	# "43ya Izmailovsky Lifeguard regiment"		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 12691
+		division_template = "Izmailovsky Lifeguard regiment"		# NKVD -- older equipment, training
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+
+	}					
+	#### Belorusskii Voennyii Okrug (Belorussian Military District) -- Velikie Luki, Minsk ####			
+	# 4ya Strelkoviy Korpus
+	division= {	# "87ya 'Omskaya' Strelk. Div."		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 27
+		}
+		location = 10555
+		division_template = "Preobrazhensky Lifeguard regiment"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.85
+
+	}			
+	division= {	# "2ya  'Vyatskaya' Strelk. Div."		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 29
+		}
+		location = 4850
+		division_template = "Preobrazhensky Lifeguard regiment"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.85
+
+	}			
+	division= {	# "39ya 'Belorusskaya' Strelk. Div."		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 33
+		}
+		location = 6372
+		division_template = "Preobrazhensky Lifeguard regiment"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.85
+
+	}			
+	# 5ya Strelkoviy Korpus
+	division= {	# "52ya 'Vitebskaya' Strelk. Div."		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 5
+		}
+		location = 3338
+		division_template = "Preobrazhensky Lifeguard regiment"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.85
+
+	}			
+	division= {	# "15ya 'Kashino-Tver.' Strelk. Div."		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 48
+		}
+		location = 121
+		division_template = "Preobrazhensky Lifeguard regiment"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.85
+
+	}			
+	division= {	# "43ya Preobrazhensky Lifeguard regiment"		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 64
+		}
+		location = 6262
+		division_template = "Preobrazhensky Lifeguard regiment"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.85
+
+	}			
+	# 6ya Kavaleriyskiy Korpus
+	division= {	# "61ya 'Chongarskaya' Kav. Div."		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 6
+		}
+		location = 3580
+		division_template = "Chevalier Guard Regiment"
+		start_experience_factor = 0.6
+		start_equipment_factor = 0.85
+
+	}
+	division= {	# "39ya 'Chongarskaya' Kav. Div."		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 36
+		}
+		location = 11462
+		division_template = "Chevalier Guard Regiment"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.85
+
+	}
+
+	# 11ya Strelkoviy Korpus
+	division= {	# "107ya 'Belorusskaya' Strelk. Div."		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 3452
+		division_template = "Preobrazhensky Lifeguard regiment"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.85
+
+	}			
+	division= {	# "85ya 'Minskaya' Strelk. Div."		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 8
+		}
+		location = 6296
+		division_template = "Preobrazhensky Lifeguard regiment"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.85
+
+	}			
+	division= {	# "43ya Preobrazhensky Lifeguard regiment"		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 37
+		}
+		location = 9340
+		division_template = "Preobrazhensky Lifeguard regiment"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.85
+
+	}			
+
+	# 3ya Kavaleriyskiy Korpus
+	division= {	# "71ya Chevalier Guard Regiment"		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 7
+		}
+		location = 11105
+		division_template = "Chevalier Guard Regiment"
+		start_experience_factor = 0.8
+		start_equipment_factor = 0.85
+
+	}
+	division= {	# "35ya Chevalier Guard Regiment"		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 11
+		}
+		location = 6081
+		division_template = "Chevalier Guard Regiment"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.85
+
+	}
+
+	# NKVD Belorusskiy Korpus -- NKVD Border Guard and RR units	
+	division= {	# "20ya Izmailovsky Lifeguard regiment"		
+			division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+	location = 4232
+		division_template = "Izmailovsky Lifeguard regiment"		# NKVD -- older equipment, training
+		start_experience_factor = 0.
+		start_equipment_factor = 0.5
+
+	}			
+	division= {	# "37ya Izmailovsky Lifeguard regiment"		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 10652
+		division_template = "Izmailovsky Lifeguard regiment"		# NKVD -- older equipment, training
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.5
+
+	}			
+	division= {	# "83ya Izmailovsky Lifeguard regiment"		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 8
+		}
+		location = 1733
+		division_template = "Izmailovsky Lifeguard regiment"		# NKVD -- older equipment, training
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.5
+
+	}			
+
+
+	#### Moskva Voennyii Okrug (Moscow Military District) -- Moscow ####
+	# 2ya Strelkoviy Korpus		
+	division= {		# "Moskva Proletarskaya Motostrelk. Div."		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 7785
+		division_template = "MotoPreobrazhensky Lifeguard regiment"
+		start_experience_factor = 0.1
+	}			
+	division= {	# "63ya 'Orlovskaya' Strelk. Div."		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 6
+		}
+		location = 12657
+		division_template = "Preobrazhensky Lifeguard regiment"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.85
+
+	}			
+	division= {	# "74ya Preobrazhensky Lifeguard regiment"		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 49
+		}
+		location = 12528
+		division_template = "Preobrazhensky Lifeguard regiment"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.85
+
+	}			
+	# 3ya Strelkoviy Korpus		
+	division= {	# "170ya 'Gor'kovskaya' Strelk. Div."		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 17
+		}
+		location = 10584
+		division_template = "Preobrazhensky Lifeguard regiment"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.85
+
+	}
+
+#BRUHHH
+
+	#### Moskva Voennyii Okrug (Moscow Military District) -- Moscow ####
+	# 2ya Strelkoviy Korpus		
+	division= {		# "Moskva Proletarskaya Motostrelk. Div."		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 6380
+		division_template = "MotoPreobrazhensky Lifeguard regiment"
+		start_experience_factor = 0.3
+	}			
+	division= {	# "6ya 'Orlovskaya' Strelk. Div."		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 6
+		}
+		location = 6380
+		division_template = "Preobrazhensky Lifeguard regiment"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.85
+
+	}			
+	division= {	# "49ya Preobrazhensky Lifeguard regiment"		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 49
+		}
+		location = 6380
+		division_template = "Preobrazhensky Lifeguard regiment"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.85
+
+	}			
+	# 3ya Strelkoviy Korpus		
+	division= {	# "17ya 'Gor'kovskaya' Strelk. Div."		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 17
+		}
+		location = 6262
+		division_template = "Preobrazhensky Lifeguard regiment"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.85
+
+	}			
+	division= {	# "19ya 'Voronezhskaya' Strelk. Div."		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 19
+		}
+		location = 6262
+		division_template = "Preobrazhensky Lifeguard regiment"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.85
+
+	}			
+	division= {	# "84ya 'Tul'skogo' Strelk. Div."		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 84
+		}
+		location = 6262
+		division_template = "Preobrazhensky Lifeguard regiment"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.85
+
+	}			
+
+
+	### Moskva Gruppa Armiya (Moscow Army Group) -- Moscow ###		
+	# NKVD Moskva Gruppa -- NKVD Border Guard and RR units	
+	division= {	# "14ya Izmailovsky Lifeguard regiment"		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 14
+		}
+		location = 6380
+		division_template = "Izmailovsky Lifeguard regiment"		# NKVD -- older equipment, training
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}			
+	division= {	# "17ya Izmailovsky Lifeguard regiment"		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 17
+		}
+		location = 6380
+		division_template = "Izmailovsky Lifeguard regiment"		# NKVD -- older equipment, training
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}			
+	# Subordinate to AG
+	#### Ural'skii Voennyii Okrug (Urals Military District) -- Smolensk ####
+	# 10ya Strelkoviy Korpus		
+	division= {	# "14ya 'Krivorozhskaya' Strelk. Div."		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 14
+		}
+		location = 11241
+		division_template = "Preobrazhensky Lifeguard regiment"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.85
+
+	}			
+	division= {	# "52ya Preobrazhensky Lifeguard regiment"		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 52
+		}
+		location = 11241
+		division_template = "Preobrazhensky Lifeguard regiment"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.85
+
+	}			
+	division= {	# "55ya 'Kurskaya' Strelk. Div."		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 55
+		}
+		location = 11241
+		division_template = "Preobrazhensky Lifeguard regiment"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.85
+
+	}			
+
+	# Subordinate to VO
+	division= {	# "65ya Preobrazhensky Lifeguard regiment"		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 65
+		}
+		location = 306
+		division_template = "Preobrazhensky Lifeguard regiment"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.85
+
+	}			
+	division= {	# "82ya Preobrazhensky Lifeguard regiment"		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 82
+		}
+		location = 306
+		division_template = "Preobrazhensky Lifeguard regiment"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.85
+
+	}			
+	division= {	# "85ya Preobrazhensky Lifeguard regiment"		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 85
+		}
+		location = 306
+		division_template = "Preobrazhensky Lifeguard regiment"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.85
+
+	}			
+
+	#### Volga Voennyii Okrug (Volga Military District) -- Hoymel (Gomel) ####
+	# 12ya Strelkoviy Korpus		
+	division= {	# "31ya 'Stalingradskaya' Strelk. Div."		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 31
+		}
+		location = 9288
+		division_template = "Preobrazhensky Lifeguard regiment"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.85
+
+	}			
+	division= {	# "61ya 'Turkestanskaya' Strelk. Div."		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 61
+		}
+		location = 9288
+		division_template = "Preobrazhensky Lifeguard regiment"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.85
+
+	}			
+	division= {	# "70ya Preobrazhensky Lifeguard regiment"		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 70
+		}
+		location = 9288
+		division_template = "Preobrazhensky Lifeguard regiment"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.85
+
+	}
+			
+	# 13ya Strelkoviy Korpus		
+	division= {	# "53ya Preobrazhensky Lifeguard regiment"		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 53
+		}
+		location = 3335
+		division_template = "Preobrazhensky Lifeguard regiment"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.85
+
+	}			
+	division= {	# "86ya 'Kazanskaya' Strelk. Div."		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 86
+		}
+		location = 3335
+		division_template = "Preobrazhensky Lifeguard regiment"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.85
+
+	}
+	
+	# 16ya Strelkoviy Korpus		
+	division= {	# "4ya 'Smolenskaya' Strelk. Div."		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 11271
+		division_template = "Preobrazhensky Lifeguard regiment"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.85
+
+	}			
+	division= {	# "43ya Preobrazhensky Lifeguard regiment"		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 43
+		}
+		location = 11271
+		division_template = "Preobrazhensky Lifeguard regiment"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.85
+
+	}			
+	division= {	# "81ya Preobrazhensky Lifeguard regiment"		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 81
+		}
+		location = 11271
+		division_template = "Preobrazhensky Lifeguard regiment"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.85
+
+	}
+
+	# Subordinate to VO		
+	division= {	# "12ya Izmailovsky Lifeguard regiment"		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 12
+		}
+		location = 9288
+		division_template = "Izmailovsky Lifeguard regiment"		# NKVD -- older equipment, training
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}			
+
+
+	##### Yugo-Zapadnaya Teatr VD (South West TVD) -- Kyiv, Dnipropetrovsk #####				
+	#### Kiev Voennyii Okrug (Kiev Military District) -- Kiev ####
+	# 8ya Strelkoviy Korpus		
+	division= {	# "24ya 'Samaro-Ulyanovsk' Strelk. Div."		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 24
+		}
+		location = 215
+		division_template = "Preobrazhensky Lifeguard regiment"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.85
+
+	}			
+	division= {	# "46ya Preobrazhensky Lifeguard regiment"		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 46
+		}
+		location = 9554
+		division_template = "Preobrazhensky Lifeguard regiment"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.85
+
+	}			
+	division= {	# "58ya Lifeguard regiment"		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 58
+		}
+		location = 9493
+		division_template = "Lifeguard regiment"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.85
+
+	}
+
+	# 18ya Strelkoviy Korpus
+	division= {	# "12ya 'Amur' Strelk. Div."		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 12
+		}
+		location = 7763
+		division_template = "Izmailovsky Lifeguard regiment"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.85
+
+	}			
+	division= {	# "21ya 'Permskaya' Strelk. Div."		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 21
+		}
+		location = 4725
+		division_template = "Izmailovsky Lifeguard regiment"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.85
+
+	}			
+	division= {	# "26ya 'Zlatoustovskaya' Strelk. Div."		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 26
+		}
+		location = 10655
+		division_template = "Izmailovsky Lifeguard regiment"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.85
+
+	}			
+	division= {	# "32ya 'Saratovskaya' Strelk. Div."		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 32
+		}
+		location = 7801
+		division_template = "Izmailovsky Lifeguard regiment"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.85
+
+	}			
+	division= {	# "39ya 'Tihookeanskaya' Strelk. Div."		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 39
+		}
+		location = 10722
+		division_template = "Izmailovsky Lifeguard regiment"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.85
+
+	}			
+
+	# Kolkhoziy Korpus -- Collective Farm Corps
+	division= {	# "59ya Izmailovsky Lifeguard regiment"		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 59
+		}
+		location = 6838
+		division_template = "Izmailovsky Lifeguard regiment"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}			
+	division= {	# "66ya Izmailovsky Lifeguard regiment"		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 66
+		}
+		location = 3977
+		division_template = "Izmailovsky Lifeguard regiment"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}			
+	division= {	# "69ya Izmailovsky Lifeguard regiment"		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 69
+		}
+		location = 11879
+		division_template = "Izmailovsky Lifeguard regiment"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}			
+
+	### Khaborovsk Gruppa Armiya -- Khabarovsk ###  		
+	# Subordinatre to AG
+	division= {	# "34ya 'Sredne-Volzh.' Strelk. Div."		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 34
+		}
+		location = 12189
+		division_template = "Izmailovsky Lifeguard regiment"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}			
+	division= {	# "35ya 'Sibirskaya' Strelk. Div."		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 35
+		}
+		location = 10466
+		division_template = "Izmailovsky Lifeguard regiment"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}			
+	division= {	# "40ya 'Bogucharskaya' Strelk. Div."		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 40
+		}
+		location = 11643
+		division_template = "Izmailovsky Lifeguard regiment"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}			
+	division= {	# "8ya 'Dal'nevostochnyi' Kav. Div."		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 8
+		}
+		location = 6686
+		division_template = "Chevalier Guard Regiment"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division= {			
+		name = "DVVO Izmailovsky Lifeguard regiment"		
+		location = 12189
+		division_template = "Izmailovsky Lifeguard regiment"		# 3x Mekh Bge
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.85
+
+	}
+
+	# Subordinate to VO
+	division= {	# "6ya Izmailovsky Lifeguard regiment"		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 6
+		}
+		location = 957
+		division_template = "Izmailovsky Lifeguard regiment"		# NKVD -- older equipment, training
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}			
+
+	#### Zabaikal'skii Voennyii Okrug (Transbaikal Military District) -- Argunsk ####
+	### Argunsk Gruppa Armiya ###		
+	# Subordinatre to AG
+	division= {	# "36ya 'Zabaikal'skaya' Strelk. Div."		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 36
+		}
+		location = 4719
+		division_template = "Izmailovsky Lifeguard regiment"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}			
+	division= {	# "57ya 'Ural'skaya' Strelk. Div."		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 57
+		}
+		location = 12622
+		division_template = "Izmailovsky Lifeguard regiment"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}			
+	division= {	# "93ya 'Vostochno -Sibir.' Strelk. Div."		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 93
+		}
+		location = 10559
+		division_template = "Izmailovsky Lifeguard regiment"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}			
+
+	division= {	# "95ya 'Vostochno -Sibir.' Strelk. Div."		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 93
+		}
+		location = 4690
+		division_template = "Izmailovsky Lifeguard regiment"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+
+	division= {	# "98ya 'Vostochno -Sibir.' Strelk. Div."		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 93
+		}
+		location = 1696
+		division_template = "Izmailovsky Lifeguard regiment"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+
+	division= {	# "73ya 'Ural'skaya' Strelk. Div."		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 57
+		}
+		location = 9698
+		division_template = "Izmailovsky Lifeguard regiment"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.6
+
+	}			
+	division= {	# "41ya 'Vostochno -Sibir.' Strelk. Div."		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 93
+		}
+		location = 9753
+		division_template = "Izmailovsky Lifeguard regiment"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}			
+
+	division= {	# "38ya 'Vostochno -Sibir.' Strelk. Div."		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 93
+		}
+		location = 1702
+		division_template = "Izmailovsky Lifeguard regiment"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+
+	division= {	# "45ya 'Vostochno -Sibir.' Strelk. Div."		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 93
+		}
+		location = 10678
+		division_template = "Izmailovsky Lifeguard regiment"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+
+	# Subordinate to VO
+	division= {	# "18ya Izmailovsky Lifeguard regiment"		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 18
+		}
+		location = 12641
+		division_template = "Izmailovsky Lifeguard regiment"		# NKVD -- older equipment, training
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}			
+
+	#### Sibirskii Voennyii Okrug (Siberian Military District) -- Semipalatinsk ####
+	# Subordinatre to AG
+	division= {	# "71ya Izmailovsky Lifeguard regiment"		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 71
+		}
+		location = 10610
+		division_template = "Izmailovsky Lifeguard regiment"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}			
+	division= {	# "73ya Izmailovsky Lifeguard regiment"		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 73
+		}
+		location = 1749
+		division_template = "Izmailovsky Lifeguard regiment"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}			
+	division= {	# "78ya Izmailovsky Lifeguard regiment"		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 78
+		}
+		location = 12529
+		division_template = "Izmailovsky Lifeguard regiment"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+}
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+	
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+			creator = "SOV"
+		}
+		requested_factories = 24
+		progress = 0.1
+		efficiency = 50
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = artillery_equipment_1
+			creator = "SOV" 
+		}
+		requested_factories = 10
+		progress = 0.3
+		efficiency = 50
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment
+			creator = "SOV" 
+		}
+		requested_factories = 1
+		progress = 0.25
+		efficiency = 45
+	}
+	
+  }   

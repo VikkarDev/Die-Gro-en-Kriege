@@ -259,3 +259,84 @@ country_event = {
 		name = japan.8.b
 	}
 }
+country_event = {
+	id = japan.9
+	title = japan.9.t
+	desc = japan.9.d
+	picture = GFX_report_event_german_speech
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	trigger = {
+		PHI = {
+		has_completed_focus = PHI_1900_japanese_alliance
+		}
+	}
+	option = {
+		name = japan.9.a
+		ai_chance = { factor = 100 }
+		PHI = {
+			add_popularity = {
+				ideology = centrism
+				popularity = 0.05
+			}
+		}
+		JAP = {
+        	give_guarantee = PHI
+        	give_military_access = PHI
+		}
+
+	}
+}
+country_event = {
+	id = japan.10
+	title = japan.10.t
+	desc = japan.10.d
+	picture = GFX_report_event_german_speech
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	trigger = {
+		CHI = {
+			has_completed_focus = PHI_1900_japanese_alliance
+		}
+	}
+	option = {
+		name = japan.10.a
+		ai_chance = { factor = 100 }
+		524 = {
+			damage_building = {
+    					type = infrastructure
+    					damage = 3
+						}
+		}
+		add_manpower = -500
+	}
+}
+country_event = {
+	id = japan.11
+	title = japan.11.t
+	desc = japan.11.d
+	picture = GFX_report_event_german_speech
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = japan.11.a
+		ai_chance = { factor = 80 }
+		send_equipment = {
+    		equipment = infantry_equipment
+    		amount = 500
+    		target = CHI
+		}
+		army_experience = 10
+	}
+	option = {
+		name = japan.11.b
+		ai_chance = { factor = 20 }
+		add_political_power = 15
+	}
+}

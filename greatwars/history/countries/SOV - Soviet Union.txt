@@ -7,17 +7,41 @@ capital = 219
 
 	set_convoys = 200
 
-	set_research_slots = 5
+	set_research_slots = 4
+ 
+    country_event = { id = germany.998 days = 734 }
+ 
+	set_technology = {
+		infantry_weapons = 1
+	}
+
+	set_technology = {
+	    gw_artillery = 1
+	}
 
 	add_ideas = {
 		SOV_french_dependancy
 		SOV_fear_of_revolution
 		SOV_long_live_the_tsar
+        SOV_high_iliteracy3
+		SOV_crowd
+		SOV_disorg_army
 
-		# government
+		#goverment
+
 		extensive_conscription
-		limited_exports
+		export_focus
 		partial_economic_mobilisation
+
+		#ministers
+
+		SOV_dmitry_sipyagin
+		SOV_sergei_witte
+		SOV_mikhail_muravyov
+		SOV_ivan_durnovo
+
+		#army stuff
+		fyodor_geydenl
 	}
 
 	set_politics = {
@@ -26,6 +50,57 @@ capital = 219
 		#election_frequency = 48
 		#elections_allowed = yes
 	}
+	set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_support = 1		
+	tech_recon = 1
+	tech_engineers = 1
+	}
+	if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+		basic_naval_mines = 1
+		submarine_mine_laying = 1
+		basic_torpedo = 1
+		basic_battery = 1
+		basic_light_battery = 1
+		basic_heavy_battery = 1
+		basic_medium_battery = 1
+		improved_ship_torpedo_launcher = 1
+		early_ship_hull_submarine = 1
+		early_ship_hull_light = 1
+		basic_ship_hull_light = 1
+		early_ship_hull_cruiser = 1
+		basic_ship_hull_cruiser = 1
+		early_ship_hull_heavy = 1
+		basic_ship_hull_heavy = 1
+		mtg_transport = 1
+		coastal_defense_ships = 1
+		basic_secondary_battery = 1
+		basic_cruiser_armor_scheme = 1
+	}
+	set_naval_oob = "SOV_1900_naval_mtg"
+}
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	set_technology = {
+		early_submarine = 1
+		early_destroyer = 1
+		early_light_cruiser = 1
+		basic_light_cruiser = 1
+		early_heavy_cruiser = 1
+		basic_heavy_cruiser = 1
+		early_battleship = 1
+		basic_battleship = 1
+		early_battlecruiser = 1
+		transport = 1
+	}
+	set_naval_oob = "SOV_1900_naval_legacy"
+}
+
 
 	set_popularities = {
 		vanguard_communism = 7
@@ -48,4 +123,137 @@ capital = 219
 			poor_leader
 		}
 	}
+
+	create_corps_commander = {
+        name = "Fyodor Chernozubov"
+        picture = gfx/leaders/GER/Generals/Felix_Graf_von_Bothmer.tga
+        skill = 2
+        attack_skill = 2
+        defense_skill = 3
+        planning_skill = 1
+        logistics_skill = 3
+        traits = {  cavalry_officer  }
+        id = 52
+    }
+	create_corps_commander = {
+        name = "Vladimir Dragomirov"
+        picture = gfx/leaders/GER/Generals/Felix_Graf_von_Bothmer.tga
+        skill = 3
+        attack_skill = 3
+        defense_skill = 1
+        planning_skill = 1
+        logistics_skill = 2
+        traits = {  old_guard  }
+        id = 53
+    }
+	create_corps_commander = {
+        name = "Giorgi Kazbegi"
+        picture = gfx/leaders/GER/Generals/Felix_Graf_von_Bothmer.tga
+        skill = 3
+        attack_skill = 1
+        defense_skill = 4
+        planning_skill = 2
+        logistics_skill = 3
+        traits = {  brilliant_strategist infantry_officer trait_reckless  }
+        id = 54
+    }
+	create_corps_commander = {
+        name = "Nikolai Bobyr"
+        picture = gfx/leaders/GER/Generals/Felix_Graf_von_Bothmer.tga
+        skill = 4
+        attack_skill = 2
+        defense_skill = 1
+        planning_skill = 4
+        logistics_skill = 4
+        traits = {  infantry_officer trait_reckless  }
+        id = 55
+    }
+	create_corps_commander = {
+        name = "Alexey Nikolaevich Kuropatki"
+        picture = gfx/leaders/GER/Generals/Felix_Graf_von_Bothmer.tga
+        skill = 3
+        attack_skill = 3
+        defense_skill = 2
+        planning_skill = 1
+        logistics_skill = 2
+        traits = {  infantry_officer  }
+        id = 58
+    }
+	create_corps_commander = {
+        name = "Vladimir Ivanovich Kharkevich"
+        picture = gfx/leaders/GER/Generals/Felix_Graf_von_Bothmer.tga
+        skill = 2
+        attack_skill = 2
+        defense_skill = 1
+        planning_skill = 3
+        logistics_skill = 3
+        traits = {  infantry_officer  }
+        id = 63
+    }
+	create_corps_commander = {
+        name = "Nikolai Evseevich Tumanov"
+        picture = gfx/leaders/GER/Generals/Felix_Graf_von_Bothmer.tga
+        skill = 3
+        attack_skill = 1
+        defense_skill = 3
+        planning_skill = 1
+        logistics_skill = 1
+        traits = {    }
+        id = 87
+    }
+	create_corps_commander = {
+        name = "Mikhail Ivanovich"
+        picture = gfx/leaders/GER/Generals/Felix_Graf_von_Bothmer.tga
+        skill = 2
+        attack_skill = 2
+        defense_skill = 1
+        planning_skill = 1
+        logistics_skill = 2
+        traits = {    }
+        id = 91
+    }
+	create_corps_commander = {
+        name = "Alexander Aleksandrovich von Bilderling"
+        picture = gfx/leaders/GER/Generals/Felix_Graf_von_Bothmer.tga
+        skill = 3
+        attack_skill = 4
+        defense_skill = 1
+        planning_skill = 2
+        logistics_skill = 1
+        traits = {  old_guard  }
+        id = 741
+    }
+ create_field_marshal = {
+	name = "Dmitry Milyutin"
+	    picture = gfx/leaders/GER/Generals/Felix_Graf_von_Bothmer.tga
+	    traits = { offensive_doctrine urban_assault_specialist old_guard }
+	    skill = 3
+	    attack_skill = 4
+	    defense_skill = 3
+	    planning_skill = 3
+	    logistics_skill = 5
+	    id = 71
+    }
+create_field_marshal = {
+	name = "Alexei Ermolaevich Evert"
+	    picture = gfx/leaders/GER/Generals/Felix_Graf_von_Bothmer.tga
+	    traits = { defensive_doctrine old_guard }
+	    skill = 3
+	    attack_skill = 2
+	    defense_skill = 5
+	    planning_skill = 3
+	    logistics_skill = 1
+	    id = 943
+    }
+create_field_marshal = {
+	name = "Aleksander Stepanovich Mikheev"
+	    picture = gfx/leaders/GER/Generals/Felix_Graf_von_Bothmer.tga
+	    traits = { trait_reckless }
+	    skill = 4
+	    attack_skill = 3
+	    defense_skill = 2
+	    planning_skill = 1
+	    logistics_skill = 4
+	    id = 982
+    }
 }

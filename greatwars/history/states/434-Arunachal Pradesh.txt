@@ -4,11 +4,13 @@ state={
 	name="STATE_434"
 
 	history={
-		owner = CHI
+		owner = TIB
 		buildings = {
 			infrastructure = 1
 
 		}
+		add_claim_by = CHI
+		add_core_of = TIB
 
 	}
 

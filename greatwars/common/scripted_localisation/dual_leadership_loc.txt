@@ -133,6 +133,16 @@ defined_text = {
 		}
 		localization_key = SPR_HOS_TITLE
 	}
+
+	text = {
+		trigger = {
+			tag = CHI
+			OR = {
+				has_government = autocracy
+			}
+		}
+		localization_key = CHI_HOS_TITLE
+	}
     
     text = {
 		trigger = {
@@ -291,6 +301,16 @@ defined_text = {
 		}
 		localization_key = SPR_HOG_TITLE
 	}
+
+	text = {
+		trigger = {
+			tag = CHI
+			OR = {
+				has_government = autocracy
+			}
+		}
+		localization_key = CHI_HOG_TITLE
+	}
     
     text = {
 		trigger = {
@@ -447,12 +467,23 @@ defined_text = {
 	text = {
 		trigger = {
 			tag = SPR
-			has_country_flag = francisco_silvela_vp
+			has_country_flag = alfonso_leader_vp
 			OR = {
 				has_government = radical_democracy
 			}
 		}
-		localization_key = SPR_FRANCISCO_NAME
+		localization_key = SPR_ALFONSO_NAME
+	}
+
+	text = {
+		trigger = {
+			tag = CHI
+			has_country_flag = guangxu_leader
+			OR = {
+				has_government = autocracy
+			}
+		}
+		localization_key = CHI_GUANGXU_NAME
 	}
     
     text = {
@@ -641,12 +672,23 @@ defined_text = {
 	text = {
 		trigger = {
 			tag = SPR
-			has_country_flag = francisco_silvela_vp
+			has_country_flag = alfonso_leader_vp
 			OR = {
 				has_government = radical_democracy
 			}
 		}
-		localization_key = "GFX_SPR_Francisco_Silvela"
+		localization_key = "GFX_SPR_Young_Alfonso_XIII"
+	}
+
+	text = {
+		trigger = {
+			tag = CHI
+			has_country_flag = guangxu_leader
+			OR = {
+				has_government = autocracy
+			}
+		}
+		localization_key = "GFX_CHI_Guangxu"
 	}
     
     text = {
@@ -749,9 +791,9 @@ defined_text = {
 	text = {
 		trigger = {
 			original_tag = SPR
-			has_country_flag = alfonso_leader
+			has_country_flag = francisco_silvela
 		}
-		localization_key = ALFONSO_LEADER_DESCRIPTION
+		localization_key = FRANCISCO_SILVELA_LEADER_DESCRIPTION
 	}
     
     text = {
@@ -768,6 +810,14 @@ defined_text = {
 			has_country_flag = erik_gustaf_bostrom_vp
 		}
 		localization_key = BOSTROM_LEADER_DESCRIPTION
+	}
+
+	text = {
+		trigger = {
+			original_tag = CHI
+			has_country_flag = cixi_leader
+		}
+		localization_key = CIXI_LEADER_DESCRIPTION
 	}
 }
 
@@ -857,9 +907,9 @@ defined_text = {
 	text = {
 		trigger = {
 			original_tag = SPR
-			has_country_flag = francisco_silvela_vp
+			has_country_flag = alfonso_leader_vp
 		}
-		localization_key = FRANCISCO_SILVELA_LEADER_DESCRIPTION
+		localization_key = ALFONSO_LEADER_DESCRIPTION
 	}
     text = {
 		trigger = {
@@ -875,5 +925,20 @@ defined_text = {
 			has_country_flag = oscar_ii_leader
 		}
 		localization_key = OSCAR_II_LEADER_DESCRIPTION
+	}
+
+	text = {
+		trigger = {
+			original_tag = CHI
+			has_country_flag = guangxu_leader
+		}
+		localization_key = GUANGXU_LEADER_DESCRIPTION
+	}
+	text = {
+		trigger = {
+			original_tag = GRE
+			has_country_flag = george_1_leader
+		}
+		localization_key = GEORGE_1_LEADER_DESCRIPTION
 	}
 }

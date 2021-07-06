@@ -1,5 +1,37 @@
 spriteTypes = {
 	SpriteType = {
+		name = "GFX_idea_chi_legacy_sino_japanese_war"
+		texturefile = "gfx/interface/ideas/CHI/CHI_idea_sino_jap_war.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_chi_agrarian_society"
+		texturefile = "gfx/interface/ideas/CHI/CHI_idea_agrarian.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_ita_savoy"
+		texturefile = "gfx/interface/ideas/ITA/ITA_idea_savoy.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_chi_beiyang_modern"
+		texturefile = "gfx/interface/ideas/CHI/CHI_idea_beiyang_modern.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_chi_opium_trade"
+		texturefile = "gfx/interface/ideas/CHI/CHI_idea_opium_trade.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_chi_foreign_concessions"
+		texturefile = "gfx/interface/ideas/CHI/CHI_idea_concession.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_kor_gwangmu_reform"
+		texturefile = "gfx/interface/ideas/KOR/kor_gwangmu_reform.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_kor_great_game"
+		texturefile = "gfx/interface/ideas/KOR/kor_great_game.dds"
+	}
+	SpriteType = {
 		name = "GFX_idea_swe_tree_industry"
 		texturefile = "gfx/interface/ideas/swe/swe_tree_industry.dds"
 	}
@@ -5757,6 +5789,11 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "GFX_idea_col_colombian_civil_war"
+		texturefile = "gfx/interface/ideas/COL/idea_col_colombian_civil_war.dds"
+	}
+
+	spriteType = {
 		name = "GFX_idea_bul_bulgarian_shipping_chamber"
 		texturefile = "gfx/interface/ideas/idea_bul_bulgarian_shipping_chamber.dds"
 	}
@@ -5776,5 +5813,69 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/idea_gre_metaxism_empowered.dds"
 	}
 	
+		spriteType = {
+		name = "GFX_idea_literate"
+		texturefile = "gfx/interface/ideas/sov/idea_rus_literate.dss"
+	}
+	
+		spriteType = {
+		name = "GFX_idea_crowded3"
+		texturefile = "gfx/interface/ideas/sov/idea_rus_crowded3.dds"
+	}
+
+		spriteType = {
+		name = "GFX_idea_crowded2"
+		texturefile = "gfx/interface/ideas/sov/idea_rus_crowded2.dss"
+	}
+
+		spriteType = {
+		name = "GFX_idea_crowded1"
+		texturefile = "gfx/interface/ideas/sov/idea_rus_crowded1.dss"
+	}
+
+		spriteType = {
+		name = "GFX_idea_tur_arctic_wolves"
+		texturefile = "gfx/interface/ideas/idea_tur_arctic_wolves.dds"
+	}
+
+			spriteType = {
+		name = "GFX_idea_china_rep"
+		texturefile = "gfx/interface/ideas/generic_goods_red_bonus.dds"
+	}
+
+			spriteType = {
+		name = "GFX_idea_reserve_divisions"
+		texturefile = "gfx/interface/ideas/idea_generic_reserve_divisions.dds"
+	}
+
+			spriteType = {
+		name = "GFX_idea_generic_manpower_bonus"
+		texturefile = "gfx/interface/ideas/generic_manpower_bonus.dds"
+	}
+
+			spriteType = {
+		name = "GFX_idea_generic_army_war_college"
+		texturefile = "gfx/interface/ideas/idea_generic_army_war_college.dds"
+	}
+
+			spriteType = {
+		name = "GFX_idea_generic_intel_bonus"
+		texturefile = "gfx/interface/ideas/generic_intel_bonus.dds"
+	}
+
+			spriteType = {
+		name = "GFX_idea_chi_army_corruption3"
+		texturefile = "gfx/interface/ideas/idea_chi_army_corruption3.dds"
+	}
+
+			spriteType = {
+		name = "GFX_idea_generic_sea_focused_navy"
+		texturefile = "gfx/interface/ideas/idea_generic_sea_focused_navy.dds"
+	}
+
+			spriteType = {
+		name = "GFX_idea_generic_navy_bonus"
+		texturefile = "gfx/interface/ideas/generic_navy_bonus.dds"
+	}
 
 }
