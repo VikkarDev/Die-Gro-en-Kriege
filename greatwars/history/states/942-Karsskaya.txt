@@ -1,0 +1,22 @@
+state={
+	id=942
+	name="STATE_942"
+	state_category = town
+
+	history = {
+		owner = SOV
+		add_core_of = SOV
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+		}
+	}
+
+	provinces={
+		4583 6991 7454 10403 10472 
+	}
+	manpower=96840
+	buildings_max_level_factor=1.000
+}

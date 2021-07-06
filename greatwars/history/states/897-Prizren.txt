@@ -1,0 +1,22 @@
+state={
+	id=897
+	name="STATE_897"
+	state_category = town
+
+	history={
+		owner = TUR
+		add_core_of = TUR
+		add_claim_by = SER
+		buildings = {
+			infrastructure = 4
+
+		}
+
+	}
+
+	provinces={
+		9849 
+	}
+	manpower=29472
+	buildings_max_level_factor=1.000
+}

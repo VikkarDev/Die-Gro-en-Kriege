@@ -1,0 +1,58 @@
+##### OOB #####
+units = {
+### SPANISH NAVY ###
+	fleet = {
+		name = "Spanish Navy"			
+		naval_base = 9764  
+		task_force = {
+            name = "Heavy Ship Squadron"
+			location = 9764  
+            ship = { name = "Pelayo" definition = battleship equipment = { battleship_2 = {amount = 1 owner = SPR version_name = "Pelayo Class" } } }
+            ship = { name = "Vitoria" definition = battleship equipment = { battleship_1 = {amount = 1 owner = SPR version_name = "Numancia Class" } } }
+            ship = { name = "Numancia" definition = battleship equipment = { battleship_1 = {amount = 1 owner = SPR version_name = "Numancia Class" } } }
+            ship = { name = "Carlos V" definition = heavy_cruiser equipment = { heavy_cruiser_2 = {amount = 1 owner = SPR version_name = "Carlos V Class" } } }
+        }
+        task_force = {
+            name = "Cruiser Group"
+            location = 758
+            ship = { name = "Rio de la Plata" definition = light_cruiser equipment = { light_cruiser_2 = {amount = 1 owner = SPR version_name = "Rio de la Plata Class" } } }
+            ship = { name = "Marques de la Ensenada" definition = light_cruiser equipment = { light_cruiser_2 = {amount = 1 owner = SPR version_name = "Rio de la Plata Class" } } }
+            ship = { name = "Emperador Carlos V" definition = light_cruiser equipment = { light_cruiser_2 = {amount = 1 owner = SPR version_name = "Rio de la Plata Class" } } }
+            ship = { name = "Lepanto" definition = light_cruiser equipment = { light_cruiser_2 = {amount = 1 owner = SPR version_name = "Rio de la Plata Class" } } }
+            ship = { name = "Alfonso VIII" definition = light_cruiser equipment = { light_cruiser_2 = {amount = 1 owner = SPR version_name = "Rio de la Plata Class" } } }
+            ship = { name = "Estremadura" definition = light_cruiser equipment = { light_cruiser_2 = {amount = 1 owner = SPR version_name = "Rio de la Plata Class" } } }
+            ship = { name = "Aragon" definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = SPR version_name = "Aragon Class" } } }
+            ship = { name = "Conde de Venadito" definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = SPR version_name = "Aragon Class" } } }
+            ship = { name = "Infanata Isabel" definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = SPR version_name = "Aragon Class" } } }
+            ship = { name = "Alfonso XII" definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = SPR version_name = "Aragon Class" } } }
+            ship = { name = "Navarra" definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = SPR version_name = "Aragon Class" } } }
+            ship = { name = "General Concha" definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = SPR version_name = "General Concha Class" } } }
+            ship = { name = "Magallanes" definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = SPR version_name = "General Concha Class" } } }
+            ship = { name = "Mac-Mahon" definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = SPR version_name = "General Concha Class" } } }
+            ship = { name = "Vasco Nunez de Balboa" definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = SPR version_name = "General Concha Class" } } }
+            ship = { name = "Hernan Cortez" definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = SPR version_name = "General Concha Class" } } }
+            ship = { name = "Ponce de Leon" definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = SPR version_name = "General Concha Class" } } }
+        }
+         task_force = {
+            name = "Light Ship Group"
+            location = 9764
+            ship = { name = "Terror" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SPR version_name = "Terror Class" } } }
+            ship = { name = "Proserpina" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SPR version_name = "Terror Class" } } }
+            ship = { name = "Osado" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SPR version_name = "Terror Class" } } }
+            ship = { name = "Audaz" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SPR version_name = "Terror Class" } } }
+            ship = { name = "Castor" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = SPR version_name = "Castor Class" } } }
+            ship = { name = "Rigel" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = SPR version_name = "Castor Class" } } }
+            ship = { name = "Retamosa" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = SPR version_name = "Castor Class" } } }
+            ship = { name = "Orion" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = SPR version_name = "Castor Class" } } }
+            ship = { name = "Azor" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = SPR version_name = "Castor Class" } } }
+            ship = { name = "Ejercito" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = SPR version_name = "Castor Class" } } }
+            ship = { name = "Vedette" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = SPR version_name = "Castor Class" } } }
+            ship = { name = "Rayo" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = SPR version_name = "Castor Class" } } }
+            ship = { name = "Habana" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = SPR version_name = "Castor Class" } } }
+            ship = { name = "Ariete" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = SPR version_name = "Castor Class" } } }
+            ship = { name = "Halcon" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = SPR version_name = "Castor Class" } } }
+            ship = { name = "Julian Ordonez" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = SPR version_name = "Castor Class" } } }
+            ship = { name = "Peral" definition = submarine equipment = { submarine_2 = {amount = 1 owner = SPR version_name = "Peral Class"} } }
+         }
+    }
+}
