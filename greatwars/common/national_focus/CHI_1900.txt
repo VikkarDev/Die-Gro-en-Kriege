@@ -1678,7 +1678,7 @@ focus_tree = {
 		}
 		focus = {
 			id = CHI_1900_most_modern_army_china_beiyang_army
-			icon = GFX_CHI_focus_modern_beiyang_army
+			icon = GFX_CHI_focus_beiyang_modern_china
 			x = 53
 			y = 10
 

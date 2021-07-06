@@ -22,6 +22,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/CHI/CHI_focus_beiyang_engineer.dds"
 	}
 	SpriteType = {
+		name = "GFX_CHI_focus_beiyang_modern_china"
+		texturefile = "gfx/interface/goals/CHI/CHI_focus_beiyang_modern_china.dds"
+	}
+	SpriteType = {
 		name = "GFX_JAP_focus_the_manchurian_crisis"
 		texturefile = "gfx/interface/goals/jap/JAP_focus_the_manchurian_crisis.dds"
 	}
