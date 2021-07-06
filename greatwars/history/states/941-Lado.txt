@@ -1,0 +1,18 @@
+state={
+	id=941
+	name="STATE_941"
+	state_category = rural
+
+	history = {
+		owner = COG
+		add_core_of = COG
+		add_core_of = SUD
+		add_core_of = UGA
+	}
+
+	provinces={
+		7133 7996 
+	}
+	manpower=30158
+	buildings_max_level_factor=1.000
+}

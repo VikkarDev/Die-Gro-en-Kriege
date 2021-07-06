@@ -1,0 +1,23 @@
+state={
+	id=871
+	name="STATE_871"
+	state_category = town
+
+	history={
+		owner = LAB
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 3
+
+		}
+		add_core_of = COL
+		add_core_of = LAB
+	}
+
+	provinces={
+		7993 
+	}
+	manpower=581954
+	buildings_max_level_factor=1.000
+}

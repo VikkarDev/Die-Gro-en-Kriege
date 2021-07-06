@@ -1,0 +1,20 @@
+state={
+	id=903
+	name="STATE_903"
+	state_category = rural
+
+	history={
+		owner = POR
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		add_core_of = POR
+	}
+
+	provinces={
+		724 6921 
+	}
+	manpower=69000
+	buildings_max_level_factor=1.000
+}
