@@ -1,0 +1,24 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			SER = {
+				add_opinion_modifier = {
+					target = BUL
+					modifier = legacy_of_war
+				}
+
+				if = {
+					limit = {
+						SER = {
+							has_idea = SER_bulgarian_friendship_treaty
+						}
+					}
+					add_opinion_modifier = {
+						target = BUL
+						modifier = huge_increase
+					}
+				}
+			}
+		}
+	}
+}

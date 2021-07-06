@@ -1,0 +1,23 @@
+state={
+	id=906
+	name="STATE_906"
+	state_category = city
+
+	history={
+		owner = POR
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 2
+			#dockyard = 2
+
+		}
+		add_core_of = POR
+
+	}
+
+	provinces={
+		3969 6996 11885 
+	}
+	manpower=325041
+	buildings_max_level_factor=1.000
+}

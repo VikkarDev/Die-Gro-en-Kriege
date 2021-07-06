@@ -1,0 +1,21 @@
+state={
+	id=971
+	name="STATE_971"
+	history={
+		owner = MON
+		buildings = {
+			infrastructure = 2
+			arms_factory = 0
+			industrial_complex = 1
+
+		}
+		add_claim_by = MON
+
+	}
+	provinces={
+		1778 1781 4783 4786 7727 7803 10899 
+	}
+	manpower=204260
+	buildings_max_level_factor=1.000
+	state_category=town
+}

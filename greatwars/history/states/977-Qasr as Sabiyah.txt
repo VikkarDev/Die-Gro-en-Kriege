@@ -1,0 +1,30 @@
+state={
+	id=977
+	name="STATE_977"
+	state_category = pastoral
+	resources={
+		oil=5.000
+	}
+
+	history={
+		owner = TUR
+		add_core_of = TUR
+		add_core_of = KUW
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			13255 = {
+				naval_base = 1
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		13255 
+	}
+	manpower=20000
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,31 @@
+state={
+	id=854
+	name="STATE_854"
+	state_category = large_city
+
+	history={
+		owner = ENG
+		victory_points = {
+			9458 15 
+		}
+		buildings = {
+			infrastructure = 8
+			arms_factory = 1
+			industrial_complex = 1
+			dockyard = 2
+			fuel_silo = 1
+			9458 = {
+				naval_base = 10
+
+			}
+
+		}
+		add_core_of = ENG
+	}
+
+	provinces={
+		507 6489 9458 
+	}
+	manpower=2052162
+	buildings_max_level_factor=1.000
+}

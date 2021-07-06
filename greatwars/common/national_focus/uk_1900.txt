@@ -1,0 +1,1180 @@
+focus_tree = {
+	id = uk_1900_focus
+
+	country = {
+		factor = 0
+
+		modifier = {
+			add = 11
+			tag = ENG
+		}
+	}
+
+	default = no
+
+	continuous_focus_position = { x = 50 y = 1000 }
+
+	focus = {
+        id = ENG_second_boer_war
+        icon = GFX_eng_second_boer_war
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        x = 3
+        y = 0
+
+        cost = 6
+
+        available = {
+            ENG = {
+                has_war_with = SAR
+                has_war_with = ORC
+            }
+        }
+
+        bypass = {
+            
+        }
+
+		completion_reward = {
+			army_experience = 5
+            add_political_power = 15
+		}
+    }
+
+	focus = {
+        id = ENG_offer_negotiations
+        icon = GFX_eng_offer_negotiations
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        x = 3
+        y = 1
+
+        cost = 6
+		prerequisite = { focus = ENG_second_boer_war }
+
+        available = {
+            ENG = {
+                has_war_with = SAR
+                has_war_with = ORC
+            }
+        }
+
+        bypass = {
+            
+        }
+
+		completion_reward = {
+			SAR = {
+                country_event = { id = britain.1 days = 5 }
+            }
+
+            ORC = {
+                country_event = { id = britain.1 days = 5 }
+            }
+		}
+    }
+
+	focus = {
+        id = ENG_the_british_military
+        icon = GFX_eng_the_the_british_military
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        x = 22
+        y = 7
+
+        cost = 10
+		#prerequisite = { focus = ENG_second_boer_war }
+
+        available = {
+            country_exists = ENG
+        }
+
+        bypass = {
+            
+        }
+
+		completion_reward = {
+			army_experience = 5
+            navy_experience = 5
+            air_experience = 5
+		}
+    }
+
+    focus = {
+        id = ENG_the_anglo_industry
+        icon = GFX_eng_the_the_british_military
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        x = 14
+        y = 0
+
+        cost = 10
+		#prerequisite = { focus = ENG_second_boer_war }
+
+        available = {
+            country_exists = ENG
+        }
+
+        bypass = {
+            
+        }
+
+		completion_reward = {
+			ENG = {
+                random_owned_state = {
+                    add_building_construction = {
+                        type = industrial_complex
+                        level = 2
+                        instant_build = yes
+                    }
+                }
+
+                random_owned_state = {
+                    add_building_construction = {
+                        type = industrial_complex
+                        level = 2
+                        instant_build = yes
+                    }
+                }
+            }
+		}
+    }
+    focus = {
+        id = ENG_develop_the_isles
+        icon = GFX_ENG_focus_develop_the_isles
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        x = 12
+        y = 1
+
+        cost = 10
+		prerequisite = { focus = ENG_the_anglo_industry }
+        mutually_exclusive = {
+            focus = ENG_develop_the_colonies
+        }
+        available = {
+            country_exists = ENG
+        }
+
+        bypass = {
+            
+        }
+
+		completion_reward = {
+			
+		}
+    }
+    focus = {
+        id = ENG_centralized_economy
+        icon = GFX_ENG_focus_centralized_economy
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        x = 11
+        y = 2
+
+        cost = 10
+		prerequisite = { focus = ENG_develop_the_isles }
+        mutually_exclusive = { focus = ENG_decentralized_economy }
+        available = {
+            country_exists = ENG
+        }
+
+        bypass = {
+            
+        }
+
+		completion_reward = {
+			
+		}
+    }
+    focus = {
+        id = ENG_nationalize_factories
+        icon = GFX_ENG_focus_nationalize_factories
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        x = 11
+        y = 3
+
+        cost = 10
+		prerequisite = { focus = ENG_centralized_economy }
+        #mutually_exclusive = { focus = ENG_decentralized_economy }
+        available = {
+            country_exists = ENG
+        }
+
+        bypass = {
+            
+        }
+
+		completion_reward = {
+			
+		}
+    }
+    focus = {
+        id = ENG_center_of_uk_economy
+        icon = GFX_ENG_focus_center_of_uk_economy
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        x = 11
+        y = 4
+
+        cost = 10
+		prerequisite = { focus = ENG_nationalize_factories }
+        #mutually_exclusive = { focus = ENG_decentralized_economy }
+        available = {
+            country_exists = ENG
+        }
+
+        bypass = {
+            
+        }
+
+		completion_reward = {
+			
+		}
+    }
+    focus = {
+        id = ENG_decentralized_economy
+        icon = GFX_ENG_focus_decentralized_economy
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        x = 13
+        y = 2
+
+        cost = 10
+		prerequisite = { focus = ENG_develop_the_isles }
+        mutually_exclusive = { focus = ENG_centralized_economy }
+        available = {
+            country_exists = ENG
+        }
+
+        bypass = {
+            
+        }
+
+		completion_reward = {
+			
+		}
+    }
+    focus = {
+        id = ENG_independize_irish_economy
+        icon = GFX_ENG_focus_independize_irish_economy
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        x = 13
+        y = 3
+
+        cost = 10
+		prerequisite = { focus = ENG_decentralized_economy }
+
+        available = {
+            country_exists = ENG
+        }
+
+        bypass = {
+            
+        }
+
+		completion_reward = { 
+			
+		}
+    }
+    focus = {
+        id = ENG_more_economical_autonomy_to_scottish
+        icon = GFX_ENG_focus_more_economical_autonomy_to_scottish
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        x = 13
+        y = 4
+
+        cost = 10
+		prerequisite = { focus = ENG_independize_irish_economy }
+
+        available = {
+            country_exists = ENG
+        }
+
+        bypass = {
+            
+        }
+
+		completion_reward = { 
+			
+		}
+    }
+    focus = {
+        id = ENG_develop_the_colonies
+        icon = GFX_ENG_focus_develop_the_colonies
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        x = 16
+        y = 1
+
+        cost = 10
+		prerequisite = { focus = ENG_the_anglo_industry }
+        mutually_exclusive = {
+            focus = ENG_develop_the_isles
+        }
+        available = {
+            country_exists = ENG
+        }
+
+        bypass = {
+            
+        }
+
+		completion_reward = { 
+			
+		}
+    }
+    focus = {
+        id = ENG_fortify_the_raj
+        icon = GFX_ENG_focus_fortify_the_raj
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        x = 16
+        y = 2
+
+        cost = 10
+		prerequisite = { focus = ENG_develop_the_colonies }
+       
+        available = {
+            country_exists = ENG
+        }
+
+        bypass = {
+            
+        }
+
+		completion_reward = { 
+			
+		}
+    }
+    focus = {
+        id = ENG_develop_the_sahara
+        icon = GFX_ENG_focus_develop_the_sahara
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        x = 16
+        y = 3
+
+        cost = 10
+		prerequisite = { focus = ENG_fortify_the_raj }
+       
+        available = {
+            country_exists = ENG
+        }
+
+        bypass = {
+            
+        }
+
+		completion_reward = { 
+			
+		}
+    }
+
+    focus = {
+        id = ENG_develop_singapore
+        icon = GFX_ENG_focus_develop_singapore
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        x = 15
+        y = 4
+
+        cost = 10
+		prerequisite = { focus = ENG_develop_the_sahara }
+       
+        available = {
+            country_exists = ENG
+        }
+
+        bypass = {
+            
+        }
+
+		completion_reward = { 
+			
+		}
+    }
+
+    focus = {
+        id = ENG_develop_gibraltar
+        icon = GFX_ENG_focus_develop_gibraltar
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        x = 17
+        y = 4
+
+        cost = 10
+		prerequisite = { focus = ENG_develop_the_sahara }
+       
+        available = {
+            country_exists = ENG
+        }
+
+        bypass = {
+            
+        }
+
+		completion_reward = { 
+			
+		}
+    }
+
+    focus = {
+        id = ENG_prepare_the_colonies_for_war
+        icon = GFX_ENG_focus_prepare_the_colonies_for_war
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        x = 16
+        y = 6
+
+        cost = 10
+		prerequisite = { focus = ENG_develop_singapore focus = ENG_develop_gibraltar }
+       
+        available = {
+            country_exists = ENG
+        }
+
+        bypass = {
+            
+        }
+
+		completion_reward = { 
+			
+		}
+    }
+
+    focus = {
+        id = ENG_start_war_preparations
+        icon = GFX_ENG_focus_start_war_preparations
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        x = 12
+        y = 5
+
+        cost = 10
+		prerequisite = { focus = ENG_center_of_uk_economy focus = ENG_more_economical_autonomy_to_scottish }
+       
+        available = {
+            country_exists = ENG
+        }
+
+        bypass = {
+            
+        }
+
+		completion_reward = { 
+			
+		}
+    }
+
+    focus = {
+        id = ENG_prepare_for_an_invasion_of_home_isles
+        icon = GFX_ENG_focus_prepare_for_an_invasion_of_home_isles
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        x = 12
+        y = 6
+
+        cost = 10
+		prerequisite = { focus = ENG_start_war_preparations }
+       
+        available = {
+            country_exists = ENG
+        }
+
+        bypass = {
+            
+        }
+
+		completion_reward = { 
+			
+		}
+    }
+
+    focus = {
+        id = ENG_fortify_main_cities
+        icon = GFX_ENG_focus_fortify_main_cities
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        x = 11
+        y = 7
+
+        cost = 10
+		prerequisite = { focus = ENG_prepare_for_an_invasion_of_home_isles }
+        mutually_exclusive = { focus = ENG_m_n_scheme }
+
+        available = {
+            country_exists = ENG
+        }
+
+        bypass = {
+            
+        }
+
+		completion_reward = { 
+			126 = {
+	            add_building_construction = {
+		            type = coastal_bunker
+        	        province = 11374
+		        level = 2
+	            }
+                add_building_construction = {
+		            type = bunker
+        	        province = 6103
+		        level = 2
+	            }    
+            }
+            132 = {
+	            add_building_construction = {
+		            type = coastal_bunker
+        	        province = 6384
+		        level = 2
+	            }
+                add_building_construction = {
+		            type = bunker
+        	        province = 6384
+		        level = 2
+	            }    
+            }
+            128 = {
+                add_building_construction = {
+		            type = bunker
+        	        province = 9297
+		        level = 2
+	            }    
+            }
+            127 = {
+                add_building_construction = {
+		            type = bunker
+        	        province = 3501
+		        level = 2
+	            }
+                add_building_construction = {
+		            type = coastal_bunker
+        	        province = 3501
+		        level = 2
+	            }       
+            }
+        }
+    }
+
+    focus = {
+        id = ENG_m_n_scheme
+        icon = GFX_ENG_focus_m_n_scheme
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        x = 13
+        y = 7
+
+        cost = 10
+		prerequisite = { focus = ENG_prepare_for_an_invasion_of_home_isles }
+        mutually_exclusive = { focus = ENG_fortify_main_cities }
+
+        available = {
+            country_exists = ENG
+        }
+
+        bypass = {
+            
+        }
+
+		completion_reward = { 
+			125 = {
+	            add_building_construction = {
+		            type = coastal_bunker
+        	        province = 221
+		        level = 2
+	            }
+                add_building_construction = {
+		            type = coastal_bunker
+        	        province = 271
+		        level = 2
+	            }
+                add_building_construction = {
+		            type = coastal_bunker
+        	        province = 322
+		        level = 2
+	            }      
+            }
+            126 = {
+	            add_building_construction = {
+		            type = coastal_bunker
+        	        province = 11374
+		        level = 2
+	            }   
+            }
+            127 = {
+	            add_building_construction = {
+		            type = coastal_bunker
+        	        province = 221
+		        level = 2
+	            }
+                add_building_construction = {
+		            type = coastal_bunker
+        	        province = 271
+		        level = 2
+	            }
+                add_building_construction = {
+		            type = coastal_bunker
+        	        province = 322
+		        level = 2
+	            }      
+            }
+            854 = {
+	            add_building_construction = {
+		            type = coastal_bunker
+        	        province = 9458
+		        level = 2
+	            }
+                add_building_construction = {
+		            type = coastal_bunker
+        	        province = 6489
+		        level = 2
+	            }
+            }
+            338 = {
+	            add_building_construction = {
+		            type = coastal_bunker
+        	        province = 3422
+		        level = 2
+	            }   
+            }
+            123 = {
+	            add_building_construction = {
+		            type = coastal_bunker
+        	        province = 3463
+		        level = 2
+	            }
+                add_building_construction = {
+		            type = coastal_bunker
+        	        province = 540
+		        level = 2
+	            }
+                add_building_construction = {
+		            type = coastal_bunker
+        	        province = 6326
+		        level = 2
+	            }      
+            }
+            
+
+
+		}
+    }
+
+	focus = {
+        id = ENG_continue_isolationism
+        icon = GFX_ENG_focus_continue_isolationism
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        x = 22
+        y = 0
+
+        cost = 10
+		mutually_exclusive = { focus = ENG_open_up_to_foreign_affairs }
+
+        available = {
+            country_exists = ENG
+            is_subject = no
+            has_idea = ENG_pax_britannica
+        }
+
+        bypass = {
+            
+        }
+
+		completion_reward = {
+			add_political_power = 100
+		}
+    }
+
+    focus = {
+        id = ENG_pull_out_of_arms_race
+        icon = GFX_eng_pull_out_of_arms_race
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        x = 22
+        y = 1
+
+        cost = 10
+        prerequisite = { focus = ENG_continue_isolationism }
+		#mutually_exclusive = { focus = ENG_continue_isolationism }
+
+        available = {
+            has_idea = GER_naval_arms_race
+            country_exists = GER
+        }
+
+        bypass = {
+            NOT = {
+                has_idea = GER_naval_arms_race
+            }
+        }
+
+		completion_reward = {
+			GER = { country_event = { id = britain.10 days = 5 } }
+		}
+    }
+
+	focus = {
+        id = ENG_open_up_to_foreign_affairs
+        icon = GFX_eng_open_up_to_foreign_affairs
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        x = 36
+        y = 0
+
+        cost = 10
+		mutually_exclusive = { focus = ENG_continue_isolationism }
+
+        available = {
+            country_exists = ENG
+            is_subject = no
+        }
+
+        bypass = {
+            NOT = {
+                has_idea = ENG_pax_britannica
+            }
+        }
+
+		completion_reward = {
+			remove_ideas = { ENG_pax_britannica }
+            add_political_power = 100
+            custom_effect_tooltip = "Add idea: not too sure"
+		}
+    }
+
+    focus = {
+        id = ENG_boxer_intervention
+        icon = GFX_eng_boxer_intervention
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        x = 30
+        y = 1
+
+        cost = 10
+        prerequisite = { focus = ENG_open_up_to_foreign_affairs }
+		#mutually_exclusive = { focus = ENG_continue_isolationism }
+
+        available = {
+            
+        }
+
+        bypass = {
+            
+        }
+
+		completion_reward = {
+			
+		}
+    }
+
+    focus = {
+        id = ENG_the_labour_party
+        icon = GFX_eng_the_labour_party
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        x = 34
+        y = 2
+
+        cost = 10
+        prerequisite = { focus = ENG_power_of_westminister }
+		mutually_exclusive = { focus = ENG_the_conservative_party }
+
+        available = {
+            country_exists = ENG
+        }
+
+        bypass = {
+            
+        }
+
+		completion_reward = {
+			
+		}
+    }
+
+    focus = {
+        id = ENG_hay_pauncefote_treaty
+        icon = GFX_eng_hay_pauncefote_treaty
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        x = 36
+        y = 1
+
+        cost = 10
+        prerequisite = { focus = ENG_open_up_to_foreign_affairs }
+		#mutually_exclusive = { focus = ENG_continue_isolationism }
+
+        available = {
+            country_exists = USA
+            custom_trigger_tooltip = {
+                tooltip = "Need to figure out how to check relations for a focus."
+            }
+        }
+
+        bypass = {
+            
+        }
+
+		completion_reward = {
+			USA = { country_event = { id = britain.4 days = 5 } }
+		}
+    }
+
+    focus = {
+        id = ENG_anglo_japanese_alliance
+        icon = GFX_eng_anglo_japanese_alliance
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        x = 36
+        y = 2
+
+        cost = 10
+        prerequisite = { focus = ENG_hay_pauncefote_treaty }
+		#mutually_exclusive = { focus = ENG_continue_isolationism }
+
+        available = {
+            country_exists = JAP
+            custom_trigger_tooltip = {
+                tooltip = "Need to figure out how to check relations for a focus."
+            }
+        }
+
+        bypass = {
+            
+        }
+
+		completion_reward = {
+			JAP = { country_event = { id = britain.7 days = 5 } }
+		}
+    }
+
+	focus = {
+        id = ENG_the_arms_race
+        icon = GFX_eng_the_arms_race
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        x = 41
+        y = 1
+
+        cost = 10
+		prerequisite = { focus = ENG_open_up_to_foreign_affairs }
+
+        available = {
+            country_exists = GER
+        }
+
+        bypass = {
+            
+        }
+
+		completion_reward = {
+			unlock_decision_category_tooltip = dgk_britain_naval_race_category
+		}
+    }
+
+    focus = {
+        id = ENG_dockyard_production
+        icon = GFX_eng_dockyard_production
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        x = 41
+        y = 2
+
+        cost = 10
+		prerequisite = { focus = ENG_the_arms_race }
+
+        available = {
+            
+        }
+
+        bypass = {
+            
+        }
+
+		completion_reward = {
+			ENG = {
+                random_owned_state = {
+                    add_building_construction = {
+                        type = dockyard
+                        level = 2
+                        instant_build = yes
+                    }
+                }
+            }
+		}
+    }
+
+    focus = {
+        id = ENG_dreadnought_construction
+        icon = GFX_eng_dreadnought_construction
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        x = 41
+        y = 3
+
+        cost = 10
+		prerequisite = { focus = ENG_dockyard_production }
+
+        available = {
+            
+        }
+
+        bypass = {
+            
+        }
+
+		completion_reward = {
+			custom_effect_tooltip = "Gets a research boost for dreadnoughts (We need techtree figured out first.)"
+		}
+    }
+
+    focus = {
+        id = ENG_power_of_westminister
+        icon = GFX_eng_power_of_westminister
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        x = 33
+        y = 1
+
+        cost = 10
+		prerequisite = { focus = ENG_open_up_to_foreign_affairs }
+
+        available = {
+            
+        }
+
+        bypass = {
+            
+        }
+
+		completion_reward = {
+			add_political_power = 50
+		}
+    }
+
+    focus = {
+        id = ENG_the_conservative_party
+        icon = GFX_ENG_focus_the_conservative_party
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        x = 32
+        y = 2
+
+        cost = 10
+		prerequisite = { focus = ENG_power_of_westminister }
+        mutually_exclusive = {
+            focus = ENG_the_labour_party
+        }
+        available = {
+            
+        }
+
+        bypass = {
+            
+        }
+
+		completion_reward = {
+			
+		}
+    }
+    focus = {
+        id = ENG_hierarchical_society
+        icon = GFX_ENG_focus_hierarchical_society
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        x = 32
+        y = 3
+
+        cost = 10
+		prerequisite = { focus = ENG_the_conservative_party }
+        #mutually_exclusive = {
+          #  focus = ENG_the_labour_party
+        #}
+        available = {
+            
+        }
+
+        bypass = {
+            
+        }
+
+		completion_reward = {
+			
+		}
+    }
+    focus = {
+        id = ENG_working_class
+        icon = GFX_ENG_focus_working_class
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        x = 34
+        y = 3
+
+        cost = 10
+		prerequisite = { focus = ENG_the_labour_party }
+        #mutually_exclusive = {
+          #  focus = ENG_the_labour_party
+        #}
+        available = {
+            
+        }
+
+        bypass = {
+            
+        }
+
+		completion_reward = {
+			
+		}
+    }
+    focus = {
+        id = ENG_irish_question 
+        icon = GFX_ENG_focus_irish_question
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        x = 47
+        y = 0
+
+        cost = 10
+		#prerequisite = { focus = ENG_the_labour_party }
+        #mutually_exclusive = {
+          #  focus = ENG_the_labour_party
+        #}
+        available = {
+            NOT = {
+                country_exists = IRE
+            }
+        }
+
+        bypass = {
+            
+        }
+
+		completion_reward = {
+			
+		}
+    }
+    focus = {
+        id = ENG_negotiate_ira
+        icon = GFX_ENG_focus_negotiate_ira
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        x = 45
+        y = 1
+
+        cost = 10
+		prerequisite = { focus = ENG_irish_question }
+        mutually_exclusive = {
+            focus = ENG_Oppress_The_Irish
+        }
+        available = {
+            
+        }
+
+        bypass = {
+            
+        }
+
+		completion_reward = {
+			
+		}
+    }
+    focus = {
+        id = ENG_puppet_ireland
+        icon = GFX_ENG_focus_puppet_ireland
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        x = 46
+        y = 2
+
+        cost = 10
+		prerequisite = { focus = ENG_negotiate_ira }
+        mutually_exclusive = { focus = ENG_free_ireland }
+        available = {
+            
+        }
+
+        bypass = {
+            
+        }
+
+		completion_reward = {
+            
+		}
+    }
+    focus = {
+        id = ENG_free_ireland
+        icon = GFX_ENG_focus_free_ireland
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        x = 44
+        y = 2
+
+        cost = 10
+		prerequisite = { focus = ENG_negotiate_ira }
+        mutually_exclusive = { focus = ENG_puppet_ireland }
+        available = {
+            
+        }
+
+        bypass = {
+            
+        }
+        
+		completion_reward = {
+            
+		}
+    }
+    focus = {
+        id = ENG_transfer_factories_to_north
+        icon = GFX_ENG_focus_transfer_factories_to_north
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        x = 44
+        y = 3
+
+        cost = 10
+		prerequisite = { focus = ENG_free_ireland }
+        #mutually_exclusive = { focus = ENG_puppet_ireland }
+        available = {
+            
+        }
+
+        bypass = {
+            
+        }
+        
+		completion_reward = {
+            
+		}
+    }
+    focus = {
+        id = ENG_oppress_the_irish
+        icon = GFX_ENG_focus_oppress_the_irish
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        x = 49
+        y = 1
+
+        cost = 10
+		prerequisite = { focus = ENG_irish_question }
+        mutually_exclusive = { focus = ENG_negotiate_ira }
+        available = {
+            
+        }
+
+        bypass = {
+            
+        }
+		completion_reward = {
+            
+		}
+    }
+    focus = {
+        id = ENG_destroy_ira
+        icon = GFX_ENG_focus_destroy_ira
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        x = 49
+        y = 2
+
+        cost = 10
+		prerequisite = { focus = ENG_oppress_the_irish }
+
+        available = {
+            
+        }
+
+        bypass = {
+            
+        }
+		completion_reward = {
+            
+		}
+    }
+    focus = {
+        id = ENG_irish_resistance
+        icon = GFX_ENG_focus_irish_resistance
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        x = 49
+        y = 3
+
+        cost = 10
+		prerequisite = { focus = ENG_destroy_ira }
+
+        available = {
+            
+        }
+
+        bypass = {
+            
+        }
+		completion_reward = {
+            
+		}
+    }
+}

@@ -1,0 +1,73 @@
+capital = 49
+
+1900.1.1 = {
+	capital = 797
+
+	OOB = "TUR_1900"
+
+	set_convoys = 159
+
+	set_cosmetic_tag = OTO
+
+	if = {
+		limit = {
+			OR = {
+				has_dlc = "Together for Victory"
+				has_dlc = "Man the Guns"
+			}
+		}
+		set_autonomy = {
+			target = BUL
+			autonomous_state = autonomy_integrated_puppet
+		}
+		set_autonomy = {
+			target = POS
+			autonomous_state = autonomy_integrated_puppet
+		}
+		else = {
+			puppet = BUL
+			puppet = POS
+		}
+	}
+
+	set_research_slots = 3
+
+	add_ideas = {
+		# Government / Laws
+		limited_conscription
+		partial_economic_mobilisation
+		free_trade
+
+		# Starting Ideas
+		TUR_sickman_of_europe
+		TUR_outdated_military
+	}
+
+	set_politics = {
+		ruling_party = autocracy
+		#last_election = "2078.9.26"
+		#election_frequency = 48
+		#elections_allowed = yes
+	}
+
+	set_popularities = {
+		vanguard_communism = 0
+		social_egalitarianism = 0
+		centrism = 5
+		traditional_conservatism = 10
+		radical_democracy = 0
+		chauvinist_populism = 5
+		autocracy = 80
+		democratic_socialism = 0
+	}
+
+	create_country_leader = {
+		name = "Abdulhamid II"
+		desc = ""
+		picture = "Abdulhamid_II.tga"
+		ideology = despotism
+		traits = {
+			father_of_the_turks
+		}
+	}
+}

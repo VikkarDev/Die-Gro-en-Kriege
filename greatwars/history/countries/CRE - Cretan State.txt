@@ -1,0 +1,38 @@
+capital = 182
+
+1900.1.1 = {
+
+	OOB = "CRE_1900"
+
+	set_convoys = 75
+
+	set_research_slots = 2
+
+	set_politics = {
+		ruling_party = radical_democracy
+		#last_election = "2078.9.26"
+		#election_frequency = 48
+		#elections_allowed = yes
+	}
+
+	set_popularities = {
+		vanguard_communism = 0
+		social_egalitarianism = 0
+		centrism = 2
+		traditional_conservatism = 2
+		radical_democracy = 90
+		chauvinist_populism = 0
+		autocracy = 5
+		democratic_socialism = 1
+	}
+
+	create_country_leader = {
+		name = "Prince George"
+		desc = ""
+		picture = "Prince_George.tga"
+		ideology = reactionary
+		#traits = {
+		#	father_of_the_turks
+		#}
+	}
+}
