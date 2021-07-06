@@ -12,7 +12,7 @@ sov_literacydes = {
 }
 
 sov_crowded = {
-	icon = generic_industry
+	icon = generic_economy
 	picture = GFX_sov_crowd
 	priority = 5
 
@@ -21,7 +21,8 @@ sov_crowded = {
 	}
 
 	allowed = {
-	}
+	}  
+
 }
 
 sov_fear = {

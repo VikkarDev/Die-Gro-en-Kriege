@@ -26,8 +26,9 @@ FRA_marxist_leninism_ADJ:0 "French"
 
 # EVENTS
 ########### France Events Localisation ###########
-
-
+france.2.t:0 "Russia opens up talks."
+france.2.d:0 "place holder text "
+france.2.a:0 "Also place holder text"
 # NATIONAL SPIRITS
 ########### France National Spirits Localisation ###########
 

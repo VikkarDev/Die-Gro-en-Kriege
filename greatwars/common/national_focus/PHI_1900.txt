@@ -249,6 +249,7 @@ focus_tree = {
                     popularity = 0.2
                 }
                 add_stability = 0.1
+                add_political_power = 15
         }
     }
     focus = {
@@ -407,7 +408,7 @@ focus_tree = {
         }
         focus = {
 			id = PHI_1900_german_guarantees
-			icon = GFX_SOV_focus_state_duma
+			icon = GFX_generic_focus_ger_agreement
 			x = 5
 			y = 3
 
