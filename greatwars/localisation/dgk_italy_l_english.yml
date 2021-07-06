@@ -33,10 +33,12 @@ ITA_marxist_leninism_ADJ:0 "Italian"
 # NATIONAL SPIRITS
 ########### Italy National Spirits Localisation ###########
 
+ITA_savoy:0 "House of Savoy"
+ITA_savoy_desc:0 "The unifiers of Italy and the founders of the kingdom, the royal family stands as a unifier of the people. Many soldiers fought and died protecting the crown, and many would do so today."
+
 
 # PARTY NAMES
 ########### Italy Party Names Localisation ###########
-
 
 # MINISTERS
 ########### Italy Ministers Localisation ###########

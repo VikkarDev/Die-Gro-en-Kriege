@@ -7,5 +7,4 @@ opinion_modifiers = {
 	allied_partners = {
 		value = 15
 	}
-	
 }

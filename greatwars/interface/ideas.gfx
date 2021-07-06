@@ -8,6 +8,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/CHI/CHI_idea_agrarian.dds"
 	}
 	SpriteType = {
+		name = "GFX_idea_ita_savoy"
+		texturefile = "gfx/interface/ideas/ITA/ITA_idea_savoy.dds"
+	}
+	SpriteType = {
 		name = "GFX_idea_chi_beiyang_modern"
 		texturefile = "gfx/interface/ideas/CHI/CHI_idea_beiyang_modern.dds"
 	}
@@ -5873,7 +5877,5 @@ spriteTypes = {
 		name = "GFX_idea_generic_navy_bonus"
 		texturefile = "gfx/interface/ideas/generic_navy_bonus.dds"
 	}
-	
-	
 
 }

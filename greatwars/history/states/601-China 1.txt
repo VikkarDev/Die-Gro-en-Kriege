@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		owner = CHI
+		owner = TIB
 		add_core_of = TIB
 		add_claim_by = CHI
 		buildings = {

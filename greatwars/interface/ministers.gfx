@@ -106,7 +106,30 @@ spriteTypes = {
 
 	####### SOV #######
 	spriteType = {
-		name = "GFX_idea_adv_rasputin"
-		texturefile = "gfx/interface/ministers/sov/adv_rasputin.dds"
+		name = "GFX_idea_adv_dimitry_sipyagin"
+		texturefile = "gfx/interface/ministers/sov/dimitry_sipyagin.tga"
+	}
+
+			spriteType = {
+		name = "GFX_idea_adv_sergei_witte"
+		texturefile = "gfx/interface/ministers/sov/sergei_witte.tga"
+	}
+
+			spriteType = {
+		name = "GFX_idea_adv_mikhail_muravyov"
+		texturefile = "gfx/interface/ministers/sov/mikhail_muravyov.tga"
+	}
+
+			spriteType = {
+		name = "GFX_idea_adv_ivan_durnovo"
+		texturefile = "gfx/interface/ministers/sov/ivan_durnovo.tga"
+	}
+			spriteType = {
+		name = "GFX_idea_mil_fyodor_geyden"
+		texturefile = "gfx/interface/ministers/sov/fyodor_geyden.tga"
+	}
+			spriteType = {
+		name = "GFX_idea_mil_nikolai_obruchev"
+		texturefile = "gfx/interface/ministers/sov/nikolai_obruchev.tga"
 	}	
 }

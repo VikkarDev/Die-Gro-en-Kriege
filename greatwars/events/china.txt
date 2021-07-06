@@ -120,12 +120,6 @@ country_event = {
 	fire_only_once = yes
 	is_triggered_only = yes
 
-	trigger = {
-		CHI = {
-			has_completed_focus = CHI_1900_taku_forts
-		}
-	}
-
 	option = {
         name = china.6.a
 
@@ -232,11 +226,6 @@ country_event = {
         fire_only_once = yes
 		is_triggered_only = yes
 
-        trigger = {
-				CHI = {
-				    has_completed_focus = CHI_1900_taku_forts
-				}
-			}
 		option = {
 		name = china.7.a
 		add_stability = -0.1
@@ -379,11 +368,11 @@ country_event = {
     picture = GFX_report_event_imperial_conference
 	fire_only_once = yes
 	is_triggered_only = yes
-	
+
 	option = {
 		name = china.11.a
 		CHI = {
-			add_ideas = CHI_boxer_protocols
+			set_country_flag = CHI_1900_boxers_lost
 		}
 		MAN = {
 			set_cosmetic_tag = MAN_RUS_autocracy
@@ -455,23 +444,5 @@ country_event = {
 	}
 }
 
-country_event = {
-	id = china.13
-    title = china.13.t
-    desc = china.13.d
-    picture = GFX_report_event_imperial_conference
-	fire_only_once = yes
-	is_triggered_only = yes
-
-
-	option = {
-		name = china.13.a
-
-		SOV = {
-			puppet = MAN
-		}
-		
-	}
-}
 
 
