@@ -2964,4 +2964,24 @@ spriteTypes = {
 		name = "GFX_generic_focus_rail_construction"
 		texturefile = "gfx/interface/goals/generic/generic_focus_rail_construction.dds"
 	}
+	SpriteType = {
+		name = "GFX_focus_RUS_guar_fra"
+		texturefile = "gfx/interface/goals/sov/guarntee_fra.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_RUS_asia_influance"
+		texturefile = "gfx/interface/goals/sov/asian_influance.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_RUS_three_emperor_league"
+		texturefile = "gfx/interface/goals/sov/Three_emperor_league.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_RUS_meeting_paris"
+		texturefile = "gfx/interface/goals/sov/meeting_paris.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_RUS_foreign_policy"
+		texturefile = "gfx/interface/goals/sov/foreign_policy.dds"
+	}
 }
