@@ -59,7 +59,7 @@ country_event = {
 	id = russia.8
 	title = russia.8.t
 	desc = russia.8.d
-	picture = GFX_event_rus_prop
+	picture = GFX_event_rus_occ_man
 
 	fire_only_once = yes
 	is_triggered_only = yes
@@ -105,7 +105,10 @@ country_event = {
 	option = {
 		name = russia.10.a
 		ai_chance = { factor = 80 }
-        hidden_effect = {  release = MAN  puppet = MAN }
+        hidden_effect = { 
+			 release = MAN  puppet = MAN 
+			 MAN = { set_cosmetic_tag = RUS_puppet }
+		}
 	}
 	option = {
 		name = russia.10.b
@@ -215,7 +218,7 @@ country_event = {
 	id = russia.6
 	title = russia.6.t
 	desc = russia.6.d
-	picture = GFX_event_rus_prop
+	picture = GFX_event_rus_army_good
 	hidden = yes
 
 	fire_only_once = yes
@@ -239,7 +242,7 @@ country_event = {
 	id = russia.7
 	title = russia.7.t
 	desc = russia.7.d
-	picture = GFX_event_rus_prop
+	picture = GFX_event_rus_jap_war
 	hidden = yes
 
 	fire_only_once = yes

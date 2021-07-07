@@ -2924,5 +2924,16 @@ spriteTypes = {
 		name = "GFX_event_sum_olymp"
 		texturefile = "gfx/event_pictures/event_sum_olymp.dds"
 	}
-
+	spriteType = { 
+		name = "GFX_event_rus_army_good"
+		texturefile = "gfx/event_pictures/event_rus_army.dds"
+	}
+	spriteType = { 
+		name = "GFX_event_rus_jap_war"
+		texturefile = "gfx/event_pictures/event_rus_jap_war.dds"
+	}
+	spriteType = { 
+		name = "GFX_event_rus_occ_man"
+		texturefile = "gfx/event_pictures/event_rus_manchuria.dds"
+	}
 }

@@ -1,0 +1,27 @@
+add_namespace = kaiser-wilhelmsland
+
+# EIGHT-NATION ALLIANCE
+country_event = {
+	id = kaiser-wilhelmsland.1
+
+	fire_only_once = yes
+	hidden = yes
+
+	trigger = {
+		date = 1902.4.5
+  	}
+
+	immediate = {
+		GNG = {
+			create_country_leader = {
+				name = "Albert Hahl"
+				desc = ""
+				picture = "Albert_Hahl.dds"
+				ideology = con_liberal
+				#traits = {
+				#	
+				#}
+			}
+		}
+	}
+}
