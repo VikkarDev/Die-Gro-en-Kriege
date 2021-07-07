@@ -2936,4 +2936,16 @@ spriteTypes = {
 		name = "GFX_event_rus_occ_man"
 		texturefile = "gfx/event_pictures/event_rus_manchuria.dds"
 	}
+	spriteType = { 
+		name = "GFX_event_rus_war_protest"
+		texturefile = "gfx/event_pictures/event_rus_war_bad.dds"
+	}
+	spriteType = { 
+		name = "GFX_event_rus_crowd_citi"
+		texturefile = "gfx/event_pictures/event_rus_crowded_cities.dds"
+	}
+	spriteType = { 
+		name = "GFX_event_rus_soc_party"
+		texturefile = "gfx/event_pictures/event_rus_socialist_party.dds"
+	}
 }

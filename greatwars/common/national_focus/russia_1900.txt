@@ -494,6 +494,7 @@
 			}
 
 			completion_reward = { 
+				
 			    237	 = {
               add_building_construction = {
 	          type = infrastructure
@@ -501,6 +502,7 @@
 	          instant_build = yes
                                            }
 				      }
+
 			    236 = {
               add_building_construction = {
 	          type = infrastructure
@@ -716,14 +718,9 @@
 			completion_reward = { 
 			add_resource = {
               type = steel
-              amount = 25
+              amount = 12
               state = 253
-                            }
-			add_resource = {
-              type = alluminuim
-              amount = 10
-              state = 248
-                            }							
+                            }						
 			}
 		}
 
@@ -1361,10 +1358,12 @@
 
 			prerequisite = {focus = RUS_new_faith}
 
-	completion_reward ={ give_guarantee = FRA 
-	                    hidden = {FRA = { country_event = { id = france.1 } } }
-						custom_effect_tooltip = fra_gar }
-	        }
+	completion_reward ={
+		 give_guarantee = FRA 
+	    hidden_effect = {FRA = { country_event = { id = france.1 } } }
+		custom_effect_tooltip = fra_gar
+		}
+	}
     focus = {
     id = RUS_new_def_cau
 	icon = GFX_SOV_focus_first_russian_election
@@ -1877,7 +1876,7 @@
 
         		focus = {
 			id = RUS_new_strong
-			icon = GFX_SOV_focus_first_russian_election
+			icon = GFX_focus_RUS_nicholas_the_great
 			x = 10
 			y = 13
 
@@ -2521,7 +2520,7 @@ prerequisite = {focus = RUS_new_art_eq2}
 	}
 
 	completion_reward ={ give_guarantee = FRA 
-	                    hidden = {FRA = { country_event = { id = france.1 } } }
+	                    hidden_effect = {FRA = { country_event = { id = france.1 } } }
 						custom_effect_tooltip = fra_gar }
                  }
 

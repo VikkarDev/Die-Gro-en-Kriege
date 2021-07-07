@@ -3016,5 +3016,8 @@ spriteTypes = {
 		name = "GFX_focus_RUS_foreign_policy"
 		texturefile = "gfx/interface/goals/sov/foreign_policy.dds"
 	}
-
+	SpriteType = {
+		name = "GFX_focus_RUS_nicholas_the_great"
+		texturefile = "gfx/interface/goals/sov/nicholas_the_great.dds"
+	}
 }

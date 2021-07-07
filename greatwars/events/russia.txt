@@ -122,7 +122,7 @@ country_event = {
 	id = russia.9
 	title = russia.9.t
 	desc = russia.9.d
-	picture = GFX_event_rus_prop
+	picture = GFX_event_rus_war_protest
 
 	fire_only_once = yes
 	is_triggered_only = yes
@@ -271,7 +271,7 @@ country_event = {
 	id = russia.11
 	title = russia.11.t
 	desc = russia.11.d
-	picture = GFX_event_rus_prop
+	picture = GFX_event_rus_crowd_citi
 
 	fire_only_once = yes
 	is_triggered_only = yes
@@ -295,7 +295,7 @@ country_event = {
 	id = russia.998
 	title = russia.998.t
 	desc = russia.998.d
-	picture = GFX_event_rus_prop
+	picture = GFX_event_rus_soc_party
 
 	fire_only_once = yes
 	is_triggered_only = yes
