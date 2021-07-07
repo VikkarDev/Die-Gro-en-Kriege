@@ -1,0 +1,33 @@
+state={
+	id=899
+	name="STATE_899"
+	state_category = rural
+
+	history={
+		owner = POR
+		victory_points = {
+			3790 1 
+		}
+		victory_points = {
+			6880 1 
+		}
+		buildings = {
+			infrastructure = 4
+			arms_factory = 2
+			3790 = {
+				naval_base = 2
+
+			}
+
+		}
+		add_core_of = POR
+		add_extra_state_shared_building_slots = 1
+
+	}
+
+	provinces={
+		3790 6880
+	}
+	manpower=283025
+	buildings_max_level_factor=1.000
+}

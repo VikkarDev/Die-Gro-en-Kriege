@@ -1,0 +1,23 @@
+state={
+	id=887
+	name="STATE_887"
+	state_category = rural
+
+	history={
+		owner = YEM
+		buildings = {
+			infrastructure = 3
+			#arms_factory = 1
+			#industrial_complex = 1
+		}
+		add_core_of = YEM
+		add_core_of = TUR
+
+	}
+
+	provinces={
+		4924 13258
+	}
+	manpower=125000
+	buildings_max_level_factor=1.000
+}

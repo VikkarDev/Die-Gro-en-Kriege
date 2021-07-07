@@ -1,0 +1,21 @@
+state={
+	id=936
+	name="STATE_936"
+	state_category = rural
+
+	history = {
+		owner = SOK
+		add_core_of = SOK
+		add_claim_by = GER
+
+		buildings = {
+			infrastructure = 1
+		}
+	}
+
+	provinces={
+		11194
+	}
+	manpower=29010
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,45 @@
+﻿capital = 266
+
+1900.1.1 = {
+
+	oob = "PER_1900"
+
+	set_convoys = 300
+
+	set_research_slots = 2
+
+	#set_cosmetic_tag = BEL_KINGDOM
+
+	add_ideas = {
+		# Government / Laws
+		volunteer_only
+		limited_exports
+		civilian_economy
+	}
+
+	set_politics = {
+		ruling_party = autocracy
+		#last_election = "1838.12.30"
+		#election_frequency = 48
+		elections_allowed = no
+	}
+
+	set_popularities = {
+		vanguard_communism = 0
+		social_egalitarianism = 1.7
+		social_liberalism = 2
+		centrism = 4.2
+		traditional_conservatism = 7.9
+		radical_democracy = 6.9
+		chauvinist_populism = 0
+		autocracy = 77.3
+		democratic_socialism = 0
+	}
+
+	create_country_leader = {
+		name = "Mozaffar ad-Din Shah Qajar"
+		desc = ""
+		picture = "Mozaffar_ad-Din_Shah_Qajar.dds"
+		ideology = despotism
+	}
+}

@@ -1,0 +1,188 @@
+capital = 819
+
+1900.1.1 = {
+
+	oob = "GER_1900"
+
+	set_convoys = 200
+
+	set_stability = 0.8
+	set_war_support = 0.4
+	set_research_slots = 4
+
+	set_cosmetic_tag = GER_EMPIRE
+	#create_faction = "Central Powers"
+	#add_to_faction = GER
+
+	set_technology = {
+		infantry_weapons = 1
+	}
+
+	give_guarantee = ITA
+	give_guarantee = AUS
+
+	add_ideas = {
+		# Starting Ideas
+		GER_german_colonies
+		GER_naval_arms_race
+		GER_bloated_naval_budget1
+		GER_failed_kultur_kampf
+		GER_colony_cost1
+
+		# Government / Laws
+		limited_conscription
+		free_trade
+		partial_economic_mobilisation
+
+		# Ministers
+		GER_carl_viktor_hog
+		GER_bernhard_von_bulow_frg
+		GER_arthur_von_posadowsky_wehner_eco
+		GER_arthur_von_posadowsky_wehner_int
+	}
+
+	set_politics = {
+		ruling_party = social_liberalism
+		#last_election = "2078.9.26"
+		#election_frequency = 48
+		#elections_allowed = yes
+	}
+
+	set_popularities = {
+		vanguard_communism = 0
+		social_egalitarianism = 3
+		social_liberalism = 55
+		centrism = 2
+		traditional_conservatism = 0
+		radical_democracy = 5
+		chauvinist_populism = 5
+		autocracy = 30
+		democratic_socialism = 0
+	}
+
+	create_country_leader = {
+		name = "Chlodwig Carl Viktor"
+		desc = VIKTOR_LEADER_DESCRIPTION
+		picture = "Carl_Viktor.tga"
+		ideology = social_liberal
+	}
+
+	create_field_marshal = {
+		name = "Paul von Hindenburg"
+		portrait_path = "gfx/leaders/GER/Field Marshals/Paul_von_Hindenburg.tga"
+		skill = 3
+		attack_skill = 2
+		defense_skill = 2
+		planning_skill = 2
+		logistics_skill = 2
+		traits = { infantry_expert }
+		id = 1
+	}
+
+	create_field_marshal = {
+		name = "Remus von Woyrsch"
+		portrait_path = "gfx/leaders/GER/Field Marshals/Remus_von_Woyrsch.tga"
+		skill = 2
+		attack_skill = 3
+		defense_skill = 2
+		planning_skill = 2
+		logistics_skill = 1
+		traits = { organizer }
+		id = 2
+	}
+
+	create_field_marshal = {
+		name = "Alfred von Schlieffen"
+		portrait_path = "gfx/leaders/GER/Field Marshals/Alfred_von_Schlieffen.tga"
+		skill = 2
+		attack_skill = 4
+		defense_skill = 3
+		planning_skill = 5
+		logistics_skill = 4
+		traits = { organizer thorough_planner expert_delegator }
+		id = 2
+	}
+
+	create_corps_commander = {
+		name = "Felix Graf von Bothmer"
+		portrait_path = "gfx/leaders/GER/Generals/Felix_Graf_von_Bothmer.tga"
+		skill = 2
+		attack_skill = 2
+		defense_skill = 3
+		planning_skill = 1
+		logistics_skill = 1
+		traits = { infantry_officer }
+		id = 3
+	}
+
+	create_corps_commander = {
+		name = "Paul von Lettow-Vorbeck"
+		portrait_path = "gfx/leaders/GER/Generals/Paul_von_Lettow-Vorbeck.tga"
+		skill = 2
+		attack_skill = 2
+		defense_skill = 1
+		planning_skill = 1
+		logistics_skill = 2
+		traits = {  }
+		id = 4
+	}
+
+	create_corps_commander = {
+		name = "Erwin Rommel"
+		portrait_path = "gfx/leaders/GER/Generals/Erwin_Rommel.tga"
+		skill = 1
+		attack_skill = 1
+		defense_skill = 2
+		planning_skill = 2
+		logistics_skill = 1
+		traits = {  }
+		id = 5
+	}
+
+	create_corps_commander = {
+		name = "Albrecht Eugen"
+		portrait_path = "gfx/leaders/GER/Generals/Albrecht_Eugene.tga"
+		skill = 2
+		attack_skill = 1
+		defense_skill = 2
+		planning_skill = 2
+		logistics_skill = 1
+		traits = { }
+		id = 6
+	}
+
+	create_corps_commander = {
+		name = "Erich Ludendorff"
+		portrait_path = "gfx/leaders/GER/Generals/Erich_Ludendorff.tga"
+		skill = 1
+		attack_skill = 2
+		defense_skill = 1
+		planning_skill = 1
+		logistics_skill = 2
+		traits = { }
+		id = 7
+	}
+
+	create_navy_leader = {
+		name = "Lothar von Arnauld de la Perière"
+		portrait_path = "gfx/leaders/GER/Naval/Lothar_von_Arnauld.tga"
+		skill = 2
+		attack_skill = 2
+		defense_skill = 2
+		maneuvering_skill = 2
+		coordination_skill = 2
+		traits = {  }
+		id = 8
+	}
+
+	create_navy_leader = {
+		name = "Reinhard Scheer"
+		portrait_path = "gfx/leaders/GER/Naval/Reinhard_Scheer.tga"
+		skill = 3
+		attack_skill = 3
+		defense_skill = 1
+		maneuvering_skill = 2
+		coordination_skill = 1
+		traits = { }
+	}
+}

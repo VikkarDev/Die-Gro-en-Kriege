@@ -1,0 +1,309 @@
+add_namespace = russia
+
+# main
+country_event = {
+	id = russia.1
+	title = russia.1.t
+	desc = russia.1.d
+	picture = GFX_event_rus_prop
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	trigger = {
+        tag = SOV
+	}
+
+	option = {
+		name = russia.1.a
+		ai_chance = { factor = 100 }
+        add_political_power = 50
+	}
+}
+
+country_event = {
+	id = russia.5
+	title = russia.5.t
+	desc = russia.5.d
+	picture = GFX_event_chi_quest
+
+	fire_only_once = no
+	is_triggered_only = yes
+	
+	trigger = {
+        tag = SOV
+	}
+
+	option = {
+		name = russia.5.a
+		ai_chance = { factor = 20 }
+        hidden_effect = {   declare_war_on = {
+            target = CHI
+            type = annex_everything
+                         } 
+						                             }
+
+		custom_effect_tooltip = blitz_man			 
+		set_country_flag = rus_man_inv
+	     hidden_effect = { SOV = { country_event = { id = dgk_news.4 days = 2} } }
+	}
+	option = {
+		name = russia.5.b
+		ai_chance = { factor = 80 }
+        add_political_power = 150
+		add_war_support = -0.05
+	}		
+}
+
+country_event = {
+	id = russia.8
+	title = russia.8.t
+	desc = russia.8.d
+	picture = GFX_event_rus_prop
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	trigger = {
+        tag = SOV
+	}
+
+	option = {
+		name = russia.8.a
+		ai_chance = { factor = 20 }
+        white_peace = {
+             tag = CHI
+             message = rus_occ_man
+                       }
+
+		set_country_flag = rus_chi_won
+		clr_country_flag = rus_man_inv
+        hidden_effect = {
+		     SOV = {transfer_state = 328
+				    transfer_state = 717  
+				    transfer_state = 714
+				    transfer_state = 715
+			        transfer_state = 716
+				    transfer_state = 761}
+		                 }
+	}
+}	
+
+country_event = {
+	id = russia.10
+	title = russia.10.t
+	desc = russia.10.d
+	picture = GFX_event_rus_prop
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	trigger = {
+        tag = SOV
+	}
+
+	option = {
+		name = russia.10.a
+		ai_chance = { factor = 80 }
+        hidden_effect = {  release = MAN  puppet = MAN }
+	}
+	option = {
+		name = russia.10.b
+		ai_chance = { factor = 20 }
+        add_political_power = -50
+		add_stability = -0.05
+	}
+}
+
+country_event = {
+	id = russia.9
+	title = russia.9.t
+	desc = russia.9.d
+	picture = GFX_event_rus_prop
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	trigger = {
+        tag = SOV
+	}
+
+	option = {
+		name = russia.9.a
+		ai_chance = { factor = 100 }
+        add_political_power = -50
+         white_peace = {
+             tag = CHI
+             message = rus_fail_man
+                       }
+}
+	option = {
+		name = russia.9.b
+		ai_chance = { factor = 100 }
+        add_political_power = -200
+		add_ideas = SOV_army_demoral
+    }
+}
+
+#ott 
+
+country_event = {
+	id = russia.4
+	title = russia.4.t
+	desc = russia.4.d
+	picture = GFX_event_rus_prop
+    hidden = yes
+
+	fire_only_once = no
+	is_triggered_only = yes
+
+	trigger = {
+        tag = SOV
+	}
+        immediate = { load_oob = SOV_1900_OTT }
+
+}
+
+
+#Dynamic Stuff
+
+country_event = {
+	id = russia.3
+	title = russia.3.t
+	desc = russia.3.d
+	picture = GFX_event_rus_prop
+    hidden = yes
+
+	fire_only_once = no
+	is_triggered_only = yes
+
+	trigger = {
+        tag = SOV
+	}
+        immediate = { mark_focus_tree_layout_dirty = yes
+		              set_country_flag = boxer_reb_over
+					  set_country_flag = rus_japwar_over
+					  load_oob = SOV_1900_OTT
+				    }
+
+}
+
+#hidden stuff
+country_event = {
+	id = russia.2
+	title = russia.2.t
+	desc = russia.2.d
+	picture = GFX_event_ott_no
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	trigger = {
+        tag = SOV
+	}
+
+	option = {
+		name = russia.2.a
+		ai_chance = { factor = 100 }
+        add_war_support = 0.05
+	}
+     immediate = { mark_focus_tree_layout_dirty = yes
+		           set_country_flag = russia.ott.sit }
+}
+
+country_event = {
+	id = russia.6
+	title = russia.6.t
+	desc = russia.6.d
+	picture = GFX_event_rus_prop
+	hidden = yes
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	trigger = {
+        tag = SOV
+	}
+
+	option = {
+		name = russia.6.a
+		ai_chance = { factor = 100 }
+        add_political_power = 50
+	}
+    immediate = { mark_focus_tree_layout_dirty = yes
+                  set_country_flag = russia.jap
+				  set_country_flag = russia.jap.won}
+}
+
+country_event = {
+	id = russia.7
+	title = russia.7.t
+	desc = russia.7.d
+	picture = GFX_event_rus_prop
+	hidden = yes
+
+	fire_only_once = yes
+	is_triggered_only = no
+	
+	trigger = {
+        tag = SOV
+	}
+
+	option = {
+		name = russia.7.a
+		ai_chance = { factor = 100 }
+        add_political_power = -200
+		add_ideas = SOV_mass_prot
+		add_ideas = SOV_shat_army
+		add_ideas = SOV_shat_navy
+	         }
+
+    immediate = { mark_focus_tree_layout_dirty = yes
+                  set_country_flag = russia.jap
+				  set_country_flag = russia.jap.lost
+				  }
+}
+
+country_event = {
+	id = russia.11
+	title = russia.11.t
+	desc = russia.11.d
+	picture = GFX_event_rus_prop
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	trigger = {
+        tag = SOV
+	}
+
+    mean_time_to_happen = { days = 270 }
+
+	option = {
+		name = russia.11.a
+		remove_ideas = SOV_crowd3
+		add_stability = 0.02
+	         }
+}
+
+#STUFREIGPOREKG
+
+country_event = {
+	id = russia.998
+	title = russia.998.t
+	desc = russia.998.d
+	picture = GFX_event_rus_prop
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	trigger = {
+        tag = SOV
+	}
+
+	option = {
+		name = russia.998.a
+		ai_chance = { factor = 100 }
+        add_stability = -0.02
+	         }
+}

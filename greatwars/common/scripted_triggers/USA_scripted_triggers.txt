@@ -1,0 +1,27 @@
+is_republican_state = {
+	check_variable = { republican_support > democratic_support }
+	check_variable = { republican_support > socialist_support }
+}
+
+is_democratic_state = {
+	check_variable = { democratic_support > republican_support }
+	check_variable = { democratic_support > socialist_support }
+}
+
+is_socialist_state = {
+	check_variable = { socialist_support > republican_support }
+	check_variable = { socialist_support > democratic_support }
+}
+
+#is_republican_state_texas = {
+#	OR = {
+#		AND = {
+#			check_variable = { republican_support > democratic_support }
+#
+#		}
+#
+#		AND = {
+#			check_variable = { republican_support = democratic_support }
+#		}
+#	}
+#}

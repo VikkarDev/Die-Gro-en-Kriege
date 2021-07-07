@@ -1,0 +1,616 @@
+ideas = {
+
+	######### GER #########
+	head_of_government = {
+		GER_carl_viktor_hog = {
+			allowed = {
+				original_tag = GER
+			}
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = head_of_gov_available
+					always = no
+				}
+			}
+
+			cancel_if_invalid = no
+
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea GER_carl_viktor_hog"
+			}
+
+			traits = {
+				head_of_government
+				social_liberal_1
+			}
+		}
+	}
+	
+	foreign_minister = {
+		GER_bernhard_von_bulow_frg = {
+			allowed = {
+				original_tag = GER
+			}
+
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = foreign_minister_available
+					always = no
+				}
+			}
+
+			cancel_if_invalid = no
+
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea GER_bernhard_von_bulow_frg"
+			}
+
+			traits = {
+				foreign_minister
+				conservative
+			}
+		}
+	}
+
+	economic_minister = {
+		GER_arthur_von_posadowsky_wehner_eco = {
+			allowed = {
+				original_tag = GER
+			}
+
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = economic_minister_available
+					always = no
+				}
+			}
+
+			cancel_if_invalid = no
+
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea GER_arthur_von_posadowsky_wehner_eco"
+			}
+
+			traits = {
+				economic_minister
+				conservative
+			}
+		}
+	}
+
+	interior_minister = {
+		GER_arthur_von_posadowsky_wehner_int = {
+			allowed = {
+				original_tag = GER
+			}
+
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = interior_minister_available
+					always = no
+				}
+			}
+
+			cancel_if_invalid = no
+
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea GER_arthur_von_posadowsky_wehner_int"
+			}
+
+			traits = {
+				interior_minister
+				conservative
+			}
+		}
+	}
+
+	######### USA #########
+	head_of_government = {
+		USA_william_mckinley_hog = {
+			allowed = {
+				original_tag = USA
+			}
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = head_of_gov_available
+					always = no
+				}
+			}
+
+			cancel_if_invalid = no
+
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea USA_william_mckinley_hog"
+			}
+
+			traits = {
+				head_of_government
+				republican
+			}
+		}
+	}
+	
+	foreign_minister = {
+		USA_john_hay_frg = {
+			allowed = {
+				original_tag = USA
+			}
+
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = foreign_minister_available
+					always = no
+				}
+			}
+
+			cancel_if_invalid = no
+
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea USA_john_hay_frg"
+			}
+
+			traits = {
+				foreign_minister
+				republican
+			}
+		}
+	}
+
+	economic_minister = {
+		USA_lyman_j_gage_eco = {
+			allowed = {
+				original_tag = USA
+			}
+
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = economic_minister_available
+					always = no
+				}
+			}
+
+			cancel_if_invalid = no
+
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea USA_lyman_j_gage_eco"
+			}
+
+			traits = {
+				economic_minister
+				republican
+			}
+		}
+	}
+
+	interior_minister = {
+		USA_ethan_a_hitchcock_int = {
+			allowed = {
+				original_tag = USA
+			}
+
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = interior_minister_available
+					always = no
+				}
+			}
+
+			cancel_if_invalid = no
+
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea USA_ethan_a_hitchcock_int"
+			}
+
+			traits = {
+				interior_minister
+				republican
+			}
+		}
+	}
+	
+	######### SPR #########
+	head_of_government = {
+		SPR_francisco_silvela_hog = {
+			allowed = {
+				original_tag = SPR
+			}
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = head_of_gov_available
+					always = no
+				}
+			}
+
+			cancel_if_invalid = no
+
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea SPR_francisco_silvela_hog"
+			}
+
+			traits = {
+				head_of_government
+				conservative
+			}
+		}
+	}
+	
+	foreign_minister = {
+		SPR_francisco_silvela_frg = {
+			allowed = {
+				original_tag = SPR
+			}
+
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = foreign_minister_available
+					always = no
+				}
+			}
+
+			cancel_if_invalid = no
+
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea SPR_francisco_silvela_frg"
+			}
+
+			traits = {
+				foreign_minister
+				conservative
+			}
+		}
+	}
+
+	economic_minister = {
+		SPR_raimundo_f_villaverde_eco = {
+			allowed = {
+				original_tag = SPR
+			}
+
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = economic_minister_available
+					always = no
+				}
+			}
+
+			cancel_if_invalid = no
+
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea SPR_raimundo_f_villaverde_eco"
+			}
+
+			traits = {
+				economic_minister
+				conservative
+			}
+		}
+	}
+
+	interior_minister = {
+		SPR_eduardo_d_iradier_int = {
+			allowed = {
+				original_tag = SPR
+			}
+
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = interior_minister_available
+					always = no
+				}
+			}
+
+			cancel_if_invalid = no
+
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea SPR_eduardo_d_iradier_int"
+			}
+
+			traits = {
+				interior_minister
+				conservative
+			}
+		}
+	}
+
+	######### JAP #########
+	head_of_government = {
+		JAP_hirobumi_ito_hog = {
+			allowed = {
+				original_tag = JAP
+			}
+
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = head_of_gov_available
+					always = no
+				}
+			}
+
+			cancel_if_invalid = no
+
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea JAP_hirobumi_ito_hog"
+			}
+
+			traits = {
+				head_of_government
+				conservative
+			}
+		}
+	}
+
+	foreign_minister = {
+		JAP_aoki_shuzo_frg = {
+			allowed = {
+				original_tag = JAP
+			}
+
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = foreign_minister_available
+					always = no
+				}
+			}
+
+			cancel_if_invalid = no
+
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea JAP_aoki_shuzo_frg"
+			}
+
+			traits = {
+				foreign_minister
+				conservative
+			}
+		}
+	}
+
+	economic_minister = {
+		JAP_watanabe_kunitake_eco = {
+			allowed = {
+				original_tag = JAP
+			}
+
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = economic_minister_available
+					always = no
+				}
+			}
+
+			cancel_if_invalid = no
+
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea JAP_watanabe_kunitake_eco"
+			}
+
+			traits = {
+				economic_minister
+				conservative
+			}
+		}
+	}
+
+	interior_minister = {
+		JAP_saigo_judo_int = {
+			allowed = {
+				original_tag = JAP
+			}
+
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = economic_minister_available
+					always = no
+				}
+			}
+
+			cancel_if_invalid = no
+
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea JAP_saigo_judo_int"
+			}
+
+			traits = {
+				interior_minister
+				conservative
+			}
+		}
+	}
+
+#RUSSIA
+
+	interior_minister = {
+		SOV_dmitry_sipyagin = {
+            picture = adv_dimitry_sipyagin
+
+			allowed = {
+				original_tag = SOV
+			}
+			
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = economic_minister_available
+					always = no
+				}
+			}
+			
+			cancel_if_invalid = no		
+
+			traits = { 
+	           	interior_minister
+				conservative
+			}
+		} 
+     }
+
+	economic_minister = {
+		SOV_sergei_witte = {
+            picture = adv_sergei_witte
+
+			allowed = {
+				original_tag = SOV
+			}
+			
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = economic_minister_available
+					always = no
+				}
+			}
+			
+			cancel_if_invalid = no		
+
+			traits = { 
+	           	economic_minister
+				conservative
+			}
+		} 
+     }
+
+	foreign_minister = {
+		SOV_mikhail_muravyov  = {
+            picture = adv_mikhail_muravyov
+
+			allowed = {
+				original_tag = SOV
+			}
+			
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = economic_minister_available
+					always = no
+				}
+			}
+			
+			cancel_if_invalid = no		
+
+			traits = { 
+	           	foreign_minister
+				conservative
+			}
+		} 
+     }
+
+	head_of_government = {
+		SOV_ivan_durnovo = {
+            picture = adv_ivan_durnovo
+
+			allowed = {
+				original_tag = SOV
+			}
+			
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = economic_minister_available
+					always = no
+				}
+			}
+			
+			cancel_if_invalid = no		
+
+			traits = { 
+	           	head_of_government
+				conservative
+			}
+		} 
+     }
+
+    army_chief = {
+
+		fyodor_geydenl = {
+			picture = mil_fyodor_geyden
+			
+			allowed = {
+				original_tag = SOV
+			}
+
+			available = { }
+			
+			traits = { army_infantry_2 }
+			
+			ai_will_do = {
+				factor = 10
+			}
+		}
+
+		nikolai_obruchev = {
+			picture = mil_nikolai_obruchev
+			
+			allowed = {
+				original_tag = SOV
+			}
+
+			available = { }
+			
+			traits = { army_cavalry_3 }
+			
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+
+	navy_chief = {
+
+		nikolai_tchikhatchev = {
+			ledger = navy
+
+			
+			allowed = {
+				original_tag = SOV
+			}
+			
+			traits = { navy_chief_decisive_battle_3 }
+			
+			ai_will_do = {
+				factor = 0
+			}
+		}
+}
+
+	high_command = {
+
+		alexey_manikovsky = {
+			ledger = army
+
+			
+			allowed = {
+				original_tag = SOV
+			}
+			
+			traits = { army_infantry_1 }
+			
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		nikolay_leontiev = {
+			ledger = army
+
+			
+			allowed = {
+				original_tag = SOV
+			}
+			
+			traits = { army_logistics_2 }
+			
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		aleksandr_krymov = {
+			ledger = army
+
+			
+			allowed = {
+				original_tag = SOV
+			}
+			
+			traits = { army_cavalry_1 }
+			
+			ai_will_do = {
+				factor = 0
+			}
+		}
+
+	}
