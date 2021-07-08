@@ -18,12 +18,20 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/CHI/CHI_focus_beiyang_expand.dds"
 	}
 	SpriteType = {
+		name = "GFX_CHI_focus_beiyang_academy"
+		texturefile = "gfx/interface/goals/CHI/CHI_focus_beiyang_academy.dds"
+	}
+	SpriteType = {
 		name = "GFX_CHI_focus_beiyang_engineer"
 		texturefile = "gfx/interface/goals/CHI/CHI_focus_beiyang_engineer.dds"
 	}
 	SpriteType = {
 		name = "GFX_CHI_focus_beiyang_modern_china"
 		texturefile = "gfx/interface/goals/CHI/CHI_focus_beiyang_modern_china.dds"
+	}
+	SpriteType = {
+		name = "GFX_CHI_focus_cave_yuan"
+		texturefile = "gfx/interface/goals/CHI/CHI_focus_cave_yuan.dds"
 	}
 	SpriteType = {
 		name = "GFX_JAP_focus_the_manchurian_crisis"
@@ -2913,6 +2921,10 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_CHI_focus_tractor"
 		texturefile = "gfx/interface/goals/CHI/CHI_focus_tractor.dds"
+	}
+	SpriteType = {
+		name = "GFX_CHI_focus_inagurate_sun"
+		texturefile = "gfx/interface/goals/CHI/CHI_focus_inagurate_sun.dds"
 	}
 	SpriteType = {
 		name = "GFX_CHI_focus_press_democratic"
