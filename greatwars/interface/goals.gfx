@@ -3020,4 +3020,16 @@ spriteTypes = {
 		name = "GFX_focus_RUS_nicholas_the_great"
 		texturefile = "gfx/interface/goals/sov/nicholas_the_great.dds"
 	}
+	SpriteType = {
+		name = "GFX_focus_RUS_generic_navy"
+		texturefile = "gfx/interface/goals/sov/generic_navy.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_RUS_afghanistan_defecnces"
+		texturefile = "gfx/interface/goals/sov/afghan_def.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_RUS_cauc_defecnces"
+		texturefile = "gfx/interface/goals/sov/cauc_def.dds"
+	}
 }

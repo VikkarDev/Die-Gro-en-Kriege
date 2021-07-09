@@ -1366,7 +1366,7 @@
 	}
     focus = {
     id = RUS_new_def_cau
-	icon = GFX_SOV_focus_first_russian_election
+	icon = GFX_focus_RUS_cauc_defecnces
 	x = 35
 	y = 6
 	cost = 5
@@ -1407,7 +1407,7 @@
                  }
     focus = {
     id = RUS_new_def_afg
-	icon = GFX_SOV_focus_first_russian_election
+	icon = GFX_focus_RUS_afghanistan_defecnces
 	x = 33
 	y = 6
 	cost = 5
@@ -1541,7 +1541,7 @@
                  }
     focus = {
     id = RUS_new_prep_navy
-	icon = GFX_SOV_focus_first_russian_election
+	icon = GFX_focus_RUS_generic_navy
 	x = 31
 	y = 6
 	cost = 5
