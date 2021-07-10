@@ -217,7 +217,7 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-			add_ideas= RAJ_improve_the_trade_routes
+			add_ideas = RAJ_improve_the_trade_routes
 		}
 	}
 
@@ -392,7 +392,7 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-			remove_ideas= RAJ_unstable_economy
+			remove_ideas = RAJ_unstable_economy
 		}
 	}
 
@@ -537,15 +537,20 @@ focus_tree = {
 			is_puppet = no
 		}
 		completion_reward = {
-			damage_building= { 
-        		type = industrial_complex 
-        		damage = 0.6 
+			random_owned_controlled_state = {
+				damage_building = { 
+					type = industrial_complex 
+					damage = 0.6 
+				}
 			}
 
-			damage_building= { 
-        		type = arms_factory
-        		damage = 0.6 
+			random_owned_controlled_state = {
+				damage_building= { 
+					type = arms_factory
+					damage = 0.6 
+				}
 			}
+
 			add_ideas = RAJ_violent_protests
 		}
 	}
@@ -869,6 +874,9 @@ focus_tree = {
 		completion_reward = {
 			army_experience = 10
 			add_tech_bonus = {
+				name = "RAJ_mountain_training"
+				uses = 1
+				bonus = 1
 				technology = tech_mountaineers
 				technology = tech_mountaineers2
 			}
@@ -1196,7 +1204,7 @@ focus_tree = {
 			focus = RAJ_violent_protests
 		}
 
-		mutually_exclusive = { focus = RAJ_RAJ_launch_a_far_left_revolution }
+		mutually_exclusive = { focus = RAJ_launch_a_far_left_revolution }
 		
 		ai_will_do = {
 			factor = 1
@@ -1210,15 +1218,15 @@ focus_tree = {
 					RAJ = { set_capital = PREV }
 				}
 				start_civil_war = {
-					ruling_party = fascism
-					ideology = neutrality
+					ruling_party = chauvinist_populism
+					ideology = fascism
 					size = 70
 					capital = 439
 				}
 				random_other_country = {
 					limit = {
 						original_tag = RAJ
-						has_government = neutrality
+						has_government = autocracy
 					}
 					ENG = { add_to_faction = PREV }
 				}						
@@ -1251,15 +1259,15 @@ focus_tree = {
 					RAJ = { set_capital = PREV }
 				}
 				start_civil_war = {
-					ruling_party = communism
-					ideology = neutrality
+					ruling_party = vanguard_communism
+					ideology = marxism
 					size = 70
 					capital = 439
 				}
 				random_other_country = {
 					limit = {
 						original_tag = RAJ
-						has_government = neutrality
+						has_government = autocracy
 					}
 					ENG = { add_to_faction = PREV }
 				}						
@@ -1650,7 +1658,7 @@ focus_tree = {
 		}
 
 		available = {
-			has_ideas = RAJ_the_muslim_league
+			has_idea = RAJ_the_muslim_league
 		}
 	
 		ai_will_do = {
@@ -1825,9 +1833,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			add_ideas = {
-    			add_idea = RAJ_national_congress_dissolved
-			}
+			add_ideas = { RAJ_national_congress_dissolved }
 		}
 	}
 	

@@ -15,7 +15,12 @@ capital = 819
 	#add_to_faction = GER
 
 	set_technology = {
+		marines  = 1
+		tech_support = 1		
+		tech_recon = 1
+		tech_engineers = 1
 		infantry_weapons = 1
+		gw_artillery = 1
 	}
 
 	give_guarantee = ITA
@@ -72,10 +77,10 @@ capital = 819
 		portrait_path = "gfx/leaders/GER/Field Marshals/Paul_von_Hindenburg.tga"
 		skill = 3
 		attack_skill = 2
-		defense_skill = 2
-		planning_skill = 2
+		defense_skill = 3
+		planning_skill = 3
 		logistics_skill = 2
-		traits = { infantry_expert }
+		traits = { infantry_expert politically_connected war_hero media_personality }
 		id = 1
 	}
 
@@ -91,6 +96,19 @@ capital = 819
 		id = 2
 	}
 
+
+	create_field_marshal = {
+		name = "Alfred von Schlieffen"
+		portrait_path = "gfx/leaders/GER/Field Marshals/Alfred_von_Schlieffen.tga"
+		skill = 4
+		attack_skill = 4
+		defense_skill = 3
+		planning_skill = 5
+		logistics_skill = 4
+		traits = { organizer thorough_planner expert_delegator }
+		id = 3
+	}
+
 	create_corps_commander = {
 		name = "Felix Graf von Bothmer"
 		portrait_path = "gfx/leaders/GER/Generals/Felix_Graf_von_Bothmer.tga"
@@ -100,19 +118,19 @@ capital = 819
 		planning_skill = 1
 		logistics_skill = 1
 		traits = { infantry_officer }
-		id = 3
+		id = 4
 	}
 
 	create_corps_commander = {
 		name = "Paul von Lettow-Vorbeck"
-		portrait_path = "gfx/leaders/GER/Generals/Paul_von_Lettow-Vorbeck.tga"
+		portrait_path = "gfx/leaders/GER/Generals/von_Lettow_Borbeck.tga"
 		skill = 2
-		attack_skill = 2
-		defense_skill = 1
-		planning_skill = 1
+		attack_skill = 3
+		defense_skill = 2
+		planning_skill = 3
 		logistics_skill = 2
-		traits = {  }
-		id = 4
+		traits = { jungle_rat ranger harsh_leader }
+		id = 5
 	}
 
 	create_corps_commander = {
@@ -124,7 +142,7 @@ capital = 819
 		planning_skill = 2
 		logistics_skill = 1
 		traits = {  }
-		id = 5
+		id = 6
 	}
 
 	create_corps_commander = {
@@ -136,7 +154,7 @@ capital = 819
 		planning_skill = 2
 		logistics_skill = 1
 		traits = { }
-		id = 6
+		id = 7
 	}
 
 	create_corps_commander = {
@@ -148,7 +166,7 @@ capital = 819
 		planning_skill = 1
 		logistics_skill = 2
 		traits = { }
-		id = 7
+		id = 8
 	}
 
 	create_navy_leader = {
@@ -160,7 +178,7 @@ capital = 819
 		maneuvering_skill = 2
 		coordination_skill = 2
 		traits = {  }
-		id = 8
+		id = 9
 	}
 
 	create_navy_leader = {
@@ -172,5 +190,30 @@ capital = 819
 		maneuvering_skill = 2
 		coordination_skill = 1
 		traits = { }
+		id = 10
+	}
+
+	create_navy_leader = {
+		name = "Alfred von Tirpitz"
+		portrait_path = "gfx/leaders/GER/Naval/Alfred_von_Tirpitz.tga"
+		skill = 3
+		attack_skill = 4
+		defense_skill = 3
+		maneuvering_skill = 2
+		coordination_skill = 3
+		traits = { battleship_adherent blue_water_expert media_personality }
+		id = 11
+	}
+
+	create_navy_leader = {
+		name = "Prince Henry of Prussia"
+		portrait_path = "gfx/leaders/GER/Naval/Prince_Henry_of_Prussia.tga"
+		skill = 3
+		attack_skill = 2
+		defense_skill = 2
+		maneuvering_skill = 4
+		coordination_skill = 3
+		traits = { media_personality cruiser_captain bold }
+		id = 12
 	}
 }

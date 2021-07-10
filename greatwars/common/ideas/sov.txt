@@ -111,8 +111,8 @@ ideas = {
 
                 stability_factor = -0.15
                 industrial_capacity_factory = -0.15
-                conscription = -0.10    
-                consumer_goods_factor = 0.15
+                conscription = -0.03
+                consumer_goods_factor = 0.20
                 
                         }
 
@@ -128,10 +128,10 @@ ideas = {
 
             modifier = {
 
-                stability_factor = -0.10
-                industrial_capacity_factory = -0.10
-                conscription = -0.05
-                consumer_goods_factor = 0.10
+                stability_factor = -0.12
+                industrial_capacity_factory = -0.13
+                conscription = -0.025
+                consumer_goods_factor = 0.15
                 
                         }
 
@@ -147,9 +147,10 @@ ideas = {
 
             modifier = {
 
-                stability_factor = -0.05
-                industrial_capacity_factory = -0.05
-                consumer_goods_factor = 0.5
+                stability_factor = -0.08
+                industrial_capacity_factory = -0.10
+                consumer_goods_factor = 0.10
+                conscription = -0.01
 
                         }
 
@@ -179,7 +180,22 @@ ideas = {
                 trade_opinion_factor = 0.15
                 min_export = 0.3
             }
-        }   
+        }  
+
+            SOV_french_dependancy2 = {
+            picture = sov_french_dependancy
+
+            allowed = {
+                tag = SOV
+            }
+
+            modifier = {
+                trade_opinion_factor = 0.20
+                min_export = 0.05
+                consumer_goods_factor = -0.05
+            }
+        }         
+
 
             SOV_smartworkers = {
             picture = generic_production_bonus
@@ -189,8 +205,8 @@ ideas = {
             }
 
             modifier = {
-                research_speed_factor = 0.05
-                industrial_capacity_factory = 0.10
+                research_speed_factor = 0.02
+                industrial_capacity_factory = 0.05
             }
         }  
 
@@ -214,9 +230,9 @@ ideas = {
             }
 
             modifier = {
-                stability_factor = 0.1
-                production_speed_buildings_factor = 0.10
-                industrial_capacity_factory = 0.10
+                stability_factor = 0.02
+                production_speed_buildings_factor = 0.05
+                industrial_capacity_factory = 0.05
             }
         }  
                   SOV_indu1 = {
@@ -227,9 +243,9 @@ ideas = {
             }
 
             modifier = {
-                stability_factor = 0.15
-                production_speed_buildings_factor = 0.15
-                industrial_capacity_factory = 0.15
+                stability_factor = 0.5
+                production_speed_buildings_factor = 0.10
+                industrial_capacity_factory = 0.10
             }
         } 
                   SOV_army_moral = {
@@ -242,9 +258,23 @@ ideas = {
             modifier = {
                 army_speed_factor = 0.05
                 army_attack_factor = 0.05
-                army_org = 0.05
             }
         } 
+
+                 SOV_army_demoral = {
+            picture = tur_arctic_wolves
+
+            allowed = {
+                tag = SOV
+            }
+
+            modifier = {
+                army_speed_factor = -0.05
+                army_attack_factor = -0.05
+                army_defence_factor = -0.10
+            }
+        } 
+
 
                   SOV_china_rep = {
             picture = china_rep
@@ -282,20 +312,64 @@ ideas = {
             }
         }
 
-                  SOV_modern_army = {
-            picture = generic_intel_bonus
+                  SOV_disorg_army = {
+            picture = chi_army_corruption2
 
             allowed = {
                 tag = SOV
             }
 
             modifier = {
-                army_attack_factor	= 0.05
-                army_defence_factor = 0.05
+                army_attack_factor	= -0.25
+                army_defence_factor = -0.15
+                army_org_factor = -0.1
             }
         }
 
-                  SOV_disorg_army = {
+                  SOV_navy = {
+            picture = generic_sea_focused_navy
+
+            allowed = {
+                tag = SOV
+            }
+
+            modifier = {
+                industrial_capacity_dockyard = 0.1
+            }
+        }
+
+                  SOV_navy_mod = {
+            picture = generic_navy_bonus
+
+            allowed = {
+                tag = SOV
+            }
+
+            modifier = {
+                navy_capital_ship_attack_factor	= 0.05
+                naval_morale = 5
+                naval_accidents_chance = -0.05
+            }
+        }
+
+                  SOV_mass_prot = {
+            picture = sov_fear_of_revolution
+
+            allowed = {
+                tag = SOV
+            }
+
+            modifier = {
+                stability_factor = -0.25
+                war_support_factor = -0.25
+                consumer_goods_factor = 0.25
+                production_factory_max_efficiency_factor = -0.20
+                production_speed_buildings_factor = -0.40
+                production_factory_efficiency_gain_factor = -0.30
+            }
+        }
+
+                  SOV_shat_army = {
             picture = chi_army_corruption3
 
             allowed = {
@@ -303,11 +377,26 @@ ideas = {
             }
 
             modifier = {
-                army_attack_factor	= -0.15
-                army_defence_factor = -0.10
-                army_org = -5
+                army_speed_factor = -0.30
+                army_attack_factor = -0.25
+                army_defence_factor = -0.25
+                army_org_factor = -0.40  
+
             }
         }
+                  SOV_shat_navy = {
+            picture = generic_navy_bonus
 
+            allowed = {
+                tag = SOV
+            }
+
+            modifier = {
+                navy_capital_ship_attack_factor	= -0.10
+                naval_morale = -10
+                naval_accidents_chance = 0.15
+                industrial_capacity_dockyard = -0.20
+            }
+        }
     }
 }

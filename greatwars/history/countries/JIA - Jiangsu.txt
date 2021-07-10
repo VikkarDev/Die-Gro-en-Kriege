@@ -16,8 +16,8 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Unknown"
+	name = "Sheng Yuanhuai"
 	desc = ""
-	picture = ""
+	picture = "Sheng_Xuanhai.tga"
 	ideology = despotism
 }

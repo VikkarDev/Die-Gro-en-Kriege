@@ -33,11 +33,14 @@ capital = 282
 		JAP_interservice_rivalry_low
 	}
 	set_technology = {
-	infantry_weapons = 1
-	infantry_weapons1 = 1
-	tech_support = 1		
-	tech_recon = 1
-	tech_engineers = 1
+		infantry_weapons = 1
+		infantry_weapons1 = 1
+		tech_support = 1		
+		tech_recon = 1
+		tech_engineers = 1
+		gw_artillery = 1
+		tech_support = 1
+		tech_logistics_company = 1
 	}
 	if = {
 	limit = {
@@ -109,29 +112,26 @@ if = {
 		planning_skill = 3
 		logistics_skill = 2
 		traits = { infantry_leader trait_engineer brilliant_strategist politically_connected }
-		id = 2
 	}
 	create_corps_commander = {
 		name = "Fukushima Yasumasa"
 		portrait_path = "gfx/leaders/JAP/Navy/Heihachiro_Togo.tga"
 		skill = 4
-		attack_skill = 5
+		attack_skill = 4
 		defense_skill = 4
 		planning_skill = 3
 		logistics_skill = 2
 		traits = { infantry_leader trait_engineer brilliant_strategist politically_connected war_hero media_personality	}
-		id = 26000
 	}
 	create_field_marshal = {
 		name = "Ōyama Iwao"
-		portrait_path = "gfx/leaders/JAP/Navy/Heihachiro_Togo.tga"
+		portrait_path = "gfx/leaders/JAP/Generals/Oyama_Iwao.tga"
 		skill = 4
-		attack_skill = 6
-		defense_skill = 4
+		attack_skill = 5
+		defense_skill = 2
 		planning_skill = 3
 		logistics_skill = 3
 		traits = { infantry_leader aggressive_assaulter	offensive_doctrine	expert_delegator}
-		id = 3
 	}
 	create_corps_commander = {
 		name = "Nogi Maresuke"
@@ -142,7 +142,6 @@ if = {
 		planning_skill = 4
 		logistics_skill = 4
 		traits = { infantry_leader trait_engineer brilliant_strategist politically_connected invader }
-		id = 4
 	}
 	create_navy_leader = {
 		name = "Heihachiro Togo"
@@ -153,7 +152,6 @@ if = {
 		defense_skill = 4
 		maneuvering_skill = 5
 		coordination_skill = 5
-		id = 5
 		}
 	create_field_marshal = {
 	name = "Kodama Gentarō"
@@ -164,7 +162,6 @@ if = {
 		planning_skill = 4
 		logistics_skill = 2
 		traits = { infantry_leader thorough_planner }
-		id = 6
 	}
 	create_navy_leader = {
 	name = "Dewa Shigetō"
@@ -175,7 +172,6 @@ if = {
 	defense_skill = 3
 	maneuvering_skill = 3
 	coordination_skill = 4
-	id = 7
 	}
 }
 

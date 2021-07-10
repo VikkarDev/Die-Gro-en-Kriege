@@ -9,14 +9,19 @@ Bleys
 # PROGRAMMING TEAM
 monke
 100won
-Berkeley
-Josua
-Burger King Hotline
-Apple
-Eoot17
+Augustios
+bonk!
+Freddy1284
 General Hubert Galeforce
+daslich
+obama
+rlfkafjkl
+pkpawi
+Saddam Hussein
+Tango
+Thought_West
 vikkar
-Josua5431
+Wang Ming
 
 # GFX TEAM
 monke
@@ -26,13 +31,20 @@ Berkeley
 captainluck
 Alfred
 General Hubert Galeforce
+Wang Ming
+Jerry
+bonk!
 
 # PLANNING TEAM
 monke
 GoodGuyGuderian
 Berkeley
 100won
+Augustios
+Polaco
 total-artical
+Bleys
+bonk!
 vikkar
 Gott Kroprinz
 Eoot17
@@ -72,6 +84,11 @@ thing1
 
 # HELPERS
 Dodolulupepe
+
+#COLLABORATIONS
+
+Kaiserreich
+The Great War Redux
 
 ----------------
 

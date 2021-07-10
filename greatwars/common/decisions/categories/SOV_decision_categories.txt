@@ -12,16 +12,17 @@ sov_literacydes = {
 }
 
 sov_crowded = {
-	icon = generic_industry
+	icon = generic_economy
 	picture = GFX_sov_crowd
 	priority = 5
 
     visible = {
-		has_completed_focus = RUS_new_morefac
+		has_completed_focus = RUS_new_hous
 	}
 
 	allowed = {
-	}
+	}  
+
 }
 
 sov_fear = {
@@ -34,3 +35,15 @@ sov_fear = {
 	           }
 
 }
+
+sov_man = {
+	icon = border_conflicts
+	picture = GFX_sov_man
+	priority = 10
+  
+      visible = {
+	    has_country_flag = rus_man_inv
+	           }
+
+ }
+

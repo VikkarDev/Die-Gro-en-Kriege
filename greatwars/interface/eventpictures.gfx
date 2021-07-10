@@ -2896,4 +2896,29 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/event_rus_prop.dds"
 	}
 
+	spriteType = { 
+		name = "GFX_event_ott_no"
+		texturefile = "gfx/event_pictures/report_event_tur_sultan_and_pashas.dds"
+	}
+
+	spriteType = { 
+		name = "GFX_event_ott_war_rus"
+		texturefile = "gfx/event_pictures/event_russo_ottoman_war.dds"
+	}
+
+	spriteType = { 
+		name = "GFX_event_jap_war_rus"
+		texturefile = "gfx/event_pictures/event_russo_jap_war.dds"
+	}
+
+	spriteType = { 
+		name = "GFX_event_chi_quest"
+		texturefile = "gfx/event_pictures/event_rus_chi.dds"
+	}
+
+	spriteType = { 
+		name = "GFX_event_rus_man"
+		texturefile = "gfx/event_pictures/news_russia_inv_man.dds.dds"
+	}
+
 }

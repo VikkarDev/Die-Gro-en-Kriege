@@ -96,6 +96,7 @@ sov_literacydes = {
 sov_crowded = {
 
    sov_develop_mos = {
+	   icon = GFX_decision_eng_install_government
          
 		 available = {
 			 has_idea = sov_crowd
@@ -106,8 +107,10 @@ sov_crowded = {
 		days_remove = 10
 
 		visible = {
-        has_idea = SOV_crowd
+            tag = SOV
 		}
+
+		highlight_state_targets = { state = 219 }        
 
 		cost = 150
 
@@ -124,7 +127,8 @@ sov_crowded = {
 	  }
    }
    sov_develop_stpt = {
-         
+        icon = GFX_decision_gre_investment_decisions
+
 		 available = {
 			 has_idea = SOV_crowd2
 		             }
@@ -136,6 +140,8 @@ sov_crowded = {
 		visible = {
            tag = SOV
 		}
+
+		highlight_state_targets = { state = 195 }        
 
 		cost = 150
 
@@ -154,6 +160,7 @@ sov_crowded = {
 	               }
 
    sov_develop_wrs = {
+	   icon = GFX_decision_generic_factory
          
 		 available = {
 			 has_idea = SOV_crowd3
@@ -167,11 +174,17 @@ sov_crowded = {
 			tag = SOV
 		}
 
+		highlight_state_targets = { state = 10 } 
+
 		cost = 150
 
 		remove_effect = {
-              remove_ideas = SOV_crowd3
-                       }
+              custom_effect_tooltip = crowd_final
+              add_political_power = 75
+			  hidden_effect = {
+				  SOV = { country_event = { id = russia.11 days = 270 } }
+			  }
+        }
     }
 }
 
@@ -191,16 +204,22 @@ sov_fear = {
 	cost = 100
 
 	remove_effect = {
+		      custom_effect_tooltip = brob1
+	 hidden_effect = {		  
 			  swap_ideas = { 
               remove_idea = SOV_fear_of_revolution
               add_idea = SOV_fear_of_revolution2
 			               }
-	                }
-                }
+			  set_country_flag = sov_prop1_done
+	                 }
+	           }
+         }
 	
+
+
 	sov_brob2 = {
         	 available = {
-			     has_idea = SOV_fear_of_revolution2
+			     has_country_flag = sov_prop1_done
 		                 }
 	   fire_only_once = yes
 	   days_re_enable = 0
@@ -213,16 +232,22 @@ sov_fear = {
 	cost = 100
 
 	remove_effect = {
+		      custom_effect_tooltip = brob2
+		hidden_effect = {	  
 			  swap_ideas = { 
               remove_idea = SOV_fear_of_revolution2
               add_idea = SOV_fear_of_revolution3
 			               }
-			          }  
+		      set_country_flag = sov_prop2_done
+		               }
+			        }  
 	             }
+
+
 
 	sov_brob3 = {
         	 available = {
-			     has_idea = SOV_fear_of_revolution3
+			     has_country_flag = sov_prop2_done
 		                 }
 	   fire_only_once = yes
 	   days_re_enable = 0
@@ -235,9 +260,54 @@ sov_fear = {
 	cost = 100
 
 	remove_effect = {
+		      custom_effect_tooltip = brob3
+			 hidden_effect = {
               remove_ideas = SOV_fear_of_revolution3
 			  country_event = { id = russia.1 days = 0}
-			          }  
+			  set_country_flag = rus_faith_tsar
+					   }
+			        }  
 	             }
-        }
+}
+
+#INVASION MANCHURIA BRUH
+
+sov_man = {
+    sov_inv_man = {
+         icon = GFX_decision_icon_default
+		 days_mission_timeout = 120
+		 is_good = no
+
+         activation = {
+            has_country_flag = rus_man_inv
+                      }
+ 
+		 available = {
+		         SOV = {controls_state = 328} 
+				 SOV = {controls_state = 717} 
+				 SOV = {controls_state = 714}
+				 SOV = {controls_state = 715}
+				 SOV = {controls_state = 716}
+				 SOV = {controls_state = 761}  
+					 }
+
+         fire_only_once = yes 
+
+		 visible = {
+			 tag = SOV
+		 }
+
+         timeout_effect = {
+			  SOV = { country_event = russia.9 }
+			  add_stability = -0.1
+		 }
+	     
+		 complete_effect = {
+			 add_war_support = 0.1
+			 SOV = { country_event = russia.8 }
+		 }
+
+	}	
+
+}
 		
