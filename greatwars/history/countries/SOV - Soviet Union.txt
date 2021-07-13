@@ -181,7 +181,7 @@ if = {
     }
 	create_corps_commander = {
         name = "Vladimir Ivanovich Kharkevich"
-        picture = gfx/leaders/GER/Generals/Felix_Graf_von_Bothmer.tga
+        portrait_path = "gfx/leaders/SOV/Generals/vlad.tga"
         skill = 2
         attack_skill = 2
         defense_skill = 1

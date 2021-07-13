@@ -3028,4 +3028,12 @@ spriteTypes = {
 		name = "GFX_focus_RUS_chinese_sit"
 		texturefile = "gfx/interface/goals/sov/chinese_sit.dds"
 	}
+	SpriteType = {
+		name = "GFX_focus_RUS_purchase_tools"
+		texturefile = "gfx/interface/goals/sov/purchase_tools.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_RUS_boost_moral_army"
+		texturefile = "gfx/interface/goals/sov/army_moral.dds"
+	}
 }

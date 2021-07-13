@@ -873,7 +873,7 @@
 
 		focus = {
 			id = RUS_new_buytools
-			icon = GFX_goal_generic_construct_civ_factory
+			icon = GFX_focus_RUS_purchase_tools
 			x = 7
 			y = 6
 
@@ -1564,7 +1564,7 @@
                  }
     focus = {
     id = RUS_new_boost_army
-	icon = GFX_SOV_focus_first_russian_election
+	icon = GFX_focus_RUS_boost_moral_army
 	x = 30
 	y = 7
 	cost = 5
