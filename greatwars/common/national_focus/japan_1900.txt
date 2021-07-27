@@ -239,7 +239,7 @@ focus_tree = {
 
 	focus = {
 		id = JAP_protest_russian_deployment
-		icon = GFX_jap_protest_russian_deployment
+		icon = GFX_CHI_focus_russian_war
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		x = 14
 		y = 1
@@ -616,7 +616,7 @@ focus_tree = {
 
 	focus = {
 		id = JAP_alliance_with_britain
-		icon = GFX_jap_alliance_with_britain
+		icon = GFX_JAP_focus_anglo_jap_alliance
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		x = 14
 		y = 2
@@ -1159,7 +1159,7 @@ focus_tree = {
 
 	focus = {
 		id = JAP_the_tokugawa_restoration
-		icon = GFX_jap_continue_government_reforms
+		icon = GFX_JAP_focus_tokuwaga
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		x = 37
 		y = 1

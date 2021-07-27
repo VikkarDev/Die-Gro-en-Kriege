@@ -1,14 +1,11 @@
 ﻿#Die Grossen Kriege | A Hearts of Iron 4 Mod
 
 #LEAD DEVELOPERS
-monke
-GoodGuyGuderian
 vikkar
 Nadeko
 Bleys
 
 # PROGRAMMING TEAM
-monke
 100won
 Berkeley
 Burger King Hotline
@@ -18,8 +15,6 @@ vikkar
 Wang Ming
 
 # GFX TEAM
-monke
-GoodGuyGuderian
 Berkeley
 100won
 captainluck
@@ -28,8 +23,6 @@ General Hubert Galeforce
 Wang Ming
 
 # PLANNING TEAM
-monke
-GoodGuyGuderian
 Berkeley
 100won
 vikkar
@@ -39,7 +32,6 @@ Bence Von Mauser
 Burger King Hotline
 
 # RESEARCH TEAM
-monke
 Nadeko
 Bleys
 100won
@@ -47,18 +39,15 @@ Berkeley
 A Happy Spain
 Bence Von Mauser
 vikkar
-
 # WRITING TEAM
-monke
+
 Bleys
 hapsburg_prince
 Eoot17
 
 # MAPPING TEAM
 Nadeko
-monke
 vikkar
-GoodGuyGuderian
 
 # FORMER DEVELOPERS
 Freddy1284
@@ -66,6 +55,8 @@ thing1
 Adolf Goldberg
 Fufustheufus
 Le Tongo
+Monke 
+GoodGuyGuderian
 
 # HELPERS
 Dodolulupepe

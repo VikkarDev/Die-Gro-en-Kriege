@@ -4,10 +4,6 @@
 
 CHI_legacy_sino_japanese_war:0 "Legacy of the Sino-Japanese War"
 CHI_legacy_sino_japanese_war_desc:0 "During the 1870s to 1890s the government tried to modernize its army and industry, buying modern ironclads and updating its army uniforms and tactics. Despite our best efforts, we were crushed by the Japanese boot in the Sino-Japanese War and any hopes of our 'Westernization Movement' succeding were lost."
-CHI_manchu_support:0 "Manchu Support"
-CHI_manchu_support_desc:0 "Despite our hostility with most ethnic groups, most of the Manchu population stills supports our monarch and our government."
-CHI_mongol_support:0 "Mongol Support"
-CHI_mongol_support_desc:0 "Despite our hostility with most ethnic groups, most of the Mongol population stills supports our monarch and our government."
 CHI_low_legitimacy:0 "Low Integrity"
 CHI_low_legitimacy_desc:0 "After broken promises and the Empress' coup, many intellectuals and commoners hoping for reform have grown tired of the status quo."
 CHI_outdated_army:0 "Outdated Army"
@@ -21,7 +17,7 @@ CHI_agrarian_society_desc:0 "Although small amounts of industrialization have oc
 CHI_outdated_army_2:0 "Outdated Army"
 CHI_outdated_army_2_2_desc:0 "Despite our recent "Westernization" movement, most of our army and its tactics remain outdated. Many units still use spears, shields, and wooden boats against rifles, cannons, and ironclads."
 CHI_opium_addictions:0 "Opium Addictions"
-CHI_opium_addictions_desc:0 "After the 2 Opium Wars, the Qing government was forced to allow opium selling in the empire. This has caused widespread addiction, and people who could’ve supported the government have become addicts."
+CHI_opium_addictions_desc:0 "After the 2 Opium Wars, the Qing government was forced to allow opium selling in the empire. This has caused widespread addiction, and people who could've helped out government have become addicts."
 
 #NATIONAL FOCUSES
 
@@ -126,6 +122,15 @@ CHI_1900_5_races_one_flag_pan_asianist:0 "5 Races Under One Union"
 CHI_1900_support_russia:0 "Support Russia against Japan"
 CHI_1900_protest_russian_deployment:0 "Protest Russian Deployment"
 CHI_1900_support_chinese_nationalists_taiwan:0 "Support the Taiwan Resistance Movement"
+CHI_1900_international_support:0 "Get International Support"
+CHI_1900_cave_to_yuan:0 "Cave to Yuan Shikai"
+CHI_1900_sun_yat_sen_inagurated:0 "The Inaguration of Sun Yat Sen"
+CHI_1900_republican_elections:0 "Hold an Election"
+CHI_1900_japanese_support:0 "Get Japanese Support"
+CHI_1900_revolt_in_tianjin:0 "Start an Uprising in Tianjin"
+CHI_1900_dissolve_beiyang_army:0 "Dissolve the Beiyang Army"
+CHI_1900_foreign_owned_railways:0 "Allow Expansion of the Foreign Railways"
+CHI_1900_opening_east_china_railway:0 "Manchuria Falls to Russian Influence"
 
 #COUNTRY EVENTS
 
@@ -174,7 +179,7 @@ CHI_HOS_TITLE:0 "Huángdì"
 CHI_HOG_TITLE:0 "Huánghòu"
 CHI_GUANGXU_NAME:0 "Guangxu"
 GUANGXU_LEADER_DESCRIPTION:0 "10th Heavenly Emperor of the Great Qing and the de-jure leader of China, the Guangxu Emperor is the emperor of the greatest empire in Chinese history. Born in the Prince Chun Mansion in 1870 to the late Tongzhi Emperor, he was 4 years old when he ascended the throne and because he was a child monarch, exploitation and corruption was widespread. When he was 9, his mother died leaving Cixi as the new empress dowager and protector of the Guangxu Emperor. Even as he grew older, Cixi's influence on him grew with him, eventually giving lots of power to Cixi over government posititions. After the Qing's defeat against Japan in the Sino-Japanese War, Guangxu saw that a constitutional monarchy like that of Japan was the path the Qing needed to take if it was to become politically and economically stable. In 1898 he and members of the Reform China Society got together and passed liberal reforms named the Hundred Days Reform. Unhappy with this, Cixi couped the government and put Guangxu under house arrest where he lived as de-jure ruler of China. All of the reforms were pulled back and the reformist groups were exiled."
-CIXI_LEADER_DESCRIPTION:0 "Born in 1835 to a duke of the Bordered Blue Banner, a banner of the Eight Banners of Manchuria in Peking, Cixi was destined to live a life in luxury in politics. She was well educated, and later an advisor to deceased emperor Xianfeng after becoming his 2nd wife in 1854. During her marriage to Xianfeng, she became well-informed about country affairs and made enemies and friends in the government. During the Opium Wars, the Xianfeng Emperor died of illness and disease and left the son of his first wife, Yi, as next emperor of the Great Qing. The Guangxu Emperor took power in 1875 and would become Cixi's adopted son in 1880. By this time, Cixi had an iron grip on the Chinese government and after the Guangxu Emperor's liberal reforms of the reform, Cixi and other conservative officials lost power and opposed Guangxu’s reformist policies. This led to Cixi couping the emperor and taking power as de-facto ruler of the Great Qing and put the emperor under house arrest. Ever since she has taken full autocratic rule and has suppressed the Republican and Anarchist groups of China."
+CIXI_LEADER_DESCRIPTION:0 "Born in 1835 to a duke of the Bordered Blue Banner, a banner of the Eight Banners of Manchuria in Peking, Cixi was destined to live a life in luxury in politics. She was well educated, and later an advisor to deceased emperor Xianfeng after becoming his 2nd wife in 1854. During her marriage to Xianfeng, she became well-informed about country affairs and made enemies and friends in the government. During the Opium Wars, the Xianfeng Emperor died of illness and disease and left the son of his first wife, Yi, as next emperor of the Great Qing. The Guangxu Emperor took power in 1875 and would become Cixi's adopted son in 1880. By this time, Cixi had an iron grip on the Chinese government and after the Guangxu Emperor's liberal reforms of the 1898 Hundred Days Reform she was unhappy with her loss of power and the Guangxu's reformist policy. This led to Cixi couping the emperor and taking power as de-facto ruler of the Great Qing and put the emperor under house arrest. Ever since she has taken full autocratic rule and has suppressed the Republican and Anarchist groups of China."
 
 #BOOKMARKS
 
@@ -196,3 +201,8 @@ CHI_centrism_party:0 "BHH"
 CHI_centrism_party_long:0 "Baohuang Hui"
 CHI_radical_democracy_party:0 "Bei Yáng Jun"
 CHI_radical_democracy_party_long:0 "Běi Yáng Jūn"
+
+#Tooltips
+
+CHI_ROC_REVOLUTION:0 "The revolution begins"
+CHI_BOXERS_VICTORY:0 "We have achieved victory over the Western Powers"

@@ -129,7 +129,4 @@ high_command:0 "Military High Command"
 theorist:0 "Theorist"
 
 #RUSSIA
-SOV_dmitry_sipyagin:0 "Dmitry Sipyagin"
-SOV_sergei_witte:0 "Sergei Witte"
-SOV_mikhail_muravyov:0 "Mikhail Muravyov"
-SOV_ivan_durnovo:0 "Ivan Durnovo"
+rasputin:0 "Rasputin"

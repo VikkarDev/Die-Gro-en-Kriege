@@ -28,6 +28,27 @@ capital = 608
 		CHI_opium_addictions
 	}
 
+	if = {
+		limit = {
+			OR = {
+				has_dlc = "Together for Victory"
+				has_dlc = "Man the Guns"
+			}
+		}
+		set_autonomy = {
+			target = TIB
+			autonomous_state = autonomy_integrated_puppet
+		}
+		set_autonomy = {
+			target = MON
+			autonomous_state = autonomy_integrated_puppet
+		}
+	}
+	else = {
+		puppet = TIB
+		puppet = MON
+	}
+
 	set_politics = {
 		ruling_party = autocracy
 		#last_election = "1895.6.25"
@@ -145,68 +166,35 @@ create_corps_commander = {
 		skill = 3
 		attack_skill = 5
 		defense_skill = 2
-		planning_skill = 4
-		logistics_skill = 2
-		traits = {  politically_connected old_guard hill_fighter commando cavalry_leader trickster }
-		id = 9
-	}
-create_corps_commander = {
-		name = "Nie Shicheng"
-		portrait_path = "gfx/leaders/CHI/base_qing.tga"
-		skill = 3
-		attack_skill = 3
-		defense_skill = 2
 		planning_skill = 3
 		logistics_skill = 2
-		traits = {  politically_connected old_guard hill_fighter }
-		id = 8
+		traits = {  politically_connected old_guard hill_fighter commando cavalry_leader trickster }
+		
 	}
 	create_corps_commander = {
 		name = "Dong Fuxiang"
 		portrait_path = "gfx/leaders/CHI/base_qing.tga"
 		skill = 3
-		attack_skill = 5
+		attack_skill = 4
 		defense_skill = 1
 		planning_skill = 1
-		logistics_skill = 3
-		traits = {  politically_connected old_guard cavalry_leader trait_engineer trickster commando bearer_of_artillery	}
-		id = 8889
-	}
-	create_corps_commander = {
-		name = "Ma Fulu"
-		portrait_path = "gfx/leaders/CHI/base_qing.tga"
-		skill = 3
-		attack_skill = 3
-		defense_skill = 1
-		planning_skill = 2
 		logistics_skill = 2
-		traits = {  politically_connected old_guard cavalry_leader	}
-		id = 8810
+		traits = {  politically_connected old_guard cavalry_leader trait_engineer trickster commando bearer_of_artillery	}
+		
 	}
 	create_corps_commander = {
-		name = "Ma Fuxing"
-		portrait_path = "gfx/leaders/CHI/base_qing.tga"
+		name = "Ma Fuxiang"
+		portrait_path = "gfx/leaders/CHI/generals/Ma_Fuxiang.tga"
 		skill = 3
 		attack_skill = 3
 		defense_skill = 2
 		planning_skill = 2
-		logistics_skill = 2
-		traits = {  politically_connected old_guard	 }
-		id = 8811
-	}
-	create_corps_commander = {
-		name = "Ma Fuxiang"
-		portrait_path = "gfx/leaders/CHI/base_qing.tga"
-		skill = 3
-		attack_skill = 4
-		defense_skill = 4
-		planning_skill = 3
 		logistics_skill = 3
 		traits = {  politically_connected old_guard	commando }
-		id = 8812
+		
 	}
 	create_corps_commander = {
-		name = "Zhao_Erfeng"
+		name = "Zhao Erfeng"
 		portrait_path = "gfx/leaders/CHI/generals/Zhao_Erfeng.tga"
 		skill = 1
 		attack_skill = 1
@@ -214,18 +202,29 @@ create_corps_commander = {
 		planning_skill = 1
 		logistics_skill = 1
 		traits = {  politically_connected old_guard }
-		id = 8813
+		
+	}
+	create_corps_commander = {
+		name = "Ma Yukun"
+		portrait_path = "gfx/leaders/CHI/generals/Ma_Yukun.tga"
+		skill = 2
+		attack_skill = 1
+		defense_skill = 3
+		planning_skill = 3
+		logistics_skill = 2
+		traits = {  politically_connected old_guard }
+		
 	}
 	create_field_marshal = {
 		name = "Song Qing"
-		portrait_path = "gfx/leaders/CHI/base_qing.tga"
+		portrait_path = "gfx/leaders/CHI/generals/Song_Qing.tga"
 		traits = { logistics_wizard }
 		skill = 3
-		attack_skill = 3
+		attack_skill = 2
 		defense_skill = 2
 		planning_skill = 2
 		logistics_skill = 2
-		id = 68549
+		
 	}
 	create_field_marshal = {
 		name = "Li Hongzhang"
@@ -236,7 +235,17 @@ create_corps_commander = {
 		defense_skill = 2
 		planning_skill = 3
 		logistics_skill = 1
-		id = 68550
+		
+	}
+	create_navy_leader = {
+	name = "Ma Yukun"
+	portrait_path = "gfx/leaders/CHI/generals/Ma_Yukun.tga"
+	traits = { }
+	skill = 1
+	attack_skill = 2
+	defense_skill = 1
+	maneuvering_skill = 1
+	coordination_skill = 1
 	}
 
 	if = {
@@ -255,6 +264,7 @@ create_corps_commander = {
 		basic_cruiser_armor_scheme = 1
 		basic_heavy_armor_scheme = 1
 		mtg_transport = 1
+	}
 	}
 
 	set_naval_oob = "CHI_1910_naval_mtg"

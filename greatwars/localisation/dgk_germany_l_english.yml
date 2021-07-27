@@ -274,6 +274,9 @@ germany.17.d:0 "China has sent us a request to but Carbines for their modernizat
 germany.17.a:0 "We have guns to spare"
 germany.17.b:0 "We need the weapons"
 
+germany.900.t:0 "Revive the three emperor league?"
+germany.900.d:0 "A unexpected diplomatic attache arrived in Berlin earlier today with news that Russia, the land of slavs, has proposed a closer relationship with us and Austria-Hungary. In the form of revivng the three emperor league. How shall we react?"
+germany.900.a:0 "Of course!" 
 #COLONIAL EVENTS
 
 germany_colonial.1.t:0 "A Border Raid in Kamerun"

@@ -6,7 +6,7 @@ state={
 	history={
 		owner = DER
 		add_core_of = DER
-		add_core_of = ENG
+		add_claim_by = ENG
 
 	}
 

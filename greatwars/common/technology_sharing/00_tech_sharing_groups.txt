@@ -507,3 +507,18 @@ technology_sharing_group = {
     }
 
 }
+
+technology_sharing_group = {
+
+	id = GER_three_emperor_league
+	name = GER_three_emperor_league_name
+	desc = GER_three_emperor_league_desc
+	picture = GFX_technology_sharing_default
+    
+	research_sharing_per_country_bonus = 0.1
+
+    available = {
+        is_in_faction_with = GER
+    }
+
+}

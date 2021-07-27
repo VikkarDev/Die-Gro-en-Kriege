@@ -7,7 +7,7 @@ bookmarks = {
 		default_country = "GER"
 	
 		FRA = {
-			history = FRA_BLITZKRIEG_DESC
+			history = FRA_TURN_OF_THE_CENTURY_DESC
 			ideology = centrism
 			ideas = {
 
@@ -17,7 +17,7 @@ bookmarks = {
 			}
 		}
 		USA = {
-			history = USA_BLITZKRIEG_DESC
+			history = USA_TURN_OF_THE_CENTURY_DESC
 			ideology = traditional_conservatism
 			ideas = {
 				
@@ -48,7 +48,7 @@ bookmarks = {
 			}
 		}
 		TUR = {
-			history = ITA_BLITZKRIEG_DESC
+			history = ITA_TURN_OF_THE_CENTURY_DESC
 			ideology = chauvinist_populism
 			ideas={
 				
@@ -58,7 +58,7 @@ bookmarks = {
 			}			
 		}
 		HUN = {
-			history = HUN_TURN_OF_THE_CENTURY
+			history = HUN_TURN_OF_THE_CENTURY_DESC
 			ideology = chauvinist_populism
 			ideas = {
 				
@@ -68,7 +68,7 @@ bookmarks = {
 			}		
 		}
 		SOV = {
-			history = SOV_BLITZKRIEG_DESC
+			history = SOV_TURN_OF_THE_CENTURY_DESC
 			ideology = vanguard_communism
 			ideas = {
 				
@@ -79,7 +79,7 @@ bookmarks = {
 		}
 
 		"---"={
-			history = "OTHER_BLITZKRIEG_DESC"
+			history = "OTHER_TURN_OF_THE_CENTURY_DESC"
 		}
 
 		# minors from DLC ####
