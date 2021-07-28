@@ -704,12 +704,9 @@ TBE_third_bulgarian_empire_neutrality = {
 MAN_RUS_autocracy = {
 	color = rgb { 50 173 97 }
 	color_ui = rgb { 50 173 97 }
-<<<<<<< HEAD
 }
 
 RUS_puppet = {
 	color = rgb { 50 173 97 }
 	color_ui = rgb { 50 173 97 }
-=======
->>>>>>> parent of 523eb48b (Revert "this should fix it")
 }

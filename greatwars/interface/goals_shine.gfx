@@ -19049,11 +19049,7 @@ spriteTypes = {
 		}
 
 		animation = {
-<<<<<<< HEAD
 			animationmaskfile = "gfx/interface/goals/sov/guarntee_fra.dds"
-=======
-			animationmaskfile = "gfx/interface/goals/generic/sov/guarntee_fra.dds"
->>>>>>> parent of 523eb48b (Revert "this should fix it")
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -19084,11 +19080,7 @@ spriteTypes = {
 		}
 
 		animation = {
-<<<<<<< HEAD
 			animationmaskfile = "gfx/interface/goals/sov/asian_influance.dds"
-=======
-			animationmaskfile = "gfx/interface/goals/generic/sov/asian_influance.dds"
->>>>>>> parent of 523eb48b (Revert "this should fix it")
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -19226,7 +19218,6 @@ spriteTypes = {
 		}
 		legacy_lazy_load = no
 	}
-<<<<<<< HEAD
 	SpriteType = {
 		name = "GFX_focus_RUS_nicholas_the_great_shine"
 		texturefile = "gfx/interface/goals/sov/nicholas_the_great.dds"
@@ -19382,7 +19373,4 @@ spriteTypes = {
 		}
 		legacy_lazy_load = no
 	}
-=======
-
->>>>>>> parent of 523eb48b (Revert "this should fix it")
 }
