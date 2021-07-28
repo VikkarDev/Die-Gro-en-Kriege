@@ -1,9 +1,0 @@
-ENG_seymour_expedition = {
-	icon = generic_political_actions
-	priority = 10
-	visible = {
-		CHI = {
-			has_war_with = BOX
-		}
-	}
-}
