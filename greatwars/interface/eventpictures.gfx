@@ -2924,6 +2924,7 @@ spriteTypes = {
 		name = "GFX_event_sum_olymp"
 		texturefile = "gfx/event_pictures/event_sum_olymp.dds"
 	}
+<<<<<<< HEAD
 	spriteType = { 
 		name = "GFX_event_rus_army_good"
 		texturefile = "gfx/event_pictures/event_rus_army.dds"
@@ -2948,4 +2949,7 @@ spriteTypes = {
 		name = "GFX_event_rus_soc_party"
 		texturefile = "gfx/event_pictures/event_rus_socialist_party.dds"
 	}
+=======
+
+>>>>>>> parent of 523eb48b (Revert "this should fix it")
 }

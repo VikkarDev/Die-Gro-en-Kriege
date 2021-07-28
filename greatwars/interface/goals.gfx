@@ -3016,6 +3016,7 @@ spriteTypes = {
 		name = "GFX_focus_RUS_foreign_policy"
 		texturefile = "gfx/interface/goals/sov/foreign_policy.dds"
 	}
+<<<<<<< HEAD
 	SpriteType = {
 		name = "GFX_focus_RUS_nicholas_the_great"
 		texturefile = "gfx/interface/goals/sov/nicholas_the_great.dds"
@@ -3036,4 +3037,7 @@ spriteTypes = {
 		name = "GFX_focus_RUS_boost_moral_army"
 		texturefile = "gfx/interface/goals/sov/army_moral.dds"
 	}
+=======
+
+>>>>>>> parent of 523eb48b (Revert "this should fix it")
 }

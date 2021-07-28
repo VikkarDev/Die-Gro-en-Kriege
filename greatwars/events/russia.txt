@@ -59,7 +59,11 @@ country_event = {
 	id = russia.8
 	title = russia.8.t
 	desc = russia.8.d
+<<<<<<< HEAD
 	picture = GFX_event_rus_occ_man
+=======
+	picture = GFX_event_rus_prop
+>>>>>>> parent of 523eb48b (Revert "this should fix it")
 
 	fire_only_once = yes
 	is_triggered_only = yes
@@ -105,10 +109,14 @@ country_event = {
 	option = {
 		name = russia.10.a
 		ai_chance = { factor = 80 }
+<<<<<<< HEAD
         hidden_effect = { 
 			 release = MAN  puppet = MAN 
 			 MAN = { set_cosmetic_tag = RUS_puppet }
 		}
+=======
+        hidden_effect = {  release = MAN  puppet = MAN }
+>>>>>>> parent of 523eb48b (Revert "this should fix it")
 	}
 	option = {
 		name = russia.10.b
@@ -122,7 +130,11 @@ country_event = {
 	id = russia.9
 	title = russia.9.t
 	desc = russia.9.d
+<<<<<<< HEAD
 	picture = GFX_event_rus_war_protest
+=======
+	picture = GFX_event_rus_prop
+>>>>>>> parent of 523eb48b (Revert "this should fix it")
 
 	fire_only_once = yes
 	is_triggered_only = yes
@@ -218,7 +230,11 @@ country_event = {
 	id = russia.6
 	title = russia.6.t
 	desc = russia.6.d
+<<<<<<< HEAD
 	picture = GFX_event_rus_army_good
+=======
+	picture = GFX_event_rus_prop
+>>>>>>> parent of 523eb48b (Revert "this should fix it")
 	hidden = yes
 
 	fire_only_once = yes
@@ -242,7 +258,11 @@ country_event = {
 	id = russia.7
 	title = russia.7.t
 	desc = russia.7.d
+<<<<<<< HEAD
 	picture = GFX_event_rus_jap_war
+=======
+	picture = GFX_event_rus_prop
+>>>>>>> parent of 523eb48b (Revert "this should fix it")
 	hidden = yes
 
 	fire_only_once = yes
@@ -271,7 +291,11 @@ country_event = {
 	id = russia.11
 	title = russia.11.t
 	desc = russia.11.d
+<<<<<<< HEAD
 	picture = GFX_event_rus_crowd_citi
+=======
+	picture = GFX_event_rus_prop
+>>>>>>> parent of 523eb48b (Revert "this should fix it")
 
 	fire_only_once = yes
 	is_triggered_only = yes
@@ -295,7 +319,11 @@ country_event = {
 	id = russia.998
 	title = russia.998.t
 	desc = russia.998.d
+<<<<<<< HEAD
 	picture = GFX_event_rus_soc_party
+=======
+	picture = GFX_event_rus_prop
+>>>>>>> parent of 523eb48b (Revert "this should fix it")
 
 	fire_only_once = yes
 	is_triggered_only = yes
