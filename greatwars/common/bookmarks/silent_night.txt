@@ -209,7 +209,6 @@ bookmarks = {
 				SWE_swed_nor_union
 			}
 			focuses = {
-				SWE_break_neutrality
 				SWE_expand_civilian_work
 				SWE_steel_foc
 			}
