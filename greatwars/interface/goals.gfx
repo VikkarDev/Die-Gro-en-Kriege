@@ -18,20 +18,12 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/CHI/CHI_focus_beiyang_expand.dds"
 	}
 	SpriteType = {
-		name = "GFX_CHI_focus_beiyang_academy"
-		texturefile = "gfx/interface/goals/CHI/CHI_focus_beiyang_academy.dds"
-	}
-	SpriteType = {
 		name = "GFX_CHI_focus_beiyang_engineer"
 		texturefile = "gfx/interface/goals/CHI/CHI_focus_beiyang_engineer.dds"
 	}
 	SpriteType = {
 		name = "GFX_CHI_focus_beiyang_modern_china"
 		texturefile = "gfx/interface/goals/CHI/CHI_focus_beiyang_modern_china.dds"
-	}
-	SpriteType = {
-		name = "GFX_CHI_focus_cave_yuan"
-		texturefile = "gfx/interface/goals/CHI/CHI_focus_cave_yuan.dds"
 	}
 	SpriteType = {
 		name = "GFX_JAP_focus_the_manchurian_crisis"
@@ -94,12 +86,12 @@ spriteTypes = {
 		name = "GFX_SOV_focus_state_duma"
 		texturefile = "gfx/interface/goals/sov/SOV_focus_state_duma_elections.dds"
 	}
-	
+
 	SpriteType = {
 		name = "GFX_SOV_focus_ott_agree"
 		texturefile = "gfx/interface/goals/sov/SOV_focus_ott_agree.dds"
 	}
-
+	
 	SpriteType = {
 		name = "GFX_SOV_focus_first_russian_election"
 		texturefile = "gfx/interface/goals/sov/SOV_focus_russian_elections.dds"
@@ -2923,10 +2915,6 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/CHI/CHI_focus_tractor.dds"
 	}
 	SpriteType = {
-		name = "GFX_CHI_focus_inagurate_sun"
-		texturefile = "gfx/interface/goals/CHI/CHI_focus_inagurate_sun.dds"
-	}
-	SpriteType = {
 		name = "GFX_CHI_focus_press_democratic"
 		texturefile = "gfx/interface/goals/CHI/CHI_focus_press_democratic.dds"
 	}
@@ -2968,9 +2956,15 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/AUS/AUS_focus_agreement.dds"
 	}
 
+	#GENERIC DGK
+
 	SpriteType = {
 		name = "GFX_generic_focus_ger_agreement"
 		texturefile = "gfx/interface/goals/generic/generic_focus_ger_agreement.dds"
+	}
+	SpriteType = {
+		name = "GFX_generic_focus_democratic_election"
+		texturefile = "gfx/interface/goals/generic/generic_focus_democratic_election.dds"
 	}
 	SpriteType = {
 		name = "GFX_generic_focus_ger_agreement"
@@ -2981,6 +2975,26 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/generic/generic_focus_rail_construction.dds"
 	}
 	SpriteType = {
+		name = "GFX_focus_RUS_internal_policy"
+		texturefile = "gfx/interface/goals/sov/internal_policy.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_RUS_living_standards"
+		texturefile = "gfx/interface/goals/sov/living_standards.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_RUS_calm_down"
+		texturefile = "gfx/interface/goals/sov/calm_down.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_RUS_propaganda"
+		texturefile = "gfx/interface/goals/sov/propaganda.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_generic_railway"
+		texturefile = "gfx/interface/goals/generic/generic_focus_rail_construction.dds"
+	}
+	SpriteType = {
 		name = "GFX_focus_RUS_guar_fra"
 		texturefile = "gfx/interface/goals/sov/guarntee_fra.dds"
 	}
@@ -2988,10 +3002,12 @@ spriteTypes = {
 		name = "GFX_focus_RUS_asia_influance"
 		texturefile = "gfx/interface/goals/sov/asian_influance.dds"
 	}
+
 	SpriteType = {
 		name = "GFX_focus_RUS_three_emperor_league"
 		texturefile = "gfx/interface/goals/sov/Three_emperor_league.dds"
 	}
+	
 	SpriteType = {
 		name = "GFX_focus_RUS_meeting_paris"
 		texturefile = "gfx/interface/goals/sov/meeting_paris.dds"
@@ -2999,5 +3015,25 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_focus_RUS_foreign_policy"
 		texturefile = "gfx/interface/goals/sov/foreign_policy.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_RUS_nicholas_the_great"
+		texturefile = "gfx/interface/goals/sov/nicholas_the_great.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_RUS_generic_navy"
+		texturefile = "gfx/interface/goals/sov/generic_navy.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_RUS_chinese_sit"
+		texturefile = "gfx/interface/goals/sov/chinese_sit.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_RUS_purchase_tools"
+		texturefile = "gfx/interface/goals/sov/purchase_tools.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_RUS_boost_moral_army"
+		texturefile = "gfx/interface/goals/sov/army_moral.dds"
 	}
 }

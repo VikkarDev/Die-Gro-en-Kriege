@@ -5877,15 +5877,5 @@ spriteTypes = {
 		name = "GFX_idea_generic_navy_bonus"
 		texturefile = "gfx/interface/ideas/generic_navy_bonus.dds"
 	}
-<<<<<<< HEAD
-=======
-	
-	
-
-			spriteType = {
-		name = "GFX_idea_adv_rasputin"
-		texturefile = "gfx/interface/ministers/sov/advisor_rasputin.tga"
-	}
->>>>>>> experimental
 
 }

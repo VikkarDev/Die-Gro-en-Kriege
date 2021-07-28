@@ -166,7 +166,7 @@ create_corps_commander = {
 		skill = 3
 		attack_skill = 5
 		defense_skill = 2
-		planning_skill = 3
+		planning_skill = 4
 		logistics_skill = 2
 		traits = {  politically_connected old_guard hill_fighter commando cavalry_leader trickster }
 		
@@ -175,10 +175,10 @@ create_corps_commander = {
 		name = "Dong Fuxiang"
 		portrait_path = "gfx/leaders/CHI/base_qing.tga"
 		skill = 3
-		attack_skill = 4
+		attack_skill = 5
 		defense_skill = 1
 		planning_skill = 1
-		logistics_skill = 2
+		logistics_skill = 3
 		traits = {  politically_connected old_guard cavalry_leader trait_engineer trickster commando bearer_of_artillery	}
 		
 	}
@@ -186,9 +186,9 @@ create_corps_commander = {
 		name = "Ma Fuxiang"
 		portrait_path = "gfx/leaders/CHI/generals/Ma_Fuxiang.tga"
 		skill = 3
-		attack_skill = 3
-		defense_skill = 2
-		planning_skill = 2
+		attack_skill = 4
+		defense_skill = 4
+		planning_skill = 3
 		logistics_skill = 3
 		traits = {  politically_connected old_guard	commando }
 		
@@ -204,23 +204,12 @@ create_corps_commander = {
 		traits = {  politically_connected old_guard }
 		
 	}
-	create_corps_commander = {
-		name = "Ma Yukun"
-		portrait_path = "gfx/leaders/CHI/generals/Ma_Yukun.tga"
-		skill = 2
-		attack_skill = 1
-		defense_skill = 3
-		planning_skill = 3
-		logistics_skill = 2
-		traits = {  politically_connected old_guard }
-		
-	}
 	create_field_marshal = {
 		name = "Song Qing"
 		portrait_path = "gfx/leaders/CHI/generals/Song_Qing.tga"
 		traits = { logistics_wizard }
 		skill = 3
-		attack_skill = 2
+		attack_skill = 3
 		defense_skill = 2
 		planning_skill = 2
 		logistics_skill = 2
@@ -236,16 +225,6 @@ create_corps_commander = {
 		planning_skill = 3
 		logistics_skill = 1
 		
-	}
-	create_navy_leader = {
-	name = "Ma Yukun"
-	portrait_path = "gfx/leaders/CHI/generals/Ma_Yukun.tga"
-	traits = { }
-	skill = 1
-	attack_skill = 2
-	defense_skill = 1
-	maneuvering_skill = 1
-	coordination_skill = 1
 	}
 
 	if = {

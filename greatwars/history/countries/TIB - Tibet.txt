@@ -30,9 +30,9 @@ capital = 757
 	}
 
 	create_country_leader = {
-		name = "Zhao Erfeng"
+		name = "Unknown"
 		desc = ""
-		picture = "Zhao_Erfeng.tga"
+		picture = "Unknown.dds"
 		ideology = despotism
 		traits = {
 			

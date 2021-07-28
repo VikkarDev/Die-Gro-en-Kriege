@@ -1,8 +1,10 @@
 #cities of the revolution
+add_namespace = soviet
+
 country_event = {
-	id = russia.999
-	title = russia.999.t
-	desc = russia.999.d
+	id = soviet.1
+	title = soviet.1.t
+	desc = soviet.1.d
 	picture = GFX_event_rus_prop
 
 	fire_only_once = yes
@@ -14,20 +16,19 @@ country_event = {
 	}
 
 	option = { #a great idea!
-		name = russia.999.a
+		name = soviet.1.a
 		ai_chance = {
 			base = 100
 		            }
 		set_province_name = { id = 3151 name = "Leningrad"}
 		hidden_effect = { 195 = {set_state_name = "Leningrad"} }
-		set_global_flag = SOV_city_renamed1
 	}
 }
 
 country_event = {
-	id = russia.1000
-	title = russia.1000.t
-	desc = russia.1000.d
+	id = soviet.2
+	title = soviet.2.t
+	desc = soviet.2.d
 	picture = GFX_event_rus_prop
 
 	fire_only_once = no
@@ -39,12 +40,11 @@ country_event = {
 	}
 
 	option = { #a great idea!
-		name = russia.1000.a
+		name = soviet.2.a
 		ai_chance = {
 			base = 9990
 		            }
 		set_province_name = { id = 3529 name = "Stalingrad"}
 		hidden_effect = { 217 = {set_state_name = "Stalingrad"} }
-		set_global_flag = SOV_city_renamed2
 	}
 }
