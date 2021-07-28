@@ -1,0 +1,80 @@
+capital = 141
+
+1900.1.1 = {
+	OOB = "SWE_1900"
+
+	set_convoys = 125
+
+	set_research_slots = 3
+	set_stability = 0.54
+	set_war_support = 0.24
+
+	set_cosmetic_tag = NOR_SWE_union
+
+	add_ideas = {
+		# government
+		SWE_Swedish_neutrality
+		SWE_swed_nor_union
+		SWE_Undeveloped_North_Region
+		volunteer_only
+		free_trade
+		civilian_economy
+	}
+	set_technology = {
+		infantry_weapons = 1
+	}
+
+	set_politics = {
+		ruling_party = centrism
+		#last_election = "2078.9.26"
+		#election_frequency = 48
+		#elections_allowed = yes
+	}
+
+	set_popularities = {
+		vanguard_communism = 0
+		social_egalitarianism = 35.5
+		centrism = 39.5
+		radical_democracy = 0
+		chauvinist_populism = 0
+		autocracy = 13
+		democratic_socialism = 0
+		social_liberalism = 12
+	}
+	create_country_leader = {
+		name = "Karl Staaf"
+		desc = Karl_Staaf_LEADER_DESCRIPTION 
+		picture = "Karl_Staaf.tga"
+		ideology = con_liberal
+		#traits = {
+		#	
+		#}
+	}
+	create_country_leader = {
+		name = "Johan Ramstedt"
+		desc = Johan_Ramstedt_LEADER_DESCRIPTION
+		picture = "Johan_Ramstedt.tga"
+		ideology = con_liberal
+		#traits = {
+		#	
+		#}
+	}
+	create_country_leader = {
+		name = "Frederik von Otter"
+		desc = Frederik_von_Otter_LEADER_DESCRIPTION 
+		picture = "Frederik_von_Otter.tga"
+		ideology = con_liberal
+		#traits = {
+		#	
+		#}
+	}
+	create_country_leader = {
+		name = "Erik Gustaf Boström"
+		desc = BOSTROM_LEADER_DESCRIPTION
+		picture = "Erik_Gustaf_Bostrom.tga"
+		ideology = con_liberal
+		#traits = {
+		#	
+		#}
+	}
+}

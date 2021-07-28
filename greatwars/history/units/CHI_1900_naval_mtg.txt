@@ -1,0 +1,45 @@
+units = {
+	 #####
+	fleet = {
+		name = "Qing Imperial Navy"			
+		naval_base = 10068
+		task_force = {				
+			name = "Fujian Fleet"			
+			location = 7071
+			ship = {
+				name = "Yixian" 
+				definition = destroyer
+				equipment = { ship_hull_light_1 = { amount = 1 owner = CHI version_name = "Yixin Class" } }
+			}
+        }
+        task_force = {				
+			name = "Beiyang Fleet"			
+			location = 10068
+			ship = {
+				name = "Hai Qi" 
+				definition = heavy_cruiser
+				equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CHI version_name = "Hai Qi Class" } }
+			}
+			ship = {
+				name = "Hai Tien" 
+				definition = heavy_cruiser
+				equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CHI version_name = "Hai Qi Class" } }
+			}
+			ship = {
+				name = "Ting Yuen" 
+				definition = heavy_cruiser
+				equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CHI version_name = "Ting Yuen Class" } }
+			}
+			ship = {
+				name = "Nan Chen" 
+				definition = heavy_cruiser
+				equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CHI version_name = "Nan Chen Class" } }
+			}
+			ship = {
+				name = "Nan Shui" 
+				definition = heavy_cruiser
+				equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CHI version_name = "Nan Chen Class" } }
+			}
+        }
+    }
+}

@@ -1,0 +1,22 @@
+state={
+	id=989
+	name="STATE_989"
+	provinces={
+		11735 
+	}
+	
+	history={
+		owner = AUS
+		add_core_of = ITA
+		add_core_of = SLV
+		add_core_of = CRO
+		add_core_of = AUS
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	
+	manpower=421946
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

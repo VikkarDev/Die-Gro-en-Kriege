@@ -1,0 +1,23 @@
+
+state={
+	id=434
+	name="STATE_434"
+
+	history={
+		owner = TIB
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_claim_by = CHI
+		add_core_of = TIB
+
+	}
+
+	provinces={
+		1116 1996 4318 4996 10810 12322 12730 
+	}
+	manpower=200000
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

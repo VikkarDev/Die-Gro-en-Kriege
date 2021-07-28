@@ -1,0 +1,37 @@
+capital = 324
+
+1900.1.1 = {
+	OOB = "BHU_1900"
+
+	set_convoys = 0
+
+	set_research_slots = 2
+
+	set_politics = {
+		ruling_party = radical_democracy
+		#last_election = "2078.9.26"
+		#election_frequency = 48
+		elections_allowed = no
+	}
+
+	set_popularities = {
+		vanguard_communism = 0
+		social_egalitarianism = 0
+		centrism = 0
+		traditional_conservatism = 0
+		radical_democracy = 100
+		chauvinist_populism = 0
+		autocracy = 0
+		democratic_socialism = 0
+	}
+
+	create_country_leader = {
+		name = "Sangye_Dorji"
+		desc = ""
+		picture = "Sangye_Dorji.dds"
+		ideology = plutocracy
+		traits = {
+			
+		}
+	}
+}

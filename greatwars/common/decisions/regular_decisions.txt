@@ -1,0 +1,260 @@
+dgk_game_options_category = {
+	dgk_open_settings = {
+		icon = generic_political_actions
+
+		available = {
+			
+		}
+
+		fire_only_once = no
+		days_re_enable = 1
+
+		visible = {
+			ROOT = {
+				is_ai = no
+			}
+		}
+
+		cost = 0
+
+		complete_effect = {
+			country_event = { id = dgk_generic.2 }
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+}
+
+dgk_colonial_decisions_category = {
+	dgk_colonial_influence = {
+		icon = generic_political_actions
+
+		days_remove = 120
+
+		available = {
+			FROM = {
+				is_puppet_of = ROOT
+			}
+			FROM = {
+				OR = {
+					has_government = traditional_conservatism
+					has_government = centrism
+					has_government = radical_democracy
+					has_government = social_egalitarianism
+					has_government = democratic_socialism
+				}
+				OR = {
+					political_power_daily > 0.5
+					has_political_power > 60
+				}
+			}
+		}
+
+		visible = {
+			OR = {
+				has_government = traditional_conservatism
+				has_government = centrism
+				has_government = radical_democracy
+				has_government = social_egalitarianism
+				has_government = democratic_socialism
+			}
+		}
+
+		target_array = subjects
+
+		target_trigger = {
+			FROM = {
+				is_puppet_of = ROOT
+			}
+		}
+
+		complete_effect = {
+			FROM = { add_timed_idea = { idea = colonial_influence days = 120 } }
+		}
+
+		modifier = {
+			political_power_cost = 0.5
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+}
+
+dgk_britain_naval_race_category = {
+	appoint_new_first_sea_lord = {
+		# Should give the player an event to appoint a First Sea Lord, removing Walter Kerr: John Fisher, prioritizing developing new ship models, Arthur Wilson, prioritizing flexibility of the fleet, and Francis Bridgeman, who prioritizes naval tradition and elegance.
+		icon = "gfx/interface/decisions/decision_generic_naval.dds"
+
+		allowed = { tag = ENG }
+		cost = 10
+		days_re_enable = 160
+		ai_will_do = {
+			factor = 30
+		}
+
+		complete_effect = {
+			country_event = { id = britain_naval.1 }
+			hidden_effect = {
+				set_variable = {
+					var = ENG_first_sea_lord
+					value = 1 # 1 is default. 2 is John Fisher, 3 is Arthur Wilson, and 4 is Francis Bridgeman.
+					}
+				}
+			}
+	}
+	scrap_obsolete_models = {
+		icon = "gfx/interface/decision_generic_naval.dds"
+
+		available = { 
+			tag = ENG
+			check_variable = {
+				var = ENG_first_sea_lord
+				value = 2
+				compare = equals
+			}
+		}
+		cost = 10
+		ai_will_do = {
+			factor = 30
+		}
+
+		complete_effect = {
+			#consumer_goods_factor = -0.1
+			#industrial_capacity_dockyard = 0.1
+		}
+	}
+
+	new_submarine_models = {
+		icon = "gfx/interface/decision_generic_naval.dds"
+
+		available = { 
+			tag = ENG
+			check_variable = {
+				var = ENG_first_sea_lord
+				value = 2
+				compare = equals
+			}
+		}
+		cost = 10
+		ai_will_do = {
+			factor = 30
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = not_finished
+		}
+	}
+
+	new_destroyer_models = {
+		icon = "gfx/interface/decision_generic_naval.dds"
+
+		available = { 
+			tag = ENG
+			check_variable = {
+				var = ENG_first_sea_lord
+				value = 2
+				compare = equals
+			}
+		}
+		cost = 10
+		ai_will_do = {
+			factor = 30
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = not_finished
+		}
+	}
+
+	new_light_cruiser_models = {
+		icon = "gfx/interface/decision_generic_naval.dds"
+
+		available = { 
+			tag = ENG
+			check_variable = {
+				var = ENG_first_sea_lord
+				value = 2
+				compare = equals
+			}
+		}
+		cost = 10
+		ai_will_do = {
+			factor = 30
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = not_finished
+		}
+	}
+
+	new_battlecruiser_models = {
+		icon = "gfx/interface/decision_generic_naval.dds"
+
+		available = { 
+			tag = ENG
+			check_variable = {
+				var = ENG_first_sea_lord
+				value = 2
+				compare = equals
+			}
+		}
+		cost = 10
+		ai_will_do = {
+			factor = 30
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = not_finished
+		}
+	}
+
+	five_strategic_keys = {
+		icon = "gfx/interface/decision_generic_naval.dds"
+
+		available = { 
+			tag = ENG
+			check_variable = {
+				var = ENG_first_sea_lord
+				value = 2
+				compare = equals
+			}
+		}
+		cost = 10
+		ai_will_do = {
+			factor = 30
+		}
+
+		complete_effect = {
+			add_tech_bonus = {
+				name = ENG_five_strategic_keys
+				category = naval_doctrine
+				bonus = 1.0
+			}
+		}
+	}
+
+	dreadnought_development = {
+		icon = "gfx/interface/decision_generic_naval.dds"
+
+		available = { 
+			tag = ENG
+			check_variable = {
+				var = ENG_first_sea_lord
+				value = 2
+				compare = equals
+			}
+		}
+		cost = 10
+		ai_will_do = {
+			factor = 30
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = not_finished
+		}
+	}
+}

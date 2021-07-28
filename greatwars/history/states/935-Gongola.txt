@@ -1,0 +1,22 @@
+state={
+	id=935
+	name="STATE_935"
+	state_category = rural
+
+	history = {
+		owner = SOK
+		add_core_of = SOK
+		add_core_of = NGA
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+	}
+
+	provinces={
+		4889 8109 10820 
+	}
+	manpower=40048
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,23 @@
+
+state={
+	id=885
+	name="STATE_885"
+
+	history={
+		owner = JSH
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = IRQ
+		add_core_of = JSH
+
+	}
+
+	provinces={
+		12879 
+	}
+	manpower=25000
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

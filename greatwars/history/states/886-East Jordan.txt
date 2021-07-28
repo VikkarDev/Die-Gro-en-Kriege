@@ -1,0 +1,23 @@
+state={
+	id=886
+	name="STATE_886"
+	state_category = wasteland
+
+	history={
+		owner = RUW
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+
+		}
+		add_core_of = JOR
+		add_core_of = RUW
+
+	}
+
+	provinces={
+		4440 
+	}
+	manpower=30000
+	buildings_max_level_factor=1.000
+}
