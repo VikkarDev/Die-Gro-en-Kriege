@@ -6,7 +6,7 @@ state={
 	history = {
 		owner = SOK
 		add_core_of = SOK
-		add_claim_by = GER
+		add_core_of = CAM
 
 		buildings = {
 			infrastructure = 1
@@ -14,7 +14,7 @@ state={
 	}
 
 	provinces={
-		11194
+		11194 
 	}
 	manpower=29010
 	buildings_max_level_factor=1.000

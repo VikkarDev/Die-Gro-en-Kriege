@@ -10,7 +10,7 @@ state={
 		controller = GER
 		
 		victory_points = {
-			6332 25 
+			6332 10 
 		}
 
 		buildings = {
