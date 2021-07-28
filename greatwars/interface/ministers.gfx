@@ -131,5 +131,21 @@ spriteTypes = {
 			spriteType = {
 		name = "GFX_idea_mil_nikolai_obruchev"
 		texturefile = "gfx/interface/ministers/sov/nikolai_obruchev.tga"
+	}
+			spriteType = {
+		name = "GFX_idea_mil_alexey"
+		texturefile = "gfx/interface/ministers/sov/alexey.tga"
+	}
+			spriteType = {
+		name = "GFX_idea_mil_nikolai"
+		texturefile = "gfx/interface/ministers/sov/nikolay.tga"
 	}	
+			spriteType = {
+		name = "GFX_idea_mil_krymov"
+		texturefile = "gfx/interface/ministers/sov/krymov.tga"
+	}
+			spriteType = {
+		name = "GFX_idea_mil_tchikhatchev"
+		texturefile = "gfx/interface/ministers/sov/tchikhatchev.tga"
+	}
 }

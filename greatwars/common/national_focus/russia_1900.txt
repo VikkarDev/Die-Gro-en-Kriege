@@ -1359,11 +1359,11 @@
 			prerequisite = {focus = RUS_new_faith}
 
 	completion_reward ={
-		 give_guarantee = FRA 
-	    hidden_effect = {FRA = { country_event = { id = france.1 } } }
-		custom_effect_tooltip = fra_gar
-		}
+		add_opinion_modifier = { target = FRA modifier = medium_increase }
 	}
+
+	}
+
     focus = {
     id = RUS_new_def_cau
 	icon = GFX_goal_generic_fortify_city
