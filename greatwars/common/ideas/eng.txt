@@ -1,7 +1,7 @@
 ideas = {
 	country = {
 		ENG_victorian_era = {
-		picture = eng_victoria_era
+		picture = eng_victorian_era
 	  
 		allowed = {
 			tag = ENG
@@ -14,7 +14,7 @@ ideas = {
 	  }
 
 	  ENG_overextended_empire = {
-		picture = eng_overextended_empire
+		picture = eng_overextension
 
 		allowed = {
 			tag = ENG

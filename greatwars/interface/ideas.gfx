@@ -8,10 +8,6 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/CHI/CHI_idea_agrarian.dds"
 	}
 	SpriteType = {
-		name = "GFX_idea_ita_savoy"
-		texturefile = "gfx/interface/ideas/ITA/ITA_idea_savoy.dds"
-	}
-	SpriteType = {
 		name = "GFX_idea_chi_beiyang_modern"
 		texturefile = "gfx/interface/ideas/CHI/CHI_idea_beiyang_modern.dds"
 	}
@@ -63,8 +59,13 @@ spriteTypes = {
 	}
 
 	SpriteType = {
-		name = "GFX_idea_eng_victoria"
-		texturefile = "gfx/interface/ideas/eng/ENG_idea_victoria.dds"
+		name = "GFX_idea_eng_victorian_era"
+		texturefile = "gfx/interface/ideas/eng/ENG_idea_victorian_era.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_eng_overextension"
+		texturefile = "gfx/interface/ideas/eng/ENG_idea_overextension.dds"
 	}
 
 	SpriteType = {
@@ -5789,11 +5790,6 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_idea_col_colombian_civil_war"
-		texturefile = "gfx/interface/ideas/COL/idea_col_colombian_civil_war.dds"
-	}
-
-	spriteType = {
 		name = "GFX_idea_bul_bulgarian_shipping_chamber"
 		texturefile = "gfx/interface/ideas/idea_bul_bulgarian_shipping_chamber.dds"
 	}
@@ -5879,10 +5875,5 @@ spriteTypes = {
 	}
 	
 	
-
-			spriteType = {
-		name = "GFX_idea_adv_rasputin"
-		texturefile = "gfx/interface/ministers/sov/advisor_rasputin.tga"
-	}
 
 }
