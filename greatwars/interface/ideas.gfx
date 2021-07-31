@@ -5873,7 +5873,5 @@ spriteTypes = {
 		name = "GFX_idea_generic_navy_bonus"
 		texturefile = "gfx/interface/ideas/generic_navy_bonus.dds"
 	}
-	
-	
 
 }

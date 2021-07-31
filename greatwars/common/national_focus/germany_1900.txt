@@ -691,7 +691,7 @@ focus_tree = {
 	#colonial tree
 	focus = {
 		id = GER_deutsches_kolonialreich
-		icon = GFX_GER_focus_german_colonial
+		icon = GFX_goal_generic_territory_or_war
 		search_filters = { FOCUS_FILTER_MANPOWER }
 		x = 91
 		y = 0
@@ -767,10 +767,10 @@ focus_tree = {
 						type = infrastructure
 						level = 2
 					}
-					add_extra_state_shared_building_slots = 1
+					add_extra_state_shared_building_slots = 2
 					add_building_construction = {
                         type = industrial_complex
-                        level = 1
+                        level = 2
                         instant_build = yes
                     }
 			}
@@ -943,7 +943,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_mobilize_askari_and_colonists
-		icon = GFX_GER_focus_colonial_fire
+		icon = GFX_goal_generic_territory_or_war
 		search_filters = { FOCUS_FILTER_MANPOWER }
 		x = 96
 		y = 4
@@ -999,7 +999,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_use_mgs_maji
-		icon = GFX_GER_focus_support_equip
+		icon = GFX_goal_generic_territory_or_war
 		search_filters = { FOCUS_FILTER_MANPOWER }
 		x = 92
 		y = 4
@@ -1055,9 +1055,6 @@ focus_tree = {
 		}
 
 		completion_reward = { 
-			546 = {
-				add_compliance = 0.15
-			}
 			
 			
 		}				

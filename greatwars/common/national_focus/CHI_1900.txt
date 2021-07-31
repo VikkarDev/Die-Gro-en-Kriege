@@ -190,7 +190,7 @@ focus_tree = {
             completion_reward = { 
 				add_equipment_to_stockpile = {
     				type = infantry_equipment
-    				amount = 500
+    				amount = 100
     				producer = BOX
 					}
             
@@ -1494,7 +1494,7 @@ focus_tree = {
 
 			}
 
-			completion_reward  = {
+			completion_reward  ={
 
 			}
 		}
@@ -1542,11 +1542,7 @@ focus_tree = {
 
 			}
 
-			completion_reward  = {
-				type = infantry_equipment
-    				amount = 500
-    				producer = GER
-					}
+			completion_reward  ={
 
 			}
 		}
@@ -1598,7 +1594,7 @@ focus_tree = {
 		}
 		focus = {
 			id = CHI_1900_found_baoding_military_academy
-			icon = GFX_CHI_focus_beiyang_academy
+			icon = GFX_generic_focus_academy_military
 			x = 54
 			y = 7
 
@@ -2275,7 +2271,7 @@ focus_tree = {
 		}
 		focus = {
 			id = CHI_1900_foreign_owned_railways
-			icon = GFX_CHI_focus_foreign_railway_expand
+			icon = GFX_SOV_focus_state_duma
 			x = 75
 			y = 2
 
@@ -3518,7 +3514,7 @@ focus_tree = {
 
 		focus = {
 			id = CHI_1900_sun_yat_sen_inagurated
-			icon = GFX_CHI_focus_inagurate_sun
+			icon = GFX_CHI_focus_5_races_one_flag
 			x = 25
 			y = 9
 
@@ -3571,7 +3567,7 @@ focus_tree = {
 		}
 		focus = {
 			id = CHI_1900_cave_to_yuan
-			icon = GFX_CHI_focus_cave_yuan
+			icon = GFX_CHI_focus_5_races_one_flag
 			x = 29
 			y = 10
 
